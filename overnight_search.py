@@ -40,8 +40,11 @@ def safe_json_write(filepath: Path, data: dict):
         with os.fdopen(tmp_fd, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         os.replace(tmp_path, filepath)
-    except:
-        os.unlink(tmp_path)
+    except Exception:
+        try:
+            os.unlink(tmp_path)
+        except OSError:
+            pass
         raise
 
 

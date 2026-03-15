@@ -4,9 +4,13 @@
 統一時區轉換、關鍵字匹配、情緒分數等核心函數
 """
 
+import json
+import os
 import re
+import tempfile
 from datetime import datetime, timezone, timedelta
 from functools import lru_cache
+from pathlib import Path
 from zoneinfo import ZoneInfo
 
 # 美東時區（自動處理 EST/EDT 夏令時間）
@@ -111,6 +115,22 @@ def emotion_score(content: str) -> float:
 # ============================================================
 # 下一個交易日
 # ============================================================
+
+def safe_json_write(path, data) -> None:
+    """原子寫入 JSON — 先寫暫存檔再 os.replace，中斷不損壞原檔"""
+    path = Path(path)
+    tmp_fd, tmp_path = tempfile.mkstemp(dir=path.parent, suffix='.tmp')
+    try:
+        with os.fdopen(tmp_fd, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        os.replace(tmp_path, path)
+    except Exception:
+        try:
+            os.unlink(tmp_path)
+        except OSError:
+            pass
+        raise
+
 
 def next_trading_day(date_str: str, market_data: dict, max_days: int = 10) -> str:
     """找 date_str 之後的下一個交易日，最多往後找 max_days 天"""

@@ -20,7 +20,7 @@ from collections import defaultdict, Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from utils import est_hour, next_trading_day
+from utils import est_hour, next_trading_day, safe_json_write
 
 BASE = Path(__file__).parent
 DATA = BASE / "data"
@@ -94,9 +94,8 @@ def fetch_market():
                 'low': round(float(row['Low'].iloc[0]), 2),
             })
 
-        # 存檔
-        with open(DATA / 'market_SP500.json', 'w', encoding='utf-8') as f:
-            json.dump(records, f, indent=2)
+        # 存檔（原子寫入，避免中斷損壞）
+        safe_json_write(DATA / 'market_SP500.json', records)
 
         if records:
             log(f"   S&P500: {len(records)} 交易日，最新 {records[-1]['date']}")
@@ -316,8 +315,7 @@ def verify_past_predictions(sp_by_date):
                     pred['status'] = 'VERIFIED'
                     updated += 1
 
-    with open(history_file, 'w', encoding='utf-8') as f:
-        json.dump(history, f, ensure_ascii=False, indent=2)
+    safe_json_write(history_file, history)
 
     log(f"   驗證了 {updated} 筆預測")
     return history
@@ -429,9 +427,8 @@ def generate_report(today_posts, today_features, triggered_rules, history, sp_by
         ],
     }
 
-    # 存報告
-    with open(DATA / 'daily_report.json', 'w', encoding='utf-8') as f:
-        json.dump(report, f, ensure_ascii=False, indent=2)
+    # 存報告（原子寫入，避免中斷損壞）
+    safe_json_write(DATA / 'daily_report.json', report)
 
     # 歷史累積
     reports_file = DATA / 'report_history.json'
@@ -448,8 +445,7 @@ def generate_report(today_posts, today_features, triggered_rules, history, sp_by
         'signals': [s[0] for s in key_signals],
         'consensus': report['direction_summary']['consensus'],
     })
-    with open(reports_file, 'w', encoding='utf-8') as f:
-        json.dump(reports, f, ensure_ascii=False, indent=2)
+    safe_json_write(reports_file, reports)
 
     log(f"   報告完成")
     return report
@@ -646,8 +642,7 @@ def main():
                 })
                 new_predictions += 1
 
-        with open(history_file, 'w', encoding='utf-8') as f:
-            json.dump(history, f, ensure_ascii=False, indent=2)
+        safe_json_write(history_file, history)
 
         log(f"   寫入 {new_predictions} 筆新預測到 prediction_history.json")
 

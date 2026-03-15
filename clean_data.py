@@ -11,7 +11,7 @@ import csv
 import json
 import html
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
@@ -138,12 +138,12 @@ def main():
 
     # 統計資訊
     stats = {
-        'generated_at': datetime.utcnow().isoformat() + 'Z',
+        'generated_at': datetime.now(timezone.utc).isoformat(),
         'source': 'https://ix.cnn.io/data/truth-social/truth_archive.csv',
         'total_posts': len(clean_rows),
         'date_range': {
-            'earliest': clean_rows[-1]['created_at'],
-            'latest': clean_rows[0]['created_at'],
+            'earliest': clean_rows[-1]['created_at'] if clean_rows else '',
+            'latest': clean_rows[0]['created_at'] if clean_rows else '',
         },
         'president_term2': {
             'start': INAUGURATION,
