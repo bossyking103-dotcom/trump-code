@@ -28,7 +28,7 @@
 ## 📊 At a Glance
 
 ```
-Data:     32,069 Truth Social posts (updated every 5 min)
+Data:     37,000+ Truth Social posts (3 independent sources, cross-verified)
           7,411 post-inauguration originals
           289 S&P 500 / NASDAQ / VIX trading days
 
@@ -36,8 +36,9 @@ Engine:   316 binary features per day
           31,554,180 prediction models tested
           50,872 survived two-stage validation (0.16%)
 
-Live:     Daily automated pipeline
-          Fetch → Analyze → Predict → Verify → Report → GitHub Sync
+Live:     Daily automated pipeline on VPS
+          3-Source Fetch → Cross-Verify → Deletion Detection →
+          Feature Extraction → 50K Model Scan → Predict → Report → GitHub Sync
 ```
 
 ---
@@ -110,10 +111,50 @@ He changes his patterns. We track it.
 
 ## ⚙️ Methodology | 方法論 | 方法論
 
-### Phase 1 — Data Collection | 資料收集 | データ収集
-- **Source:** Truth Social public archive (updated every 5 minutes)
-- **Market:** S&P 500, NASDAQ, DOW, VIX via Yahoo Finance
-- **Period:** 2025-01-20 (Inauguration) → Present
+### Phase 1 — Triple-Source Data Collection | 三源資料收集 | 三重データ収集
+
+We don't rely on any single source. Three independent pipelines fetch the same data simultaneously, cross-check each other, and catch deletions.
+
+我們不依賴任何單一資料來源。三條獨立管線同時抓取，互相比對，捕捉刪文。
+
+単一ソースに依存しない。3つの独立パイプラインが同時にデータを取得し、相互検証し、削除を検出する。
+
+| Source | Method | Coverage | Update |
+|--------|--------|----------|--------|
+| 🔵 **CNN Archive** | Public CSV download | Full history (32K+) | Every 5 min |
+| 🟢 **Self-hosted Archive** | Scrape trumpstruth.org by ID | Full history (37K+) | Daily incremental |
+| 🟡 **Truth Social API** | Direct Mastodon-compatible API | Latest posts | Real-time capable |
+
+```
+Source 1 (CNN) ────────┐
+Source 2 (Self-hosted) ──┼──→ Cross-Verify ──→ Merged Dataset (most complete)
+Source 3 (Truth Social) ──┘        │
+                                   └──→ Deletion Detection
+                                         ↓
+                                   "What did he post and then delete?"
+```
+
+- **Market Data:** S&P 500, NASDAQ, DOW, VIX via Yahoo Finance
+- **Period:** 2025-01-20 (Inauguration) → Present (auto-updating)
+
+### 🗑️ Deletion Detection | 刪文偵測 | 削除検出
+
+**The most valuable signal might be what he doesn't want you to see.**
+
+**最有價值的信號，可能是他不想讓你看到的。**
+
+**最も価値あるシグナルは、彼があなたに見せたくないものかもしれない。**
+
+When sources disagree — CNN captured a post but Truth Social returns 404 — that means it was **published then deleted**. We track every deletion.
+
+| Scenario | Meaning |
+|----------|---------|
+| CNN ✅ + Truth Social ❌ | **Post deleted** — CNN caught it before removal |
+| Self-hosted ✅ + CNN ❌ | CNN missed it — our backup saved it |
+| All 3 ✅ | Post confirmed to exist |
+| Source mismatch in content | Possible edit after posting |
+
+Deletion logs: [`data/deletions.json`](data/deletions.json)
 
 ### Phase 2 — Feature Engineering (316 Features) | 特徵工程 | 特徴量エンジニアリング
 
@@ -150,14 +191,25 @@ Survival rate: 0.16%  (50,872 / 31,554,180)
 
 ### Phase 5 — Live Monitoring | 即時監控 | ライブモニタリング
 
-Daily automated pipeline on our VPS:
+Daily automated pipeline on our VPS (Mon-Fri, post US market close):
 
 ```
-Fetch latest posts  →  Extract 316 features  →  Run 50,872 models
-       ↓                                               ↓
-Fetch S&P 500       →  Verify yesterday's predictions  →  Update scoreboard
-       ↓                                               ↓
-Generate trilingual report  →  git push  →  This repo auto-updates
+┌─ Source 1: CNN Archive ──────┐
+│  Source 2: Self-hosted DB ────┼──→ Cross-Verify ──→ Merged Dataset
+│  Source 3: Truth Social API ──┘         │
+│                                         ├──→ Deletion Detection
+│                                         ↓
+│  S&P 500 / NASDAQ / VIX ──→ Market Data
+│                                         ↓
+│                              Feature Extraction (316 dims)
+│                                         ↓
+│                              Run 50,872 Surviving Models
+│                                         ↓
+│                              Verify Yesterday's Predictions
+│                                         ↓
+│                              Generate Trilingual Report (EN/ZH/JA)
+│                                         ↓
+└───────────────────── git push ──→ This Repo Auto-Updates
 ```
 
 ---
@@ -188,6 +240,10 @@ Generate trilingual report  →  git push  →  This repo auto-updates
 | [`data/big_moves.json`](data/big_moves.json) | >1% move analysis | 大波動分析 | 大幅変動分析 |
 | [`data/report_history.json`](data/report_history.json) | Historical daily reports | 歷史報告 | 過去のレポート |
 | [`data/scoreboard.json`](data/scoreboard.json) | Model hit rates | 模型命中率 | モデル的中率 |
+| [`data/deletions.json`](data/deletions.json) | Deleted posts log | 刪文記錄 | 削除投稿ログ |
+| [`data/source_check_report.json`](data/source_check_report.json) | 3-source cross-check | 三源比對報告 | 3ソース照合レポート |
+| [`data/own_archive.json`](data/own_archive.json) | Self-hosted full archive | 自建完整資料庫 | 自前アーカイブ |
+| [`data/verify_report.json`](data/verify_report.json) | Archive vs CNN verification | 資料庫驗證報告 | アーカイブ検証 |
 | [`data/results_*.json`](data/) | All 12 analysis results | 12 項分析結果 | 12分析の結果 |
 
 ### Fetch Directly | 直接拉資料 | 直接取得
@@ -315,6 +371,9 @@ Ideas we haven't tried yet:
 | Compare 1st term tweets vs 2nd term posts | ⭐ Easy | Fun |
 | Cross-reference with his public schedule | ⭐⭐ Medium | High |
 | Detect if posts are written by him vs staff | ⭐⭐⭐ Hard | Very High |
+| **Analyze deleted posts** — what did he delete and why? | ⭐⭐ Medium | **Critical** |
+| Correlate deletion timing with market moves | ⭐⭐ Medium | Very High |
+| Track post edits (before vs after version) | ⭐⭐ Medium | High |
 
 **下載資料，跑你自己的分析，發現新規律就發 PR。** 上面那些是我們還沒試過的方向。
 
