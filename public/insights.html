@@ -498,6 +498,21 @@ pre{max-width:100%;overflow-x:auto}
 }
 @keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
 
+/* === 語言切換 === */
+.lang-switch{position:absolute;top:16px;left:16px;z-index:10;display:flex;gap:3px;background:rgba(0,0,0,0.3);border-radius:8px;padding:3px}
+.lang-btn{background:none;border:1px solid transparent;border-radius:6px;padding:4px 10px;font-size:12px;font-weight:600;color:var(--text-dim);cursor:pointer;transition:all 0.2s}
+.lang-btn:hover{color:var(--text)}
+.lang-btn.active{color:#FFD700;border-color:rgba(255,215,0,0.4);background:rgba(255,215,0,0.08)}
+@media(max-width:540px){.lang-switch{position:static;justify-content:center;margin-bottom:8px}}
+/* i18n span visibility */
+[data-en],[data-zh],[data-ja],[data-en-block],[data-zh-block],[data-ja-block]{display:none}
+html[lang="en"] [data-en]{display:inline}
+html[lang="en"] [data-en-block]{display:block}
+html[lang="zh"] [data-zh]{display:inline}
+html[lang="zh"] [data-zh-block]{display:block}
+html[lang="ja"] [data-ja]{display:inline}
+html[lang="ja"] [data-ja-block]{display:block}
+
 /* 無障礙 */
 @media(prefers-reduced-motion:reduce){
   *{animation-duration:0.01ms!important;transition-duration:0.01ms!important}
@@ -508,6 +523,11 @@ pre{max-width:100%;overflow-x:auto}
 
 <!-- ========== HERO ========== -->
 <header class="hero">
+  <div class="lang-switch">
+    <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中</button>
+    <button class="lang-btn" data-lang="ja" onclick="setLang('ja')">日</button>
+  </div>
   <a href="https://github.com/sstklen/trump-code" target="_blank" rel="noopener"
      style="position:absolute;top:16px;right:20px;display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,0.06);border:1px solid var(--border);border-radius:8px;padding:6px 14px;font-size:13px;color:var(--text-dim);text-decoration:none;transition:border-color 0.2s,color 0.2s;z-index:10"
      onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'"
@@ -515,26 +535,26 @@ pre{max-width:100%;overflow-x:auto}
     <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
     GitHub ⭐
   </a>
-  <div class="hero-badge">OPEN SOURCE RESEARCH 開源研究 オープンソース研究</div>
+  <div class="hero-badge"><span data-en>OPEN SOURCE RESEARCH</span><span data-zh>開源研究</span><span data-ja>オープンソース研究</span></div>
   <h1>TRUMP CODE</h1>
-  <div class="hero-sub">川普密碼 ・ トランプ・コード</div>
-  <div class="hero-period" id="hero-period">📅 2025-01-20 ~ now ・ Analysis period 分析期間 分析期間</div>
+  <div class="hero-sub"><span data-en>Decoding Trump's Posts for Market Signals</span><span data-zh>川普密碼：解讀推文中的市場信號</span><span data-ja>トランプ投稿から市場シグナルを解読</span></div>
+  <div class="hero-period" id="hero-period"></div>
 
   <!-- 漏斗 -->
   <div class="funnel" id="funnel">
     <div class="funnel-step">
       <div class="funnel-num" style="color:var(--gold)" id="f-posts">7,400+</div>
-      <div class="funnel-label">📝 Posts 推文 投稿</div>
+      <div class="funnel-label">📝 <span data-en>Posts</span><span data-zh>推文</span><span data-ja>投稿</span></div>
     </div>
     <div class="funnel-arrow">→</div>
     <div class="funnel-step">
       <div class="funnel-num" style="color:var(--blue)" id="f-models">31.5M</div>
-      <div class="funnel-label">🔬 Models 模型 モデル</div>
+      <div class="funnel-label">🔬 <span data-en>Models</span><span data-zh>模型</span><span data-ja>モデル</span></div>
     </div>
-    <div class="funnel-arrow">→<span class="elim" id="f-elim">99.84% out</span></div>
+    <div class="funnel-arrow">→<span class="elim" id="f-elim"><span data-en>99.84% out</span><span data-zh>淘汰 99.84%</span><span data-ja>99.84%淘汰</span></span></div>
     <div class="funnel-step final">
       <div class="funnel-num" style="color:var(--green)" id="f-survivors">550</div>
-      <div class="funnel-label">✅ Survivors 存活 生存</div>
+      <div class="funnel-label">✅ <span data-en>Survivors</span><span data-zh>存活</span><span data-ja>生存</span></div>
     </div>
   </div>
 
@@ -542,104 +562,136 @@ pre{max-width:100%;overflow-x:auto}
   <div class="highlights" id="highlights">
     <div class="hl-card" data-color="green">
       <div class="hl-val">+1.12%</div>
-      <div class="hl-desc">Pre-market RELIEF signal<br>盤前 RELIEF → S&P 漲<br>プレマーケット RELIEF → S&P上昇</div>
+      <div class="hl-desc"><span data-en>Pre-market RELIEF signal</span><span data-zh>盤前 RELIEF → S&P 漲</span><span data-ja>プレマーケット RELIEF → S&P上昇</span></div>
     </div>
     <div class="hl-card" data-color="gold">
       <div class="hl-val">17.4h</div>
-      <div class="hl-desc">Tariff → Deal pivot gap<br>關稅→Deal 轉折間隔<br>関税→ディール 転換までの間隔</div>
+      <div class="hl-desc"><span data-en>Tariff → Deal pivot gap</span><span data-zh>關稅→Deal 轉折間隔</span><span data-ja>関税→ディール 転換までの間隔</span></div>
     </div>
     <div class="hl-card" data-color="red">
       <div class="hl-val">⚠️</div>
-      <div class="hl-desc">Positive tone before crash<br>大跌前語氣反而正面<br>暴落前にトーンがむしろポジティブ</div>
+      <div class="hl-desc"><span data-en>Positive tone before crash</span><span data-zh>大跌前語氣反而正面</span><span data-ja>暴落前にトーンがむしろポジティブ</span></div>
     </div>
     <div class="hl-card" data-color="blue">
       <div class="hl-val">🔍</div>
-      <div class="hl-desc">Signature format changed<br>2025-08 偷換簽名格式<br>2025-08 署名フォーマット密かに変更</div>
+      <div class="hl-desc"><span data-en>Signature format changed</span><span data-zh>2025-08 偷換簽名格式</span><span data-ja>2025-08 署名フォーマット密かに変更</span></div>
     </div>
   </div>
 </header>
 
 <main class="container">
 
-<!-- ========== S1: LIVE STATUS ========== -->
+<!-- ========== ACTIVE COMPUTATION ========== -->
+<section id="sec-engines">
+  <div class="sec-header">
+    <h2>⚙️ <span data-en>Active Computation</span><span data-zh>正在運算</span><span data-ja>稼働中の計算</span></h2>
+    <div class="live-indicator"><div class="live-dot"></div>LIVE</div>
+  </div>
+  <div class="engine-grid">
+    <div class="engine-card">
+      <div class="engine-head"><div class="live-dot"></div><span><span data-en>Real-Time Engine</span><span data-zh>即時引擎</span><span data-ja>リアルタイムエンジン</span></span></div>
+      <div class="engine-detail"><span data-en>Detect new posts every 5 min → classify signals → dual-track (PM + S&P 500) → verify at 1h/3h/6h</span><span data-zh>每 5 分鐘偵測新推文 → 信號分類 → 雙軌追蹤 → 驗證</span><span data-ja>5分毎に新投稿検出 → シグナル分類 → 二軌追跡 → 検証</span></div>
+      <div class="engine-counter" id="eng-rt-counter">⏱ <span data-en>Next scan...</span><span data-zh>下次掃描...</span><span data-ja>次回スキャン...</span></div>
+      <div class="engine-progress"><div class="ep-fill"></div></div>
+    </div>
+    <div class="engine-card">
+      <div class="engine-head"><div class="live-dot"></div><span><span data-en>Learning Engine</span><span data-zh>學習引擎</span><span data-ja>学習エンジン</span></span></div>
+      <div class="engine-detail"><span data-en>Daily auto-promote good models, demote bad ones, eliminate failures</span><span data-zh>每天自動升級好模型、降級差模型、淘汰廢物</span><span data-ja>毎日自動で昇格・降格・淘汰</span></div>
+      <div class="engine-counter" id="eng-learning"><span data-en>4 promoted / 1 demoted / 1 eliminated</span><span data-zh>4 升 / 1 降 / 1 淘汰</span><span data-ja>4 昇格 / 1 降格 / 1 淘汰</span></div>
+      <div class="engine-progress"><div class="ep-fill" style="animation-delay:-1s"></div></div>
+    </div>
+    <div class="engine-card">
+      <div class="engine-head"><div class="live-dot"></div><span><span data-en>Evolver</span><span data-zh>規則進化</span><span data-ja>ルール進化</span></span></div>
+      <div class="engine-detail"><span data-en>Crossbreed top rules + mutate + refine star features</span><span data-zh>交配好規則＋突變＋精煉明星特徵</span><span data-ja>優良ルール交配＋突然変異＋精錬</span></div>
+      <div class="engine-counter" id="eng-evolver"><span data-en>+50 new rules</span><span data-zh>+50 條新規則</span><span data-ja>+50 新ルール</span></div>
+      <div class="engine-progress"><div class="ep-fill" style="animation-delay:-2s"></div></div>
+    </div>
+    <div class="engine-card">
+      <div class="engine-head"><div class="live-dot"></div><span><span data-en>Breaker</span><span data-zh>斷路器</span><span data-ja>サーキットブレーカー</span></span></div>
+      <div class="engine-detail"><span data-en>All wrong → stop + learn from errors + auto-reverse</span><span data-zh>全錯就停＋從錯誤學＋自動反轉</span><span data-ja>全部間違い→停止→エラーから学習→自動反転</span></div>
+      <div class="engine-counter" id="eng-breaker">z=5.39 ✅</div>
+      <div class="engine-progress"><div class="ep-fill" style="animation-delay:-3s"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== LIVE STATUS ========== -->
 <section id="sec-status">
   <div class="sec-header">
-    <h2>📊 Live Status</h2>
-    <span style="font-size:var(--f4);color:var(--text-dim)">即時狀態 ライブステータス</span>
+    <h2>📊 <span data-en>Live Status</span><span data-zh>即時狀態</span><span data-ja>ライブステータス</span></h2>
     <div class="live-indicator"><div class="live-dot"></div>LIVE</div>
     <div class="refresh-bar"><div class="refresh-fill" id="rf1" style="width:100%"></div></div>
   </div>
   <div class="status-grid" id="status-grid">
     <div class="status-card">
-      <div class="status-label">System 系統 システム</div>
+      <div class="status-label"><span data-en>System</span><span data-zh>系統</span><span data-ja>システム</span></div>
       <div class="status-value" id="s-health">--</div>
       <div class="status-sub" id="s-health-sub"></div>
     </div>
     <div class="status-card">
-      <div class="status-label">Posts Today 今日推文 本日の投稿</div>
+      <div class="status-label"><span data-en>Posts Today</span><span data-zh>今日推文</span><span data-ja>本日の投稿</span></div>
       <div class="status-value" id="s-posts">--</div>
       <div class="status-sub" id="s-posts-sub"></div>
     </div>
     <div class="status-card">
-      <div class="status-label">Trend 趨勢 トレンド</div>
+      <div class="status-label"><span data-en>Trend</span><span data-zh>趨勢</span><span data-ja>トレンド</span></div>
       <div class="status-value" id="s-trend">--</div>
       <div class="status-sub" id="s-trend-sub"></div>
     </div>
     <div class="status-card">
-      <div class="status-label">Hit Rate 命中率 的中率</div>
+      <div class="status-label"><span data-en>Hit Rate</span><span data-zh>命中率</span><span data-ja>的中率</span></div>
       <div class="status-value" style="color:var(--gold)" id="s-hit">61.3%</div>
-      <div class="status-sub" id="s-hit-sub">z=5.39 statistically significant 統計顯著 統計的有意</div>
+      <div class="status-sub" id="s-hit-sub">z=5.39 <span data-en>statistically significant</span><span data-zh>統計顯著</span><span data-ja>統計的有意</span></div>
     </div>
   </div>
 </section>
 
-<!-- ========== S1.5: RECENT POSTS ========== -->
+<!-- ========== RECENT POSTS ========== -->
 <section id="sec-posts">
   <div class="sec-header">
-    <h2>📝 Recent Posts 最新推文 最新投稿</h2>
+    <h2>📝 <span data-en>Recent Posts</span><span data-zh>最新推文</span><span data-ja>最新投稿</span></h2>
     <div class="live-indicator"><div class="live-dot"></div>LIVE</div>
   </div>
-  <div class="sec-sub" style="margin-top:-16px;margin-bottom:16px">Trump's latest Truth Social posts with our signal analysis<br>川普最新推文 + 我們的信號分析 | トランプ最新投稿 + シグナル分析</div>
+  <div class="sec-sub" style="margin-top:-16px;margin-bottom:16px"><span data-en>Trump's latest Truth Social posts with our signal analysis</span><span data-zh>川普最新推文 + 我們的信號分析</span><span data-ja>トランプ最新投稿 + シグナル分析</span></div>
   <div id="posts-area"><div class="skeleton" style="height:200px"></div></div>
 </section>
 
 <!-- ========== S2: THREE PLAYBOOKS ========== -->
 <section id="sec-playbooks">
   <div class="sec-header">
-    <h2>🎯 Three Playbooks</h2>
-    <span style="font-size:var(--f4);color:var(--text-dim)">三套劇本 3つの戦略</span>
+    <h2>🎯 <span data-en>Three Playbooks</span><span data-zh>三套劇本</span><span data-ja>3つの戦略</span></h2>
   </div>
-  <div class="sec-sub" style="margin-top:-16px;margin-bottom:16px">📅 2025-01-20 ~ now ・ Based on 7,400+ posts ・ 7,400+ 篇推文分析 ・ 7,400+件の投稿分析</div>
+  <div class="sec-sub" style="margin-top:-16px;margin-bottom:16px">📅 2025-01-20 ~ now ・ <span data-en>Based on 7,400+ posts</span><span data-zh>7,400+ 篇推文分析</span><span data-ja>7,400+件の投稿分析</span></div>
   <div class="playbook-grid">
     <!-- 避險 -->
     <div class="play-card">
-      <h3>🛡️ Hedge 避險 ヘッジ</h3>
+      <h3>🛡️ <span data-en>Hedge</span><span data-zh>避險</span><span data-ja>ヘッジ</span></h3>
       <table>
-        <tr><td>Pure Tariff 純關稅 純関税</td><td style="color:var(--red);font-weight:700">-1.057%</td><td style="color:var(--text-dim)">50% ↑</td></tr>
-        <tr><td>Attack 攻擊 攻撃</td><td style="color:var(--red);font-weight:700">+0.159%</td><td style="color:var(--text-dim)">vs +0.244%</td></tr>
-        <tr><td>Threat 威脅 脅威</td><td style="color:var(--red);font-weight:700">+0.125%</td><td style="color:var(--text-dim)">vs +0.231%</td></tr>
+        <tr><td><span data-en>Pure Tariff</span><span data-zh>純關稅</span><span data-ja>純関税</span></td><td style="color:var(--red);font-weight:700">-1.057%</td><td style="color:var(--text-dim)">50% ↑</td></tr>
+        <tr><td><span data-en>Attack</span><span data-zh>攻擊</span><span data-ja>攻撃</span></td><td style="color:var(--red);font-weight:700">+0.159%</td><td style="color:var(--text-dim)">vs +0.244%</td></tr>
+        <tr><td><span data-en>Threat</span><span data-zh>威脅</span><span data-ja>脅威</span></td><td style="color:var(--red);font-weight:700">+0.125%</td><td style="color:var(--text-dim)">vs +0.231%</td></tr>
       </table>
-      <div class="insight">他罵人＝他在焦慮＝小心<br>彼が怒る＝不安＝注意<br>When he attacks = he's anxious = caution</div>
+      <div class="insight"><span data-en>When he attacks = he's anxious = caution</span><span data-zh>他罵人＝他在焦慮＝小心</span><span data-ja>彼が怒る＝不安＝注意</span></div>
     </div>
     <!-- 佈局 -->
     <div class="play-card">
-      <h3>📊 Position 佈局 ポジション</h3>
+      <h3>📊 <span data-en>Position</span><span data-zh>佈局</span><span data-ja>ポジション</span></h3>
       <table>
-        <tr><td>D+M+R+T 4 Signals 四信號 4シグナル</td><td style="color:var(--green);font-weight:700">+2.792%</td><td style="color:var(--text-dim)">66.7% ↑</td></tr>
-        <tr><td>A+D Attack→Deal 先攻再談 攻撃→交渉</td><td style="color:var(--green);font-weight:700">+0.586%</td><td style="color:var(--text-dim)">65.2% ↑</td></tr>
-        <tr><td>A+T Attack+Tariff 攻擊+關稅 攻撃+関税</td><td style="color:var(--green);font-weight:700">+0.574%</td><td style="color:var(--text-dim)">72.7% ↑</td></tr>
+        <tr><td>D+M+R+T <span data-en>4 Signals</span><span data-zh>四信號</span><span data-ja>4シグナル</span></td><td style="color:var(--green);font-weight:700">+2.792%</td><td style="color:var(--text-dim)">66.7% ↑</td></tr>
+        <tr><td>A+D <span data-en>Attack→Deal</span><span data-zh>先攻再談</span><span data-ja>攻撃→交渉</span></td><td style="color:var(--green);font-weight:700">+0.586%</td><td style="color:var(--text-dim)">65.2% ↑</td></tr>
+        <tr><td>A+T <span data-en>Attack+Tariff</span><span data-zh>攻擊+關稅</span><span data-ja>攻撃+関税</span></td><td style="color:var(--green);font-weight:700">+0.574%</td><td style="color:var(--text-dim)">72.7% ↑</td></tr>
       </table>
-      <div class="insight">先打再談＝典型 Trump 談判術<br>攻撃→交渉＝トランプ流<br>Attack then deal = classic Trump playbook</div>
+      <div class="insight"><span data-en>Attack then deal = classic Trump playbook</span><span data-zh>先打再談＝典型 Trump 談判術</span><span data-ja>攻撃→交渉＝トランプ流</span></div>
     </div>
     <!-- 拉盤 -->
     <div class="play-card">
-      <h3>🚀 Pump 拉盤 ポンプ</h3>
+      <h3>🚀 <span data-en>Pump</span><span data-zh>拉盤</span><span data-ja>ポンプ</span></h3>
       <table>
-        <tr><td>Silence 沉默 沈黙</td><td style="color:var(--green);font-weight:700">+0.409%</td><td style="color:var(--text-dim)">80.0% ↑</td></tr>
-        <tr><td>Brag Only 炫耀 自慢のみ</td><td style="color:var(--green);font-weight:700">+0.520%</td><td style="color:var(--text-dim)">71.4% ↑</td></tr>
-        <tr><td>Action 行動 アクション</td><td style="color:var(--green);font-weight:700">+0.294%</td><td style="color:var(--text-dim)">Actual action 有實際行動 実際の行動あり</td></tr>
+        <tr><td><span data-en>Silence</span><span data-zh>沉默</span><span data-ja>沈黙</span></td><td style="color:var(--green);font-weight:700">+0.409%</td><td style="color:var(--text-dim)">80.0% ↑</td></tr>
+        <tr><td><span data-en>Brag Only</span><span data-zh>炫耀</span><span data-ja>自慢のみ</span></td><td style="color:var(--green);font-weight:700">+0.520%</td><td style="color:var(--text-dim)">71.4% ↑</td></tr>
+        <tr><td><span data-en>Action</span><span data-zh>行動</span><span data-ja>アクション</span></td><td style="color:var(--green);font-weight:700">+0.294%</td><td style="color:var(--text-dim)"><span data-en>Actual action</span><span data-zh>有實際行動</span><span data-ja>実際の行動あり</span></td></tr>
       </table>
-      <div class="insight">心情好才用 X＝做多<br>機嫌が良い時Xを使う＝ロング<br>Good mood → uses X → bullish</div>
+      <div class="insight"><span data-en>Good mood → uses X → bullish</span><span data-zh>心情好才用 X＝做多</span><span data-ja>機嫌が良い時Xを使う＝ロング</span></div>
     </div>
   </div>
 </section>
@@ -647,40 +699,39 @@ pre{max-width:100%;overflow-x:auto}
 <!-- ========== S3: KEY DISCOVERIES ========== -->
 <section id="sec-discoveries">
   <div class="sec-header">
-    <h2>🔑 Key Discoveries</h2>
-    <span style="font-size:var(--f4);color:var(--text-dim)">重大發現 重要な発見</span>
+    <h2>🔑 <span data-en>Key Discoveries</span><span data-zh>重大發現</span><span data-ja>重要な発見</span></h2>
   </div>
   <!-- 3 大發現卡 -->
   <div class="disc-grid" id="disc-cards">
     <div class="disc-card danger">
-      <div class="disc-tag">🔴 Most Dangerous 最危險 最も危険</div>
+      <div class="disc-tag">🔴 <span data-en>Most Dangerous</span><span data-zh>最危險</span><span data-ja>最も危険</span></div>
       <div class="disc-val">Pure Tariff = -1.057%</div>
-      <div class="disc-desc">Tariff only, no deal → S&amp;P 500 avg -1.057%<br>只喊關稅不談判 → S&amp;P 500 平均跌 1.057%<br>関税だけで交渉なし → S&amp;P 500 平均-1.057%<br>📊 288 trading days 交易日 取引日 | 2025-04-03 (-4.84%), 04-04 (-5.97%)<br>🔬 analysis_06_market.py</div>
+      <div class="disc-desc"><span data-en-block>Tariff only, no deal → S&amp;P 500 avg -1.057%<br>📊 288 trading days | 2025-04-03 (-4.84%), 04-04 (-5.97%)<br>🔬 analysis_06_market.py</span><span data-zh-block>只喊關稅不談判 → S&amp;P 500 平均跌 1.057%<br>📊 288 個交易日 | 2025-04-03 (-4.84%), 04-04 (-5.97%)<br>🔬 analysis_06_market.py</span><span data-ja-block>関税だけで交渉なし → S&amp;P 500 平均-1.057%<br>📊 288 取引日 | 2025-04-03 (-4.84%), 04-04 (-5.97%)<br>🔬 analysis_06_market.py</span></div>
     </div>
     <div class="disc-card profit">
-      <div class="disc-tag">💰 Most Profitable 最賺錢 最も収益的</div>
+      <div class="disc-tag">💰 <span data-en>Most Profitable</span><span data-zh>最賺錢</span><span data-ja>最も収益的</span></div>
       <div class="disc-val">4 Signals = +2.792%</div>
-      <div class="disc-desc">DEAL+MARKET_BRAG+RELIEF+TARIFF all 4 signals in one day<br>四信號同日齊發<br>4シグナル同日に集中<br>📊 12 occurrences, 66.7% up 出現12回 66.7%上昇 | 2025-01~2026-03<br>🔬 analysis_09_combo_score.py</div>
+      <div class="disc-desc"><span data-en-block>DEAL+MARKET_BRAG+RELIEF+TARIFF all 4 signals in one day<br>📊 12 occurrences, 66.7% up | 2025-01~2026-03<br>🔬 analysis_09_combo_score.py</span><span data-zh-block>四信號同日齊發<br>📊 出現 12 次，66.7% 上漲 | 2025-01~2026-03<br>🔬 analysis_09_combo_score.py</span><span data-ja-block>4シグナル同日に集中<br>📊 12回出現、66.7%上昇 | 2025-01~2026-03<br>🔬 analysis_09_combo_score.py</span></div>
     </div>
     <div class="disc-card surprise">
-      <div class="disc-tag">🤯 Biggest Surprise 最意外 最大のサプライズ</div>
+      <div class="disc-tag">🤯 <span data-en>Biggest Surprise</span><span data-zh>最意外</span><span data-ja>最大のサプライズ</span></div>
       <div class="disc-val">Silence = 80% UP</div>
-      <div class="disc-desc">Zero posts days → S&amp;P 500 up 80% of the time<br>Trump 零推文的日子 → S&amp;P 500 漲 80%<br>投稿ゼロの日 → S&amp;P 500 が80%の確率で上昇<br>📊 Silent days avg +0.409% 沉默日均+0.409% | 288 trading days 取引日<br>🔬 analysis_02_timing.py</div>
+      <div class="disc-desc"><span data-en-block>Zero posts days → S&amp;P 500 up 80% of the time<br>📊 Silent days avg +0.409% | 288 trading days<br>🔬 analysis_02_timing.py</span><span data-zh-block>Trump 零推文的日子 → S&amp;P 500 漲 80%<br>📊 沉默日均 +0.409% | 288 個交易日<br>🔬 analysis_02_timing.py</span><span data-ja-block>投稿ゼロの日 → S&amp;P 500 が80%の確率で上昇<br>📊 沈黙日平均 +0.409% | 288 取引日<br>🔬 analysis_02_timing.py</span></div>
     </div>
   </div>
   <!-- 8 個發現表 -->
   <div class="table-wrap" style="margin-top:24px;background:var(--card);border-radius:14px;overflow:hidden">
     <table>
-      <thead><tr><th>#</th><th>Discovery 發現 発見</th><th>Evidence 證據 根拠</th><th>Source 來源 出典</th></tr></thead>
+      <thead><tr><th>#</th><th><span data-en>Discovery</span><span data-zh>發現</span><span data-ja>発見</span></th><th><span data-en>Evidence</span><span data-zh>證據</span><span data-ja>根拠</span></th><th><span data-en>Source</span><span data-zh>來源</span><span data-ja>出典</span></th></tr></thead>
       <tbody>
-        <tr><td>1</td><td style="color:var(--gold)">RELIEF is the strongest signal<br>RELIEF 寬減是最強信號<br>RELIEFが最強シグナル</td><td>2025-04-09: S&amp;P +9.52% (largest single-day gain 史上最大單日漲幅 史上最大の日間上昇)</td><td>analysis_06 · conf. 信心度 0.85</td></tr>
-        <tr><td>2</td><td style="color:var(--red)">TARIFF→SHORT wrong 70% of the time<br>TARIFF→SHORT 70% 做錯方向<br>関税→ショート 70%不正解</td><td>Circuit breaker found systematic error in 564 verified trades<br>斷路器分析 564 筆驗證發現規律性錯誤</td><td>circuit_breaker · auto-flip to LONG 自動翻轉為 LONG</td></tr>
-        <tr><td>3</td><td>China signals hidden on Truth Social only<br>中國信號完全隱藏在 Truth Social<br>中国シグナルはTruth Socialのみ</td><td>TS: 203 posts 篇 / X: 0 posts 篇（100% hidden 隱藏率）</td><td>analyze_x_truth_cross · weight 加權 ×1.5</td></tr>
-        <tr><td>4</td><td>Truth Social → X delay 6.2 hours<br>Truth Social → X 延遲 6.2 小時<br>TS→X 6.2時間の遅延</td><td>38/39 pairs matched 配對成功（97.4% match rate 匹配率）</td><td>dual_platform_signal · 6h window 操作窗口</td></tr>
-        <tr><td>5</td><td style="color:var(--red)">Tariff posts spike 2.7× before big events<br>大事前 3 天關稅推文暴增 2.7 倍<br>大イベント前 関税投稿2.7倍増</td><td>288 trading days 交易日, tariff density 2.7× before crashes<br>大跌前 3 天關稅密度 2.7×</td><td>event_detector · early warning 事前預警</td></tr>
-        <tr><td>6</td><td>131 posts in one day = crash signal<br>單日 131 篇爆量 = 崩盤前兆<br>1日131投稿＝暴落の前兆</td><td>2026-03-10: S&amp;P -2.70%, record post volume the day before<br>前日推文量創新高</td><td>analysis_02 · volume alert 爆量警報</td></tr>
-        <tr><td>7</td><td>interest_rate is the top feature in rules<br>interest_rate 是規則最愛的特徵<br>利率が最重要特徴量</td><td>122 of 550 surviving rules use this feature (22.2%)<br>550 條存活規則中 122 條使用此特徵</td><td>rule_evolver · evolution boost 進化引擎強化</td></tr>
-        <tr><td>8</td><td>Late-night posts are contrarian indicators<br>C3 深夜推文是反指標<br>深夜投稿は逆指標</td><td>Following them = 62% wrong → inverse = 62% right<br>順著做 62% 錯 → 反著做 62% 對</td><td>circuit_breaker · inverse rules built 已建反向規則</td></tr>
+        <tr><td>1</td><td style="color:var(--gold)"><span data-en>RELIEF is the strongest signal</span><span data-zh>RELIEF 寬減是最強信號</span><span data-ja>RELIEFが最強シグナル</span></td><td>2025-04-09: S&amp;P +9.52% (<span data-en>largest single-day gain</span><span data-zh>史上最大單日漲幅</span><span data-ja>史上最大の日間上昇</span>)</td><td>analysis_06 · <span data-en>conf.</span><span data-zh>信心度</span><span data-ja>信頼度</span> 0.85</td></tr>
+        <tr><td>2</td><td style="color:var(--red)"><span data-en>TARIFF→SHORT wrong 70% of the time</span><span data-zh>TARIFF→SHORT 70% 做錯方向</span><span data-ja>関税→ショート 70%不正解</span></td><td><span data-en>Circuit breaker found systematic error in 564 verified trades</span><span data-zh>斷路器分析 564 筆驗證發現規律性錯誤</span><span data-ja>サーキットブレーカーが564件の検証済取引で系統的エラーを発見</span></td><td>circuit_breaker · <span data-en>auto-flip to LONG</span><span data-zh>自動翻轉為 LONG</span><span data-ja>自動LONG反転</span></td></tr>
+        <tr><td>3</td><td><span data-en>China signals hidden on Truth Social only</span><span data-zh>中國信號完全隱藏在 Truth Social</span><span data-ja>中国シグナルはTruth Socialのみ</span></td><td>TS: 203 <span data-en>posts</span><span data-zh>篇</span><span data-ja>件</span> / X: 0 <span data-en>posts</span><span data-zh>篇</span><span data-ja>件</span>（100% <span data-en>hidden</span><span data-zh>隱藏率</span><span data-ja>非公開</span>）</td><td>analyze_x_truth_cross · <span data-en>weight</span><span data-zh>加權</span><span data-ja>加重</span> ×1.5</td></tr>
+        <tr><td>4</td><td><span data-en>Truth Social → X delay 6.2 hours</span><span data-zh>Truth Social → X 延遲 6.2 小時</span><span data-ja>TS→X 6.2時間の遅延</span></td><td>38/39 <span data-en>pairs matched</span><span data-zh>配對成功</span><span data-ja>ペア一致</span>（97.4% <span data-en>match rate</span><span data-zh>匹配率</span><span data-ja>一致率</span>）</td><td>dual_platform_signal · 6h <span data-en>window</span><span data-zh>操作窗口</span><span data-ja>ウィンドウ</span></td></tr>
+        <tr><td>5</td><td style="color:var(--red)"><span data-en>Tariff posts spike 2.7× before big events</span><span data-zh>大事前 3 天關稅推文暴增 2.7 倍</span><span data-ja>大イベント前 関税投稿2.7倍増</span></td><td><span data-en>288 trading days, tariff density 2.7× before crashes</span><span data-zh>288 個交易日，大跌前 3 天關稅密度 2.7×</span><span data-ja>288取引日、暴落前の関税密度2.7倍</span></td><td>event_detector · <span data-en>early warning</span><span data-zh>事前預警</span><span data-ja>早期警告</span></td></tr>
+        <tr><td>6</td><td><span data-en>131 posts in one day = crash signal</span><span data-zh>單日 131 篇爆量 = 崩盤前兆</span><span data-ja>1日131投稿＝暴落の前兆</span></td><td><span data-en>2026-03-10: S&amp;P -2.70%, record post volume the day before</span><span data-zh>2026-03-10: S&amp;P -2.70%，前日推文量創新高</span><span data-ja>2026-03-10: S&amp;P -2.70%、前日の投稿量が過去最高</span></td><td>analysis_02 · <span data-en>volume alert</span><span data-zh>爆量警報</span><span data-ja>大量投稿アラート</span></td></tr>
+        <tr><td>7</td><td><span data-en>interest_rate is the top feature in rules</span><span data-zh>interest_rate 是規則最愛的特徵</span><span data-ja>利率が最重要特徴量</span></td><td><span data-en>122 of 550 surviving rules use this feature (22.2%)</span><span data-zh>550 條存活規則中 122 條使用此特徵 (22.2%)</span><span data-ja>550件の生存ルールのうち122件がこの特徴量を使用 (22.2%)</span></td><td>rule_evolver · <span data-en>evolution boost</span><span data-zh>進化引擎強化</span><span data-ja>進化エンジン強化</span></td></tr>
+        <tr><td>8</td><td><span data-en>Late-night posts are contrarian indicators</span><span data-zh>深夜推文是反指標</span><span data-ja>深夜投稿は逆指標</span></td><td><span data-en>Following them = 62% wrong → inverse = 62% right</span><span data-zh>順著做 62% 錯 → 反著做 62% 對</span><span data-ja>従うと62%不正解 → 逆に62%正解</span></td><td>circuit_breaker · <span data-en>inverse rules built</span><span data-zh>已建反向規則</span><span data-ja>逆転ルール構築済</span></td></tr>
       </tbody>
     </table>
   </div>
@@ -689,73 +740,64 @@ pre{max-width:100%;overflow-x:auto}
 <!-- ========== S4: DUAL PLATFORM ========== -->
 <section id="sec-dual">
   <div class="sec-header">
-    <h2>🔐 Dual Platform</h2>
-    <span style="font-size:var(--f4);color:var(--text-dim)">Truth Social vs X 雙平台密碼 二大プラットフォームの暗号</span>
+    <h2>🔐 <span data-en>Dual Platform</span><span data-zh>雙平台密碼</span><span data-ja>二大プラットフォームの暗号</span></h2>
   </div>
-  <div class="sec-sub" style="margin-top:-16px;margin-bottom:16px">📊 168 X posts vs 7,400 Truth Social posts ・ 168件のX投稿 vs 7,400件のTS投稿</div>
+  <div class="sec-sub" style="margin-top:-16px;margin-bottom:16px">📊 <span data-en>168 X posts vs 7,400 Truth Social posts</span><span data-zh>168 篇 X 推文 vs 7,400 篇 Truth Social 推文</span><span data-ja>168件のX投稿 vs 7,400件のTS投稿</span></div>
   <div class="dual-table">
     <div class="table-wrap">
       <table>
-        <thead><tr><th>#</th><th>Code 密碼 コード</th><th>Data 數據 データ</th><th>Meaning 意義 意味</th></tr></thead>
+        <thead><tr><th>#</th><th><span data-en>Code</span><span data-zh>密碼</span><span data-ja>コード</span></th><th><span data-en>Data</span><span data-zh>數據</span><span data-ja>データ</span></th><th><span data-en>Meaning</span><span data-zh>意義</span><span data-ja>意味</span></th></tr></thead>
         <tbody>
-          <tr><td>1</td><td style="color:var(--gold)">🇨🇳 China = Hidden 隱藏 非公開</td><td>Truth Social: 203 posts 篇 / X: 0</td><td>China signal weighted ×1.5 (hidden = more real)<br>中國信號加權 ×1.5（刻意隱藏=更真實）<br>中国シグナル加重×1.5（隠す＝本音）</td></tr>
-          <tr><td>2</td><td>⏱️ TS → X delay 延遲 遅延 6.2h</td><td>38/39 TS posted first 先發 先行投稿</td><td>6h trading window 操作窗口 (63% bullish)<br>6時間の取引ウィンドウ（63%上昇）</td></tr>
-          <tr><td>3</td><td>📈 63% positive in window<br>窗口內正報酬 63%<br>ウィンドウ内63%プラス</td><td>Between TS → X repost 轉貼之間<br>TS→X転載の間</td><td>Long bias in window 窗口內做多有優勢<br>ウィンドウ内はロング有利</td></tr>
-          <tr><td>4</td><td style="color:var(--green)">X post next-day return 7× higher<br>X 推文隔天報酬高 7 倍<br>X投稿の翌日リターン7倍</td><td>X: +0.252% vs TS only: +0.037%</td><td>X appearance = confirmation signal<br>X 出現 = 確認信號，報酬更高<br>X出現＝確認シグナル</td></tr>
-          <tr><td>5</td><td>X usage correlates with market<br>X 使用率和市場正相關<br>X利用率と市場は正相関</td><td>Correlation 相關係數 相関 0.35</td><td>Good market → more X posts (mood indicator)<br>市場好時他比較常用 X（心情指標）<br>市場好調→X多用（気分の指標）</td></tr>
+          <tr><td>1</td><td style="color:var(--gold)">🇨🇳 <span data-en>China = Hidden</span><span data-zh>China = 隱藏</span><span data-ja>China = 非公開</span></td><td>Truth Social: 203 <span data-en>posts</span><span data-zh>篇</span><span data-ja>件</span> / X: 0</td><td><span data-en>China signal weighted ×1.5 (hidden = more real)</span><span data-zh>中國信號加權 ×1.5（刻意隱藏=更真實）</span><span data-ja>中国シグナル加重×1.5（隠す＝本音）</span></td></tr>
+          <tr><td>2</td><td>⏱️ TS → X <span data-en>delay</span><span data-zh>延遲</span><span data-ja>遅延</span> 6.2h</td><td>38/39 <span data-en>TS posted first</span><span data-zh>TS 先發</span><span data-ja>TS先行投稿</span></td><td><span data-en>6h trading window (63% bullish)</span><span data-zh>6 小時操作窗口（63% 看多）</span><span data-ja>6時間の取引ウィンドウ（63%上昇）</span></td></tr>
+          <tr><td>3</td><td>📈 <span data-en>63% positive in window</span><span data-zh>窗口內正報酬 63%</span><span data-ja>ウィンドウ内63%プラス</span></td><td><span data-en>Between TS → X repost</span><span data-zh>TS→X 轉貼之間</span><span data-ja>TS→X転載の間</span></td><td><span data-en>Long bias in window</span><span data-zh>窗口內做多有優勢</span><span data-ja>ウィンドウ内はロング有利</span></td></tr>
+          <tr><td>4</td><td style="color:var(--green)"><span data-en>X post next-day return 7× higher</span><span data-zh>X 推文隔天報酬高 7 倍</span><span data-ja>X投稿の翌日リターン7倍</span></td><td>X: +0.252% vs TS only: +0.037%</td><td><span data-en>X appearance = confirmation signal</span><span data-zh>X 出現 = 確認信號，報酬更高</span><span data-ja>X出現＝確認シグナル</span></td></tr>
+          <tr><td>5</td><td><span data-en>X usage correlates with market</span><span data-zh>X 使用率和市場正相關</span><span data-ja>X利用率と市場は正相関</span></td><td><span data-en>Correlation</span><span data-zh>相關係數</span><span data-ja>相関</span> 0.35</td><td><span data-en>Good market → more X posts (mood indicator)</span><span data-zh>市場好時他比較常用 X（心情指標）</span><span data-ja>市場好調→X多用（気分の指標）</span></td></tr>
         </tbody>
       </table>
     </div>
   </div>
   <div class="dual-insight">
-    <strong>Core Insight 核心結論 コア・インサイト：</strong><br>
-    TS = policy signal source (prediction), X = image window (confirmation).<br>
-    Truth Social 是政策信號源（預測用），X 是形象窗口（確認用）。<br>
-    TSは政策シグナル源（予測用）、Xはイメージウィンドウ（確認用）。<br>
-    Posts on TS first, then X 6 hours later. That 6h gap is your trading window.<br>
-    先在 Truth Social 說，6 小時後才放 X。這 6 小時就是操作窗口。<br>
-    TSに先に投稿し、6時間後にXへ。この6時間が取引チャンス。
+    <strong><span data-en>Core Insight:</span><span data-zh>核心結論：</span><span data-ja>コア・インサイト：</span></strong><br>
+    <span data-en-block>TS = policy signal source (prediction), X = image window (confirmation).<br>Posts on TS first, then X 6 hours later. That 6h gap is your trading window.</span><span data-zh-block>Truth Social 是政策信號源（預測用），X 是形象窗口（確認用）。<br>先在 Truth Social 說，6 小時後才放 X。這 6 小時就是操作窗口。</span><span data-ja-block>TSは政策シグナル源（予測用）、Xはイメージウィンドウ（確認用）。<br>TSに先に投稿し、6時間後にXへ。この6時間が取引チャンス。</span>
   </div>
 </section>
 
 <!-- ========== PREDICTION MARKETS (moved up) ========== -->
 <section id="sec-pm">
   <div class="sec-header">
-    <h2>🔗 Prediction Markets 預測市場 予測市場</h2>
+    <h2>🔗 <span data-en>Prediction Markets</span><span data-zh>預測市場</span><span data-ja>予測市場</span></h2>
     <div class="live-indicator"><div class="live-dot"></div>LIVE</div>
   </div>
   <p style="color:var(--text-dim);font-size:var(--f4);margin-bottom:20px">
-    Trump 發推文後，我們同時追蹤預測市場（Polymarket）和美股（S&amp;P 500）的反應。<br>
-    トランプ投稿後、予測市場と米株の反応を同時追跡。<br>
-    After Trump posts, we track both prediction markets and S&amp;P 500 reactions.
+    <span data-en>After Trump posts, we track both prediction markets and S&amp;P 500 reactions.</span><span data-zh>Trump 發推文後，我們同時追蹤預測市場（Polymarket）和美股（S&amp;P 500）的反應。</span><span data-ja>トランプ投稿後、予測市場と米株の反応を同時追跡します。</span>
   </p>
-  <h3 style="color:var(--gold);font-size:var(--f3);margin:0 0 12px">📊 Live Trump Markets — 即時 Trump 預測市場 — ライブトランプ予測市場</h3>
+  <h3 style="color:var(--gold);font-size:var(--f3);margin:0 0 12px">📊 <span data-en>Live Trump Markets</span><span data-zh>即時 Trump 預測市場</span><span data-ja>ライブトランプ予測市場</span></h3>
   <div class="table-wrap" style="background:var(--card);border-radius:14px;overflow:hidden" id="pm-live-area">
     <div class="skeleton" style="height:200px"></div>
   </div>
   <div class="platform-grid" style="margin-top:16px">
-    <div class="plat-card"><div class="name">Polymarket</div><div class="info">$56B volume 交易量<br>✅ Real-time 即時追蹤<br>✅ Signal→arbitrage 套利</div></div>
-    <div class="plat-card"><div class="name">Kalshi</div><div class="info">$44B volume 交易量<br>✅ Cross-platform spread 跨平台價差<br>CFTC regulated 監管</div></div>
-    <div class="plat-card"><div class="name">Truth Predict</div><div class="info">Trump's own 自建市場<br>⏳ Pending 等上線<br>Crypto.com 合作</div></div>
+    <div class="plat-card"><div class="name">Polymarket</div><div class="info">$56B <span data-en>volume</span><span data-zh>交易量</span><span data-ja>取引量</span><br>✅ <span data-en>Real-time tracking</span><span data-zh>即時追蹤</span><span data-ja>リアルタイム追跡</span><br>✅ <span data-en>Signal→arbitrage</span><span data-zh>信號→套利</span><span data-ja>シグナル→裁定取引</span></div></div>
+    <div class="plat-card"><div class="name">Kalshi</div><div class="info">$44B <span data-en>volume</span><span data-zh>交易量</span><span data-ja>取引量</span><br>✅ <span data-en>Cross-platform spread</span><span data-zh>跨平台價差</span><span data-ja>クロスプラットフォームスプレッド</span><br><span data-en>CFTC regulated</span><span data-zh>CFTC 監管</span><span data-ja>CFTC規制</span></div></div>
+    <div class="plat-card"><div class="name">Truth Predict</div><div class="info"><span data-en>Trump's own market</span><span data-zh>Trump 自建市場</span><span data-ja>トランプ独自市場</span><br>⏳ <span data-en>Pending launch</span><span data-zh>等上線</span><span data-ja>ローンチ待ち</span><br>Crypto.com <span data-en>partnership</span><span data-zh>合作</span><span data-ja>提携</span></div></div>
   </div>
 </section>
 
 <!-- ========== S5: SIGNALS & RESULTS ========== -->
 <section id="sec-signals">
   <div class="sec-header">
-    <h2>📡 Signals & Results</h2>
-    <span style="font-size:var(--f4);color:var(--text-dim)">信號與結果 シグナルと結果</span>
+    <h2>📡 <span data-en>Signals & Results</span><span data-zh>信號與結果</span><span data-ja>シグナルと結果</span></h2>
     <div class="live-indicator"><div class="live-dot"></div>LIVE</div>
     <div class="refresh-bar"><div class="refresh-fill" id="rf2" style="width:100%"></div></div>
   </div>
-  <div class="sec-sub" style="margin-top:-16px;margin-bottom:16px">Each signal tracked against PM + S&P 500 | 每個信號偵測後追蹤預測市場和美股實際反應 | 各シグナル検出後、予測市場+S&P 500を追跡</div>
+  <div class="sec-sub" style="margin-top:-16px;margin-bottom:16px"><span data-en>Each signal tracked against PM + S&P 500</span><span data-zh>每個信號偵測後追蹤預測市場和美股實際反應</span><span data-ja>各シグナル検出後、予測市場+S&P 500を追跡</span></div>
   <div id="signal-area"><div class="skeleton" style="height:200px"></div></div>
 </section>
 
 <!-- ========== S6: MODEL RANKINGS ========== -->
 <section id="sec-models">
   <div class="sec-header">
-    <h2>🏆 Model Rankings 模型排行 モデルランキング</h2>
+    <h2>🏆 <span data-en>Model Rankings</span><span data-zh>模型排行</span><span data-ja>モデルランキング</span></h2>
     <span style="font-size:var(--f4);color:var(--text-dim)"></span>
     <div class="live-indicator"><div class="live-dot"></div>LIVE</div>
     <div class="refresh-bar"><div class="refresh-fill" id="rf3" style="width:100%"></div></div>
@@ -768,92 +810,118 @@ pre{max-width:100%;overflow-x:auto}
 <!-- ========== S7: ARCHITECTURE ========== -->
 <section id="sec-arch">
   <div class="sec-header">
-    <h2>🏗️ Architecture 系統架構 アーキテクチャ</h2>
+    <h2>🏗️ <span data-en>Architecture</span><span data-zh>系統架構</span><span data-ja>アーキテクチャ</span></h2>
     <span style="font-size:var(--f4);color:var(--text-dim)"></span>
   </div>
   <div class="arch-box">
-    <pre>
-Trump posts on Truth Social トランプがTSに投稿
+    <pre><span data-en>
+Trump posts on Truth Social
        │
-       ▼  5 min detection 偵測 検出
+       ▼  5 min detection
 ┌──────────────────────────────────────────┐
-│  Real-Time Engine 即時引擎 リアルタイム     │
+│  Real-Time Engine                        │
 │  Detect → Classify → Dual-platform weight│
-│  偵測 → 信號分類 → 雙平台加權              │
-│  → Event brewing 事件醞釀 → Snapshot 快照  │
-│  → Predict 預測 → Verify 驗證 1h/3h/6h   │
+│  → Event brewing → Snapshot              │
+│  → Predict → Verify 1h/3h/6h            │
 └──────────────┬───────────────────────────┘
                │
 ┌──────────────┼───────────────────────────┐
-│  Daily Pipeline 每日管線 日次パイプライン    │
+│  Daily Pipeline                          │
 │  Fetch → Signals → 550 rules predict     │
-│  抓數據 → 算信號 → 跑 550 條規則預測       │
 │  → Verify → Breaker → PM feedback        │
 │  → Learn(↑/↓/✕) → Evolve(breed/mutate)  │
 │  → Opus briefing → Sync GitHub           │
 └──────────────┬───────────────────────────┘
                │
 ┌──────────────┼───────────────────────────┐
-│  Three Brains 三個大腦 3つの頭脳           │
-│  🧠 Opus — Causal analysis 因果分析       │
-│  🧬 Evolver — Auto-generate rules 自動進化│
-│  🔒 Breaker — Stop if wrong + learn 斷路器│
+│  Three Brains                            │
+│  🧠 Opus — Causal analysis               │
+│  🧬 Evolver — Auto-generate rules        │
+│  🔒 Breaker — Stop if wrong + learn      │
 └──────────────┬───────────────────────────┘
                │
 ┌──────────────┼───────────────────────────┐
-│  Output 輸出 出力                         │
+│  Output                                  │
 │  📊 Dashboard  💬 Chatbot  📡 API        │
 │  💻 CLI  🤖 MCP  💡 Crowd Wisdom         │
-└──────────────────────────────────────────┘</pre>
+└──────────────────────────────────────────┘</span><span data-zh>
+Trump 發文到 Truth Social
+       │
+       ▼  5 分鐘偵測
+┌──────────────────────────────────────────┐
+│  即時引擎                                │
+│  偵測 → 信號分類 → 雙平台加權             │
+│  → 事件醞釀 → 快照                       │
+│  → 預測 → 驗證 1h/3h/6h                 │
+└──────────────┬───────────────────────────┘
+               │
+┌──────────────┼───────────────────────────┐
+│  每日管線                                │
+│  抓數據 → 算信號 → 跑 550 條規則預測      │
+│  → 驗證 → 斷路器 → 預測市場回饋           │
+│  → 學習(↑/↓/✕) → 進化(交配/突變)        │
+│  → Opus 簡報 → 同步 GitHub              │
+└──────────────┬───────────────────────────┘
+               │
+┌──────────────┼───────────────────────────┐
+│  三個大腦                                │
+│  🧠 Opus — 因果分析                      │
+│  🧬 進化器 — 自動產生規則                 │
+│  🔒 斷路器 — 錯了就停＋學習               │
+└──────────────┬───────────────────────────┘
+               │
+┌──────────────┼───────────────────────────┐
+│  輸出                                    │
+│  📊 儀表板  💬 聊天機器人  📡 API         │
+│  💻 CLI  🤖 MCP  💡 群眾智慧             │
+└──────────────────────────────────────────┘</span><span data-ja>
+トランプがTruth Socialに投稿
+       │
+       ▼  5分で検出
+┌──────────────────────────────────────────┐
+│  リアルタイムエンジン                      │
+│  検出 → 分類 → 二重プラットフォーム加重     │
+│  → イベント醸成 → スナップショット          │
+│  → 予測 → 検証 1h/3h/6h                 │
+└──────────────┬───────────────────────────┘
+               │
+┌──────────────┼───────────────────────────┐
+│  日次パイプライン                          │
+│  取得 → シグナル → 550ルール予測           │
+│  → 検証 → ブレーカー → 予測市場FB         │
+│  → 学習(↑/↓/✕) → 進化(交配/突然変異)    │
+│  → Opus ブリーフィング → GitHub同期       │
+└──────────────┬───────────────────────────┘
+               │
+┌──────────────┼───────────────────────────┐
+│  3つの頭脳                               │
+│  🧠 Opus — 因果分析                      │
+│  🧬 進化器 — ルール自動生成               │
+│  🔒 ブレーカー — 間違えたら停止＋学習      │
+└──────────────┬───────────────────────────┘
+               │
+┌──────────────┼───────────────────────────┐
+│  出力                                    │
+│  📊 ダッシュボード 💬 チャットボット 📡 API │
+│  💻 CLI  🤖 MCP  💡 クラウドウィズダム     │
+└──────────────────────────────────────────┘</span></pre>
   </div>
 </section>
 
 <!-- (Prediction Markets moved above Signals) -->
 
-<!-- ========== S9: ACTIVE COMPUTATION ========== -->
-<section id="sec-engines">
-  <div class="sec-header">
-    <h2>⚙️ Active Computation 正在運算 稼働中の計算</h2>
-    <span style="font-size:var(--f4);color:var(--text-dim)"></span>
-  </div>
-  <div class="engine-grid">
-    <div class="engine-card">
-      <div class="engine-head"><div class="live-dot"></div><span>Real-Time Engine 即時引擎 リアルタイム</span></div>
-      <div class="engine-detail">Detect new posts every 5 min → classify signals → dual-track (PM + S&P 500) → verify at 1h/3h/6h<br>每 5 分鐘偵測新推文 → 信號分類 → 雙軌追蹤 → 驗證<br>5分毎に新投稿検出 → シグナル分類 → 二軌追跡 → 検証</div>
-      <div class="engine-counter" id="eng-rt-counter">⏱ 下次掃描 Next scan...</div>
-      <div class="engine-progress"><div class="ep-fill"></div></div>
-    </div>
-    <div class="engine-card">
-      <div class="engine-head"><div class="live-dot"></div><span>Learning 學習引擎 学習エンジン</span></div>
-      <div class="engine-detail">Daily auto-promote good models, demote bad ones, eliminate failures<br>每天自動升級好模型、降級差模型、淘汰廢物<br>毎日自動で昇格・降格・淘汰</div>
-      <div class="engine-counter" id="eng-learning">4 升 / 1 降 / 1 淘汰</div>
-      <div class="engine-progress"><div class="ep-fill" style="animation-delay:-1s"></div></div>
-    </div>
-    <div class="engine-card">
-      <div class="engine-head"><div class="live-dot"></div><span>Evolver 規則進化 ルール進化</span></div>
-      <div class="engine-detail">Crossbreed top rules + mutate + refine star features<br>交配好規則＋突變＋精煉明星特徵<br>優良ルール交配＋突然変異＋精錬</div>
-      <div class="engine-counter" id="eng-evolver">+50 條新規則</div>
-      <div class="engine-progress"><div class="ep-fill" style="animation-delay:-2s"></div></div>
-    </div>
-    <div class="engine-card">
-      <div class="engine-head"><div class="live-dot"></div><span>Breaker 斷路器 サーキットブレーカー</span></div>
-      <div class="engine-detail">All wrong → stop + learn from errors + auto-reverse<br>全錯就停＋從錯誤學＋自動反轉<br>全部間違い→停止→エラーから学習→自動反転</div>
-      <div class="engine-counter" id="eng-breaker">z=5.39 ✅</div>
-      <div class="engine-progress"><div class="ep-fill" style="animation-delay:-3s"></div></div>
-    </div>
-  </div>
-</section>
+<!-- (Active Computation moved after Live Status) -->
 
 <!-- ========== S10: CROWD INSIGHTS ========== -->
 <section id="sec-crowd">
   <div class="sec-header">
-    <h2>💡 Crowd Insights 群眾洞見 クラウドインサイト</h2>
+    <h2>💡 <span data-en>Crowd Insights</span><span data-zh>群眾洞見</span><span data-ja>クラウドインサイト</span></h2>
     <span style="font-size:var(--f4);color:var(--text-dim)"></span>
   </div>
   <div id="crowd-area">
     <div style="color:var(--text-dim);padding:32px;text-align:center;background:var(--card);border-radius:14px;border:1px solid var(--border)">
-      No insights yet / 還沒有群眾洞見 / まだインサイトなし<br>
-      <small style="margin-top:8px;display:block">Click 💬 to share your trading logic! 按右下角 💬 分享你的交易邏輯！💬を押してトレードロジックを共有！</small>
+      <span data-en>No insights yet</span><span data-zh>還沒有群眾洞見</span><span data-ja>まだインサイトなし</span><br>
+      <small style="margin-top:8px;display:block"><span data-en>Click 💬 to share your trading logic!</span><span data-zh>按右下角 💬 分享你的交易邏輯！</span><span data-ja>💬を押してトレードロジックを共有！</span></small>
     </div>
   </div>
 </section>
@@ -861,30 +929,30 @@ Trump posts on Truth Social トランプがTSに投稿
 <!-- ========== S11: OPEN DATA ========== -->
 <section id="sec-data">
   <div class="sec-header">
-    <h2>📦 Open Data 公開數據 オープンデータ</h2>
+    <h2>📦 <span data-en>Open Data</span><span data-zh>公開數據</span><span data-ja>オープンデータ</span></h2>
     <span style="font-size:var(--f4);color:var(--text-dim)"></span>
   </div>
-  <p style="font-size:var(--f4);color:var(--text-dim);margin-bottom:16px">All data is public. Clone the repo and explore.<br>全部數據公開，clone 就能用。<br>全データ公開、クローンして自由に使えます。</p>
+  <p style="font-size:var(--f4);color:var(--text-dim);margin-bottom:16px"><span data-en>All data is public. Clone the repo and explore.</span><span data-zh>全部數據公開，clone 就能用。</span><span data-ja>全データ公開、クローンして自由に使えます。</span></p>
   <div class="table-wrap" style="background:var(--card);border-radius:14px;overflow:hidden" id="data-area">
     <table>
-      <thead><tr><th>File 檔案 ファイル</th><th>Content 內容 内容</th><th>Updated 更新 更新</th><th></th></tr></thead>
+      <thead><tr><th><span data-en>File</span><span data-zh>檔案</span><span data-ja>ファイル</span></th><th><span data-en>Content</span><span data-zh>內容</span><span data-ja>内容</span></th><th><span data-en>Updated</span><span data-zh>更新</span><span data-ja>更新</span></th><th></th></tr></thead>
       <tbody>
-        <tr><td style="color:var(--gold)">trump_posts_all.json</td><td>All Trump posts (full Truth Social archive)<br>全部川普推文（Truth Social 完整版）<br>全トランプ投稿（Truth Social 完全版）</td><td>Daily 每天 毎日</td><td><a href="/api/data/trump_posts_all.json" download>⬇</a></td></tr>
-        <tr><td style="color:var(--gold)">trump_posts_lite.json</td><td>Trump posts lite (signals tagged)<br>川普推文精簡版（信號已標記）<br>トランプ投稿ライト版（シグナル付き）</td><td>Daily 每天 毎日</td><td><a href="/api/data/trump_posts_lite.json" download>⬇</a></td></tr>
-        <tr><td style="color:var(--gold)">x_posts_full.json</td><td>X (Twitter) posts full archive<br>X (Twitter) 推文完整版<br>X (Twitter) 投稿フルアーカイブ</td><td>Daily 每天 毎日</td><td><a href="/api/data/x_posts_full.json" download>⬇</a></td></tr>
-        <tr><td style="color:var(--gold)">own_archive.json</td><td>Self-built archive (direct Truth Social scrape)<br>自建檔案庫（Truth Social 直接抓取）<br>独自アーカイブ（Truth Social直接取得）</td><td>Daily 每天 毎日</td><td><a href="/api/data/own_archive.json" download>⬇</a></td></tr>
-        <tr><td style="color:var(--gold)">daily_report.json</td><td>Daily trilingual report (signals + predictions + hit rate)<br>每日三語報告（信號+預測+命中率）<br>毎日の三言語レポート（シグナル+予測+的中率）</td><td>Daily 每天 毎日</td><td><a href="/api/data/daily_report.json" download>⬇</a></td></tr>
-        <tr><td style="color:var(--gold)">predictions_log.json</td><td>564 verified prediction records<br>564 筆已驗證預測紀錄<br>564件の検証済み予測記録</td><td>Daily 每天 毎日</td><td><a href="/api/data/predictions_log.json" download>⬇</a></td></tr>
-        <tr><td style="color:var(--gold)">surviving_rules.json</td><td>550 surviving rules (brute-force + evolution)<br>550 條存活規則（暴力搜索+進化）<br>550件の生存ルール（総当たり+進化）</td><td>Daily 每天 毎日</td><td><a href="/api/data/surviving_rules.json" download>⬇</a></td></tr>
-        <tr><td style="color:var(--gold)">trump_playbook.json</td><td>Three playbooks (hedge / position / pump)<br>三套劇本（避險/佈局/拉盤）<br>3つの戦略（ヘッジ/ポジション/ポンプ）</td><td>Weekly 每週 毎週</td><td><a href="/api/data/trump_playbook.json" download>⬇</a></td></tr>
-        <tr><td style="color:var(--gold)">signal_confidence.json</td><td>Signal confidence scores (auto-adjusted)<br>信號信心度（自動調整）<br>シグナル信頼度（自動調整）</td><td>Daily 每天 毎日</td><td><a href="/api/data/signal_confidence.json" download>⬇</a></td></tr>
-        <tr><td style="color:var(--gold)">opus_analysis.json</td><td>Opus AI deep analysis results<br>Opus AI 深度分析結果<br>Opus AI 深層分析結果</td><td>On demand 按需 随時</td><td><a href="/api/data/opus_analysis.json" download>⬇</a></td></tr>
-        <tr><td style="color:var(--gold)">learning_report.json</td><td>Learning engine report (promote / demote / eliminate)<br>學習引擎報告（升級/降級/淘汰）<br>学習エンジンレポート（昇格/降格/淘汰）</td><td>Daily 每天 毎日</td><td><a href="/api/data/learning_report.json" download>⬇</a></td></tr>
-        <tr><td style="color:var(--gold)">evolution_log.json</td><td>Rule evolution log (crossbreed / mutate / refine)<br>規則進化紀錄（交配/突變/精煉）<br>ルール進化ログ（交配/突然変異/精錬）</td><td>Daily 每天 毎日</td><td><a href="/api/data/evolution_log.json" download>⬇</a></td></tr>
-        <tr><td style="color:var(--gold)">circuit_breaker_state.json</td><td>Circuit breaker state (system health + error analysis)<br>斷路器狀態（系統健康+錯誤分析）<br>サーキットブレーカー状態（健全性+エラー分析）</td><td>Daily 每天 毎日</td><td><a href="/api/data/circuit_breaker_state.json" download>⬇</a></td></tr>
-        <tr><td style="color:var(--gold)">daily_features.json</td><td>414 days of full feature data (384 features)<br>414 天的完整特徵數據（384 個特徵）<br>414日分の完全特徴データ（384特徴量）</td><td>Daily 每天 毎日</td><td><a href="/api/data/daily_features.json" download>⬇</a></td></tr>
-        <tr><td>market_SP500.json</td><td>S&P 500 history (open/close/high/low)<br>S&P 500 歷史數據<br>S&P 500 履歴データ</td><td>Daily 每天 毎日</td><td><a href="/api/data/market_SP500.json" download>⬇</a></td></tr>
-        <tr><td>polymarket_live.json</td><td>Polymarket live market data snapshot<br>Polymarket 即時市場數據快照<br>Polymarket ライブ市場データ</td><td>Real-time 即時 リアルタイム</td><td><a href="/api/data/polymarket_live.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">trump_posts_all.json</td><td><span data-en>All Trump posts (full Truth Social archive)</span><span data-zh>全部川普推文（Truth Social 完整版）</span><span data-ja>全トランプ投稿（Truth Social 完全版）</span></td><td><span data-en>Daily</span><span data-zh>每天</span><span data-ja>毎日</span></td><td><a href="/api/data/trump_posts_all.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">trump_posts_lite.json</td><td><span data-en>Trump posts lite (signals tagged)</span><span data-zh>川普推文精簡版（信號已標記）</span><span data-ja>トランプ投稿ライト版（シグナル付き）</span></td><td><span data-en>Daily</span><span data-zh>每天</span><span data-ja>毎日</span></td><td><a href="/api/data/trump_posts_lite.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">x_posts_full.json</td><td><span data-en>X (Twitter) posts full archive</span><span data-zh>X (Twitter) 推文完整版</span><span data-ja>X (Twitter) 投稿フルアーカイブ</span></td><td><span data-en>Daily</span><span data-zh>每天</span><span data-ja>毎日</span></td><td><a href="/api/data/x_posts_full.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">own_archive.json</td><td><span data-en>Self-built archive (direct Truth Social scrape)</span><span data-zh>自建檔案庫（Truth Social 直接抓取）</span><span data-ja>独自アーカイブ（Truth Social直接取得）</span></td><td><span data-en>Daily</span><span data-zh>每天</span><span data-ja>毎日</span></td><td><a href="/api/data/own_archive.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">daily_report.json</td><td><span data-en>Daily trilingual report (signals + predictions + hit rate)</span><span data-zh>每日三語報告（信號+預測+命中率）</span><span data-ja>毎日の三言語レポート（シグナル+予測+的中率）</span></td><td><span data-en>Daily</span><span data-zh>每天</span><span data-ja>毎日</span></td><td><a href="/api/data/daily_report.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">predictions_log.json</td><td><span data-en>564 verified prediction records</span><span data-zh>564 筆已驗證預測紀錄</span><span data-ja>564件の検証済み予測記録</span></td><td><span data-en>Daily</span><span data-zh>每天</span><span data-ja>毎日</span></td><td><a href="/api/data/predictions_log.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">surviving_rules.json</td><td><span data-en>550 surviving rules (brute-force + evolution)</span><span data-zh>550 條存活規則（暴力搜索+進化）</span><span data-ja>550件の生存ルール（総当たり+進化）</span></td><td><span data-en>Daily</span><span data-zh>每天</span><span data-ja>毎日</span></td><td><a href="/api/data/surviving_rules.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">trump_playbook.json</td><td><span data-en>Three playbooks (hedge / position / pump)</span><span data-zh>三套劇本（避險/佈局/拉盤）</span><span data-ja>3つの戦略（ヘッジ/ポジション/ポンプ）</span></td><td><span data-en>Weekly</span><span data-zh>每週</span><span data-ja>毎週</span></td><td><a href="/api/data/trump_playbook.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">signal_confidence.json</td><td><span data-en>Signal confidence scores (auto-adjusted)</span><span data-zh>信號信心度（自動調整）</span><span data-ja>シグナル信頼度（自動調整）</span></td><td><span data-en>Daily</span><span data-zh>每天</span><span data-ja>毎日</span></td><td><a href="/api/data/signal_confidence.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">opus_analysis.json</td><td><span data-en>Opus AI deep analysis results</span><span data-zh>Opus AI 深度分析結果</span><span data-ja>Opus AI 深層分析結果</span></td><td><span data-en>On demand</span><span data-zh>按需</span><span data-ja>随時</span></td><td><a href="/api/data/opus_analysis.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">learning_report.json</td><td><span data-en>Learning engine report (promote / demote / eliminate)</span><span data-zh>學習引擎報告（升級/降級/淘汰）</span><span data-ja>学習エンジンレポート（昇格/降格/淘汰）</span></td><td><span data-en>Daily</span><span data-zh>每天</span><span data-ja>毎日</span></td><td><a href="/api/data/learning_report.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">evolution_log.json</td><td><span data-en>Rule evolution log (crossbreed / mutate / refine)</span><span data-zh>規則進化紀錄（交配/突變/精煉）</span><span data-ja>ルール進化ログ（交配/突然変異/精錬）</span></td><td><span data-en>Daily</span><span data-zh>每天</span><span data-ja>毎日</span></td><td><a href="/api/data/evolution_log.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">circuit_breaker_state.json</td><td><span data-en>Circuit breaker state (system health + error analysis)</span><span data-zh>斷路器狀態（系統健康+錯誤分析）</span><span data-ja>サーキットブレーカー状態（健全性+エラー分析）</span></td><td><span data-en>Daily</span><span data-zh>每天</span><span data-ja>毎日</span></td><td><a href="/api/data/circuit_breaker_state.json" download>⬇</a></td></tr>
+        <tr><td style="color:var(--gold)">daily_features.json</td><td><span data-en>414 days of full feature data (384 features)</span><span data-zh>414 天的完整特徵數據（384 個特徵）</span><span data-ja>414日分の完全特徴データ（384特徴量）</span></td><td><span data-en>Daily</span><span data-zh>每天</span><span data-ja>毎日</span></td><td><a href="/api/data/daily_features.json" download>⬇</a></td></tr>
+        <tr><td>market_SP500.json</td><td><span data-en>S&P 500 history (open/close/high/low)</span><span data-zh>S&P 500 歷史數據</span><span data-ja>S&P 500 履歴データ</span></td><td><span data-en>Daily</span><span data-zh>每天</span><span data-ja>毎日</span></td><td><a href="/api/data/market_SP500.json" download>⬇</a></td></tr>
+        <tr><td>polymarket_live.json</td><td><span data-en>Polymarket live market data snapshot</span><span data-zh>Polymarket 即時市場數據快照</span><span data-ja>Polymarket ライブ市場データ</span></td><td><span data-en>Real-time</span><span data-zh>即時</span><span data-ja>リアルタイム</span></td><td><a href="/api/data/polymarket_live.json" download>⬇</a></td></tr>
       </tbody>
     </table>
   </div>
@@ -893,25 +961,39 @@ Trump posts on Truth Social トランプがTSに投稿
 <!-- ========== S12: CONNECT ========== -->
 <section id="sec-connect">
   <div class="sec-header">
-    <h2>🔌 Connect 連接方式 接続方法</h2>
+    <h2>🔌 <span data-en>Connect</span><span data-zh>連接方式</span><span data-ja>接続方法</span></h2>
     <span style="font-size:var(--f4);color:var(--text-dim)"></span>
   </div>
   <div class="connect-grid">
     <div class="conn-card">
       <h3>📡 API</h3>
-      <div class="sub">REST JSON — Any language 任何語言 どの言語でもOK</div>
-      <pre>GET /api/dashboard   All data 全部 全データ
-GET /api/signals     Signals 信號 シグナル
-GET /api/models      Rankings 排行 ランキング
-GET /api/playbook    Playbooks 劇本 戦略
-GET /api/status      Status 狀態 ステータス
-GET /api/health      Health 健康 ヘルス
-GET /api/insights    Insights 洞見 インサイト
-POST /api/chat       Chat 聊天 チャット</pre>
+      <div class="sub">REST JSON — <span data-en>Any language</span><span data-zh>任何語言</span><span data-ja>どの言語でもOK</span></div>
+      <pre><span data-en>GET /api/dashboard   All data
+GET /api/signals     Signals
+GET /api/models      Rankings
+GET /api/playbook    Playbooks
+GET /api/status      Status
+GET /api/health      Health
+GET /api/insights    Insights
+POST /api/chat       Chat</span><span data-zh>GET /api/dashboard   全部數據
+GET /api/signals     信號
+GET /api/models      排行
+GET /api/playbook    劇本
+GET /api/status      狀態
+GET /api/health      健康
+GET /api/insights    洞見
+POST /api/chat       聊天</span><span data-ja>GET /api/dashboard   全データ
+GET /api/signals     シグナル
+GET /api/models      ランキング
+GET /api/playbook    戦略
+GET /api/status      ステータス
+GET /api/health      ヘルス
+GET /api/insights    インサイト
+POST /api/chat       チャット</span></pre>
     </div>
     <div class="conn-card">
       <h3>💻 CLI</h3>
-      <div class="sub">Command-line tool 命令列工具 コマンドライン</div>
+      <div class="sub"><span data-en>Command-line tool</span><span data-zh>命令列工具</span><span data-ja>コマンドライン</span></div>
       <pre>git clone github.com/sstklen/trump-code
 cd trump-code
 pip install -r requirements.txt
@@ -923,7 +1005,7 @@ python3 trump_code_cli.py json</pre>
     </div>
     <div class="conn-card">
       <h3>🤖 MCP Server</h3>
-      <div class="sub">Claude Code / Cursor — Ask AI directly 直接問 AI AIに直接質問</div>
+      <div class="sub">Claude Code / Cursor — <span data-en>Ask AI directly</span><span data-zh>直接問 AI</span><span data-ja>AIに直接質問</span></div>
       <pre>// ~/.claude/settings.json
 {
   "mcpServers": {
@@ -933,9 +1015,7 @@ python3 trump_code_cli.py json</pre>
     }
   }
 }
-// Ask: "What's today's signal?"
-// 問：「川普密碼今天信號？」
-// 聞く：「今日のシグナルは？」</pre>
+<span data-en>// Ask: "What's today's signal?"</span><span data-zh>// 問：「川普密碼今天信號？」</span><span data-ja>// 聞く：「今日のシグナルは？」</span></pre>
     </div>
   </div>
 </section>
@@ -944,15 +1024,15 @@ python3 trump_code_cli.py json</pre>
 
 <!-- ========== FOOTER ========== -->
 <footer class="footer">
-  <div class="footer-title">TRUMP CODE 川普密碼 トランプ・コード</div>
+  <div class="footer-title">TRUMP CODE <span data-en>— Decoding Trump's Posts</span><span data-zh>— 川普密碼</span><span data-ja>— トランプ・コード</span></div>
   <div class="footer-links">
     <a href="https://github.com/sstklen/trump-code">⭐ GitHub</a>
     <span style="color:var(--border)">|</span>
     <a href="/api/dashboard">📡 API</a>
     <span style="color:var(--border)">|</span>
-    <span style="color:var(--text-dim);font-size:var(--f4)">All data open-source 全部公開 全データオープンソース</span>
+    <span style="color:var(--text-dim);font-size:var(--f4)"><span data-en>All data open-source</span><span data-zh>全部公開</span><span data-ja>全データオープンソース</span></span>
   </div>
-  <div class="footer-warn">⚠️ Not financial advice 非投資建議 投資助言ではありません</div>
+  <div class="footer-warn">⚠️ <span data-en>Not financial advice</span><span data-zh>非投資建議</span><span data-ja>投資助言ではありません</span></div>
 </footer>
 
 <!-- 聊天浮動鈕 -->
@@ -975,6 +1055,25 @@ python3 trump_code_cli.py json</pre>
 const $ = id => document.getElementById(id);
 const esc = s => { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; };
 const BASE = window.location.origin;
+
+/* === 語言切換 === */
+function setLang(lang) {
+  document.documentElement.lang = lang;
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+  localStorage.setItem('trump-code-lang', lang);
+  const titles = {en:'TRUMP CODE',zh:'TRUMP CODE 川普密碼',ja:'TRUMP CODE トランプ・コード'};
+  document.title = titles[lang] || titles.en;
+  if (typeof updatePeriod === 'function') updatePeriod();
+  if (typeof init === 'function') init();
+}
+const savedLang = localStorage.getItem('trump-code-lang') || 'en';
+// 初始設定語言（不呼叫 init，因為 init 還沒定義）
+document.documentElement.lang = savedLang;
+document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === savedLang));
+
+/* === 三語 helper（JS 動態內容用） === */
+const t = (en, zh, ja) => `<span data-en>${en}</span><span data-zh>${zh}</span><span data-ja>${ja}</span>`;
+const tb = (en, zh, ja) => `<span data-en-block>${en}</span><span data-zh-block>${zh}</span><span data-ja-block>${ja}</span>`;
 
 /* === 捲動動畫：section 進場 === */
 const observer = new IntersectionObserver(entries => {
@@ -1010,18 +1109,18 @@ scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 's
 
 /* === 信號圖示對照 === */
 const SIG_LABELS = {
-  TARIFF:      '🔴 Tariff 關稅 関税',
-  DEAL:        '🟢 Deal 談判 ディール',
-  RELIEF:      '🕊️ Relief 寬減 緩和',
-  ACTION:      '⚡ Action 行動 アクション',
-  THREAT:      '⚠️ Threat 威脅 脅威',
-  ATTACK:      '⚔️ Attack 攻擊 攻撃',
-  MARKET_BRAG: '📊 Brag 炫耀 自慢',
-  CHINA:       '🇨🇳 China 中國 中国',
-  IRAN:        '🇮🇷 Iran 伊朗 イラン',
-  RUSSIA:      '🇷🇺 Russia 俄羅斯 ロシア',
-  BULLISH:     '📈 Bullish 看多 強気',
-  BEARISH:     '📉 Bearish 看空 弱気',
+  TARIFF:      '🔴 ' + t('Tariff','關稅','関税'),
+  DEAL:        '🟢 ' + t('Deal','談判','ディール'),
+  RELIEF:      '🕊️ ' + t('Relief','寬減','緩和'),
+  ACTION:      '⚡ ' + t('Action','行動','アクション'),
+  THREAT:      '⚠️ ' + t('Threat','威脅','脅威'),
+  ATTACK:      '⚔️ ' + t('Attack','攻擊','攻撃'),
+  MARKET_BRAG: '📊 ' + t('Brag','炫耀','自慢'),
+  CHINA:       '🇨🇳 ' + t('China','中國','中国'),
+  IRAN:        '🇮🇷 ' + t('Iran','伊朗','イラン'),
+  RUSSIA:      '🇷🇺 ' + t('Russia','俄羅斯','ロシア'),
+  BULLISH:     '📈 ' + t('Bullish','看多','強気'),
+  BEARISH:     '📉 ' + t('Bearish','看空','弱気'),
 };
 const BULL_TYPES = new Set(['DEAL','RELIEF','BULLISH','ACTION','MARKET_BRAG']);
 const BEAR_TYPES = new Set(['TARIFF','THREAT','BEARISH','ATTACK']);
@@ -1038,7 +1137,7 @@ async function loadDashboard() {
       ? (f.models_tested / 1e6).toFixed(1) + 'M'
       : (f.models_tested || 31554180).toLocaleString();
     $('f-survivors').textContent = f.survivors || 550;
-    $('f-elim').textContent = (f.elimination_rate || 99.84) + '% out';
+    $('f-elim').innerHTML = (f.elimination_rate || 99.84) + '% ' + t('out','淘汰','淘汰');
 
     // 亮點卡 — 靜態 HTML 已有三語，只更新數值不覆蓋文字
     const hls = d.highlights || [];
@@ -1053,7 +1152,7 @@ async function loadDashboard() {
       hlEl.innerHTML = hls.map(h => `
         <div class="hl-card" data-color="${esc(h.color)}">
           <div class="hl-val">${esc(h.value)}</div>
-          <div class="hl-desc">${esc(h.label_en)}<br>${esc(h.label_zh)}<br>${JA_MAP[h.value] || ''}</div>
+          <div class="hl-desc">${t(esc(h.label_en), esc(h.label_zh), esc(JA_MAP[h.value] || ''))}</div>
         </div>`).join('');
     }
 
@@ -1067,10 +1166,10 @@ async function loadDashboard() {
     const cons = live.consensus || 'NEUTRAL';
     $('s-trend').textContent = cons === 'BULLISH' ? '📈 UP' : cons === 'BEARISH' ? '📉 DOWN' : '➡️ FLAT';
     $('s-trend').style.color = cons === 'BULLISH' ? 'var(--green)' : cons === 'BEARISH' ? 'var(--red)' : 'var(--text-dim)';
-    $('s-trend-sub').textContent = (cons === 'BULLISH' ? 'Bullish 看多 強気' : cons === 'BEARISH' ? 'Bearish 看空 弱気' : 'Neutral 觀望 様子見') + ' ' + (live.date || '');
+    $('s-trend-sub').innerHTML = (cons === 'BULLISH' ? t('Bullish','看多','強気') : cons === 'BEARISH' ? t('Bearish','看空','弱気') : t('Neutral','觀望','様子見')) + ' ' + esc(live.date || '');
     if (d.stats) {
       $('s-hit').textContent = (d.stats.hit_rate || 61.3) + '%';
-      $('s-hit-sub').textContent = (d.stats.verified || 564) + ' verified 已驗證 検証済み';
+      $('s-hit-sub').innerHTML = (d.stats.verified || 564) + ' ' + t('verified','已驗證','検証済み');
       $('pm-hit').textContent = (d.stats.hit_rate || 61.3) + '%';
       $('pm-hit-sub').textContent = (d.stats.verified || 564) + ' verified / z=5.39';
     }
@@ -1080,9 +1179,9 @@ async function loadDashboard() {
     const lrn = eng.learning || {};
     const evo = eng.evolution || {};
     const brk = eng.breaker || {};
-    $('eng-learning').textContent = `↑${lrn.promoted || 0} ↓${lrn.demoted || 0} ✕${lrn.eliminated || 0} promoted/demoted/eliminated 升降淘汰 昇格降格淘汰`;
-    $('eng-evolver').textContent = `+${evo.new_rules || 0} new rules 新規則 新ルール / total 共 合計 ${evo.total_after || 0}`;
-    $('eng-breaker').textContent = `${brk.vs_random || '?'} | streak 連錯 連続 ${brk.consecutive_wrong || 0} | inverse 反轉 逆転 ${brk.inverse_rules || 0}`;
+    $('eng-learning').innerHTML = `↑${lrn.promoted || 0} ↓${lrn.demoted || 0} ✕${lrn.eliminated || 0} ${t('promoted/demoted/eliminated','升降淘汰','昇格/降格/淘汰')}`;
+    $('eng-evolver').innerHTML = `+${evo.new_rules || 0} ${t('new rules','新規則','新ルール')} / ${t('total','共','合計')} ${evo.total_after || 0}`;
+    $('eng-breaker').innerHTML = `${esc(brk.vs_random || '?')} | ${t('streak','連錯','連続')} ${brk.consecutive_wrong || 0} | ${t('inverse','反轉','逆転')} ${brk.inverse_rules || 0}`;
 
     // Polymarket 現在由 loadPolymarketTrump() 獨立處理
 
@@ -1107,7 +1206,7 @@ async function loadSignals() {
       });
       const dirClass = bullish > bearish ? 'bull' : bearish > bullish ? 'bear' : 'mix';
       const dirIcon = bullish > bearish ? '📈' : bearish > bullish ? '📉' : '➡️';
-      const dirText = bullish > bearish ? 'Bullish 偏多 強気' : bearish > bullish ? 'Bearish 偏空 弱気' : 'Mixed 混合 中立';
+      const dirText = bullish > bearish ? t('Bullish','偏多','強気') : bearish > bullish ? t('Bearish','偏空','弱気') : t('Mixed','混合','中立');
 
       html += `<div class="signal-day">
         <div class="signal-header">
@@ -1120,10 +1219,10 @@ async function loadSignals() {
       </div>`;
     });
 
-    if (!html) html = '<div style="color:var(--text-dim);padding:24px;text-align:center;background:var(--card);border-radius:14px">No recent signals<br>暫無最新信號<br>最新シグナルなし</div>';
+    if (!html) html = `<div style="color:var(--text-dim);padding:24px;text-align:center;background:var(--card);border-radius:14px">${t('No recent signals','暫無最新信號','最新シグナルなし')}</div>`;
     $('signal-area').innerHTML = html;
   } catch (e) {
-    $('signal-area').innerHTML = '<div style="color:var(--text-dim);padding:24px;text-align:center">Error loading signals 信號載入失敗 シグナル読込エラー</div>';
+    $('signal-area').innerHTML = `<div style="color:var(--text-dim);padding:24px;text-align:center">${t('Error loading signals','信號載入失敗','シグナル読込エラー')}</div>`;
   }
 }
 
@@ -1140,6 +1239,19 @@ const MODEL_EN = {
   C3_night_alert: 'Late-night tariff → Gap open',
   D2_sig_change: 'Signature switch → Formal statement',
   D3_volume_spike: 'Post volume spike → Panic bottom',
+};
+const MODEL_ZH = {
+  A1_tariff_bearish: '關稅→隔天跌',
+  A2_deal_bullish: 'DEAL 信號→隔天漲',
+  A3_relief_rocket: '盤前 RELIEF→當天飆',
+  B1_triple_signal: '三信號齊發→買三天',
+  B2_tariff_to_deal: '連三天關稅→Deal 轉折',
+  B3_action_pre: '盤前 ACTION + 正面→漲',
+  C1_burst_silence: '爆發→長沉默→做多',
+  C2_brag_top: '炫耀行情→短線見頂',
+  C3_night_alert: '深夜關稅推文→跳空',
+  D2_sig_change: '簽名切換→正式聲明',
+  D3_volume_spike: '推文爆量→恐慌底',
 };
 const MODEL_JA = {
   A1_tariff_bearish: '関税→翌日下落',
@@ -1160,17 +1272,17 @@ async function loadModels() {
     const m = d.models || {};
     const rows = Object.entries(m).map(([id, s]) => ({ id, ...s })).sort((a, b) => b.win_rate - a.win_rate);
 
-    let html = '<table><thead><tr><th>#</th><th>Model 模型 モデル</th><th>Hit Rate 命中率 的中率</th><th>Return 報酬 リターン</th><th>Trades 交易 取引</th></tr></thead><tbody>';
+    let html = `<table><thead><tr><th>#</th><th>${t('Model','模型','モデル')}</th><th>${t('Hit Rate','命中率','的中率')}</th><th>${t('Return','報酬','リターン')}</th><th>${t('Trades','交易','取引')}</th></tr></thead><tbody>`;
     rows.forEach((r, i) => {
       const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : '';
       const warn = r.win_rate < 50 ? '⚠️' : '';
       const ret = r.avg_return || 0;
       const enName = MODEL_EN[r.id] || r.id;
       const jaName = MODEL_JA[r.id] || '';
-      const zhName = r.name || r.id;
+      const zhName = MODEL_ZH[r.id] || r.name || r.id;
       html += `<tr>
         <td>${medal || warn || ''}${i + 1}</td>
-        <td style="font-weight:600">${esc(enName)}<br><span style="font-size:var(--f4);color:var(--text-dim)">${esc(zhName)}<br>${esc(jaName)}</span></td>
+        <td style="font-weight:600">${t(esc(enName), esc(zhName), esc(jaName))}</td>
         <td>
           ${r.win_rate.toFixed(1)}%
           <div class="bar-track"><div class="bar-fill" style="width:${Math.min(r.win_rate, 100)}%"></div></div>
@@ -1182,7 +1294,7 @@ async function loadModels() {
     html += '</tbody></table>';
     $('model-area').innerHTML = html;
   } catch (e) {
-    $('model-area').innerHTML = '<div style="color:var(--text-dim);padding:24px;text-align:center">Error loading models 模型載入失敗 モデル読込エラー</div>';
+    $('model-area').innerHTML = `<div style="color:var(--text-dim);padding:24px;text-align:center">${t('Error loading models','模型載入失敗','モデル読込エラー')}</div>`;
   }
 }
 
@@ -1211,7 +1323,7 @@ function updatePeriod() {
   const days = Math.floor((now - start) / 86400000);
   const today = now.toISOString().slice(0, 10);
   const el = $('hero-period');
-  if (el) el.textContent = `📅 2025-01-20 ~ ${today} ・ ${days} days 天 日間`;
+  if (el) el.innerHTML = `📅 2025-01-20 ~ ${today} ・ ${days} ${t('days','天','日間')}`;
 }
 updatePeriod();
 
@@ -1223,7 +1335,7 @@ setInterval(() => {
   const m = Math.floor(scanCountdown / 60);
   const s = scanCountdown % 60;
   const el = $('eng-rt-counter');
-  if (el) el.textContent = `⏱ Next scan 下次掃描 次回スキャン ${m}:${String(s).padStart(2,'0')}`;
+  if (el) el.innerHTML = `⏱ ${t('Next scan','下次掃描','次回スキャン')} ${m}:${String(s).padStart(2,'0')}`;
 }, 1000);
 
 /* === 最近推文 === */
@@ -1232,7 +1344,7 @@ async function loadPosts() {
     const d = await (await fetch(BASE + '/api/recent-posts')).json();
     const posts = d.posts || [];
     if (!posts.length) {
-      $('posts-area').innerHTML = '<div style="padding:24px;text-align:center;color:var(--text-dim)">No recent posts 暫無最新推文 最新投稿なし</div>';
+      $('posts-area').innerHTML = `<div style="padding:24px;text-align:center;color:var(--text-dim)">${t('No recent posts','暫無最新推文','最新投稿なし')}</div>`;
       return;
     }
 
@@ -1247,9 +1359,9 @@ async function loadPosts() {
     // 今日信號摘要
     if (sigs.length) {
       const consColor = consensus === 'BULLISH' ? 'var(--green)' : consensus === 'BEARISH' ? 'var(--red)' : 'var(--text-dim)';
-      const consText = consensus === 'BULLISH' ? '📈 Bullish 偏多 強気' : consensus === 'BEARISH' ? '📉 Bearish 偏空 弱気' : '➡️ Neutral 中性 中立';
+      const consText = consensus === 'BULLISH' ? '📈 ' + t('Bullish','偏多','強気') : consensus === 'BEARISH' ? '📉 ' + t('Bearish','偏空','弱気') : '➡️ ' + t('Neutral','中性','中立');
       html += `<div style="background:var(--gold-bg);border:1px solid rgba(255,215,0,0.15);border-radius:12px;padding:14px 18px;margin-bottom:14px;display:flex;flex-wrap:wrap;align-items:center;gap:10px">
-        <span style="font-size:var(--f4);color:var(--gold);font-weight:700">Today's Signals 今日信號 本日のシグナル:</span>
+        <span style="font-size:var(--f4);color:var(--gold);font-weight:700">${t("Today's Signals",'今日信號','本日のシグナル')}:</span>
         ${sigs.map(s => `<span class="sig-tag">${SIG_LABELS[s] || s}</span>`).join('')}
         <span style="color:${consColor};font-weight:700;font-size:var(--f4);margin-left:auto">${consText}</span>
       </div>`;
@@ -1275,14 +1387,14 @@ async function loadPosts() {
           <span class="date">${esc(date)}</span>
           <span class="src">${src}</span>
         </div>
-        <div class="post-text">${esc(text)}${url ? ` <a href="${esc(url)}" target="_blank" rel="noopener" style="font-size:var(--f4)">→ original 原文 原文</a>` : ''}</div>
-        ${sigTags.length ? `<div class="post-signals"><span class="ps-label">Signals 信號 シグナル:</span>${sigTags.join('')}</div>` : ''}
+        <div class="post-text">${esc(text)}${url ? ` <a href="${esc(url)}" target="_blank" rel="noopener" style="font-size:var(--f4)">→ ${t('original','原文','原文')}</a>` : ''}</div>
+        ${sigTags.length ? `<div class="post-signals"><span class="ps-label">${t('Signals','信號','シグナル')}:</span>${sigTags.join('')}</div>` : ''}
       </div>`;
     });
 
     $('posts-area').innerHTML = html;
   } catch (e) {
-    $('posts-area').innerHTML = '<div style="padding:24px;text-align:center;color:var(--text-dim)">Loading posts... 載入推文中... 投稿読込中...</div>';
+    $('posts-area').innerHTML = `<div style="padding:24px;text-align:center;color:var(--text-dim)">${t('Loading posts...','載入推文中...','投稿読込中...')}</div>`;
   }
 }
 
@@ -1295,7 +1407,7 @@ async function loadPolymarketTrump() {
     const markets = d.markets || [];
     const total = d.total || 0;
     if (markets.length > 0) {
-      let html = '<table><thead><tr><th>Market 市場 マーケット</th><th>YES</th><th>NO</th><th>Volume 交易量</th><th></th></tr></thead><tbody>';
+      let html = `<table><thead><tr><th>${t('Market','市場','マーケット')}</th><th>YES</th><th>NO</th><th>${t('Volume','交易量','取引量')}</th><th></th></tr></thead><tbody>`;
       markets.forEach(m => {
         const yes = m.yes_price || 0;
         const yesColor = yes > 0.7 ? 'var(--green)' : yes < 0.3 ? 'var(--red)' : 'var(--gold)';
@@ -1305,19 +1417,19 @@ async function loadPolymarketTrump() {
           <td style="color:${yesColor};font-weight:700">${(yes * 100).toFixed(1)}%</td>
           <td style="color:var(--text-dim)">${((m.no_price || 0) * 100).toFixed(1)}%</td>
           <td style="color:var(--text-dim)">$${Math.round(m.volume || 0).toLocaleString()}</td>
-          <td><a href="${esc(url)}" target="_blank" rel="noopener" style="font-size:12px">Trade →</a></td>
+          <td><a href="${esc(url)}" target="_blank" rel="noopener" style="font-size:12px">${t('Trade','交易','取引')} →</a></td>
         </tr>`;
       });
       html += '</tbody></table>';
       if (total > markets.length) {
-        html += `<div style="text-align:right;padding:10px 16px"><a href="${pmSearch}" target="_blank" rel="noopener" style="font-size:var(--f4)">See all ${total}+ Trump markets on Polymarket →</a></div>`;
+        html += `<div style="text-align:right;padding:10px 16px"><a href="${pmSearch}" target="_blank" rel="noopener" style="font-size:var(--f4)">${t(`See all ${total}+ Trump markets on Polymarket`,`查看全部 ${total}+ 個 Trump 市場`,`全${total}+件のトランプ市場を見る`)} →</a></div>`;
       }
       $('pm-live-area').innerHTML = html;
     } else {
-      $('pm-live-area').innerHTML = `<div style="padding:24px;text-align:center"><a href="${pmSearch}" target="_blank" rel="noopener" style="color:var(--gold)">Browse Trump Markets on Polymarket →</a></div>`;
+      $('pm-live-area').innerHTML = `<div style="padding:24px;text-align:center"><a href="${pmSearch}" target="_blank" rel="noopener" style="color:var(--gold)">${t('Browse Trump Markets on Polymarket','瀏覽 Polymarket Trump 市場','PolymarketでTrump市場を閲覧')} →</a></div>`;
     }
   } catch (e) {
-    $('pm-live-area').innerHTML = `<div style="padding:24px;text-align:center"><a href="https://polymarket.com/search?_q=trump" target="_blank" style="color:var(--gold)">Open Polymarket →</a></div>`;
+    $('pm-live-area').innerHTML = `<div style="padding:24px;text-align:center"><a href="https://polymarket.com/search?_q=trump" target="_blank" style="color:var(--gold)">${t('Open Polymarket','打開 Polymarket','Polymarketを開く')} →</a></div>`;
   }
 }
 
