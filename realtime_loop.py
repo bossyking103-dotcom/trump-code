@@ -677,7 +677,21 @@ def run_once() -> dict[str, Any]:
     else:
         log("   沒有新推文")
 
-    # 4. 驗證過去的預測
+    # 4. 事件醞釀偵測（看前幾天的模式）
+    try:
+        from event_detector import detect_events
+        event_alerts = detect_events()
+        if event_alerts:
+            for alert in event_alerts:
+                icon = '🔴' if alert['severity'] == 'HIGH' else '🟡'
+                log(f"   {icon} 醞釀偵測: {alert['name']} → {alert['expected_direction']}")
+            result['event_alerts'] = event_alerts
+    except ImportError:
+        pass
+    except Exception as e:
+        log(f"   事件偵測失敗: {e}")
+
+    # 5. 驗證過去的預測
     verify_result = verify_predictions()
     result['verified'] = verify_result.get('newly_verified', 0)
 
