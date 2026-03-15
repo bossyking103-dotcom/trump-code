@@ -883,6 +883,101 @@ class ChatHandler(BaseHTTPRequestHandler):
                 'models': 11,
             })
 
+        elif self.path == '/api/polymarket-trump':
+            # 即時搜尋：用 /public-search API（Polymarket 官方文件確認）
+            try:
+                search_params = urllib.parse.urlencode({
+                    'q': 'trump',
+                    'limit_per_type': 15,
+                    'events_status': 'active',
+                })
+                search_url = f"https://gamma-api.polymarket.com/public-search?{search_params}"
+                req = urllib.request.Request(search_url, headers={'User-Agent': 'TrumpCode/1.0'})
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    data = json.loads(resp.read().decode('utf-8'))
+
+                events = data.get('events') or []
+                items = []
+                for ev in events:
+                    title = ev.get('title', '')
+                    slug = ev.get('slug', '')
+                    mkts = ev.get('markets', [])
+                    vol = sum(float(m.get('volumeNum', 0) or 0) for m in mkts)
+                    yes_price = 0
+                    liq = 0
+                    if mkts:
+                        m0 = mkts[0]
+                        liq = float(m0.get('liquidityNum', 0) or 0)
+                        outcomes = m0.get('outcomePrices', '')
+                        if isinstance(outcomes, str) and outcomes:
+                            try:
+                                prices = json.loads(outcomes)
+                                if prices:
+                                    yes_price = float(prices[0])
+                            except (json.JSONDecodeError, ValueError):
+                                pass
+                    items.append({
+                        'question': title,
+                        'yes_price': yes_price,
+                        'no_price': round(1 - yes_price, 4) if yes_price else 0,
+                        'liquidity': liq,
+                        'volume': vol,
+                        'slug': slug,
+                        'url': f'https://polymarket.com/event/{slug}' if slug else '',
+                        'sub_markets': len(mkts),
+                    })
+                items.sort(key=lambda x: x['volume'], reverse=True)
+                pagination = data.get('pagination', {})
+                self._json_response(200, {
+                    'markets': items[:15],
+                    'total': pagination.get('totalResults', len(items)),
+                    'source': 'public-search',
+                })
+            except Exception as e:
+                self._json_response(200, {'markets': [], 'total': 0, 'source': 'error', 'error': str(e)})
+
+        elif self.path == '/api/recent-posts':
+            # 公開端點：最近推文+信號分析（第二任期 2025-01-20 起）
+            posts_data = _load('trump_posts_all.json') or {}
+            all_posts = posts_data.get('posts', [])
+            report = _load('daily_report.json') or {}
+            sc = _load('signal_confidence.json') or {}
+            preds = _load('predictions_log.json') or []
+
+            # 只取第二任期的最近推文
+            recent = [p for p in all_posts
+                      if (p.get('created_at') or '') >= '2025-01-20']
+            recent.sort(key=lambda x: x.get('created_at', ''), reverse=True)
+            recent = recent[:20]  # 最近 20 篇
+
+            # 拿最近的 predictions 做信號對照
+            recent_preds = {}
+            if isinstance(preds, list):
+                for p in preds[-30:]:
+                    d = p.get('date_signal', '')
+                    if d not in recent_preds:
+                        recent_preds[d] = p.get('day_summary', {})
+
+            # 組合回傳
+            items = []
+            for p in recent:
+                date = (p.get('created_at') or '')[:10]
+                items.append({
+                    'date': p.get('created_at', ''),
+                    'text': (p.get('content') or p.get('text', ''))[:300],
+                    'url': p.get('url', ''),
+                    'source': p.get('source', 'truth_social'),
+                    'signals': recent_preds.get(date, {}),
+                })
+
+            self._json_response(200, {
+                'posts': items,
+                'total': len(items),
+                'today_signals': report.get('signals_detected', []),
+                'today_consensus': report.get('direction_summary', {}).get('consensus', '?'),
+                'signal_confidence': sc,
+            })
+
         else:
             self.send_response(404)
             self.end_headers()
