@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 BASE = Path(__file__).parent
+DATA = BASE / "data"
 
 with open(BASE / "clean_president.json", 'r') as f:
     posts = json.load(f)
@@ -157,7 +158,7 @@ results = {
     'avg_daily': round(avg_daily, 1),
     'avg_interval_minutes': round(sum(intervals_min)/len(intervals_min), 0),
 }
-with open(BASE / 'results_02_timing.json', 'w') as f:
+with open(DATA / 'results_02_timing.json', 'w') as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 print(f"\n💾 詳細結果存入 results_02_timing.json")

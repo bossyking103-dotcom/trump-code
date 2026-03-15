@@ -11,6 +11,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 BASE = Path(__file__).parent
+DATA = BASE / "data"
 
 with open(BASE / "clean_president.json", 'r') as f:
     posts = json.load(f)
@@ -208,7 +209,7 @@ results = {
         'outliers_short': len(outliers_short),
     }
 }
-with open(BASE / 'results_05_anomaly.json', 'w') as f:
+with open(DATA / 'results_05_anomaly.json', 'w') as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 print(f"\n💾 詳細結果存入 results_05_anomaly.json")

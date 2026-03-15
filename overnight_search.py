@@ -72,8 +72,6 @@ except Exception as e:
 # 下載股市資料
 log("   下載股市資料...")
 try:
-    import subprocess
-    subprocess.run(['pip3', 'install', 'yfinance', '--quiet'], capture_output=True)
     import yfinance as yf
     sp = yf.download('^GSPC', start='2025-01-17', end='2026-03-16', progress=False)
     sp500 = []
@@ -86,7 +84,7 @@ try:
     log(f"   S&P500: {len(sp500)} 交易日")
 except Exception as e:
     log(f"   ⚠️ yfinance 失敗，用本地: {e}")
-    with open(BASE / "market_SP500.json") as f:
+    with open(BASE / "data" / "market_SP500.json") as f:
         sp500 = json.load(f)
 
 sp_by_date = {r['date']: r for r in sp500}
@@ -430,7 +428,7 @@ log(f"   最終存活: {len(winners)} 組")
 winners.sort(key=lambda w: (-w['combined_score'], -w['train_avg'] - w['test_avg']))
 
 # 存完整結果
-with open(BASE / 'overnight_results.json', 'w') as f:
+with open(BASE / 'data' / 'overnight_results.json', 'w') as f:
     json.dump({
         'meta': {
             'total_tested': tested,
@@ -458,7 +456,7 @@ for w in winners[:100]:
         'score': w['combined_score'],
     })
 
-with open(BASE / 'monitor_rules.json', 'w') as f:
+with open(BASE / 'data' / 'monitor_rules.json', 'w') as f:
     json.dump(monitor_rules, f, ensure_ascii=False, indent=2)
 
 # 打印 Top 30

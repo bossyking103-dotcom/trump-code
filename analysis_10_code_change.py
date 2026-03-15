@@ -21,7 +21,9 @@ originals = sorted(
     key=lambda p: p['created_at']
 )
 
-with open(BASE / "market_SP500.json", 'r') as f:
+DATA = BASE / "data"
+
+with open(DATA / "market_SP500.json", 'r') as f:
     sp500 = json.load(f)
 sp_by_date = {r['date']: r for r in sp500}
 
@@ -333,7 +335,7 @@ for q in sorted(quarterly.keys()):
 
 
 # 存結果
-with open(BASE / 'results_10_codechange.json', 'w') as f:
+with open(DATA / 'results_10_codechange.json', 'w') as f:
     json.dump({
         'monthly_dna': monthly_dna,
         'keyword_first': keyword_first_appearance,

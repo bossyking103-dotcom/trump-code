@@ -17,10 +17,12 @@ BASE = Path(__file__).parent
 with open(BASE / "clean_president.json", 'r') as f:
     posts = json.load(f)
 
-with open(BASE / "market_SP500.json", 'r') as f:
+DATA = BASE / "data"
+
+with open(DATA / "market_SP500.json", 'r') as f:
     sp500 = json.load(f)
 
-with open(BASE / "market_NASDAQ.json", 'r') as f:
+with open(DATA / "market_NASDAQ.json", 'r') as f:
     nasdaq = json.load(f)
 
 sp_by_date = {r['date']: r for r in sp500}
@@ -387,7 +389,7 @@ results = {
     'daily_scores': {d: {'score': s['score'], 'components': s['components']}
                      for d, s in daily_scores.items()},
 }
-with open(BASE / 'results_09_combo.json', 'w') as f:
+with open(DATA / 'results_09_combo.json', 'w') as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 print(f"\n💾 結果存入 results_09_combo.json")

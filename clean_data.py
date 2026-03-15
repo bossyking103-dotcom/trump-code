@@ -20,7 +20,8 @@ CLEAN_CSV = BASE_DIR / "clean_all.csv"
 CLEAN_JSON = BASE_DIR / "clean_all.json"
 PRESIDENT_CSV = BASE_DIR / "clean_president.csv"  # 就任後
 PRESIDENT_JSON = BASE_DIR / "clean_president.json"
-STATS_FILE = BASE_DIR / "data_stats.json"
+DATA_DIR = BASE_DIR / "data"
+STATS_FILE = DATA_DIR / "data_stats.json"
 
 # 就任日期 (第二任)
 INAUGURATION = "2025-01-20T00:00:00.000Z"
@@ -156,10 +157,10 @@ def main():
             'entity_fixed': entity_fixed,
         },
         'files': {
-            'clean_all_csv': str(CLEAN_CSV),
-            'clean_all_json': str(CLEAN_JSON),
-            'clean_president_csv': str(PRESIDENT_CSV),
-            'clean_president_json': str(PRESIDENT_JSON),
+            'clean_all_csv': CLEAN_CSV.name,
+            'clean_all_json': CLEAN_JSON.name,
+            'clean_president_csv': PRESIDENT_CSV.name,
+            'clean_president_json': PRESIDENT_JSON.name,
         }
     }
 

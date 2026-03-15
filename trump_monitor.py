@@ -21,8 +21,9 @@ from pathlib import Path
 
 BASE = Path(__file__).parent
 ARCHIVE_URL = "https://ix.cnn.io/data/truth-social/truth_archive.csv"
-PREDICTIONS_FILE = BASE / "predictions_log.json"
-SCORES_FILE = BASE / "prediction_scores.json"
+DATA = BASE / "data"
+PREDICTIONS_FILE = DATA / "predictions_log.json"
+SCORES_FILE = DATA / "prediction_scores.json"
 ALERTS_FILE = BASE / "alerts_log.json"
 LAST_POST_FILE = BASE / "last_seen_post.txt"
 
@@ -427,7 +428,7 @@ def run_backtest():
     with open(BASE / "clean_president.json") as f:
         posts = json.load(f)
 
-    with open(BASE / "market_SP500.json") as f:
+    with open(DATA / "market_SP500.json") as f:
         sp500 = json.load(f)
 
     sp_by_date = {r['date']: r for r in sp500}

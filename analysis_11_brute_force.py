@@ -17,7 +17,9 @@ BASE = Path(__file__).parent
 with open(BASE / "clean_president.json") as f:
     posts = json.load(f)
 
-with open(BASE / "market_SP500.json") as f:
+DATA = BASE / "data"
+
+with open(DATA / "market_SP500.json") as f:
     sp500 = json.load(f)
 
 sp_by_date = {r['date']: r for r in sp500}
@@ -380,7 +382,7 @@ output = {
     'feature_frequency': dict(sorted(feature_freq.items(), key=lambda x: -x[1])[:20]),
 }
 
-with open(BASE / 'results_11_bruteforce.json', 'w') as f:
+with open(DATA / 'results_11_bruteforce.json', 'w') as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 
 print(f"\n💾 結果存入 results_11_bruteforce.json")

@@ -10,6 +10,7 @@ from collections import Counter
 from pathlib import Path
 
 BASE = Path(__file__).parent
+DATA = BASE / "data"
 
 with open(BASE / "clean_president.json", 'r') as f:
     posts = json.load(f)
@@ -145,7 +146,7 @@ results = {
                        for m, v in monthly.items()},
     'sentiment': {'positive': pos_count, 'negative': neg_count, 'action': act_count},
 }
-with open(BASE / 'results_01_caps.json', 'w') as f:
+with open(DATA / 'results_01_caps.json', 'w') as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 print(f"\n💾 詳細結果存入 results_01_caps.json")

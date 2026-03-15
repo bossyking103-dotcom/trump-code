@@ -17,16 +17,18 @@ BASE = Path(__file__).parent
 with open(BASE / "clean_president.json", 'r') as f:
     posts = json.load(f)
 
-with open(BASE / "market_SP500.json", 'r') as f:
+DATA = BASE / "data"
+
+with open(DATA / "market_SP500.json", 'r') as f:
     sp500 = json.load(f)
 
-with open(BASE / "market_VIX.json", 'r') as f:
+with open(DATA / "market_VIX.json", 'r') as f:
     vix = json.load(f)
 
-with open(BASE / "market_DOW.json", 'r') as f:
+with open(DATA / "market_DOW.json", 'r') as f:
     dow = json.load(f)
 
-with open(BASE / "market_NASDAQ.json", 'r') as f:
+with open(DATA / "market_NASDAQ.json", 'r') as f:
     nasdaq = json.load(f)
 
 # 建立日期索引
@@ -431,7 +433,7 @@ results = {
     'biggest_drops': [{'date': d['date'], 'return': round(d['return'], 2)} for d in daily_returns[:10]],
     'biggest_gains': [{'date': d['date'], 'return': round(d['return'], 2)} for d in daily_returns[-10:]],
 }
-with open(BASE / 'results_06_market.json', 'w') as f:
+with open(DATA / 'results_06_market.json', 'w') as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 print(f"\n💾 詳細結果存入 results_06_market.json")

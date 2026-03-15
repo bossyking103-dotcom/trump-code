@@ -10,6 +10,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 BASE = Path(__file__).parent
+DATA = BASE / "data"
 
 with open(BASE / "clean_president.json", 'r') as f:
     posts = json.load(f)
@@ -203,7 +204,7 @@ results = {
     'topic_counts': topic_counts,
     'topic_monthly': {k: dict(v) for k, v in topic_monthly.items()},
 }
-with open(BASE / 'results_04_entities.json', 'w') as f:
+with open(DATA / 'results_04_entities.json', 'w') as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 print(f"\n💾 詳細結果存入 results_04_entities.json")

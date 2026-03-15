@@ -18,9 +18,9 @@
     "entity_fixed": 1222
   },
   "files": {
-    "clean_all_csv": "./clean_all.csv",
-    "clean_all_json": "./clean_all.json",
-    "clean_president_csv": "./clean_president.csv",
-    "clean_president_json": "./clean_president.json"
+    "clean_all_csv": "clean_all.csv",
+    "clean_all_json": "clean_all.json",
+    "clean_president_csv": "clean_president.csv",
+    "clean_president_json": "clean_president.json"
   }
 }

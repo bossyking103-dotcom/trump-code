@@ -93,7 +93,7 @@ def fetch_market():
             })
 
         # 存檔
-        with open(BASE / 'market_SP500.json', 'w') as f:
+        with open(DATA / 'market_SP500.json', 'w') as f:
             json.dump(records, f, indent=2)
 
         log(f"   ✅ S&P500: {len(records)} 交易日，最新 {records[-1]['date']}")
@@ -101,7 +101,7 @@ def fetch_market():
 
     except Exception as e:
         log(f"   ⚠️ yfinance 失敗，用本地: {e}")
-        with open(BASE / 'market_SP500.json') as f:
+        with open(DATA / 'market_SP500.json') as f:
             records = json.load(f)
         return {r['date']: r for r in records}
 
@@ -378,8 +378,17 @@ def sync_to_github():
     log("🔄 6/6 同步到 GitHub...")
     try:
         os.chdir(BASE)
+
+        # 安全檢查：確認不會 push 敏感檔案
+        status = subprocess.run(['git', 'status', '--porcelain'],
+                               capture_output=True, text=True)
+        for line in status.stdout.splitlines():
+            fname = line.strip().split()[-1] if line.strip() else ''
+            if any(s in fname for s in ['.env', '.key', '.pem', 'credential']):
+                log(f"   ⛔ 偵測到敏感檔案 {fname}，中止 push")
+                return
+
         subprocess.run(['git', 'add', 'data/'], capture_output=True)
-        subprocess.run(['git', 'add', 'market_SP500.json'], capture_output=True)
 
         result = subprocess.run(
             ['git', 'commit', '-m', f'Daily update: {TODAY} | Auto-synced from VPS'],
@@ -398,7 +407,7 @@ def sync_to_github():
         if push.returncode == 0:
             log("   ✅ GitHub 同步完成")
         else:
-            log(f"   ⚠️ Push 失敗: {push.stderr[:100]}")
+            log(f"   ⚠️ Push 失敗: {push.stderr[:200]}")
 
     except Exception as e:
         log(f"   ⚠️ 同步失敗: {e}")
@@ -445,7 +454,7 @@ def main():
     log(f"   關鍵信號: {', '.join(key) or '無'}")
 
     # 4. 載入存活規則，跑預測
-    rules_file = BASE / 'monitor_rules.json'
+    rules_file = DATA / 'monitor_rules.json'
     if rules_file.exists():
         with open(rules_file) as f:
             rules = json.load(f)
