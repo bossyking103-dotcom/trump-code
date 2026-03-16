@@ -69,6 +69,7 @@ a:hover {
 }
 
 .header {
+  position: relative;
   text-align: center;
   padding-top: 28px;
   padding-bottom: 18px;
@@ -85,6 +86,31 @@ a:hover {
   margin: 10px 0 0;
   color: var(--muted);
   font-size: 0.98rem;
+}
+
+.lang-switcher {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: inline-flex;
+  gap: 6px;
+}
+
+.lang-btn {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.lang-btn.active {
+  border-color: var(--gold);
+  color: var(--gold);
 }
 
 .section-title {
@@ -393,6 +419,170 @@ tbody tr.highlight {
 const app = document.getElementById('app');
 const toast = document.getElementById('toast');
 const STORAGE_PREFIX = 'trump-code-game-vote:';
+const I18N = {
+  en: {
+    title: 'Trump Code Game',
+    subtitle: 'AI vs Crowd — Can you beat 61.3% hit rate?',
+    yourPrediction: 'Your Prediction?',
+    bull: 'Bull',
+    bear: 'Bear',
+    flat: 'Flat',
+    nickname: 'Nickname (optional)',
+    voted: 'Voted',
+    liveVoteBars: 'Live Vote Bars',
+    votes: 'votes',
+    countdown: 'Countdown',
+    votingEndsIn: 'Voting ends in',
+    votingClosed: 'Voting closed',
+    result: 'Result',
+    correct: 'Correct',
+    wrong: 'Wrong',
+    aiVsCrowd: 'AI vs Crowd',
+    rounds: 'rounds',
+    hitRate: 'Hit Rate',
+    leaderboard: 'Leaderboard',
+    rank: '#',
+    player: 'Player',
+    score: 'Score',
+    wins: 'Wins',
+    streak: 'Streak',
+    noPlayers: 'No players yet — be the first!',
+    waitingTitle: 'Waiting for Trump to post...',
+    waitingDesc: 'A new round starts when a signal is detected.',
+    expiredTitle: 'Round expired — waiting for market data...',
+    expiredDesc: 'Results will appear once SPY data is verified, or a new signal arrives.',
+    aiSays: 'AI says',
+    poweredBy: 'Powered by Trump Code — 31.5M models tested',
+    signalCard: 'Signal',
+    noTags: 'No tags',
+    noPostPreview: 'No post preview available.',
+    na: 'N/A',
+    unknown: 'Unknown',
+    lessThanHourAgo: 'Less than 1 hour ago',
+    hoursAgoSuffix: ' hours ago',
+    daysAgoSuffix: ' days ago',
+    resolving: 'resolving...',
+    roundResolved: 'Round resolved',
+    waitingVerificationData: 'Waiting for verification data',
+    votingClosesAt: 'Voting closes at',
+    source: 'Source',
+    pending: 'Pending',
+    noConsensus: 'No consensus',
+    ai: 'AI',
+    crowd: 'Crowd',
+    anon: 'anon',
+    connectionLostRetrying: 'Connection lost, retrying...',
+    voteFailed: 'Vote failed'
+  },
+  zh: {
+    title: '川普密碼遊戲',
+    subtitle: 'AI vs 群眾 — 你能打敗 61.3% 的命中率嗎？',
+    yourPrediction: '你的預測？',
+    bull: '看漲',
+    bear: '看跌',
+    flat: '持平',
+    nickname: '暱稱（選填）',
+    voted: '已投票',
+    liveVoteBars: '即時投票',
+    votes: '票',
+    countdown: '倒數計時',
+    votingEndsIn: '投票截止',
+    votingClosed: '投票已結束',
+    result: '結果',
+    correct: '正確',
+    wrong: '錯誤',
+    aiVsCrowd: 'AI vs 群眾',
+    rounds: '局',
+    hitRate: '命中率',
+    leaderboard: '排行榜',
+    rank: '#',
+    player: '玩家',
+    score: '積分',
+    wins: '勝場',
+    streak: '連勝',
+    noPlayers: '還沒有玩家 — 成為第一個！',
+    waitingTitle: '等待川普發文中...',
+    waitingDesc: '偵測到新信號就會開新局。',
+    expiredTitle: '本局已結束 — 等待市場數據...',
+    expiredDesc: '收到 SPY 驗證數據後公布結果，或等新信號開新局。',
+    aiSays: 'AI 預測',
+    poweredBy: '川普密碼驅動 — 3150 萬個模型實測',
+    signalCard: '信號',
+    noTags: '沒有標籤',
+    noPostPreview: '目前沒有可顯示的貼文預覽。',
+    na: 'N/A',
+    unknown: '未知',
+    lessThanHourAgo: '1 小時內',
+    hoursAgoSuffix: ' 小時前',
+    daysAgoSuffix: ' 天前',
+    resolving: '等待結算...',
+    roundResolved: '本局已結算',
+    waitingVerificationData: '等待驗證數據',
+    votingClosesAt: '投票截止於',
+    source: '來源',
+    pending: '待定',
+    noConsensus: '尚無共識',
+    ai: 'AI',
+    crowd: '群眾',
+    anon: '匿名',
+    connectionLostRetrying: '連線中斷，正在重試...',
+    voteFailed: '投票失敗'
+  },
+  ja: {
+    title: 'トランプ・コード・ゲーム',
+    subtitle: 'AI vs 群衆 — 61.3%のAIに勝てるか？',
+    yourPrediction: 'あなたの予想は？',
+    bull: '上昇',
+    bear: '下落',
+    flat: '横ばい',
+    nickname: 'ニックネーム（任意）',
+    voted: '投票済み',
+    liveVoteBars: 'リアルタイム投票',
+    votes: '票',
+    countdown: 'カウントダウン',
+    votingEndsIn: '投票締切まで',
+    votingClosed: '投票終了',
+    result: '結果',
+    correct: '正解',
+    wrong: '不正解',
+    aiVsCrowd: 'AI vs 群衆',
+    rounds: 'ラウンド',
+    hitRate: '的中率',
+    leaderboard: 'ランキング',
+    rank: '#',
+    player: 'プレイヤー',
+    score: 'スコア',
+    wins: '勝利',
+    streak: '連勝',
+    noPlayers: 'まだプレイヤーがいません — 最初の一人に！',
+    waitingTitle: 'トランプの投稿を待機中...',
+    waitingDesc: 'シグナルを検出すると新ラウンドが始まります。',
+    expiredTitle: 'ラウンド終了 — 市場データ待ち...',
+    expiredDesc: 'SPY検証データ受信後に結果を公開、または新シグナルで次のラウンドへ。',
+    aiSays: 'AI予測',
+    poweredBy: 'トランプ・コード — 3150万モデル検証済み',
+    signalCard: 'シグナル',
+    noTags: 'タグなし',
+    noPostPreview: '表示できる投稿プレビューがありません。',
+    na: 'N/A',
+    unknown: '不明',
+    lessThanHourAgo: '1時間未満',
+    hoursAgoSuffix: '時間前',
+    daysAgoSuffix: '日前',
+    resolving: '集計中...',
+    roundResolved: 'ラウンド確定',
+    waitingVerificationData: '検証データ待ち',
+    votingClosesAt: '投票締切',
+    source: 'ソース',
+    pending: '保留',
+    noConsensus: 'コンセンサスなし',
+    ai: 'AI',
+    crowd: '群衆',
+    anon: '匿名',
+    connectionLostRetrying: '接続が切れました。再試行中...',
+    voteFailed: '投票に失敗しました'
+  }
+};
 const SIGNAL_COLORS = {
   TARIFF: '#ef4444',
   DEAL: '#22c55e',
@@ -403,9 +593,9 @@ const SIGNAL_COLORS = {
   BEARISH: '#ef4444'
 };
 const VOTE_META = {
-  UP: { label: 'BULL', emoji: '📈', css: 'green', color: '#22c55e' },
-  DOWN: { label: 'BEAR', emoji: '📉', css: 'red', color: '#ef4444' },
-  FLAT: { label: 'FLAT', emoji: '😐', css: 'gray', color: '#94a3b8' }
+  UP: { labelKey: 'bull', emoji: '📈', css: 'green', color: '#22c55e' },
+  DOWN: { labelKey: 'bear', emoji: '📉', css: 'red', color: '#ef4444' },
+  FLAT: { labelKey: 'flat', emoji: '😐', css: 'gray', color: '#94a3b8' }
 };
 
 const state = {
@@ -417,8 +607,19 @@ const state = {
   countdownTimer: null,
   toastTimer: null,
   lastGamePollInterval: null,
-  lastRenderSignature: ''
+  lastRenderSignature: '',
+  lang: localStorage.getItem('trumpcode-lang') || 'en'
 };
+
+function t(key) {
+  return I18N[state.lang || 'en'][key] || I18N.en[key] || key;
+}
+
+function setLang(lang) {
+  state.lang = lang;
+  localStorage.setItem('trumpcode-lang', lang);
+  renderApp(true);
+}
 
 function escapeHtml(value) {
   return String(value == null ? '' : value)
@@ -468,7 +669,7 @@ function showToast(message) {
   state.toastTimer = setTimeout(() => toast.classList.remove('show'), 2600);
 }
 
-async function fetchJson(url, options = {}, fallbackMessage = 'Connection lost, retrying...') {
+async function fetchJson(url, options = {}, fallbackMessage = t('connectionLostRetrying')) {
   try {
     const response = await fetch(url, options);
     let data = {};
@@ -489,7 +690,7 @@ async function fetchJson(url, options = {}, fallbackMessage = 'Connection lost, 
 
 function formatMoney(value) {
   const number = Number(value);
-  if (!Number.isFinite(number)) return 'N/A';
+  if (!Number.isFinite(number)) return t('na');
   return '$' + number.toFixed(2);
 }
 
@@ -501,7 +702,11 @@ function formatPercent(value) {
 }
 
 function formatDirection(direction) {
-  return VOTE_META[direction] || { label: direction || 'N/A', emoji: '•', css: 'gray', color: '#94a3b8' };
+  const meta = VOTE_META[direction];
+  if (!meta) {
+    return { label: direction || t('na'), emoji: '•', css: 'gray', color: '#94a3b8' };
+  }
+  return { ...meta, label: t(meta.labelKey) };
 }
 
 function parseTime(value) {
@@ -525,11 +730,11 @@ function formatCountdown(ms) {
 
 function formatHoursAgo(isoString) {
   const timestamp = parseTime(isoString);
-  if (!timestamp) return 'Unknown';
+  if (!timestamp) return t('unknown');
   const diffHours = Math.max(0, (Date.now() - timestamp) / 3600000);
-  if (diffHours < 1) return 'Less than 1 hour ago';
-  if (diffHours < 24) return diffHours.toFixed(1).replace('.0', '') + ' hours ago';
-  return Math.floor(diffHours / 24) + ' days ago';
+  if (diffHours < 1) return t('lessThanHourAgo');
+  if (diffHours < 24) return diffHours.toFixed(1).replace('.0', '') + t('hoursAgoSuffix');
+  return Math.floor(diffHours / 24) + t('daysAgoSuffix');
 }
 
 function calculatePercentages(votes) {
@@ -567,7 +772,7 @@ function getAiHitRate() {
 
 function renderBadges(signalTypes) {
   const types = Array.isArray(signalTypes) ? signalTypes : [];
-  if (!types.length) return '<div class="muted">No tags</div>';
+  if (!types.length) return '<div class="muted">' + escapeHtml(t('noTags')) + '</div>';
   return types.map((type) => {
     const color = SIGNAL_COLORS[type] || '#64748b';
     return '<span class="badge" style="background:' + color + '22;border-color:' + color + '55;color:' + color + ';">' + escapeHtml(type) + '</span>';
@@ -579,13 +784,13 @@ function renderSignalCard(game) {
   const confidence = Number(game.ai_confidence);
   const confidenceLabel = Number.isFinite(confidence)
     ? Math.round(confidence > 1 ? confidence : confidence * 100) + '%'
-    : 'N/A';
+    : t('na');
   return `
     <section class="panel">
       <div class="badge-row">${renderBadges(game.signal_types)}</div>
-      <p class="preview">"${escapeHtml(clipText(game.post_preview || 'No post preview available.', 200))}"</p>
+      <p class="preview">"${escapeHtml(clipText(game.post_preview || t('noPostPreview'), 200))}"</p>
       <div class="signal-meta">
-        <div class="ai-line" style="color:${ai.color};">🤖 AI says ${ai.emoji} ${ai.label} ${confidenceLabel}</div>
+        <div class="ai-line" style="color:${ai.color};">🤖 ${escapeHtml(t('aiSays'))} ${ai.emoji} ${escapeHtml(ai.label)} ${escapeHtml(confidenceLabel)}</div>
         <div class="spy-line">SPY: ${escapeHtml(formatMoney(game.spy_at_signal))}</div>
       </div>
     </section>
@@ -599,14 +804,14 @@ function renderVoteSection(game) {
   const nickname = escapeHtml(savedVote && savedVote.nickname ? savedVote.nickname : '');
   return `
     <section class="panel">
-      <h2 class="section-title">Your Prediction?</h2>
+      <h2 class="section-title">${escapeHtml(t('yourPrediction'))}</h2>
       <div class="vote-grid">
-        <button class="vote-button green ${selected === 'UP' ? 'selected' : ''}" data-direction="UP" ${disabled ? 'disabled' : ''}>📈 Bull</button>
-        <button class="vote-button red ${selected === 'DOWN' ? 'selected' : ''}" data-direction="DOWN" ${disabled ? 'disabled' : ''}>📉 Bear</button>
-        <button class="vote-button gray ${selected === 'FLAT' ? 'selected' : ''}" data-direction="FLAT" ${disabled ? 'disabled' : ''}>😐 Flat</button>
+        <button class="vote-button green ${selected === 'UP' ? 'selected' : ''}" data-direction="UP" ${disabled ? 'disabled' : ''}>📈 ${escapeHtml(t('bull'))}</button>
+        <button class="vote-button red ${selected === 'DOWN' ? 'selected' : ''}" data-direction="DOWN" ${disabled ? 'disabled' : ''}>📉 ${escapeHtml(t('bear'))}</button>
+        <button class="vote-button gray ${selected === 'FLAT' ? 'selected' : ''}" data-direction="FLAT" ${disabled ? 'disabled' : ''}>😐 ${escapeHtml(t('flat'))}</button>
       </div>
-      <input id="nicknameInput" class="nickname-input" type="text" maxlength="40" placeholder="Nickname (optional)" value="${nickname}" ${disabled ? 'disabled' : ''}>
-      ${selected ? '<div class="vote-confirmation green-text">✅ Voted: ' + escapeHtml(formatDirection(selected).label) + '</div>' : ''}
+      <input id="nicknameInput" class="nickname-input" type="text" maxlength="40" placeholder="${escapeHtml(t('nickname'))}" value="${nickname}" ${disabled ? 'disabled' : ''}>
+      ${selected ? '<div class="vote-confirmation green-text">✅ ' + escapeHtml(t('voted')) + ': ' + escapeHtml(formatDirection(selected).label) + '</div>' : ''}
     </section>
   `;
 }
@@ -620,7 +825,7 @@ function renderVoteBars(game) {
   ];
   return `
     <section class="panel">
-      <h2 class="section-title">Live Vote Bars</h2>
+      <h2 class="section-title">${escapeHtml(t('liveVoteBars'))}</h2>
       <div class="vote-bars">
         ${rows.map((row) => `
           <div class="vote-bar-row">
@@ -630,7 +835,7 @@ function renderVoteBars(game) {
           </div>
         `).join('')}
       </div>
-      <div class="meta-line" style="margin-top:12px;">👥 ${escapeHtml(String(game.total_votes || 0))} votes</div>
+      <div class="meta-line" style="margin-top:12px;">👥 ${escapeHtml(String(game.total_votes || 0))} ${escapeHtml(t('votes'))}</div>
     </section>
   `;
 }
@@ -638,11 +843,11 @@ function renderVoteBars(game) {
 function renderCountdown(game) {
   const remaining = timeRemaining(game.expires_at);
   const expired = remaining === 0;
-  const text = expired ? '⏰ Voting closed — resolving...' : '⏰ ' + formatCountdown(remaining);
+  const text = expired ? '⏰ ' + t('votingClosed') + ' — ' + t('resolving') : '⏰ ' + formatCountdown(remaining);
   return `
     <section class="panel countdown">
       <div class="countdown-value" id="countdownValue">${escapeHtml(text)}</div>
-      <div class="countdown-status" id="countdownStatus">${game.resolved ? 'Round resolved' : expired ? 'Waiting for verification data' : 'Voting closes at ' + escapeHtml(new Date(game.expires_at).toLocaleString())}</div>
+      <div class="countdown-status" id="countdownStatus">${game.resolved ? escapeHtml(t('roundResolved')) : expired ? escapeHtml(t('waitingVerificationData')) : escapeHtml(t('votingClosesAt') + ' ' + new Date(game.expires_at).toLocaleString())}</div>
     </section>
   `;
 }
@@ -651,25 +856,25 @@ function renderResultPanel(game) {
   if (!game.resolved || !game.result) return '';
   const result = game.result;
   const actual = Number(result.spy_change);
-  const actualLabel = formatPercent(actual) || 'N/A';
+  const actualLabel = formatPercent(actual) || t('na');
   const actualClass = actual > 0 ? 'green-text' : actual < 0 ? 'red-text' : 'gray-text';
   const aiDirection = formatDirection(game.ai_direction);
   const crowdDirection = formatDirection(result.crowd_direction || getCrowdDirection(game.votes));
-  const aiOutcome = result.ai_correct === true ? '✅ Correct' : result.ai_correct === false ? '❌ Wrong' : '• Pending';
-  const crowdOutcome = result.crowd_correct === true ? '✅ Correct' : result.crowd_correct === false ? '❌ Wrong' : '• No consensus';
+  const aiOutcome = result.ai_correct === true ? '✅ ' + t('correct') : result.ai_correct === false ? '❌ ' + t('wrong') : '• ' + t('pending');
+  const crowdOutcome = result.crowd_correct === true ? '✅ ' + t('correct') : result.crowd_correct === false ? '❌ ' + t('wrong') : '• ' + t('noConsensus');
   return `
     <section class="panel">
-      <h2 class="section-title">Result</h2>
+      <h2 class="section-title">${escapeHtml(t('result'))}</h2>
       <div class="actual-result ${actualClass}">${escapeHtml(formatDirection(result.actual_direction).emoji)} SPY ${escapeHtml(actualLabel)}</div>
-      <div class="meta-line">Source: ${escapeHtml(result.verify_source || 'N/A')}</div>
+      <div class="meta-line">${escapeHtml(t('source'))}: ${escapeHtml(result.verify_source || t('na'))}</div>
       <div class="result-grid">
         <div class="result-card">
-          <div>🤖 AI</div>
+          <div>🤖 ${escapeHtml(t('ai'))}</div>
           <div style="margin-top:6px;color:${aiDirection.color};font-weight:800;">${aiDirection.emoji} ${escapeHtml(aiDirection.label)}</div>
           <div class="meta-line" style="margin-top:8px;">${escapeHtml(aiOutcome)}</div>
         </div>
         <div class="result-card">
-          <div>👥 Crowd</div>
+          <div>👥 ${escapeHtml(t('crowd'))}</div>
           <div style="margin-top:6px;color:${crowdDirection.color};font-weight:800;">${crowdDirection.emoji} ${escapeHtml(crowdDirection.label)}</div>
           <div class="meta-line" style="margin-top:8px;">${escapeHtml(crowdOutcome)}</div>
         </div>
@@ -682,9 +887,9 @@ function renderScoreboard() {
   const summary = state.leaderboard.ai_vs_crowd || { ai_wins: 0, crowd_wins: 0, total_rounds: 0 };
   return `
     <section class="panel scoreboard">
-      <h2 class="section-title">AI vs Crowd</h2>
-      <div class="scoreline"><span class="ai">🤖 AI ${escapeHtml(String(summary.ai_wins || 0))}</span>  —  <span class="crowd">${escapeHtml(String(summary.crowd_wins || 0))} 👥 Crowd</span>  (${escapeHtml(String(summary.total_rounds || 0))} rounds)</div>
-      <div class="meta-line" style="margin-top:8px;">AI Hit Rate: ${escapeHtml(getAiHitRate())}</div>
+      <h2 class="section-title">${escapeHtml(t('aiVsCrowd'))}</h2>
+      <div class="scoreline"><span class="ai">🤖 ${escapeHtml(t('ai'))} ${escapeHtml(String(summary.ai_wins || 0))}</span>  —  <span class="crowd">${escapeHtml(String(summary.crowd_wins || 0))} 👥 ${escapeHtml(t('crowd'))}</span>  (${escapeHtml(String(summary.total_rounds || 0))} ${escapeHtml(t('rounds'))})</div>
+      <div class="meta-line" style="margin-top:8px;">${escapeHtml(t('ai'))} ${escapeHtml(t('hitRate'))}: ${escapeHtml(getAiHitRate())}</div>
     </section>
   `;
 }
@@ -695,16 +900,16 @@ function renderLeaderboard(game) {
   const votedNickname = savedVote && savedVote.nickname ? savedVote.nickname.trim().toLowerCase() : '';
   return `
     <section class="panel">
-      <h2 class="section-title">Leaderboard</h2>
+      <h2 class="section-title">${escapeHtml(t('leaderboard'))}</h2>
       <div class="table-wrap">
         <table>
           <thead>
             <tr>
-              <th>#</th>
-              <th>Player</th>
-              <th>Score</th>
-              <th>Wins</th>
-              <th>Streak</th>
+              <th>${escapeHtml(t('rank'))}</th>
+              <th>${escapeHtml(t('player'))}</th>
+              <th>${escapeHtml(t('score'))}</th>
+              <th>${escapeHtml(t('wins'))}</th>
+              <th>${escapeHtml(t('streak'))}</th>
             </tr>
           </thead>
           <tbody>
@@ -715,13 +920,13 @@ function renderLeaderboard(game) {
               return `
                 <tr class="${highlight}">
                   <td class="${rankClass}">${escapeHtml(String(rank))}</td>
-                  <td>${escapeHtml(player.nickname || 'anon')}</td>
+                  <td>${escapeHtml(player.nickname || t('anon'))}</td>
                   <td>${escapeHtml(String(player.score || 0))}</td>
                   <td>${escapeHtml(String(player.wins || 0))}</td>
                   <td>${escapeHtml(String(player.streak || 0))}</td>
                 </tr>
               `;
-            }).join('') : '<tr><td colspan="5" class="empty">No players yet.</td></tr>'}
+            }).join('') : '<tr><td colspan="5" class="empty">' + escapeHtml(t('noPlayers')) + '</td></tr>'}
           </tbody>
         </table>
       </div>
@@ -730,12 +935,13 @@ function renderLeaderboard(game) {
 }
 
 function renderWaitingState() {
-  const lastSignalAge = state.latestSignal?.created_at ? formatHoursAgo(state.latestSignal.created_at) : 'Unknown';
+  const lastSignalAge = state.latestSignal?.created_at ? formatHoursAgo(state.latestSignal.created_at) : t('unknown');
   return `
     <section class="panel waiting">
       <div class="waiting-icon">⏳</div>
-      <h2 class="section-title" style="margin-bottom:6px;">Waiting for Trump to post...</h2>
-      <div class="muted">Last signal was ${escapeHtml(lastSignalAge)}</div>
+      <h2 class="section-title" style="margin-bottom:6px;">${escapeHtml(t('waitingTitle'))}</h2>
+      <div class="muted">${escapeHtml(t('waitingDesc'))}</div>
+      <div class="muted" style="margin-top:6px;">${escapeHtml(lastSignalAge)}</div>
     </section>
   `;
 }
@@ -744,7 +950,7 @@ function renderFooter() {
   return `
     <footer class="footer">
       <div><a href="https://trumpcode.washinmura.jp/" target="_blank" rel="noreferrer">trumpcode.washinmura.jp</a> · <a href="https://github.com/sstklen/trump-code" target="_blank" rel="noreferrer">github.com/sstklen/trump-code</a></div>
-      <p>Powered by Trump Code — 31.5M models tested</p>
+      <p>${escapeHtml(t('poweredBy'))}</p>
     </footer>
   `;
 }
@@ -763,7 +969,8 @@ function getRenderSignature() {
     players: leaderboard.players,
     summary: leaderboard.ai_vs_crowd,
     latestSignal: state.latestSignal?.created_at,
-    savedVote: vote
+    savedVote: vote,
+    lang: state.lang
   });
 }
 
@@ -771,10 +978,12 @@ function renderApp(force = false) {
   const signature = getRenderSignature();
   if (!force && signature === state.lastRenderSignature) return;
   state.lastRenderSignature = signature;
+  document.title = t('title');
+  document.documentElement.lang = state.lang || 'en';
 
   const game = state.game;
   const parts = [
-    '<section class="panel header"><h1>🔐 Trump Code Game</h1><p class="subtitle">AI vs Crowd — Can you beat 61.3% hit rate?</p></section>'
+    '<section class="panel header"><div class="lang-switcher"><button class="lang-btn ' + (state.lang === 'en' ? 'active' : '') + '" data-lang="en">EN</button><button class="lang-btn ' + (state.lang === 'zh' ? 'active' : '') + '" data-lang="zh">中</button><button class="lang-btn ' + (state.lang === 'ja' ? 'active' : '') + '" data-lang="ja">日</button></div><h1>🔐 ' + escapeHtml(t('title')) + '</h1><p class="subtitle">' + escapeHtml(t('subtitle')) + '</p></section>'
   ];
 
   if (game && game.active) {
@@ -787,7 +996,7 @@ function renderApp(force = false) {
     } else if (expired) {
       // 過期但未開獎 → 等待開獎或等新信號
       parts.push(renderVoteBars(game));
-      parts.push('<section class="panel" style="text-align:center;padding:24px"><div style="font-size:32px">⏳</div><p style="color:var(--gold);font-size:18px;margin:8px 0">Round expired — waiting for market data...</p><p style="color:var(--muted);font-size:13px">Results will appear once SPY data is verified, or a new signal arrives.</p></section>');
+      parts.push('<section class="panel" style="text-align:center;padding:24px"><div style="font-size:32px">⏳</div><p style="color:var(--gold);font-size:18px;margin:8px 0">' + escapeHtml(t('expiredTitle')) + '</p><p style="color:var(--muted);font-size:13px">' + escapeHtml(t('expiredDesc')) + '</p></section>');
     } else {
       // 進行中 → 可以投票
       parts.push(renderVoteSection(game));
@@ -812,8 +1021,8 @@ function updateCountdownDisplay() {
   if (!countdownValue || !game || !game.active) return;
 
   if (game.resolved) {
-    countdownValue.textContent = '⏰ Voting closed — resolved';
-    if (countdownStatus) countdownStatus.textContent = 'Round resolved';
+    countdownValue.textContent = '⏰ ' + t('votingClosed') + ' — ' + t('roundResolved');
+    if (countdownStatus) countdownStatus.textContent = t('roundResolved');
     return;
   }
 
@@ -824,14 +1033,14 @@ function updateCountdownDisplay() {
   }
 
   if (remaining === 0) {
-    countdownValue.textContent = '⏰ Voting closed — resolving...';
-    if (countdownStatus) countdownStatus.textContent = 'Waiting for verification data';
+    countdownValue.textContent = '⏰ ' + t('votingClosed') + ' — ' + t('resolving');
+    if (countdownStatus) countdownStatus.textContent = t('waitingVerificationData');
     if (state.lastGamePollInterval !== 5000) {
       scheduleGamePoll();
     }
   } else {
     countdownValue.textContent = '⏰ ' + formatCountdown(remaining);
-    if (countdownStatus) countdownStatus.textContent = 'Voting closes at ' + new Date(game.expires_at).toLocaleString();
+    if (countdownStatus) countdownStatus.textContent = t('votingClosesAt') + ' ' + new Date(game.expires_at).toLocaleString();
   }
 }
 
@@ -848,6 +1057,9 @@ function bindVoteButtons() {
   document.querySelectorAll('.vote-button[data-direction]').forEach((button) => {
     button.addEventListener('click', () => submitVote(button.dataset.direction));
   });
+  document.querySelectorAll('.lang-btn').forEach((btn) => {
+    btn.addEventListener('click', () => setLang(btn.dataset.lang));
+  });
 }
 
 async function submitVote(direction) {
@@ -861,7 +1073,7 @@ async function submitVote(direction) {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ direction, nickname })
-    }, 'Vote failed');
+    }, t('voteFailed'));
     saveVote(game.signal_id, { direction: data.direction, nickname, signal_id: data.signal_id, voted_at: new Date().toISOString() });
     await refreshGameState({ forceRender: true });
   } catch (error) {
