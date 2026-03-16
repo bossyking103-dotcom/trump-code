@@ -1477,14 +1477,32 @@ async function loadPosts() {
       const date = (p.date || '').replace('T', ' ').slice(0, 16);
       const text = p.text || '';
       const url = p.url || '';
-      const src = p.source === 'x' ? 'X (Twitter)' : 'Truth Social';
+      const src = p.source === 'x_api' ? 'X (Twitter)' : p.source === 'trumpstruth' ? 'TrumpStruth' : 'Truth Social';
       const daySigs = p.signals || {};
 
-      // 從 day_summary 提取信號標籤
+      // 從信號資料提取標籤（支援每日管線 + 即時引擎兩種格式）
       const sigTags = [];
-      for (const [k, v] of Object.entries(daySigs)) {
-        if (typeof v === 'number' && v > 0 && SIG_LABELS[k.toUpperCase()]) {
-          sigTags.push(`<span class="sig-tag">${SIG_LABELS[k.toUpperCase()]} ×${v}</span>`);
+      if (daySigs.source === 'realtime') {
+        // 即時引擎格式：rt_signals 是陣列，有方向和信心度
+        const rtSigs = daySigs.rt_signals || [];
+        rtSigs.forEach(s => {
+          if (SIG_LABELS[s]) sigTags.push(`<span class="sig-tag">${SIG_LABELS[s]}</span>`);
+        });
+        const dir = daySigs.rt_direction;
+        const conf = daySigs.rt_confidence;
+        if (dir && conf) {
+          const dirIcon = dir === 'UP' ? '📈' : dir === 'DOWN' ? '📉' : '➡️';
+          const dirText = dir === 'UP' ? t('Bull','看多','強気') : dir === 'DOWN' ? t('Bear','看空','弱気') : t('Neutral','中性','中立');
+          sigTags.push(`<span class="sig-tag" style="background:${dir==='UP'?'rgba(34,197,94,0.15);color:#22c55e':dir==='DOWN'?'rgba(239,68,68,0.15);color:#ef4444':'rgba(255,255,255,0.1);color:var(--text-dim)'}">${dirIcon} ${dirText} ${Math.round(conf*100)}%</span>`);
+        }
+        const st = daySigs.rt_status;
+        if (st === 'LIVE') sigTags.push(`<span class="sig-tag" style="background:rgba(255,215,0,0.1);color:var(--gold)">⏱ LIVE</span>`);
+      } else {
+        // 每日管線格式：{ key: number }
+        for (const [k, v] of Object.entries(daySigs)) {
+          if (typeof v === 'number' && v > 0 && SIG_LABELS[k.toUpperCase()]) {
+            sigTags.push(`<span class="sig-tag">${SIG_LABELS[k.toUpperCase()]} ×${v}</span>`);
+          }
         }
       }
 
