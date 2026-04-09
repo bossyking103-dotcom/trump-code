@@ -1,12 +1,12 @@
 {
   "date": "2026-04-09",
-  "prepared_at": "2026-04-09T18:25:22Z",
+  "prepared_at": "2026-04-09T21:02:14Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "None of these people, including our own, very disappointing, NATO, understood anything unless they have pressure placed upon them!!!",
+    "count": 4,
+    "latest": "I know why Tucker Carlson, Megyn Kelly, Candace Owens, and Alex Jones have all been fighting me for years, especially by the fact that they think it is wonderful for Iran, the Number One State Sponsor",
     "earliest_time": "2026-04-09T02:56:26.208Z",
-    "latest_time": "2026-04-09T12:40:10.826Z",
+    "latest_time": "2026-04-09T20:28:41.817Z",
     "sample": [
       {
         "time": "02:56",
@@ -19,6 +19,10 @@
       {
         "time": "12:40",
         "text": "None of these people, including our own, very disappointing, NATO, understood anything unless they have pressure placed upon them!!!"
+      },
+      {
+        "time": "20:28",
+        "text": "I know why Tucker Carlson, Megyn Kelly, Candace Owens, and Alex Jones have all been fighting me for years, especially by the fact that they think it is wonderful for Iran, the Number One State Sponsor of Terror, to have a Nuclear Weapon — Because they have one thing in common, Low IQs. They're stupi"
       }
     ]
   },
@@ -27,18 +31,24 @@
   ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_long": true,
+    "avg_len_very_long": true,
     "caps_medium": true,
-    "excl_heavy": true,
+    "excl_extreme": true,
     "questions_no": true,
     "has_night": true,
     "kw_agreement": true,
+    "kw_ban": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
+    "kw_jobs": true,
     "kw_great": true,
     "kw_great_2plus": true,
+    "kw_beautiful": true,
+    "kw_wonderful": true,
     "kw_fake": true,
     "kw_fake_2plus": true,
+    "kw_stupid": true,
+    "kw_maga": true,
     "volume_drop": true
   },
   "model_performance": {
@@ -149,41 +159,42 @@
   },
   "evolution_latest": {
     "date": "2026-04-09",
-    "crossover": 16,
-    "mutation": 11,
+    "crossover": 15,
+    "mutation": 10,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 41,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_president_of_the_united_states",
-          "kw_dow_2plus"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 95.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_energy",
-          "open_president_of_the_united_states",
-          "open_dow"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 93.8,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_tremendous",
-          "kw_signed",
-          "kw_thank_you_for_your_attention"
+          "kw_dow_2plus",
+          "kw_deal",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 3,
+        "score": 100.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_beautiful",
+          "open_thank_you_for_your_attention",
+          "open_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 100.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_dow",
+          "kw_beautiful",
+          "kw_president_of_the_united_states"
+        ],
+        "direction": "LONG",
+        "hold": 1,
         "score": 91.7,
         "origin": "crossover"
       }
@@ -193,7 +204,7 @@
     "TARIFF": 0.7,
     "DEAL": 0.55,
     "RELIEF": 0.95,
-    "ACTION": 0.932,
+    "ACTION": 0.945,
     "THREAT": 0.6,
     "CHINA": 0.6,
     "IRAN": 0.55,
