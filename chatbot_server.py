@@ -164,7 +164,7 @@ GAME_PLAYERS_FILE = DATA / "game_players.json"
 GAME_HISTORY_FILE = DATA / "game_history.json"
 GAME_ROUND_HOURS = 6
 
-PORT = 8888
+PORT = 8890
 
 
 def _check_rate_limit(ip: str) -> tuple[str | None, dict]:
