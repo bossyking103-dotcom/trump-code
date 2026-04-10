@@ -659,5 +659,45 @@
         "origin": "crossover"
       }
     ]
+  },
+  {
+    "date": "2026-04-10",
+    "crossover": 16,
+    "mutation": 11,
+    "distill": 18,
+    "total_new": 45,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_economy",
+          "kw_president_of_the_united_states"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 83.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_trillion",
+          "kw_china"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 81.2,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "is_friday",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 81.2,
+        "origin": "crossover"
+      }
+    ]
   }
 ]

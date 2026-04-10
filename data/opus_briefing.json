@@ -1,6 +1,6 @@
 {
   "date": "2026-04-10",
-  "prepared_at": "2026-04-10T09:02:23Z",
+  "prepared_at": "2026-04-10T12:02:07Z",
   "status": "PENDING",
   "today_posts": {
     "count": 4,
@@ -162,40 +162,39 @@
   "evolution_latest": {
     "date": "2026-04-10",
     "crossover": 16,
-    "mutation": 14,
-    "distill": 16,
-    "total_new": 46,
+    "mutation": 11,
+    "distill": 18,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_dow_2plus",
-          "kw_interest_rate",
-          "kw_energy"
+          "kw_economy",
+          "kw_president_of_the_united_states"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 100.0,
+        "hold": 2,
+        "score": 83.7,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_maga",
-          "open_ukraine"
+          "kw_trillion",
+          "kw_china"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 95.8,
-        "origin": "mutation_remove"
+        "score": 81.2,
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_never_let_you_down",
-          "kw_president_of_the_united_states"
+          "is_friday",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 1,
-        "score": 93.8,
+        "score": 81.2,
         "origin": "crossover"
       }
     ]
