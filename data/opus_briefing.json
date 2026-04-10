@@ -1,12 +1,12 @@
 {
   "date": "2026-04-10",
-  "prepared_at": "2026-04-10T12:02:07Z",
+  "prepared_at": "2026-04-10T15:02:14Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "Trump upends China's lucrative sanctioned oil import scheme after Iran, Venezuela interventions: https://justthenews.com/government/diplomacy/trump-upends-chinas-lucrative-sanctioned-oil-import-scheme",
+    "count": 7,
+    "latest": "Palantir Technologies (PLTR) has proven to have great war fighting capabilities and equipment. Just ask our enemies!!! President DJT",
     "earliest_time": "2026-04-10T01:15:00.000Z",
-    "latest_time": "2026-04-10T05:15:15.064Z",
+    "latest_time": "2026-04-10T14:32:02.752Z",
     "sample": [
       {
         "time": "01:15",
@@ -23,6 +23,18 @@
       {
         "time": "05:15",
         "text": "Trump upends China's lucrative sanctioned oil import scheme after Iran, Venezuela interventions: https://justthenews.com/government/diplomacy/trump-upends-chinas-lucrative-sanctioned-oil-import-scheme-after-iran"
+      },
+      {
+        "time": "09:31",
+        "text": "WORLD’S MOST POWERFUL RESET!!! President DJT"
+      },
+      {
+        "time": "13:31",
+        "text": "WORLD'S MOST POWERFUL RESET!!! President DJT"
+      },
+      {
+        "time": "14:32",
+        "text": "Palantir Technologies (PLTR) has proven to have great war fighting capabilities and equipment. Just ask our enemies!!! President DJT"
       }
     ]
   },
@@ -31,10 +43,10 @@
     "IRAN"
   ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_medium": true,
+    "posts_6_10": true,
+    "avg_len_short": true,
     "caps_low": true,
-    "excl_none": true,
+    "excl_normal": true,
     "questions_no": true,
     "mostly_premarket": true,
     "has_night": true,
@@ -50,8 +62,13 @@
     "kw_oil": true,
     "kw_oil_2plus": true,
     "pre_oil": true,
-    "is_friday": true,
-    "volume_drop": true
+    "kw_great": true,
+    "open_great": true,
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true,
+    "open_president_djt": true,
+    "is_friday": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -162,38 +179,39 @@
   "evolution_latest": {
     "date": "2026-04-10",
     "crossover": 16,
-    "mutation": 11,
-    "distill": 18,
-    "total_new": 45,
+    "mutation": 3,
+    "distill": 17,
+    "total_new": 36,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "kw_president_of_the_united_states"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 83.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_trillion",
-          "kw_china"
+          "kw_tariff_2plus",
+          "is_friday"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 81.2,
+        "score": 90.9,
         "origin": "crossover"
       },
       {
         "features": [
-          "is_friday",
-          "kw_economy"
+          "kw_beautiful",
+          "open_jobs"
         ],
         "direction": "LONG",
-        "hold": 1,
+        "hold": 3,
+        "score": 82.1,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "questions_yes",
+          "is_friday",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
         "score": 81.2,
         "origin": "crossover"
       }
