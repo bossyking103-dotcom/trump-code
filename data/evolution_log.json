@@ -618,5 +618,46 @@
         "origin": "crossover"
       }
     ]
+  },
+  {
+    "date": "2026-04-10",
+    "crossover": 16,
+    "mutation": 14,
+    "distill": 16,
+    "total_new": 46,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_dow_2plus",
+          "kw_interest_rate",
+          "kw_energy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 100.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_maga",
+          "open_ukraine"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 95.8,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_never_let_you_down",
+          "kw_president_of_the_united_states"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 93.8,
+        "origin": "crossover"
+      }
+    ]
   }
 ]
