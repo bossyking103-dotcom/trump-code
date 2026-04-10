@@ -1,12 +1,12 @@
 {
   "date": "2026-04-10",
-  "prepared_at": "2026-04-10T15:02:14Z",
+  "prepared_at": "2026-04-10T18:01:27Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "Palantir Technologies (PLTR) has proven to have great war fighting capabilities and equipment. Just ask our enemies!!! President DJT",
+    "count": 10,
+    "latest": "The Iranians don't seem to realize they have no cards, other than a short term extortion of the World by using International Waterways. The only reason they are alive today is to negotiate! President ",
     "earliest_time": "2026-04-10T01:15:00.000Z",
-    "latest_time": "2026-04-10T14:32:02.752Z",
+    "latest_time": "2026-04-10T16:28:34.181Z",
     "sample": [
       {
         "time": "01:15",
@@ -29,12 +29,24 @@
         "text": "WORLD’S MOST POWERFUL RESET!!! President DJT"
       },
       {
+        "time": "12:28",
+        "text": "The Iranians don’t seem to realize they have no cards, other than a short term extortion of the World by using International Waterways. The only reason they are alive today is to negotiate! President DONALD J. TRUMP"
+      },
+      {
         "time": "13:31",
         "text": "WORLD'S MOST POWERFUL RESET!!! President DJT"
       },
       {
         "time": "14:32",
         "text": "Palantir Technologies (PLTR) has proven to have great war fighting capabilities and equipment. Just ask our enemies!!! President DJT"
+      },
+      {
+        "time": "16:27",
+        "text": "The Iranians are better at handling the Fake News Media, and \"Public Relations,\" than they are at fighting! President DONALD J. TRUMP"
+      },
+      {
+        "time": "16:28",
+        "text": "The Iranians don't seem to realize they have no cards, other than a short term extortion of the World by using International Waterways. The only reason they are alive today is to negotiate! President DONALD J. TRUMP"
       }
     ]
   },
@@ -44,12 +56,15 @@
   ],
   "today_features": {
     "posts_6_10": true,
-    "avg_len_short": true,
-    "caps_low": true,
+    "avg_len_medium": true,
+    "caps_medium": true,
     "excl_normal": true,
     "questions_no": true,
-    "mostly_premarket": true,
     "has_night": true,
+    "kw_negotiate": true,
+    "kw_negotiate_2plus": true,
+    "pre_negotiate": true,
+    "open_negotiate": true,
     "kw_sanction": true,
     "kw_sanction_2plus": true,
     "pre_sanction": true,
@@ -59,11 +74,14 @@
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
+    "open_iran": true,
     "kw_oil": true,
     "kw_oil_2plus": true,
     "pre_oil": true,
     "kw_great": true,
     "open_great": true,
+    "kw_fake": true,
+    "open_fake": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
@@ -179,40 +197,41 @@
   "evolution_latest": {
     "date": "2026-04-10",
     "crossover": 16,
-    "mutation": 3,
-    "distill": 17,
-    "total_new": 36,
+    "mutation": 11,
+    "distill": 18,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tariff_2plus",
-          "is_friday"
+          "kw_interest_rate",
+          "kw_economy",
+          "kw_wonderful"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.9,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_beautiful",
-          "open_jobs"
+          "kw_maga",
+          "kw_agreement"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 82.1,
-        "origin": "mutation_remove"
+        "score": 92.3,
+        "origin": "crossover"
       },
       {
         "features": [
-          "questions_yes",
-          "is_friday",
-          "kw_tremendous"
+          "kw_tariff",
+          "kw_thank_you_for_your_attention",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 81.2,
+        "score": 88.9,
         "origin": "crossover"
       }
     ]
