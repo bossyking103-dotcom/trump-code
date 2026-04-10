@@ -1,12 +1,13 @@
 {
-  "date": "2026-04-09",
-  "generated_at": "2026-04-09T21:01:36Z",
+  "date": "2026-04-10",
+  "generated_at": "2026-04-10T06:01:46Z",
   "posts_today": 4,
   "latest_post": {
-    "time": "2026-04-09T20:28",
-    "content_preview": "I know why Tucker Carlson, Megyn Kelly, Candace Owens, and Alex Jones have all been fighting me for "
+    "time": "2026-04-10T05:15",
+    "content_preview": "Trump upends China's lucrative sanctioned oil import scheme after Iran, Venezuela interventions: htt"
   },
   "signals_detected": [
+    "CHINA",
     "IRAN"
   ],
   "models_triggered": 0,
@@ -25,9 +26,9 @@
     "close": 6824.66
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-04-09\nPosts today: 4 | Models triggered: 0\nSignals: IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: I know why Tucker Carlson, Megyn Kelly, Candace Owens, and Alex Jones have all been fighting me for ",
-    "zh": "川普密碼每日報告 -- 2026-04-09\n今日推文: 4 篇 | 觸發模型: 0 組\n偵測信號: 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: I know why Tucker Carlson, Megyn Kelly, Candace Owens, and Alex Jones have all been fighting me for ",
-    "ja": "トランプ・コード日次レポート -- 2026-04-09\n本日の投稿: 4件 | トリガーモデル: 0組\n検出シグナル: イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: I know why Tucker Carlson, Megyn Kelly, Candace Owens, and Alex Jones have all been fighting me for "
+    "en": "Trump Code Daily Report -- 2026-04-10\nPosts today: 4 | Models triggered: 0\nSignals: CHINA, IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: Trump upends China's lucrative sanctioned oil import scheme after Iran, Venezuela interventions: htt",
+    "zh": "川普密碼每日報告 -- 2026-04-10\n今日推文: 4 篇 | 觸發模型: 0 組\n偵測信號: 中國, 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: Trump upends China's lucrative sanctioned oil import scheme after Iran, Venezuela interventions: htt",
+    "ja": "トランプ・コード日次レポート -- 2026-04-10\n本日の投稿: 4件 | トリガーモデル: 0組\n検出シグナル: 中国, イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: Trump upends China's lucrative sanctioned oil import scheme after Iran, Venezuela interventions: htt"
   },
   "triggered_rules_sample": []
 }

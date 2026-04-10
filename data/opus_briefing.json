@@ -1,54 +1,56 @@
 {
-  "date": "2026-04-09",
-  "prepared_at": "2026-04-09T21:02:14Z",
+  "date": "2026-04-10",
+  "prepared_at": "2026-04-10T06:02:15Z",
   "status": "PENDING",
   "today_posts": {
     "count": 4,
-    "latest": "I know why Tucker Carlson, Megyn Kelly, Candace Owens, and Alex Jones have all been fighting me for years, especially by the fact that they think it is wonderful for Iran, the Number One State Sponsor",
-    "earliest_time": "2026-04-09T02:56:26.208Z",
-    "latest_time": "2026-04-09T20:28:41.817Z",
+    "latest": "Trump upends China's lucrative sanctioned oil import scheme after Iran, Venezuela interventions: https://justthenews.com/government/diplomacy/trump-upends-chinas-lucrative-sanctioned-oil-import-scheme",
+    "earliest_time": "2026-04-10T01:15:00.000Z",
+    "latest_time": "2026-04-10T05:15:15.064Z",
     "sample": [
       {
-        "time": "02:56",
-        "text": "The Failing New York Times and Fake News CNN each reported a totally FAKE TEN POINT PLAN on the Iran negotiations which was meant to discredit the people involved in the peace process. All ten points were a made up HOAX - EVIL LOSERS!!! MAKE AMERICA GREAT AGAIN"
+        "time": "01:15",
+        "text": "Trump upends China’s lucrative sanctioned oil import scheme after Iran, Venezuela interventions: https://justthenews.com/government/diplomacy/trump-upends-chinas-lucrative-sanctioned-oil-import-scheme-after-iran"
       },
       {
-        "time": "03:46",
-        "text": "All U.S. Ships, Aircraft, and Military Personnel, with additional Ammunition, Weaponry, and anything else that is appropriate and necessary for the lethal prosecution and destruction of an already substantially degraded Enemy, will remain in place in, and around, Iran, until such time as the REAL AG"
+        "time": "05:13",
+        "text": "With Trump at the joystick, moon mission launches patriotism ahead of America's 250th: https://justthenews.com/government/white-house/trump-hard-launched-summer-patriotism-artemis-ii-return-and-upcoming-250"
       },
       {
-        "time": "12:40",
-        "text": "None of these people, including our own, very disappointing, NATO, understood anything unless they have pressure placed upon them!!!"
+        "time": "05:14",
+        "text": "Two more major pharmaceutical companies to launch products through TrumpRx: https://justthenews.com/politics-policy/health/two-more-major-pharmaceutical-companies-launch-products-through-trumprx"
       },
       {
-        "time": "20:28",
-        "text": "I know why Tucker Carlson, Megyn Kelly, Candace Owens, and Alex Jones have all been fighting me for years, especially by the fact that they think it is wonderful for Iran, the Number One State Sponsor of Terror, to have a Nuclear Weapon — Because they have one thing in common, Low IQs. They're stupi"
+        "time": "05:15",
+        "text": "Trump upends China's lucrative sanctioned oil import scheme after Iran, Venezuela interventions: https://justthenews.com/government/diplomacy/trump-upends-chinas-lucrative-sanctioned-oil-import-scheme-after-iran"
       }
     ]
   },
   "keyword_signals": [
+    "CHINA",
     "IRAN"
   ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_very_long": true,
-    "caps_medium": true,
-    "excl_extreme": true,
+    "avg_len_medium": true,
+    "caps_low": true,
+    "excl_none": true,
     "questions_no": true,
+    "mostly_premarket": true,
     "has_night": true,
-    "kw_agreement": true,
-    "kw_ban": true,
+    "kw_sanction": true,
+    "kw_sanction_2plus": true,
+    "pre_sanction": true,
+    "kw_china": true,
+    "kw_china_2plus": true,
+    "pre_china": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
-    "kw_jobs": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "kw_beautiful": true,
-    "kw_wonderful": true,
-    "kw_fake": true,
-    "kw_fake_2plus": true,
-    "kw_stupid": true,
-    "kw_maga": true,
+    "pre_iran": true,
+    "kw_oil": true,
+    "kw_oil_2plus": true,
+    "pre_oil": true,
+    "is_friday": true,
     "volume_drop": true
   },
   "model_performance": {
@@ -158,44 +160,42 @@
     "signal_adjusted": 1
   },
   "evolution_latest": {
-    "date": "2026-04-09",
-    "crossover": 15,
-    "mutation": 10,
+    "date": "2026-04-10",
+    "crossover": 16,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 41,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_dow_2plus",
-          "kw_deal",
-          "kw_signed"
+          "open_tariff",
+          "volume_falling_3d"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 100.0,
-        "origin": "crossover"
+        "hold": 2,
+        "score": 84.6,
+        "origin": "mutation_remove"
       },
       {
         "features": [
-          "kw_beautiful",
-          "open_thank_you_for_your_attention",
-          "open_jobs"
+          "kw_economy",
+          "is_friday",
+          "kw_dow_2plus"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 100.0,
+        "hold": 1,
+        "score": 81.7,
         "origin": "crossover"
       },
       {
         "features": [
           "open_dow",
-          "kw_beautiful",
-          "kw_president_of_the_united_states"
+          "is_friday"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 91.7,
+        "hold": 3,
+        "score": 80.0,
         "origin": "crossover"
       }
     ]
@@ -204,7 +204,7 @@
     "TARIFF": 0.7,
     "DEAL": 0.55,
     "RELIEF": 0.95,
-    "ACTION": 0.945,
+    "ACTION": 0.95,
     "THREAT": 0.6,
     "CHINA": 0.6,
     "IRAN": 0.55,
@@ -212,8 +212,9 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-04-09",
+    "date": "2026-04-10",
     "signals": [
+      "CHINA",
       "IRAN"
     ],
     "opportunities": [],
