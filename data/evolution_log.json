@@ -950,5 +950,45 @@
         "origin": "crossover"
       }
     ]
+  },
+  {
+    "date": "2026-04-11",
+    "crossover": 16,
+    "mutation": 12,
+    "distill": 16,
+    "total_new": 44,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_complete_and_total_2plus",
+          "kw_president_of_the_united_states"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 100.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_tariffs",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 81.8,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "open_thank_you_for_your_attention",
+          "kw_ban"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 81.7,
+        "origin": "crossover"
+      }
+    ]
   }
 ]
