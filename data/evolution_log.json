@@ -990,5 +990,47 @@
         "origin": "crossover"
       }
     ]
+  },
+  {
+    "date": "2026-04-11",
+    "crossover": 16,
+    "mutation": 10,
+    "distill": 16,
+    "total_new": 42,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_economy",
+          "kw_dow",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "is_friday",
+          "open_tariffs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "posts_11_20",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 83.3,
+        "origin": "crossover"
+      }
+    ]
   }
 ]
