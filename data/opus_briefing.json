@@ -1,12 +1,12 @@
 {
   "date": "2026-04-11",
-  "prepared_at": "2026-04-11T12:02:59Z",
+  "prepared_at": "2026-04-11T15:02:33Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "Massive numbers of completely empty oil tankers, some of the largest anywhere in the World, are heading, right now, to the United States to load up with the best and \"sweetest\" oil (and gas!) anywhere",
+    "count": 6,
+    "latest": "I am watching fertilizer prices CLOSELY during our FIGHT FOR FREEDOM in Iran. The United States will not accept PRICE GOUGING from the fertilizer monopoly! American Farmers, we have your back! Preside",
     "earliest_time": "2026-04-11T01:00:39.247Z",
-    "latest_time": "2026-04-11T11:30:41.036Z",
+    "latest_time": "2026-04-11T13:07:02.216Z",
     "sample": [
       {
         "time": "01:00",
@@ -19,31 +19,130 @@
       {
         "time": "11:30",
         "text": "Massive numbers of completely empty oil tankers, some of the largest anywhere in the World, are heading, right now, to the United States to load up with the best and \"sweetest\" oil (and gas!) anywhere in the World. We have more oil than the next two largest oil economies combined - and higher qualit"
+      },
+      {
+        "time": "12:46",
+        "text": "Heading to Virginia for meetings at Trump National. I can't believe what this new Governor, Spanberger, has done to the Commonwealth — So sad! She is adding so many Taxes, a Food and Beverage Tax, Digital Services Tax, Utilities Tax, and more. It has lost its Energy, Vitality, and Strength. People a"
+      },
+      {
+        "time": "12:58",
+        "text": "The Fake News Media has lost total credibility, not that they had any to begin with. Because of their massive Trump Derangement Syndrome (Sometimes referred to as TDS!), they love saying that Iran is \"winning\" when, in fact, everyone knows that they are LOSING, and LOSING BIG! Their Navy is gone, th"
+      },
+      {
+        "time": "13:07",
+        "text": "I am watching fertilizer prices CLOSELY during our FIGHT FOR FREEDOM in Iran. The United States will not accept PRICE GOUGING from the fertilizer monopoly! American Farmers, we have your back! President DONALD J. TRUMP"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "CHINA",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_medium": true,
+    "posts_6_10": true,
+    "avg_len_very_long": true,
     "caps_low": true,
-    "excl_heavy": true,
-    "questions_no": true,
+    "excl_extreme": true,
     "mostly_premarket": true,
     "has_night": true,
+    "kw_deal": true,
+    "pre_deal": true,
+    "kw_signed": true,
+    "pre_signed": true,
+    "kw_china": true,
+    "pre_china": true,
+    "kw_japan": true,
+    "pre_japan": true,
+    "kw_iran": true,
+    "kw_iran_2plus": true,
+    "pre_iran": true,
+    "kw_korea": true,
+    "pre_korea": true,
     "kw_oil": true,
+    "kw_oil_2plus": true,
     "pre_oil": true,
     "kw_gas": true,
     "pre_gas": true,
+    "kw_energy": true,
+    "pre_energy": true,
+    "kw_trillion": true,
+    "pre_trillion": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
     "kw_perfect": true,
+    "kw_fake": true,
+    "pre_fake": true,
     "kw_president_djt": true,
     "pre_president_djt": true,
     "kw_president_of_the_united_states": true,
+    "kw_president_of_the_united_states_2plus": true,
+    "pre_president_of_the_united_states": true,
+    "kw_thank_you_for_your_attention": true,
+    "pre_thank_you_for_your_attention": true,
     "is_weekend": true,
     "volume_rising_3d": true,
-    "volume_drop": true
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
+  },
+  "triggered_rules": {
+    "total": 4,
+    "long": 4,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0006",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0011",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0079",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0085",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -155,40 +254,39 @@
     "date": "2026-04-11",
     "crossover": 16,
     "mutation": 15,
-    "distill": 16,
-    "total_new": 47,
+    "distill": 17,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "is_friday",
-          "kw_energy"
+          "kw_thank_you_for_your_attention",
+          "questions_yes",
+          "posts_11_20"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 90.9,
+        "hold": 2,
+        "score": 91.2,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "kw_agreement",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_wonderful"
+          "kw_tariffs",
+          "kw_signed"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_deal",
-          "kw_tremendous",
-          "kw_president_of_the_united_states"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 85.7,
+        "hold": 3,
+        "score": 88.5,
         "origin": "crossover"
       }
     ]
@@ -205,10 +303,12 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-04-10",
+    "date": "2026-04-11",
     "signals": [
+      "DEAL",
       "CHINA",
-      "IRAN"
+      "IRAN",
+      "DEAL_ONLY"
     ],
     "opportunities": [],
     "total_scanned": 0
