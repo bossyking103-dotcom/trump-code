@@ -782,5 +782,47 @@
         "origin": "crossover"
       }
     ]
+  },
+  {
+    "date": "2026-04-11",
+    "crossover": 14,
+    "mutation": 16,
+    "distill": 18,
+    "total_new": 48,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_president_of_the_united_states",
+          "kw_energy",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_wonderful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_tariffs",
+          "is_friday",
+          "open_trade"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 83.3,
+        "origin": "crossover"
+      }
+    ]
   }
 ]
