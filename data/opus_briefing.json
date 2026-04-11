@@ -1,17 +1,13 @@
 {
   "date": "2026-04-11",
-  "prepared_at": "2026-04-11T18:01:12Z",
+  "prepared_at": "2026-04-11T21:01:26Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "The Fake News Media is CRAZY, or just plain CORRUPT! The United States has completely destroyed Iran's Military, including their entire Navy and Air Force, and everything else. Their Leadership is DEA",
+    "count": 11,
+    "latest": "From Newt Gingrich: \"Pro Trump and pro USA rally in Bern with large Iranian participation and pro Trump signs-photo by Callista Supporters of U.S. actions in Iran, including many Iranians, gathered in",
     "earliest_time": "2026-04-11T01:00:39.247Z",
-    "latest_time": "2026-04-11T15:17:21.033Z",
+    "latest_time": "2026-04-11T22:24:28.641Z",
     "sample": [
-      {
-        "time": "01:00",
-        "text": "Congratulations to the Great and Very Talented Crew of Artemis II. The entire trip was spectacular, the landing was perfect and, as President of the United States, I could not be more proud! I look forward to seeing you all at the White House soon. We'll be doing it again and then, next step, Mars! "
-      },
       {
         "time": "04:01",
         "text": "GREAT!!!"
@@ -35,6 +31,22 @@
       {
         "time": "15:17",
         "text": "The Fake News Media is CRAZY, or just plain CORRUPT! The United States has completely destroyed Iran's Military, including their entire Navy and Air Force, and everything else. Their Leadership is DEAD! The Strait of Hormuz will soon be open, and the empty ships are rushing to the United States to \""
+      },
+      {
+        "time": "18:24",
+        "text": "From Newt Gingrich: “Seth Keshel, the best student of voter registration in the country just reported that ‘First time in history GOP leads registration - now R +2k. 107k right of the 2024 election when Trump won by 3.2% What this means is transplants are overwhelmingly R.’”"
+      },
+      {
+        "time": "19:36",
+        "text": "From Newt Gingrich: “Pro Trump and pro USA rally in Bern with large Iranian participation and pro Trump signs-photo by Callista Supporters of U.S. actions in Iran, including many Iranians, gathered in Bern today for a peaceful demonstration.”"
+      },
+      {
+        "time": "21:01",
+        "text": "From Newt Gingrich: \"Seth Keshel, the best student of voter registration in the country just reported that 'First time in history GOP leads registration - now R +2k. 107k right of the 2024 election when Trump won by 3.2% What this means is transplants are overwhelmingly R.'\""
+      },
+      {
+        "time": "22:24",
+        "text": "From Newt Gingrich: \"Pro Trump and pro USA rally in Bern with large Iranian participation and pro Trump signs-photo by Callista Supporters of U.S. actions in Iran, including many Iranians, gathered in Bern today for a peaceful demonstration.\""
       }
     ]
   },
@@ -45,11 +57,10 @@
     "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_6_10": true,
+    "posts_11_20": true,
     "avg_len_long": true,
-    "caps_medium": true,
-    "excl_extreme": true,
-    "mostly_premarket": true,
+    "caps_low": true,
+    "excl_heavy": true,
     "has_night": true,
     "kw_deal": true,
     "pre_deal": true,
@@ -97,8 +108,8 @@
     "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 4,
-    "long": 4,
+    "total": 5,
+    "long": 5,
     "short": 0,
     "sample": [
       {
@@ -119,6 +130,19 @@
         "features": [
           "kw_deal",
           "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0012",
+        "features": [
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "posts_11_20"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -262,40 +286,42 @@
   "evolution_latest": {
     "date": "2026-04-11",
     "crossover": 16,
-    "mutation": 12,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_complete_and_total_2plus",
+          "kw_never_let_you_down",
+          "kw_energy",
           "kw_president_of_the_united_states"
         ],
         "direction": "LONG",
         "hold": 1,
-        "score": 100.0,
+        "score": 93.8,
         "origin": "crossover"
       },
       {
         "features": [
-          "open_tariffs",
-          "volume_falling_3d"
+          "kw_tremendous",
+          "kw_economy",
+          "kw_tariffs_2plus"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 81.8,
+        "hold": 3,
+        "score": 85.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_fake",
+          "volume_spike"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 82.1,
         "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "open_thank_you_for_your_attention",
-          "kw_ban"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 81.7,
-        "origin": "crossover"
       }
     ]
   },

@@ -990,5 +990,47 @@
         "origin": "crossover"
       }
     ]
+  },
+  {
+    "date": "2026-04-11",
+    "crossover": 16,
+    "mutation": 16,
+    "distill": 16,
+    "total_new": 48,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_never_let_you_down",
+          "kw_energy",
+          "kw_president_of_the_united_states"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 93.8,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_tremendous",
+          "kw_economy",
+          "kw_tariffs_2plus"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 85.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_fake",
+          "volume_spike"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 82.1,
+        "origin": "mutation_remove"
+      }
+    ]
   }
 ]
