@@ -1,24 +1,16 @@
 {
   "date": "2026-04-12",
-  "prepared_at": "2026-04-12T12:03:45Z",
+  "prepared_at": "2026-04-12T21:03:45Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 5,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116389941415211064",
-    "earliest_time": "2026-04-12T00:49:00.000Z",
-    "latest_time": "2026-04-12T04:53:05.994Z",
+    "count": 9,
+    "latest": "Bruce Springsteen prior to plastic surgery???",
+    "earliest_time": "2026-04-12T00:52:00.000Z",
+    "latest_time": "2026-04-12T16:23:04.313Z",
     "sample": [
-      {
-        "time": "00:49",
-        "text": "From Newt Gingrich: “Seth Keshel, the best student of voter registration in the country just reported that ‘First time in history GOP leads registration - now R +2k. 107k right of the 2024 election when Trump won by 3.2% What this means is transplants are overwhelmingly R.’”"
-      },
       {
         "time": "00:52",
         "text": "The Trump card the president holds if Iran won’t bend: a naval blockade: https://justthenews.com/government/security/trump-card-president-holds-if-iran-wont-bend-naval-blockade"
-      },
-      {
-        "time": "00:52",
-        "text": "From Newt Gingrich: “Pro Trump and pro USA rally in Bern with large Iranian participation and pro Trump signs-photo by Callista Supporters of U.S. actions in Iran, including many Iranians, gathered in Bern today for a peaceful demonstration.”"
       },
       {
         "time": "04:16",
@@ -27,6 +19,30 @@
       {
         "time": "04:53",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116389941415211064"
+      },
+      {
+        "time": "11:30",
+        "text": "Iran promised to open the Strait of Hormuz, and they knowingly failed to do so. This caused anxiety, dislocation, and pain to many people and Countries throughout the World. They say they put mines in the water, even though all of their Navy, and most of their “mine droppers,” have been completely b"
+      },
+      {
+        "time": "12:52",
+        "text": "So, there you have it, the meeting went well, most points were agreed to, but the only point that really mattered, NUCLEAR, was not. Effective immediately, the United States Navy, the Finest in the World, will begin the process of BLOCKADING any and all Ships trying to enter, or leave, the Strait of"
+      },
+      {
+        "time": "12:53",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116391828823240211Iran promised to open the Strait of Hormuz, and they knowingly failed to do so. This caused anxiety, dislocation, and pain to many people and Countries throughout the World. They say they put mines in the water, even though"
+      },
+      {
+        "time": "15:30",
+        "text": "So, there you have it, the meeting went well, most points were agreed to, but the only point that really mattered, NUCLEAR, was not. Effective immediately, the United States Navy, the Finest in the World, will begin the process of BLOCKADING any and all Ships trying to enter, or leave, the Strait of"
+      },
+      {
+        "time": "15:30",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116392448970133700Iran promised to open the Strait of Hormuz, and they knowingly failed to do so. This caused anxiety, dislocation, and pain to many people and Countries throughout the World. They say they put mines in the water, even though"
+      },
+      {
+        "time": "16:23",
+        "text": "Bruce Springsteen prior to plastic surgery???"
       }
     ]
   },
@@ -34,21 +50,42 @@
     "IRAN"
   ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_medium": true,
-    "caps_low": true,
-    "excl_none": true,
-    "questions_no": true,
+    "posts_6_10": true,
+    "avg_len_very_long": true,
+    "caps_medium": true,
+    "excl_normal": true,
+    "questions_yes": true,
+    "mostly_premarket": true,
     "has_night": true,
-    "heavy_night": true,
+    "kw_immediately": true,
+    "kw_immediately_2plus": true,
+    "pre_immediately": true,
+    "open_immediately": true,
+    "kw_effective": true,
+    "kw_effective_2plus": true,
+    "pre_effective": true,
+    "open_effective": true,
     "kw_block": true,
     "kw_block_2plus": true,
     "pre_block": true,
+    "open_block": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
-    "is_weekend": true,
-    "volume_drop": true
+    "open_iran": true,
+    "kw_india": true,
+    "kw_india_2plus": true,
+    "pre_india": true,
+    "open_india": true,
+    "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "open_great": true,
+    "kw_vance": true,
+    "kw_vance_2plus": true,
+    "pre_vance": true,
+    "open_vance": true,
+    "is_weekend": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -158,42 +195,43 @@
   },
   "evolution_latest": {
     "date": "2026-04-12",
-    "crossover": 16,
-    "mutation": 13,
+    "crossover": 13,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tariffs_2plus",
-          "kw_tariff_2plus",
+          "kw_energy",
+          "kw_thank_you_for_your_attention",
           "is_friday"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 93.8,
+        "hold": 1,
+        "score": 92.3,
         "origin": "crossover"
       },
       {
         "features": [
           "kw_signed",
-          "open_dow"
+          "kw_never_let_you_down"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 85.7,
+        "hold": 1,
+        "score": 87.5,
         "origin": "crossover"
       },
       {
         "features": [
-          "avg_len_long",
-          "kw_interest_rate"
+          "open_deal",
+          "kw_dow_2plus",
+          "kw_complete_and_total_2plus"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 83.3,
-        "origin": "crossover"
+        "hold": 2,
+        "score": 87.5,
+        "origin": "mutation_replace"
       }
     ]
   },
