@@ -1,181 +1,54 @@
 {
-  "date": "2026-04-11",
-  "prepared_at": "2026-04-11T21:01:26Z",
+  "date": "2026-04-12",
+  "prepared_at": "2026-04-12T09:05:18Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 11,
-    "latest": "From Newt Gingrich: \"Pro Trump and pro USA rally in Bern with large Iranian participation and pro Trump signs-photo by Callista Supporters of U.S. actions in Iran, including many Iranians, gathered in",
-    "earliest_time": "2026-04-11T01:00:39.247Z",
-    "latest_time": "2026-04-11T22:24:28.641Z",
+    "count": 5,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116389941415211064",
+    "earliest_time": "2026-04-12T00:49:00.000Z",
+    "latest_time": "2026-04-12T04:53:05.994Z",
     "sample": [
       {
-        "time": "04:01",
-        "text": "GREAT!!!"
-      },
-      {
-        "time": "11:30",
-        "text": "Massive numbers of completely empty oil tankers, some of the largest anywhere in the World, are heading, right now, to the United States to load up with the best and \"sweetest\" oil (and gas!) anywhere in the World. We have more oil than the next two largest oil economies combined - and higher qualit"
-      },
-      {
-        "time": "12:46",
-        "text": "Heading to Virginia for meetings at Trump National. I can't believe what this new Governor, Spanberger, has done to the Commonwealth — So sad! She is adding so many Taxes, a Food and Beverage Tax, Digital Services Tax, Utilities Tax, and more. It has lost its Energy, Vitality, and Strength. People a"
-      },
-      {
-        "time": "12:58",
-        "text": "The Fake News Media has lost total credibility, not that they had any to begin with. Because of their massive Trump Derangement Syndrome (Sometimes referred to as TDS!), they love saying that Iran is \"winning\" when, in fact, everyone knows that they are LOSING, and LOSING BIG! Their Navy is gone, th"
-      },
-      {
-        "time": "13:07",
-        "text": "I am watching fertilizer prices CLOSELY during our FIGHT FOR FREEDOM in Iran. The United States will not accept PRICE GOUGING from the fertilizer monopoly! American Farmers, we have your back! President DONALD J. TRUMP"
-      },
-      {
-        "time": "15:17",
-        "text": "The Fake News Media is CRAZY, or just plain CORRUPT! The United States has completely destroyed Iran's Military, including their entire Navy and Air Force, and everything else. Their Leadership is DEAD! The Strait of Hormuz will soon be open, and the empty ships are rushing to the United States to \""
-      },
-      {
-        "time": "18:24",
+        "time": "00:49",
         "text": "From Newt Gingrich: “Seth Keshel, the best student of voter registration in the country just reported that ‘First time in history GOP leads registration - now R +2k. 107k right of the 2024 election when Trump won by 3.2% What this means is transplants are overwhelmingly R.’”"
       },
       {
-        "time": "19:36",
+        "time": "00:52",
+        "text": "The Trump card the president holds if Iran won’t bend: a naval blockade: https://justthenews.com/government/security/trump-card-president-holds-if-iran-wont-bend-naval-blockade"
+      },
+      {
+        "time": "00:52",
         "text": "From Newt Gingrich: “Pro Trump and pro USA rally in Bern with large Iranian participation and pro Trump signs-photo by Callista Supporters of U.S. actions in Iran, including many Iranians, gathered in Bern today for a peaceful demonstration.”"
       },
       {
-        "time": "21:01",
-        "text": "From Newt Gingrich: \"Seth Keshel, the best student of voter registration in the country just reported that 'First time in history GOP leads registration - now R +2k. 107k right of the 2024 election when Trump won by 3.2% What this means is transplants are overwhelmingly R.'\""
+        "time": "04:16",
+        "text": "The Trump card the president holds if Iran won't bend: a naval blockade: https://justthenews.com/government/security/trump-card-president-holds-if-iran-wont-bend-naval-blockade"
       },
       {
-        "time": "22:24",
-        "text": "From Newt Gingrich: \"Pro Trump and pro USA rally in Bern with large Iranian participation and pro Trump signs-photo by Callista Supporters of U.S. actions in Iran, including many Iranians, gathered in Bern today for a peaceful demonstration.\""
+        "time": "04:53",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116389941415211064"
       }
     ]
   },
   "keyword_signals": [
-    "DEAL",
-    "CHINA",
-    "IRAN",
-    "DEAL_ONLY"
+    "IRAN"
   ],
   "today_features": {
-    "posts_11_20": true,
-    "avg_len_long": true,
+    "posts_1_5": true,
+    "avg_len_medium": true,
     "caps_low": true,
-    "excl_heavy": true,
+    "excl_none": true,
+    "questions_no": true,
     "has_night": true,
-    "kw_deal": true,
-    "pre_deal": true,
-    "kw_signed": true,
-    "pre_signed": true,
-    "kw_china": true,
-    "pre_china": true,
-    "kw_japan": true,
-    "pre_japan": true,
+    "heavy_night": true,
+    "kw_block": true,
+    "kw_block_2plus": true,
+    "pre_block": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
-    "open_iran": true,
-    "kw_korea": true,
-    "pre_korea": true,
-    "kw_oil": true,
-    "kw_oil_2plus": true,
-    "pre_oil": true,
-    "kw_gas": true,
-    "pre_gas": true,
-    "kw_energy": true,
-    "pre_energy": true,
-    "kw_trillion": true,
-    "pre_trillion": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "pre_great": true,
-    "kw_perfect": true,
-    "kw_fake": true,
-    "kw_fake_2plus": true,
-    "pre_fake": true,
-    "open_fake": true,
-    "kw_corrupt": true,
-    "open_corrupt": true,
-    "kw_president_djt": true,
-    "pre_president_djt": true,
-    "kw_president_of_the_united_states": true,
-    "kw_president_of_the_united_states_2plus": true,
-    "pre_president_of_the_united_states": true,
-    "kw_thank_you_for_your_attention": true,
-    "pre_thank_you_for_your_attention": true,
     "is_weekend": true,
-    "volume_rising_3d": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
-  },
-  "triggered_rules": {
-    "total": 5,
-    "long": 5,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0006",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0011",
-        "features": [
-          "kw_deal",
-          "kw_perfect"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0012",
-        "features": [
-          "kw_perfect",
-          "kw_thank_you_for_your_attention",
-          "posts_11_20"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0079",
-        "features": [
-          "kw_deal",
-          "kw_perfect"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0085",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -284,44 +157,43 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-04-11",
-    "crossover": 16,
-    "mutation": 16,
+    "date": "2026-04-12",
+    "crossover": 14,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_never_let_you_down",
-          "kw_energy",
-          "kw_president_of_the_united_states"
+          "open_dow",
+          "open_deal",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 93.8,
+        "hold": 3,
+        "score": 83.3,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_tremendous",
-          "kw_economy",
-          "kw_tariffs_2plus"
+          "kw_thank_you_for_your_attention",
+          "kw_agreement"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 85.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_fake",
-          "volume_spike"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 82.1,
+        "hold": 2,
+        "score": 83.3,
         "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_energy",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 81.2,
+        "origin": "crossover"
       }
     ]
   },
@@ -337,12 +209,9 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-04-11",
+    "date": "2026-04-12",
     "signals": [
-      "DEAL",
-      "CHINA",
-      "IRAN",
-      "DEAL_ONLY"
+      "IRAN"
     ],
     "opportunities": [],
     "total_scanned": 0
