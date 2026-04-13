@@ -1,21 +1,13 @@
 {
   "date": "2026-04-13",
-  "prepared_at": "2026-04-13T12:04:41Z",
+  "prepared_at": "2026-04-13T15:03:19Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 14,
-    "latest": "Trump brilliantly calls Iran's bluff — with his own Strait of Hormuz blockade: https://nypost.com/2026/04/12/opinion/trump-brilliantly-calls-irans-bluff-with-his-own-strait-of-hormuz-blockade/",
+    "count": 16,
+    "latest": "Iran's Navy is laying at the bottom of the sea, completely obliterated - 158 ships. What we have not hit are their small number of, what they call, \"fast attack ships,\" because we did not consider the",
     "earliest_time": "2026-04-13T00:56:08.350Z",
-    "latest_time": "2026-04-13T08:10:43.763Z",
+    "latest_time": "2026-04-13T14:23:22.272Z",
     "sample": [
-      {
-        "time": "02:36",
-        "text": "The Trump card the president holds if Iran won’t bend: a naval blockade: https://justthenews.com/government/security/trump-card-president-holds-if-iran-wont-bend-naval-blockade"
-      },
-      {
-        "time": "02:38",
-        "text": "Appeals court rules Trump’s White House ballroom construction can move forward until April 17: https://justthenews.com/government/courts-law/appeals-court-rules-trumps-white-house-ballroom-construction-can-move-forward"
-      },
       {
         "time": "04:10",
         "text": "Trump brilliantly calls Iran’s bluff — with his own Strait of Hormuz blockade: https://nypost.com/2026/04/12/opinion/trump-brilliantly-calls-irans-bluff-with-his-own-strait-of-hormuz-blockade/"
@@ -47,6 +39,14 @@
       {
         "time": "08:10",
         "text": "Trump brilliantly calls Iran's bluff — with his own Strait of Hormuz blockade: https://nypost.com/2026/04/12/opinion/trump-brilliantly-calls-irans-bluff-with-his-own-strait-of-hormuz-blockade/"
+      },
+      {
+        "time": "10:23",
+        "text": "Iran’s Navy is laying at the bottom of the sea, completely obliterated - 158 ships. What we have not hit are their small number of, what they call, “fast attack ships,” because we did not consider them much of a threat. Warning: If any of these ships come anywhere close to our BLOCKADE, they will be"
+      },
+      {
+        "time": "14:23",
+        "text": "Iran's Navy is laying at the bottom of the sea, completely obliterated - 158 ships. What we have not hit are their small number of, what they call, \"fast attack ships,\" because we did not consider them much of a threat. Warning: If any of these ships come anywhere close to our BLOCKADE, they will be"
       }
     ]
   },
@@ -59,33 +59,46 @@
     "posts_11_20": true,
     "avg_len_medium": true,
     "caps_low": true,
-    "excl_none": true,
+    "excl_normal": true,
     "questions_no": true,
     "mostly_premarket": true,
     "has_night": true,
     "heavy_night": true,
     "kw_deal": true,
+    "kw_deal_2plus": true,
+    "pre_deal": true,
+    "open_deal": true,
     "kw_suspend": true,
     "pre_suspend": true,
+    "kw_immediately": true,
+    "kw_immediately_2plus": true,
+    "pre_immediately": true,
+    "open_immediately": true,
     "kw_block": true,
     "kw_block_2plus": true,
     "pre_block": true,
+    "open_block": true,
     "kw_ukraine": true,
     "kw_ukraine_2plus": true,
     "pre_ukraine": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
+    "open_iran": true,
     "kw_stock_market": true,
     "kw_great": true,
     "kw_terrible": true,
     "kw_obama": true,
     "kw_maga": true,
     "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
     "pre_president_djt": true,
+    "open_president_djt": true,
     "kw_president_of_the_united_states": true,
     "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
     "pre_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "is_monday": true,
     "volume_falling_3d": true,
     "deal_without_tariff": true,
@@ -207,33 +220,37 @@
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "kw_signed"
+          "is_friday",
+          "questions_yes",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.9,
+        "score": 94.4,
         "origin": "crossover"
       },
       {
         "features": [
-          "is_friday",
-          "kw_deal"
+          "kw_beautiful",
+          "kw_biden",
+          "kw_ban"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 84.8,
-        "origin": "distilled"
+        "hold": 2,
+        "score": 91.7,
+        "origin": "crossover"
       },
       {
         "features": [
-          "is_friday",
-          "kw_dow_2plus"
+          "kw_tariff",
+          "kw_tariffs",
+          "open_trade",
+          "volume_falling_3d"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 83.7,
-        "origin": "distilled"
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
       }
     ]
   },
