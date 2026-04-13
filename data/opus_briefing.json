@@ -1,91 +1,95 @@
 {
-  "date": "2026-04-12",
-  "prepared_at": "2026-04-12T21:03:45Z",
+  "date": "2026-04-13",
+  "prepared_at": "2026-04-13T09:52:03Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 9,
-    "latest": "Bruce Springsteen prior to plastic surgery???",
-    "earliest_time": "2026-04-12T00:52:00.000Z",
-    "latest_time": "2026-04-12T16:23:04.313Z",
+    "count": 14,
+    "latest": "Trump brilliantly calls Iran's bluff — with his own Strait of Hormuz blockade: https://nypost.com/2026/04/12/opinion/trump-brilliantly-calls-irans-bluff-with-his-own-strait-of-hormuz-blockade/",
+    "earliest_time": "2026-04-13T00:56:08.350Z",
+    "latest_time": "2026-04-13T08:10:43.763Z",
     "sample": [
       {
-        "time": "00:52",
+        "time": "02:36",
         "text": "The Trump card the president holds if Iran won’t bend: a naval blockade: https://justthenews.com/government/security/trump-card-president-holds-if-iran-wont-bend-naval-blockade"
       },
       {
-        "time": "04:16",
+        "time": "02:38",
+        "text": "Appeals court rules Trump’s White House ballroom construction can move forward until April 17: https://justthenews.com/government/courts-law/appeals-court-rules-trumps-white-house-ballroom-construction-can-move-forward"
+      },
+      {
+        "time": "04:10",
+        "text": "Trump brilliantly calls Iran’s bluff — with his own Strait of Hormuz blockade: https://nypost.com/2026/04/12/opinion/trump-brilliantly-calls-irans-bluff-with-his-own-strait-of-hormuz-blockade/"
+      },
+      {
+        "time": "04:43",
+        "text": "The United States to Blockade Ships Entering or Exiting Iranian Ports on April 13 at 10:00 A.M. ET. Thank you for your attention to this matter! President DJT"
+      },
+      {
+        "time": "06:35",
+        "text": "Impeachment Bombshell: Secret memos expose Ukraine accuser's bias, hearsay, and false claim: https://justthenews.com/accountability/whistleblowers/ukraine-bombshell-long-secret-memos-expose-whistleblower-bias-hearsay"
+      },
+      {
+        "time": "06:36",
         "text": "The Trump card the president holds if Iran won't bend: a naval blockade: https://justthenews.com/government/security/trump-card-president-holds-if-iran-wont-bend-naval-blockade"
       },
       {
-        "time": "04:53",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116389941415211064"
+        "time": "06:37",
+        "text": "Swalwell suspends his campaign for California governor amid furor over sex assault allegations: https://justthenews.com/politics-policy/elections/swalwell-says-hes-suspending-his-campaign-calif-governor"
       },
       {
-        "time": "11:30",
-        "text": "Iran promised to open the Strait of Hormuz, and they knowingly failed to do so. This caused anxiety, dislocation, and pain to many people and Countries throughout the World. They say they put mines in the water, even though all of their Navy, and most of their “mine droppers,” have been completely b"
+        "time": "06:37",
+        "text": "Impeachment Bombshell: Secret memos expose Ukraine accuser's bias, hearsay, and false claim: https://justthenews.com/accountability/whistleblowers/ukraine-bombshell-long-secret-memos-expose-whistleblower-bias-hearsay"
       },
       {
-        "time": "12:52",
-        "text": "So, there you have it, the meeting went well, most points were agreed to, but the only point that really mattered, NUCLEAR, was not. Effective immediately, the United States Navy, the Finest in the World, will begin the process of BLOCKADING any and all Ships trying to enter, or leave, the Strait of"
+        "time": "06:38",
+        "text": "Appeals court rules Trump's White House ballroom construction can move forward until April 17: https://justthenews.com/government/courts-law/appeals-court-rules-trumps-white-house-ballroom-construction-can-move-forward"
       },
       {
-        "time": "12:53",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116391828823240211Iran promised to open the Strait of Hormuz, and they knowingly failed to do so. This caused anxiety, dislocation, and pain to many people and Countries throughout the World. They say they put mines in the water, even though"
-      },
-      {
-        "time": "15:30",
-        "text": "So, there you have it, the meeting went well, most points were agreed to, but the only point that really mattered, NUCLEAR, was not. Effective immediately, the United States Navy, the Finest in the World, will begin the process of BLOCKADING any and all Ships trying to enter, or leave, the Strait of"
-      },
-      {
-        "time": "15:30",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116392448970133700Iran promised to open the Strait of Hormuz, and they knowingly failed to do so. This caused anxiety, dislocation, and pain to many people and Countries throughout the World. They say they put mines in the water, even though"
-      },
-      {
-        "time": "16:23",
-        "text": "Bruce Springsteen prior to plastic surgery???"
+        "time": "08:10",
+        "text": "Trump brilliantly calls Iran's bluff — with his own Strait of Hormuz blockade: https://nypost.com/2026/04/12/opinion/trump-brilliantly-calls-irans-bluff-with-his-own-strait-of-hormuz-blockade/"
       }
     ]
   },
   "keyword_signals": [
-    "IRAN"
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_very_long": true,
-    "caps_medium": true,
-    "excl_normal": true,
-    "questions_yes": true,
+    "posts_11_20": true,
+    "avg_len_medium": true,
+    "caps_low": true,
+    "excl_none": true,
+    "questions_no": true,
     "mostly_premarket": true,
     "has_night": true,
-    "kw_immediately": true,
-    "kw_immediately_2plus": true,
-    "pre_immediately": true,
-    "open_immediately": true,
-    "kw_effective": true,
-    "kw_effective_2plus": true,
-    "pre_effective": true,
-    "open_effective": true,
+    "heavy_night": true,
+    "kw_deal": true,
+    "kw_suspend": true,
+    "pre_suspend": true,
     "kw_block": true,
     "kw_block_2plus": true,
     "pre_block": true,
-    "open_block": true,
+    "kw_ukraine": true,
+    "kw_ukraine_2plus": true,
+    "pre_ukraine": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
-    "open_iran": true,
-    "kw_india": true,
-    "kw_india_2plus": true,
-    "pre_india": true,
-    "open_india": true,
+    "kw_stock_market": true,
     "kw_great": true,
-    "kw_great_2plus": true,
-    "pre_great": true,
-    "open_great": true,
-    "kw_vance": true,
-    "kw_vance_2plus": true,
-    "pre_vance": true,
-    "open_vance": true,
-    "is_weekend": true
+    "kw_terrible": true,
+    "kw_obama": true,
+    "kw_maga": true,
+    "kw_president_djt": true,
+    "pre_president_djt": true,
+    "kw_president_of_the_united_states": true,
+    "kw_thank_you_for_your_attention": true,
+    "pre_thank_you_for_your_attention": true,
+    "is_monday": true,
+    "volume_falling_3d": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -194,44 +198,43 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-04-12",
-    "crossover": 13,
-    "mutation": 14,
+    "date": "2026-04-13",
+    "crossover": 16,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
+          "open_fake",
           "kw_energy",
-          "kw_thank_you_for_your_attention",
-          "is_friday"
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 92.3,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_signed",
-          "kw_never_let_you_down"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 87.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "open_deal",
-          "kw_dow_2plus",
-          "kw_complete_and_total_2plus"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
+        "hold": 3,
+        "score": 100.0,
         "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "kw_economy",
+          "open_president_of_the_united_states"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_energy",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },
@@ -247,9 +250,11 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-04-12",
+    "date": "2026-04-13",
     "signals": [
-      "IRAN"
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
     ],
     "opportunities": [],
     "total_scanned": 0
