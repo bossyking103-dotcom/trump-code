@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-13T15:03:19Z",
-    "evolved_rules_added": 42
+    "last_evolution": "2026-04-13T18:02:06Z",
+    "evolved_rules_added": 49
   },
   "rules": [
     {
@@ -12505,7 +12505,12 @@
       "parents": [
         "kw_interest_rate+kw_thank_you_for_your_attention",
         "is_friday+kw_dow_2plus"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13107,7 +13112,12 @@
       "parents": [
         "kw_ban+kw_biden",
         "is_friday+kw_beautiful"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13491,7 +13501,12 @@
       "parents": [
         "kw_signed+kw_tariff",
         "kw_corrupt+kw_tariffs"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13660,7 +13675,12 @@
       "parents": [
         "is_friday+kw_tariff_2plus",
         "kw_corrupt+kw_thank_you_for_your_attention"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14374,6 +14394,30 @@
     },
     {
       "features": [
+        "kw_tremendous",
+        "kw_agreement"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "d4bb725e11a4",
+      "n_cond": 2,
+      "train_trades": 12,
+      "train_win_rate": 75.0,
+      "train_avg": 0.097,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.714,
+      "combined_score": 87.5,
+      "origin": "crossover",
+      "born_date": "2026-04-13",
+      "weight": 1.0,
+      "parents": [
+        "kw_agreement+kw_deal",
+        "kw_deal+kw_signed"
+      ]
+    },
+    {
+      "features": [
         "is_friday",
         "kw_thank_you_for_your_attention",
         "kw_tariffs"
@@ -14564,7 +14608,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-04-13",
       "weight": 1.0,
-      "parent": "kw_agreement+kw_china+open_china"
+      "parent": "kw_agreement+kw_china+open_china",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14758,35 +14807,6 @@
       "parents": [
         "is_friday+kw_tariff_2plus",
         "is_friday+kw_economy"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "kw_signed"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "636a60ee7d6d",
-      "n_cond": 2,
-      "train_trades": 14,
-      "train_win_rate": 71.4,
-      "train_avg": 0.616,
-      "test_trades": 5,
-      "test_win_rate": 100.0,
-      "test_avg": 1.026,
-      "combined_score": 85.7,
-      "origin": "crossover",
-      "born_date": "2026-04-09",
-      "weight": 1.0,
-      "parents": [
-        "is_friday+kw_signed",
-        "both_tariff_and_deal+kw_dow_2plus"
       ],
       "learn_stats": {
         "correct": 0,
