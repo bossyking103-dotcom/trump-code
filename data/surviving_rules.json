@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-13T11:22:31Z",
-    "evolved_rules_added": 46
+    "last_evolution": "2026-04-13T12:04:41Z",
+    "evolved_rules_added": 42
   },
   "rules": [
     {
@@ -13052,7 +13052,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-04-13",
       "weight": 1.0,
-      "parent": "kw_tariffs+kw_thank_you_for_your_attention+open_inflation"
+      "parent": "kw_tariffs+kw_thank_you_for_your_attention+open_inflation",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13526,6 +13531,30 @@
         "wrong": 0,
         "streak": 0
       }
+    },
+    {
+      "features": [
+        "kw_thank_you_for_your_attention",
+        "kw_signed"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "6956e4424683",
+      "n_cond": 2,
+      "train_trades": 18,
+      "train_win_rate": 77.8,
+      "train_avg": 0.891,
+      "test_trades": 6,
+      "test_win_rate": 100.0,
+      "test_avg": 0.921,
+      "combined_score": 88.9,
+      "origin": "crossover",
+      "born_date": "2026-04-13",
+      "weight": 1.0,
+      "parents": [
+        "kw_interest_rate+kw_signed",
+        "kw_deal_2plus+kw_dow_2plus"
+      ]
     },
     {
       "features": [
@@ -14776,36 +14805,6 @@
       "born_date": "2026-04-09",
       "weight": 1.0,
       "parent": "kw_deal+kw_signed+kw_tremendous",
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_signed",
-        "questions_yes",
-        "kw_economy"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "4b1c484694a6",
-      "n_cond": 3,
-      "train_trades": 10,
-      "train_win_rate": 70.0,
-      "train_avg": 0.613,
-      "test_trades": 3,
-      "test_win_rate": 100.0,
-      "test_avg": 1.079,
-      "combined_score": 85.0,
-      "origin": "crossover",
-      "born_date": "2026-04-12",
-      "weight": 1.0,
-      "parents": [
-        "is_friday+kw_economy",
-        "is_friday+kw_signed"
-      ],
       "learn_stats": {
         "correct": 0,
         "wrong": 0,
