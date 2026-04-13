@@ -1,17 +1,13 @@
 {
   "date": "2026-04-13",
-  "prepared_at": "2026-04-13T18:02:06Z",
+  "prepared_at": "2026-04-13T21:02:53Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 18,
-    "latest": "34 Ships went through the Strait of Hormuz yesterday, which is by far the highest number since this foolish closure began. President DONALD J. TRUMP",
+    "count": 19,
+    "latest": "For those people that still read The Failing New York Times and, despite the fact that Iran has been totally OBLITERATED, Militarily, and otherwise, you would think that Iran is actually winning or, a",
     "earliest_time": "2026-04-13T00:56:08.350Z",
-    "latest_time": "2026-04-13T16:33:16.102Z",
+    "latest_time": "2026-04-13T20:54:36.156Z",
     "sample": [
-      {
-        "time": "06:35",
-        "text": "Impeachment Bombshell: Secret memos expose Ukraine accuser's bias, hearsay, and false claim: https://justthenews.com/accountability/whistleblowers/ukraine-bombshell-long-secret-memos-expose-whistleblower-bias-hearsay"
-      },
       {
         "time": "06:36",
         "text": "The Trump card the president holds if Iran won't bend: a naval blockade: https://justthenews.com/government/security/trump-card-president-holds-if-iran-wont-bend-naval-blockade"
@@ -47,6 +43,10 @@
       {
         "time": "16:33",
         "text": "34 Ships went through the Strait of Hormuz yesterday, which is by far the highest number since this foolish closure began. President DONALD J. TRUMP"
+      },
+      {
+        "time": "20:54",
+        "text": "For those people that still read The Failing New York Times and, despite the fact that Iran has been totally OBLITERATED, Militarily, and otherwise, you would think that Iran is actually winning or, at the very least, doing quite well — But that's not true, and The New York Times knows that it's FAK"
       }
     ]
   },
@@ -60,7 +60,7 @@
     "avg_len_medium": true,
     "caps_low": true,
     "excl_normal": true,
-    "questions_no": true,
+    "questions_yes": true,
     "has_night": true,
     "heavy_night": true,
     "kw_deal": true,
@@ -86,7 +86,10 @@
     "open_iran": true,
     "kw_stock_market": true,
     "kw_great": true,
+    "kw_fake": true,
+    "kw_corrupt": true,
     "kw_terrible": true,
+    "kw_horrible": true,
     "kw_obama": true,
     "kw_maga": true,
     "kw_president_djt": true,
@@ -212,30 +215,21 @@
   "evolution_latest": {
     "date": "2026-04-13",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 11,
     "distill": 17,
-    "total_new": 49,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tremendous",
-          "kw_agreement"
+          "posts_21_35",
+          "volume_spike",
+          "kw_amazing"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_deal",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 85.0,
-        "origin": "mutation_remove"
+        "score": 90.0,
+        "origin": "mutation_replace"
       },
       {
         "features": [
@@ -246,6 +240,17 @@
         "hold": 1,
         "score": 84.8,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "kw_dow_2plus",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 83.8,
+        "origin": "crossover"
       }
     ]
   },
