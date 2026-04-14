@@ -544,5 +544,18 @@
       "IRAN"
     ],
     "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-04-14",
+    "posts": 19,
+    "triggered": 3,
+    "long": 3,
+    "short": 0,
+    "signals": [
+      "TARIFF",
+      "IRAN",
+      "TARIFF_ONLY"
+    ],
+    "consensus": "BULLISH"
   }
 ]
