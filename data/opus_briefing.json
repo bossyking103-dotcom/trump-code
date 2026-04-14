@@ -1,12 +1,12 @@
 {
   "date": "2026-04-14",
-  "prepared_at": "2026-04-14T12:04:23Z",
+  "prepared_at": "2026-04-14T15:03:48Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "Alan, one of the greats, should do it! President DJThttps://justthenews.com/politics-policy/all-things-trump/alan-dershowitz-trump-could-move-expunge-2019-impeachment-after",
+    "count": 10,
+    "latest": "Europe is desperate for Energy, and yet the United Kingdom refuses to open North Sea Oil, one of the greatest fields in the World. Tragic!!! Aberdeen should be booming. Norway sells its North Sea Oil ",
     "earliest_time": "2026-04-14T02:54:55.652Z",
-    "latest_time": "2026-04-14T11:51:55.415Z",
+    "latest_time": "2026-04-14T14:30:01.788Z",
     "sample": [
       {
         "time": "02:54",
@@ -25,12 +25,28 @@
         "text": "Georgia lawmaker wants Fani Willis to answer questions about $2 million grant from Biden DOJ: https://justthenews.com/accountability/political-ethics/georgia-lawmaker-wants-fani-willis-answer-questions-about-grant"
       },
       {
+        "time": "10:08",
+        "text": "Watch: Rep. Burchett Reveals Gov’t Giving $40 Million per Week to the Taliban and Dems Oppose Ending It: https://www.thegatewaypundit.com/2026/04/watch-rep-burchett-reveals-govt-giving-40-million/"
+      },
+      {
         "time": "11:49",
         "text": "Biden administration weaponized law to infringe rights of pro-life activists, DOJ says: https://justthenews.com/politics-policy/abortion/biden-administration-weaponized-law-infringe-rights-pro-life-activists-doj"
       },
       {
         "time": "11:51",
         "text": "Alan, one of the greats, should do it! President DJThttps://justthenews.com/politics-policy/all-things-trump/alan-dershowitz-trump-could-move-expunge-2019-impeachment-after"
+      },
+      {
+        "time": "12:09",
+        "text": "Bruce Blakeman, the highly respected and very popular Nassau County Executive, who is running for Governor, is surging in the New York State Polls. He is one of the best politicians in the U.S. Watch him work his magic!!! President DJT"
+      },
+      {
+        "time": "14:08",
+        "text": "Watch: Rep. Burchett Reveals Gov't Giving $40 Million per Week to the Taliban and Dems Oppose Ending It: https://www.thegatewaypundit.com/2026/04/watch-rep-burchett-reveals-govt-giving-40-million/"
+      },
+      {
+        "time": "14:30",
+        "text": "Europe is desperate for Energy, and yet the United Kingdom refuses to open North Sea Oil, one of the greatest fields in the World. Tragic!!! Aberdeen should be booming. Norway sells its North Sea Oil to the U.K. at double the price. They are making a fortune. U.K., which is better situated on the No"
       }
     ]
   },
@@ -45,15 +61,29 @@
     "questions_no": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_ban": true,
+    "kw_ban_2plus": true,
+    "pre_ban": true,
+    "open_ban": true,
     "kw_block": true,
     "kw_iran": true,
+    "kw_europe": true,
+    "open_europe": true,
+    "kw_oil": true,
+    "open_oil": true,
+    "kw_energy": true,
+    "open_energy": true,
     "kw_great": true,
+    "kw_great_2plus": true,
     "pre_great": true,
+    "open_great": true,
     "kw_biden": true,
     "kw_biden_2plus": true,
     "pre_biden": true,
     "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
     "pre_president_djt": true,
+    "open_president_djt": true,
     "volume_rising_3d": true
   },
   "model_performance": {
@@ -165,30 +195,31 @@
   "evolution_latest": {
     "date": "2026-04-14",
     "crossover": 16,
-    "mutation": 8,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 40,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "is_friday",
-          "kw_thank_you_for_your_attention",
-          "kw_jobs"
+          "kw_beautiful",
+          "kw_tariff_2plus",
+          "open_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 91.7,
         "origin": "crossover"
       },
       {
         "features": [
           "questions_yes",
-          "is_friday"
+          "open_dow",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 85.7,
+        "score": 90.0,
         "origin": "crossover"
       },
       {
