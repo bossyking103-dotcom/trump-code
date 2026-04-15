@@ -1,21 +1,19 @@
 {
-  "date": "2026-04-14",
-  "generated_at": "2026-04-14T21:02:44Z",
-  "posts_today": 19,
+  "date": "2026-04-15",
+  "generated_at": "2026-04-15T06:03:01Z",
+  "posts_today": 9,
   "latest_post": {
-    "time": "2026-04-14T19:30",
-    "content_preview": "It is my Great Honor to endorse Highly Respected State Senator, Carrie Buck, who is running to repre"
+    "time": "2026-04-15T04:08",
+    "content_preview": "Will be interviewed tomorrow morning by Maria B. FoxBusiness. Enjoy!!! President DJT"
   },
   "signals_detected": [
-    "TARIFF",
-    "IRAN",
-    "TARIFF_ONLY"
+    "IRAN"
   ],
-  "models_triggered": 3,
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 3,
+    "LONG": 0,
     "SHORT": 0,
-    "consensus": "BULLISH"
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 0,
@@ -27,43 +25,9 @@
     "close": 6967.38
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-04-14\nPosts today: 19 | Models triggered: 3\nSignals: TARIFF, IRAN, TARIFF_ONLY\nConsensus: 3 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: It is my Great Honor to endorse Highly Respected State Senator, Carrie Buck, who is running to repre",
-    "zh": "川普密碼每日報告 -- 2026-04-14\n今日推文: 19 篇 | 觸發模型: 3 組\n偵測信號: 關稅, 伊朗, 只有關稅沒有Deal\n共識方向: 3 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: It is my Great Honor to endorse Highly Respected State Senator, Carrie Buck, who is running to repre",
-    "ja": "トランプ・コード日次レポート -- 2026-04-14\n本日の投稿: 19件 | トリガーモデル: 3組\n検出シグナル: 関税, イラン, 関税のみ（Deal無し）\nコンセンサス: 3組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: It is my Great Honor to endorse Highly Respected State Senator, Carrie Buck, who is running to repre"
+    "en": "Trump Code Daily Report -- 2026-04-15\nPosts today: 9 | Models triggered: 0\nSignals: IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: Will be interviewed tomorrow morning by Maria B. FoxBusiness. Enjoy!!! President DJT",
+    "zh": "川普密碼每日報告 -- 2026-04-15\n今日推文: 9 篇 | 觸發模型: 0 組\n偵測信號: 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: Will be interviewed tomorrow morning by Maria B. FoxBusiness. Enjoy!!! President DJT",
+    "ja": "トランプ・コード日次レポート -- 2026-04-15\n本日の投稿: 9件 | トリガーモデル: 0組\n検出シグナル: イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: Will be interviewed tomorrow morning by Maria B. FoxBusiness. Enjoy!!! President DJT"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_jobs",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "open_trade",
-        "open_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "open_tariffs",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
