@@ -1,17 +1,13 @@
 {
   "date": "2026-04-15",
-  "prepared_at": "2026-04-15T15:03:20Z",
+  "prepared_at": "2026-04-15T18:04:02Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 13,
-    "latest": "I am working very hard with our Great Speaker, Mike Johnson, along with Chairman Jim Jordan and Chairman Rick Crawford, to get a clean extension of FISA 702 through the House of Representatives this w",
+    "count": 14,
+    "latest": "Why is FoxNews showing SLEAZEBAG Tom Steyer, doing a big piece on him right now, and probably putting him \"into play,\" instead of talking about Republican Candidates, and really good ones like Steve H",
     "earliest_time": "2026-04-15T03:34:56.928Z",
-    "latest_time": "2026-04-15T14:16:50.201Z",
+    "latest_time": "2026-04-15T16:39:57.654Z",
     "sample": [
-      {
-        "time": "04:01",
-        "text": "Biden administration weaponized law to infringe rights of pro-life activists, DOJ says: https://justthenews.com/politics-policy/abortion/biden-administration-weaponized-law-infringe-rights-pro-life-activists-doj"
-      },
       {
         "time": "04:02",
         "text": "'Abuse of discretion': Appeals court slaps down Judge Boasberg over contempt probe: https://justthenews.com/government/courts-law/appeals-court-shuts-down-boasberg-contempt-investigation"
@@ -47,6 +43,10 @@
       {
         "time": "14:16",
         "text": "I am working very hard with our Great Speaker, Mike Johnson, along with Chairman Jim Jordan and Chairman Rick Crawford, to get a clean extension of FISA 702 through the House of Representatives this week. I am asking Republicans to UNIFY, and vote together on the test vote to bring a clean Bill to t"
+      },
+      {
+        "time": "16:39",
+        "text": "Why is FoxNews showing SLEAZEBAG Tom Steyer, doing a big piece on him right now, and probably putting him \"into play,\" instead of talking about Republican Candidates, and really good ones like Steve Hilton, and Republicans? How can a Republican expect to win that State, with their Mail In Voting and"
       }
     ]
   },
@@ -57,7 +57,7 @@
   "today_features": {
     "posts_11_20": true,
     "avg_len_medium": true,
-    "caps_low": true,
+    "caps_medium": true,
     "excl_heavy": true,
     "questions_yes": true,
     "mostly_premarket": true,
@@ -235,32 +235,28 @@
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "open_trade",
-          "kw_ban"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.0,
-        "origin": "mutation_replace"
-      },
-      {
-        "features": [
-          "kw_economy",
-          "kw_jobs",
           "is_friday",
-          "kw_thank_you_for_your_attention"
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "open_tariff",
-          "is_friday",
+          "open_energy",
           "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 94.1,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_signed",
+          "open_dow"
         ],
         "direction": "LONG",
         "hold": 3,
