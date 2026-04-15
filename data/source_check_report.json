@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-04-15T12:04:33Z",
+  "timestamp": "2026-04-15T15:02:36Z",
   "sources": {
     "cnn": {
       "status": "ok",
-      "count": 5980,
+      "count": 5983,
       "error": null
     },
     "trumpstruth": {
       "status": "ok",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     "truthsocial_direct": {
@@ -30,7 +30,7 @@
   },
   "merge": {
     "primary_source": "cnn",
-    "total_posts": 5980,
+    "total_posts": 5983,
     "added_from_others": 0
   }
 }
