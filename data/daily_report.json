@@ -1,19 +1,20 @@
 {
   "date": "2026-04-15",
-  "generated_at": "2026-04-15T09:01:59Z",
-  "posts_today": 9,
+  "generated_at": "2026-04-15T12:04:33Z",
+  "posts_today": 10,
   "latest_post": {
-    "time": "2026-04-15T04:08",
-    "content_preview": "Will be interviewed tomorrow morning by Maria B. FoxBusiness. Enjoy!!! President DJT"
+    "time": "2026-04-15T11:46",
+    "content_preview": "China is very happy that I am permanently opening the Strait of Hormuz. I am doing it for them, also"
   },
   "signals_detected": [
+    "CHINA",
     "IRAN"
   ],
-  "models_triggered": 0,
+  "models_triggered": 1,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 1,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 0,
@@ -25,9 +26,21 @@
     "close": 6967.38
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-04-15\nPosts today: 9 | Models triggered: 0\nSignals: IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: Will be interviewed tomorrow morning by Maria B. FoxBusiness. Enjoy!!! President DJT",
-    "zh": "川普密碼每日報告 -- 2026-04-15\n今日推文: 9 篇 | 觸發模型: 0 組\n偵測信號: 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: Will be interviewed tomorrow morning by Maria B. FoxBusiness. Enjoy!!! President DJT",
-    "ja": "トランプ・コード日次レポート -- 2026-04-15\n本日の投稿: 9件 | トリガーモデル: 0組\n検出シグナル: イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: Will be interviewed tomorrow morning by Maria B. FoxBusiness. Enjoy!!! President DJT"
+    "en": "Trump Code Daily Report -- 2026-04-15\nPosts today: 10 | Models triggered: 1\nSignals: CHINA, IRAN\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: China is very happy that I am permanently opening the Strait of Hormuz. I am doing it for them, also",
+    "zh": "川普密碼每日報告 -- 2026-04-15\n今日推文: 10 篇 | 觸發模型: 1 組\n偵測信號: 中國, 伊朗\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: China is very happy that I am permanently opening the Strait of Hormuz. I am doing it for them, also",
+    "ja": "トランプ・コード日次レポート -- 2026-04-15\n本日の投稿: 10件 | トリガーモデル: 1組\n検出シグナル: 中国, イラン\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: China is very happy that I am permanently opening the Strait of Hormuz. I am doing it for them, also"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_china",
+        "kw_corrupt",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }

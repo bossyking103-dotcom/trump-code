@@ -1,17 +1,13 @@
 {
   "date": "2026-04-15",
-  "prepared_at": "2026-04-15T09:02:30Z",
+  "prepared_at": "2026-04-15T12:05:10Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 9,
-    "latest": "Will be interviewed tomorrow morning by Maria B. FoxBusiness. Enjoy!!! President DJT",
-    "earliest_time": "2026-04-15T01:12:00.000Z",
-    "latest_time": "2026-04-15T04:08:07.541Z",
+    "count": 10,
+    "latest": "China is very happy that I am permanently opening the Strait of Hormuz. I am doing it for them, also - And the World. This situation will never happen again. They have agreed not to send weapons to Ir",
+    "earliest_time": "2026-04-15T03:34:56.928Z",
+    "latest_time": "2026-04-15T11:46:18.659Z",
     "sample": [
-      {
-        "time": "01:12",
-        "text": "Not good!!!"
-      },
       {
         "time": "03:34",
         "text": "Will someone please tell Pope Leo that Iran has killed at least 42,000 innocent, completely unarmed, protesters in the last two months, and that for Iran to have a Nuclear Bomb is absolutely unacceptable. Thank you for your attention to this matter. AMERICA IS BACK!!! President DONALD J. TRUMP"
@@ -43,23 +39,33 @@
       {
         "time": "04:08",
         "text": "Will be interviewed tomorrow morning by Maria B. FoxBusiness. Enjoy!!! President DJT"
+      },
+      {
+        "time": "05:10",
+        "text": "Not good!!!"
+      },
+      {
+        "time": "11:46",
+        "text": "China is very happy that I am permanently opening the Strait of Hormuz. I am doing it for them, also - And the World. This situation will never happen again. They have agreed not to send weapons to Iran. President Xi will give me a big, fat, hug when I get there in a few weeks. We are working togeth"
       }
     ]
   },
   "keyword_signals": [
+    "CHINA",
     "IRAN"
   ],
   "today_features": {
     "posts_6_10": true,
     "avg_len_medium": true,
     "caps_low": true,
-    "excl_normal": true,
-    "questions_no": true,
+    "excl_heavy": true,
+    "questions_yes": true,
     "mostly_premarket": true,
     "has_night": true,
-    "heavy_night": true,
     "kw_block": true,
     "pre_block": true,
+    "kw_china": true,
+    "pre_china": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
@@ -80,6 +86,26 @@
     "pre_president_djt": true,
     "kw_thank_you_for_your_attention": true,
     "volume_rising_3d": true
+  },
+  "triggered_rules": {
+    "total": 1,
+    "long": 1,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0062",
+        "features": [
+          "kw_china",
+          "kw_corrupt",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -189,43 +215,43 @@
   },
   "evolution_latest": {
     "date": "2026-04-15",
-    "crossover": 14,
-    "mutation": 15,
+    "crossover": 16,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_trade",
-          "open_energy"
+          "kw_tremendous",
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 90.9,
+        "hold": 3,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "open_trade",
-          "kw_jobs"
+          "mostly_open",
+          "kw_fake",
+          "kw_dow_2plus"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_replace"
+        "score": 92.9,
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_fantastic",
-          "kw_biden",
-          "kw_ban"
+          "is_friday",
+          "questions_yes"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.0,
-        "origin": "crossover"
+        "hold": 3,
+        "score": 85.7,
+        "origin": "distilled"
       }
     ]
   },
@@ -243,6 +269,7 @@
   "prediction_market": {
     "date": "2026-04-15",
     "signals": [
+      "CHINA",
       "IRAN"
     ],
     "opportunities": [],
