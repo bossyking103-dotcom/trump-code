@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-16T12:04:25Z",
-    "evolved_rules_added": 43
+    "last_evolution": "2026-04-16T15:02:46Z",
+    "evolved_rules_added": 47
   },
   "rules": [
     {
@@ -12568,7 +12568,12 @@
       "parents": [
         "excl_heavy+kw_economy",
         "kw_deal_2plus+kw_europe"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13523,7 +13528,12 @@
       "parents": [
         "is_friday+kw_beautiful",
         "kw_deal_2plus+kw_economy"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
