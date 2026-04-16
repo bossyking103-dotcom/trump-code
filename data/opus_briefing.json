@@ -1,123 +1,34 @@
 {
-  "date": "2026-04-15",
-  "prepared_at": "2026-04-15T21:06:20Z",
+  "date": "2026-04-16",
+  "prepared_at": "2026-04-16T06:03:59Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 14,
-    "latest": "Why is FoxNews showing SLEAZEBAG Tom Steyer, doing a big piece on him right now, and probably putting him \"into play,\" instead of talking about Republican Candidates, and really good ones like Steve H",
-    "earliest_time": "2026-04-15T03:34:56.928Z",
-    "latest_time": "2026-04-15T16:39:57.654Z",
+    "count": 2,
+    "latest": "Trying to get a little breathing room between Israel and Lebanon. It has been a long time since the two leaders have spoken, like 34 years. It will happen tomorrow. Nice! President DJT",
+    "earliest_time": "2026-04-16T03:14:24.238Z",
+    "latest_time": "2026-04-16T03:26:40.837Z",
     "sample": [
       {
-        "time": "04:02",
-        "text": "'Abuse of discretion': Appeals court slaps down Judge Boasberg over contempt probe: https://justthenews.com/government/courts-law/appeals-court-shuts-down-boasberg-contempt-investigation"
+        "time": "03:14",
+        "text": "Gabbard refers impeachment whistleblower to DOJ for criminal investigation: https://justthenews.com/government/security/gabbard-refers-impeachment-whistleblower-doj-criminal-investigation"
       },
       {
-        "time": "04:02",
-        "text": "The most corrupt group in Government! President DJThttps://justthenews.com/government/congress/house-committees-probing-actblue-suggest-company-obstructed-misled-congress"
-      },
-      {
-        "time": "04:03",
-        "text": "Chokehold: Iran could run out of oil storage with Trump blockade, wreaking havoc with its economy: https://justthenews.com/politics-policy/energy/strait-hormuz-blockaded-globe-has-limited-options-address-energy-shortfall"
-      },
-      {
-        "time": "04:08",
-        "text": "Will be interviewed tomorrow morning by Maria B. FoxBusiness. Enjoy!!! President DJT"
-      },
-      {
-        "time": "05:10",
-        "text": "Not good!!!"
-      },
-      {
-        "time": "11:46",
-        "text": "China is very happy that I am permanently opening the Strait of Hormuz. I am doing it for them, also - And the World. This situation will never happen again. They have agreed not to send weapons to Iran. President Xi will give me a big, fat, hug when I get there in a few weeks. We are working togeth"
-      },
-      {
-        "time": "12:09",
-        "text": "JEROME STARKEY: If hot air was a weapon Starmer would have rearmed Britain – but words don't win wars:https://www.thesun.co.uk/news/38819687/starmer-words-dont-win-wars-iran-russia-jerome-starkey/"
-      },
-      {
-        "time": "12:34",
-        "text": "The Radical Left Lunatics might not like this, but I think it is quite nice!!!  President DJT"
-      },
-      {
-        "time": "14:16",
-        "text": "I am working very hard with our Great Speaker, Mike Johnson, along with Chairman Jim Jordan and Chairman Rick Crawford, to get a clean extension of FISA 702 through the House of Representatives this week. I am asking Republicans to UNIFY, and vote together on the test vote to bring a clean Bill to t"
-      },
-      {
-        "time": "16:39",
-        "text": "Why is FoxNews showing SLEAZEBAG Tom Steyer, doing a big piece on him right now, and probably putting him \"into play,\" instead of talking about Republican Candidates, and really good ones like Steve Hilton, and Republicans? How can a Republican expect to win that State, with their Mail In Voting and"
+        "time": "03:26",
+        "text": "Trying to get a little breathing room between Israel and Lebanon. It has been a long time since the two leaders have spoken, like 34 years. It will happen tomorrow. Nice! President DJT"
       }
     ]
   },
-  "keyword_signals": [
-    "CHINA",
-    "IRAN"
-  ],
   "today_features": {
-    "posts_11_20": true,
+    "posts_1_5": true,
     "avg_len_medium": true,
-    "caps_medium": true,
-    "excl_heavy": true,
-    "questions_yes": true,
-    "mostly_premarket": true,
+    "caps_low": true,
+    "excl_normal": true,
+    "questions_no": true,
     "has_night": true,
-    "kw_block": true,
-    "pre_block": true,
-    "kw_china": true,
-    "pre_china": true,
-    "kw_russia": true,
-    "kw_russia_2plus": true,
-    "pre_russia": true,
-    "open_russia": true,
-    "kw_iran": true,
-    "kw_iran_2plus": true,
-    "pre_iran": true,
-    "kw_dow": true,
-    "pre_dow": true,
-    "kw_economy": true,
-    "pre_economy": true,
-    "kw_oil": true,
-    "pre_oil": true,
-    "kw_energy": true,
-    "pre_energy": true,
-    "kw_great": true,
-    "open_great": true,
-    "kw_tremendous": true,
-    "open_tremendous": true,
-    "kw_corrupt": true,
-    "pre_corrupt": true,
-    "kw_disgrace": true,
-    "open_disgrace": true,
-    "kw_biden": true,
-    "pre_biden": true,
+    "kw_ban": true,
+    "kw_israel": true,
     "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "pre_president_djt": true,
-    "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "open_thank_you_for_your_attention": true,
-    "volume_rising_3d": true
-  },
-  "triggered_rules": {
-    "total": 1,
-    "long": 1,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0062",
-        "features": [
-          "kw_china",
-          "kw_corrupt",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -226,7 +137,7 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-04-15",
+    "date": "2026-04-16",
     "crossover": 16,
     "mutation": 13,
     "distill": 16,
@@ -235,34 +146,36 @@
     "top_3": [
       {
         "features": [
-          "is_friday",
-          "kw_tremendous",
-          "kw_tariffs"
+          "kw_biden",
+          "questions_yes",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 92.9,
+        "score": 90.9,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_beautiful",
-          "is_friday",
-          "excl_heavy"
+          "kw_president_of_the_united_states",
+          "questions_yes",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_inflation",
-          "open_president_of_the_united_states"
-        ],
-        "direction": "LONG",
-        "hold": 2,
         "score": 90.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_tariff_2plus",
+          "kw_economy",
+          "kw_thank_you_for_your_attention",
+          "kw_tariff"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.5,
         "origin": "crossover"
       }
     ]
