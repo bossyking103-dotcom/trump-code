@@ -1,6 +1,6 @@
 {
   "date": "2026-04-16",
-  "prepared_at": "2026-04-16T06:03:59Z",
+  "prepared_at": "2026-04-16T09:05:27Z",
   "status": "PENDING",
   "today_posts": {
     "count": 2,
@@ -139,26 +139,14 @@
   "evolution_latest": {
     "date": "2026-04-16",
     "crossover": 16,
-    "mutation": 13,
+    "mutation": 10,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 42,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_biden",
-          "questions_yes",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.9,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_president_of_the_united_states",
-          "questions_yes",
+          "pre_great",
           "kw_signed"
         ],
         "direction": "LONG",
@@ -168,14 +156,23 @@
       },
       {
         "features": [
-          "kw_tariff_2plus",
-          "kw_economy",
-          "kw_thank_you_for_your_attention",
-          "kw_tariff"
+          "kw_agreement",
+          "kw_tariffs"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.5,
+        "score": 87.5,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "volume_falling_3d",
+          "both_tariff_and_deal",
+          "kw_tariffs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 86.4,
         "origin": "crossover"
       }
     ]
