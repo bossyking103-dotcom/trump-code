@@ -1,12 +1,12 @@
 {
   "date": "2026-04-16",
-  "prepared_at": "2026-04-16T15:02:46Z",
+  "prepared_at": "2026-04-16T18:05:49Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "Trying to get a little breathing room between Israel and Lebanon. It has been a long time since the two leaders have spoken, like 34 years. It will happen tomorrow. Nice! President DJT",
+    "count": 5,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116415122630904602In addition to the statement just issued, I will be inviting the Prime Minister of Israel, Bibi Netanyahu, and the Presiden",
     "earliest_time": "2026-04-16T03:14:24.238Z",
-    "latest_time": "2026-04-16T03:26:40.837Z",
+    "latest_time": "2026-04-16T15:53:52.445Z",
     "sample": [
       {
         "time": "03:14",
@@ -15,18 +15,40 @@
       {
         "time": "03:26",
         "text": "Trying to get a little breathing room between Israel and Lebanon. It has been a long time since the two leaders have spoken, like 34 years. It will happen tomorrow. Nice! President DJT"
+      },
+      {
+        "time": "11:53",
+        "text": "In addition to the statement just issued, I will be inviting the Prime Minister of Israel, Bibi Netanyahu, and the President of Lebanon, Joseph Aoun, to the White House for the first meaningful talks between Israel and Lebanon since 1983, a very long time ago. Both sides want to see PEACE, and I bel"
+      },
+      {
+        "time": "15:36",
+        "text": "I just had excellent conversations with the Highly Respected President Joseph Aoun, of Lebanon, and Prime Minister Bibi Netanyahu, of Israel. These two Leaders have agreed that in order to achieve PEACE between their Countries, they will formally begin a 10 Day CEASEFIRE at 5 P.M. EST. On Tuesday, t"
+      },
+      {
+        "time": "15:53",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116415122630904602In addition to the statement just issued, I will be inviting the Prime Minister of Israel, Bibi Netanyahu, and the President of Lebanon, Joseph Aoun, to the White House for the first meaningful talks between Israel and Leba"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_medium": true,
-    "caps_low": true,
+    "avg_len_long": true,
+    "caps_medium": true,
     "excl_normal": true,
     "questions_no": true,
     "has_night": true,
     "kw_ban": true,
+    "kw_ban_2plus": true,
+    "pre_ban": true,
+    "open_ban": true,
     "kw_israel": true,
+    "kw_israel_2plus": true,
+    "pre_israel": true,
+    "open_israel": true,
+    "kw_great": true,
+    "open_great": true,
+    "kw_vance": true,
+    "open_vance": true,
     "kw_president_djt": true,
     "volume_drop": true
   },
@@ -146,10 +168,8 @@
     "top_3": [
       {
         "features": [
-          "kw_jobs",
-          "open_jobs",
-          "open_thank_you_for_your_attention",
-          "kw_thank_you_for_your_attention"
+          "kw_interest_rate",
+          "excl_heavy"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -158,24 +178,23 @@
       },
       {
         "features": [
-          "kw_signed",
-          "kw_deal"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 87.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_economy",
-          "open_thank_you_for_your_attention",
-          "kw_inflation"
+          "open_tariff",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 2,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "excl_heavy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "mutation_remove"
       }
     ]
   },
