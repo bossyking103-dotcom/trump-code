@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-17T06:03:11Z",
+    "last_evolution": "2026-04-17T09:00:37Z",
     "evolved_rules_added": 48
   },
   "rules": [
@@ -13537,6 +13537,31 @@
     },
     {
       "features": [
+        "kw_china",
+        "kw_economy",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "id": "5c34f567d089",
+      "n_cond": 3,
+      "train_trades": 6,
+      "train_win_rate": 83.3,
+      "train_avg": 0.228,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.663,
+      "combined_score": 91.7,
+      "origin": "crossover",
+      "born_date": "2026-04-17",
+      "weight": 1.0,
+      "parents": [
+        "kw_agreement+kw_china",
+        "kw_economy+kw_interest_rate"
+      ]
+    },
+    {
+      "features": [
         "is_friday",
         "kw_energy"
       ],
@@ -14414,7 +14439,12 @@
       "parents": [
         "kw_interest_rate+kw_thank_you_for_your_attention",
         "is_friday+kw_tariffs_2plus"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14643,7 +14673,12 @@
       "parents": [
         "kw_signed+kw_tariff",
         "kw_tariff_2plus+open_thank_you_for_your_attention"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14816,35 +14851,6 @@
       "parents": [
         "is_friday+kw_china",
         "kw_signed+kw_tariff"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "7ac641483d05",
-      "n_cond": 2,
-      "train_trades": 7,
-      "train_win_rate": 100.0,
-      "train_avg": 1.996,
-      "test_trades": 4,
-      "test_win_rate": 75.0,
-      "test_avg": 0.536,
-      "combined_score": 87.5,
-      "origin": "crossover",
-      "born_date": "2026-03-15",
-      "weight": 1.0,
-      "parents": [
-        "kw_interest_rate+volume_falling_3d",
-        "is_friday+kw_beautiful"
       ],
       "learn_stats": {
         "correct": 0,
