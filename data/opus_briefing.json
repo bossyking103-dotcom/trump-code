@@ -1,17 +1,13 @@
 {
   "date": "2026-04-17",
-  "prepared_at": "2026-04-17T15:03:19Z",
+  "prepared_at": "2026-04-17T18:02:46Z",
   "status": "PENDING",
   "today_posts": {
     "count": 15,
-    "latest": "Iran has agreed to never close the Strait of Hormuz again. It will no longer be used as a weapon against the World! President DONALD J. TRUMP",
+    "latest": "The Failing New York Times, FAKE NEWS CNN, and others, just don't know what to do. They are desperately looking for a reason to criticize President Donald J. Trump on the Iran situation, but just can'",
     "earliest_time": "2026-04-17T02:48:35.974Z",
-    "latest_time": "2026-04-17T14:40:05.883Z",
+    "latest_time": "2026-04-17T14:58:42.412Z",
     "sample": [
-      {
-        "time": "13:06",
-        "text": "IRAN HAS JUST ANNOUNCED THAT THE STRAIT OF IRAN IS FULLY OPEN AND READY FOR FULL PASSAGE. THANK YOU!"
-      },
       {
         "time": "13:27",
         "text": "THE STRAIT OF HORMUZ IS COMPLETELY OPEN AND READY FOR BUSINESS AND FULL PASSAGE, BUT THE NAVAL BLOCKADE WILL REMAIN IN FULL FORCE AND EFFECT AS IT PERTAINS TO IRAN, ONLY, UNTIL SUCH TIME AS OUR TRANSACTION WITH IRAN IS 100% COMPLETE. THIS PROCESS SHOULD GO VERY QUICKLY IN THAT MOST OF THE POINTS ARE"
@@ -47,6 +43,10 @@
       {
         "time": "14:40",
         "text": "Iran has agreed to never close the Strait of Hormuz again. It will no longer be used as a weapon against the World! President DONALD J. TRUMP"
+      },
+      {
+        "time": "14:58",
+        "text": "The Failing New York Times, FAKE NEWS CNN, and others, just don't know what to do. They are desperately looking for a reason to criticize President Donald J. Trump on the Iran situation, but just can't find it. Why don't they just say, at the right time, JOB WELL DONE, MR. PRESIDENT, and start to ga"
       }
     ]
   },
@@ -95,7 +95,7 @@
     "kw_fantastic": true,
     "open_fantastic": true,
     "kw_fake": true,
-    "pre_fake": true,
+    "open_fake": true,
     "kw_biden": true,
     "pre_biden": true,
     "kw_maga": true,
@@ -218,21 +218,21 @@
   },
   "evolution_latest": {
     "date": "2026-04-17",
-    "crossover": 14,
+    "crossover": 15,
     "mutation": 16,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_tariff",
-          "kw_signed"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
         "score": 87.5,
-        "origin": "mutation_remove"
+        "origin": "crossover"
       },
       {
         "features": [
