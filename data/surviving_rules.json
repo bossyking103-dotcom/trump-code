@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-17T12:00:37Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-04-17T15:03:19Z",
+    "evolved_rules_added": 46
   },
   "rules": [
     {
@@ -12598,7 +12598,12 @@
       "parents": [
         "open_energy+open_jobs",
         "avg_len_long+kw_fantastic_2plus"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [

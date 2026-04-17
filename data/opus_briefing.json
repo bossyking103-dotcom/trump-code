@@ -1,31 +1,114 @@
 {
   "date": "2026-04-17",
-  "prepared_at": "2026-04-17T12:00:37Z",
+  "prepared_at": "2026-04-17T15:03:19Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "May have been a historic day for Lebanon. Good things are happening!!! President DJT",
+    "count": 15,
+    "latest": "Iran has agreed to never close the Strait of Hormuz again. It will no longer be used as a weapon against the World! President DONALD J. TRUMP",
     "earliest_time": "2026-04-17T02:48:35.974Z",
-    "latest_time": "2026-04-17T02:48:35.974Z",
+    "latest_time": "2026-04-17T14:40:05.883Z",
     "sample": [
       {
-        "time": "02:48",
-        "text": "May have been a historic day for Lebanon. Good things are happening!!! President DJT"
+        "time": "13:06",
+        "text": "IRAN HAS JUST ANNOUNCED THAT THE STRAIT OF IRAN IS FULLY OPEN AND READY FOR FULL PASSAGE. THANK YOU!"
+      },
+      {
+        "time": "13:27",
+        "text": "THE STRAIT OF HORMUZ IS COMPLETELY OPEN AND READY FOR BUSINESS AND FULL PASSAGE, BUT THE NAVAL BLOCKADE WILL REMAIN IN FULL FORCE AND EFFECT AS IT PERTAINS TO IRAN, ONLY, UNTIL SUCH TIME AS OUR TRANSACTION WITH IRAN IS 100% COMPLETE. THIS PROCESS SHOULD GO VERY QUICKLY IN THAT MOST OF THE POINTS ARE"
+      },
+      {
+        "time": "13:57",
+        "text": "The U.S.A. will get all Nuclear \"Dust,\" created by our great B2 Bombers - No money will exchange hands in any way, shape, or form. This deal is in no way subject to Lebanon, either, but the USA will, separately, work with Lebanon, and deal with the Hezboolah situation in an appropriate manner. Israe"
+      },
+      {
+        "time": "14:13",
+        "text": "Now that the Hormuz Strait situation is over, I received a call from NATO asking if we would need some help. I  TOLD THEM TO STAY AWAY, UNLESS THEY JUST WANT TO LOAD UP THEIR SHIPS WITH OIL. They were useless when needed, a Paper Tiger! President DJT"
+      },
+      {
+        "time": "14:16",
+        "text": "Thank you to Saudi Arabia, UAE, and Qatar for your great bravery and help! President DONALD J. TRUMP"
+      },
+      {
+        "time": "14:20",
+        "text": "Iran, with the help of the U.S.A., has removed, or is removing, all sea mines! Thank you! President DJT"
+      },
+      {
+        "time": "14:27",
+        "text": "Again! This deal is not tied, in any way, to Lebanon, but we will, MAKE LEBANON GREAT AGAIN!"
+      },
+      {
+        "time": "14:30",
+        "text": "Thank you to Pakistan and its Great Prime Minister and Field Marshall, two fantastic people!!! President DONALD J. TRUMP"
+      },
+      {
+        "time": "14:33",
+        "text": "A GREAT AND BRILLIANT DAY FOR THE WORLD! DJT"
+      },
+      {
+        "time": "14:40",
+        "text": "Iran has agreed to never close the Strait of Hormuz again. It will no longer be used as a weapon against the World! President DONALD J. TRUMP"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_short": true,
-    "caps_medium": true,
-    "excl_extreme": true,
-    "questions_no": true,
+    "posts_11_20": true,
+    "avg_len_medium": true,
+    "caps_very_high": true,
+    "excl_heavy": true,
+    "questions_yes": true,
+    "mostly_open": true,
     "has_night": true,
+    "kw_deal": true,
+    "kw_deal_2plus": true,
+    "pre_deal": true,
+    "open_deal": true,
+    "kw_negotiate": true,
+    "pre_negotiate": true,
     "kw_ban": true,
+    "kw_ban_2plus": true,
+    "pre_ban": true,
+    "open_ban": true,
+    "kw_block": true,
+    "pre_block": true,
+    "kw_iran": true,
+    "kw_iran_2plus": true,
+    "pre_iran": true,
+    "open_iran": true,
+    "kw_israel": true,
+    "kw_israel_2plus": true,
+    "pre_israel": true,
+    "open_israel": true,
+    "kw_saudi": true,
+    "open_saudi": true,
+    "kw_oil": true,
+    "open_oil": true,
+    "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "open_great": true,
     "kw_historic": true,
+    "kw_fantastic": true,
+    "open_fantastic": true,
+    "kw_fake": true,
+    "pre_fake": true,
+    "kw_biden": true,
+    "pre_biden": true,
+    "kw_maga": true,
+    "pre_maga": true,
     "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true,
+    "open_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "pre_thank_you_for_your_attention": true,
     "is_friday": true,
-    "volume_drop": true
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -135,30 +218,19 @@
   },
   "evolution_latest": {
     "date": "2026-04-17",
-    "crossover": 16,
+    "crossover": 14,
     "mutation": 16,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "avg_len_long",
-          "open_thank_you_for_your_attention",
-          "open_energy"
+          "open_tariff",
+          "kw_signed"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 100.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
-        ],
-        "direction": "LONG",
-        "hold": 3,
+        "hold": 2,
         "score": 87.5,
         "origin": "mutation_remove"
       },
@@ -170,7 +242,17 @@
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "mutation_remove"
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
@@ -186,10 +268,11 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-04-15",
+    "date": "2026-04-17",
     "signals": [
-      "CHINA",
-      "IRAN"
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
     ],
     "opportunities": [],
     "total_scanned": 0
