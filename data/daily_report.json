@@ -1,17 +1,17 @@
 {
-  "date": "2026-04-16",
-  "generated_at": "2026-04-16T21:02:11Z",
-  "posts_today": 11,
+  "date": "2026-04-17",
+  "generated_at": "2026-04-17T06:03:06Z",
+  "posts_today": 1,
   "latest_post": {
-    "time": "2026-04-16T20:19",
-    "content_preview": "Congratulations to Taranjit Sandhu on becoming the new Lt Governor of Delhi! As a seasoned Diplomat "
+    "time": "2026-04-17T02:48",
+    "content_preview": "May have been a historic day for Lebanon. Good things are happening!!! President DJT"
   },
   "signals_detected": [],
-  "models_triggered": 1,
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 1,
+    "LONG": 0,
     "SHORT": 0,
-    "consensus": "BULLISH"
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 0,
@@ -23,21 +23,9 @@
     "close": 7041.28
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-04-16\nPosts today: 11 | Models triggered: 1\nSignals: None\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: Congratulations to Taranjit Sandhu on becoming the new Lt Governor of Delhi! As a seasoned Diplomat ",
-    "zh": "川普密碼每日報告 -- 2026-04-16\n今日推文: 11 篇 | 觸發模型: 1 組\n偵測信號: 無\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: Congratulations to Taranjit Sandhu on becoming the new Lt Governor of Delhi! As a seasoned Diplomat ",
-    "ja": "トランプ・コード日次レポート -- 2026-04-16\n本日の投稿: 11件 | トリガーモデル: 1組\n検出シグナル: なし\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: Congratulations to Taranjit Sandhu on becoming the new Lt Governor of Delhi! As a seasoned Diplomat "
+    "en": "Trump Code Daily Report -- 2026-04-17\nPosts today: 1 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: May have been a historic day for Lebanon. Good things are happening!!! President DJT",
+    "zh": "川普密碼每日報告 -- 2026-04-17\n今日推文: 1 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: May have been a historic day for Lebanon. Good things are happening!!! President DJT",
+    "ja": "トランプ・コード日次レポート -- 2026-04-17\n本日の投稿: 1件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: May have been a historic day for Lebanon. Good things are happening!!! President DJT"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_beautiful",
-        "open_thank_you_for_your_attention",
-        "open_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
