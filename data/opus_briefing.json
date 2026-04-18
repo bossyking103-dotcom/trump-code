@@ -1,17 +1,13 @@
 {
   "date": "2026-04-18",
-  "prepared_at": "2026-04-18T12:08:31Z",
+  "prepared_at": "2026-04-18T15:04:23Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 18,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116425396492356069",
+    "count": 19,
+    "latest": "Has anybody looked at how badly the country of Spain is doing. Their financial numbers, despite contributing almost nothing to NATO and their military defense, are absolutely horrendous. Sad to watch!",
     "earliest_time": "2026-04-18T01:33:59.206Z",
-    "latest_time": "2026-04-18T11:29:22.958Z",
+    "latest_time": "2026-04-18T12:14:41.918Z",
     "sample": [
-      {
-        "time": "02:27",
-        "text": "Trump Tours Pharmaceutical Manufacturing Site in Cincinnati, Gives Update on Iran: 'Way Ahead of Schedule': https://www.breitbart.com/middle-east/2026/03/11/trump-tours-pharmaceutical-manufacturing-site-in-cincinnati-gives-update-on-iran-way-ahead-of-schedule/amp/"
-      },
       {
         "time": "02:55",
         "text": "Was Reed Hastings forced to leave the Netflix Board because he's a SLEAZEBAG? What was his Crime, and how many did he commit?"
@@ -47,6 +43,10 @@
       {
         "time": "11:29",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116425396492356069"
+      },
+      {
+        "time": "12:14",
+        "text": "Has anybody looked at how badly the country of Spain is doing. Their financial numbers, despite contributing almost nothing to NATO and their military defense, are absolutely horrendous. Sad to watch!!!"
       }
     ]
   },
@@ -180,42 +180,40 @@
   "evolution_latest": {
     "date": "2026-04-18",
     "crossover": 16,
-    "mutation": 13,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_corrupt",
-          "kw_jobs",
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
           "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "questions_yes",
-          "kw_tariffs_2plus",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "is_friday",
-          "open_tariffs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 88.9,
-        "origin": "crossover"
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
