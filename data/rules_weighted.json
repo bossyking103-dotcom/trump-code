@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-04-18T06:03:54Z",
+    "updated_at": "2026-04-18T09:02:41Z",
     "total_rules": 600,
     "eliminated": 0,
     "rules_with_data": 0
@@ -12608,6 +12608,36 @@
     },
     {
       "features": [
+        "kw_interest_rate",
+        "kw_tremendous",
+        "open_dow"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "7f312641e1b5",
+      "n_cond": 3,
+      "train_trades": 5,
+      "train_win_rate": 100.0,
+      "train_avg": 1.902,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 1.488,
+      "combined_score": 100.0,
+      "origin": "crossover",
+      "born_date": "2026-04-18",
+      "weight": 1.0,
+      "parents": [
+        "kw_interest_rate+kw_tremendous",
+        "kw_beautiful+kw_interest_rate"
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
+    },
+    {
+      "features": [
         "kw_maga",
         "open_ukraine"
       ],
@@ -14829,35 +14859,6 @@
       "parents": [
         "kw_energy+kw_perfect",
         "kw_president_of_the_united_states+open_ban"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_agreement"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "3e863111693f",
-      "n_cond": 2,
-      "train_trades": 21,
-      "train_win_rate": 76.2,
-      "train_avg": 0.37,
-      "test_trades": 3,
-      "test_win_rate": 100.0,
-      "test_avg": 0.714,
-      "combined_score": 88.1,
-      "origin": "crossover",
-      "born_date": "2026-04-09",
-      "weight": 1.0,
-      "parents": [
-        "kw_agreement+open_china",
-        "kw_deal+kw_disaster"
       ],
       "learn_stats": {
         "correct": 0,
