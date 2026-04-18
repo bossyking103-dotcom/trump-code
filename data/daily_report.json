@@ -1,15 +1,14 @@
 {
-  "date": "2026-04-17",
-  "generated_at": "2026-04-17T21:03:35Z",
-  "posts_today": 20,
+  "date": "2026-04-18",
+  "generated_at": "2026-04-18T06:03:34Z",
+  "posts_today": 17,
   "latest_post": {
-    "time": "2026-04-17T20:39",
-    "content_preview": "Later today, I will be speaking to a BIG CROWD for Turning Point USA in the Great State of Arizona, "
+    "time": "2026-04-18T05:15",
+    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116424005080834976"
   },
   "signals_detected": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
+    "CHINA",
+    "IRAN"
   ],
   "models_triggered": 0,
   "direction_summary": {
@@ -27,9 +26,9 @@
     "close": 7126.06
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-04-17\nPosts today: 20 | Models triggered: 0\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: Later today, I will be speaking to a BIG CROWD for Turning Point USA in the Great State of Arizona, ",
-    "zh": "川普密碼每日報告 -- 2026-04-17\n今日推文: 20 篇 | 觸發模型: 0 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: Later today, I will be speaking to a BIG CROWD for Turning Point USA in the Great State of Arizona, ",
-    "ja": "トランプ・コード日次レポート -- 2026-04-17\n本日の投稿: 20件 | トリガーモデル: 0組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: Later today, I will be speaking to a BIG CROWD for Turning Point USA in the Great State of Arizona, "
+    "en": "Trump Code Daily Report -- 2026-04-18\nPosts today: 17 | Models triggered: 0\nSignals: CHINA, IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116424005080834976",
+    "zh": "川普密碼每日報告 -- 2026-04-18\n今日推文: 17 篇 | 觸發模型: 0 組\n偵測信號: 中國, 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116424005080834976",
+    "ja": "トランプ・コード日次レポート -- 2026-04-18\n本日の投稿: 17件 | トリガーモデル: 0組\n検出シグナル: 中国, イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116424005080834976"
   },
   "triggered_rules_sample": []
 }

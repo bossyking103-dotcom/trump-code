@@ -1,122 +1,75 @@
 {
-  "date": "2026-04-17",
-  "prepared_at": "2026-04-17T21:03:57Z",
+  "date": "2026-04-18",
+  "prepared_at": "2026-04-18T06:03:54Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 20,
-    "latest": "Later today, I will be speaking to a BIG CROWD for Turning Point USA in the Great State of Arizona, then flying back to the White House and, therefore, will not be at Mar-a-Lago tonight for a very spe",
-    "earliest_time": "2026-04-17T02:48:35.974Z",
-    "latest_time": "2026-04-17T20:39:24.765Z",
+    "count": 17,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116424005080834976",
+    "earliest_time": "2026-04-18T01:33:59.206Z",
+    "latest_time": "2026-04-18T05:15:53.593Z",
     "sample": [
       {
-        "time": "14:30",
-        "text": "Thank you to Pakistan and its Great Prime Minister and Field Marshall, two fantastic people!!! President DONALD J. TRUMP"
+        "time": "02:25",
+        "text": "President Xi is very happy that the Strait of Hormuz is open and/or rapidly opening. Our meeting in China will be a special one and, potentially, Historic. I look forward to being with President Xi — Much will be accomplished! President DONALD J. TRUMP"
       },
       {
-        "time": "14:33",
-        "text": "A GREAT AND BRILLIANT DAY FOR THE WORLD! DJT"
+        "time": "02:27",
+        "text": "Trump Tours Pharmaceutical Manufacturing Site in Cincinnati, Gives Update on Iran: 'Way Ahead of Schedule': https://www.breitbart.com/middle-east/2026/03/11/trump-tours-pharmaceutical-manufacturing-site-in-cincinnati-gives-update-on-iran-way-ahead-of-schedule/amp/"
       },
       {
-        "time": "14:40",
-        "text": "Iran has agreed to never close the Strait of Hormuz again. It will no longer be used as a weapon against the World! President DONALD J. TRUMP"
+        "time": "02:55",
+        "text": "Was Reed Hastings forced to leave the Netflix Board because he's a SLEAZEBAG? What was his Crime, and how many did he commit?"
       },
       {
-        "time": "14:58",
-        "text": "The Failing New York Times, FAKE NEWS CNN, and others, just don't know what to do. They are desperately looking for a reason to criticize President Donald J. Trump on the Iran situation, but just can't find it. Why don't they just say, at the right time, JOB WELL DONE, MR. PRESIDENT, and start to ga"
+        "time": "03:25",
+        "text": "ANYONE SICK OF WINNING YET?"
       },
       {
-        "time": "15:23",
-        "text": "Senate confirms DOJ’s new ‘War on Fraud’ prosecutor Colin McDonald — with VP Vance’s backing: https://nypost.com/2026/03/24/us-news/senate-confirms-dojs-new-top-fraud-prosecutor-colin-mcdonald/"
+        "time": "04:24",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116423801851760712"
       },
       {
-        "time": "19:21",
-        "text": "Trump Effect: Apple Expands American Manufacturing Program with 4 Partners: https://www.breitbart.com/tech/2026/03/26/trump-effect-apple-expands-american-manufacturing-program-with-4-partners/"
+        "time": "04:25",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116423805453465694"
       },
       {
-        "time": "19:22",
-        "text": "Senate confirms DOJ's new 'War on Fraud' prosecutor Colin McDonald — with VP Vance's backing: https://nypost.com/2026/03/24/us-news/senate-confirms-dojs-new-top-fraud-prosecutor-colin-mcdonald/"
+        "time": "05:06",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116423967114156778THANK YOU!"
       },
       {
-        "time": "19:22",
-        "text": "DeSantis signs bill to rename Palm Beach International Airport after Donald J. Trump: https://www.wptv.com/news/trump/desantis-signs-bill-to-rename-palm-beach-international-airport-after-donald-j-trump"
+        "time": "05:10",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116423985260460652"
       },
       {
-        "time": "19:23",
-        "text": "They were not there for us!"
+        "time": "05:11",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116423987219362297"
       },
       {
-        "time": "20:39",
-        "text": "Later today, I will be speaking to a BIG CROWD for Turning Point USA in the Great State of Arizona, then flying back to the White House and, therefore, will not be at Mar-a-Lago tonight for a very special event honoring our wonderful Congressman from Texas' 13th Congressional District, \"Doc\" Ronny J"
+        "time": "05:15",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116424005080834976"
       }
     ]
   },
   "keyword_signals": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
+    "CHINA",
+    "IRAN"
   ],
   "today_features": {
     "posts_11_20": true,
-    "avg_len_medium": true,
-    "caps_very_high": true,
-    "excl_heavy": true,
+    "avg_len_short": true,
+    "caps_low": true,
+    "excl_none": true,
     "questions_yes": true,
-    "mostly_open": true,
     "has_night": true,
-    "kw_deal": true,
-    "kw_deal_2plus": true,
-    "open_deal": true,
-    "kw_negotiate": true,
-    "pre_negotiate": true,
-    "kw_ban": true,
-    "kw_ban_2plus": true,
-    "pre_ban": true,
-    "open_ban": true,
-    "kw_block": true,
-    "pre_block": true,
+    "heavy_night": true,
+    "kw_china": true,
     "kw_iran": true,
-    "kw_iran_2plus": true,
-    "pre_iran": true,
-    "open_iran": true,
-    "kw_israel": true,
-    "open_israel": true,
-    "kw_saudi": true,
-    "open_saudi": true,
-    "kw_dow": true,
-    "kw_economy": true,
-    "kw_oil": true,
-    "open_oil": true,
+    "kw_gas": true,
+    "kw_gas_2plus": true,
     "kw_energy": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
     "kw_historic": true,
-    "kw_fantastic": true,
-    "open_fantastic": true,
-    "kw_wonderful": true,
-    "kw_fake": true,
-    "open_fake": true,
-    "kw_biden": true,
-    "pre_biden": true,
-    "kw_vance": true,
-    "kw_vance_2plus": true,
-    "open_vance": true,
-    "kw_desantis": true,
-    "open_desantis": true,
-    "kw_maga": true,
-    "kw_maga_2plus": true,
-    "pre_maga": true,
-    "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "pre_president_djt": true,
-    "open_president_djt": true,
-    "kw_thank_you_for_your_attention": true,
-    "pre_thank_you_for_your_attention": true,
-    "kw_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "is_friday": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
+    "kw_historic_2plus": true,
+    "is_weekend": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -225,38 +178,38 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-04-17",
-    "crossover": 16,
-    "mutation": 16,
+    "date": "2026-04-18",
+    "crossover": 14,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_deal",
-          "kw_signed",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
+          "kw_interest_rate",
           "kw_tremendous",
-          "kw_interest_rate"
+          "open_dow"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
-        "origin": "mutation_remove"
+        "score": 100.0,
+        "origin": "crossover"
       },
       {
         "features": [
           "kw_interest_rate",
           "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -277,11 +230,10 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-04-17",
+    "date": "2026-04-18",
     "signals": [
-      "DEAL",
-      "IRAN",
-      "DEAL_ONLY"
+      "CHINA",
+      "IRAN"
     ],
     "opportunities": [],
     "total_scanned": 0
