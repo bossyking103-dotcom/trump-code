@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-18T09:02:42Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-04-18T12:08:31Z",
+    "evolved_rules_added": 45
   },
   "rules": [
     {
@@ -13627,6 +13627,56 @@
     },
     {
       "features": [
+        "kw_corrupt",
+        "kw_jobs",
+        "kw_beautiful"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "8fb5de07e939",
+      "n_cond": 3,
+      "train_trades": 6,
+      "train_win_rate": 83.3,
+      "train_avg": 1.146,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.339,
+      "combined_score": 91.7,
+      "origin": "crossover",
+      "born_date": "2026-04-18",
+      "weight": 1.0,
+      "parents": [
+        "is_friday+kw_beautiful",
+        "is_friday+kw_beautiful"
+      ]
+    },
+    {
+      "features": [
+        "questions_yes",
+        "kw_tariffs_2plus",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "611e07879f29",
+      "n_cond": 3,
+      "train_trades": 6,
+      "train_win_rate": 83.3,
+      "train_avg": 1.432,
+      "test_trades": 4,
+      "test_win_rate": 100.0,
+      "test_avg": 0.595,
+      "combined_score": 91.7,
+      "origin": "crossover",
+      "born_date": "2026-04-18",
+      "weight": 1.0,
+      "parents": [
+        "kw_tariffs_2plus+open_thank_you_for_your_attention",
+        "kw_tariffs_2plus+kw_thank_you_for_your_attention"
+      ]
+    },
+    {
+      "features": [
         "is_friday",
         "kw_energy"
       ],
@@ -14747,6 +14797,30 @@
     },
     {
       "features": [
+        "is_friday",
+        "open_tariffs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "eb03371c07f0",
+      "n_cond": 2,
+      "train_trades": 9,
+      "train_win_rate": 77.8,
+      "train_avg": 0.965,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.597,
+      "combined_score": 88.9,
+      "origin": "crossover",
+      "born_date": "2026-04-18",
+      "weight": 1.0,
+      "parents": [
+        "is_friday+kw_tremendous",
+        "is_friday+kw_beautiful"
+      ]
+    },
+    {
+      "features": [
         "kw_tariff_2plus",
         "kw_thank_you_for_your_attention",
         "kw_economy"
@@ -14768,96 +14842,6 @@
       "parents": [
         "kw_perfect+kw_thank_you_for_your_attention",
         "is_friday+kw_economy"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_tariffs",
-        "kw_signed"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "ba52db3258de",
-      "n_cond": 2,
-      "train_trades": 13,
-      "train_win_rate": 76.9,
-      "train_avg": 0.656,
-      "test_trades": 4,
-      "test_win_rate": 100.0,
-      "test_avg": 1.028,
-      "combined_score": 88.5,
-      "origin": "crossover",
-      "born_date": "2026-04-11",
-      "weight": 1.0,
-      "parents": [
-        "is_friday+kw_corrupt",
-        "both_tariff_and_deal+kw_dow_2plus"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_tariff_2plus",
-        "kw_economy",
-        "kw_thank_you_for_your_attention",
-        "kw_tariff"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "d86868d1a6a0",
-      "n_cond": 4,
-      "train_trades": 13,
-      "train_win_rate": 76.9,
-      "train_avg": 1.459,
-      "test_trades": 4,
-      "test_win_rate": 100.0,
-      "test_avg": 0.649,
-      "combined_score": 88.5,
-      "origin": "crossover",
-      "born_date": "2026-04-16",
-      "weight": 1.0,
-      "parents": [
-        "kw_tariff+kw_thank_you_for_your_attention",
-        "is_friday+kw_economy"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_thank_you_for_your_attention",
-        "kw_president_of_the_united_states",
-        "kw_energy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "id": "d15b431094ba",
-      "n_cond": 3,
-      "train_trades": 9,
-      "train_win_rate": 88.9,
-      "train_avg": 0.844,
-      "test_trades": 8,
-      "test_win_rate": 87.5,
-      "test_avg": 0.618,
-      "combined_score": 88.2,
-      "origin": "crossover",
-      "born_date": "2026-04-15",
-      "weight": 1.0,
-      "parents": [
-        "kw_energy+kw_perfect",
-        "kw_president_of_the_united_states+open_ban"
       ],
       "learn_stats": {
         "correct": 0,
