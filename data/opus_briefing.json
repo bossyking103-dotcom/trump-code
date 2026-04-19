@@ -1,6 +1,6 @@
 {
   "date": "2026-04-19",
-  "prepared_at": "2026-04-19T15:03:35Z",
+  "prepared_at": "2026-04-19T18:06:04Z",
   "status": "PENDING",
   "today_posts": {
     "count": 9,
@@ -191,9 +191,10 @@
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "is_friday",
-          "kw_tariffs_2plus"
+          "kw_interest_rate",
+          "kw_dow_2plus",
+          "open_dow",
+          "kw_energy"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -202,18 +203,19 @@
       },
       {
         "features": [
-          "open_tariff",
-          "kw_signed"
+          "kw_president_of_the_united_states",
+          "kw_signed",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 92.9,
+        "origin": "crossover"
       },
       {
         "features": [
-          "volume_falling_3d",
-          "kw_beautiful"
+          "is_friday",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 2,
