@@ -1,74 +1,58 @@
 {
-  "date": "2026-04-18",
-  "prepared_at": "2026-04-18T21:03:33Z",
+  "date": "2026-04-19",
+  "prepared_at": "2026-04-19T06:04:24Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 19,
-    "latest": "Has anybody looked at how badly the country of Spain is doing. Their financial numbers, despite contributing almost nothing to NATO and their military defense, are absolutely horrendous. Sad to watch!",
-    "earliest_time": "2026-04-18T01:33:59.206Z",
-    "latest_time": "2026-04-18T12:14:41.918Z",
+    "count": 8,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428892032687901",
+    "earliest_time": "2026-04-19T01:07:11.091Z",
+    "latest_time": "2026-04-19T01:59:46.127Z",
     "sample": [
       {
-        "time": "02:55",
-        "text": "Was Reed Hastings forced to leave the Netflix Board because he's a SLEAZEBAG? What was his Crime, and how many did he commit?"
+        "time": "01:07",
+        "text": "Whether people like Israel or not, they have proven to be a GREAT Ally of the United States of America. They are Courageous, Bold, Loyal, and Smart and, unlike others that have shown their true colors in a moment of conflict and stress, Israel fights hard, and knows how to WIN! President DJT"
       },
       {
-        "time": "03:25",
-        "text": "ANYONE SICK OF WINNING YET?"
+        "time": "01:42",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428826144790728"
       },
       {
-        "time": "04:24",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116423801851760712"
+        "time": "01:43",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428830946804053"
       },
       {
-        "time": "04:25",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116423805453465694"
+        "time": "01:48",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428849678471426"
       },
       {
-        "time": "05:06",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116423967114156778THANK YOU!"
+        "time": "01:49",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428856333288529"
       },
       {
-        "time": "05:10",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116423985260460652"
+        "time": "01:50",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428860408281064"
       },
       {
-        "time": "05:11",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116423987219362297"
+        "time": "01:55",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428873226666382"
       },
       {
-        "time": "05:15",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116424005080834976"
-      },
-      {
-        "time": "11:29",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116425396492356069"
-      },
-      {
-        "time": "12:14",
-        "text": "Has anybody looked at how badly the country of Spain is doing. Their financial numbers, despite contributing almost nothing to NATO and their military defense, are absolutely horrendous. Sad to watch!!!"
+        "time": "01:59",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428892032687901"
       }
     ]
   },
-  "keyword_signals": [
-    "CHINA",
-    "IRAN"
-  ],
   "today_features": {
-    "posts_11_20": true,
+    "posts_6_10": true,
     "avg_len_short": true,
     "caps_low": true,
     "excl_none": true,
-    "questions_yes": true,
+    "questions_no": true,
     "has_night": true,
     "heavy_night": true,
-    "kw_china": true,
-    "kw_iran": true,
-    "kw_gas": true,
-    "kw_gas_2plus": true,
-    "kw_energy": true,
-    "kw_historic": true,
-    "kw_historic_2plus": true,
+    "kw_israel": true,
+    "kw_great": true,
+    "kw_president_djt": true,
     "is_weekend": true
   },
   "model_performance": {
@@ -178,42 +162,45 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-04-18",
-    "crossover": 16,
-    "mutation": 16,
+    "date": "2026-04-19",
+    "crossover": 15,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "questions_yes",
-          "kw_agreement"
+          "kw_jobs",
+          "is_friday",
+          "open_jobs"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 93.8,
+        "hold": 3,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_president_of_the_united_states",
-          "volume_spike"
+          "kw_thank_you_for_your_attention",
+          "open_inflation",
+          "open_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "is_friday",
+          "kw_tariffs",
+          "kw_tariff_2plus"
+        ],
+        "direction": "LONG",
+        "hold": 3,
         "score": 90.0,
         "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_signed",
-          "open_tariff"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "mutation_remove"
       }
     ]
   },
