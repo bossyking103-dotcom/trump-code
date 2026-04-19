@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-19T18:06:04Z",
+    "last_evolution": "2026-04-19T21:02:38Z",
     "evolved_rules_added": 48
   },
   "rules": [
@@ -12719,7 +12719,12 @@
       "parents": [
         "kw_energy+kw_interest_rate",
         "kw_dow_2plus+open_dow"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13066,6 +13071,31 @@
     },
     {
       "features": [
+        "kw_tariff",
+        "kw_tremendous",
+        "is_friday"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "3bbd8e50a4ff",
+      "n_cond": 3,
+      "train_trades": 8,
+      "train_win_rate": 87.5,
+      "train_avg": 1.385,
+      "test_trades": 4,
+      "test_win_rate": 100.0,
+      "test_avg": 1.037,
+      "combined_score": 93.8,
+      "origin": "crossover",
+      "born_date": "2026-04-19",
+      "weight": 1.0,
+      "parents": [
+        "kw_biden_2plus+kw_tariff",
+        "is_friday+kw_tariffs_2plus"
+      ]
+    },
+    {
+      "features": [
         "kw_signed",
         "kw_biden",
         "kw_ban"
@@ -13236,7 +13266,12 @@
       "parents": [
         "kw_ban+kw_biden",
         "kw_interest_rate+kw_signed"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14820,36 +14855,6 @@
       "born_date": "2026-04-09",
       "weight": 1.0,
       "parent": "kw_amazing+kw_ban+volume_spike",
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_tariff",
-        "kw_thank_you_for_your_attention",
-        "kw_signed"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "8e489795cc3a",
-      "n_cond": 3,
-      "train_trades": 9,
-      "train_win_rate": 77.8,
-      "train_avg": 0.914,
-      "test_trades": 4,
-      "test_win_rate": 100.0,
-      "test_avg": 1.028,
-      "combined_score": 88.9,
-      "origin": "crossover",
-      "born_date": "2026-04-10",
-      "weight": 1.0,
-      "parents": [
-        "kw_beautiful+kw_signed",
-        "kw_tariff+kw_thank_you_for_your_attention"
-      ],
       "learn_stats": {
         "correct": 0,
         "wrong": 0,

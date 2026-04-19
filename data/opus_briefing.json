@@ -1,79 +1,99 @@
 {
   "date": "2026-04-19",
-  "prepared_at": "2026-04-19T18:06:04Z",
+  "prepared_at": "2026-04-19T21:02:39Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 9,
-    "latest": "Iran decided to fire bullets yesterday in the Strait of Hormuz — A Total Violation of our Ceasefire Agreement! Many of them were aimed at a French Ship, and a Freighter from the United Kingdom. That w",
+    "count": 18,
+    "latest": "How the White House drew a new battle plan to take on the Washington press corps: https://www.washingtontimes.com/news/2025/dec/26/white-house-drew-new-battle-plan-take-washington-press-corps/",
     "earliest_time": "2026-04-19T01:07:11.091Z",
-    "latest_time": "2026-04-19T12:10:10.035Z",
+    "latest_time": "2026-04-19T19:32:07.498Z",
     "sample": [
-      {
-        "time": "01:07",
-        "text": "Whether people like Israel or not, they have proven to be a GREAT Ally of the United States of America. They are Courageous, Bold, Loyal, and Smart and, unlike others that have shown their true colors in a moment of conflict and stress, Israel fights hard, and knows how to WIN! President DJT"
-      },
-      {
-        "time": "01:42",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428826144790728"
-      },
-      {
-        "time": "01:43",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428830946804053"
-      },
-      {
-        "time": "01:48",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428849678471426"
-      },
-      {
-        "time": "01:49",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428856333288529"
-      },
-      {
-        "time": "01:50",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428860408281064"
-      },
-      {
-        "time": "01:55",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428873226666382"
-      },
-      {
-        "time": "01:59",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428892032687901"
-      },
       {
         "time": "12:10",
         "text": "Iran decided to fire bullets yesterday in the Strait of Hormuz — A Total Violation of our Ceasefire Agreement! Many of them were aimed at a French Ship, and a Freighter from the United Kingdom. That wasn't nice, was it? My Representatives are going to Islamabad, Pakistan — They will be there tomorro"
+      },
+      {
+        "time": "15:31",
+        "text": "Vance’s Anti-Fraud Task Force Hits Ground Running with Collection of Wins: https://www.breitbart.com/politics/2026/04/03/vances-anti-fraud-task-force-hits-ground-running-with-collection-of-wins/"
+      },
+      {
+        "time": "18:47",
+        "text": "Thank you to the Great Gregg Jarrett — A Giant Scam on the American Public. Hopefully, it will be rectified!https://www.foxnews.com/opinion/gregg-jarrett-long-hidden-documents-reveal-first-trump-impeachment-total-fraud"
+      },
+      {
+        "time": "18:47",
+        "text": "Trump, Iran and the Bottom Line for American Interests: https://www.realclearpolitics.com/articles/2026/04/17/trump_iran_and_the_bottom_line_for_american_interests.html"
+      },
+      {
+        "time": "18:47",
+        "text": "McLaughlin Poll: Voters Back Trump on Iran: https://www.newsmax.com/mclaughlin/midterm-republican-voters/2026/04/17/id/1253286/"
+      },
+      {
+        "time": "18:47",
+        "text": "Why The Supreme Court Must Strike Down Birthright Citizenship: https://paulingrassia.substack.com/p/why-the-supreme-court-must-strike"
+      },
+      {
+        "time": "19:23",
+        "text": "Today, an Iranian-flagged cargo ship named TOUSKA, nearly 900 feet long and weighing almost as much as an aircraft carrier, tried to get past our Naval Blockade, and it did not go well for them. The U.S. Navy Guided Missile Destroyer USS SPRUANCE intercepted the TOUSKA in the Gulf of Oman, and gave "
+      },
+      {
+        "time": "19:31",
+        "text": "Vance's Anti-Fraud Task Force Hits Ground Running with Collection of Wins: https://www.breitbart.com/politics/2026/04/03/vances-anti-fraud-task-force-hits-ground-running-with-collection-of-wins/"
+      },
+      {
+        "time": "19:31",
+        "text": "Tariffs Are a Discipline, Not a Press Release: https://www.wsj.com/opinion/tariffs-are-a-discipline-not-a-press-release-4022e09e"
+      },
+      {
+        "time": "19:32",
+        "text": "How the White House drew a new battle plan to take on the Washington press corps: https://www.washingtontimes.com/news/2025/dec/26/white-house-drew-new-battle-plan-take-washington-press-corps/"
       }
     ]
   },
   "keyword_signals": [
+    "TARIFF",
     "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
+    "IRAN"
   ],
   "today_features": {
-    "posts_6_10": true,
+    "posts_11_20": true,
     "avg_len_medium": true,
-    "caps_medium": true,
+    "caps_low": true,
     "excl_normal": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_tariff": true,
+    "open_tariff": true,
+    "kw_tariffs": true,
+    "open_tariffs": true,
     "kw_deal": true,
     "pre_deal": true,
     "kw_agreement": true,
     "pre_agreement": true,
     "kw_block": true,
+    "kw_block_2plus": true,
     "pre_block": true,
+    "open_block": true,
+    "kw_sanction": true,
+    "open_sanction": true,
     "kw_iran": true,
+    "kw_iran_2plus": true,
     "pre_iran": true,
+    "open_iran": true,
     "kw_israel": true,
     "kw_dow": true,
+    "kw_dow_2plus": true,
     "pre_dow": true,
+    "open_dow": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "open_great": true,
+    "kw_vance": true,
+    "kw_vance_2plus": true,
+    "open_vance": true,
     "kw_president_djt": true,
     "is_weekend": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
+    "both_tariff_and_deal": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -191,34 +211,33 @@
     "top_3": [
       {
         "features": [
+          "kw_tariff",
+          "kw_tremendous",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 93.8,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "posts_21_35",
+          "kw_economy",
+          "kw_inflation"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
           "kw_interest_rate",
-          "kw_dow_2plus",
-          "open_dow",
-          "kw_energy"
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 100.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_president_of_the_united_states",
-          "kw_signed",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 92.9,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "is_friday",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 2,
         "score": 87.5,
         "origin": "mutation_remove"
       }
@@ -238,9 +257,9 @@
   "prediction_market": {
     "date": "2026-04-19",
     "signals": [
+      "TARIFF",
       "DEAL",
-      "IRAN",
-      "DEAL_ONLY"
+      "IRAN"
     ],
     "opportunities": [],
     "total_scanned": 0
