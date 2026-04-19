@@ -1,12 +1,12 @@
 {
   "date": "2026-04-19",
-  "prepared_at": "2026-04-19T12:03:20Z",
+  "prepared_at": "2026-04-19T15:03:35Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 8,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428892032687901",
+    "count": 9,
+    "latest": "Iran decided to fire bullets yesterday in the Strait of Hormuz — A Total Violation of our Ceasefire Agreement! Many of them were aimed at a French Ship, and a Freighter from the United Kingdom. That w",
     "earliest_time": "2026-04-19T01:07:11.091Z",
-    "latest_time": "2026-04-19T01:59:46.127Z",
+    "latest_time": "2026-04-19T12:10:10.035Z",
     "sample": [
       {
         "time": "01:07",
@@ -39,21 +39,41 @@
       {
         "time": "01:59",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116428892032687901"
+      },
+      {
+        "time": "12:10",
+        "text": "Iran decided to fire bullets yesterday in the Strait of Hormuz — A Total Violation of our Ceasefire Agreement! Many of them were aimed at a French Ship, and a Freighter from the United Kingdom. That wasn't nice, was it? My Representatives are going to Islamabad, Pakistan — They will be there tomorro"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "today_features": {
     "posts_6_10": true,
-    "avg_len_short": true,
-    "caps_low": true,
-    "excl_none": true,
-    "questions_no": true,
+    "avg_len_medium": true,
+    "caps_medium": true,
+    "excl_normal": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_deal": true,
+    "pre_deal": true,
+    "kw_agreement": true,
+    "pre_agreement": true,
+    "kw_block": true,
+    "pre_block": true,
+    "kw_iran": true,
+    "pre_iran": true,
     "kw_israel": true,
+    "kw_dow": true,
+    "pre_dow": true,
     "kw_great": true,
     "kw_president_djt": true,
-    "is_weekend": true
+    "is_weekend": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -164,40 +184,41 @@
   "evolution_latest": {
     "date": "2026-04-19",
     "crossover": 16,
-    "mutation": 11,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tremendous",
-          "kw_interest_rate"
+          "kw_thank_you_for_your_attention",
+          "is_friday",
+          "kw_tariffs_2plus"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_tremendous",
-          "kw_interest_rate"
+          "open_tariff",
+          "kw_signed"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 2,
         "score": 87.5,
         "origin": "mutation_remove"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
+          "volume_falling_3d",
+          "kw_beautiful"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 2,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "mutation_remove"
       }
     ]
   },
@@ -213,10 +234,11 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-04-18",
+    "date": "2026-04-19",
     "signals": [
-      "CHINA",
-      "IRAN"
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
     ],
     "opportunities": [],
     "total_scanned": 0
