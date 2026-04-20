@@ -1,12 +1,12 @@
 {
   "date": "2026-04-20",
-  "prepared_at": "2026-04-20T09:03:26Z",
+  "prepared_at": "2026-04-20T12:05:08Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "Ruddy: Trump Already Won the War With 9 Victories: https://www.newsmax.com/ruddy/ruddy-donald-trump-iran/2026/04/16/id/1253115/",
+    "count": 3,
+    "latest": "Trump Economy: Retail sales and housing suggest a resilient consumer: https://justthenews.com/nation/states/center-square/everyday-economics-retail-sales-and-housing-suggest-resilient-consumer",
     "earliest_time": "2026-04-20T02:54:03.972Z",
-    "latest_time": "2026-04-20T02:54:49.966Z",
+    "latest_time": "2026-04-20T11:46:13.994Z",
     "sample": [
       {
         "time": "02:54",
@@ -15,6 +15,10 @@
       {
         "time": "02:54",
         "text": "Ruddy: Trump Already Won the War With 9 Victories: https://www.newsmax.com/ruddy/ruddy-donald-trump-iran/2026/04/16/id/1253115/"
+      },
+      {
+        "time": "11:46",
+        "text": "Trump Economy: Retail sales and housing suggest a resilient consumer: https://justthenews.com/nation/states/center-square/everyday-economics-retail-sales-and-housing-suggest-resilient-consumer"
       }
     ]
   },
@@ -30,6 +34,8 @@
     "has_night": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
+    "kw_economy": true,
+    "pre_economy": true,
     "is_monday": true,
     "volume_drop": true
   },
@@ -142,32 +148,30 @@
   "evolution_latest": {
     "date": "2026-04-20",
     "crossover": 16,
-    "mutation": 10,
+    "mutation": 9,
     "distill": 16,
-    "total_new": 42,
+    "total_new": 41,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tariff_2plus",
-          "kw_tariffs_2plus",
-          "kw_beautiful",
-          "open_thank_you_for_your_attention"
+          "kw_china",
+          "volume_falling_3d"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
+        "hold": 2,
+        "score": 92.3,
         "origin": "crossover"
       },
       {
         "features": [
-          "open_trade",
-          "kw_beautiful",
-          "kw_jobs"
+          "open_dow",
+          "kw_tariffs",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 90.0,
         "origin": "crossover"
       },
       {
