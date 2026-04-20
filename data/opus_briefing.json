@@ -1,12 +1,12 @@
 {
   "date": "2026-04-20",
-  "prepared_at": "2026-04-20T15:05:23Z",
+  "prepared_at": "2026-04-20T18:04:55Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "Israel never talked me into the war with Iran, the results of Oct. 7th, added to my lifelong opinion that IRAN CAN NEVER HAVE A NUCLEAR WEAPON, did. I watch and read the FAKE NEWS Pundits and Polls in",
+    "count": 6,
+    "latest": "The Democrats are doing everything possible to hurt the very strong position we are in with respect to Iran. Despite World War I lasting 4 years, 3 months, and 14 days, World War II lasting 6 years an",
     "earliest_time": "2026-04-20T02:54:03.972Z",
-    "latest_time": "2026-04-20T14:16:38.257Z",
+    "latest_time": "2026-04-20T17:40:51.123Z",
     "sample": [
       {
         "time": "02:54",
@@ -23,38 +23,107 @@
       {
         "time": "14:16",
         "text": "Israel never talked me into the war with Iran, the results of Oct. 7th, added to my lifelong opinion that IRAN CAN NEVER HAVE A NUCLEAR WEAPON, did. I watch and read the FAKE NEWS Pundits and Polls in total disbelief. 90% of what they say are lies and made up stories, and the polls are rigged, much "
+      },
+      {
+        "time": "17:35",
+        "text": "The DEAL that we are making with Iran will be FAR BETTER than the JCPOA, commonly referred to as \"The Iran Nuclear Deal,\" penned by Barack Hussein Obama and Sleepy Joe Biden, one of the Worst Deals ever made having to do with the Security of our Country. It was a guaranteed Road to a Nuclear Weapon,"
+      },
+      {
+        "time": "17:40",
+        "text": "The Democrats are doing everything possible to hurt the very strong position we are in with respect to Iran. Despite World War I lasting 4 years, 3 months, and 14 days, World War II lasting 6 years and 1 day, the Korean War lasting 3 years, 1 month, and 2 days, the Vietnam War lasting 19 years, 5 mo"
       }
     ]
   },
   "keyword_signals": [
-    "IRAN"
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_medium": true,
-    "caps_low": true,
+    "posts_6_10": true,
+    "avg_len_very_long": true,
+    "caps_medium": true,
     "excl_normal": true,
     "questions_no": true,
     "has_night": true,
+    "kw_deal": true,
+    "kw_deal_2plus": true,
+    "open_deal": true,
+    "kw_ban": true,
+    "open_ban": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
     "open_iran": true,
     "kw_israel": true,
+    "kw_israel_2plus": true,
     "open_israel": true,
+    "kw_europe": true,
+    "open_europe": true,
+    "kw_korea": true,
+    "open_korea": true,
     "kw_economy": true,
     "pre_economy": true,
+    "kw_billion": true,
+    "open_billion": true,
     "kw_great": true,
+    "kw_great_2plus": true,
     "open_great": true,
     "kw_amazing": true,
     "open_amazing": true,
+    "kw_perfect": true,
+    "open_perfect": true,
     "kw_fake": true,
+    "kw_fake_2plus": true,
     "open_fake": true,
+    "kw_worst": true,
+    "open_worst": true,
+    "kw_incompetent": true,
+    "open_incompetent": true,
+    "kw_pathetic": true,
+    "open_pathetic": true,
+    "kw_biden": true,
+    "open_biden": true,
+    "kw_obama": true,
+    "open_obama": true,
     "kw_elon": true,
     "open_elon": true,
     "kw_president_djt": true,
     "open_president_djt": true,
     "is_monday": true,
-    "volume_drop": true
+    "volume_drop": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
+  },
+  "triggered_rules": {
+    "total": 2,
+    "long": 2,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0011",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0079",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -165,21 +234,30 @@
   "evolution_latest": {
     "date": "2026-04-20",
     "crossover": 16,
-    "mutation": 8,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 40,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_tremendous",
-          "open_trade",
-          "kw_economy"
+          "kw_thank_you_for_your_attention",
+          "open_inflation"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 100.0,
+        "score": 88.9,
         "origin": "crossover"
+      },
+      {
+        "features": [
+          "volume_spike",
+          "kw_amazing"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
+        "origin": "mutation_remove"
       },
       {
         "features": [
@@ -189,16 +267,6 @@
         "direction": "LONG",
         "hold": 1,
         "score": 88.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "volume_falling_3d",
-          "kw_beautiful"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
         "origin": "crossover"
       }
     ]
@@ -217,7 +285,9 @@
   "prediction_market": {
     "date": "2026-04-20",
     "signals": [
-      "IRAN"
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
     ],
     "opportunities": [],
     "total_scanned": 0
