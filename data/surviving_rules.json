@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-20T12:05:08Z",
-    "evolved_rules_added": 41
+    "last_evolution": "2026-04-20T15:05:22Z",
+    "evolved_rules_added": 40
   },
   "rules": [
     {
@@ -12728,6 +12728,31 @@
     },
     {
       "features": [
+        "open_tremendous",
+        "open_trade",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "c63a81bcac96",
+      "n_cond": 3,
+      "train_trades": 5,
+      "train_win_rate": 100.0,
+      "train_avg": 1.457,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 1.082,
+      "combined_score": 100.0,
+      "origin": "crossover",
+      "born_date": "2026-04-20",
+      "weight": 1.0,
+      "parents": [
+        "is_friday+kw_economy",
+        "kw_economy+open_trade"
+      ]
+    },
+    {
+      "features": [
         "kw_maga",
         "open_ukraine"
       ],
@@ -13444,7 +13469,12 @@
       "parents": [
         "kw_china+open_india",
         "both_tariff_and_deal+excl_heavy"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14828,35 +14858,6 @@
       "parents": [
         "kw_interest_rate+kw_thank_you_for_your_attention",
         "is_friday+kw_tariffs_2plus"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_president_of_the_united_states",
-        "volume_spike"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "id": "9fe53c5e3c77",
-      "n_cond": 2,
-      "train_trades": 5,
-      "train_win_rate": 80.0,
-      "train_avg": 0.743,
-      "test_trades": 4,
-      "test_win_rate": 100.0,
-      "test_avg": 1.249,
-      "combined_score": 90.0,
-      "origin": "crossover",
-      "born_date": "2026-04-18",
-      "weight": 1.0,
-      "parents": [
-        "kw_amazing+kw_ban",
-        "kw_biden+kw_president_of_the_united_states"
       ],
       "learn_stats": {
         "correct": 0,
