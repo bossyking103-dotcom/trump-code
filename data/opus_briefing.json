@@ -1,99 +1,37 @@
 {
-  "date": "2026-04-19",
-  "prepared_at": "2026-04-19T21:02:39Z",
+  "date": "2026-04-20",
+  "prepared_at": "2026-04-20T06:04:35Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 18,
-    "latest": "How the White House drew a new battle plan to take on the Washington press corps: https://www.washingtontimes.com/news/2025/dec/26/white-house-drew-new-battle-plan-take-washington-press-corps/",
-    "earliest_time": "2026-04-19T01:07:11.091Z",
-    "latest_time": "2026-04-19T19:32:07.498Z",
+    "count": 2,
+    "latest": "Ruddy: Trump Already Won the War With 9 Victories: https://www.newsmax.com/ruddy/ruddy-donald-trump-iran/2026/04/16/id/1253115/",
+    "earliest_time": "2026-04-20T02:54:03.972Z",
+    "latest_time": "2026-04-20T02:54:49.966Z",
     "sample": [
       {
-        "time": "12:10",
-        "text": "Iran decided to fire bullets yesterday in the Strait of Hormuz — A Total Violation of our Ceasefire Agreement! Many of them were aimed at a French Ship, and a Freighter from the United Kingdom. That wasn't nice, was it? My Representatives are going to Islamabad, Pakistan — They will be there tomorro"
-      },
-      {
-        "time": "15:31",
-        "text": "Vance’s Anti-Fraud Task Force Hits Ground Running with Collection of Wins: https://www.breitbart.com/politics/2026/04/03/vances-anti-fraud-task-force-hits-ground-running-with-collection-of-wins/"
-      },
-      {
-        "time": "18:47",
-        "text": "Thank you to the Great Gregg Jarrett — A Giant Scam on the American Public. Hopefully, it will be rectified!https://www.foxnews.com/opinion/gregg-jarrett-long-hidden-documents-reveal-first-trump-impeachment-total-fraud"
-      },
-      {
-        "time": "18:47",
-        "text": "Trump, Iran and the Bottom Line for American Interests: https://www.realclearpolitics.com/articles/2026/04/17/trump_iran_and_the_bottom_line_for_american_interests.html"
-      },
-      {
-        "time": "18:47",
+        "time": "02:54",
         "text": "McLaughlin Poll: Voters Back Trump on Iran: https://www.newsmax.com/mclaughlin/midterm-republican-voters/2026/04/17/id/1253286/"
       },
       {
-        "time": "18:47",
-        "text": "Why The Supreme Court Must Strike Down Birthright Citizenship: https://paulingrassia.substack.com/p/why-the-supreme-court-must-strike"
-      },
-      {
-        "time": "19:23",
-        "text": "Today, an Iranian-flagged cargo ship named TOUSKA, nearly 900 feet long and weighing almost as much as an aircraft carrier, tried to get past our Naval Blockade, and it did not go well for them. The U.S. Navy Guided Missile Destroyer USS SPRUANCE intercepted the TOUSKA in the Gulf of Oman, and gave "
-      },
-      {
-        "time": "19:31",
-        "text": "Vance's Anti-Fraud Task Force Hits Ground Running with Collection of Wins: https://www.breitbart.com/politics/2026/04/03/vances-anti-fraud-task-force-hits-ground-running-with-collection-of-wins/"
-      },
-      {
-        "time": "19:31",
-        "text": "Tariffs Are a Discipline, Not a Press Release: https://www.wsj.com/opinion/tariffs-are-a-discipline-not-a-press-release-4022e09e"
-      },
-      {
-        "time": "19:32",
-        "text": "How the White House drew a new battle plan to take on the Washington press corps: https://www.washingtontimes.com/news/2025/dec/26/white-house-drew-new-battle-plan-take-washington-press-corps/"
+        "time": "02:54",
+        "text": "Ruddy: Trump Already Won the War With 9 Victories: https://www.newsmax.com/ruddy/ruddy-donald-trump-iran/2026/04/16/id/1253115/"
       }
     ]
   },
   "keyword_signals": [
-    "TARIFF",
-    "DEAL",
     "IRAN"
   ],
   "today_features": {
-    "posts_11_20": true,
-    "avg_len_medium": true,
+    "posts_1_5": true,
+    "avg_len_short": true,
     "caps_low": true,
-    "excl_normal": true,
+    "excl_none": true,
+    "questions_no": true,
     "has_night": true,
-    "heavy_night": true,
-    "kw_tariff": true,
-    "open_tariff": true,
-    "kw_tariffs": true,
-    "open_tariffs": true,
-    "kw_deal": true,
-    "pre_deal": true,
-    "kw_agreement": true,
-    "pre_agreement": true,
-    "kw_block": true,
-    "kw_block_2plus": true,
-    "pre_block": true,
-    "open_block": true,
-    "kw_sanction": true,
-    "open_sanction": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
-    "pre_iran": true,
-    "open_iran": true,
-    "kw_israel": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "pre_dow": true,
-    "open_dow": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_vance": true,
-    "kw_vance_2plus": true,
-    "open_vance": true,
-    "kw_president_djt": true,
-    "is_weekend": true,
-    "both_tariff_and_deal": true
+    "is_monday": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -202,32 +140,32 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-04-19",
+    "date": "2026-04-20",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tariff",
-          "kw_tremendous",
-          "is_friday"
+          "open_energy",
+          "open_thank_you_for_your_attention",
+          "kw_incredible"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 93.8,
+        "hold": 1,
+        "score": 95.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "posts_21_35",
+          "is_friday",
           "kw_economy",
-          "kw_inflation"
+          "pre_great"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 1,
         "score": 88.9,
         "origin": "crossover"
       },
@@ -239,7 +177,7 @@
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "mutation_remove"
+        "origin": "distilled"
       }
     ]
   },
@@ -255,10 +193,8 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-04-19",
+    "date": "2026-04-20",
     "signals": [
-      "TARIFF",
-      "DEAL",
       "IRAN"
     ],
     "opportunities": [],

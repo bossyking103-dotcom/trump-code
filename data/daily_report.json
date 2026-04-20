@@ -1,14 +1,12 @@
 {
-  "date": "2026-04-19",
-  "generated_at": "2026-04-19T21:02:18Z",
-  "posts_today": 18,
+  "date": "2026-04-20",
+  "generated_at": "2026-04-20T06:04:14Z",
+  "posts_today": 2,
   "latest_post": {
-    "time": "2026-04-19T19:32",
-    "content_preview": "How the White House drew a new battle plan to take on the Washington press corps: https://www.washin"
+    "time": "2026-04-20T02:54",
+    "content_preview": "Ruddy: Trump Already Won the War With 9 Victories: https://www.newsmax.com/ruddy/ruddy-donald-trump-"
   },
   "signals_detected": [
-    "TARIFF",
-    "DEAL",
     "IRAN"
   ],
   "models_triggered": 0,
@@ -27,9 +25,9 @@
     "close": 7126.06
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-04-19\nPosts today: 18 | Models triggered: 0\nSignals: TARIFF, DEAL, IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: How the White House drew a new battle plan to take on the Washington press corps: https://www.washin",
-    "zh": "川普密碼每日報告 -- 2026-04-19\n今日推文: 18 篇 | 觸發模型: 0 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: How the White House drew a new battle plan to take on the Washington press corps: https://www.washin",
-    "ja": "トランプ・コード日次レポート -- 2026-04-19\n本日の投稿: 18件 | トリガーモデル: 0組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: How the White House drew a new battle plan to take on the Washington press corps: https://www.washin"
+    "en": "Trump Code Daily Report -- 2026-04-20\nPosts today: 2 | Models triggered: 0\nSignals: IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: Ruddy: Trump Already Won the War With 9 Victories: https://www.newsmax.com/ruddy/ruddy-donald-trump-",
+    "zh": "川普密碼每日報告 -- 2026-04-20\n今日推文: 2 篇 | 觸發模型: 0 組\n偵測信號: 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: Ruddy: Trump Already Won the War With 9 Victories: https://www.newsmax.com/ruddy/ruddy-donald-trump-",
+    "ja": "トランプ・コード日次レポート -- 2026-04-20\n本日の投稿: 2件 | トリガーモデル: 0組\n検出シグナル: イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: Ruddy: Trump Already Won the War With 9 Victories: https://www.newsmax.com/ruddy/ruddy-donald-trump-"
   },
   "triggered_rules_sample": []
 }
