@@ -1,21 +1,13 @@
 {
   "date": "2026-04-21",
-  "prepared_at": "2026-04-21T12:05:39Z",
+  "prepared_at": "2026-04-21T15:03:34Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 10,
-    "latest": "Iran has Violated the Cease Fire numerous times!",
+    "count": 12,
+    "latest": "Never allow the Traitor Democrats like Low IQ person Hakeem Jeffries, or Cryin' Chuck Schumer, or the totally corrupt Fake News Media such as the phony and decaying Wall Street Journal, the Failing Ne",
     "earliest_time": "2026-04-21T01:33:50.364Z",
-    "latest_time": "2026-04-21T11:09:28.005Z",
+    "latest_time": "2026-04-21T13:37:19.888Z",
     "sample": [
-      {
-        "time": "01:33",
-        "text": "Thank you to Senator Rick Scott. Hopefully, Justice will finally prevail!!! President DJThttps://justthenews.com/accountability/political-ethics/sen-rick-scott-introduces-legislation-repudiate-2019-trump"
-      },
-      {
-        "time": "01:34",
-        "text": "Treason!!! President DJThttps://justthenews.com/accountability/political-ethics/democrats-ukraine-narrative-has-gone-reverse-gop-seeks-expunge"
-      },
       {
         "time": "01:35",
         "text": "Trump Economy: Retail sales and housing suggest a resilient consumer: https://justthenews.com/nation/states/center-square/everyday-economics-retail-sales-and-housing-suggest-resilient-consumer"
@@ -47,6 +39,14 @@
       {
         "time": "11:09",
         "text": "Iran has Violated the Cease Fire numerous times!"
+      },
+      {
+        "time": "13:23",
+        "text": "To the Iranian leaders, who will soon be in negotiations with my representatives: I would greatly appreciate the release of these women. I am sure that they will respect the fact that you did so. Please do them no harm! Would be a great start to our negotiations!!! Thank you for your attention to th"
+      },
+      {
+        "time": "13:37",
+        "text": "Never allow the Traitor Democrats like Low IQ person Hakeem Jeffries, or Cryin' Chuck Schumer, or the totally corrupt Fake News Media such as the phony and decaying Wall Street Journal, the Failing New York Times (Subscriptions way down!), or dying \"60 Minutes,\" to demean or criticize Operation Midn"
       }
     ]
   },
@@ -54,7 +54,7 @@
     "IRAN"
   ],
   "today_features": {
-    "posts_6_10": true,
+    "posts_11_20": true,
     "avg_len_medium": true,
     "caps_low": true,
     "excl_heavy": true,
@@ -66,6 +66,9 @@
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
+    "open_iran": true,
+    "kw_dow": true,
+    "open_dow": true,
     "kw_economy": true,
     "kw_jobs": true,
     "pre_jobs": true,
@@ -78,9 +81,18 @@
     "kw_amazing": true,
     "pre_amazing": true,
     "kw_fake": true,
+    "kw_fake_2plus": true,
+    "open_fake": true,
     "kw_corrupt": true,
+    "kw_corrupt_2plus": true,
+    "open_corrupt": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
+    "open_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
+    "pre_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "kw_complete_and_total": true,
     "volume_falling_3d": true
   },
@@ -193,30 +205,31 @@
   "evolution_latest": {
     "date": "2026-04-21",
     "crossover": 16,
-    "mutation": 10,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 42,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "is_friday",
-          "kw_never_let_you_down"
+          "kw_tremendous",
+          "kw_dow_2plus",
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 92.9,
+        "hold": 3,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "is_friday",
-          "kw_never_let_you_down",
-          "kw_tremendous"
+          "open_thank_you_for_your_attention",
+          "open_inflation"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 90.0,
+        "hold": 3,
+        "score": 91.7,
         "origin": "crossover"
       },
       {
@@ -227,7 +240,7 @@
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "crossover"
       }
     ]
   },
