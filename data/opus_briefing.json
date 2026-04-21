@@ -1,129 +1,62 @@
 {
-  "date": "2026-04-20",
-  "prepared_at": "2026-04-20T18:04:55Z",
+  "date": "2026-04-21",
+  "prepared_at": "2026-04-21T06:05:57Z",
   "status": "PENDING",
   "today_posts": {
     "count": 6,
-    "latest": "The Democrats are doing everything possible to hurt the very strong position we are in with respect to Iran. Despite World War I lasting 4 years, 3 months, and 14 days, World War II lasting 6 years an",
-    "earliest_time": "2026-04-20T02:54:03.972Z",
-    "latest_time": "2026-04-20T17:40:51.123Z",
+    "latest": "Operation Midnight Hammer was a complete and total obliteration of the Nuclear Dust sites in Iran. Therefore, digging it out will be a long and difficult process. Fake News CNN, and other corrupt Medi",
+    "earliest_time": "2026-04-21T01:33:50.364Z",
+    "latest_time": "2026-04-21T03:22:35.267Z",
     "sample": [
       {
-        "time": "02:54",
-        "text": "McLaughlin Poll: Voters Back Trump on Iran: https://www.newsmax.com/mclaughlin/midterm-republican-voters/2026/04/17/id/1253286/"
+        "time": "01:33",
+        "text": "Thank you to Senator Rick Scott. Hopefully, Justice will finally prevail!!! President DJThttps://justthenews.com/accountability/political-ethics/sen-rick-scott-introduces-legislation-repudiate-2019-trump"
       },
       {
-        "time": "02:54",
-        "text": "Ruddy: Trump Already Won the War With 9 Victories: https://www.newsmax.com/ruddy/ruddy-donald-trump-iran/2026/04/16/id/1253115/"
+        "time": "01:34",
+        "text": "Treason!!! President DJThttps://justthenews.com/accountability/political-ethics/democrats-ukraine-narrative-has-gone-reverse-gop-seeks-expunge"
       },
       {
-        "time": "11:46",
+        "time": "01:35",
         "text": "Trump Economy: Retail sales and housing suggest a resilient consumer: https://justthenews.com/nation/states/center-square/everyday-economics-retail-sales-and-housing-suggest-resilient-consumer"
       },
       {
-        "time": "14:16",
-        "text": "Israel never talked me into the war with Iran, the results of Oct. 7th, added to my lifelong opinion that IRAN CAN NEVER HAVE A NUCLEAR WEAPON, did. I watch and read the FAKE NEWS Pundits and Polls in total disbelief. 90% of what they say are lies and made up stories, and the polls are rigged, much "
+        "time": "01:35",
+        "text": "Trump's historic rating with seniors boosted by tax deductions: https://justthenews.com/government/white-house/trumps-historic-high-rating-seniors-sweetened-tax-deductions"
       },
       {
-        "time": "17:35",
-        "text": "The DEAL that we are making with Iran will be FAR BETTER than the JCPOA, commonly referred to as \"The Iran Nuclear Deal,\" penned by Barack Hussein Obama and Sleepy Joe Biden, one of the Worst Deals ever made having to do with the Security of our Country. It was a guaranteed Road to a Nuclear Weapon,"
+        "time": "03:04",
+        "text": "Prime Minister Keir Starmer of the United Kingdom acknowledged that he \"exercised wrong judgement\" when he chose his Ambassador to Washington. I agree, he was a really bad pick. Plenty of time to recover, however! President DJT"
       },
       {
-        "time": "17:40",
-        "text": "The Democrats are doing everything possible to hurt the very strong position we are in with respect to Iran. Despite World War I lasting 4 years, 3 months, and 14 days, World War II lasting 6 years and 1 day, the Korean War lasting 3 years, 1 month, and 2 days, the Vietnam War lasting 19 years, 5 mo"
+        "time": "03:22",
+        "text": "Operation Midnight Hammer was a complete and total obliteration of the Nuclear Dust sites in Iran. Therefore, digging it out will be a long and difficult process. Fake News CNN, and other corrupt Media Networks and Platforms, fail to give our great aviators the credit they deserve - Always trying to"
       }
     ]
   },
   "keyword_signals": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
+    "IRAN"
   ],
   "today_features": {
     "posts_6_10": true,
-    "avg_len_very_long": true,
-    "caps_medium": true,
-    "excl_normal": true,
+    "avg_len_medium": true,
+    "caps_low": true,
+    "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
-    "kw_deal": true,
-    "kw_deal_2plus": true,
-    "open_deal": true,
-    "kw_ban": true,
-    "open_ban": true,
+    "heavy_night": true,
+    "kw_ukraine": true,
     "kw_iran": true,
-    "kw_iran_2plus": true,
-    "open_iran": true,
-    "kw_israel": true,
-    "kw_israel_2plus": true,
-    "open_israel": true,
-    "kw_europe": true,
-    "open_europe": true,
-    "kw_korea": true,
-    "open_korea": true,
     "kw_economy": true,
-    "pre_economy": true,
-    "kw_billion": true,
-    "open_billion": true,
     "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_amazing": true,
-    "open_amazing": true,
-    "kw_perfect": true,
-    "open_perfect": true,
+    "kw_historic": true,
     "kw_fake": true,
-    "kw_fake_2plus": true,
-    "open_fake": true,
-    "kw_worst": true,
-    "open_worst": true,
-    "kw_incompetent": true,
-    "open_incompetent": true,
-    "kw_pathetic": true,
-    "open_pathetic": true,
-    "kw_biden": true,
-    "open_biden": true,
-    "kw_obama": true,
-    "open_obama": true,
-    "kw_elon": true,
-    "open_elon": true,
+    "kw_corrupt": true,
     "kw_president_djt": true,
-    "open_president_djt": true,
-    "is_monday": true,
-    "volume_drop": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
-  },
-  "triggered_rules": {
-    "total": 2,
-    "long": 2,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0011",
-        "features": [
-          "kw_deal",
-          "kw_perfect"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0079",
-        "features": [
-          "kw_deal",
-          "kw_perfect"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "kw_president_djt_2plus": true,
+    "kw_complete_and_total": true,
+    "volume_falling_3d": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -232,17 +165,17 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-04-20",
+    "date": "2026-04-21",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "open_inflation"
+          "kw_agreement",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -251,22 +184,23 @@
       },
       {
         "features": [
-          "volume_spike",
-          "kw_amazing"
+          "questions_yes",
+          "kw_tariff_2plus",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 88.9,
-        "origin": "mutation_remove"
+        "origin": "crossover"
       },
       {
         "features": [
-          "is_friday",
-          "kw_jobs"
+          "kw_thank_you_for_your_attention",
+          "kw_biden_2plus"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 88.5,
+        "hold": 3,
+        "score": 87.5,
         "origin": "crossover"
       }
     ]
@@ -283,11 +217,9 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-04-20",
+    "date": "2026-04-21",
     "signals": [
-      "DEAL",
-      "IRAN",
-      "DEAL_ONLY"
+      "IRAN"
     ],
     "opportunities": [],
     "total_scanned": 0

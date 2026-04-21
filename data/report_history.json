@@ -942,5 +942,29 @@
       "DEAL_ONLY"
     ],
     "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-04-20",
+    "posts": 9,
+    "triggered": 2,
+    "long": 2,
+    "short": 0,
+    "signals": [
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-04-21",
+    "posts": 6,
+    "triggered": 0,
+    "long": 0,
+    "short": 0,
+    "signals": [
+      "IRAN"
+    ],
+    "consensus": "NEUTRAL"
   }
 ]

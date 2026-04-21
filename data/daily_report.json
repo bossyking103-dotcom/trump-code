@@ -1,21 +1,19 @@
 {
-  "date": "2026-04-20",
-  "generated_at": "2026-04-20T18:04:28Z",
+  "date": "2026-04-21",
+  "generated_at": "2026-04-21T06:05:34Z",
   "posts_today": 6,
   "latest_post": {
-    "time": "2026-04-20T17:40",
-    "content_preview": "The Democrats are doing everything possible to hurt the very strong position we are in with respect "
+    "time": "2026-04-21T03:22",
+    "content_preview": "Operation Midnight Hammer was a complete and total obliteration of the Nuclear Dust sites in Iran. T"
   },
   "signals_detected": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
+    "IRAN"
   ],
-  "models_triggered": 2,
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 2,
+    "LONG": 0,
     "SHORT": 0,
-    "consensus": "BULLISH"
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 0,
@@ -24,33 +22,12 @@
   },
   "sp500_latest": {
     "date": "2026-04-20",
-    "close": 7100.76
+    "close": 7109.14
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-04-20\nPosts today: 6 | Models triggered: 2\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 2 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: The Democrats are doing everything possible to hurt the very strong position we are in with respect ",
-    "zh": "川普密碼每日報告 -- 2026-04-20\n今日推文: 6 篇 | 觸發模型: 2 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 2 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: The Democrats are doing everything possible to hurt the very strong position we are in with respect ",
-    "ja": "トランプ・コード日次レポート -- 2026-04-20\n本日の投稿: 6件 | トリガーモデル: 2組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 2組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: The Democrats are doing everything possible to hurt the very strong position we are in with respect "
+    "en": "Trump Code Daily Report -- 2026-04-21\nPosts today: 6 | Models triggered: 0\nSignals: IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: Operation Midnight Hammer was a complete and total obliteration of the Nuclear Dust sites in Iran. T",
+    "zh": "川普密碼每日報告 -- 2026-04-21\n今日推文: 6 篇 | 觸發模型: 0 組\n偵測信號: 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: Operation Midnight Hammer was a complete and total obliteration of the Nuclear Dust sites in Iran. T",
+    "ja": "トランプ・コード日次レポート -- 2026-04-21\n本日の投稿: 6件 | トリガーモデル: 0組\n検出シグナル: イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: Operation Midnight Hammer was a complete and total obliteration of the Nuclear Dust sites in Iran. T"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
