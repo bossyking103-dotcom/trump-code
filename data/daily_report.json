@@ -1,14 +1,15 @@
 {
   "date": "2026-04-22",
-  "generated_at": "2026-04-22T12:03:25Z",
-  "posts_today": 13,
+  "generated_at": "2026-04-22T15:03:16Z",
+  "posts_today": 14,
   "latest_post": {
-    "time": "2026-04-22T10:06",
-    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116447790396994341"
+    "time": "2026-04-22T13:41",
+    "content_preview": "How can the Democrats not like how the U.S. Supreme Court votes. The Democrat Justices stick togethe"
   },
   "signals_detected": [
     "TARIFF",
     "DEAL",
+    "CHINA",
     "IRAN"
   ],
   "models_triggered": 0,
@@ -23,13 +24,13 @@
     "rate": 0.0
   },
   "sp500_latest": {
-    "date": "2026-04-21",
-    "close": 7064.01
+    "date": "2026-04-22",
+    "close": 7120.09
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-04-22\nPosts today: 13 | Models triggered: 0\nSignals: TARIFF, DEAL, IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116447790396994341",
-    "zh": "川普密碼每日報告 -- 2026-04-22\n今日推文: 13 篇 | 觸發模型: 0 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116447790396994341",
-    "ja": "トランプ・コード日次レポート -- 2026-04-22\n本日の投稿: 13件 | トリガーモデル: 0組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116447790396994341"
+    "en": "Trump Code Daily Report -- 2026-04-22\nPosts today: 14 | Models triggered: 0\nSignals: TARIFF, DEAL, CHINA, IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: How can the Democrats not like how the U.S. Supreme Court votes. The Democrat Justices stick togethe",
+    "zh": "川普密碼每日報告 -- 2026-04-22\n今日推文: 14 篇 | 觸發模型: 0 組\n偵測信號: 關稅, Deal, 中國, 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: How can the Democrats not like how the U.S. Supreme Court votes. The Democrat Justices stick togethe",
+    "ja": "トランプ・コード日次レポート -- 2026-04-22\n本日の投稿: 14件 | トリガーモデル: 0組\n検出シグナル: 関税, ディール, 中国, イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: How can the Democrats not like how the U.S. Supreme Court votes. The Democrat Justices stick togethe"
   },
   "triggered_rules_sample": []
 }

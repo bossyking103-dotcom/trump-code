@@ -1,17 +1,13 @@
 {
   "date": "2026-04-22",
-  "prepared_at": "2026-04-22T12:03:46Z",
+  "prepared_at": "2026-04-22T15:03:39Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 13,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116447790396994341",
+    "count": 14,
+    "latest": "How can the Democrats not like how the U.S. Supreme Court votes. The Democrat Justices stick together like glue, NEVER failing to wander from the warped and perverse policies, ideas, and cases put bef",
     "earliest_time": "2026-04-22T00:36:06.710Z",
-    "latest_time": "2026-04-22T10:06:14.653Z",
+    "latest_time": "2026-04-22T13:41:23.183Z",
     "sample": [
-      {
-        "time": "03:17",
-        "text": "US intel secretly flagged major 2020 election vulnerabilities, including voter data, memo: https://justthenews.com/politics-policy/elections/us-intel-flagged-major-2020-election-vulnerabilities-including-voter"
-      },
       {
         "time": "03:18",
         "text": "Federal grand jury charges Southern Poverty Law Center with fraud over hate ratings: https://justthenews.com/nation/crime/justice-department-launches-criminal-investigation-against-southern-poverty-law-center"
@@ -47,6 +43,10 @@
       {
         "time": "10:06",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116447790396994341"
+      },
+      {
+        "time": "13:41",
+        "text": "How can the Democrats not like how the U.S. Supreme Court votes. The Democrat Justices stick together like glue, NEVER failing to wander from the warped and perverse policies, ideas, and cases put before them. They ALWAYS vote as a group, or BLOCK, even that new, Low IQ person, that somehow found he"
       }
     ]
   },
@@ -64,18 +64,28 @@
     "has_night": true,
     "heavy_night": true,
     "kw_tariff": true,
+    "kw_tariff_2plus": true,
+    "open_tariff": true,
     "kw_tariffs": true,
     "kw_deal": true,
     "kw_immediately": true,
     "kw_immediately_2plus": true,
     "kw_block": true,
+    "kw_block_2plus": true,
+    "open_block": true,
+    "kw_chinese": true,
+    "open_chinese": true,
     "kw_ukraine": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
+    "kw_billion": true,
+    "open_billion": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
     "kw_terrible": true,
+    "kw_stupid": true,
+    "open_stupid": true,
     "both_tariff_and_deal": true
   },
   "model_performance": {
@@ -186,41 +196,41 @@
   },
   "evolution_latest": {
     "date": "2026-04-22",
-    "crossover": 15,
-    "mutation": 15,
+    "crossover": 16,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tremendous",
-          "kw_interest_rate"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "distilled"
       },
       {
         "features": [
-          "kw_beautiful",
-          "kw_interest_rate"
+          "kw_interest_rate",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "distilled"
       },
       {
         "features": [
-          "excl_heavy",
-          "kw_interest_rate"
+          "kw_interest_rate",
+          "excl_heavy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "mutation_remove"
+        "origin": "distilled"
       }
     ]
   },
