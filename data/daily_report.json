@@ -1,12 +1,14 @@
 {
-  "date": "2026-04-21",
-  "generated_at": "2026-04-21T21:03:27Z",
-  "posts_today": 15,
+  "date": "2026-04-22",
+  "generated_at": "2026-04-22T06:04:18Z",
+  "posts_today": 11,
   "latest_post": {
-    "time": "2026-04-21T20:09",
-    "content_preview": "STATEMENT OF PRESIDENT DONALD J. TRUMP:Based on the fact that the Government of Iran is seriously fr"
+    "time": "2026-04-22T04:01",
+    "content_preview": "Great job of explaining USA \"winning\" by Jim Hanson of \"Middle East Forum\" on Jesse Watters Primetim"
   },
   "signals_detected": [
+    "TARIFF",
+    "DEAL",
     "IRAN"
   ],
   "models_triggered": 0,
@@ -25,9 +27,9 @@
     "close": 7064.01
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-04-21\nPosts today: 15 | Models triggered: 0\nSignals: IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: STATEMENT OF PRESIDENT DONALD J. TRUMP:Based on the fact that the Government of Iran is seriously fr",
-    "zh": "川普密碼每日報告 -- 2026-04-21\n今日推文: 15 篇 | 觸發模型: 0 組\n偵測信號: 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: STATEMENT OF PRESIDENT DONALD J. TRUMP:Based on the fact that the Government of Iran is seriously fr",
-    "ja": "トランプ・コード日次レポート -- 2026-04-21\n本日の投稿: 15件 | トリガーモデル: 0組\n検出シグナル: イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: STATEMENT OF PRESIDENT DONALD J. TRUMP:Based on the fact that the Government of Iran is seriously fr"
+    "en": "Trump Code Daily Report -- 2026-04-22\nPosts today: 11 | Models triggered: 0\nSignals: TARIFF, DEAL, IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: Great job of explaining USA \"winning\" by Jim Hanson of \"Middle East Forum\" on Jesse Watters Primetim",
+    "zh": "川普密碼每日報告 -- 2026-04-22\n今日推文: 11 篇 | 觸發模型: 0 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: Great job of explaining USA \"winning\" by Jim Hanson of \"Middle East Forum\" on Jesse Watters Primetim",
+    "ja": "トランプ・コード日次レポート -- 2026-04-22\n本日の投稿: 11件 | トリガーモデル: 0組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: Great job of explaining USA \"winning\" by Jim Hanson of \"Middle East Forum\" on Jesse Watters Primetim"
   },
   "triggered_rules_sample": []
 }
