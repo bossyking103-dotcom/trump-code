@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-22T18:03:33Z",
-    "evolved_rules_added": 47
+    "last_evolution": "2026-04-22T21:04:48Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -13302,7 +13302,12 @@
       "parents": [
         "is_friday+kw_corrupt",
         "is_friday+kw_economy"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [

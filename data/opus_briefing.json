@@ -1,37 +1,13 @@
 {
   "date": "2026-04-22",
-  "prepared_at": "2026-04-22T18:03:33Z",
+  "prepared_at": "2026-04-22T21:04:48Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 21,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116442908819175250Very good news! I have just been informed that the eight women protestors who were going to be executed tonight in Iran wil",
+    "count": 28,
+    "latest": "Mollie Hemingway, an extraordinarily talented writer, highly respected commentator, and a truly good person, has written a powerful new book, \"Alito: The Justice Who Reshaped the Supreme Court and Res",
     "earliest_time": "2026-04-22T00:36:06.710Z",
-    "latest_time": "2026-04-22T17:01:25.268Z",
+    "latest_time": "2026-04-22T19:12:01.192Z",
     "sample": [
-      {
-        "time": "10:06",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116447790396994341"
-      },
-      {
-        "time": "13:01",
-        "text": "Very good news! I have just been informed that the eight women protestors who were going to be executed tonight in Iran will no longer be killed. Four will be released immediately, and four will be sentenced to one month in prison. I very much appreciate that Iran, and its leaders, respected my requ"
-      },
-      {
-        "time": "13:34",
-        "text": "A RIGGED ELECTION TOOK PLACE LAST NIGHT IN THE GREAT COMMONWEALTH OF VIRGINIA! All day long Republicans were winning, the Spirit was unbelievable, until the very end when, of course, there was a massive “Mail In Ballot Drop!” Where have I heard that before — And the Democrats eked out another Crooke"
-      },
-      {
-        "time": "13:41",
-        "text": "Senate Majority Leader John Thune, and Senator Lindsey Graham, have taken a critical first step to passing another Reconciliation Bill to fund our Great Border Patrol and ICE Agents. The Radical Left Democrats, and their so-called “Leader,” Cryin’ Chuck Schumer, one of the most incompetent Senators "
-      },
-      {
-        "time": "13:41",
-        "text": "How can the Democrats not like how the U.S. Supreme Court votes. The Democrat Justices stick together like glue, NEVER failing to wander from the warped and perverse policies, ideas, and cases put before them. They ALWAYS vote as a group, or BLOCK, even that new, Low IQ person, that somehow found he"
-      },
-      {
-        "time": "15:34",
-        "text": "Time for the grown-ups to pull the plug on Mamdani's fiscal fantasies: https://nypost.com/2026/03/19/opinion/time-for-the-grown-ups-to-halt-mamdanis-fiscal-fantasies/"
-      },
       {
         "time": "15:34",
         "text": "MORNING GLORY: Will President Trump go full Sherman in the war on Iran?https://www.foxnews.com/opinion/morning-glory-president-trump-go-full-sherman-war-iran"
@@ -47,6 +23,30 @@
       {
         "time": "17:01",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116442908819175250Very good news! I have just been informed that the eight women protestors who were going to be executed tonight in Iran will no longer be killed. Four will be released immediately, and four will be sentenced to one month in"
+      },
+      {
+        "time": "17:34",
+        "text": "A RIGGED ELECTION TOOK PLACE LAST NIGHT IN THE GREAT COMMONWEALTH OF VIRGINIA! All day long Republicans were winning, the Spirit was unbelievable, until the very end when, of course, there was a massive \"Mail In Ballot Drop!\" Where have I heard that before — And the Democrats eked out another Crooke"
+      },
+      {
+        "time": "17:41",
+        "text": "Senate Majority Leader John Thune, and Senator Lindsey Graham, have taken a critical first step to passing another Reconciliation Bill to fund our Great Border Patrol and ICE Agents. The Radical Left Democrats, and their so-called \"Leader,\" Cryin' Chuck Schumer, one of the most incompetent Senators "
+      },
+      {
+        "time": "18:48",
+        "text": "Producer Behind BBC's Donald Trump Film Was Kept In Dark About Editing Error: https://deadline.com/2025/11/bbc-donald-trump-saga-october-films-kept-in-dark-1236613974/"
+      },
+      {
+        "time": "18:51",
+        "text": "Exclusive—'Breaking the Law': Exposé Reveals Biden White House Orchestrated Lawfare Against Trump to Rig 2024 Election: https://www.breitbart.com/politics/2025/08/04/exclusive-breaking-the-law-expose-reveals-biden-white-house-orchestrated-lawfare-against-trump-to-rig-2024-election/"
+      },
+      {
+        "time": "18:54",
+        "text": "\"YOU CAN'T COMPROMISE ON SANITY AND COMMON SENSE!\""
+      },
+      {
+        "time": "19:12",
+        "text": "Mollie Hemingway, an extraordinarily talented writer, highly respected commentator, and a truly good person, has written a powerful new book, \"Alito: The Justice Who Reshaped the Supreme Court and Restored the Constitution.\" Justice Alito understands the Wisdom and Courage required to Uphold the Rul"
       }
     ]
   },
@@ -58,8 +58,9 @@
   "today_features": {
     "posts_21_35": true,
     "avg_len_medium": true,
-    "caps_low": true,
+    "caps_medium": true,
     "excl_normal": true,
+    "mostly_open": true,
     "has_night": true,
     "heavy_night": true,
     "kw_tariff": true,
@@ -69,7 +70,6 @@
     "kw_deal": true,
     "kw_immediately": true,
     "kw_immediately_2plus": true,
-    "pre_immediately": true,
     "open_immediately": true,
     "kw_block": true,
     "kw_block_2plus": true,
@@ -79,26 +79,30 @@
     "kw_ukraine": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
-    "pre_iran": true,
     "open_iran": true,
+    "kw_dow": true,
+    "open_dow": true,
     "kw_billion": true,
     "open_billion": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
     "open_great": true,
+    "kw_incredible": true,
+    "open_incredible": true,
     "kw_terrible": true,
     "kw_stupid": true,
     "open_stupid": true,
     "kw_incompetent": true,
     "open_incompetent": true,
+    "kw_biden": true,
+    "kw_biden_2plus": true,
+    "open_biden": true,
     "kw_president_of_the_united_states": true,
     "kw_president_of_the_united_states_2plus": true,
-    "pre_president_of_the_united_states": true,
     "open_president_of_the_united_states": true,
     "kw_thank_you_for_your_attention": true,
     "kw_thank_you_for_your_attention_2plus": true,
-    "pre_thank_you_for_your_attention": true,
     "open_thank_you_for_your_attention": true,
     "both_tariff_and_deal": true
   },
@@ -211,27 +215,15 @@
   "evolution_latest": {
     "date": "2026-04-22",
     "crossover": 16,
-    "mutation": 15,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tariff",
-          "is_friday",
-          "kw_tariffs_2plus"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 93.8,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_tariff",
-          "open_tariff",
-          "volume_falling_3d"
+          "volume_spike",
+          "questions_yes"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -240,14 +232,23 @@
       },
       {
         "features": [
-          "kw_never_let_you_down",
-          "kw_president_of_the_united_states",
-          "kw_dow_2plus"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
