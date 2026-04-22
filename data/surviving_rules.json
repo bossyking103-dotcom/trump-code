@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-22T06:04:47Z",
+    "last_evolution": "2026-04-22T09:05:46Z",
     "evolved_rules_added": 46
   },
   "rules": [
@@ -12840,7 +12840,12 @@
       "parents": [
         "kw_china+kw_corrupt",
         "kw_fake+mostly_open"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
