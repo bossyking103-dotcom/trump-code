@@ -1,25 +1,13 @@
 {
   "date": "2026-04-22",
-  "prepared_at": "2026-04-22T09:10:55Z",
+  "prepared_at": "2026-04-22T12:03:46Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 11,
-    "latest": "Great job of explaining USA \"winning\" by Jim Hanson of \"Middle East Forum\" on Jesse Watters Primetime!",
-    "earliest_time": "2026-04-22T00:01:00.000Z",
-    "latest_time": "2026-04-22T04:01:09.013Z",
+    "count": 13,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116447790396994341",
+    "earliest_time": "2026-04-22T00:36:06.710Z",
+    "latest_time": "2026-04-22T10:06:14.653Z",
     "sample": [
-      {
-        "time": "00:36",
-        "text": "Iran doesn't want the Strait of Hormuz closed, they want it open so they can make $500 Million Dollars a day (which is, therefore, what they are losing if it is closed!). They only say they want it closed because I have it totally BLOCKADED (CLOSED!), so they merely want to \"save face.\" People appro"
-      },
-      {
-        "time": "02:02",
-        "text": "Salena Zito: Trump has a way with Pennsylvania. This interview shows why.https://www.washingtonpost.com/opinions/2025/11/19/trump-interview-pennsylvania-steel-tariffs/"
-      },
-      {
-        "time": "03:17",
-        "text": "Terrible!https://justthenews.com/accountability/whistleblowers/ided-witness-2-helped-ukraine-whistleblower-worked-strzok-wrote-2016"
-      },
       {
         "time": "03:17",
         "text": "US intel secretly flagged major 2020 election vulnerabilities, including voter data, memo: https://justthenews.com/politics-policy/elections/us-intel-flagged-major-2020-election-vulnerabilities-including-voter"
@@ -47,6 +35,18 @@
       {
         "time": "04:01",
         "text": "Great job of explaining USA \"winning\" by Jim Hanson of \"Middle East Forum\" on Jesse Watters Primetime!"
+      },
+      {
+        "time": "06:02",
+        "text": "Great job of explaining USA “winning” by Jim Hanson of “Middle East Forum” on Jesse Watters Primetime!"
+      },
+      {
+        "time": "10:02",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116447780917933451"
+      },
+      {
+        "time": "10:06",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116447790396994341"
       }
     ]
   },
@@ -186,40 +186,39 @@
   },
   "evolution_latest": {
     "date": "2026-04-22",
-    "crossover": 14,
-    "mutation": 16,
+    "crossover": 15,
+    "mutation": 15,
     "distill": 16,
     "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_deal",
-          "kw_inflation",
-          "kw_dow_2plus"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "excl_heavy"
+          "kw_tremendous",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "mutation_remove"
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_president_of_the_united_states",
-          "kw_never_let_you_down"
+          "kw_beautiful",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "excl_heavy",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 3,
         "score": 87.5,
         "origin": "mutation_remove"
       }
