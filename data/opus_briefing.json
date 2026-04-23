@@ -1,29 +1,13 @@
 {
   "date": "2026-04-23",
-  "prepared_at": "2026-04-23T12:04:30Z",
+  "prepared_at": "2026-04-23T15:03:21Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "Trump says Iran won't execute 8 women after he demanded their release: https://nypost.com/2026/04/22/us-news/trump-says-iran-wont-execute-8-women-after-he-pleaded-for-their-release/",
+    "count": 14,
+    "latest": "Wow! Cryin' Chuck Schumer just said, for the whole World to hear, that \"NOBODY RESPECTS BORDER PATROL OR ICE.\" That is one of the most egregious, incorrect, unpatriotic, and dangerous statements I hav",
     "earliest_time": "2026-04-23T02:58:41.954Z",
-    "latest_time": "2026-04-23T03:02:45.507Z",
+    "latest_time": "2026-04-23T14:25:19.001Z",
     "sample": [
-      {
-        "time": "02:58",
-        "text": "DAVE BOSSIE: One Year Since Taking Office, Trump Is Decimating Failed DC Status Quo: https://dailycaller.com/2026/01/18/opinion-one-year-since-taking-office-trump-is-decimating-failed-dc-status-quo-dave-bossie/"
-      },
-      {
-        "time": "02:58",
-        "text": "Federal government must step up for election integrity: https://www.washingtontimes.com/news/2026/jan/27/federal-government-must-step-election-integrity/"
-      },
-      {
-        "time": "02:59",
-        "text": "DAVE BOSSIE: Senate Republicans Must Stand Tall And Pass SAVE America Act: https://dailycaller.com/2026/02/14/opinion-senate-republicans-must-stand-tall-and-pass-the-save-america-act-dave-bosie-opinion/"
-      },
-      {
-        "time": "02:59",
-        "text": "DAVE BOSSIE: At Trump's War Department, The Arsenal Of Freedom Roars Again: https://dailycaller.com/2026/03/14/opinion-at-trumps-war-department-the-arsenal-of-freedom-roars-again-dave-bossie/"
-      },
       {
         "time": "03:02",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116451790242657015Norm Eisen is a major Sleazebag. You don't get much lower than him!!!"
@@ -31,24 +15,79 @@
       {
         "time": "03:02",
         "text": "Trump says Iran won't execute 8 women after he demanded their release: https://nypost.com/2026/04/22/us-news/trump-says-iran-wont-execute-8-women-after-he-pleaded-for-their-release/"
+      },
+      {
+        "time": "08:45",
+        "text": "Trump says Iran won’t execute 8 women after he demanded their release: https://nypost.com/2026/04/22/us-news/trump-says-iran-wont-execute-8-women-after-he-pleaded-for-their-release/"
+      },
+      {
+        "time": "08:45",
+        "text": "Norm Eisen is a major Sleazebag. You don’t get much lower than him!!!"
+      },
+      {
+        "time": "10:25",
+        "text": "Wow! Cryin’ Chuck Schumer just said, for the whole World to hear, that “NOBODY RESPECTS BORDER PATROL OR ICE.” That is one of the most egregious, incorrect, unpatriotic, and dangerous statements I have EVER heard from a “professional” politician. HE MUST IMMEDIATELY APOLOGIZE TO THESE GREAT PATRIOTS"
+      },
+      {
+        "time": "12:45",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116454084432361586"
+      },
+      {
+        "time": "12:45",
+        "text": "I have ordered the United States Navy to shoot and kill any boat, small boats though they may be (Their naval ships are ALL, 159 of them, at the bottom of the sea!), that is putting mines in the waters of the Strait of Hormuz. There is to be no hesitation. Additionally, our mine \"sweepers\" are clear"
+      },
+      {
+        "time": "13:14",
+        "text": "Iran is having a very hard time figuring out who their leader is! They just don't know! The infighting is between the \"Hardliners,\" who have been losing BADLY on the battlefield, and the \"Moderates,\" who are not very moderate at all (but gaining respect!), is CRAZY! We have total control over the St"
+      },
+      {
+        "time": "13:27",
+        "text": "Very true!!! President DJTMarc Thiessen: Trump doesn't need a deal to get what he wants from Iran: https://www.washingtonpost.com/opinions/2026/04/22/trump-best-move-iran-negotiations/"
+      },
+      {
+        "time": "14:25",
+        "text": "Wow! Cryin' Chuck Schumer just said, for the whole World to hear, that \"NOBODY RESPECTS BORDER PATROL OR ICE.\" That is one of the most egregious, incorrect, unpatriotic, and dangerous statements I have EVER heard from a \"professional\" politician. HE MUST IMMEDIATELY APOLOGIZE TO THESE GREAT PATRIOTS"
       }
     ]
   },
   "keyword_signals": [
-    "IRAN"
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_6_10": true,
+    "posts_11_20": true,
     "avg_len_medium": true,
-    "caps_low": true,
-    "excl_normal": true,
+    "caps_medium": true,
+    "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_deal": true,
+    "kw_deal_2plus": true,
+    "pre_deal": true,
+    "kw_immediately": true,
+    "kw_immediately_2plus": true,
+    "pre_immediately": true,
+    "open_immediately": true,
+    "kw_hereby": true,
+    "pre_hereby": true,
     "kw_iran": true,
+    "kw_iran_2plus": true,
+    "pre_iran": true,
+    "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "open_great": true,
     "kw_save_america": true,
+    "kw_president_djt": true,
+    "pre_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
+    "pre_thank_you_for_your_attention": true,
     "volume_rising_3d": true,
-    "volume_drop": true
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -166,34 +205,33 @@
     "top_3": [
       {
         "features": [
-          "open_ukraine",
-          "kw_maga",
-          "kw_russia"
+          "kw_interest_rate",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 95.5,
-        "origin": "mutation_replace"
-      },
-      {
-        "features": [
-          "is_friday",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 2,
         "score": 87.5,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_beautiful",
-          "kw_interest_rate"
+          "kw_signed",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "mutation_remove"
+        "origin": "distilled"
       }
     ]
   },
@@ -211,7 +249,9 @@
   "prediction_market": {
     "date": "2026-04-23",
     "signals": [
-      "IRAN"
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
     ],
     "opportunities": [],
     "total_scanned": 0
