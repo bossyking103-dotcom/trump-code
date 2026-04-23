@@ -1,20 +1,16 @@
 {
   "date": "2026-04-23",
-  "prepared_at": "2026-04-23T18:04:08Z",
+  "prepared_at": "2026-04-23T21:04:22Z",
   "status": "PENDING",
   "today_posts": {
     "count": 15,
-    "latest": "John Phelan is a long time friend, and very successful businessman, who did an outstanding job serving as my Secretary Of The Navy for the last year. John helped my Administration rebuild Sleepy Joe B",
+    "latest": "For those people, fewer in number now than ever before, that are reading The Failing New York Times, or watching Fake News CNN, that think that I am \"anxious\" to end the War (if you would even call it",
     "earliest_time": "2026-04-23T02:58:41.954Z",
-    "latest_time": "2026-04-23T17:25:43.988Z",
+    "latest_time": "2026-04-23T18:21:06.547Z",
     "sample": [
       {
         "time": "03:02",
         "text": "Trump says Iran won't execute 8 women after he demanded their release: https://nypost.com/2026/04/22/us-news/trump-says-iran-wont-execute-8-women-after-he-pleaded-for-their-release/"
-      },
-      {
-        "time": "08:45",
-        "text": "Trump says Iran won’t execute 8 women after he demanded their release: https://nypost.com/2026/04/22/us-news/trump-says-iran-wont-execute-8-women-after-he-pleaded-for-their-release/"
       },
       {
         "time": "12:45",
@@ -25,7 +21,7 @@
         "text": "I have ordered the United States Navy to shoot and kill any boat, small boats though they may be (Their naval ships are ALL, 159 of them, at the bottom of the sea!), that is putting mines in the waters of the Strait of Hormuz. There is to be no hesitation. Additionally, our mine \"sweepers\" are clear"
       },
       {
-        "time": "12:56",
+        "time": "12:57",
         "text": "Wow! Cryin’ Chuck Schumer just said, for the whole World to hear, that “NOBODY RESPECTS BORDER PATROL OR ICE.” That is one of the most egregious, incorrect, unpatriotic, and dangerous statements I have EVER heard from a “professional” politician. HE MUST IMMEDIATELY APOLOGIZE TO THESE GREAT PATRIOTS"
       },
       {
@@ -47,6 +43,10 @@
       {
         "time": "17:25",
         "text": "John Phelan is a long time friend, and very successful businessman, who did an outstanding job serving as my Secretary Of The Navy for the last year. John helped my Administration rebuild Sleepy Joe Biden's rapidly depleted, and almost abandoned, Navy. Now, because of John, and all of the Great Men "
+      },
+      {
+        "time": "18:21",
+        "text": "For those people, fewer in number now than ever before, that are reading The Failing New York Times, or watching Fake News CNN, that think that I am \"anxious\" to end the War (if you would even call it that!) with Iran, please be advised that I am possibly the least pressured person ever to be in thi"
       }
     ]
   },
@@ -59,13 +59,14 @@
     "posts_11_20": true,
     "avg_len_medium": true,
     "caps_medium": true,
-    "excl_normal": true,
+    "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
     "heavy_night": true,
     "kw_deal": true,
     "kw_deal_2plus": true,
     "pre_deal": true,
+    "open_deal": true,
     "kw_immediately": true,
     "kw_immediately_2plus": true,
     "pre_immediately": true,
@@ -74,13 +75,18 @@
     "pre_hereby": true,
     "kw_ban": true,
     "open_ban": true,
+    "kw_block": true,
+    "open_block": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
+    "open_iran": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
     "open_great": true,
+    "kw_fake": true,
+    "open_fake": true,
     "kw_biden": true,
     "open_biden": true,
     "kw_save_america": true,
@@ -201,36 +207,25 @@
   },
   "evolution_latest": {
     "date": "2026-04-23",
-    "crossover": 16,
-    "mutation": 10,
+    "crossover": 14,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 42,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "is_friday",
-          "excl_heavy",
-          "kw_tariffs"
+          "kw_thank_you_for_your_attention",
+          "kw_tariffs",
+          "kw_agreement"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
+        "score": 95.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "is_friday",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_thank_you_for_your_attention",
           "volume_falling_3d",
           "kw_beautiful"
         ],
@@ -238,6 +233,16 @@
         "hold": 2,
         "score": 87.5,
         "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
