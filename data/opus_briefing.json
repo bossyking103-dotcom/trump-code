@@ -1,33 +1,13 @@
 {
   "date": "2026-04-24",
-  "prepared_at": "2026-04-24T09:02:59Z",
+  "prepared_at": "2026-04-24T12:04:23Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 10,
-    "latest": "The Southern Poverty Law Center, one of the greatest political scams in American History, has been charged with FRAUD. This is another Democrat Hoax, along with Act Blue, and many others. If it is tru",
+    "count": 14,
+    "latest": "Trump push to restrain birthright citizenship gets ammo from unlikely source: liberal polling group: https://justthenews.com/politics-policy/all-things-trump/trump-push-restrain-birthright-citizenship",
     "earliest_time": "2026-04-24T02:44:00.000Z",
-    "latest_time": "2026-04-24T05:13:56.349Z",
+    "latest_time": "2026-04-24T11:33:22.319Z",
     "sample": [
-      {
-        "time": "02:44",
-        "text": "https://x.com/elonmusk/status/2047224780374610091?s=10"
-      },
-      {
-        "time": "02:45",
-        "text": "Schweizer Exclusive: Walls Are Closing In on Birth Tourism Industry, But We Must Act NowEpisode 392 - 4/23/26:https://web.breitbart.com/videos/schweizer-exclusive-walls-are-closing-in-on-birth-tourism-industry-but-we-must-act-now"
-      },
-      {
-        "time": "04:04",
-        "text": "Trump admin live updates: Prez announces Israel-Lebanon cease-fire extended by 3 weeks: https://nypost.com/2026/04/20/us-news/trump-admin-live-updates-april-20-21-22-23-24/"
-      },
-      {
-        "time": "04:18",
-        "text": "Cryin' Chuck Schumer should resign over this. He won't be missed! President DJT"
-      },
-      {
-        "time": "04:19",
-        "text": "Great Patriots!!! President DJT"
-      },
       {
         "time": "04:19",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116446310089816543"
@@ -47,14 +27,35 @@
       {
         "time": "05:13",
         "text": "The Southern Poverty Law Center, one of the greatest political scams in American History, has been charged with FRAUD. This is another Democrat Hoax, along with Act Blue, and many others. If it is true, the 2020 Presidential Election should be permanently wiped from the books and be of no further fo"
+      },
+      {
+        "time": "06:44",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116458328588094795https://x.com/elonmusk/status/2047224780374610091?s=10"
+      },
+      {
+        "time": "06:45",
+        "text": "Schweizer Exclusive: Walls Are Closing In on Birth Tourism Industry, But We Must Act NowEpisode 392 - 4/23/26:https://web.breitbart.com/videos/schweizer-exclusive-walls-are-closing-in-on-birth-tourism-industry-but-we-must-act-now"
+      },
+      {
+        "time": "07:33",
+        "text": "Report: Leftist SPLC’s Former Head Margaret Huang Weaponized Group Against Conservatives: https://www.breitbart.com/politics/2026/04/23/report-leftist-splcs-former-head-margaret-huang-weaponized-group-against-conservatives/"
+      },
+      {
+        "time": "11:33",
+        "text": "Report: Leftist SPLC's Former Head Margaret Huang Weaponized Group Against Conservatives: https://www.breitbart.com/politics/2026/04/23/report-leftist-splcs-former-head-margaret-huang-weaponized-group-against-conservatives/"
+      },
+      {
+        "time": "11:33",
+        "text": "Trump push to restrain birthright citizenship gets ammo from unlikely source: liberal polling group: https://justthenews.com/politics-policy/all-things-trump/trump-push-restrain-birthright-citizenship-gets-ammo-unlikely"
       }
     ]
   },
   "today_features": {
-    "posts_6_10": true,
+    "posts_11_20": true,
     "avg_len_short": true,
     "caps_low": true,
     "excl_normal": true,
+    "questions_yes": true,
     "mostly_premarket": true,
     "has_night": true,
     "kw_ban": true,
@@ -65,7 +66,11 @@
     "kw_great_2plus": true,
     "pre_great": true,
     "kw_elon": true,
+    "kw_elon_2plus": true,
+    "pre_elon": true,
     "kw_musk": true,
+    "kw_musk_2plus": true,
+    "pre_musk": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
@@ -181,26 +186,26 @@
   },
   "evolution_latest": {
     "date": "2026-04-24",
-    "crossover": 13,
-    "mutation": 16,
+    "crossover": 16,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "excl_heavy",
-          "kw_interest_rate"
+          "volume_falling_3d",
+          "open_tariff"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 88.5,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_tremendous",
-          "kw_interest_rate"
+          "kw_interest_rate",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -215,7 +220,7 @@
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "mutation_remove"
       }
     ]
   },
