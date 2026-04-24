@@ -1,17 +1,13 @@
 {
   "date": "2026-04-24",
-  "prepared_at": "2026-04-24T18:04:31Z",
+  "prepared_at": "2026-04-24T21:03:16Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 14,
-    "latest": "Trump push to restrain birthright citizenship gets ammo from unlikely source: liberal polling group: https://justthenews.com/politics-policy/all-things-trump/trump-push-restrain-birthright-citizenship",
+    "count": 15,
+    "latest": "People and Companies that have taken advantage of our Country for decades, because of the horrible and ridiculous United States Supreme Court decision on Tariffs, are now supposed to be given back 159",
     "earliest_time": "2026-04-24T02:45:00.000Z",
-    "latest_time": "2026-04-24T11:33:22.319Z",
+    "latest_time": "2026-04-24T19:07:48.997Z",
     "sample": [
-      {
-        "time": "04:19",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116446310089816543"
-      },
       {
         "time": "04:22",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116457768187860591"
@@ -47,24 +43,40 @@
       {
         "time": "11:33",
         "text": "Trump push to restrain birthright citizenship gets ammo from unlikely source: liberal polling group: https://justthenews.com/politics-policy/all-things-trump/trump-push-restrain-birthright-citizenship-gets-ammo-unlikely"
+      },
+      {
+        "time": "19:07",
+        "text": "People and Companies that have taken advantage of our Country for decades, because of the horrible and ridiculous United States Supreme Court decision on Tariffs, are now supposed to be given back 159 Billion Dollars. All they had to do was one little half sentence, \"that the United States does not "
       }
     ]
   },
+  "keyword_signals": [
+    "TARIFF",
+    "TARIFF_ONLY"
+  ],
   "today_features": {
     "posts_11_20": true,
-    "avg_len_short": true,
+    "avg_len_medium": true,
     "caps_low": true,
     "excl_normal": true,
     "questions_yes": true,
     "mostly_premarket": true,
     "has_night": true,
+    "kw_tariff": true,
+    "open_tariff": true,
+    "kw_tariffs": true,
+    "open_tariffs": true,
     "kw_ban": true,
     "pre_ban": true,
     "kw_israel": true,
     "pre_israel": true,
+    "kw_billion": true,
+    "open_billion": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
+    "kw_horrible": true,
+    "open_horrible": true,
     "kw_elon": true,
     "kw_elon_2plus": true,
     "pre_elon": true,
@@ -76,7 +88,29 @@
     "pre_president_djt": true,
     "kw_thank_you_for_your_attention": true,
     "pre_thank_you_for_your_attention": true,
-    "is_friday": true
+    "is_friday": true,
+    "tariff_without_deal": true,
+    "tariff_no_deal": true
+  },
+  "triggered_rules": {
+    "total": 1,
+    "long": 1,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0070",
+        "features": [
+          "is_friday",
+          "open_tariff",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -187,40 +221,43 @@
   "evolution_latest": {
     "date": "2026-04-24",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 10,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 42,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tremendous",
-          "kw_interest_rate"
+          "kw_tariffs",
+          "open_dow",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
-        "origin": "mutation_remove"
+        "score": 90.0,
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
+          "questions_yes",
+          "is_friday",
+          "kw_dow_2plus",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
+        "score": 90.0,
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
+          "open_thank_you_for_your_attention",
+          "open_jobs"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "crossover"
       }
     ]
   },
@@ -236,11 +273,10 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-04-23",
+    "date": "2026-04-24",
     "signals": [
-      "DEAL",
-      "IRAN",
-      "DEAL_ONLY"
+      "TARIFF",
+      "TARIFF_ONLY"
     ],
     "opportunities": [],
     "total_scanned": 0
