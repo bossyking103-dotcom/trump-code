@@ -1,11 +1,11 @@
 {
   "date": "2026-04-24",
-  "prepared_at": "2026-04-24T15:01:51Z",
+  "prepared_at": "2026-04-24T18:04:31Z",
   "status": "PENDING",
   "today_posts": {
     "count": 14,
     "latest": "Trump push to restrain birthright citizenship gets ammo from unlikely source: liberal polling group: https://justthenews.com/politics-policy/all-things-trump/trump-push-restrain-birthright-citizenship",
-    "earliest_time": "2026-04-24T02:44:00.000Z",
+    "earliest_time": "2026-04-24T02:45:00.000Z",
     "latest_time": "2026-04-24T11:33:22.319Z",
     "sample": [
       {
@@ -200,7 +200,7 @@
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "mutation_remove"
       },
       {
         "features": [
