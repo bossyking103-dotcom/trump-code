@@ -1,40 +1,16 @@
 {
-  "date": "2026-04-24",
-  "prepared_at": "2026-04-24T21:03:16Z",
+  "date": "2026-04-25",
+  "prepared_at": "2026-04-25T06:02:15Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 15,
-    "latest": "People and Companies that have taken advantage of our Country for decades, because of the horrible and ridiculous United States Supreme Court decision on Tariffs, are now supposed to be given back 159",
-    "earliest_time": "2026-04-24T02:45:00.000Z",
-    "latest_time": "2026-04-24T19:07:48.997Z",
+    "count": 19,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116461727359731405",
+    "earliest_time": "2026-04-24T04:04:16.171Z",
+    "latest_time": "2026-04-24T22:17:41.760Z",
     "sample": [
-      {
-        "time": "04:22",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116457768187860591"
-      },
-      {
-        "time": "04:22",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116457769351723599"
-      },
-      {
-        "time": "04:27",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116457788834581503"
-      },
-      {
-        "time": "05:13",
-        "text": "The Southern Poverty Law Center, one of the greatest political scams in American History, has been charged with FRAUD. This is another Democrat Hoax, along with Act Blue, and many others. If it is true, the 2020 Presidential Election should be permanently wiped from the books and be of no further fo"
-      },
-      {
-        "time": "06:44",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116458328588094795https://x.com/elonmusk/status/2047224780374610091?s=10"
-      },
       {
         "time": "06:45",
         "text": "Schweizer Exclusive: Walls Are Closing In on Birth Tourism Industry, But We Must Act NowEpisode 392 - 4/23/26:https://web.breitbart.com/videos/schweizer-exclusive-walls-are-closing-in-on-birth-tourism-industry-but-we-must-act-now"
-      },
-      {
-        "time": "07:33",
-        "text": "Report: Leftist SPLC’s Former Head Margaret Huang Weaponized Group Against Conservatives: https://www.breitbart.com/politics/2026/04/23/report-leftist-splcs-former-head-margaret-huang-weaponized-group-against-conservatives/"
       },
       {
         "time": "11:33",
@@ -45,8 +21,32 @@
         "text": "Trump push to restrain birthright citizenship gets ammo from unlikely source: liberal polling group: https://justthenews.com/politics-policy/all-things-trump/trump-push-restrain-birthright-citizenship-gets-ammo-unlikely"
       },
       {
+        "time": "17:49",
+        "text": "Hakeem “High Tax” Jeffries is a Low IQ individual who is not smart enough to be “running” the Democrat Party, and certainly not smart enough to be involved in running the United States of America. It’s people like this who almost destroyed our Nation with their High Tax, Open Border Policies. In the"
+      },
+      {
         "time": "19:07",
         "text": "People and Companies that have taken advantage of our Country for decades, because of the horrible and ridiculous United States Supreme Court decision on Tariffs, are now supposed to be given back 159 Billion Dollars. All they had to do was one little half sentence, \"that the United States does not "
+      },
+      {
+        "time": "21:08",
+        "text": "This is the Reflecting Pool at The Lincoln Memorial. Two thousand five hundred feet, the length of the tallest Building in the World. Starting the final phase of Renovation that was supposed to cost 301 Million Dollars, and take three years, and was instead done, with the help of Secretary of the In"
+      },
+      {
+        "time": "21:17",
+        "text": "The first time Lafayette Park Fountains, opposite the White House, have worked in decades. My Great Honor to have funded this project (and many others!), and helped. President DONALD J. TRUMP"
+      },
+      {
+        "time": "21:42",
+        "text": "Candace Owens' stock, which was never very high, has fallen a long way. Her attack on the First Lady of France is despicable. I believe, in this case, without verification, she is an extremely Low IQ individual!"
+      },
+      {
+        "time": "21:49",
+        "text": "Hakeem \"High Tax\" Jeffries is a Low IQ individual who is not smart enough to be \"running\" the Democrat Party, and certainly not smart enough to be involved in running the United States of America. It's people like this who almost destroyed our Nation with their High Tax, Open Border Policies. In the"
+      },
+      {
+        "time": "22:17",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116461727359731405"
       }
     ]
   },
@@ -61,7 +61,6 @@
     "excl_normal": true,
     "questions_yes": true,
     "mostly_premarket": true,
-    "has_night": true,
     "kw_tariff": true,
     "open_tariff": true,
     "kw_tariffs": true,
@@ -78,10 +77,8 @@
     "kw_horrible": true,
     "open_horrible": true,
     "kw_elon": true,
-    "kw_elon_2plus": true,
     "pre_elon": true,
     "kw_musk": true,
-    "kw_musk_2plus": true,
     "pre_musk": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
@@ -219,45 +216,42 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-04-24",
+    "date": "2026-04-25",
     "crossover": 16,
-    "mutation": 10,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 42,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tariffs",
-          "open_dow",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "questions_yes",
-          "is_friday",
-          "kw_dow_2plus",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "open_thank_you_for_your_attention",
-          "open_jobs"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "excl_heavy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
@@ -273,7 +267,7 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-04-24",
+    "date": "2026-04-25",
     "signals": [
       "TARIFF",
       "TARIFF_ONLY"
