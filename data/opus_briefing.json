@@ -1,12 +1,12 @@
 {
   "date": "2026-04-25",
-  "prepared_at": "2026-04-25T18:44:00Z",
+  "prepared_at": "2026-04-25T21:05:20Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "I just cancelled the trip of my representatives going to Islamabad, Pakistan, to meet with the Iranians. Too much time wasted on traveling, too much work! Besides which, there is tremendous infighting",
+    "count": 4,
+    "latest": "Once again, The Failing New York Times has attempted to grossly mischaracterize what should be hailed as the restoration of Beauty and Grandeur to our Nation's Capital as something else completely. La",
     "earliest_time": "2026-04-25T16:03:03.370Z",
-    "latest_time": "2026-04-25T18:19:24.573Z",
+    "latest_time": "2026-04-25T20:18:01.102Z",
     "sample": [
       {
         "time": "16:03",
@@ -19,6 +19,10 @@
       {
         "time": "18:19",
         "text": "I just cancelled the trip of my representatives going to Islamabad, Pakistan, to meet with the Iranians. Too much time wasted on traveling, too much work! Besides which, there is tremendous infighting and confusion within their \"leadership.\" Nobody knows who is in charge, including them. Also, we ha"
+      },
+      {
+        "time": "20:18",
+        "text": "Once again, The Failing New York Times has attempted to grossly mischaracterize what should be hailed as the restoration of Beauty and Grandeur to our Nation's Capital as something else completely. Lafayette Park, across the street from the White House, had been left in disarray after decades of neg"
       }
     ]
   },
@@ -27,14 +31,15 @@
   ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_long": true,
-    "caps_medium": true,
+    "avg_len_very_long": true,
+    "caps_low": true,
     "excl_extreme": true,
     "questions_no": true,
     "mostly_open": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
     "open_iran": true,
+    "kw_great": true,
     "kw_tremendous": true,
     "kw_tremendous_2plus": true,
     "open_tremendous": true,
@@ -163,28 +168,29 @@
     "top_3": [
       {
         "features": [
-          "kw_beautiful",
-          "kw_interest_rate"
+          "kw_thank_you_for_your_attention",
+          "kw_economy",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 88.9,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_signed",
-          "is_friday"
+          "volume_falling_3d",
+          "open_tariff"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 88.5,
+        "origin": "crossover"
       },
       {
         "features": [
-          "excl_heavy",
-          "kw_interest_rate"
+          "kw_interest_rate",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
