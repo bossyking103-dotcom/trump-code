@@ -1,6 +1,6 @@
 {
   "date": "2026-04-25",
-  "prepared_at": "2026-04-25T06:02:15Z",
+  "prepared_at": "2026-04-25T09:01:43Z",
   "status": "PENDING",
   "today_posts": {
     "count": 19,
@@ -225,6 +225,17 @@
     "top_3": [
       {
         "features": [
+          "open_jobs",
+          "open_trade",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
+      },
+      {
+        "features": [
           "kw_interest_rate",
           "kw_tremendous"
         ],
@@ -237,16 +248,6 @@
         "features": [
           "kw_interest_rate",
           "kw_beautiful"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "excl_heavy"
         ],
         "direction": "LONG",
         "hold": 3,
