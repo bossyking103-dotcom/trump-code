@@ -1,113 +1,51 @@
 {
   "date": "2026-04-25",
-  "prepared_at": "2026-04-25T12:05:02Z",
+  "prepared_at": "2026-04-25T18:44:00Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 19,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116461727359731405",
-    "earliest_time": "2026-04-24T04:04:16.171Z",
-    "latest_time": "2026-04-24T22:17:41.760Z",
+    "count": 3,
+    "latest": "I just cancelled the trip of my representatives going to Islamabad, Pakistan, to meet with the Iranians. Too much time wasted on traveling, too much work! Besides which, there is tremendous infighting",
+    "earliest_time": "2026-04-25T16:03:03.370Z",
+    "latest_time": "2026-04-25T18:19:24.573Z",
     "sample": [
       {
-        "time": "06:45",
-        "text": "Schweizer Exclusive: Walls Are Closing In on Birth Tourism Industry, But We Must Act NowEpisode 392 - 4/23/26:https://web.breitbart.com/videos/schweizer-exclusive-walls-are-closing-in-on-birth-tourism-industry-but-we-must-act-now"
+        "time": "16:03",
+        "text": "Not passing the SAVE AMERICA ACT will lead to the the worst results for a political party in the HISTORY of the United States Senate. An Unrecoverable Death Wish!!! Likewise, the FILIBUSTER - TERMINATE IT NOW!!! President DONALD J. TRUMP"
       },
       {
-        "time": "11:33",
-        "text": "Report: Leftist SPLC's Former Head Margaret Huang Weaponized Group Against Conservatives: https://www.breitbart.com/politics/2026/04/23/report-leftist-splcs-former-head-margaret-huang-weaponized-group-against-conservatives/"
+        "time": "16:27",
+        "text": "I just cancelled the trip of my representatives going is Islamabad, Pakistan, to meet with the Iranians. Too much time wasted on traveling, too much work! Besides which, there is tremendous infighting and confusion within their \"leadership.\" Nobody knows who is in charge, including them. Also, we ha"
       },
       {
-        "time": "11:33",
-        "text": "Trump push to restrain birthright citizenship gets ammo from unlikely source: liberal polling group: https://justthenews.com/politics-policy/all-things-trump/trump-push-restrain-birthright-citizenship-gets-ammo-unlikely"
-      },
-      {
-        "time": "17:49",
-        "text": "Hakeem “High Tax” Jeffries is a Low IQ individual who is not smart enough to be “running” the Democrat Party, and certainly not smart enough to be involved in running the United States of America. It’s people like this who almost destroyed our Nation with their High Tax, Open Border Policies. In the"
-      },
-      {
-        "time": "19:07",
-        "text": "People and Companies that have taken advantage of our Country for decades, because of the horrible and ridiculous United States Supreme Court decision on Tariffs, are now supposed to be given back 159 Billion Dollars. All they had to do was one little half sentence, \"that the United States does not "
-      },
-      {
-        "time": "21:08",
-        "text": "This is the Reflecting Pool at The Lincoln Memorial. Two thousand five hundred feet, the length of the tallest Building in the World. Starting the final phase of Renovation that was supposed to cost 301 Million Dollars, and take three years, and was instead done, with the help of Secretary of the In"
-      },
-      {
-        "time": "21:17",
-        "text": "The first time Lafayette Park Fountains, opposite the White House, have worked in decades. My Great Honor to have funded this project (and many others!), and helped. President DONALD J. TRUMP"
-      },
-      {
-        "time": "21:42",
-        "text": "Candace Owens' stock, which was never very high, has fallen a long way. Her attack on the First Lady of France is despicable. I believe, in this case, without verification, she is an extremely Low IQ individual!"
-      },
-      {
-        "time": "21:49",
-        "text": "Hakeem \"High Tax\" Jeffries is a Low IQ individual who is not smart enough to be \"running\" the Democrat Party, and certainly not smart enough to be involved in running the United States of America. It's people like this who almost destroyed our Nation with their High Tax, Open Border Policies. In the"
-      },
-      {
-        "time": "22:17",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116461727359731405"
+        "time": "18:19",
+        "text": "I just cancelled the trip of my representatives going to Islamabad, Pakistan, to meet with the Iranians. Too much time wasted on traveling, too much work! Besides which, there is tremendous infighting and confusion within their \"leadership.\" Nobody knows who is in charge, including them. Also, we ha"
       }
     ]
   },
   "keyword_signals": [
-    "TARIFF",
-    "TARIFF_ONLY"
+    "IRAN"
   ],
   "today_features": {
-    "posts_11_20": true,
-    "avg_len_medium": true,
-    "caps_low": true,
-    "excl_normal": true,
-    "questions_yes": true,
-    "mostly_premarket": true,
-    "kw_tariff": true,
-    "open_tariff": true,
-    "kw_tariffs": true,
-    "open_tariffs": true,
-    "kw_ban": true,
-    "pre_ban": true,
-    "kw_israel": true,
-    "pre_israel": true,
-    "kw_billion": true,
-    "open_billion": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "pre_great": true,
-    "kw_horrible": true,
-    "open_horrible": true,
-    "kw_elon": true,
-    "pre_elon": true,
-    "kw_musk": true,
-    "pre_musk": true,
-    "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "pre_president_djt": true,
-    "kw_thank_you_for_your_attention": true,
-    "pre_thank_you_for_your_attention": true,
-    "is_friday": true,
-    "tariff_without_deal": true,
-    "tariff_no_deal": true
-  },
-  "triggered_rules": {
-    "total": 1,
-    "long": 1,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0070",
-        "features": [
-          "is_friday",
-          "open_tariff",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "posts_1_5": true,
+    "avg_len_long": true,
+    "caps_medium": true,
+    "excl_extreme": true,
+    "questions_no": true,
+    "mostly_open": true,
+    "kw_iran": true,
+    "kw_iran_2plus": true,
+    "open_iran": true,
+    "kw_tremendous": true,
+    "kw_tremendous_2plus": true,
+    "open_tremendous": true,
+    "kw_worst": true,
+    "open_worst": true,
+    "kw_save_america": true,
+    "open_save_america": true,
+    "kw_filibuster": true,
+    "open_filibuster": true,
+    "is_weekend": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -225,8 +163,8 @@
     "top_3": [
       {
         "features": [
-          "volume_falling_3d",
-          "kw_beautiful"
+          "kw_beautiful",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -235,23 +173,23 @@
       },
       {
         "features": [
-          "kw_tremendous",
+          "kw_signed",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "excl_heavy",
           "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
         "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
       }
     ]
   },
@@ -269,8 +207,7 @@
   "prediction_market": {
     "date": "2026-04-25",
     "signals": [
-      "TARIFF",
-      "TARIFF_ONLY"
+      "IRAN"
     ],
     "opportunities": [],
     "total_scanned": 0
