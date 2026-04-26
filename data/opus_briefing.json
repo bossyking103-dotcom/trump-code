@@ -1,12 +1,12 @@
 {
   "date": "2026-04-26",
-  "prepared_at": "2026-04-26T12:28:40Z",
+  "prepared_at": "2026-04-26T15:01:19Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "Law Enforcement has requested that we leave the premises, consistent with protocol, which we will do, immediately. I will be giving a press conference in 30 minutes from the White House Press Briefing",
+    "count": 3,
+    "latest": "What happened last night is exactly the reason that our great Military, Secret Service, Law Enforcement and, for different reasons, every President for the last 150 years, have been DEMANDING that a l",
     "earliest_time": "2026-04-26T01:17:33.401Z",
-    "latest_time": "2026-04-26T01:36:17.033Z",
+    "latest_time": "2026-04-26T12:46:04.248Z",
     "sample": [
       {
         "time": "01:17",
@@ -15,19 +15,31 @@
       {
         "time": "01:36",
         "text": "Law Enforcement has requested that we leave the premises, consistent with protocol, which we will do, immediately. I will be giving a press conference in 30 minutes from the White House Press Briefing Room. The First Lady, plus the Vice President, and all Cabinet members, are in perfect condition. W"
+      },
+      {
+        "time": "12:46",
+        "text": "What happened last night is exactly the reason that our great Military, Secret Service, Law Enforcement and, for different reasons, every President for the last 150 years, have been DEMANDING that a large, safe, and secure Ballroom be built ON THE GROUNDS OF THE WHITE HOUSE. This event would never h"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_long": true,
+    "avg_len_very_long": true,
     "caps_low": true,
-    "excl_none": true,
+    "excl_normal": true,
     "questions_no": true,
     "has_night": true,
     "kw_immediately": true,
+    "kw_immediately_2plus": true,
+    "pre_immediately": true,
+    "kw_great": true,
+    "pre_great": true,
+    "kw_beautiful": true,
+    "pre_beautiful": true,
     "kw_fantastic": true,
     "kw_perfect": true,
+    "kw_thank_you_for_your_attention": true,
+    "pre_thank_you_for_your_attention": true,
     "is_weekend": true,
     "volume_falling_3d": true,
     "volume_drop": true
@@ -141,40 +153,41 @@
   "evolution_latest": {
     "date": "2026-04-26",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_complete_and_total",
-          "open_president_of_the_united_states"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 90.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "open_tariff",
-          "volume_falling_3d"
+          "open_jobs",
+          "kw_beautiful",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.5,
+        "score": 93.8,
         "origin": "crossover"
       },
       {
         "features": [
-          "open_thank_you_for_your_attention",
-          "open_jobs"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
