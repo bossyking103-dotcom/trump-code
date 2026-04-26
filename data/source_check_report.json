@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-04-25T21:04:58Z",
+  "timestamp": "2026-04-26T06:03:52Z",
   "sources": {
     "cnn": {
       "status": "ok",
-      "count": 6173,
+      "count": 6175,
       "error": null
     },
     "trumpstruth": {
       "status": "ok",
-      "count": 9,
+      "count": 6,
       "error": null
     },
     "truthsocial_direct": {
@@ -21,16 +21,16 @@
     "status": "ok",
     "primary": "cnn",
     "secondary": "trumpstruth",
-    "checked": 12,
-    "matched": 4,
-    "primary_only": 5,
-    "secondary_only": 3,
-    "match_rate": 33.3,
-    "verdict": "INCONSISTENT"
+    "checked": 9,
+    "matched": 5,
+    "primary_only": 4,
+    "secondary_only": 0,
+    "match_rate": 55.6,
+    "verdict": "PARTIAL"
   },
   "merge": {
     "primary_source": "cnn",
     "total_posts": 6175,
-    "added_from_others": 2
+    "added_from_others": 0
   }
 }

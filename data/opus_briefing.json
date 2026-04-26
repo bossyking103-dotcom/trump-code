@@ -1,55 +1,35 @@
 {
-  "date": "2026-04-25",
-  "prepared_at": "2026-04-25T21:05:20Z",
+  "date": "2026-04-26",
+  "prepared_at": "2026-04-26T06:04:03Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "Once again, The Failing New York Times has attempted to grossly mischaracterize what should be hailed as the restoration of Beauty and Grandeur to our Nation's Capital as something else completely. La",
-    "earliest_time": "2026-04-25T16:03:03.370Z",
-    "latest_time": "2026-04-25T20:18:01.102Z",
+    "count": 2,
+    "latest": "Law Enforcement has requested that we leave the premises, consistent with protocol, which we will do, immediately. I will be giving a press conference in 30 minutes from the White House Press Briefing",
+    "earliest_time": "2026-04-26T01:17:33.401Z",
+    "latest_time": "2026-04-26T01:36:17.033Z",
     "sample": [
       {
-        "time": "16:03",
-        "text": "Not passing the SAVE AMERICA ACT will lead to the the worst results for a political party in the HISTORY of the United States Senate. An Unrecoverable Death Wish!!! Likewise, the FILIBUSTER - TERMINATE IT NOW!!! President DONALD J. TRUMP"
+        "time": "01:17",
+        "text": "Quite an evening in D.C. Secret Service and Law Enforcement did a fantastic job. They acted quickly and bravely. The shooter has been apprehended, and I have recommended that we \"LET THE SHOW GO ON\" but, will entirely be guided by Law Enforcement. They will make a decision shortly. Regardless of tha"
       },
       {
-        "time": "16:27",
-        "text": "I just cancelled the trip of my representatives going is Islamabad, Pakistan, to meet with the Iranians. Too much time wasted on traveling, too much work! Besides which, there is tremendous infighting and confusion within their \"leadership.\" Nobody knows who is in charge, including them. Also, we ha"
-      },
-      {
-        "time": "18:19",
-        "text": "I just cancelled the trip of my representatives going to Islamabad, Pakistan, to meet with the Iranians. Too much time wasted on traveling, too much work! Besides which, there is tremendous infighting and confusion within their \"leadership.\" Nobody knows who is in charge, including them. Also, we ha"
-      },
-      {
-        "time": "20:18",
-        "text": "Once again, The Failing New York Times has attempted to grossly mischaracterize what should be hailed as the restoration of Beauty and Grandeur to our Nation's Capital as something else completely. Lafayette Park, across the street from the White House, had been left in disarray after decades of neg"
+        "time": "01:36",
+        "text": "Law Enforcement has requested that we leave the premises, consistent with protocol, which we will do, immediately. I will be giving a press conference in 30 minutes from the White House Press Briefing Room. The First Lady, plus the Vice President, and all Cabinet members, are in perfect condition. W"
       }
     ]
   },
-  "keyword_signals": [
-    "IRAN"
-  ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_very_long": true,
+    "avg_len_long": true,
     "caps_low": true,
-    "excl_extreme": true,
+    "excl_none": true,
     "questions_no": true,
-    "mostly_open": true,
-    "kw_iran": true,
-    "kw_iran_2plus": true,
-    "open_iran": true,
-    "kw_great": true,
-    "kw_tremendous": true,
-    "kw_tremendous_2plus": true,
-    "open_tremendous": true,
-    "kw_worst": true,
-    "open_worst": true,
-    "kw_save_america": true,
-    "open_save_america": true,
-    "kw_filibuster": true,
-    "open_filibuster": true,
+    "has_night": true,
+    "kw_immediately": true,
+    "kw_fantastic": true,
+    "kw_perfect": true,
     "is_weekend": true,
+    "volume_falling_3d": true,
     "volume_drop": true
   },
   "model_performance": {
@@ -159,7 +139,7 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-04-25",
+    "date": "2026-04-26",
     "crossover": 16,
     "mutation": 16,
     "distill": 16,
@@ -168,24 +148,23 @@
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "kw_economy",
-          "kw_signed"
+          "kw_beautiful",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.9,
+        "score": 87.5,
         "origin": "crossover"
       },
       {
         "features": [
-          "volume_falling_3d",
-          "open_tariff"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.5,
-        "origin": "crossover"
+        "score": 87.5,
+        "origin": "distilled"
       },
       {
         "features": [
@@ -195,7 +174,7 @@
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "mutation_remove"
+        "origin": "distilled"
       }
     ]
   },
