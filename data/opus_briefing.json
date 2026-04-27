@@ -1,12 +1,12 @@
 {
   "date": "2026-04-27",
-  "prepared_at": "2026-04-27T15:03:37Z",
+  "prepared_at": "2026-04-27T18:04:26Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "GREAT IDEA!!! DO IT.  President DJT",
+    "count": 3,
+    "latest": "Wow, Jimmy Kimmel, who is in no way funny as attested to by his terrible Television Ratings, made a statement on his Show that is really shocking. He showed a fake video of the First Lady, Melania, an",
     "earliest_time": "2026-04-27T02:52:22.292Z",
-    "latest_time": "2026-04-27T03:00:20.277Z",
+    "latest_time": "2026-04-27T17:26:09.205Z",
     "sample": [
       {
         "time": "02:52",
@@ -15,20 +15,36 @@
       {
         "time": "03:00",
         "text": "GREAT IDEA!!! DO IT.  President DJT"
+      },
+      {
+        "time": "17:26",
+        "text": "Wow, Jimmy Kimmel, who is in no way funny as attested to by his terrible Television Ratings, made a statement on his Show that is really shocking. He showed a fake video of the First Lady, Melania, and our son, Barron, like they were actually sitting in his studio, listening to him speak, which they"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_medium": true,
-    "caps_medium": true,
+    "avg_len_long": true,
+    "caps_low": true,
     "excl_extreme": true,
     "questions_no": true,
     "has_night": true,
+    "kw_immediately": true,
+    "open_immediately": true,
+    "kw_dow": true,
+    "open_dow": true,
     "kw_great": true,
     "kw_great_2plus": true,
+    "kw_beautiful": true,
+    "open_beautiful": true,
+    "kw_fake": true,
+    "open_fake": true,
+    "kw_terrible": true,
+    "open_terrible": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
+    "kw_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "is_monday": true,
     "volume_drop": true
   },
@@ -140,19 +156,20 @@
   },
   "evolution_latest": {
     "date": "2026-04-27",
-    "crossover": 16,
-    "mutation": 16,
+    "crossover": 15,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 42,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_beautiful",
-          "volume_falling_3d"
+          "open_ban",
+          "kw_ban",
+          "open_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 2,
         "score": 87.5,
         "origin": "crossover"
       },
@@ -168,13 +185,14 @@
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
+          "kw_trade",
+          "is_friday",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 2,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "mutation_replace"
       }
     ]
   },
