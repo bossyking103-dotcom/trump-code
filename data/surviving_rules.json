@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-27T18:04:26Z",
-    "evolved_rules_added": 42
+    "last_evolution": "2026-04-27T21:03:16Z",
+    "evolved_rules_added": 45
   },
   "rules": [
     {
@@ -12991,6 +12991,30 @@
     },
     {
       "features": [
+        "kw_thank_you_for_your_attention",
+        "open_china"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "8c44b53b64c1",
+      "n_cond": 2,
+      "train_trades": 11,
+      "train_win_rate": 90.9,
+      "train_avg": 2.72,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.527,
+      "combined_score": 95.5,
+      "origin": "crossover",
+      "born_date": "2026-04-27",
+      "weight": 1.0,
+      "parents": [
+        "kw_agreement+kw_thank_you_for_your_attention",
+        "kw_dow_2plus+kw_thank_you_for_your_attention"
+      ]
+    },
+    {
+      "features": [
         "open_energy",
         "open_thank_you_for_your_attention",
         "kw_incredible"
@@ -14836,37 +14860,6 @@
       "born_date": "2026-04-09",
       "weight": 1.0,
       "parent": "kw_india+kw_never_let_you_down+kw_president_of_the_united_states",
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_inflation",
-        "open_trade",
-        "kw_economy",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "747b58f40c49",
-      "n_cond": 4,
-      "train_trades": 5,
-      "train_win_rate": 80.0,
-      "train_avg": 1.926,
-      "test_trades": 3,
-      "test_win_rate": 100.0,
-      "test_avg": 0.704,
-      "combined_score": 90.0,
-      "origin": "crossover",
-      "born_date": "2026-04-12",
-      "weight": 1.0,
-      "parents": [
-        "kw_inflation+open_china",
-        "is_friday+kw_economy"
-      ],
       "learn_stats": {
         "correct": 0,
         "wrong": 0,

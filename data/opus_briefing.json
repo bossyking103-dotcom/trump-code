@@ -1,12 +1,12 @@
 {
   "date": "2026-04-27",
-  "prepared_at": "2026-04-27T18:04:26Z",
+  "prepared_at": "2026-04-27T21:03:16Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "Wow, Jimmy Kimmel, who is in no way funny as attested to by his terrible Television Ratings, made a statement on his Show that is really shocking. He showed a fake video of the First Lady, Melania, an",
+    "count": 9,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116478468387174911",
     "earliest_time": "2026-04-27T02:52:22.292Z",
-    "latest_time": "2026-04-27T17:26:09.205Z",
+    "latest_time": "2026-04-27T20:06:30.200Z",
     "sample": [
       {
         "time": "02:52",
@@ -17,26 +17,57 @@
         "text": "GREAT IDEA!!! DO IT.  President DJT"
       },
       {
+        "time": "16:05",
+        "text": "When this project is finished, it will be fantastic!"
+      },
+      {
         "time": "17:26",
         "text": "Wow, Jimmy Kimmel, who is in no way funny as attested to by his terrible Television Ratings, made a statement on his Show that is really shocking. He showed a fake video of the First Lady, Melania, and our son, Barron, like they were actually sitting in his studio, listening to him speak, which they"
+      },
+      {
+        "time": "18:56",
+        "text": "The Radical Left Democrats have kept DHS shut down since February 14th. Our Great Speaker, Mike Johnson, is working hard to end the Democrat Shut Down, and pass the first step of a plan to get FULL FUNDING for our incredible ICE and Border Patrol Agents. We need all Republicans to join together and "
+      },
+      {
+        "time": "20:04",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116478459241932393When this project is finished, it will be fantastic!"
+      },
+      {
+        "time": "20:04",
+        "text": "Former Governor Roy Cooper made this Tragedy happen. Vote for Michael Whatley!"
+      },
+      {
+        "time": "20:06",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116478466541183406"
+      },
+      {
+        "time": "20:06",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116478468387174911"
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_long": true,
+    "posts_6_10": true,
+    "avg_len_medium": true,
     "caps_low": true,
-    "excl_extreme": true,
+    "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
     "kw_immediately": true,
     "open_immediately": true,
     "kw_dow": true,
+    "kw_dow_2plus": true,
     "open_dow": true,
     "kw_great": true,
     "kw_great_2plus": true,
+    "open_great": true,
+    "kw_incredible": true,
+    "open_incredible": true,
     "kw_beautiful": true,
     "open_beautiful": true,
+    "kw_fantastic": true,
+    "kw_fantastic_2plus": true,
+    "open_fantastic": true,
     "kw_fake": true,
     "open_fake": true,
     "kw_terrible": true,
@@ -44,9 +75,9 @@
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
     "open_thank_you_for_your_attention": true,
-    "is_monday": true,
-    "volume_drop": true
+    "is_monday": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -156,27 +187,26 @@
   },
   "evolution_latest": {
     "date": "2026-04-27",
-    "crossover": 15,
-    "mutation": 11,
+    "crossover": 16,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 42,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_ban",
-          "kw_ban",
-          "open_thank_you_for_your_attention"
+          "kw_thank_you_for_your_attention",
+          "open_china"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
+        "hold": 3,
+        "score": 95.5,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_tremendous",
-          "kw_interest_rate"
+          "kw_interest_rate",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -185,14 +215,13 @@
       },
       {
         "features": [
-          "kw_trade",
-          "is_friday",
-          "kw_economy"
+          "kw_president_of_the_united_states",
+          "kw_never_let_you_down"
         ],
         "direction": "LONG",
         "hold": 2,
         "score": 87.5,
-        "origin": "mutation_replace"
+        "origin": "mutation_remove"
       }
     ]
   },
