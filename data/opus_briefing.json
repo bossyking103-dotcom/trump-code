@@ -1,51 +1,35 @@
 {
-  "date": "2026-04-26",
-  "prepared_at": "2026-04-26T21:04:35Z",
+  "date": "2026-04-27",
+  "prepared_at": "2026-04-27T06:09:55Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "I will be interviewed on 60 Minutes tonight at 7 P.M. EST — CBS Television Network. Enjoy! President DONALD J. TRUMP",
-    "earliest_time": "2026-04-26T01:17:33.401Z",
-    "latest_time": "2026-04-26T19:46:01.802Z",
+    "count": 2,
+    "latest": "GREAT IDEA!!! DO IT.  President DJT",
+    "earliest_time": "2026-04-27T02:52:22.292Z",
+    "latest_time": "2026-04-27T03:00:20.277Z",
     "sample": [
       {
-        "time": "01:17",
-        "text": "Quite an evening in D.C. Secret Service and Law Enforcement did a fantastic job. They acted quickly and bravely. The shooter has been apprehended, and I have recommended that we \"LET THE SHOW GO ON\" but, will entirely be guided by Law Enforcement. They will make a decision shortly. Regardless of tha"
+        "time": "02:52",
+        "text": "Lee and Kim Greenwood, two of the most spectacular people, had their first grandchild on April 17th. They were with me from the very beginning - Total loyalty, and Lee gave me the greatest walk on song of all time, nothing even close!!! Congratulations to you both!!! Love, President DJT"
       },
       {
-        "time": "01:36",
-        "text": "Law Enforcement has requested that we leave the premises, consistent with protocol, which we will do, immediately. I will be giving a press conference in 30 minutes from the White House Press Briefing Room. The First Lady, plus the Vice President, and all Cabinet members, are in perfect condition. W"
-      },
-      {
-        "time": "12:46",
-        "text": "What happened last night is exactly the reason that our great Military, Secret Service, Law Enforcement and, for different reasons, every President for the last 150 years, have been DEMANDING that a large, safe, and secure Ballroom be built ON THE GROUNDS OF THE WHITE HOUSE. This event would never h"
-      },
-      {
-        "time": "19:46",
-        "text": "I will be interviewed on 60 Minutes tonight at 7 P.M. EST — CBS Television Network. Enjoy! President DONALD J. TRUMP"
+        "time": "03:00",
+        "text": "GREAT IDEA!!! DO IT.  President DJT"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_long": true,
+    "avg_len_medium": true,
     "caps_medium": true,
-    "excl_normal": true,
+    "excl_extreme": true,
     "questions_no": true,
     "has_night": true,
-    "kw_immediately": true,
-    "kw_immediately_2plus": true,
-    "pre_immediately": true,
     "kw_great": true,
-    "pre_great": true,
-    "kw_beautiful": true,
-    "pre_beautiful": true,
-    "kw_fantastic": true,
-    "kw_perfect": true,
-    "kw_thank_you_for_your_attention": true,
-    "pre_thank_you_for_your_attention": true,
-    "is_weekend": true,
-    "volume_falling_3d": true,
+    "kw_great_2plus": true,
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "is_monday": true,
     "volume_drop": true
   },
   "model_performance": {
@@ -155,37 +139,37 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-04-26",
+    "date": "2026-04-27",
     "crossover": 16,
-    "mutation": 12,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_president_of_the_united_states",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 95.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_signed",
-          "pre_great"
+          "kw_beautiful",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
+        "score": 87.5,
         "origin": "crossover"
       },
       {
         "features": [
           "kw_interest_rate",
           "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,

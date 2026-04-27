@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-26T21:04:35Z",
-    "evolved_rules_added": 44
+    "last_evolution": "2026-04-27T06:09:55Z",
+    "evolved_rules_added": 46
   },
   "rules": [
     {
@@ -13071,7 +13071,12 @@
       "parents": [
         "kw_ban+kw_biden",
         "kw_deal_2plus+kw_economy"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
