@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-27T21:03:16Z",
-    "evolved_rules_added": 45
+    "last_evolution": "2026-04-28T23:19:21Z",
+    "evolved_rules_added": 38
   },
   "rules": [
     {
@@ -13011,7 +13011,12 @@
       "parents": [
         "kw_agreement+kw_thank_you_for_your_attention",
         "kw_dow_2plus+kw_thank_you_for_your_attention"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [

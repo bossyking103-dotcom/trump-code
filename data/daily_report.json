@@ -1,12 +1,14 @@
 {
-  "date": "2026-04-27",
-  "generated_at": "2026-04-27T21:03:11Z",
+  "date": "2026-04-28",
+  "generated_at": "2026-04-28T23:18:52Z",
   "posts_today": 9,
   "latest_post": {
-    "time": "2026-04-27T20:06",
-    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116478468387174911"
+    "time": "2026-04-28T18:25",
+    "content_preview": "The Chancellor of Germany, Friedrich Merz, thinks it's OK for Iran to have a Nuclear Weapon. He does"
   },
-  "signals_detected": [],
+  "signals_detected": [
+    "IRAN"
+  ],
   "models_triggered": 0,
   "direction_summary": {
     "LONG": 0,
@@ -19,13 +21,13 @@
     "rate": 0.0
   },
   "sp500_latest": {
-    "date": "2026-04-27",
-    "close": 7173.91
+    "date": "2026-04-28",
+    "close": 7138.8
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-04-27\nPosts today: 9 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116478468387174911",
-    "zh": "川普密碼每日報告 -- 2026-04-27\n今日推文: 9 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116478468387174911",
-    "ja": "トランプ・コード日次レポート -- 2026-04-27\n本日の投稿: 9件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116478468387174911"
+    "en": "Trump Code Daily Report -- 2026-04-28\nPosts today: 9 | Models triggered: 0\nSignals: IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: The Chancellor of Germany, Friedrich Merz, thinks it's OK for Iran to have a Nuclear Weapon. He does",
+    "zh": "川普密碼每日報告 -- 2026-04-28\n今日推文: 9 篇 | 觸發模型: 0 組\n偵測信號: 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: The Chancellor of Germany, Friedrich Merz, thinks it's OK for Iran to have a Nuclear Weapon. He does",
+    "ja": "トランプ・コード日次レポート -- 2026-04-28\n本日の投稿: 9件 | トリガーモデル: 0組\n検出シグナル: イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: The Chancellor of Germany, Friedrich Merz, thinks it's OK for Iran to have a Nuclear Weapon. He does"
   },
   "triggered_rules_sample": []
 }
