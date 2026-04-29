@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-04-29T12:03:34Z",
-    "evolved_rules_added": 45
+    "last_evolution": "2026-04-29T15:04:03Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -13805,7 +13805,12 @@
       "parents": [
         "kw_deal+kw_inflation",
         "kw_dow_2plus+kw_interest_rate"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
