@@ -1,33 +1,13 @@
 {
   "date": "2026-04-30",
-  "prepared_at": "2026-04-30T18:03:59Z",
+  "prepared_at": "2026-04-30T21:01:40Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 15,
-    "latest": "I had a very good conversation with Governor Bill Lee, of Tennessee, this morning, wherein he stated that he would work hard to correct the unconstitutional flaw in the Congressional Maps of the Great",
+    "count": 17,
+    "latest": "In Honor of the King and Queen of the United Kingdom, who have just left the White House, soon headed back to their wonderful Country, I will be removing the Tariffs and Restrictions on Whiskey having",
     "earliest_time": "2026-04-30T01:22:20.045Z",
-    "latest_time": "2026-04-30T16:55:59.920Z",
+    "latest_time": "2026-04-30T18:30:28.863Z",
     "sample": [
-      {
-        "time": "13:27",
-        "text": "https://truthsocial.com/@realDonaldTrump/116482569681977454"
-      },
-      {
-        "time": "13:40",
-        "text": "The Chancellor of Germany should spend more time on ending the war with Russia/Ukraine (Where he has been totally ineffective!), and fixing his broken Country, especially Immigration and Energy, and less time on interfering with those that are getting rid of the Iran Nuclear threat, thereby making t"
-      },
-      {
-        "time": "13:43",
-        "text": "Thank you to the Great Governor of Louisiana, Jeff Landry, for his leadership on the very important Callais case, and for moving so quickly to fix the Unconstitutionality of Louisiana’s Congressional Maps. He has shown tremendous Vision, Strength, and Leadership. Thank you Jeff, keep up the GREAT wo"
-      },
-      {
-        "time": "13:44",
-        "text": "Hakeem Jeffries just called the Supreme Court of the United States an illegitimate Court! This is a Low IQ individual, who should not be allowed to talk that way about one of the Greatest Institutions anywhere in the World. He should withdraw the statement, IMMEDIATELY! President DONALD J. TRUMP"
-      },
-      {
-        "time": "13:50",
-        "text": "Anybody running for President or Vice President should be forced to take a Cognitive Examination prior to entering the Race! By doing so, we wouldn’t be surprised at people like Barack “Hussein” Obama, or Sleepy Joe Biden, getting “ELECTED.” Our Country would be a much better place! I took the Exam "
-      },
       {
         "time": "13:51",
         "text": "How much abuse can the Republican Senate take from the Radical Left Lunatics in the form of Democrat Senators, before they BLOW UP (TERMINATE!) THE FILIBUSTER, and approve things at a record clip, including The Save America Act, that would be unthinkable without the Filibuster Termination??? The Dem"
@@ -47,27 +27,57 @@
       {
         "time": "16:55",
         "text": "I had a very good conversation with Governor Bill Lee, of Tennessee, this morning, wherein he stated that he would work hard to correct the unconstitutional flaw in the Congressional Maps of the Great State of Tennessee. Likewise, all of the other Political Representatives of Tennessee have promised"
+      },
+      {
+        "time": "17:43",
+        "text": "Thank you to the Great Governor of Louisiana, Jeff Landry, for his leadership on the very important Callais case, and for moving so quickly to fix the Unconstitutionality of Louisiana's Congressional Maps. He has shown tremendous Vision, Strength, and Leadership. Thank you Jeff, keep up the GREAT wo"
+      },
+      {
+        "time": "17:44",
+        "text": "Hakeem Jeffries just called the Supreme Court of the United States an illegitimate Court! This is a Low IQ individual, who should not be allowed to talk that way about one of the Greatest Institutions anywhere in the World. He should withdraw the statement, IMMEDIATELY! President DONALD J. TRUMP"
+      },
+      {
+        "time": "17:50",
+        "text": "Anybody running for President or Vice President should be forced to take a Cognitive Examination prior to entering the Race! By doing so, we wouldn't be surprised at people like Barack \"Hussein\" Obama, or Sleepy Joe Biden, getting \"ELECTED.\" Our Country would be a much better place! I took the Exam "
+      },
+      {
+        "time": "18:08",
+        "text": "Congratulations to Ali al-Zaidi on his Nomination to be the next Prime Minister of Iraq! We wish him success as he works to form a new Government free from terrorism that could deliver a brighter future for Iraq. We look forward to a strong, vibrant, and highly productive new relationship between Ir"
+      },
+      {
+        "time": "18:30",
+        "text": "In Honor of the King and Queen of the United Kingdom, who have just left the White House, soon headed back to their wonderful Country, I will be removing the Tariffs and Restrictions on Whiskey having to do with Scotland's ability to work with the Commonwealth of Kentucky on Whiskey and Bourbon, two"
       }
     ]
   },
   "keyword_signals": [
-    "IRAN"
+    "TARIFF",
+    "IRAN",
+    "TARIFF_ONLY"
   ],
   "today_features": {
     "posts_11_20": true,
-    "avg_len_medium": true,
+    "avg_len_long": true,
     "caps_medium": true,
     "excl_heavy": true,
     "questions_yes": true,
     "mostly_open": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_tariff": true,
+    "open_tariff": true,
+    "kw_tariffs": true,
+    "open_tariffs": true,
+    "kw_trade": true,
+    "open_trade": true,
     "kw_immediately": true,
     "open_immediately": true,
     "kw_hereby": true,
     "open_hereby": true,
     "kw_effective": true,
     "open_effective": true,
+    "kw_restrict": true,
+    "open_restrict": true,
     "kw_russia": true,
     "open_russia": true,
     "kw_ukraine": true,
@@ -82,9 +92,12 @@
     "kw_great_2plus": true,
     "open_great": true,
     "kw_tremendous": true,
+    "kw_tremendous_2plus": true,
     "open_tremendous": true,
     "kw_incredible": true,
     "open_incredible": true,
+    "kw_wonderful": true,
+    "open_wonderful": true,
     "kw_fake": true,
     "pre_fake": true,
     "kw_worst": true,
@@ -104,7 +117,9 @@
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
     "open_president_djt": true,
-    "volume_falling_3d": true
+    "volume_falling_3d": true,
+    "tariff_without_deal": true,
+    "tariff_no_deal": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -215,21 +230,31 @@
   "evolution_latest": {
     "date": "2026-04-30",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 10,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 42,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_wonderful",
-          "kw_dow_2plus",
-          "kw_interest_rate"
+          "kw_biden",
+          "kw_president_of_the_united_states",
+          "kw_inflation"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 100.0,
+        "hold": 3,
+        "score": 90.0,
         "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
       },
       {
         "features": [
@@ -238,16 +263,6 @@
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 87.5,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_beautiful",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 3,
         "score": 87.5,
         "origin": "mutation_remove"
       }
@@ -267,7 +282,9 @@
   "prediction_market": {
     "date": "2026-04-30",
     "signals": [
-      "IRAN"
+      "TARIFF",
+      "IRAN",
+      "TARIFF_ONLY"
     ],
     "opportunities": [],
     "total_scanned": 0
