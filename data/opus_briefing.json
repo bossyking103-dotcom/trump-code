@@ -1,12 +1,12 @@
 {
   "date": "2026-04-30",
-  "prepared_at": "2026-04-30T12:10:06Z",
+  "prepared_at": "2026-04-30T15:02:57Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "\"86\" is a mob term for \"kill him.\" They say 86 him! 86 47 means \"kill President Trump.\"James Comey, who is a Dirty Cop, one of the worst, knows this full well! EIGHT MILES OUT, SIX FEET DOWN! Didn't h",
+    "count": 8,
+    "latest": "How much abuse can the Republican Senate take from the Radical Left Lunatics in the form of Democrat Senators, before they BLOW UP (TERMINATE!) THE FILIBUSTER, and approve things at a record clip, inc",
     "earliest_time": "2026-04-30T01:22:20.045Z",
-    "latest_time": "2026-04-30T03:35:30.275Z",
+    "latest_time": "2026-04-30T13:51:35.250Z",
     "sample": [
       {
         "time": "01:22",
@@ -23,6 +23,22 @@
       {
         "time": "03:35",
         "text": "\"86\" is a mob term for \"kill him.\" They say 86 him! 86 47 means \"kill President Trump.\"James Comey, who is a Dirty Cop, one of the worst, knows this full well! EIGHT MILES OUT, SIX FEET DOWN! Didn't he also lie to the FBI about this??? I think so! President DJT"
+      },
+      {
+        "time": "13:25",
+        "text": "When is ABC Fake News Network firing seriously unfunny Jimmy Kimmel, who incompetently presides over one of the Lowest Rated shows on Television? People are angry. It better be soon!!! President DJT"
+      },
+      {
+        "time": "13:27",
+        "text": "https://truthsocial.com/@realDonaldTrump/116482569681977454"
+      },
+      {
+        "time": "13:40",
+        "text": "The Chancellor of Germany should spend more time on ending the war with Russia/Ukraine (Where he has been totally ineffective!), and fixing his broken Country, especially Immigration and Energy, and less time on interfering with those that are getting rid of the Iran Nuclear threat, thereby making t"
+      },
+      {
+        "time": "13:51",
+        "text": "How much abuse can the Republican Senate take from the Radical Left Lunatics in the form of Democrat Senators, before they BLOW UP (TERMINATE!) THE FILIBUSTER, and approve things at a record clip, including The Save America Act, that would be unthinkable without the Filibuster Termination??? The Dem"
       }
     ]
   },
@@ -30,17 +46,42 @@
     "IRAN"
   ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_short": true,
+    "posts_6_10": true,
+    "avg_len_medium": true,
     "caps_medium": true,
-    "excl_normal": true,
+    "excl_heavy": true,
     "questions_yes": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_hereby": true,
+    "open_hereby": true,
+    "kw_effective": true,
+    "open_effective": true,
+    "kw_russia": true,
+    "open_russia": true,
+    "kw_ukraine": true,
+    "open_ukraine": true,
     "kw_iran": true,
+    "kw_iran_2plus": true,
+    "open_iran": true,
     "kw_dow": true,
+    "kw_energy": true,
+    "open_energy": true,
+    "kw_fake": true,
+    "pre_fake": true,
     "kw_worst": true,
-    "kw_president_djt": true
+    "kw_stupid": true,
+    "open_stupid": true,
+    "kw_incompetent": true,
+    "pre_incompetent": true,
+    "kw_save_america": true,
+    "open_save_america": true,
+    "kw_filibuster": true,
+    "open_filibuster": true,
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true,
+    "open_president_djt": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -158,21 +199,22 @@
     "top_3": [
       {
         "features": [
+          "kw_president_of_the_united_states",
+          "kw_never_let_you_down",
+          "kw_dow_2plus"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 93.8,
+        "origin": "crossover"
+      },
+      {
+        "features": [
           "kw_tremendous",
           "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_beautiful",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
         "score": 87.5,
         "origin": "mutation_remove"
       },
