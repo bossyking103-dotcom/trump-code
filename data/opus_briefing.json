@@ -1,48 +1,46 @@
 {
-  "date": "2026-04-29",
-  "prepared_at": "2026-04-29T18:07:02Z",
+  "date": "2026-04-30",
+  "prepared_at": "2026-04-30T06:04:57Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "Iran can't get their act together. They don't know how to sign a nonnuclear deal. They better get smart soon! President DJT",
-    "earliest_time": "2026-04-29T04:05:00.000Z",
-    "latest_time": "2026-04-29T08:05:38.645Z",
+    "count": 4,
+    "latest": "\"86\" is a mob term for \"kill him.\" They say 86 him! 86 47 means \"kill President Trump.\"James Comey, who is a Dirty Cop, one of the worst, knows this full well! EIGHT MILES OUT, SIX FEET DOWN! Didn't h",
+    "earliest_time": "2026-04-30T01:22:20.045Z",
+    "latest_time": "2026-04-30T03:35:30.275Z",
     "sample": [
       {
-        "time": "04:05",
-        "text": "Iran can’t get their act together. They don’t know how to sign a nonnuclear deal. They better get smart soon! President DJT"
+        "time": "01:22",
+        "text": "https://truthsocial.com/users/IStandWithTrump47/statuses/116423365916813680"
       },
       {
-        "time": "08:05",
-        "text": "Iran can't get their act together. They don't know how to sign a nonnuclear deal. They better get smart soon! President DJT"
+        "time": "03:09",
+        "text": "https://truthsocial.com/users/SpiritualStreetfighter/statuses/116423375731645658"
+      },
+      {
+        "time": "03:12",
+        "text": "Harvard Harris Poll: Strong Majority back President Trump on Iran Nuclear stoppage."
+      },
+      {
+        "time": "03:35",
+        "text": "\"86\" is a mob term for \"kill him.\" They say 86 him! 86 47 means \"kill President Trump.\"James Comey, who is a Dirty Cop, one of the worst, knows this full well! EIGHT MILES OUT, SIX FEET DOWN! Didn't he also lie to the FBI about this??? I think so! President DJT"
       }
     ]
   },
   "keyword_signals": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
+    "IRAN"
   ],
   "today_features": {
     "posts_1_5": true,
     "avg_len_short": true,
-    "caps_low": true,
+    "caps_medium": true,
     "excl_normal": true,
-    "questions_no": true,
-    "mostly_premarket": true,
-    "kw_deal": true,
-    "kw_deal_2plus": true,
-    "pre_deal": true,
+    "questions_yes": true,
+    "has_night": true,
+    "heavy_night": true,
     "kw_iran": true,
-    "kw_iran_2plus": true,
-    "pre_iran": true,
-    "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "pre_president_djt": true,
-    "volume_rising_3d": true,
-    "volume_drop": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
+    "kw_dow": true,
+    "kw_worst": true,
+    "kw_president_djt": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -151,7 +149,7 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-04-29",
+    "date": "2026-04-30",
     "crossover": 16,
     "mutation": 14,
     "distill": 16,
@@ -160,28 +158,30 @@
     "top_3": [
       {
         "features": [
-          "kw_tremendous",
-          "kw_interest_rate"
+          "kw_biden_2plus",
+          "kw_tariff",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 90.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_thank_you_for_your_attention",
+          "open_tariffs",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
         "origin": "crossover"
       },
       {
         "features": [
           "kw_interest_rate",
           "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -202,11 +202,9 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-04-29",
+    "date": "2026-04-30",
     "signals": [
-      "DEAL",
-      "IRAN",
-      "DEAL_ONLY"
+      "IRAN"
     ],
     "opportunities": [],
     "total_scanned": 0
