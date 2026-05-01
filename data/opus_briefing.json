@@ -1,6 +1,6 @@
 {
   "date": "2026-05-01",
-  "prepared_at": "2026-05-01T18:04:47Z",
+  "prepared_at": "2026-05-01T21:02:56Z",
   "status": "PENDING",
   "today_posts": {
     "count": 3,
@@ -174,36 +174,37 @@
   "evolution_latest": {
     "date": "2026-05-01",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tariff",
-          "kw_agreement",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.9,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_president_of_the_united_states",
-          "kw_maga"
+          "open_thank_you_for_your_attention",
+          "kw_thank_you_for_your_attention",
+          "volume_falling_3d",
+          "kw_tariffs"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.9,
+        "score": 91.7,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_economy",
-          "open_china"
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "open_china",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
