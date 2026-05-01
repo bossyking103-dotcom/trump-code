@@ -1,35 +1,69 @@
 {
   "date": "2026-05-01",
-  "prepared_at": "2026-05-01T15:11:15Z",
+  "prepared_at": "2026-05-01T18:04:47Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "Great job by highly respected Navy Commander Kirk Lippold in interview with Jesse Watters on FoxNews. Very smart and insightful concerning Iran, and more. Thank you, Commander! President DJT",
+    "count": 3,
+    "latest": "WE JUST DELIVERED A HUGE WIN for our Great Fishermen and Anglers in FLORIDA, GEORGIA, SOUTH CAROLINA, and NORTH CAROLINA! We have just officially approved ALL STATE PERMITS for the 2026 Red Snapper re",
     "earliest_time": "2026-05-01T01:26:13.674Z",
-    "latest_time": "2026-05-01T01:26:13.674Z",
+    "latest_time": "2026-05-01T15:54:34.239Z",
     "sample": [
       {
         "time": "01:26",
         "text": "Great job by highly respected Navy Commander Kirk Lippold in interview with Jesse Watters on FoxNews. Very smart and insightful concerning Iran, and more. Thank you, Commander! President DJT"
+      },
+      {
+        "time": "15:50",
+        "text": "I am pleased to announce that, based on the fact the European Union is not complying with our fully agreed to Trade Deal, next week I will be increasing Tariffs charged to the European Union for Cars and Trucks coming into the United States. The Tariff will be increased to 25%. It is fully understoo"
+      },
+      {
+        "time": "15:54",
+        "text": "WE JUST DELIVERED A HUGE WIN for our Great Fishermen and Anglers in FLORIDA, GEORGIA, SOUTH CAROLINA, and NORTH CAROLINA! We have just officially approved ALL STATE PERMITS for the 2026 Red Snapper recreational season. For years, our Great Fishermen have been punished with VERY short Federal fishing"
       }
     ]
   },
   "keyword_signals": [
+    "TARIFF",
+    "DEAL",
     "IRAN"
   ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_medium": true,
-    "caps_medium": true,
-    "excl_normal": true,
+    "avg_len_long": true,
+    "caps_high": true,
+    "excl_heavy": true,
     "questions_no": true,
+    "mostly_open": true,
     "has_night": true,
+    "kw_tariff": true,
+    "open_tariff": true,
+    "kw_tariffs": true,
+    "open_tariffs": true,
+    "kw_deal": true,
+    "open_deal": true,
+    "kw_trade": true,
+    "open_trade": true,
     "kw_iran": true,
+    "kw_europe": true,
+    "open_europe": true,
+    "kw_dow": true,
+    "open_dow": true,
+    "kw_billion": true,
+    "open_billion": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "open_great": true,
+    "kw_incompetent": true,
+    "open_incompetent": true,
+    "kw_biden": true,
+    "open_biden": true,
     "kw_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "is_friday": true,
     "volume_rising_3d": true,
-    "volume_drop": true
+    "volume_drop": true,
+    "both_tariff_and_deal": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -140,41 +174,41 @@
   "evolution_latest": {
     "date": "2026-05-01",
     "crossover": 16,
-    "mutation": 10,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 42,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_complete_and_total",
-          "open_thank_you_for_your_attention",
-          "open_energy"
+          "kw_tariff",
+          "kw_agreement",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 100.0,
+        "hold": 3,
+        "score": 90.9,
         "origin": "crossover"
       },
       {
         "features": [
-          "open_president_of_the_united_states",
-          "kw_economy"
+          "kw_president_of_the_united_states",
+          "kw_maga"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
+        "hold": 2,
+        "score": 90.9,
         "origin": "crossover"
       },
       {
         "features": [
           "kw_economy",
-          "kw_interest_rate"
+          "open_china"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "crossover"
+        "origin": "mutation_remove"
       }
     ]
   },
@@ -192,6 +226,8 @@
   "prediction_market": {
     "date": "2026-05-01",
     "signals": [
+      "TARIFF",
+      "DEAL",
       "IRAN"
     ],
     "opportunities": [],
