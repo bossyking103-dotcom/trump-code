@@ -1,69 +1,32 @@
 {
-  "date": "2026-05-01",
-  "prepared_at": "2026-05-01T21:02:56Z",
+  "date": "2026-05-02",
+  "prepared_at": "2026-05-02T09:03:00Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "WE JUST DELIVERED A HUGE WIN for our Great Fishermen and Anglers in FLORIDA, GEORGIA, SOUTH CAROLINA, and NORTH CAROLINA! We have just officially approved ALL STATE PERMITS for the 2026 Red Snapper re",
-    "earliest_time": "2026-05-01T01:26:13.674Z",
-    "latest_time": "2026-05-01T15:54:34.239Z",
+    "count": 2,
+    "latest": "This is what our Country was before, and after, \"TRUMP!\"",
+    "earliest_time": "2026-05-02T03:13:19.908Z",
+    "latest_time": "2026-05-02T03:40:12.563Z",
     "sample": [
       {
-        "time": "01:26",
-        "text": "Great job by highly respected Navy Commander Kirk Lippold in interview with Jesse Watters on FoxNews. Very smart and insightful concerning Iran, and more. Thank you, Commander! President DJT"
+        "time": "03:13",
+        "text": "Low IQ Democrat Minority Leader, Hakeem Jeffries, is nothing but a THUG, and he is a danger to our Country! President DONALD J. TRUMP"
       },
       {
-        "time": "15:50",
-        "text": "I am pleased to announce that, based on the fact the European Union is not complying with our fully agreed to Trade Deal, next week I will be increasing Tariffs charged to the European Union for Cars and Trucks coming into the United States. The Tariff will be increased to 25%. It is fully understoo"
-      },
-      {
-        "time": "15:54",
-        "text": "WE JUST DELIVERED A HUGE WIN for our Great Fishermen and Anglers in FLORIDA, GEORGIA, SOUTH CAROLINA, and NORTH CAROLINA! We have just officially approved ALL STATE PERMITS for the 2026 Red Snapper recreational season. For years, our Great Fishermen have been punished with VERY short Federal fishing"
+        "time": "03:40",
+        "text": "This is what our Country was before, and after, \"TRUMP!\""
       }
     ]
   },
-  "keyword_signals": [
-    "TARIFF",
-    "DEAL",
-    "IRAN"
-  ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_long": true,
+    "avg_len_short": true,
     "caps_high": true,
-    "excl_heavy": true,
+    "excl_normal": true,
     "questions_no": true,
-    "mostly_open": true,
     "has_night": true,
-    "kw_tariff": true,
-    "open_tariff": true,
-    "kw_tariffs": true,
-    "open_tariffs": true,
-    "kw_deal": true,
-    "open_deal": true,
-    "kw_trade": true,
-    "open_trade": true,
-    "kw_iran": true,
-    "kw_europe": true,
-    "open_europe": true,
-    "kw_dow": true,
-    "open_dow": true,
-    "kw_billion": true,
-    "open_billion": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_incompetent": true,
-    "open_incompetent": true,
-    "kw_biden": true,
-    "open_biden": true,
-    "kw_president_djt": true,
-    "kw_thank_you_for_your_attention": true,
-    "open_thank_you_for_your_attention": true,
-    "is_friday": true,
-    "volume_rising_3d": true,
-    "volume_drop": true,
-    "both_tariff_and_deal": true
+    "is_weekend": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -172,25 +135,13 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-05-01",
+    "date": "2026-05-02",
     "crossover": 16,
-    "mutation": 15,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "open_thank_you_for_your_attention",
-          "kw_thank_you_for_your_attention",
-          "volume_falling_3d",
-          "kw_tariffs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 91.7,
-        "origin": "crossover"
-      },
       {
         "features": [
           "kw_interest_rate",
@@ -199,16 +150,27 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "mutation_remove"
+        "origin": "distilled"
       },
       {
         "features": [
-          "open_china",
-          "kw_economy"
+          "is_friday",
+          "kw_beautiful",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
+        "score": 88.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "volume_spike",
+          "kw_amazing"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
         "origin": "mutation_remove"
       }
     ]
