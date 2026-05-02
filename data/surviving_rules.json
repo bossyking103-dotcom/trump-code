@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-02T21:03:46Z",
-    "evolved_rules_added": 42
+    "last_evolution": "2026-05-02T21:04:34Z",
+    "evolved_rules_added": 46
   },
   "rules": [
     {
@@ -13017,7 +13017,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-05-02",
       "weight": 1.0,
-      "parent": "is_friday+kw_beautiful+open_jobs"
+      "parent": "is_friday+kw_beautiful+open_jobs",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -13298,7 +13303,12 @@
       "parents": [
         "open_energy+open_jobs",
         "kw_ban+kw_hereby"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14743,6 +14753,30 @@
     },
     {
       "features": [
+        "open_ukraine",
+        "kw_maga"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "id": "c260c36b4991",
+      "n_cond": 2,
+      "train_trades": 12,
+      "train_win_rate": 83.3,
+      "train_avg": 0.655,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.714,
+      "combined_score": 91.7,
+      "origin": "crossover",
+      "born_date": "2026-05-02",
+      "weight": 1.0,
+      "parents": [
+        "kw_wonderful+open_trade",
+        "kw_maga+open_trade"
+      ]
+    },
+    {
+      "features": [
         "is_friday",
         "kw_energy"
       ],
@@ -14841,36 +14875,6 @@
       "parents": [
         "is_friday+kw_economy",
         "is_friday+kw_tremendous"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_economy",
-        "is_friday",
-        "kw_energy"
-      ],
-      "direction": "LONG",
-      "hold": 1,
-      "id": "e9fb576e22c1",
-      "n_cond": 3,
-      "train_trades": 11,
-      "train_win_rate": 81.8,
-      "train_avg": 0.471,
-      "test_trades": 3,
-      "test_win_rate": 100.0,
-      "test_avg": 0.564,
-      "combined_score": 90.9,
-      "origin": "crossover",
-      "born_date": "2026-04-11",
-      "weight": 1.0,
-      "parents": [
-        "kw_energy+open_dow",
-        "is_friday+kw_economy"
       ],
       "learn_stats": {
         "correct": 0,
