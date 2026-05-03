@@ -1,12 +1,12 @@
 {
-  "date": "2026-05-02",
-  "prepared_at": "2026-05-02T21:04:34Z",
+  "date": "2026-05-03",
+  "prepared_at": "2026-05-03T05:45:39Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "This is what our Country was before, and after, \"TRUMP!\"",
+    "count": 6,
+    "latest": "I hate seeing Fox, and other Conservative Outlets, constantly making Low Rated Bill Maher \"relevant\" as it pertains to the Republican Party, and beyond. Bill Maher is a weak and ineffective person who",
     "earliest_time": "2026-05-02T03:13:19.908Z",
-    "latest_time": "2026-05-02T03:40:12.563Z",
+    "latest_time": "2026-05-02T23:12:54.339Z",
     "sample": [
       {
         "time": "03:13",
@@ -15,18 +15,52 @@
       {
         "time": "03:40",
         "text": "This is what our Country was before, and after, \"TRUMP!\""
+      },
+      {
+        "time": "19:09",
+        "text": "So ironic that Cryin’ Chuck Schumer and the Democrats are hiring SLEAZEBAGS like Barack Hussein Obama’s Crooked former Attorney General, Eric Holder, and others of that ilk, to look into Voter Integrity, when this same group of Human Garbage RIGGED the 2020 Presidential Election. GET TOUGH REPUBLICA"
+      },
+      {
+        "time": "22:47",
+        "text": "I will soon be reviewing the plan that Iran has just sent to us, but can't imagine that it would be acceptable in that they have not yet paid a big enough price for what they have done to Humanity, and the World, over the last 47 years. Thank you for your attention to this matter! President DONALD J"
+      },
+      {
+        "time": "23:09",
+        "text": "So ironic that Cryin' Chuck Schumer and the Democrats are hiring SLEAZEBAGS like Barack Hussein Obama's Crooked former Attorney General, Eric Holder, and others of that ilk, to look into Voter Integrity, when this same group of Human Garbage RIGGED the 2020 Presidential Election. GET TOUGH REPUBLICA"
+      },
+      {
+        "time": "23:12",
+        "text": "I hate seeing Fox, and other Conservative Outlets, constantly making Low Rated Bill Maher \"relevant\" as it pertains to the Republican Party, and beyond. Bill Maher is a weak and ineffective person who I got to know very well during my dinner with him at the White House. He was nervous, scared, and t"
       }
     ]
   },
+  "keyword_signals": [
+    "IRAN"
+  ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_short": true,
-    "caps_high": true,
-    "excl_normal": true,
-    "questions_no": true,
+    "posts_6_10": true,
+    "avg_len_very_long": true,
+    "caps_medium": true,
+    "excl_heavy": true,
     "has_night": true,
-    "is_weekend": true,
-    "volume_drop": true
+    "kw_effective": true,
+    "kw_iran": true,
+    "kw_billion": true,
+    "kw_great": true,
+    "kw_great_2plus": true,
+    "open_great": true,
+    "kw_worst": true,
+    "kw_stupid": true,
+    "kw_incompetent": true,
+    "kw_pathetic": true,
+    "kw_obama": true,
+    "kw_obama_2plus": true,
+    "open_obama": true,
+    "kw_filibuster": true,
+    "kw_filibuster_2plus": true,
+    "open_filibuster": true,
+    "kw_thank_you_for_your_attention": true,
+    "is_weekend": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -135,23 +169,13 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-05-02",
+    "date": "2026-05-03",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 10,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 42,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "open_ukraine",
-          "kw_maga"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 91.7,
-        "origin": "crossover"
-      },
       {
         "features": [
           "kw_interest_rate",
@@ -164,13 +188,23 @@
       },
       {
         "features": [
-          "kw_interest_rate",
-          "excl_heavy"
+          "open_inflation",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 88.9,
         "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_signed",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "mutation_remove"
       }
     ]
   },
@@ -186,10 +220,8 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-05-01",
+    "date": "2026-05-03",
     "signals": [
-      "TARIFF",
-      "DEAL",
       "IRAN"
     ],
     "opportunities": [],
