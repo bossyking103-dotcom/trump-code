@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-03T17:45:27Z",
-    "evolved_rules_added": 46
+    "last_evolution": "2026-05-03T18:03:42Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -13026,6 +13026,28 @@
     },
     {
       "features": [
+        "open_ukraine",
+        "caps_medium",
+        "kw_maga"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "e36143ea199c",
+      "n_cond": 3,
+      "train_trades": 8,
+      "train_win_rate": 100.0,
+      "train_avg": 1.096,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.828,
+      "combined_score": 100.0,
+      "origin": "mutation_replace",
+      "born_date": "2026-05-03",
+      "weight": 1.0,
+      "parent": "kw_maga+open_trade+open_ukraine"
+    },
+    {
+      "features": [
         "kw_maga",
         "open_ukraine"
       ],
@@ -14190,6 +14212,31 @@
     },
     {
       "features": [
+        "pre_great",
+        "kw_biden",
+        "kw_trade"
+      ],
+      "direction": "LONG",
+      "hold": 1,
+      "id": "23106c393285",
+      "n_cond": 3,
+      "train_trades": 13,
+      "train_win_rate": 84.6,
+      "train_avg": 1.223,
+      "test_trades": 4,
+      "test_win_rate": 100.0,
+      "test_avg": 0.398,
+      "combined_score": 92.3,
+      "origin": "crossover",
+      "born_date": "2026-05-03",
+      "weight": 1.0,
+      "parents": [
+        "kw_trade+open_inflation",
+        "kw_biden+kw_india"
+      ]
+    },
+    {
+      "features": [
         "is_friday",
         "kw_oil"
       ],
@@ -14834,58 +14881,6 @@
         "kw_interest_rate+kw_signed",
         "kw_interest_rate+open_dow"
       ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_economy",
-        "mostly_open",
-        "kw_trade"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "id": "5911ab1da45c",
-      "n_cond": 3,
-      "train_trades": 6,
-      "train_win_rate": 83.3,
-      "train_avg": 2.011,
-      "test_trades": 3,
-      "test_win_rate": 100.0,
-      "test_avg": 0.604,
-      "combined_score": 91.7,
-      "origin": "mutation_replace",
-      "born_date": "2026-05-03",
-      "weight": 1.0,
-      "parent": "kw_economy+kw_interest_rate+kw_trade",
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_energy"
-      ],
-      "direction": "LONG",
-      "hold": 1,
-      "id": "2fdadb9a598b",
-      "n_cond": 2,
-      "train_trades": 17,
-      "train_win_rate": 82.4,
-      "train_avg": 0.608,
-      "test_trades": 4,
-      "test_win_rate": 100.0,
-      "test_avg": 0.51,
-      "combined_score": 91.2,
-      "origin": "distilled",
-      "born_date": "2026-03-15",
-      "weight": 1.0,
       "learn_stats": {
         "correct": 0,
         "wrong": 0,

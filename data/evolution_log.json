@@ -6212,5 +6212,48 @@
         "origin": "crossover"
       }
     ]
+  },
+  {
+    "date": "2026-05-03",
+    "crossover": 16,
+    "mutation": 16,
+    "distill": 16,
+    "total_new": 48,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "open_ukraine",
+          "caps_medium",
+          "kw_maga"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 100.0,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "pre_great",
+          "kw_biden",
+          "kw_trade"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 92.3,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "mostly_after",
+          "kw_tremendous",
+          "excl_heavy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "mutation_replace"
+      }
+    ]
   }
 ]
