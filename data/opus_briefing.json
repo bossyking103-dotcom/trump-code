@@ -1,6 +1,6 @@
 {
   "date": "2026-05-03",
-  "prepared_at": "2026-05-03T05:45:39Z",
+  "prepared_at": "2026-05-03T06:06:25Z",
   "status": "PENDING",
   "today_posts": {
     "count": 6,
@@ -171,9 +171,9 @@
   "evolution_latest": {
     "date": "2026-05-03",
     "crossover": 16,
-    "mutation": 10,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 42,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -188,8 +188,9 @@
       },
       {
         "features": [
-          "open_inflation",
-          "kw_thank_you_for_your_attention"
+          "kw_tariff_2plus",
+          "kw_thank_you_for_your_attention",
+          "questions_yes"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -198,8 +199,8 @@
       },
       {
         "features": [
-          "kw_signed",
-          "is_friday"
+          "kw_president_of_the_united_states",
+          "kw_never_let_you_down"
         ],
         "direction": "LONG",
         "hold": 2,
