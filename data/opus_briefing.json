@@ -1,16 +1,16 @@
 {
   "date": "2026-05-03",
-  "prepared_at": "2026-05-03T14:45:35Z",
+  "prepared_at": "2026-05-03T15:02:15Z",
   "status": "PENDING",
   "today_posts": {
     "count": 1,
-    "latest": "Exclusive — Deputy Italian Prime Minister Matteo Salvini: Trump’s ‘Courage’ for ‘Cultural Foundation’ Critical to Survival of the West: https://www.breitbart.com/politics/2026/05/03/exclusive-deputy-i",
-    "earliest_time": "2026-05-03T10:40:00.000Z",
-    "latest_time": "2026-05-03T10:40:00.000Z",
+    "latest": "Exclusive — Deputy Italian Prime Minister Matteo Salvini: Trump's 'Courage' for 'Cultural Foundation' Critical to Survival of the West: https://www.breitbart.com/politics/2026/05/03/exclusive-deputy-i",
+    "earliest_time": "2026-05-03T14:40:25.309Z",
+    "latest_time": "2026-05-03T14:40:25.309Z",
     "sample": [
       {
-        "time": "10:40",
-        "text": "Exclusive — Deputy Italian Prime Minister Matteo Salvini: Trump’s ‘Courage’ for ‘Cultural Foundation’ Critical to Survival of the West: https://www.breitbart.com/politics/2026/05/03/exclusive-deputy-italian-prime-minister-matteo-salvini-trumps-courage-for-cultural-foundation-critical-to-survival-of-"
+        "time": "14:40",
+        "text": "Exclusive — Deputy Italian Prime Minister Matteo Salvini: Trump's 'Courage' for 'Cultural Foundation' Critical to Survival of the West: https://www.breitbart.com/politics/2026/05/03/exclusive-deputy-italian-prime-minister-matteo-salvini-trumps-courage-for-cultural-foundation-critical-to-survival-of-"
       }
     ]
   },
@@ -20,7 +20,7 @@
     "caps_low": true,
     "excl_none": true,
     "questions_no": true,
-    "mostly_premarket": true,
+    "mostly_open": true,
     "is_weekend": true,
     "volume_falling_3d": true,
     "volume_drop": true
@@ -133,43 +133,41 @@
   },
   "evolution_latest": {
     "date": "2026-05-03",
-    "crossover": 16,
+    "crossover": 13,
     "mutation": 16,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "questions_yes",
-          "kw_signed",
-          "open_dow"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_economy",
-          "mostly_open",
-          "kw_trade"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 91.7,
-        "origin": "mutation_replace"
-      },
-      {
-        "features": [
-          "kw_economy",
-          "kw_interest_rate"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "mutation_remove"
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
