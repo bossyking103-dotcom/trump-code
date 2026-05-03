@@ -1,12 +1,12 @@
 {
   "date": "2026-05-03",
-  "prepared_at": "2026-05-03T18:03:43Z",
+  "prepared_at": "2026-05-03T20:45:42Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "Trump Tells German Chancellor Merz 'Fix Your Broken Country,' Mulls Pulling U.S. Troops from Spain and Italy: https://www.breitbart.com/europe/2026/05/01/trump-tells-german-chancellor-merz-to-fix-his-",
+    "count": 5,
+    "latest": "Countries from all over the World, almost all of which are not involved in the Middle Eastern dispute going on so visibly, and violently, for all to see, have asked the United States if we could help ",
     "earliest_time": "2026-05-03T11:14:00.000Z",
-    "latest_time": "2026-05-03T15:14:16.074Z",
+    "latest_time": "2026-05-03T20:35:01.763Z",
     "sample": [
       {
         "time": "11:14",
@@ -23,22 +23,38 @@
       {
         "time": "15:14",
         "text": "Trump Tells German Chancellor Merz 'Fix Your Broken Country,' Mulls Pulling U.S. Troops from Spain and Italy: https://www.breitbart.com/europe/2026/05/01/trump-tells-german-chancellor-merz-to-fix-his-broken-country-mulls-pulling-u-s-troops-from-spain-and-italy/"
+      },
+      {
+        "time": "20:35",
+        "text": "Countries from all over the World, almost all of which are not involved in the Middle Eastern dispute going on so visibly, and violently, for all to see, have asked the United States if we could help free up their Ships, which are locked up in the Strait of Hormuz, on something which they have absol"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_medium": true,
+    "avg_len_very_long": true,
     "caps_low": true,
-    "excl_none": true,
+    "excl_normal": true,
     "questions_no": true,
     "mostly_open": true,
+    "kw_deal": true,
+    "kw_restrict": true,
+    "kw_iran": true,
     "kw_europe": true,
     "kw_europe_2plus": true,
     "pre_europe": true,
     "open_europe": true,
+    "kw_president_of_the_united_states": true,
+    "kw_thank_you_for_your_attention": true,
     "is_weekend": true,
-    "volume_falling_3d": true
+    "volume_falling_3d": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -149,43 +165,41 @@
   "evolution_latest": {
     "date": "2026-05-03",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 9,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 41,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_ukraine",
-          "caps_medium",
-          "kw_maga"
+          "volume_falling_3d",
+          "open_thank_you_for_your_attention",
+          "kw_beautiful"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 100.0,
-        "origin": "mutation_replace"
-      },
-      {
-        "features": [
-          "pre_great",
-          "kw_biden",
-          "kw_trade"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 92.3,
+        "hold": 2,
+        "score": 91.7,
         "origin": "crossover"
       },
       {
         "features": [
-          "mostly_after",
-          "kw_tremendous",
-          "excl_heavy"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
-        "origin": "mutation_replace"
+        "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "mutation_remove"
       }
     ]
   },
@@ -203,7 +217,9 @@
   "prediction_market": {
     "date": "2026-05-03",
     "signals": [
-      "IRAN"
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
     ],
     "opportunities": [],
     "total_scanned": 0
