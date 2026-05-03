@@ -1,66 +1,29 @@
 {
   "date": "2026-05-03",
-  "prepared_at": "2026-05-03T12:04:01Z",
+  "prepared_at": "2026-05-03T14:45:35Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "I hate seeing Fox, and other Conservative Outlets, constantly making Low Rated Bill Maher \"relevant\" as it pertains to the Republican Party, and beyond. Bill Maher is a weak and ineffective person who",
-    "earliest_time": "2026-05-02T03:13:19.908Z",
-    "latest_time": "2026-05-02T23:12:54.339Z",
+    "count": 1,
+    "latest": "Exclusive — Deputy Italian Prime Minister Matteo Salvini: Trump’s ‘Courage’ for ‘Cultural Foundation’ Critical to Survival of the West: https://www.breitbart.com/politics/2026/05/03/exclusive-deputy-i",
+    "earliest_time": "2026-05-03T10:40:00.000Z",
+    "latest_time": "2026-05-03T10:40:00.000Z",
     "sample": [
       {
-        "time": "03:13",
-        "text": "Low IQ Democrat Minority Leader, Hakeem Jeffries, is nothing but a THUG, and he is a danger to our Country! President DONALD J. TRUMP"
-      },
-      {
-        "time": "03:40",
-        "text": "This is what our Country was before, and after, \"TRUMP!\""
-      },
-      {
-        "time": "19:09",
-        "text": "So ironic that Cryin’ Chuck Schumer and the Democrats are hiring SLEAZEBAGS like Barack Hussein Obama’s Crooked former Attorney General, Eric Holder, and others of that ilk, to look into Voter Integrity, when this same group of Human Garbage RIGGED the 2020 Presidential Election. GET TOUGH REPUBLICA"
-      },
-      {
-        "time": "22:47",
-        "text": "I will soon be reviewing the plan that Iran has just sent to us, but can't imagine that it would be acceptable in that they have not yet paid a big enough price for what they have done to Humanity, and the World, over the last 47 years. Thank you for your attention to this matter! President DONALD J"
-      },
-      {
-        "time": "23:09",
-        "text": "So ironic that Cryin' Chuck Schumer and the Democrats are hiring SLEAZEBAGS like Barack Hussein Obama's Crooked former Attorney General, Eric Holder, and others of that ilk, to look into Voter Integrity, when this same group of Human Garbage RIGGED the 2020 Presidential Election. GET TOUGH REPUBLICA"
-      },
-      {
-        "time": "23:12",
-        "text": "I hate seeing Fox, and other Conservative Outlets, constantly making Low Rated Bill Maher \"relevant\" as it pertains to the Republican Party, and beyond. Bill Maher is a weak and ineffective person who I got to know very well during my dinner with him at the White House. He was nervous, scared, and t"
+        "time": "10:40",
+        "text": "Exclusive — Deputy Italian Prime Minister Matteo Salvini: Trump’s ‘Courage’ for ‘Cultural Foundation’ Critical to Survival of the West: https://www.breitbart.com/politics/2026/05/03/exclusive-deputy-italian-prime-minister-matteo-salvini-trumps-courage-for-cultural-foundation-critical-to-survival-of-"
       }
     ]
   },
-  "keyword_signals": [
-    "IRAN"
-  ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_very_long": true,
-    "caps_medium": true,
-    "excl_heavy": true,
-    "has_night": true,
-    "kw_effective": true,
-    "kw_iran": true,
-    "kw_billion": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_worst": true,
-    "kw_stupid": true,
-    "kw_incompetent": true,
-    "kw_pathetic": true,
-    "kw_obama": true,
-    "kw_obama_2plus": true,
-    "open_obama": true,
-    "kw_filibuster": true,
-    "kw_filibuster_2plus": true,
-    "open_filibuster": true,
-    "kw_thank_you_for_your_attention": true,
-    "is_weekend": true
+    "posts_1_5": true,
+    "avg_len_medium": true,
+    "caps_low": true,
+    "excl_none": true,
+    "questions_no": true,
+    "mostly_premarket": true,
+    "is_weekend": true,
+    "volume_falling_3d": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -178,33 +141,35 @@
     "top_3": [
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "questions_yes",
+          "kw_signed",
+          "open_dow"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_economy",
+          "mostly_open",
+          "kw_trade"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 91.7,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "kw_economy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
+        "origin": "mutation_remove"
       }
     ]
   },
