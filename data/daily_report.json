@@ -1,16 +1,12 @@
 {
-  "date": "2026-05-03",
-  "generated_at": "2026-05-03T21:03:13Z",
-  "posts_today": 5,
+  "date": "2026-05-04",
+  "generated_at": "2026-05-04T05:45:21Z",
+  "posts_today": 1,
   "latest_post": {
-    "time": "2026-05-03T20:35",
-    "content_preview": "Countries from all over the World, almost all of which are not involved in the Middle Eastern disput"
+    "time": "2026-05-04T02:51",
+    "content_preview": "TERMINATE THE FILIBUSTER, AND WIN!!! President DJT"
   },
-  "signals_detected": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
+  "signals_detected": [],
   "models_triggered": 0,
   "direction_summary": {
     "LONG": 0,
@@ -27,9 +23,9 @@
     "close": 7230.12
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-05-03\nPosts today: 5 | Models triggered: 0\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: Countries from all over the World, almost all of which are not involved in the Middle Eastern disput",
-    "zh": "川普密碼每日報告 -- 2026-05-03\n今日推文: 5 篇 | 觸發模型: 0 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: Countries from all over the World, almost all of which are not involved in the Middle Eastern disput",
-    "ja": "トランプ・コード日次レポート -- 2026-05-03\n本日の投稿: 5件 | トリガーモデル: 0組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: Countries from all over the World, almost all of which are not involved in the Middle Eastern disput"
+    "en": "Trump Code Daily Report -- 2026-05-04\nPosts today: 1 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 0.0% (0/0)\nLatest post: TERMINATE THE FILIBUSTER, AND WIN!!! President DJT",
+    "zh": "川普密碼每日報告 -- 2026-05-04\n今日推文: 1 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 0.0% (0/0)\n最新推文: TERMINATE THE FILIBUSTER, AND WIN!!! President DJT",
+    "ja": "トランプ・コード日次レポート -- 2026-05-04\n本日の投稿: 1件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 0.0% (0/0)\n最新投稿: TERMINATE THE FILIBUSTER, AND WIN!!! President DJT"
   },
   "triggered_rules_sample": []
 }
