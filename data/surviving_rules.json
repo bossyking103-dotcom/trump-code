@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-04T06:00:25Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-05-04T08:45:22Z",
+    "evolved_rules_added": 47
   },
   "rules": [
     {
@@ -13794,7 +13794,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-05-04",
       "weight": 1.0,
-      "parent": "kw_agreement+kw_thank_you_for_your_attention+open_china"
+      "parent": "kw_agreement+kw_thank_you_for_your_attention+open_china",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
