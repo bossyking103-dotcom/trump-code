@@ -1,12 +1,12 @@
 {
   "date": "2026-05-04",
-  "prepared_at": "2026-05-04T14:45:17Z",
+  "prepared_at": "2026-05-04T17:45:36Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "When a devastated (he was crying like a baby!) Van Jones of CNN came to me with a group of African American leaders, he had \"DEAD\" in getting Criminal Justice Reform approved in Congress. Van Jones an",
+    "count": 4,
+    "latest": "Jonathan Karl, of ABC Fake News, made a statement that I called him early in the morning, the day after the assassination attempt, to ask whether or not HE was OK. No, this was a hit on ME, not HIM, a",
     "earliest_time": "2026-05-04T02:51:11.278Z",
-    "latest_time": "2026-05-04T12:20:16.531Z",
+    "latest_time": "2026-05-04T13:37:00.000Z",
     "sample": [
       {
         "time": "02:51",
@@ -15,24 +15,43 @@
       {
         "time": "12:20",
         "text": "When a devastated (he was crying like a baby!) Van Jones of CNN came to me with a group of African American leaders, he had \"DEAD\" in getting Criminal Justice Reform approved in Congress. Van Jones and these Black reps had been unsuccessfully fighting to get \"Reform\" for many years.  He was just was"
+      },
+      {
+        "time": "13:16",
+        "text": "Iran has taken some shots at unrelated Nations with respect to the Ship Movement, PROJECT FREEDOM, including a South Korean Cargo Ship. Perhaps it’s time for South Korea to come and join the mission! We’ve shot down seven small Boats or, as they like to call them, “fast” Boats. It’s all they have le"
+      },
+      {
+        "time": "13:37",
+        "text": "Jonathan Karl, of ABC Fake News, made a statement that I called him early in the morning, the day after the assassination attempt, to ask whether or not HE was OK. No, this was a hit on ME, not HIM, and I didn’t make such a call, why would I do that? He called me, but I didn’t take his call — He jus"
       }
     ]
   },
+  "keyword_signals": [
+    "IRAN"
+  ],
   "today_features": {
     "posts_1_5": true,
     "avg_len_long": true,
     "caps_medium": true,
     "excl_extreme": true,
-    "questions_no": true,
     "has_night": true,
+    "kw_iran": true,
+    "pre_iran": true,
+    "kw_korea": true,
+    "pre_korea": true,
+    "kw_dow": true,
+    "pre_dow": true,
+    "kw_fake": true,
+    "open_fake": true,
     "kw_obama": true,
     "pre_obama": true,
     "kw_filibuster": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
-    "is_monday": true,
-    "volume_drop": true
+    "kw_thank_you_for_your_attention": true,
+    "pre_thank_you_for_your_attention": true,
+    "is_monday": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -150,33 +169,34 @@
     "top_3": [
       {
         "features": [
-          "kw_interest_rate",
+          "open_trade",
+          "kw_jobs",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_china",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "open_china",
           "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_signed",
-          "is_friday"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
         "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
       }
     ]
   },
@@ -192,11 +212,9 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-05-03",
+    "date": "2026-05-04",
     "signals": [
-      "DEAL",
-      "IRAN",
-      "DEAL_ONLY"
+      "IRAN"
     ],
     "opportunities": [],
     "total_scanned": 0
