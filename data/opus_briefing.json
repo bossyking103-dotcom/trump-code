@@ -1,6 +1,6 @@
 {
   "date": "2026-05-05",
-  "prepared_at": "2026-05-05T14:45:40Z",
+  "prepared_at": "2026-05-05T17:45:54Z",
   "status": "PENDING",
   "today_posts": {
     "count": 14,
@@ -361,6 +361,16 @@
     "top_3": [
       {
         "features": [
+          "kw_energy",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 91.2,
+        "origin": "crossover"
+      },
+      {
+        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
@@ -371,23 +381,14 @@
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
+          "is_friday",
+          "kw_dow_2plus",
+          "kw_maga"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
+        "hold": 1,
+        "score": 88.9,
+        "origin": "crossover"
       }
     ]
   },

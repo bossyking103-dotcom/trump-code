@@ -1,6 +1,6 @@
 {
   "date": "2026-05-05",
-  "generated_at": "2026-05-05T14:45:20Z",
+  "generated_at": "2026-05-05T17:45:23Z",
   "posts_today": 14,
   "latest_post": {
     "time": "2026-05-04T19:31",
@@ -16,18 +16,18 @@
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
-    "verified": 11,
-    "correct": 11,
+    "verified": 22,
+    "correct": 22,
     "rate": 100.0
   },
   "sp500_latest": {
     "date": "2026-05-05",
-    "close": 7249.67
+    "close": 7262.46
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-05-05\nPosts today: 14 | Models triggered: 11\nSignals: IRAN\nConsensus: 11 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (11/11)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116517965109663490",
-    "zh": "川普密碼每日報告 -- 2026-05-05\n今日推文: 14 篇 | 觸發模型: 11 組\n偵測信號: 伊朗\n共識方向: 11 組看多 vs 0 組看空\n歷史命中率: 100.0% (11/11)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116517965109663490",
-    "ja": "トランプ・コード日次レポート -- 2026-05-05\n本日の投稿: 14件 | トリガーモデル: 11組\n検出シグナル: イラン\nコンセンサス: 11組ロング vs 0組ショート\n過去の的中率: 100.0% (11/11)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116517965109663490"
+    "en": "Trump Code Daily Report -- 2026-05-05\nPosts today: 14 | Models triggered: 11\nSignals: IRAN\nConsensus: 11 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116517965109663490",
+    "zh": "川普密碼每日報告 -- 2026-05-05\n今日推文: 14 篇 | 觸發模型: 11 組\n偵測信號: 伊朗\n共識方向: 11 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116517965109663490",
+    "ja": "トランプ・コード日次レポート -- 2026-05-05\n本日の投稿: 14件 | トリガーモデル: 11組\n検出シグナル: イラン\nコンセンサス: 11組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116517965109663490"
   },
   "triggered_rules_sample": [
     {
