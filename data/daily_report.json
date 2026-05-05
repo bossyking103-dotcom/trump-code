@@ -1,17 +1,18 @@
 {
   "date": "2026-05-05",
-  "generated_at": "2026-05-05T17:45:23Z",
-  "posts_today": 14,
+  "generated_at": "2026-05-05T20:45:15Z",
+  "posts_today": 15,
   "latest_post": {
-    "time": "2026-05-04T19:31",
-    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116517965109663490"
+    "time": "2026-05-05T19:45",
+    "content_preview": "Congressman Max Miller is a fantastic Champion for the Great People of Ohio's 7th Congressional Dist"
   },
   "signals_detected": [
-    "IRAN"
+    "TARIFF",
+    "TARIFF_ONLY"
   ],
-  "models_triggered": 11,
+  "models_triggered": 1,
   "direction_summary": {
-    "LONG": 11,
+    "LONG": 1,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -22,126 +23,19 @@
   },
   "sp500_latest": {
     "date": "2026-05-05",
-    "close": 7262.46
+    "close": 7259.22
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-05-05\nPosts today: 14 | Models triggered: 11\nSignals: IRAN\nConsensus: 11 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116517965109663490",
-    "zh": "川普密碼每日報告 -- 2026-05-05\n今日推文: 14 篇 | 觸發模型: 11 組\n偵測信號: 伊朗\n共識方向: 11 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116517965109663490",
-    "ja": "トランプ・コード日次レポート -- 2026-05-05\n本日の投稿: 14件 | トリガーモデル: 11組\n検出シグナル: イラン\nコンセンサス: 11組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116517965109663490"
+    "en": "Trump Code Daily Report -- 2026-05-05\nPosts today: 15 | Models triggered: 1\nSignals: TARIFF, TARIFF_ONLY\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Congressman Max Miller is a fantastic Champion for the Great People of Ohio's 7th Congressional Dist",
+    "zh": "川普密碼每日報告 -- 2026-05-05\n今日推文: 15 篇 | 觸發模型: 1 組\n偵測信號: 關稅, 只有關稅沒有Deal\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Congressman Max Miller is a fantastic Champion for the Great People of Ohio's 7th Congressional Dist",
+    "ja": "トランプ・コード日次レポート -- 2026-05-05\n本日の投稿: 15件 | トリガーモデル: 1組\n検出シグナル: 関税, 関税のみ（Deal無し）\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Congressman Max Miller is a fantastic Champion for the Great People of Ohio's 7th Congressional Dist"
   },
   "triggered_rules_sample": [
     {
       "features": [
         "kw_economy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "kw_energy",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "kw_interest_rate",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "kw_interest_rate",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_interest_rate",
-        "open_energy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "kw_interest_rate",
-        "open_energy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "open_dow"
+        "open_trade",
+        "open_tremendous"
       ],
       "direction": "LONG",
       "hold": 2,
