@@ -1,13 +1,14 @@
 {
-  "date": "2026-05-05",
-  "generated_at": "2026-05-05T20:45:15Z",
+  "date": "2026-05-06",
+  "generated_at": "2026-05-06T06:13:46Z",
   "posts_today": 15,
   "latest_post": {
-    "time": "2026-05-05T19:45",
-    "content_preview": "Congressman Max Miller is a fantastic Champion for the Great People of Ohio's 7th Congressional Dist"
+    "time": "2026-05-05T22:52",
+    "content_preview": "Based on the request of Pakistan and other Countries, the tremendous Military Success that we have h"
   },
   "signals_detected": [
     "TARIFF",
+    "IRAN",
     "TARIFF_ONLY"
   ],
   "models_triggered": 1,
@@ -26,9 +27,9 @@
     "close": 7259.22
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-05-05\nPosts today: 15 | Models triggered: 1\nSignals: TARIFF, TARIFF_ONLY\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Congressman Max Miller is a fantastic Champion for the Great People of Ohio's 7th Congressional Dist",
-    "zh": "川普密碼每日報告 -- 2026-05-05\n今日推文: 15 篇 | 觸發模型: 1 組\n偵測信號: 關稅, 只有關稅沒有Deal\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Congressman Max Miller is a fantastic Champion for the Great People of Ohio's 7th Congressional Dist",
-    "ja": "トランプ・コード日次レポート -- 2026-05-05\n本日の投稿: 15件 | トリガーモデル: 1組\n検出シグナル: 関税, 関税のみ（Deal無し）\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Congressman Max Miller is a fantastic Champion for the Great People of Ohio's 7th Congressional Dist"
+    "en": "Trump Code Daily Report -- 2026-05-06\nPosts today: 15 | Models triggered: 1\nSignals: TARIFF, IRAN, TARIFF_ONLY\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Based on the request of Pakistan and other Countries, the tremendous Military Success that we have h",
+    "zh": "川普密碼每日報告 -- 2026-05-06\n今日推文: 15 篇 | 觸發模型: 1 組\n偵測信號: 關稅, 伊朗, 只有關稅沒有Deal\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Based on the request of Pakistan and other Countries, the tremendous Military Success that we have h",
+    "ja": "トランプ・コード日次レポート -- 2026-05-06\n本日の投稿: 15件 | トリガーモデル: 1組\n検出シグナル: 関税, イラン, 関税のみ（Deal無し）\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Based on the request of Pakistan and other Countries, the tremendous Military Success that we have h"
   },
   "triggered_rules_sample": [
     {
