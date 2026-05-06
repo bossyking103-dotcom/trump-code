@@ -1,20 +1,36 @@
 {
   "date": "2026-05-06",
-  "prepared_at": "2026-05-06T11:45:48Z",
+  "prepared_at": "2026-05-06T14:46:40Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "Assuming Iran agrees to give what has been agreed to, which is, perhaps, a big assumption, the already legendary Epic Fury will be at an end, and the highly effective Blockade will allow the Hormuz St",
-    "earliest_time": "2026-05-06T07:32:00.000Z",
-    "latest_time": "2026-05-06T07:41:00.000Z",
+    "count": 6,
+    "latest": "Top DOJ official predicts Supreme Court will declare AR-15 rifles legal everywhere in America: https://justthenews.com/politics-policy/gun-rights/wedtop-doj-official-predicts-supreme-court-will-declar",
+    "earliest_time": "2026-05-06T08:28:00.000Z",
+    "latest_time": "2026-05-06T12:29:21.011Z",
     "sample": [
       {
-        "time": "07:32",
+        "time": "08:28",
+        "text": "Trump’s new culture of government reform delivers more life-saving benefits to veterans: https://justthenews.com/government/white-house/trumps-culture-government-reform-and-reduction-brings-life-saving-benefits"
+      },
+      {
+        "time": "11:32",
         "text": "The White House Ballroom is going up rapidly on the East side of the White House. The only reason the cost has changed is because, after deep rooted studies, it is approximately twice the size, and a far higher quality, than the original proposal, which would not have been adequate to handle the nec"
       },
       {
-        "time": "07:41",
-        "text": "Assuming Iran agrees to give what has been agreed to, which is, perhaps, a big assumption, the already legendary Epic Fury will be at an end, and the highly effective Blockade will allow the Hormuz Strait to be OPEN TO ALL, including Iran. If they don’t agree, the bombing starts, and it will be, sad"
+        "time": "11:41",
+        "text": "Assuming Iran agrees to give what has been agreed to, which is, perhaps, a big assumption, the already legendary Epic Fury will be at an end, and the highly effective Blockade will allow the Hormuz Strait to be OPEN TO ALL, including Iran. If they don't agree, the bombing starts, and it will be, sad"
+      },
+      {
+        "time": "12:28",
+        "text": "Trump's new culture of government reform delivers more life-saving benefits to veterans: https://justthenews.com/government/white-house/trumps-culture-government-reform-and-reduction-brings-life-saving-benefits"
+      },
+      {
+        "time": "12:29",
+        "text": "Top DOJ official predicts Supreme Court will declare AR-15 rifles legal everywhere in America: https://justthenews.com/politics-policy/gun-rights/wedtop-doj-official-predicts-supreme-court-will-declare-ar-15-rifles"
+      },
+      {
+        "time": "12:29",
+        "text": "Top DOJ official predicts Supreme Court will declare AR-15 rifles legal everywhere in America: https://justthenews.com/politics-policy/gun-rights/wedtop-doj-official-predicts-supreme-court-will-declare-ar-15-rifles"
       }
     ]
   },
@@ -22,10 +38,10 @@
     "IRAN"
   ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_very_long": true,
+    "posts_6_10": true,
+    "avg_len_medium": true,
     "caps_low": true,
-    "excl_heavy": true,
+    "excl_normal": true,
     "questions_no": true,
     "mostly_premarket": true,
     "kw_effective": true,
@@ -39,8 +55,7 @@
     "kw_thank_you_for_your_attention": true,
     "kw_thank_you_for_your_attention_2plus": true,
     "pre_thank_you_for_your_attention": true,
-    "volume_rising_3d": true,
-    "volume_drop": true
+    "volume_rising_3d": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -151,29 +166,18 @@
   "evolution_latest": {
     "date": "2026-05-06",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "is_friday",
-          "kw_economy",
-          "kw_energy"
+          "kw_india",
+          "kw_president_of_the_united_states"
         ],
         "direction": "LONG",
         "hold": 1,
-        "score": 90.9,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 3,
         "score": 90.0,
         "origin": "crossover"
       },
@@ -186,6 +190,16 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_signed",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "mutation_remove"
       }
     ]
   },
