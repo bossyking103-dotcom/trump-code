@@ -1,12 +1,12 @@
 {
   "date": "2026-05-06",
-  "prepared_at": "2026-05-06T14:46:40Z",
+  "prepared_at": "2026-05-06T17:45:37Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "Top DOJ official predicts Supreme Court will declare AR-15 rifles legal everywhere in America: https://justthenews.com/politics-policy/gun-rights/wedtop-doj-official-predicts-supreme-court-will-declar",
+    "count": 8,
+    "latest": "Lilly commits additional $4.5 billion across Indiana manufacturing sites, opens first dedicated genetic medicine facility: https://investor.lilly.com/news-releases/news-release-details/lilly-commits-a",
     "earliest_time": "2026-05-06T08:28:00.000Z",
-    "latest_time": "2026-05-06T12:29:21.011Z",
+    "latest_time": "2026-05-06T15:08:37.348Z",
     "sample": [
       {
         "time": "08:28",
@@ -31,31 +31,53 @@
       {
         "time": "12:29",
         "text": "Top DOJ official predicts Supreme Court will declare AR-15 rifles legal everywhere in America: https://justthenews.com/politics-policy/gun-rights/wedtop-doj-official-predicts-supreme-court-will-declare-ar-15-rifles"
+      },
+      {
+        "time": "14:55",
+        "text": "Ted Turner, one of the Greats of All Time, just died. He founded CNN, sold it, and was personally devastated by the Deal because the new ownership took CNN, his \"baby,\" and destroyed it. It became woke, and everything that he is not all about. Maybe the new buyers, wonderful people, will be able to "
+      },
+      {
+        "time": "15:08",
+        "text": "Lilly commits additional $4.5 billion across Indiana manufacturing sites, opens first dedicated genetic medicine facility: https://investor.lilly.com/news-releases/news-release-details/lilly-commits-additional-45-billion-across-indiana-manufacturing"
       }
     ]
   },
   "keyword_signals": [
-    "IRAN"
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
   ],
   "today_features": {
     "posts_6_10": true,
-    "avg_len_medium": true,
+    "avg_len_long": true,
     "caps_low": true,
     "excl_normal": true,
     "questions_no": true,
     "mostly_premarket": true,
+    "kw_deal": true,
+    "open_deal": true,
     "kw_effective": true,
     "pre_effective": true,
     "kw_block": true,
     "pre_block": true,
     "kw_iran": true,
     "pre_iran": true,
+    "kw_india": true,
+    "open_india": true,
+    "kw_billion": true,
+    "open_billion": true,
+    "kw_great": true,
+    "open_great": true,
+    "kw_wonderful": true,
+    "open_wonderful": true,
     "kw_fake": true,
     "pre_fake": true,
     "kw_thank_you_for_your_attention": true,
     "kw_thank_you_for_your_attention_2plus": true,
     "pre_thank_you_for_your_attention": true,
-    "volume_rising_3d": true
+    "volume_rising_3d": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -165,20 +187,21 @@
   },
   "evolution_latest": {
     "date": "2026-05-06",
-    "crossover": 16,
-    "mutation": 13,
+    "crossover": 14,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_india",
-          "kw_president_of_the_united_states"
+          "open_trade",
+          "kw_beautiful",
+          "volume_falling_3d"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 90.0,
+        "hold": 3,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
@@ -193,13 +216,13 @@
       },
       {
         "features": [
-          "kw_signed",
-          "is_friday"
+          "kw_interest_rate",
+          "kw_beautiful"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
         "score": 87.5,
-        "origin": "mutation_remove"
+        "origin": "crossover"
       }
     ]
   },
@@ -217,7 +240,9 @@
   "prediction_market": {
     "date": "2026-05-06",
     "signals": [
-      "IRAN"
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
     ],
     "opportunities": [],
     "total_scanned": 0
