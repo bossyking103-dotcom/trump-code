@@ -1,146 +1,46 @@
 {
   "date": "2026-05-06",
-  "prepared_at": "2026-05-06T08:45:33Z",
+  "prepared_at": "2026-05-06T11:45:48Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 15,
-    "latest": "Based on the request of Pakistan and other Countries, the tremendous Military Success that we have had during the Campaign against the Country of Iran and, additionally, the fact that Great Progress h",
-    "earliest_time": "2026-05-05T18:59:00.930Z",
-    "latest_time": "2026-05-05T22:52:09.156Z",
+    "count": 2,
+    "latest": "Assuming Iran agrees to give what has been agreed to, which is, perhaps, a big assumption, the already legendary Epic Fury will be at an end, and the highly effective Blockade will allow the Hormuz St",
+    "earliest_time": "2026-05-06T07:32:00.000Z",
+    "latest_time": "2026-05-06T07:41:00.000Z",
     "sample": [
       {
-        "time": "19:32",
-        "text": "Congressman Jim Jordan is an America First Patriot who is doing an incredible job representing Ohio's 4th Congressional District!As Chairman of the House Judiciary Committee, Jim is fighting tirelessly to Protect our Country against the Marxists, Socialists, and Communists on the Radical Left. A tru"
+        "time": "07:32",
+        "text": "The White House Ballroom is going up rapidly on the East side of the White House. The only reason the cost has changed is because, after deep rooted studies, it is approximately twice the size, and a far higher quality, than the original proposal, which would not have been adequate to handle the nec"
       },
       {
-        "time": "19:32",
-        "text": "Congressman Bob Latta is a Tremendous Champion for Ohio's 5th Congressional District!A Proven Leader, Bob has served his Community well as a Highly Respected State Legislator, Wood County Commissioner, and Attorney, prior to becoming a distinguished Congressman. In Congress, he is working hard to Gr"
-      },
-      {
-        "time": "19:33",
-        "text": "Congressman Mike Rulli is an America First Patriot who is doing a fantastic job representing Ohio's 6th Congressional District!A successful Businessman, Civic Leader, and State Senator, prior to becoming a respected Congressman, Mike has dedicated his life to serving his Community. In Congress, he i"
-      },
-      {
-        "time": "19:33",
-        "text": "Warren Davidson is a fantastic Representative for the Great People of Ohio's 8th Congressional District!A West Point Graduate and U.S. Army Ranger, Warren knows the Wisdom and Courage that is required to Defend our Country, Support our incredible Military/Veterans, and Ensure PEACE THROUGH STRENGTH."
-      },
-      {
-        "time": "19:34",
-        "text": "Congressman Mike Turner is doing a truly fantastic job representing the wonderful people of Ohio's 10th Congressional District!As a Senior Member of the POWERFUL House Armed Services Committee, Mike understands the Wisdom and Courage required to Defend our Country, Support our incredible Military/Ve"
-      },
-      {
-        "time": "19:35",
-        "text": "Congressman Troy Balderson is a terrific Representative for the incredible people of Ohio's 12th Congressional District!A Proven Leader, Troy served as a Highly Respected State Legislator and Businessman, prior to becoming a very distinguished U.S. Congressman. He is fighting tirelessly to Grow our "
-      },
-      {
-        "time": "19:37",
-        "text": "Congressman Dave Joyce is doing an incredible job representing the wonderful people of Ohio's 14th Congressional District!A former Criminal Prosecutor, Dave strongly supports our incredible Law Enforcement, Military, and Veterans. He knows the Wisdom and Courage required to ensure LAW AND ORDER, and"
-      },
-      {
-        "time": "19:37",
-        "text": "Congressman Mike Carey is a Fantastic Advocate for Ohio's 15th Congressional District!As a Member of the POWERFUL House Ways & Means Committee, Mike understands the America First Policies required to Create GREAT Jobs, Cut Taxes and Regulations, Unleash American Energy DOMINANCE, Promote MADE IN THE"
-      },
-      {
-        "time": "19:45",
-        "text": "Congressman Max Miller is a fantastic Champion for the Great People of Ohio's 7th Congressional District!Max bravely served our Country in the U.S. Marine Corps and, during my First Administration, worked hard to advance our AMERICA FIRST Agenda. In Congress, Max continues to fight tirelessly to Hel"
-      },
-      {
-        "time": "22:52",
-        "text": "Based on the request of Pakistan and other Countries, the tremendous Military Success that we have had during the Campaign against the Country of Iran and, additionally, the fact that Great Progress has been made toward a Complete and Final Agreement with Representatives of Iran, we have mutually ag"
+        "time": "07:41",
+        "text": "Assuming Iran agrees to give what has been agreed to, which is, perhaps, a big assumption, the already legendary Epic Fury will be at an end, and the highly effective Blockade will allow the Hormuz Strait to be OPEN TO ALL, including Iran. If they don’t agree, the bombing starts, and it will be, sad"
       }
     ]
   },
   "keyword_signals": [
-    "TARIFF",
-    "IRAN",
-    "TARIFF_ONLY"
+    "IRAN"
   ],
   "today_features": {
-    "posts_11_20": true,
+    "posts_1_5": true,
     "avg_len_very_long": true,
-    "caps_high": true,
+    "caps_low": true,
     "excl_heavy": true,
     "questions_no": true,
-    "mostly_open": true,
-    "kw_tariff": true,
-    "open_tariff": true,
-    "kw_tariffs": true,
-    "open_tariffs": true,
-    "kw_trade": true,
-    "open_trade": true,
-    "kw_agreement": true,
-    "kw_pause": true,
-    "kw_signed": true,
+    "mostly_premarket": true,
+    "kw_effective": true,
+    "pre_effective": true,
     "kw_block": true,
+    "pre_block": true,
     "kw_iran": true,
-    "kw_india": true,
-    "open_india": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "open_dow": true,
-    "kw_economy": true,
-    "kw_economy_2plus": true,
-    "open_economy": true,
-    "kw_energy": true,
-    "kw_energy_2plus": true,
-    "open_energy": true,
-    "kw_jobs": true,
-    "kw_jobs_2plus": true,
-    "open_jobs": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_tremendous": true,
-    "kw_tremendous_2plus": true,
-    "open_tremendous": true,
-    "kw_incredible": true,
-    "kw_incredible_2plus": true,
-    "open_incredible": true,
-    "kw_fantastic": true,
-    "kw_fantastic_2plus": true,
-    "open_fantastic": true,
-    "kw_wonderful": true,
-    "kw_wonderful_2plus": true,
-    "open_wonderful": true,
-    "kw_vance": true,
-    "kw_vance_2plus": true,
-    "open_vance": true,
-    "kw_maga": true,
-    "open_maga": true,
-    "kw_america_first": true,
-    "kw_america_first_2plus": true,
-    "open_america_first": true,
-    "kw_golden_age": true,
-    "open_golden_age": true,
-    "kw_never_let_you_down": true,
-    "kw_never_let_you_down_2plus": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "kw_complete_and_total_2plus": true,
-    "open_complete_and_total": true,
+    "pre_iran": true,
+    "kw_fake": true,
+    "pre_fake": true,
+    "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
+    "pre_thank_you_for_your_attention": true,
     "volume_rising_3d": true,
-    "tariff_without_deal": true,
-    "tariff_no_deal": true
-  },
-  "triggered_rules": {
-    "total": 1,
-    "long": 1,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0066",
-        "features": [
-          "kw_economy",
-          "open_trade",
-          "open_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -258,32 +158,33 @@
     "top_3": [
       {
         "features": [
+          "is_friday",
+          "kw_economy",
+          "kw_energy"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 90.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
+        "origin": "crossover"
       },
       {
         "features": [
           "kw_interest_rate",
-          "kw_tremendous"
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
+        "score": 90.0,
         "origin": "distilled"
       }
     ]
@@ -302,9 +203,7 @@
   "prediction_market": {
     "date": "2026-05-06",
     "signals": [
-      "TARIFF",
-      "IRAN",
-      "TARIFF_ONLY"
+      "IRAN"
     ],
     "opportunities": [],
     "total_scanned": 0

@@ -1,21 +1,19 @@
 {
   "date": "2026-05-06",
-  "generated_at": "2026-05-06T08:45:13Z",
-  "posts_today": 15,
+  "generated_at": "2026-05-06T11:45:26Z",
+  "posts_today": 2,
   "latest_post": {
-    "time": "2026-05-05T22:52",
-    "content_preview": "Based on the request of Pakistan and other Countries, the tremendous Military Success that we have h"
+    "time": "2026-05-06T07:41",
+    "content_preview": "Assuming Iran agrees to give what has been agreed to, which is, perhaps, a big assumption, the alrea"
   },
   "signals_detected": [
-    "TARIFF",
-    "IRAN",
-    "TARIFF_ONLY"
+    "IRAN"
   ],
-  "models_triggered": 1,
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 1,
+    "LONG": 0,
     "SHORT": 0,
-    "consensus": "BULLISH"
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -27,21 +25,9 @@
     "close": 7259.22
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-05-06\nPosts today: 15 | Models triggered: 1\nSignals: TARIFF, IRAN, TARIFF_ONLY\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Based on the request of Pakistan and other Countries, the tremendous Military Success that we have h",
-    "zh": "川普密碼每日報告 -- 2026-05-06\n今日推文: 15 篇 | 觸發模型: 1 組\n偵測信號: 關稅, 伊朗, 只有關稅沒有Deal\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Based on the request of Pakistan and other Countries, the tremendous Military Success that we have h",
-    "ja": "トランプ・コード日次レポート -- 2026-05-06\n本日の投稿: 15件 | トリガーモデル: 1組\n検出シグナル: 関税, イラン, 関税のみ（Deal無し）\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Based on the request of Pakistan and other Countries, the tremendous Military Success that we have h"
+    "en": "Trump Code Daily Report -- 2026-05-06\nPosts today: 2 | Models triggered: 0\nSignals: IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Assuming Iran agrees to give what has been agreed to, which is, perhaps, a big assumption, the alrea",
+    "zh": "川普密碼每日報告 -- 2026-05-06\n今日推文: 2 篇 | 觸發模型: 0 組\n偵測信號: 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Assuming Iran agrees to give what has been agreed to, which is, perhaps, a big assumption, the alrea",
+    "ja": "トランプ・コード日次レポート -- 2026-05-06\n本日の投稿: 2件 | トリガーモデル: 0組\n検出シグナル: イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Assuming Iran agrees to give what has been agreed to, which is, perhaps, a big assumption, the alrea"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_economy",
-        "open_trade",
-        "open_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
