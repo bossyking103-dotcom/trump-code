@@ -1,118 +1,48 @@
 {
-  "date": "2026-05-06",
-  "prepared_at": "2026-05-06T20:46:29Z",
+  "date": "2026-05-07",
+  "prepared_at": "2026-05-07T05:45:26Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 10,
-    "latest": "State Representative \"MAGA\" Meg Weinberger is an America First Patriot who is doing an incredible job representing Florida's 94th State House District!Meg is MAGA all the way, and has been with us fro",
-    "earliest_time": "2026-05-06T08:29:00.000Z",
-    "latest_time": "2026-05-06T18:24:33.399Z",
+    "count": 5,
+    "latest": "Wow. Study this Chart! President DJT",
+    "earliest_time": "2026-05-07T01:08:56.321Z",
+    "latest_time": "2026-05-07T02:35:15.361Z",
     "sample": [
       {
-        "time": "08:29",
-        "text": "Trump’s new culture of government reform delivers more life-saving benefits to veterans: https://justthenews.com/government/white-house/trumps-culture-government-reform-and-reduction-brings-life-saving-benefits"
+        "time": "01:08",
+        "text": "Chuck Devore, Army Intelligence, was fantastic tonight on Jesse Watters. Thank you Chuck!!! President DJT"
       },
       {
-        "time": "11:32",
-        "text": "The White House Ballroom is going up rapidly on the East side of the White House. The only reason the cost has changed is because, after deep rooted studies, it is approximately twice the size, and a far higher quality, than the original proposal, which would not have been adequate to handle the nec"
+        "time": "01:13",
+        "text": "Washington D.C. CRIME is at its lowest point in 30 years, plus! President DJT"
       },
       {
-        "time": "11:41",
-        "text": "Assuming Iran agrees to give what has been agreed to, which is, perhaps, a big assumption, the already legendary Epic Fury will be at an end, and the highly effective Blockade will allow the Hormuz Strait to be OPEN TO ALL, including Iran. If they don't agree, the bombing starts, and it will be, sad"
+        "time": "01:16",
+        "text": "Stock Market hit an ALL-TIME HIGH TODAY. Jobs & 401-K's are BOOMING!!!"
       },
       {
-        "time": "12:28",
-        "text": "Trump's new culture of government reform delivers more life-saving benefits to veterans: https://justthenews.com/government/white-house/trumps-culture-government-reform-and-reduction-brings-life-saving-benefits"
+        "time": "01:19",
+        "text": "New Trump counterterrorism strategy elevates threats from leftist groups like Antifa: https://justthenews.com/government/security/new-trump-counterterrorism-strategy-elevates-threats-leftists-group-antifa"
       },
       {
-        "time": "12:29",
-        "text": "Top DOJ official predicts Supreme Court will declare AR-15 rifles legal everywhere in America: https://justthenews.com/politics-policy/gun-rights/wedtop-doj-official-predicts-supreme-court-will-declare-ar-15-rifles"
-      },
-      {
-        "time": "12:29",
-        "text": "Top DOJ official predicts Supreme Court will declare AR-15 rifles legal everywhere in America: https://justthenews.com/politics-policy/gun-rights/wedtop-doj-official-predicts-supreme-court-will-declare-ar-15-rifles"
-      },
-      {
-        "time": "14:24",
-        "text": "State Representative “MAGA” Meg Weinberger is an America First Patriot who is doing an incredible job representing Florida’s 94th State House District!Meg is MAGA all the way, and has been with us from the very beginning, helping advance our AMERICA FIRST Agenda. In the State House, she is working t"
-      },
-      {
-        "time": "14:55",
-        "text": "Ted Turner, one of the Greats of All Time, just died. He founded CNN, sold it, and was personally devastated by the Deal because the new ownership took CNN, his \"baby,\" and destroyed it. It became woke, and everything that he is not all about. Maybe the new buyers, wonderful people, will be able to "
-      },
-      {
-        "time": "15:08",
-        "text": "Lilly commits additional $4.5 billion across Indiana manufacturing sites, opens first dedicated genetic medicine facility: https://investor.lilly.com/news-releases/news-release-details/lilly-commits-additional-45-billion-across-indiana-manufacturing"
-      },
-      {
-        "time": "18:24",
-        "text": "State Representative \"MAGA\" Meg Weinberger is an America First Patriot who is doing an incredible job representing Florida's 94th State House District!Meg is MAGA all the way, and has been with us from the very beginning, helping advance our AMERICA FIRST Agenda. In the State House, she is working t"
+        "time": "02:35",
+        "text": "Wow. Study this Chart! President DJT"
       }
     ]
   },
-  "keyword_signals": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_long": true,
+    "posts_1_5": true,
+    "avg_len_short": true,
     "caps_medium": true,
-    "excl_normal": true,
+    "excl_heavy": true,
     "questions_no": true,
-    "mostly_premarket": true,
-    "kw_deal": true,
-    "open_deal": true,
-    "kw_effective": true,
-    "pre_effective": true,
-    "kw_block": true,
-    "pre_block": true,
-    "kw_iran": true,
-    "pre_iran": true,
-    "kw_india": true,
-    "open_india": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "open_dow": true,
-    "kw_economy": true,
-    "kw_economy_2plus": true,
-    "open_economy": true,
-    "kw_energy": true,
-    "kw_energy_2plus": true,
-    "open_energy": true,
-    "kw_billion": true,
-    "open_billion": true,
-    "kw_great": true,
-    "open_great": true,
-    "kw_incredible": true,
-    "kw_incredible_2plus": true,
-    "open_incredible": true,
-    "kw_wonderful": true,
-    "open_wonderful": true,
-    "kw_fake": true,
-    "pre_fake": true,
-    "kw_vance": true,
-    "kw_vance_2plus": true,
-    "open_vance": true,
-    "kw_maga": true,
-    "kw_maga_2plus": true,
-    "open_maga": true,
-    "kw_america_first": true,
-    "kw_america_first_2plus": true,
-    "open_america_first": true,
-    "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "pre_thank_you_for_your_attention": true,
-    "kw_never_let_you_down": true,
-    "kw_never_let_you_down_2plus": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "kw_complete_and_total_2plus": true,
-    "open_complete_and_total": true,
-    "volume_rising_3d": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
+    "has_night": true,
+    "heavy_night": true,
+    "kw_stock_market": true,
+    "kw_jobs": true,
+    "kw_fantastic": true,
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -221,23 +151,13 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-05-06",
-    "crossover": 15,
-    "mutation": 11,
+    "date": "2026-05-07",
+    "crossover": 16,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 42,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "kw_tariff_2plus",
-          "is_friday"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.9,
-        "origin": "crossover"
-      },
       {
         "features": [
           "kw_interest_rate",
@@ -250,13 +170,24 @@
       },
       {
         "features": [
-          "kw_tremendous",
-          "kw_interest_rate"
+          "open_thank_you_for_your_attention",
+          "kw_complete_and_total_2plus"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 1,
         "score": 87.5,
-        "origin": "mutation_remove"
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_inflation",
+          "open_thank_you_for_your_attention",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },
