@@ -1,21 +1,13 @@
 {
   "date": "2026-05-07",
-  "prepared_at": "2026-05-07T11:45:17Z",
+  "prepared_at": "2026-05-07T14:46:15Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "https://stocks.apple.com/symbol/%5EDJI",
+    "count": 12,
+    "latest": "Barry Moore, running for United States Senate in the GREAT State of Alabama, one of my all time favorites, is a Fantastic guy and a totally reliable MAGA Warrior! He has my Complete and Total Endorsem",
     "earliest_time": "2026-05-07T01:08:56.321Z",
-    "latest_time": "2026-05-07T11:15:41.540Z",
+    "latest_time": "2026-05-07T14:14:13.767Z",
     "sample": [
-      {
-        "time": "01:08",
-        "text": "Chuck Devore, Army Intelligence, was fantastic tonight on Jesse Watters. Thank you Chuck!!! President DJT"
-      },
-      {
-        "time": "01:13",
-        "text": "Washington D.C. CRIME is at its lowest point in 30 years, plus! President DJT"
-      },
       {
         "time": "01:16",
         "text": "Stock Market hit an ALL-TIME HIGH TODAY. Jobs & 401-K's are BOOMING!!!"
@@ -29,33 +21,84 @@
         "text": "Wow. Study this Chart! President DJT"
       },
       {
+        "time": "09:05",
+        "text": "This lunatic, Hakeem “Low IQ” Jeffries, should be charged with INCITING VIOLENCE! The Radical Left Democrats actually want to Destroy our Country. President DJT"
+      },
+      {
+        "time": "10:00",
+        "text": "Barry Moore, running for reelection to Congress in the GREAT State of Alabama, one of my all time favorites, is a Fantastic guy and a totally reliable MAGA Warrior! He has my Complete and Total Endorsement - He will never let you down. Win, Barry, Win! President DONALD J. TRUMP"
+      },
+      {
         "time": "11:04",
         "text": "A highly accurate depiction of the Sleepy Joe Biden Administration. Tremendous damage done but, WE'RE BACK!!! President DJT"
       },
       {
         "time": "11:15",
         "text": "https://stocks.apple.com/symbol/%5EDJI"
+      },
+      {
+        "time": "12:14",
+        "text": "The Real Deal - GOLD - At Doral in Miami. Put there by great American Patriots!!! President DJT"
+      },
+      {
+        "time": "13:05",
+        "text": "This lunatic, Hakeem \"Low IQ\" Jeffries, should be charged with INCITING VIOLENCE! The Radical Left Democrats actually want to Destroy our Country. President DJT"
+      },
+      {
+        "time": "14:14",
+        "text": "Barry Moore, running for United States Senate in the GREAT State of Alabama, one of my all time favorites, is a Fantastic guy and a totally reliable MAGA Warrior! He has my Complete and Total Endorsement - He will never let you down. Win, Barry, Win! President DONALD J. TRUMP"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "DEAL_ONLY"
+  ],
   "today_features": {
-    "posts_6_10": true,
+    "posts_11_20": true,
     "avg_len_short": true,
-    "caps_medium": true,
+    "caps_high": true,
     "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_deal": true,
+    "pre_deal": true,
     "kw_stock_market": true,
+    "kw_dow": true,
+    "kw_dow_2plus": true,
+    "pre_dow": true,
+    "open_dow": true,
     "kw_jobs": true,
+    "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "open_great": true,
     "kw_tremendous": true,
     "pre_tremendous": true,
     "kw_fantastic": true,
+    "kw_fantastic_2plus": true,
+    "pre_fantastic": true,
+    "open_fantastic": true,
     "kw_biden": true,
     "pre_biden": true,
+    "kw_maga": true,
+    "kw_maga_2plus": true,
+    "pre_maga": true,
+    "open_maga": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
-    "pre_president_djt": true
+    "pre_president_djt": true,
+    "kw_never_let_you_down": true,
+    "kw_never_let_you_down_2plus": true,
+    "pre_never_let_you_down": true,
+    "open_never_let_you_down": true,
+    "kw_complete_and_total": true,
+    "kw_complete_and_total_2plus": true,
+    "pre_complete_and_total": true,
+    "open_complete_and_total": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -166,21 +209,30 @@
   "evolution_latest": {
     "date": "2026-05-07",
     "crossover": 16,
-    "mutation": 11,
+    "mutation": 10,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 42,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "both_tariff_and_deal",
-          "volume_falling_3d",
-          "kw_thank_you_for_your_attention"
+          "kw_thank_you_for_your_attention",
+          "open_china"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 92.9,
-        "origin": "mutation_replace"
+        "score": 90.9,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_tariff",
+          "kw_signed"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.6,
+        "origin": "crossover"
       },
       {
         "features": [
@@ -191,16 +243,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
       }
     ]
   },
@@ -216,10 +258,9 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-05-06",
+    "date": "2026-05-07",
     "signals": [
       "DEAL",
-      "IRAN",
       "DEAL_ONLY"
     ],
     "opportunities": [],
