@@ -2081,5 +2081,18 @@
       "DEAL_ONLY"
     ],
     "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-05-07",
+    "posts": 16,
+    "triggered": 8,
+    "long": 8,
+    "short": 0,
+    "signals": [
+      "TARIFF",
+      "DEAL",
+      "IRAN"
+    ],
+    "consensus": "BULLISH"
   }
 ]
