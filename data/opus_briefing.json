@@ -1,12 +1,12 @@
 {
   "date": "2026-05-07",
-  "prepared_at": "2026-05-07T08:45:23Z",
+  "prepared_at": "2026-05-07T11:45:17Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 5,
-    "latest": "Wow. Study this Chart! President DJT",
+    "count": 7,
+    "latest": "https://stocks.apple.com/symbol/%5EDJI",
     "earliest_time": "2026-05-07T01:08:56.321Z",
-    "latest_time": "2026-05-07T02:35:15.361Z",
+    "latest_time": "2026-05-07T11:15:41.540Z",
     "sample": [
       {
         "time": "01:08",
@@ -27,11 +27,19 @@
       {
         "time": "02:35",
         "text": "Wow. Study this Chart! President DJT"
+      },
+      {
+        "time": "11:04",
+        "text": "A highly accurate depiction of the Sleepy Joe Biden Administration. Tremendous damage done but, WE'RE BACK!!! President DJT"
+      },
+      {
+        "time": "11:15",
+        "text": "https://stocks.apple.com/symbol/%5EDJI"
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_short": true,
     "caps_medium": true,
     "excl_heavy": true,
@@ -40,9 +48,14 @@
     "heavy_night": true,
     "kw_stock_market": true,
     "kw_jobs": true,
+    "kw_tremendous": true,
+    "pre_tremendous": true,
     "kw_fantastic": true,
+    "kw_biden": true,
+    "pre_biden": true,
     "kw_president_djt": true,
-    "kw_president_djt_2plus": true
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -153,11 +166,22 @@
   "evolution_latest": {
     "date": "2026-05-07",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "both_tariff_and_deal",
+          "volume_falling_3d",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 92.9,
+        "origin": "mutation_replace"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -170,23 +194,13 @@
       },
       {
         "features": [
-          "kw_signed",
-          "is_friday"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
           "kw_interest_rate",
           "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "crossover"
       }
     ]
   },
