@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-08T14:46:23Z",
-    "evolved_rules_added": 47
+    "last_evolution": "2026-05-08T17:45:20Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -14236,7 +14236,12 @@
       "parents": [
         "is_friday+kw_economy",
         "kw_india+kw_never_let_you_down"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
