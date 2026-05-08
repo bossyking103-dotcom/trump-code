@@ -1,12 +1,12 @@
 {
   "date": "2026-05-08",
-  "prepared_at": "2026-05-08T17:45:20Z",
+  "prepared_at": "2026-05-08T20:45:21Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "As for my promise to you, the Department of War has released the first tranche of the UFO/UAP files to the Public for their review and study. In an effort for Complete and Maximum Transparency, it was",
+    "count": 7,
+    "latest": "I am pleased to announce that there will be a THREE DAY CEASEFIRE (May 9th, 10th, and 11th) in the War between Russia and Ukraine. The Celebration in Russia is for Victory Day but, likewise, in Ukrain",
     "earliest_time": "2026-05-08T04:16:26.504Z",
-    "latest_time": "2026-05-08T15:11:14.806Z",
+    "latest_time": "2026-05-08T18:00:31.180Z",
     "sample": [
       {
         "time": "04:16",
@@ -31,6 +31,10 @@
       {
         "time": "15:11",
         "text": "As for my promise to you, the Department of War has released the first tranche of the UFO/UAP files to the Public for their review and study. In an effort for Complete and Maximum Transparency, it was my Honor to direct my Administration to identify and provide Government files related to Alien and "
+      },
+      {
+        "time": "18:00",
+        "text": "I am pleased to announce that there will be a THREE DAY CEASEFIRE (May 9th, 10th, and 11th) in the War between Russia and Ukraine. The Celebration in Russia is for Victory Day but, likewise, in Ukraine, because they were also a big part and factor of World War II. This Ceasefire will include a suspe"
       }
     ]
   },
@@ -40,6 +44,14 @@
     "caps_medium": true,
     "excl_normal": true,
     "mostly_open": true,
+    "kw_agreement": true,
+    "open_agreement": true,
+    "kw_russia": true,
+    "open_russia": true,
+    "kw_putin": true,
+    "open_putin": true,
+    "kw_ukraine": true,
+    "open_ukraine": true,
     "kw_dow": true,
     "kw_dow_2plus": true,
     "pre_dow": true,
@@ -53,6 +65,8 @@
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "open_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "is_friday": true
   },
   "model_performance": {
@@ -171,19 +185,19 @@
     "top_3": [
       {
         "features": [
-          "kw_signed",
-          "questions_yes",
+          "kw_thank_you_for_your_attention",
+          "kw_disaster",
           "kw_dow_2plus"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_economy",
-          "kw_interest_rate"
+          "kw_president_of_the_united_states",
+          "kw_india"
         ],
         "direction": "LONG",
         "hold": 3,
