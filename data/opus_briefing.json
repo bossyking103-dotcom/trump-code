@@ -1,12 +1,12 @@
 {
   "date": "2026-05-08",
-  "prepared_at": "2026-05-08T11:45:18Z",
+  "prepared_at": "2026-05-08T14:46:23Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "June 14th. Biggest ever!!! DJT",
+    "count": 6,
+    "latest": "As for my promise to you, the Department of War has released the first tranche of the UFO/UAP files to the Public for their review and study. In an effort for Complete and Maximum Transparency, it was",
     "earliest_time": "2026-05-08T04:16:26.504Z",
-    "latest_time": "2026-05-08T09:41:17.485Z",
+    "latest_time": "2026-05-08T15:11:14.806Z",
     "sample": [
       {
         "time": "04:16",
@@ -15,20 +15,45 @@
       {
         "time": "09:41",
         "text": "June 14th. Biggest ever!!! DJT"
+      },
+      {
+        "time": "14:51",
+        "text": "Bryson DeChambeau and Gary Player doing 50 Push Ups at the White House for the reinstatement of the Presidential Fitness Test! President DJT"
+      },
+      {
+        "time": "14:52",
+        "text": "Amazing — Bryson doing 30 Pull Ups at the White House for the reinstatement of the Presidential Fitness Test! President DJT"
+      },
+      {
+        "time": "14:52",
+        "text": "Huge win for the Republican Party, and America, in Virginia. The Virginia Supreme Court has just struck down the Democrats' horrible gerrymander. MAKE AMERICA GREAT AGAIN! President DONALD J. TRUMP"
+      },
+      {
+        "time": "15:11",
+        "text": "As for my promise to you, the Department of War has released the first tranche of the UFO/UAP files to the Public for their review and study. In an effort for Complete and Maximum Transparency, it was my Honor to direct my Administration to identify and provide Government files related to Alien and "
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_short": true,
-    "caps_low": true,
-    "excl_heavy": true,
-    "questions_no": true,
-    "mostly_premarket": true,
+    "posts_6_10": true,
+    "avg_len_medium": true,
+    "caps_medium": true,
+    "excl_normal": true,
+    "mostly_open": true,
     "kw_dow": true,
+    "kw_dow_2plus": true,
     "pre_dow": true,
-    "is_friday": true,
-    "volume_drop": true
+    "open_dow": true,
+    "kw_great": true,
+    "open_great": true,
+    "kw_amazing": true,
+    "open_amazing": true,
+    "kw_horrible": true,
+    "open_horrible": true,
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "open_president_djt": true,
+    "is_friday": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -146,32 +171,35 @@
     "top_3": [
       {
         "features": [
-          "open_china",
-          "kw_thank_you_for_your_attention"
+          "kw_economy",
+          "kw_never_let_you_down",
+          "is_friday"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
+        "hold": 1,
+        "score": 92.9,
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "both_tariff_and_deal",
+          "kw_trade",
+          "open_deficit"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 91.7,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "kw_tariff_2plus",
+          "kw_economy",
+          "open_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "excl_heavy"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
         "origin": "crossover"
       }
     ]
