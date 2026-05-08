@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-07T20:46:18Z",
+    "last_evolution": "2026-05-08T05:45:40Z",
     "evolved_rules_added": 48
   },
   "rules": [
@@ -13131,7 +13131,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-05-07",
       "weight": 1.0,
-      "parent": "avg_len_long+kw_energy_2plus+kw_india"
+      "parent": "avg_len_long+kw_energy_2plus+kw_india",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
