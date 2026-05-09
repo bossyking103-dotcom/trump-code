@@ -1,6 +1,6 @@
 {
   "date": "2026-05-09",
-  "prepared_at": "2026-05-09T17:45:41Z",
+  "prepared_at": "2026-05-09T20:45:44Z",
   "status": "PENDING",
   "today_posts": {
     "count": 3,
@@ -154,10 +154,10 @@
   },
   "evolution_latest": {
     "date": "2026-05-09",
-    "crossover": 16,
-    "mutation": 11,
+    "crossover": 13,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -172,12 +172,12 @@
       },
       {
         "features": [
-          "volume_falling_3d",
-          "kw_beautiful"
+          "volume_spike",
+          "kw_amazing"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
+        "hold": 3,
+        "score": 88.9,
         "origin": "mutation_remove"
       },
       {
