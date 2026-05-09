@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-09T08:46:04Z",
-    "evolved_rules_added": 43
+    "last_evolution": "2026-05-09T11:45:43Z",
+    "evolved_rules_added": 46
   },
   "rules": [
     {
@@ -13190,7 +13190,12 @@
       "parents": [
         "kw_economy+kw_inflation",
         "both_tariff_and_deal+kw_disaster"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
