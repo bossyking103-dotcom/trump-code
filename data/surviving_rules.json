@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-09T05:45:42Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-05-09T08:46:04Z",
+    "evolved_rules_added": 43
   },
   "rules": [
     {
@@ -13170,6 +13170,30 @@
     },
     {
       "features": [
+        "kw_interest_rate",
+        "kw_incredible"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "0d532e6d0296",
+      "n_cond": 2,
+      "train_trades": 6,
+      "train_win_rate": 100.0,
+      "train_avg": 1.359,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 1.148,
+      "combined_score": 100.0,
+      "origin": "crossover",
+      "born_date": "2026-05-09",
+      "weight": 1.0,
+      "parents": [
+        "kw_economy+kw_inflation",
+        "both_tariff_and_deal+kw_disaster"
+      ]
+    },
+    {
+      "features": [
         "kw_maga",
         "open_ukraine"
       ],
@@ -13941,7 +13965,12 @@
       "parents": [
         "kw_deal_2plus+kw_europe",
         "is_friday+kw_signed"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14847,36 +14876,6 @@
       "parents": [
         "is_friday+kw_beautiful",
         "kw_deal_2plus+kw_economy"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_china",
-        "kw_economy",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "id": "5c34f567d089",
-      "n_cond": 3,
-      "train_trades": 6,
-      "train_win_rate": 83.3,
-      "train_avg": 0.228,
-      "test_trades": 3,
-      "test_win_rate": 100.0,
-      "test_avg": 0.663,
-      "combined_score": 91.7,
-      "origin": "crossover",
-      "born_date": "2026-04-17",
-      "weight": 1.0,
-      "parents": [
-        "kw_agreement+kw_china",
-        "kw_economy+kw_interest_rate"
       ],
       "learn_stats": {
         "correct": 0,
