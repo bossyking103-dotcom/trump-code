@@ -1,50 +1,34 @@
 {
-  "date": "2026-05-09",
-  "prepared_at": "2026-05-09T20:45:44Z",
+  "date": "2026-05-10",
+  "prepared_at": "2026-05-10T05:45:23Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "FBI searches Fulton County election hub in criminal probe of 2020 election: https://justthenews.com/politics-policy/fbi-searches-fulton-county-election-hub",
-    "earliest_time": "2026-05-09T02:13:37.570Z",
-    "latest_time": "2026-05-09T12:41:43.452Z",
+    "count": 2,
+    "latest": "Does anybody believe this guy??? A Dirty Cop!!!",
+    "earliest_time": "2026-05-10T00:22:14.696Z",
+    "latest_time": "2026-05-10T00:25:13.504Z",
     "sample": [
       {
-        "time": "02:13",
-        "text": "Congratulations to John Swinney on winning his Re-Election for First Minister of Scotland. He is a good man, who worked very hard, along with the King and Queen of the United Kingdom, with respect to Tariff relief for Great Scottish Whiskey — and deserves this Big Electoral Victory! President DONALD"
+        "time": "00:22",
+        "text": "Pathetic!!!"
       },
       {
-        "time": "12:41",
-        "text": "Very important. This is where our Nation stands!!!  President DJThttps://justthenews.com/government/security/majority-say-preventing-iran-acquiring-nukes-more-important-ending-war-poll"
-      },
-      {
-        "time": "12:41",
-        "text": "FBI searches Fulton County election hub in criminal probe of 2020 election: https://justthenews.com/politics-policy/fbi-searches-fulton-county-election-hub"
+        "time": "00:25",
+        "text": "Does anybody believe this guy??? A Dirty Cop!!!"
       }
     ]
   },
-  "keyword_signals": [
-    "TARIFF",
-    "IRAN",
-    "TARIFF_ONLY"
-  ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_medium": true,
-    "caps_low": true,
-    "excl_normal": true,
-    "questions_no": true,
-    "mostly_premarket": true,
+    "avg_len_short": true,
+    "caps_medium": true,
+    "excl_extreme": true,
+    "questions_yes": true,
     "has_night": true,
-    "kw_tariff": true,
-    "kw_iran": true,
-    "pre_iran": true,
-    "kw_great": true,
-    "kw_president_djt": true,
-    "pre_president_djt": true,
+    "kw_pathetic": true,
     "is_weekend": true,
-    "volume_drop": true,
-    "tariff_without_deal": true,
-    "tariff_no_deal": true
+    "volume_falling_3d": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -153,11 +137,11 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-05-09",
-    "crossover": 13,
+    "date": "2026-05-10",
+    "crossover": 16,
     "mutation": 16,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -168,26 +152,26 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
+        "origin": "crossover"
       },
       {
         "features": [
-          "volume_spike",
-          "kw_amazing"
+          "kw_president_of_the_united_states",
+          "kw_india"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.9,
+        "score": 90.0,
         "origin": "mutation_remove"
       },
       {
         "features": [
           "kw_interest_rate",
-          "kw_tremendous"
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 90.0,
         "origin": "distilled"
       }
     ]
