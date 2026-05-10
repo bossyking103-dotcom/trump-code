@@ -2259,5 +2259,18 @@
     "short": 0,
     "signals": [],
     "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-05-10",
+    "posts": 13,
+    "triggered": 7,
+    "long": 3,
+    "short": 4,
+    "signals": [
+      "TARIFF",
+      "DEAL",
+      "IRAN"
+    ],
+    "consensus": "NEUTRAL"
   }
 ]
