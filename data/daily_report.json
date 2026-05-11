@@ -1,20 +1,16 @@
 {
-  "date": "2026-05-10",
-  "generated_at": "2026-05-10T20:45:23Z",
-  "posts_today": 13,
+  "date": "2026-05-11",
+  "generated_at": "2026-05-11T05:45:25Z",
+  "posts_today": 18,
   "latest_post": {
-    "time": "2026-05-10T20:42",
-    "content_preview": "The Radical Left Dumacrats must fail — Our Country is at stake! President DONALD J. TRUMP"
+    "time": "2026-05-11T02:31",
+    "content_preview": "https://truthsocial.com/users/talkthestreet/statuses/116553400784613678"
   },
-  "signals_detected": [
-    "TARIFF",
-    "DEAL",
-    "IRAN"
-  ],
-  "models_triggered": 7,
+  "signals_detected": [],
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 3,
-    "SHORT": 4,
+    "LONG": 0,
+    "SHORT": 0,
     "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
@@ -27,87 +23,9 @@
     "close": 7398.93
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-05-10\nPosts today: 13 | Models triggered: 7\nSignals: TARIFF, DEAL, IRAN\nConsensus: 3 LONG vs 4 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The Radical Left Dumacrats must fail — Our Country is at stake! President DONALD J. TRUMP",
-    "zh": "川普密碼每日報告 -- 2026-05-10\n今日推文: 13 篇 | 觸發模型: 7 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 3 組看多 vs 4 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The Radical Left Dumacrats must fail — Our Country is at stake! President DONALD J. TRUMP",
-    "ja": "トランプ・コード日次レポート -- 2026-05-10\n本日の投稿: 13件 | トリガーモデル: 7組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 3組ロング vs 4組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The Radical Left Dumacrats must fail — Our Country is at stake! President DONALD J. TRUMP"
+    "en": "Trump Code Daily Report -- 2026-05-11\nPosts today: 18 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: https://truthsocial.com/users/talkthestreet/statuses/116553400784613678",
+    "zh": "川普密碼每日報告 -- 2026-05-11\n今日推文: 18 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: https://truthsocial.com/users/talkthestreet/statuses/116553400784613678",
+    "ja": "トランプ・コード日次レポート -- 2026-05-11\n本日の投稿: 18件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: https://truthsocial.com/users/talkthestreet/statuses/116553400784613678"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "both_tariff_and_deal",
-        "open_biden",
-        "open_disaster"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "open_biden",
-        "open_disaster"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_signed",
-        "kw_tariff",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tariffs",
-        "open_thank_you_for_your_attention",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "both_tariff_and_deal",
-        "kw_biden",
-        "open_disaster"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_biden",
-        "kw_deal",
-        "open_disaster"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "both_tariff_and_deal",
-        "kw_dow_2plus",
-        "kw_signed"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
