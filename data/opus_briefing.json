@@ -1,6 +1,6 @@
 {
   "date": "2026-05-13",
-  "prepared_at": "2026-05-13T14:46:05Z",
+  "prepared_at": "2026-05-13T17:46:05Z",
   "status": "PENDING",
   "today_posts": {
     "count": 2,
@@ -157,20 +157,20 @@
   },
   "evolution_latest": {
     "date": "2026-05-13",
-    "crossover": 16,
+    "crossover": 15,
     "mutation": 16,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_energy",
-          "is_friday"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 91.2,
+        "hold": 3,
+        "score": 90.0,
         "origin": "crossover"
       },
       {
@@ -185,13 +185,13 @@
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
+          "open_tariff",
+          "kw_signed"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 2,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "mutation_remove"
       }
     ]
   },
