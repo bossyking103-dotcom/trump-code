@@ -1,12 +1,14 @@
 {
-  "date": "2026-05-11",
-  "generated_at": "2026-05-11T17:45:23Z",
-  "posts_today": 20,
+  "date": "2026-05-13",
+  "generated_at": "2026-05-13T05:45:25Z",
+  "posts_today": 2,
   "latest_post": {
-    "time": "2026-05-11T11:56",
-    "content_preview": "Red states follow Trump's model, seek to rid Islamist influence in local lawmaking: https://justthen"
+    "time": "2026-05-13T04:11",
+    "content_preview": "The guy that came up to Mitch McConnell today when McConnell thought the hearing was over, and start"
   },
-  "signals_detected": [],
+  "signals_detected": [
+    "CHINA"
+  ],
   "models_triggered": 0,
   "direction_summary": {
     "LONG": 0,
@@ -19,13 +21,13 @@
     "rate": 100.0
   },
   "sp500_latest": {
-    "date": "2026-05-11",
-    "close": 7428.03
+    "date": "2026-05-12",
+    "close": 7400.96
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-05-11\nPosts today: 20 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Red states follow Trump's model, seek to rid Islamist influence in local lawmaking: https://justthen",
-    "zh": "川普密碼每日報告 -- 2026-05-11\n今日推文: 20 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Red states follow Trump's model, seek to rid Islamist influence in local lawmaking: https://justthen",
-    "ja": "トランプ・コード日次レポート -- 2026-05-11\n本日の投稿: 20件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Red states follow Trump's model, seek to rid Islamist influence in local lawmaking: https://justthen"
+    "en": "Trump Code Daily Report -- 2026-05-13\nPosts today: 2 | Models triggered: 0\nSignals: CHINA\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The guy that came up to Mitch McConnell today when McConnell thought the hearing was over, and start",
+    "zh": "川普密碼每日報告 -- 2026-05-13\n今日推文: 2 篇 | 觸發模型: 0 組\n偵測信號: 中國\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The guy that came up to Mitch McConnell today when McConnell thought the hearing was over, and start",
+    "ja": "トランプ・コード日次レポート -- 2026-05-13\n本日の投稿: 2件 | トリガーモデル: 0組\n検出シグナル: 中国\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The guy that came up to Mitch McConnell today when McConnell thought the hearing was over, and start"
   },
   "triggered_rules_sample": []
 }

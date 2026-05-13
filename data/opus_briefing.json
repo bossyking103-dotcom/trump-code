@@ -1,64 +1,53 @@
 {
-  "date": "2026-05-11",
-  "prepared_at": "2026-05-11T17:45:33Z",
+  "date": "2026-05-13",
+  "prepared_at": "2026-05-13T05:45:54Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 20,
-    "latest": "Red states follow Trump's model, seek to rid Islamist influence in local lawmaking: https://justthenews.com/politics-policy/red-states-follow-trumps-model-seek-de-islamify-homeland",
-    "earliest_time": "2026-05-11T01:36:21.695Z",
-    "latest_time": "2026-05-11T11:56:09.682Z",
+    "count": 2,
+    "latest": "The guy that came up to Mitch McConnell today when McConnell thought the hearing was over, and started speaking in his ear for Mitch to belatedly introduce some other people, all Democrats and, by doi",
+    "earliest_time": "2026-05-13T03:09:25.703Z",
+    "latest_time": "2026-05-13T04:11:29.014Z",
     "sample": [
       {
-        "time": "02:27",
-        "text": "https://truthsocial.com/users/IStandWithTrump47/statuses/116553460562965902"
+        "time": "03:09",
+        "text": "CNBC incorrectly reported that the Great Jensen Huang, of Nvidia, was not invited to the incredible gathering of the World's Greatest Businessmen/women proudly going to China. In actuality, Jensen is currently on Air Force One and, unless I ask him to leave, which is highly unlikely, CNBC's reportin"
       },
       {
-        "time": "02:28",
-        "text": "https://truthsocial.com/users/mazurikl/statuses/116553394243150785"
-      },
-      {
-        "time": "02:28",
-        "text": "https://truthsocial.com/users/IStandWithTrump47/statuses/116553387764258772"
-      },
-      {
-        "time": "02:29",
-        "text": "https://truthsocial.com/users/IStandWithTrump47/statuses/116553400714497109"
-      },
-      {
-        "time": "02:29",
-        "text": "https://truthsocial.com/users/lauramarks/statuses/116553381753696135"
-      },
-      {
-        "time": "02:30",
-        "text": "https://truthsocial.com/users/talkthestreet/statuses/116553406635749528"
-      },
-      {
-        "time": "02:30",
-        "text": "https://truthsocial.com/users/talkthestreet/statuses/116553428619269411"
-      },
-      {
-        "time": "02:31",
-        "text": "https://truthsocial.com/users/talkthestreet/statuses/116553400784613678"
-      },
-      {
-        "time": "07:56",
-        "text": "Red states follow Trump’s model, seek to rid Islamist influence in local lawmaking: https://justthenews.com/politics-policy/red-states-follow-trumps-model-seek-de-islamify-homeland"
-      },
-      {
-        "time": "11:56",
-        "text": "Red states follow Trump's model, seek to rid Islamist influence in local lawmaking: https://justthenews.com/politics-policy/red-states-follow-trumps-model-seek-de-islamify-homeland"
+        "time": "04:11",
+        "text": "The guy that came up to Mitch McConnell today when McConnell thought the hearing was over, and started speaking in his ear for Mitch to belatedly introduce some other people, all Democrats and, by doing so, made Mitch look foolish and completely out of it, should be immediately fired! This was a cas"
       }
     ]
   },
+  "keyword_signals": [
+    "CHINA"
+  ],
   "today_features": {
-    "posts_11_20": true,
-    "avg_len_short": true,
+    "posts_1_5": true,
+    "avg_len_very_long": true,
     "caps_low": true,
-    "excl_none": true,
+    "excl_extreme": true,
     "questions_no": true,
     "has_night": true,
-    "heavy_night": true,
-    "is_monday": true
+    "kw_immediately": true,
+    "pre_immediately": true,
+    "kw_china": true,
+    "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "kw_tremendous": true,
+    "pre_tremendous": true,
+    "kw_incredible": true,
+    "kw_fake": true,
+    "kw_stupid": true,
+    "pre_stupid": true,
+    "kw_obama": true,
+    "pre_obama": true,
+    "kw_elon": true,
+    "kw_save_america": true,
+    "pre_save_america": true,
+    "kw_filibuster": true,
+    "pre_filibuster": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -167,42 +156,43 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-05-11",
+    "date": "2026-05-13",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 10,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 42,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "volume_falling_3d",
+          "is_friday",
           "kw_thank_you_for_your_attention",
-          "kw_deal"
+          "kw_signed"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 94.4,
+        "hold": 3,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "open_russia",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 91.7,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "kw_beautiful",
+          "is_friday",
+          "kw_dow_2plus"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
         "origin": "crossover"
       }
     ]
@@ -219,11 +209,9 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-05-10",
+    "date": "2026-05-13",
     "signals": [
-      "TARIFF",
-      "DEAL",
-      "IRAN"
+      "CHINA"
     ],
     "opportunities": [],
     "total_scanned": 0
