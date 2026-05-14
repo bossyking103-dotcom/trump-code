@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-14T05:46:11Z",
+    "last_evolution": "2026-05-14T08:47:24Z",
     "evolved_rules_added": 48
   },
   "rules": [
@@ -13655,7 +13655,12 @@
       "parents": [
         "kw_energy+kw_interest_rate",
         "kw_ban+kw_hereby"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [

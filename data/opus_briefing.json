@@ -1,6 +1,6 @@
 {
   "date": "2026-05-14",
-  "prepared_at": "2026-05-14T05:46:12Z",
+  "prepared_at": "2026-05-14T08:47:24Z",
   "status": "PENDING",
   "today_posts": {
     "count": 2,
@@ -165,25 +165,14 @@
     "top_3": [
       {
         "features": [
-          "kw_energy",
-          "open_energy",
-          "kw_president_of_the_united_states"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 94.4,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_dow_2plus",
-          "kw_signed",
-          "kw_tariffs"
+          "kw_amazing",
+          "volume_spike",
+          "posts_21_35"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
+        "score": 90.0,
+        "origin": "mutation_replace"
       },
       {
         "features": [
@@ -194,6 +183,16 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "open_tariff",
+          "kw_signed"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "mutation_remove"
       }
     ]
   },
