@@ -1,6 +1,6 @@
 {
   "date": "2026-05-15",
-  "prepared_at": "2026-05-15T05:45:36Z",
+  "prepared_at": "2026-05-15T08:45:50Z",
   "status": "PENDING",
   "today_posts": {
     "count": 1,
@@ -151,16 +151,17 @@
   "evolution_latest": {
     "date": "2026-05-15",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 9,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 41,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
           "kw_tremendous",
-          "kw_jobs",
-          "is_friday"
+          "kw_beautiful",
+          "open_tremendous",
+          "open_jobs"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -169,8 +170,8 @@
       },
       {
         "features": [
-          "kw_economy",
-          "open_china"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
