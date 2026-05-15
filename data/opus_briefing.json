@@ -1,46 +1,107 @@
 {
   "date": "2026-05-15",
-  "prepared_at": "2026-05-15T08:45:50Z",
+  "prepared_at": "2026-05-15T21:51:54Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "When President Xi very elegantly referred to the United States as perhaps being a declining nation, he was referring to the tremendous damage we suffered during the four years of Sleepy Joe Biden and ",
-    "earliest_time": "2026-05-14T21:42:08.007Z",
-    "latest_time": "2026-05-14T21:42:08.007Z",
+    "count": 7,
+    "latest": "FREE TINA!",
+    "earliest_time": "2026-05-15T08:52:31.777Z",
+    "latest_time": "2026-05-15T21:03:42.540Z",
     "sample": [
       {
-        "time": "21:42",
-        "text": "When President Xi very elegantly referred to the United States as perhaps being a declining nation, he was referring to the tremendous damage we suffered during the four years of Sleepy Joe Biden and the Biden Administration, and on that score, he was 100% correct. Our Country suffered immeasurably "
+        "time": "08:52",
+        "text": "I am proud to announce the site of the NATIONAL GARDEN OF AMERICAN HEROES. This magnificent exhibition of statues will be located in West Potomac Park, which we are transforming into one of the World's most beautiful public spaces. Right now, it is a totally BARREN field of Prime Waterfront Real Est"
+      },
+      {
+        "time": "09:01",
+        "text": "Congratulations to Rachel Campos-Duffy on her new book, \"All American Patriotism: Celebrating 250 Years of America's Greatness!\" By sharing personal stories of Patriotism, along with those of her FOX colleagues, Rachel reveals the true Spirit of the U.S.A., how to end this crazy and wrong hatred for"
+      },
+      {
+        "time": "09:52",
+        "text": "This is a statue, now standing at Doral, that was commissioned by a large group of political supporters who just wanted a statue of yours truly. I very much appreciate their support, and all that they went through to get it done! They are very good people. Those playing the Blue Monster, at Doral, a"
+      },
+      {
+        "time": "10:04",
+        "text": "China has a Ballroom, and so should the U.S.A.! It's under construction, ahead of schedule, and will be the finest facility of its kind anywhere in the U.S.A. Thank you for all the support I have been given in getting this project going. Scheduled opening will be around September of 2028. The man I "
+      },
+      {
+        "time": "14:00",
+        "text": "Highly Respected America First Congresswoman, Julia Letlow, of the wonderful State of Louisiana, is a Great Star, has been from the very beginning, and only gets better! Julia is running for the United States Senate in Louisiana, a place I love and WON BIG, six times, including Primaries, in 2016, 2"
+      },
+      {
+        "time": "15:24",
+        "text": "Henry Clay and the architecture of American strength: https://www.washingtontimes.com/news/2026/apr/14/henry-clay-architecture-american-strength/"
+      },
+      {
+        "time": "21:03",
+        "text": "FREE TINA!"
       }
     ]
   },
   "keyword_signals": [
-    "DEAL",
-    "CHINA",
-    "IRAN",
-    "DEAL_ONLY"
+    "CHINA"
   ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_very_long": true,
-    "caps_low": true,
-    "excl_extreme": true,
+    "posts_6_10": true,
+    "avg_len_long": true,
+    "caps_medium": true,
+    "excl_heavy": true,
     "questions_no": true,
-    "mostly_after": true,
-    "kw_deal": true,
-    "kw_trade": true,
+    "mostly_premarket": true,
     "kw_china": true,
-    "kw_iran": true,
-    "kw_stock_market": true,
-    "kw_trillion": true,
-    "kw_tremendous": true,
-    "kw_incredible": true,
-    "kw_horrible": true,
-    "kw_biden": true,
-    "volume_falling_3d": true,
-    "volume_drop": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
+    "pre_china": true,
+    "kw_dow": true,
+    "open_dow": true,
+    "kw_economy": true,
+    "open_economy": true,
+    "kw_oil": true,
+    "open_oil": true,
+    "kw_gas": true,
+    "open_gas": true,
+    "kw_energy": true,
+    "open_energy": true,
+    "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "open_great": true,
+    "kw_beautiful": true,
+    "pre_beautiful": true,
+    "kw_amazing": true,
+    "open_amazing": true,
+    "kw_fantastic": true,
+    "pre_fantastic": true,
+    "kw_wonderful": true,
+    "open_wonderful": true,
+    "kw_america_first": true,
+    "open_america_first": true,
+    "kw_president_djt": true,
+    "pre_president_djt": true,
+    "kw_never_let_you_down": true,
+    "open_never_let_you_down": true,
+    "kw_complete_and_total": true,
+    "open_complete_and_total": true,
+    "is_friday": true,
+    "volume_falling_3d": true
+  },
+  "triggered_rules": {
+    "total": 1,
+    "long": 1,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0020",
+        "features": [
+          "is_friday",
+          "kw_china",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -151,27 +212,26 @@
   "evolution_latest": {
     "date": "2026-05-15",
     "crossover": 16,
-    "mutation": 9,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 41,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tremendous",
-          "kw_beautiful",
-          "open_tremendous",
-          "open_jobs"
+          "kw_signed",
+          "kw_tariff"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "crossover"
+        "hold": 2,
+        "score": 90.6,
+        "origin": "mutation_remove"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_tariffs",
+          "kw_thank_you_for_your_attention",
+          "open_inflation"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -204,10 +264,7 @@
   "prediction_market": {
     "date": "2026-05-15",
     "signals": [
-      "DEAL",
-      "CHINA",
-      "IRAN",
-      "DEAL_ONLY"
+      "CHINA"
     ],
     "opportunities": [],
     "total_scanned": 0
