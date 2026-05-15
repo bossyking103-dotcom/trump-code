@@ -1,13 +1,16 @@
 {
-  "date": "2026-05-14",
-  "generated_at": "2026-05-14T20:45:43Z",
-  "posts_today": 2,
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15T05:45:13Z",
+  "posts_today": 1,
   "latest_post": {
-    "time": "2026-05-13T04:11",
-    "content_preview": "The guy that came up to Mitch McConnell today when McConnell thought the hearing was over, and start"
+    "time": "2026-05-14T21:42",
+    "content_preview": "When President Xi very elegantly referred to the United States as perhaps being a declining nation, "
   },
   "signals_detected": [
-    "CHINA"
+    "DEAL",
+    "CHINA",
+    "IRAN",
+    "DEAL_ONLY"
   ],
   "models_triggered": 0,
   "direction_summary": {
@@ -25,9 +28,9 @@
     "close": 7501.24
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-05-14\nPosts today: 2 | Models triggered: 0\nSignals: CHINA\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The guy that came up to Mitch McConnell today when McConnell thought the hearing was over, and start",
-    "zh": "川普密碼每日報告 -- 2026-05-14\n今日推文: 2 篇 | 觸發模型: 0 組\n偵測信號: 中國\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The guy that came up to Mitch McConnell today when McConnell thought the hearing was over, and start",
-    "ja": "トランプ・コード日次レポート -- 2026-05-14\n本日の投稿: 2件 | トリガーモデル: 0組\n検出シグナル: 中国\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The guy that came up to Mitch McConnell today when McConnell thought the hearing was over, and start"
+    "en": "Trump Code Daily Report -- 2026-05-15\nPosts today: 1 | Models triggered: 0\nSignals: DEAL, CHINA, IRAN, DEAL_ONLY\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: When President Xi very elegantly referred to the United States as perhaps being a declining nation, ",
+    "zh": "川普密碼每日報告 -- 2026-05-15\n今日推文: 1 篇 | 觸發模型: 0 組\n偵測信號: Deal, 中國, 伊朗, 只有Deal沒有關稅\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: When President Xi very elegantly referred to the United States as perhaps being a declining nation, ",
+    "ja": "トランプ・コード日次レポート -- 2026-05-15\n本日の投稿: 1件 | トリガーモデル: 0組\n検出シグナル: ディール, 中国, イラン, Dealのみ（関税無し）\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: When President Xi very elegantly referred to the United States as perhaps being a declining nation, "
   },
   "triggered_rules_sample": []
 }
