@@ -1,7 +1,7 @@
 # 交接文件
 > 日期：2026-03-16 (Session 2 Final) | 摘要：即時引擎三源 + Devvit 預測遊戲 v0.0.10 上線 Reddit
 
-## 已完成
+## Completed (已完成)
 
 ### 即時引擎（VPS 已上線）
 - [x] 三源抓取 — CNN + trumpstruth.org + X API，每 5 分鐘掃
@@ -28,18 +28,18 @@
 - [x] Reddit API 調查 — 被 Responsible Builder Policy 擋
 - [x] 日文版 X 推文文案
 
-## 進行中
+## In Progress (進行中)
 - [ ] Devvit 外部 fetch 被 Reddit 沙盒擋 — 目前用測試信號建帖，需改成 VPS 主動推
 - [ ] 安裝到正式 r/TrumpCodeGame — `npx @devvit/cli install TrumpCodeGame`
 - [ ] 開獎功能未實測 — 需等 6 小時後按「✅ Resolve Game」測試
 
-## 已知問題
+## Known Issues (已知問題)
 - Devvit server 無法 fetch 外部 URL — Reddit 沙盒限制，需要改架構（VPS 推 → Reddit）
 - Redis 沒有 sAdd/sMembers — 已用 JSON 陣列模擬，效能 OK 但大量玩家時可能要優化
 - 推文內容寫死（測試信號）— 等外部 fetch 修好就會用真實信號
 - Truth Social API 被 Cloudflare 擋 — 不影響（CNN + trumpstruth 覆蓋）
 
-## 下一步（按優先順序）
+## Next Steps (by Priority) (下一步（按優先順序）)
 1. 解決外部 fetch — 方案：VPS 用 PRAW 或 Reddit API 直接建帖，不靠 Devvit fetch
    ```bash
    # 或者在 VPS 寫一個 Python 腳本，偵測到新信號就用 Reddit API 建帖
@@ -52,7 +52,7 @@
 3. 測試完整流程 — 建帖 → 投票 → 等 6h → 開獎 → 看排行榜
 4. 跟單機器人 — $TRUMP 幣信號 → Binance API
 
-## 重要連結
+## Important Links (重要連結)
 - 線上：https://trumpcode.washinmura.jp
 - GitHub：https://github.com/sstklen/trump-code
 - Devvit App：https://developers.reddit.com/apps/trumpcodegame

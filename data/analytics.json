@@ -1,5 +1,5 @@
 {
-  "total_requests": 12100,
+  "total_requests": 12150,
   "total_unique_ips": 1,
   "daily": {
     "2026-05-03": {
@@ -120,12 +120,12 @@
       }
     },
     "2026-05-16": {
-      "views": 682,
+      "views": 732,
       "unique_ips": [
         "12ca17b49af2"
       ],
       "pages": {
-        "/api/signals": 682
+        "/api/signals": 732
       }
     }
   },
@@ -353,13 +353,14 @@
     "2026-05-16T08": 18,
     "2026-05-16T09": 68,
     "2026-05-16T10": 66,
-    "2026-05-16T11": 48
+    "2026-05-16T11": 71,
+    "2026-05-16T12": 27
   },
   "pages": {
-    "/api/signals": 12100
+    "/api/signals": 12150
   },
   "user_agents": {
     "curl": 2,
-    "Python": 12098
+    "Python": 12148
   }
 }

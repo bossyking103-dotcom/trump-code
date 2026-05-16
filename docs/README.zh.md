@@ -24,7 +24,7 @@
 
 ---
 
-## 這是什麼？
+## What Is This? (這是什麼？)
 
 川普是地球上唯一一個能用一則社群貼文撼動全球市場的人。這個專案用暴力運算的方式，找出他發文行為與股市走勢之間在統計上顯著的規律。
 
@@ -36,7 +36,7 @@
 - **566 筆已驗收預測的命中率達 61.3%**（z=5.39, p<0.05）
 - 閉環系統：預測 → 驗收 → 學習 → 進化 → 每日循環
 
-## 重要發現
+## Key Findings (重要發現)
 
 | # | 發現 | 數據依據 | 市場影響 |
 |---|------|----------|----------|
@@ -49,7 +49,7 @@
 | 7 | **沉默日 = 八成看多** | 零貼文日分析 | 平均 +0.409% |
 | 8 | **深夜關稅推文 = 反指標** | 62% 預測錯 → 反向操作 = 62% 正確 | 自動反轉 |
 
-## 系統架構
+## System Architecture (系統架構)
 
 ```
 川普在 Truth Social 發文
@@ -84,7 +84,7 @@
 └─────────────────────────────────────────────────────┘
 ```
 
-## 模型排行榜
+## Model Rankings (模型排行榜)
 
 11 個命名策略模型，依實際驗收績效排名：
 
@@ -111,7 +111,7 @@
 | X 發文與市場走勢有相關性 | r=0.35 | 他在有把握時才用 X |
 | X 發文當日報酬高出 7 倍 | +0.252% vs +0.037% | X 出現 = 確認訊號 |
 
-## 預測市場整合
+## Prediction Market Integration (預測市場整合)
 
 透過 [Polymarket](https://polymarket.com/search?_q=trump) 即時追蹤川普相關預測市場：
 
@@ -120,7 +120,7 @@
 - 訊號與市場走勢的相關性分析
 - [Kalshi](https://kalshi.com) 跨平台價差偵測
 
-## 即時儀表板
+## Live Dashboard (即時儀表板)
 
 **[→ trumpcode.washinmura.jp](https://trumpcode.washinmura.jp)**
 
@@ -149,7 +149,7 @@ Base URL：`https://trumpcode.washinmura.jp`
 | `GET /api/data/{file}` | 下載原始資料檔案 |
 | `POST /api/chat` | AI 聊天機器人（Gemini Flash） |
 
-## 開放資料
+## Open Data (開放資料)
 
 所有資料 100% 公開。Clone 下來直接用：
 
@@ -170,7 +170,7 @@ Base URL：`https://trumpcode.washinmura.jp`
 | `daily_features.json` | 384 個特徵 × 414 個交易日 | 每日 |
 | `market_SP500.json` | S&P 500 OHLC 歷史資料 | 每日 |
 
-## 快速開始
+## Quick Start (快速開始)
 
 ```bash
 # Clone 專案
@@ -226,7 +226,7 @@ python3 trump_code_cli.py json       # 以 JSON 格式輸出所有資料
 
 共 9 個工具：`signals`、`models`、`predict`、`arbitrage`、`health`、`events`、`dual_platform`、`crowd`、`full_report`
 
-## 一起來貢獻
+## Contribute (一起來貢獻)
 
 **我們需要全世界的眼睛一起盯著這件事。一個團隊解碼不了川普。**
 
@@ -248,7 +248,7 @@ python3 trump_code_cli.py json       # 以 JSON 格式輸出所有資料
 | 辨別貼文是他本人寫的還是幕僚代筆 | 困難 |
 | 分析已刪除貼文及編輯記錄 | 中等 |
 
-## 檔案結構
+## File Structure (檔案結構)
 
 ```
 trump-code/
@@ -283,7 +283,7 @@ trump-code/
 └── tests/                        # 測試套件
 ```
 
-## 免責聲明
+## Disclaimer (免責聲明)
 
 > **僅供研究與教育用途。**
 >
