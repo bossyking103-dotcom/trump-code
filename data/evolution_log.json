@@ -9267,5 +9267,46 @@
         "origin": "distilled"
       }
     ]
+  },
+  {
+    "date": "2026-05-16",
+    "crossover": 16,
+    "mutation": 16,
+    "distill": 16,
+    "total_new": 48,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "is_friday",
+          "kw_oil"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "questions_yes",
+          "kw_thank_you_for_your_attention",
+          "kw_tariffs_2plus"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_economy",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "mutation_remove"
+      }
+    ]
   }
 ]
