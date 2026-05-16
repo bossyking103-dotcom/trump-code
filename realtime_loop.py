@@ -25,12 +25,21 @@ from __future__ import annotations
 import csv
 import html
 import json
+import sys
 import time
 import urllib.request
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Any
+
+# washin_llm 共用 LLM 模組（本機 Opus + Gemini 3 Key）
+sys.path.insert(0, str(Path.home() / "Projects" / "washin-llm"))
+try:
+    from washin_llm import call_ai as _washin_call_ai
+    HAS_WASHIN_LLM = True
+except ImportError:
+    HAS_WASHIN_LLM = False
 
 BASE = Path(__file__).parent
 DATA = BASE / "data"
@@ -392,31 +401,150 @@ SIGNAL_KEYWORDS: dict[str, list[str]] = {
 }
 
 
-def classify_post(content: str) -> list[dict]:
-    """即時分類一篇推文的信號。"""
+def _classify_post_keywords(content: str) -> list[dict]:
+    """關鍵字信號分類（快速 fallback，<1ms）。"""
     cl = content.lower()
     signals = []
 
     for sig_type, keywords in SIGNAL_KEYWORDS.items():
         matched = [kw for kw in keywords if kw in cl]
         if matched:
-            # 信心度根據匹配數量
             confidence = min(0.95, 0.5 + 0.15 * len(matched))
             signals.append({
                 'type': sig_type,
                 'confidence': round(confidence, 2),
                 'matched_keywords': matched,
+                'method': 'keyword',
             })
 
-    # 額外偵測
+    # 情緒強化
     caps_ratio = sum(1 for c in content if c.isupper()) / max(sum(1 for c in content if c.isalpha()), 1)
     excl_count = content.count('!')
     if caps_ratio > 0.3 or excl_count > 3:
-        # 高度情緒化
         for sig in signals:
             sig['confidence'] = min(0.95, sig['confidence'] + 0.1)
 
     return signals
+
+
+def _classify_post_llm(content: str) -> list[dict] | None:
+    """LLM 因果推理分類（深度分析，約 5-15 秒）。
+
+    川普發文 → LLM 分析：
+      1. 他在說什麼（事實提取）
+      2. 為什麼重要（因果推理）
+      3. 對市場的影響（方向預測 + 信心度）
+      4. 跟過去的模式比較
+
+    回傳跟 keyword 版相同格式的 signals list，多一個 reasoning 欄位。
+    失敗回傳 None（讓 caller 用 keyword fallback）。
+    """
+    if not HAS_WASHIN_LLM:
+        return None
+
+    prompt = f"""你是川普推文的市場信號分析師。分析以下推文，判斷對金融市場的影響。
+
+推文內容：
+---
+{content[:500]}
+---
+
+請用 JSON 格式回答（只回 JSON，不要其他文字）：
+{{
+  "signals": [
+    {{
+      "type": "TARIFF|DEAL|RELIEF|ACTION|THREAT|BULLISH|BEARISH",
+      "confidence": 0.0-1.0,
+      "reasoning": "一句話：為什麼這個信號重要、預期影響什麼"
+    }}
+  ],
+  "overall_direction": "UP|DOWN|NEUTRAL",
+  "overall_confidence": 0.0-1.0,
+  "causal_chain": "因為X → 所以Y → 預期Z",
+  "historical_pattern": "跟過去哪個事件類似（如果有的話）"
+}}
+
+信號類型說明：
+- TARIFF：關稅相關（提高/新增/威脅），通常利空
+- DEAL：談判/簽約/達成協議，通常利多
+- RELIEF：暫緩/豁免/延期，通常利多
+- ACTION：即刻行動/行政命令/已簽署，影響大但方向不定
+- THREAT：制裁/封鎖/報復，通常利空
+- BULLISH：正面經濟評論/股市創高，利多
+- BEARISH：負面經濟評論/災難描述，利空
+
+如果推文跟市場無關（日常問候、攻擊政敵但不涉經濟），signals 給空陣列。
+confidence 越高代表信號越明確。普通推文 0.3-0.5，明確政策宣布 0.7-0.9。"""
+
+    try:
+        result = _washin_call_ai(prompt, json_mode=True, max_tokens=800, temperature=0.2)
+        if not result.ok:
+            log(f"   ⚠️ LLM 分類失敗: {result.error[:80]}")
+            return None
+
+        data = result.json()
+        if not data or 'signals' not in data:
+            log(f"   ⚠️ LLM 回傳格式不正確")
+            return None
+
+        # 轉換成跟 keyword 版相同的格式
+        signals = []
+        valid_types = {'TARIFF', 'DEAL', 'RELIEF', 'ACTION', 'THREAT', 'BULLISH', 'BEARISH'}
+        for s in data['signals']:
+            sig_type = str(s.get('type', '')).upper()
+            if sig_type not in valid_types:
+                continue
+            confidence = max(0.1, min(0.95, float(s.get('confidence', 0.5))))
+            signals.append({
+                'type': sig_type,
+                'confidence': round(confidence, 2),
+                'reasoning': str(s.get('reasoning', ''))[:200],
+                'method': 'llm',
+                'llm_model': result.model,
+            })
+
+        # 附加 LLM 的整體判斷
+        if signals:
+            signals[0]['causal_chain'] = str(data.get('causal_chain', ''))[:300]
+            signals[0]['historical_pattern'] = str(data.get('historical_pattern', ''))[:200]
+            signals[0]['llm_direction'] = data.get('overall_direction', 'NEUTRAL')
+            signals[0]['llm_confidence'] = max(0.1, min(0.95, float(data.get('overall_confidence', 0.5))))
+
+        log(f"   🧠 LLM 分類完成: {len(signals)} 信號 ({result.model}, {result.elapsed_ms}ms)")
+        return signals
+
+    except Exception as e:
+        log(f"   ⚠️ LLM 分類例外: {e}")
+        return None
+
+
+def classify_post(content: str) -> list[dict]:
+    """即時分類一篇推文的信號。
+
+    策略：LLM 推理優先 → 關鍵字 fallback。
+    LLM 提供因果推理（為什麼→影響→預測），關鍵字提供速度保障。
+    兩者都跑時，取 LLM 結果但用關鍵字交叉驗證。
+    """
+    # 先跑關鍵字（<1ms，永遠有結果）
+    kw_signals = _classify_post_keywords(content)
+
+    # 再跑 LLM 推理（5-15 秒，可能失敗）
+    llm_signals = _classify_post_llm(content)
+
+    if llm_signals is not None:
+        # LLM 成功：用 LLM 結果，但用關鍵字交叉驗證
+        kw_types = {s['type'] for s in kw_signals}
+        for sig in llm_signals:
+            if sig['type'] in kw_types:
+                # 關鍵字也偵測到 → 信心度加成
+                sig['confidence'] = min(0.95, sig['confidence'] + 0.1)
+                sig['cross_validated'] = True
+            else:
+                sig['cross_validated'] = False
+        return llm_signals
+    else:
+        # LLM 失敗：用關鍵字結果
+        return kw_signals
 
 
 # =====================================================================
@@ -492,6 +620,41 @@ def snapshot_sp500() -> dict[str, Any]:
     except ImportError:
         return {'error': 'yfinance not installed', 'timestamp': now_str()}
     except Exception as e:
+        return {'error': str(e), 'timestamp': now_str()}
+
+
+def snapshot_trump_coin() -> dict[str, Any]:
+    """
+    即時抓 $TRUMP 幣（Official Trump）的價格。
+    CoinGecko Free API，不需 API key。
+    """
+    try:
+        url = (
+            'https://api.coingecko.com/api/v3/simple/price'
+            '?ids=official-trump'
+            '&vs_currencies=usd'
+            '&include_24hr_change=true'
+            '&include_market_cap=true'
+        )
+        req = urllib.request.Request(url, headers={
+            'User-Agent': 'TrumpCode-RT/1.0',
+        })
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.load(resp)
+
+        coin = data.get('official-trump', {})
+        price = coin.get('usd')
+        if price is None:
+            return {'error': 'no price data', 'timestamp': now_str()}
+
+        return {
+            'price': round(float(price), 4),
+            'change_24h': round(float(coin.get('usd_24h_change', 0)), 2),
+            'market_cap': round(float(coin.get('usd_market_cap', 0)), 0),
+            'timestamp': now_str(),
+        }
+    except Exception as e:
+        log(f"   ⚠️ $TRUMP 幣價快照失敗: {e}")
         return {'error': str(e), 'timestamp': now_str()}
 
 
@@ -576,6 +739,7 @@ def make_prediction(
     signals: list[dict],
     pm_snapshot: dict,
     stock_snapshot: dict | None = None,
+    coin_snapshot: dict[str, Any] | None = None,
 ) -> dict[str, Any] | None:
     """
     根據推文信號 + PM 價格 + 美股價格，做出即時雙軌預測。
@@ -664,6 +828,13 @@ def make_prediction(
         'pm_vs_stock_divergence': None,  # PM 和美股反應是否不同
         'divergence_detail': None,       # 具體差異
 
+        # $TRUMP 幣軌
+        'trump_coin_at_signal': coin_snapshot.get('price') if coin_snapshot and 'price' in coin_snapshot else None,
+        'trump_coin_24h_change': coin_snapshot.get('change_24h') if coin_snapshot and 'change_24h' in coin_snapshot else None,
+        'trump_coin_verify_1h': None,
+        'trump_coin_verify_3h': None,
+        'trump_coin_verify_6h': None,
+
         'status': 'LIVE',
     }
 
@@ -695,6 +866,10 @@ def verify_predictions() -> dict[str, Any]:
         api_ok = True
     except ImportError:
         api_ok = False
+
+    # 抓一次 $TRUMP 幣價，所有預測共用（避免 rate limit）
+    coin_now = snapshot_trump_coin()
+    coin_price_now = coin_now.get('price')
 
     verified_count = 0
     correct_1h = 0
@@ -749,6 +924,8 @@ def verify_predictions() -> dict[str, Any]:
                 pred['pm_correct_1h'] = avg_pm_change > 0
             elif direction == 'DOWN':
                 pred['pm_correct_1h'] = avg_pm_change < 0
+            if coin_price_now and pred.get('trump_coin_verify_1h') is None:
+                pred['trump_coin_verify_1h'] = coin_price_now
 
         if hours_elapsed >= 3 and pred.get('pm_verify_3h') is None:
             pred['pm_verify_3h'] = round(avg_pm_change, 4)
@@ -756,6 +933,8 @@ def verify_predictions() -> dict[str, Any]:
                 pred['pm_correct_3h'] = avg_pm_change > 0
             elif direction == 'DOWN':
                 pred['pm_correct_3h'] = avg_pm_change < 0
+            if hours_elapsed >= 3 and coin_price_now and pred.get('trump_coin_verify_3h') is None:
+                pred['trump_coin_verify_3h'] = coin_price_now
 
         # --- 美股軌驗證 ---
         spy_at = pred.get('spy_at_signal')
@@ -817,6 +996,8 @@ def verify_predictions() -> dict[str, Any]:
         # 持續追蹤：6h / 12h / 24h / 48h（川普效應最長好幾天）
         if hours_elapsed >= 6 and pred.get('pm_verify_6h') is None:
             pred['pm_verify_6h'] = round(avg_pm_change, 4)
+            if hours_elapsed >= 6 and coin_price_now and pred.get('trump_coin_verify_6h') is None:
+                pred['trump_coin_verify_6h'] = coin_price_now
 
         if hours_elapsed >= 12 and pred.get('pm_verify_12h') is None:
             pred['pm_verify_12h'] = round(avg_pm_change, 4)
@@ -995,10 +1176,14 @@ def run_once() -> dict[str, Any]:
         # 2. 同時快照 PM 價格 + 美股
         pm_snapshot = snapshot_pm_prices()
         stock_snapshot = snapshot_sp500()
+        coin_snapshot = snapshot_trump_coin()
+        if coin_snapshot.get('price'):
+            log(f"   🪙 $TRUMP: ${coin_snapshot['price']:.2f} ({coin_snapshot.get('change_24h', 0):+.1f}%)")
         if stock_snapshot.get('spy_price'):
             log(f"   📈 SPY: ${stock_snapshot['spy_price']} ({stock_snapshot.get('spy_change_pct', 0):+.2f}%)"
                 f" | ES: ${stock_snapshot.get('es_futures', '?')}"
                 f" | VIX: {stock_snapshot.get('vix', '?')} ({stock_snapshot.get('vix_level', '?')})")
+
 
         # 3. 對每篇新推文做即時預測
         predictions: list[dict] = []
@@ -1014,7 +1199,7 @@ def run_once() -> dict[str, Any]:
                 sig_str = ', '.join(f"{s['type']}({s['confidence']:.0%})" for s in signals)
                 log(f"      信號: {sig_str}")
 
-                pred = make_prediction(post, signals, pm_snapshot, stock_snapshot)
+                pred = make_prediction(post, signals, pm_snapshot, stock_snapshot, coin_snapshot)
                 if pred:
                     predictions.append(pred)
                     result['predictions_made'] += 1
@@ -1078,6 +1263,48 @@ def run_once() -> dict[str, Any]:
         pass
     except Exception as e:
         log(f"   事件偵測失敗: {e}")
+
+    # 2.5 保存 $TRUMP 幣價歷史（每輪都跑，不管有沒有新推文）
+    coin_snapshot = snapshot_trump_coin()
+    if coin_snapshot.get('price'):
+        log(f"   🪙 $TRUMP: ${coin_snapshot['price']:.2f} ({coin_snapshot.get('change_24h', 0):+.1f}%)")
+        try:
+            coin_hist_file = DATA / "trump_coin_history.json"
+            coin_hist = []
+            if coin_hist_file.exists():
+                with open(coin_hist_file, encoding="utf-8") as _f:
+                    coin_hist = json.load(_f)
+            should_save = True
+            if coin_hist:
+                last_ts = coin_hist[-1].get("timestamp", "")
+                if last_ts[:13] == coin_snapshot.get("timestamp", "")[:13]:
+                    should_save = False
+            if should_save:
+                coin_hist.append({
+                    "price": coin_snapshot["price"],
+                    "change_24h": coin_snapshot.get("change_24h", 0),
+                    "market_cap": coin_snapshot.get("market_cap", 0),
+                    "timestamp": coin_snapshot.get("timestamp", now_str()),
+                    "date": now_str()[:10],
+                })
+                coin_hist = coin_hist[-720:]
+                with open(coin_hist_file, "w", encoding="utf-8") as _f:
+                    json.dump(coin_hist, _f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            log(f"   ⚠️ 幣價歷史存檔失敗: {e}")
+
+    # 2.6 保存 Polymarket 快照（每輪都跑）
+    pm_snapshot = snapshot_pm_prices()
+    if pm_snapshot and pm_snapshot.get('markets'):
+        try:
+            pm_file = DATA / "polymarket_live.json"
+            pm_snapshot["updated"] = now_str()
+            pm_snapshot["total"] = len(pm_snapshot.get("markets", []))
+            with open(pm_file, "w", encoding="utf-8") as _f:
+                json.dump(pm_snapshot, _f, ensure_ascii=False, indent=2)
+            log(f"   📊 Polymarket: {pm_snapshot['total']} 個市場已更新")
+        except Exception as e:
+            log(f"   ⚠️ Polymarket 快照存檔失敗: {e}")
 
     # 5. 驗證過去的預測
     verify_result = verify_predictions()

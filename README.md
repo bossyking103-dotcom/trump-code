@@ -1,5 +1,10 @@
 <div align="center">
 
+> 🐱 **[cat Treehouse](https://github.com/sstklen/cat-treehouse)** — Win a treehouse stay in Japan for you + 3 friends. Your GitHub stars are your lottery tickets. **一人中獎，四人同行。**
+> [Enter the Draw →](https://github.com/sstklen/cat-treehouse/issues/new?template=enter.yml)
+
+---
+
 # 🔐 TRUMP CODE
 
 **AI-powered cryptanalysis of presidential communications × stock market impact.**
@@ -9,6 +14,7 @@
 [![Live Dashboard](https://img.shields.io/badge/🌐_LIVE_DASHBOARD-trumpcode.washinmura.jp-FFD700?style=for-the-badge&labelColor=FFD700&logoColor=black)](https://trumpcode.washinmura.jp)
 [![GitHub Stars](https://img.shields.io/github/stars/sstklen/trump-code?style=for-the-badge&logo=github&color=FFD700)](https://github.com/sstklen/trump-code)
 
+[![📊 Daily Analysis](https://img.shields.io/badge/📊_Daily_Analysis-三語每日分析-4a9eff?style=for-the-badge&labelColor=2563eb&logoColor=white)](https://trumpcode.washinmura.jp/daily.html)
 [![Buy Me a Claude Max](https://img.shields.io/badge/☕_Buy_Me_a_Claude_Max_→_Support_This_Project-FFD700?style=for-the-badge&labelColor=FFD700&logoColor=black)](https://buy.stripe.com/5kQ6oI8Wk2Ui6Q3aww4c80r)
 
 [![Models Tested](https://img.shields.io/badge/Models_Tested-31.5M-FF0000?style=flat-square)](data/surviving_rules.json)
@@ -19,6 +25,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 *Can you decode the President's posts before the market moves?*
+
+📰 **[ABMedia: 把川普納入投資模型？台灣創業家開源「Trump Code」分析美股，命中率超過六成](https://abmedia.io/tk-lin-donald-trump-code-trade)**
 
 [中文版](docs/README.zh.md) · [日本語版](docs/README.ja.md)
 
