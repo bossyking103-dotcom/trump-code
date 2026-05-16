@@ -1,107 +1,42 @@
 {
-  "date": "2026-05-15",
-  "prepared_at": "2026-05-15T21:51:54Z",
+  "date": "2026-05-16",
+  "prepared_at": "2026-05-16T05:47:33Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "FREE TINA!",
-    "earliest_time": "2026-05-15T08:52:31.777Z",
-    "latest_time": "2026-05-15T21:03:42.540Z",
+    "count": 4,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116582175749655803",
+    "earliest_time": "2026-05-16T03:22:08.487Z",
+    "latest_time": "2026-05-16T03:40:44.285Z",
     "sample": [
       {
-        "time": "08:52",
-        "text": "I am proud to announce the site of the NATIONAL GARDEN OF AMERICAN HEROES. This magnificent exhibition of statues will be located in West Potomac Park, which we are transforming into one of the World's most beautiful public spaces. Right now, it is a totally BARREN field of Prime Waterfront Real Est"
+        "time": "03:22",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116582102435100568"
       },
       {
-        "time": "09:01",
-        "text": "Congratulations to Rachel Campos-Duffy on her new book, \"All American Patriotism: Celebrating 250 Years of America's Greatness!\" By sharing personal stories of Patriotism, along with those of her FOX colleagues, Rachel reveals the true Spirit of the U.S.A., how to end this crazy and wrong hatred for"
+        "time": "03:31",
+        "text": "Tonight, at my direction, brave American forces and the Armed Forces of Nigeria flawlessly executed a meticulously planned and very complex mission to eliminate the most active terrorist in the world from the battlefield. Abu-Bilal al-Minuki, second in command of ISIS globally, thought he could hide"
       },
       {
-        "time": "09:52",
-        "text": "This is a statue, now standing at Doral, that was commissioned by a large group of political supporters who just wanted a statue of yours truly. I very much appreciate their support, and all that they went through to get it done! They are very good people. Those playing the Blue Monster, at Doral, a"
+        "time": "03:33",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116582147871969484"
       },
       {
-        "time": "10:04",
-        "text": "China has a Ballroom, and so should the U.S.A.! It's under construction, ahead of schedule, and will be the finest facility of its kind anywhere in the U.S.A. Thank you for all the support I have been given in getting this project going. Scheduled opening will be around September of 2028. The man I "
-      },
-      {
-        "time": "14:00",
-        "text": "Highly Respected America First Congresswoman, Julia Letlow, of the wonderful State of Louisiana, is a Great Star, has been from the very beginning, and only gets better! Julia is running for the United States Senate in Louisiana, a place I love and WON BIG, six times, including Primaries, in 2016, 2"
-      },
-      {
-        "time": "15:24",
-        "text": "Henry Clay and the architecture of American strength: https://www.washingtontimes.com/news/2026/apr/14/henry-clay-architecture-american-strength/"
-      },
-      {
-        "time": "21:03",
-        "text": "FREE TINA!"
+        "time": "03:40",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116582175749655803"
       }
     ]
   },
-  "keyword_signals": [
-    "CHINA"
-  ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_long": true,
-    "caps_medium": true,
-    "excl_heavy": true,
+    "posts_1_5": true,
+    "avg_len_medium": true,
+    "caps_low": true,
+    "excl_none": true,
     "questions_no": true,
-    "mostly_premarket": true,
-    "kw_china": true,
-    "pre_china": true,
-    "kw_dow": true,
-    "open_dow": true,
-    "kw_economy": true,
-    "open_economy": true,
-    "kw_oil": true,
-    "open_oil": true,
-    "kw_gas": true,
-    "open_gas": true,
-    "kw_energy": true,
-    "open_energy": true,
+    "has_night": true,
+    "heavy_night": true,
     "kw_great": true,
-    "kw_great_2plus": true,
-    "pre_great": true,
-    "open_great": true,
-    "kw_beautiful": true,
-    "pre_beautiful": true,
-    "kw_amazing": true,
-    "open_amazing": true,
-    "kw_fantastic": true,
-    "pre_fantastic": true,
-    "kw_wonderful": true,
-    "open_wonderful": true,
-    "kw_america_first": true,
-    "open_america_first": true,
-    "kw_president_djt": true,
-    "pre_president_djt": true,
-    "kw_never_let_you_down": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "open_complete_and_total": true,
-    "is_friday": true,
-    "volume_falling_3d": true
-  },
-  "triggered_rules": {
-    "total": 1,
-    "long": 1,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0020",
-        "features": [
-          "is_friday",
-          "kw_china",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "is_weekend": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -210,28 +145,27 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-05-15",
+    "date": "2026-05-16",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_signed",
-          "kw_tariff"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.6,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_tariffs",
-          "kw_thank_you_for_your_attention",
-          "open_inflation"
+          "open_china",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
