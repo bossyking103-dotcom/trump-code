@@ -9595,5 +9595,47 @@
         "origin": "distilled"
       }
     ]
+  },
+  {
+    "date": "2026-05-17",
+    "crossover": 16,
+    "mutation": 13,
+    "distill": 16,
+    "total_new": 45,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "volume_falling_3d",
+          "kw_beautiful",
+          "kw_deal"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 94.4,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_economy",
+          "open_tariff",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_thank_you_for_your_attention",
+          "open_inflation"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "crossover"
+      }
+    ]
   }
 ]
