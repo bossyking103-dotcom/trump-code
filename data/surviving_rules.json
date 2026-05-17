@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-17T05:45:20Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-05-17T08:45:27Z",
+    "evolved_rules_added": 47
   },
   "rules": [
     {
@@ -13349,6 +13349,28 @@
     },
     {
       "features": [
+        "kw_tremendous",
+        "kw_beautiful",
+        "mostly_after"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "9daa002b1104",
+      "n_cond": 3,
+      "train_trades": 6,
+      "train_win_rate": 100.0,
+      "train_avg": 0.612,
+      "test_trades": 4,
+      "test_win_rate": 100.0,
+      "test_avg": 1.079,
+      "combined_score": 100.0,
+      "origin": "mutation_replace",
+      "born_date": "2026-05-17",
+      "weight": 1.0,
+      "parent": "kw_beautiful+kw_interest_rate+kw_tremendous"
+    },
+    {
+      "features": [
         "kw_maga",
         "open_ukraine"
       ],
@@ -14240,7 +14262,12 @@
       "parents": [
         "excl_heavy+kw_economy",
         "kw_india+kw_never_let_you_down"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14850,36 +14877,6 @@
       "born_date": "2026-04-09",
       "weight": 1.0,
       "parent": "kw_tariffs_2plus+open_thank_you_for_your_attention+volume_falling_3d",
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_tremendous",
-        "kw_signed",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "bb82c23558f4",
-      "n_cond": 3,
-      "train_trades": 6,
-      "train_win_rate": 83.3,
-      "train_avg": 1.176,
-      "test_trades": 3,
-      "test_win_rate": 100.0,
-      "test_avg": 1.278,
-      "combined_score": 91.7,
-      "origin": "crossover",
-      "born_date": "2026-04-09",
-      "weight": 1.0,
-      "parents": [
-        "kw_energy+kw_perfect",
-        "is_friday+kw_signed"
-      ],
       "learn_stats": {
         "correct": 0,
         "wrong": 0,
