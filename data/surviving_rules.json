@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-17T14:45:37Z",
+    "last_evolution": "2026-05-17T20:53:45Z",
     "evolved_rules_added": 45
   },
   "rules": [
@@ -13743,7 +13743,12 @@
       "parents": [
         "kw_deal+kw_disaster",
         "kw_beautiful+open_tariffs"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [

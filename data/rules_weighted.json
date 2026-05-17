@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-17T14:45:37Z",
+    "updated_at": "2026-05-17T20:53:44Z",
     "total_rules": 601,
     "eliminated": 0,
     "rules_with_data": 0
@@ -13741,6 +13741,36 @@
     },
     {
       "features": [
+        "volume_falling_3d",
+        "kw_beautiful",
+        "kw_deal"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "caf520638b50",
+      "n_cond": 3,
+      "train_trades": 9,
+      "train_win_rate": 88.9,
+      "train_avg": 1.762,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.891,
+      "combined_score": 94.4,
+      "origin": "crossover",
+      "born_date": "2026-05-17",
+      "weight": 1.0,
+      "parents": [
+        "kw_deal+kw_disaster",
+        "kw_beautiful+open_tariffs"
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
+    },
+    {
+      "features": [
         "open_energy",
         "kw_thank_you_for_your_attention"
       ],
@@ -14871,35 +14901,6 @@
       "parents": [
         "kw_trade+open_inflation",
         "kw_biden+kw_india"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_oil"
-      ],
-      "direction": "LONG",
-      "hold": 1,
-      "id": "5483466f3955",
-      "n_cond": 2,
-      "train_trades": 6,
-      "train_win_rate": 83.3,
-      "train_avg": 0.717,
-      "test_trades": 3,
-      "test_win_rate": 100.0,
-      "test_avg": 0.789,
-      "combined_score": 91.7,
-      "origin": "crossover",
-      "born_date": "2026-04-09",
-      "weight": 1.0,
-      "parents": [
-        "kw_deal+kw_hereby",
-        "is_friday+kw_tremendous"
       ],
       "learn_stats": {
         "correct": 0,

@@ -2663,5 +2663,17 @@
       "CHINA"
     ],
     "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-05-17",
+    "posts": 10,
+    "triggered": 1,
+    "long": 0,
+    "short": 1,
+    "signals": [
+      "CHINA",
+      "IRAN"
+    ],
+    "consensus": "BEARISH"
   }
 ]
