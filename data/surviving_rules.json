@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-17T08:45:27Z",
-    "evolved_rules_added": 47
+    "last_evolution": "2026-05-17T11:45:15Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -13367,7 +13367,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-05-17",
       "weight": 1.0,
-      "parent": "kw_beautiful+kw_interest_rate+kw_tremendous"
+      "parent": "kw_beautiful+kw_interest_rate+kw_tremendous",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14656,6 +14661,28 @@
     },
     {
       "features": [
+        "caps_medium",
+        "kw_president_of_the_united_states",
+        "kw_never_let_you_down"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "id": "362209af17c4",
+      "n_cond": 3,
+      "train_trades": 7,
+      "train_win_rate": 85.7,
+      "train_avg": 0.829,
+      "test_trades": 6,
+      "test_win_rate": 100.0,
+      "test_avg": 0.823,
+      "combined_score": 92.9,
+      "origin": "mutation_replace",
+      "born_date": "2026-05-17",
+      "weight": 1.0,
+      "parent": "kw_india+kw_never_let_you_down+kw_president_of_the_united_states"
+    },
+    {
+      "features": [
         "kw_europe",
         "kw_thank_you_for_your_attention"
       ],
@@ -14850,33 +14877,6 @@
         "kw_deal+kw_hereby",
         "is_friday+kw_tremendous"
       ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "volume_falling_3d",
-        "kw_trade",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "id": "6187edd8789f",
-      "n_cond": 3,
-      "train_trades": 6,
-      "train_win_rate": 83.3,
-      "train_avg": 1.164,
-      "test_trades": 4,
-      "test_win_rate": 100.0,
-      "test_avg": 0.976,
-      "combined_score": 91.7,
-      "origin": "mutation_replace",
-      "born_date": "2026-04-09",
-      "weight": 1.0,
-      "parent": "kw_tariffs_2plus+open_thank_you_for_your_attention+volume_falling_3d",
       "learn_stats": {
         "correct": 0,
         "wrong": 0,
