@@ -1,91 +1,65 @@
 {
-  "date": "2026-05-16",
-  "prepared_at": "2026-05-16T20:45:24Z",
+  "date": "2026-05-17",
+  "prepared_at": "2026-05-17T05:45:20Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 21,
-    "latest": "A Great Honor to be with a Leader who is respected by all! President DONALD J. TRUMP",
-    "earliest_time": "2026-05-16T03:22:08.487Z",
-    "latest_time": "2026-05-16T17:00:04.401Z",
+    "count": 5,
+    "latest": "A BIG NIGHT IN POLITICS. THANK YOU TO ALL! President DONALD J. TRUMP",
+    "earliest_time": "2026-05-17T02:43:54.687Z",
+    "latest_time": "2026-05-17T04:54:13.512Z",
     "sample": [
       {
-        "time": "13:41",
-        "text": "THE SAVE AMERICA ACT MUST BE PASSED, NOW. Use the Housing and FISA Bills to get it done! Maryland just had 500,000 Fake Mail-In Ballots revealed. We cannot, as a Country, put up with this any longer!!! Voter I.D., and Proof of Citizenship, must be approved, NOW. Crooked Mail-In Voting must be stoppe"
+        "time": "02:43",
+        "text": "Congratulations to Congresswoman Julia Letlow on a fantastic race, beating an Incumbent Senator by Record Setting Numbers. This is the first time in History that a sitting Senator has lost by such large numbers in a Primary, unable to even go forward. Julia Letlow is a fantastic person and, after ta"
       },
       {
-        "time": "13:58",
-        "text": "Failed New York State Governor Kathy Hochul, a Dumacrat, just blamed ME for her Long Island Railroad STRIKE, when she knows, full well, that I have NOTHING TO DO WITH IT - never even heard about it until this morning. She just blurted out, \"it's President Trump's fault.\" No, Kathy, it's your fault, "
+        "time": "02:52",
+        "text": "Bill Cassidy, after falsely using his \"relationship\" with me during his political career, and winning Elections because of it, voted to impeach me on preposterous charges that were fake then, and now, are criminally insane! His disloyalty to the man who got him elected is now a part of legend, and i"
       },
       {
-        "time": "14:03",
-        "text": "No games!!! Watch what's next on your favorite subject! President DJT"
+        "time": "04:12",
+        "text": "Great victory speech tonight by Julia!!! President DJThttps://www.youtube.com/watch?v=299wWZKTdus"
       },
       {
-        "time": "14:03",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116584624895292658"
+        "time": "04:40",
+        "text": "Tom Massie of Kentucky, the worst and most unreliable Republican Congressman in the history of our Country, is an even bigger insult to our Nation than Senator Bill Cassidy of Louisiana, who suffered an unprecedented loss tonight by not even being allowed to run in the Republican Primary. This is th"
       },
       {
-        "time": "15:16",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116584909715284014"
-      },
-      {
-        "time": "15:18",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116584918663563894"
-      },
-      {
-        "time": "15:38",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116584998513616323This is so cool. Watch! President DJT"
-      },
-      {
-        "time": "16:55",
-        "text": "The Reflecting Pool between the Lincoln Memorial and the Washington Monument, approximately 2,030 feet, versus the tallest buildings in the U.S.A. Obama and Biden spent more than 100 Million Dollars trying to fix it. The estimated cost of their \"fix up\" was 355 Million Dollars. I am in construction "
-      },
-      {
-        "time": "16:58",
-        "text": "The old, broken, slate floor on the Walkway going to the Oval Office from the White House. The new granite floor replacing the old slate going to the Oval! President DONALD J. TRUMP"
-      },
-      {
-        "time": "17:00",
-        "text": "A Great Honor to be with a Leader who is respected by all! President DONALD J. TRUMP"
+        "time": "04:54",
+        "text": "A BIG NIGHT IN POLITICS. THANK YOU TO ALL! President DONALD J. TRUMP"
       }
     ]
   },
   "today_features": {
-    "posts_21_35": true,
-    "avg_len_medium": true,
+    "posts_1_5": true,
+    "avg_len_long": true,
     "caps_medium": true,
     "excl_heavy": true,
-    "questions_no": true,
+    "mostly_premarket": true,
     "has_night": true,
-    "heavy_night": true,
     "kw_dow": true,
+    "kw_dow_2plus": true,
     "pre_dow": true,
-    "kw_billion": true,
-    "pre_billion": true,
+    "kw_energy": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
-    "open_great": true,
+    "kw_fantastic": true,
+    "kw_fantastic_2plus": true,
+    "pre_fantastic": true,
     "kw_fake": true,
-    "open_fake": true,
     "kw_terrible": true,
     "pre_terrible": true,
-    "kw_disaster": true,
-    "pre_disaster": true,
-    "kw_biden": true,
-    "kw_biden_2plus": true,
-    "pre_biden": true,
-    "open_biden": true,
-    "kw_obama": true,
-    "open_obama": true,
-    "kw_save_america": true,
-    "open_save_america": true,
+    "kw_worst": true,
+    "pre_worst": true,
     "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "open_president_djt": true,
+    "pre_president_djt": true,
     "kw_never_let_you_down": true,
+    "kw_never_let_you_down_2plus": true,
     "pre_never_let_you_down": true,
-    "is_weekend": true
+    "is_weekend": true,
+    "volume_rising_3d": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -194,44 +168,44 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-05-16",
+    "date": "2026-05-17",
     "crossover": 16,
-    "mutation": 15,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tremendous",
-          "kw_thank_you_for_your_attention",
-          "kw_tariffs",
+          "kw_president_of_the_united_states",
+          "kw_economy",
+          "kw_never_let_you_down"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 93.8,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_tariff_2plus",
           "is_friday"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 100.0,
+        "score": 90.9,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "open_dow",
+          "kw_economy",
+          "is_friday"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
         "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "distilled"
       }
     ]
   },
