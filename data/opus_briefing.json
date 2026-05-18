@@ -1,21 +1,13 @@
 {
-  "date": "2026-05-17",
-  "prepared_at": "2026-05-17T20:53:46Z",
+  "date": "2026-05-18",
+  "prepared_at": "2026-05-18T05:45:35Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 10,
-    "latest": "Third Rate Congressman Thomas Massie, a Weak and Pathetic RINO from the Great Commonwealth of Kentucky, a place I love, and won big SIX TIMES, including all Primaries, must be thrown out of office, AS",
+    "count": 12,
+    "latest": "Exclusive — Greek Energy Minister: Trump's 'Trademark Move' with Allies and Adversaries Alike Is Energy Diplomacy: https://www.breitbart.com/politics/2026/05/17/exclusive-greek-energy-minister-trumps-",
     "earliest_time": "2026-05-17T02:43:54.687Z",
-    "latest_time": "2026-05-17T20:17:00.494Z",
+    "latest_time": "2026-05-17T20:54:42.624Z",
     "sample": [
-      {
-        "time": "02:43",
-        "text": "Congratulations to Congresswoman Julia Letlow on a fantastic race, beating an Incumbent Senator by Record Setting Numbers. This is the first time in History that a sitting Senator has lost by such large numbers in a Primary, unable to even go forward. Julia Letlow is a fantastic person and, after ta"
-      },
-      {
-        "time": "02:52",
-        "text": "Bill Cassidy, after falsely using his \"relationship\" with me during his political career, and winning Elections because of it, voted to impeach me on preposterous charges that were fake then, and now, are criminally insane! His disloyalty to the man who got him elected is now a part of legend, and i"
-      },
       {
         "time": "04:12",
         "text": "Great victory speech tonight by Julia!!! President DJThttps://www.youtube.com/watch?v=299wWZKTdus"
@@ -45,8 +37,16 @@
         "text": "https://truthsocial.com/@realDonaldTrump/116584918663563894."
       },
       {
+        "time": "16:54",
+        "text": "Exclusive — Greek Energy Minister: Trump’s ‘Trademark Move’ with Allies and Adversaries Alike Is Energy Diplomacy: https://www.breitbart.com/politics/2026/05/17/exclusive-greek-energy-minister-trumps-trademark-move-with-allies-and-adversaries-alike-is-energy-diplomacy/"
+      },
+      {
         "time": "20:17",
         "text": "Third Rate Congressman Thomas Massie, a Weak and Pathetic RINO from the Great Commonwealth of Kentucky, a place I love, and won big SIX TIMES, including all Primaries, must be thrown out of office, ASAP! He is the Worst \"Republican\" Congressman in History, voting against Tax Cuts, the Wall, Law Enfo"
+      },
+      {
+        "time": "20:54",
+        "text": "Exclusive — Greek Energy Minister: Trump's 'Trademark Move' with Allies and Adversaries Alike Is Energy Diplomacy: https://www.breitbart.com/politics/2026/05/17/exclusive-greek-energy-minister-trumps-trademark-move-with-allies-and-adversaries-alike-is-energy-diplomacy/"
       }
     ]
   },
@@ -55,11 +55,14 @@
     "IRAN"
   ],
   "today_features": {
-    "posts_6_10": true,
+    "posts_11_20": true,
     "avg_len_long": true,
     "caps_high": true,
     "excl_heavy": true,
     "has_night": true,
+    "kw_trade": true,
+    "kw_trade_2plus": true,
+    "open_trade": true,
     "kw_effective": true,
     "kw_china": true,
     "pre_china": true,
@@ -70,6 +73,7 @@
     "pre_dow": true,
     "kw_energy": true,
     "kw_energy_2plus": true,
+    "open_energy": true,
     "kw_jobs": true,
     "kw_great": true,
     "kw_great_2plus": true,
@@ -229,13 +233,34 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-05-17",
+    "date": "2026-05-18",
     "crossover": 16,
-    "mutation": 13,
+    "mutation": 8,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 40,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "open_china",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_signed",
+          "open_dow",
+          "volume_spike"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -244,26 +269,6 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
         "origin": "distilled"
       }
     ]
@@ -280,7 +285,7 @@
     "DEAL_ONLY": 0.65
   },
   "prediction_market": {
-    "date": "2026-05-17",
+    "date": "2026-05-18",
     "signals": [
       "CHINA",
       "IRAN"
