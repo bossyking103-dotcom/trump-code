@@ -755,18 +755,7 @@ def main():
             for m in anti:
                 log(f"   🔄 反指標模型: {m['model']} 錯誤率 {m['error_rate']}% → 建議反向")
         # 如果系統暫停或全錯，發送緊急通知
-        if should_pause or breaker_result.get('all_might_be_wrong'):
-            log("🚨 熔斷觸發：發送緊急通知...")
-            try:
-                import urllib.request
-                token = "7208594181:AAHaT1wAO_YCQGzmO-aOWlyJ5f_CA8T7rf4"
-                chat_id = "721694149"
-                msg = f"🚨 川普密碼熔斷觸發！\n狀態: {status}\n行動: {action}\n日期: {TODAY}"
-                url = f"https://api.telegram.org/bot{token}/sendMessage?chat_id={chat_id}&text={urllib.parse.quote(msg)}"
-                urllib.request.urlopen(url, timeout=10)
-                log("   通知已發送")
-            except Exception as ne:
-                log(f"   通知發送失敗: {ne}")
+                    # 熔斷通知已停用（不使用外部Bot Token）
     except ImportError:
         log("   circuit_breaker 不存在，跳過")
     except Exception as e:
