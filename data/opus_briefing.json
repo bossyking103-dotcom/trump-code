@@ -1,130 +1,44 @@
 {
-  "date": "2026-05-18",
-  "prepared_at": "2026-05-18T05:45:35Z",
+  "date": "2026-05-24",
+  "prepared_at": "2026-05-24T05:48:29Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 12,
-    "latest": "Exclusive — Greek Energy Minister: Trump's 'Trademark Move' with Allies and Adversaries Alike Is Energy Diplomacy: https://www.breitbart.com/politics/2026/05/17/exclusive-greek-energy-minister-trumps-",
-    "earliest_time": "2026-05-17T02:43:54.687Z",
-    "latest_time": "2026-05-17T20:54:42.624Z",
+    "count": 4,
+    "latest": "\"Birthright Citizenship is suicide for our Country!\" Mark Levin",
+    "earliest_time": "2026-05-24T01:09:00.000Z",
+    "latest_time": "2026-05-24T05:09:41.380Z",
     "sample": [
       {
-        "time": "04:12",
-        "text": "Great victory speech tonight by Julia!!! President DJThttps://www.youtube.com/watch?v=299wWZKTdus"
+        "time": "01:09",
+        "text": "“Birthright Citizenship is suicide for our Country!” Mark Levin"
       },
       {
-        "time": "04:40",
-        "text": "Tom Massie of Kentucky, the worst and most unreliable Republican Congressman in the history of our Country, is an even bigger insult to our Nation than Senator Bill Cassidy of Louisiana, who suffered an unprecedented loss tonight by not even being allowed to run in the Republican Primary. This is th"
+        "time": "01:59",
+        "text": "The Democrats just released an \"Autopsy\" of their 2024 Presidential Campaign, typos and all, but they refused to discuss two very important words, BAD POLICY. The candidates, Sleepy Joe and then, Kamala, weren't so \"HOT\" either! President DJT"
       },
       {
-        "time": "04:54",
-        "text": "A BIG NIGHT IN POLITICS. THANK YOU TO ALL! President DONALD J. TRUMP"
+        "time": "04:23",
+        "text": "Thank you to our great Secret Service and Law Enforcement for the swift and professional action taken this evening against a gunman near the White House, who had a violent history and possible obsession with our Country's most cherished structure. The gunman is dead after an exchange of gunfire with"
       },
       {
-        "time": "11:58",
-        "text": "Bad Congressman Tom Massie voted against Tax Cuts, the Border Wall, our Military and Law Enforcement. Actually, he voted against almost everything that is good. The Worst Republican Congressman in History. Kentucky, vote the bum out on Tuesday. We can't live with this troublemaker for another two ye"
-      },
-      {
-        "time": "12:30",
-        "text": "I HOPE EVERYBODY AT REDEDICATE 250 IS HAVING A GOOD TIME. IF THERE IS ANYTHING I CAN DO TO HELP, JUST HAVE OUR BEAUTIFUL, BOTH INSIDE AND OUT, RACHAEL C.D., GIVE ME A CALL. I'M BACK FROM CHINA!!! President DJT"
-      },
-      {
-        "time": "16:42",
-        "text": "For Iran, the Clock is Ticking, and they better get moving, FAST, or there won't be anything left of them. TIME IS OF THE ESSENCE! President DJT"
-      },
-      {
-        "time": "16:46",
-        "text": "https://truthsocial.com/@realDonaldTrump/116584918663563894."
-      },
-      {
-        "time": "16:54",
-        "text": "Exclusive — Greek Energy Minister: Trump’s ‘Trademark Move’ with Allies and Adversaries Alike Is Energy Diplomacy: https://www.breitbart.com/politics/2026/05/17/exclusive-greek-energy-minister-trumps-trademark-move-with-allies-and-adversaries-alike-is-energy-diplomacy/"
-      },
-      {
-        "time": "20:17",
-        "text": "Third Rate Congressman Thomas Massie, a Weak and Pathetic RINO from the Great Commonwealth of Kentucky, a place I love, and won big SIX TIMES, including all Primaries, must be thrown out of office, ASAP! He is the Worst \"Republican\" Congressman in History, voting against Tax Cuts, the Wall, Law Enfo"
-      },
-      {
-        "time": "20:54",
-        "text": "Exclusive — Greek Energy Minister: Trump's 'Trademark Move' with Allies and Adversaries Alike Is Energy Diplomacy: https://www.breitbart.com/politics/2026/05/17/exclusive-greek-energy-minister-trumps-trademark-move-with-allies-and-adversaries-alike-is-energy-diplomacy/"
+        "time": "05:09",
+        "text": "\"Birthright Citizenship is suicide for our Country!\" Mark Levin"
       }
     ]
   },
-  "keyword_signals": [
-    "CHINA",
-    "IRAN"
-  ],
   "today_features": {
-    "posts_11_20": true,
-    "avg_len_long": true,
-    "caps_high": true,
-    "excl_heavy": true,
+    "posts_1_5": true,
+    "avg_len_medium": true,
+    "caps_low": true,
+    "excl_normal": true,
+    "questions_no": true,
     "has_night": true,
-    "kw_trade": true,
-    "kw_trade_2plus": true,
-    "open_trade": true,
-    "kw_effective": true,
-    "kw_china": true,
-    "pre_china": true,
-    "kw_iran": true,
-    "open_iran": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "pre_dow": true,
-    "kw_energy": true,
-    "kw_energy_2plus": true,
-    "open_energy": true,
-    "kw_jobs": true,
     "kw_great": true,
-    "kw_great_2plus": true,
     "pre_great": true,
-    "kw_incredible": true,
-    "kw_beautiful": true,
-    "pre_beautiful": true,
-    "kw_amazing": true,
-    "kw_fantastic": true,
-    "kw_fantastic_2plus": true,
-    "pre_fantastic": true,
-    "kw_fake": true,
-    "kw_terrible": true,
-    "pre_terrible": true,
-    "kw_horrible": true,
-    "kw_worst": true,
-    "kw_worst_2plus": true,
-    "pre_worst": true,
-    "kw_pathetic": true,
-    "kw_america_first": true,
-    "kw_golden_age": true,
+    "kw_kamala": true,
     "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "pre_president_djt": true,
-    "open_president_djt": true,
-    "kw_never_let_you_down": true,
-    "kw_never_let_you_down_2plus": true,
-    "pre_never_let_you_down": true,
-    "kw_complete_and_total": true,
     "is_weekend": true,
-    "volume_rising_3d": true
-  },
-  "triggered_rules": {
-    "total": 1,
-    "long": 0,
-    "short": 1,
-    "sample": [
-      {
-        "id": "R0073",
-        "features": [
-          "kw_america_first",
-          "kw_beautiful",
-          "kw_terrible"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -233,28 +147,17 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-05-18",
-    "crossover": 16,
-    "mutation": 8,
+    "date": "2026-05-24",
+    "crossover": 13,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 40,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_china",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_signed",
-          "open_dow",
-          "volume_spike"
+          "kw_economy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -270,6 +173,17 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_beautiful",
+          "kw_tariffs_2plus",
+          "open_tariff"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
+        "origin": "crossover"
       }
     ]
   },
