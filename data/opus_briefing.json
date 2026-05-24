@@ -1,6 +1,6 @@
 {
   "date": "2026-05-24",
-  "prepared_at": "2026-05-24T05:48:29Z",
+  "prepared_at": "2026-05-24T08:45:25Z",
   "status": "PENDING",
   "today_posts": {
     "count": 4,
@@ -148,16 +148,17 @@
   },
   "evolution_latest": {
     "date": "2026-05-24",
-    "crossover": 13,
+    "crossover": 16,
     "mutation": 14,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "kw_interest_rate"
+          "kw_tremendous",
+          "kw_tariff",
+          "volume_falling_3d"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -176,14 +177,13 @@
       },
       {
         "features": [
-          "kw_beautiful",
-          "kw_tariffs_2plus",
-          "open_tariff"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.9,
-        "origin": "crossover"
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
