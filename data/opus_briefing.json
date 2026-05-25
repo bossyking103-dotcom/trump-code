@@ -1,43 +1,29 @@
 {
-  "date": "2026-05-24",
-  "prepared_at": "2026-05-24T11:46:42Z",
+  "date": "2026-05-25",
+  "prepared_at": "2026-05-25T05:45:41Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "\"Birthright Citizenship is suicide for our Country!\" Mark Levin",
-    "earliest_time": "2026-05-24T01:09:00.000Z",
-    "latest_time": "2026-05-24T05:09:41.380Z",
+    "count": 1,
+    "latest": "The voice and genius of the great Dana White (UFC!). Thank you Dana! President DJT",
+    "earliest_time": "2026-05-25T02:09:59.326Z",
+    "latest_time": "2026-05-25T02:09:59.326Z",
     "sample": [
       {
-        "time": "01:09",
-        "text": "“Birthright Citizenship is suicide for our Country!” Mark Levin"
-      },
-      {
-        "time": "01:59",
-        "text": "The Democrats just released an \"Autopsy\" of their 2024 Presidential Campaign, typos and all, but they refused to discuss two very important words, BAD POLICY. The candidates, Sleepy Joe and then, Kamala, weren't so \"HOT\" either! President DJT"
-      },
-      {
-        "time": "04:23",
-        "text": "Thank you to our great Secret Service and Law Enforcement for the swift and professional action taken this evening against a gunman near the White House, who had a violent history and possible obsession with our Country's most cherished structure. The gunman is dead after an exchange of gunfire with"
-      },
-      {
-        "time": "05:09",
-        "text": "\"Birthright Citizenship is suicide for our Country!\" Mark Levin"
+        "time": "02:09",
+        "text": "The voice and genius of the great Dana White (UFC!). Thank you Dana! President DJT"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_medium": true,
-    "caps_low": true,
-    "excl_normal": true,
+    "avg_len_short": true,
+    "caps_high": true,
+    "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
     "kw_great": true,
-    "pre_great": true,
-    "kw_kamala": true,
     "kw_president_djt": true,
-    "is_weekend": true,
+    "is_monday": true,
     "volume_drop": true
   },
   "model_performance": {
@@ -147,23 +133,13 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-05-24",
-    "crossover": 16,
-    "mutation": 14,
+    "date": "2026-05-25",
+    "crossover": 14,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "kw_tariff_2plus",
-          "is_friday"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.9,
-        "origin": "crossover"
-      },
       {
         "features": [
           "kw_interest_rate",
@@ -176,13 +152,23 @@
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
+          "kw_tremendous",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
         "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
