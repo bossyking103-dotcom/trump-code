@@ -1,32 +1,72 @@
 {
   "date": "2026-05-26",
-  "prepared_at": "2026-05-26T08:46:49Z",
+  "prepared_at": "2026-05-26T11:45:47Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "U.S. attorney in Miami sends 'message' to deep state with indictment against ex-prosecutorhttps://justthenews.com/accountability/political-ethics/us-attorney-miami-sends-message-deep-state-indictment-",
+    "count": 17,
+    "latest": "Great job on FoxNews by Alex Gray. Thanks Alex!!! President DJT",
     "earliest_time": "2026-05-26T02:13:02.641Z",
-    "latest_time": "2026-05-26T02:14:24.484Z",
+    "latest_time": "2026-05-26T10:07:08.936Z",
     "sample": [
       {
-        "time": "02:13",
-        "text": "Exclusive: Key Biden DOJ official raised red flags about FBI's Mar-a-Lago raid, memo shows: https://justthenews.com/government/courts-law/biden-doj-official-had-concerns-trump-declassified-documents-seized-fbis-mar"
+        "time": "09:54",
+        "text": "https://truthsocial.com/users/IStandWithTrump47/statuses/116634874790791060"
       },
       {
-        "time": "02:14",
-        "text": "U.S. attorney in Miami sends 'message' to deep state with indictment against ex-prosecutorhttps://justthenews.com/accountability/political-ethics/us-attorney-miami-sends-message-deep-state-indictment-against-ex"
+        "time": "09:56",
+        "text": "https://truthsocial.com/users/lpsychology/statuses/116634696012655362"
+      },
+      {
+        "time": "09:56",
+        "text": "https://truthsocial.com/users/dpritsky/statuses/116634739174498414"
+      },
+      {
+        "time": "09:59",
+        "text": "https://truthsocial.com/users/Imaluckyangel/statuses/116634885298397647. Texas, Vote for Ken Paxton, our Country's BEST Attorney General!"
+      },
+      {
+        "time": "09:59",
+        "text": "https://truthsocial.com/users/Imaluckyangel/statuses/116634918808075195"
+      },
+      {
+        "time": "10:00",
+        "text": "https://truthsocial.com/users/1776WeThePeople1776Q/statuses/116634771557391388"
+      },
+      {
+        "time": "10:00",
+        "text": "https://truthsocial.com/users/IStandWithTrump47/statuses/116634844670581336"
+      },
+      {
+        "time": "10:01",
+        "text": "https://truthsocial.com/users/Imaluckyangel/statuses/116634887599602834"
+      },
+      {
+        "time": "10:02",
+        "text": "https://truthsocial.com/users/SpiritualStreetfighter/statuses/116635950751637260"
+      },
+      {
+        "time": "10:07",
+        "text": "Great job on FoxNews by Alex Gray. Thanks Alex!!! President DJT"
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_medium": true,
+    "posts_11_20": true,
+    "avg_len_short": true,
     "caps_low": true,
     "excl_none": true,
     "questions_no": true,
+    "mostly_premarket": true,
     "has_night": true,
+    "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "kw_fantastic": true,
+    "pre_fantastic": true,
     "kw_biden": true,
-    "volume_drop": true
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -137,21 +177,31 @@
   "evolution_latest": {
     "date": "2026-05-26",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_tariffs",
-          "kw_trade",
-          "excl_heavy"
+          "kw_beautiful",
+          "open_thank_you_for_your_attention",
+          "volume_falling_3d"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 92.9,
+        "score": 91.7,
         "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_china",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
       },
       {
         "features": [
@@ -162,17 +212,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_beautiful",
-          "kw_energy",
-          "kw_terrible"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 88.9,
-        "origin": "crossover"
       }
     ]
   },
