@@ -1,29 +1,31 @@
 {
-  "date": "2026-05-25",
-  "prepared_at": "2026-05-25T08:46:48Z",
+  "date": "2026-05-26",
+  "prepared_at": "2026-05-26T05:45:47Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "The voice and genius of the great Dana White (UFC!). Thank you Dana! President DJT",
-    "earliest_time": "2026-05-25T02:09:59.326Z",
-    "latest_time": "2026-05-25T02:09:59.326Z",
+    "count": 2,
+    "latest": "U.S. attorney in Miami sends 'message' to deep state with indictment against ex-prosecutorhttps://justthenews.com/accountability/political-ethics/us-attorney-miami-sends-message-deep-state-indictment-",
+    "earliest_time": "2026-05-26T02:13:02.641Z",
+    "latest_time": "2026-05-26T02:14:24.484Z",
     "sample": [
       {
-        "time": "02:09",
-        "text": "The voice and genius of the great Dana White (UFC!). Thank you Dana! President DJT"
+        "time": "02:13",
+        "text": "Exclusive: Key Biden DOJ official raised red flags about FBI's Mar-a-Lago raid, memo shows: https://justthenews.com/government/courts-law/biden-doj-official-had-concerns-trump-declassified-documents-seized-fbis-mar"
+      },
+      {
+        "time": "02:14",
+        "text": "U.S. attorney in Miami sends 'message' to deep state with indictment against ex-prosecutorhttps://justthenews.com/accountability/political-ethics/us-attorney-miami-sends-message-deep-state-indictment-against-ex"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_short": true,
-    "caps_high": true,
-    "excl_heavy": true,
+    "avg_len_medium": true,
+    "caps_low": true,
+    "excl_none": true,
     "questions_no": true,
     "has_night": true,
-    "kw_great": true,
-    "kw_president_djt": true,
-    "is_monday": true,
+    "kw_biden": true,
     "volume_drop": true
   },
   "model_performance": {
@@ -133,23 +135,33 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-05-25",
-    "crossover": 14,
+    "date": "2026-05-26",
+    "crossover": 16,
     "mutation": 16,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_tariff",
-          "is_friday",
-          "kw_economy"
+          "kw_tariff",
+          "volume_falling_3d",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 92.9,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "kw_economy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
+        "score": 90.0,
+        "origin": "mutation_remove"
       },
       {
         "features": [
@@ -160,17 +172,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_economy",
-          "kw_china",
-          "kw_amazing"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "mutation_replace"
       }
     ]
   },
