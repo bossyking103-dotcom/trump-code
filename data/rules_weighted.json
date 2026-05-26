@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-26T05:45:46Z",
+    "updated_at": "2026-05-26T08:46:48Z",
     "total_rules": 601,
     "eliminated": 0,
     "rules_with_data": 0
@@ -16,7 +16,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-05-25",
+      "born_date": "2026-05-26",
       "combined_score": 70.0,
       "learn_stats": {
         "correct": 0,
@@ -14737,6 +14737,33 @@
     },
     {
       "features": [
+        "kw_tariff",
+        "volume_falling_3d",
+        "kw_beautiful"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "id": "6aa347502619",
+      "n_cond": 3,
+      "train_trades": 7,
+      "train_win_rate": 85.7,
+      "train_avg": 1.205,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.771,
+      "combined_score": 92.9,
+      "origin": "mutation_replace",
+      "born_date": "2026-05-26",
+      "weight": 1.0,
+      "parent": "kw_signed+kw_tariff+volume_falling_3d",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
+    },
+    {
+      "features": [
         "kw_europe",
         "kw_thank_you_for_your_attention"
       ],
@@ -14871,36 +14898,6 @@
       "parents": [
         "kw_china+open_india",
         "both_tariff_and_deal+excl_heavy"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "pre_great",
-        "kw_biden",
-        "kw_trade"
-      ],
-      "direction": "LONG",
-      "hold": 1,
-      "id": "23106c393285",
-      "n_cond": 3,
-      "train_trades": 13,
-      "train_win_rate": 84.6,
-      "train_avg": 1.223,
-      "test_trades": 4,
-      "test_win_rate": 100.0,
-      "test_avg": 0.398,
-      "combined_score": 92.3,
-      "origin": "crossover",
-      "born_date": "2026-05-03",
-      "weight": 1.0,
-      "parents": [
-        "kw_trade+open_inflation",
-        "kw_biden+kw_india"
       ],
       "learn_stats": {
         "correct": 0,
