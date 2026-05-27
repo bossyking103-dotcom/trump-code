@@ -222,5 +222,13 @@
     "degradation": "🔴 DEGRADING",
     "consecutive": "✅ OK",
     "consecutive_wrong": 0
+  },
+  {
+    "date": "2026-05-27",
+    "status": "🟡 DEGRADING",
+    "vs_random": "✅ OK",
+    "degradation": "🔴 DEGRADING",
+    "consecutive": "✅ OK",
+    "consecutive_wrong": 0
   }
 ]
