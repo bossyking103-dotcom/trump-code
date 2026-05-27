@@ -1,12 +1,12 @@
 {
   "date": "2026-05-27",
-  "prepared_at": "2026-05-27T14:46:34Z",
+  "prepared_at": "2026-05-27T17:45:33Z",
   "status": "PENDING",
   "today_posts": {
     "count": 6,
-    "latest": "Thank you America for this unprecedented support!!! President DJThttps://www.thegatewaypundit.com/2026/05/trump-dynasty-president-trump-goes-118-118-primary/",
+    "latest": "Congratulations to the Dumocrat Party! Al Green, one of the most mentally deficient Congressmen in the history of our Country, has lost, in a landslide, his seat in Congress - But I will miss that lun",
     "earliest_time": "2026-05-27T02:31:41.623Z",
-    "latest_time": "2026-05-27T12:54:18.542Z",
+    "latest_time": "2026-05-27T14:39:32.850Z",
     "sample": [
       {
         "time": "02:31",
@@ -17,20 +17,20 @@
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116644190724261689A Crooked Politician!!!"
       },
       {
-        "time": "10:34",
-        "text": "This Weak on Crime, Open Borders Dumocrat, can never be allowed to represent the Great People of Texas. His “values” are the exact opposite!!! President DJT"
-      },
-      {
-        "time": "10:39",
-        "text": "Congratulations to the Dumocrat Party! Al Green, one of the most mentally deficient Congressmen in the history of our Country, has lost, in a landslide, his seat in Congress - But I will miss that lunatic not screaming and violently waving his cane at me during my next State of the Union Speech. MAK"
-      },
-      {
         "time": "11:30",
         "text": "Congratulations to Ken Paxton on such a tremendous win, and to John Cornyn for having run a strong and powerful race but, more importantly, having had a truly great career. John will remain my friend for a long time to come, as we both watch Ken become a fantastic, common sense Senator, one who is r"
       },
       {
         "time": "12:54",
         "text": "Thank you America for this unprecedented support!!! President DJThttps://www.thegatewaypundit.com/2026/05/trump-dynasty-president-trump-goes-118-118-primary/"
+      },
+      {
+        "time": "14:30",
+        "text": "This Weak on Crime, Open Borders Dumocrat, can never be allowed to represent the Great People of Texas. His \"values\" are the exact opposite!!! President DJT"
+      },
+      {
+        "time": "14:39",
+        "text": "Congratulations to the Dumocrat Party! Al Green, one of the most mentally deficient Congressmen in the history of our Country, has lost, in a landslide, his seat in Congress - But I will miss that lunatic not screaming and violently waving his cane at me during my next State of the Union Speech. MAK"
       }
     ]
   },
@@ -40,11 +40,11 @@
     "caps_medium": true,
     "excl_heavy": true,
     "questions_no": true,
-    "mostly_premarket": true,
     "has_night": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
+    "open_great": true,
     "kw_tremendous": true,
     "pre_tremendous": true,
     "kw_beautiful": true,
@@ -57,6 +57,7 @@
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
+    "open_president_djt": true,
     "volume_rising_3d": true
   },
   "model_performance": {
@@ -167,12 +168,23 @@
   },
   "evolution_latest": {
     "date": "2026-05-27",
-    "crossover": 16,
-    "mutation": 14,
+    "crossover": 10,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 42,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "kw_beautiful",
+          "is_friday",
+          "kw_dow_2plus"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -182,16 +194,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "mutation_remove"
       },
       {
         "features": [
