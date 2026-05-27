@@ -1,12 +1,12 @@
 {
   "date": "2026-05-27",
-  "prepared_at": "2026-05-27T08:46:46Z",
+  "prepared_at": "2026-05-27T11:45:39Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116644190724261689A Crooked Politician!!!",
+    "count": 3,
+    "latest": "Congratulations to Ken Paxton on such a tremendous win, and to John Cornyn for having run a strong and powerful race but, more importantly, having had a truly great career. John will remain my friend ",
     "earliest_time": "2026-05-27T02:31:41.623Z",
-    "latest_time": "2026-05-27T02:31:55.173Z",
+    "latest_time": "2026-05-27T07:30:00.000Z",
     "sample": [
       {
         "time": "02:31",
@@ -15,17 +15,33 @@
       {
         "time": "02:31",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116644190724261689A Crooked Politician!!!"
+      },
+      {
+        "time": "07:30",
+        "text": "Congratulations to Ken Paxton on such a tremendous win, and to John Cornyn for having run a strong and powerful race but, more importantly, having had a truly great career. John will remain my friend for a long time to come, as we both watch Ken become a fantastic, common sense Senator, one who is r"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_medium": true,
+    "avg_len_long": true,
     "caps_low": true,
-    "excl_heavy": true,
+    "excl_normal": true,
     "questions_no": true,
     "has_night": true,
+    "kw_great": true,
+    "pre_great": true,
+    "kw_tremendous": true,
+    "pre_tremendous": true,
+    "kw_beautiful": true,
+    "pre_beautiful": true,
+    "kw_fantastic": true,
+    "pre_fantastic": true,
+    "kw_worst": true,
+    "pre_worst": true,
     "kw_biden": true,
+    "kw_president_djt": true,
+    "pre_president_djt": true,
     "volume_rising_3d": true,
     "volume_drop": true
   },
@@ -138,30 +154,19 @@
   "evolution_latest": {
     "date": "2026-05-27",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "volume_falling_3d",
-          "kw_thank_you_for_your_attention",
-          "open_tariff"
+          "kw_dow_2plus",
+          "is_friday",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 100.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "open_trade",
-          "kw_wonderful",
-          "kw_biden"
-        ],
-        "direction": "LONG",
-        "hold": 2,
         "score": 90.0,
         "origin": "crossover"
       },
@@ -174,6 +179,16 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_wonderful"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },

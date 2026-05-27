@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-27T08:46:44Z",
+    "updated_at": "2026-05-27T11:45:39Z",
     "total_rules": 601,
     "eliminated": 0,
     "rules_with_data": 0
@@ -13395,6 +13395,36 @@
     },
     {
       "features": [
+        "volume_falling_3d",
+        "kw_thank_you_for_your_attention",
+        "open_tariff"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "a87d7c873d04",
+      "n_cond": 3,
+      "train_trades": 6,
+      "train_win_rate": 100.0,
+      "train_avg": 2.239,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.855,
+      "combined_score": 100.0,
+      "origin": "crossover",
+      "born_date": "2026-05-27",
+      "weight": 1.0,
+      "parents": [
+        "kw_tariffs_2plus+open_thank_you_for_your_attention",
+        "kw_interest_rate+kw_thank_you_for_your_attention"
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
+    },
+    {
+      "features": [
         "kw_maga",
         "open_ukraine"
       ],
@@ -14869,36 +14899,6 @@
       "parents": [
         "kw_complete_and_total+kw_maga",
         "kw_agreement+open_china"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_energy",
-        "kw_thank_you_for_your_attention",
-        "is_friday"
-      ],
-      "direction": "LONG",
-      "hold": 1,
-      "id": "6cbef0992180",
-      "n_cond": 3,
-      "train_trades": 13,
-      "train_win_rate": 84.6,
-      "train_avg": 0.552,
-      "test_trades": 4,
-      "test_win_rate": 100.0,
-      "test_avg": 0.51,
-      "combined_score": 92.3,
-      "origin": "crossover",
-      "born_date": "2026-04-12",
-      "weight": 1.0,
-      "parents": [
-        "is_friday+kw_economy",
-        "kw_energy+kw_perfect"
       ],
       "learn_stats": {
         "correct": 0,
