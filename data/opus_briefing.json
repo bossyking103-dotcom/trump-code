@@ -1,6 +1,6 @@
 {
   "date": "2026-05-28",
-  "prepared_at": "2026-05-28T05:45:35Z",
+  "prepared_at": "2026-05-28T08:45:35Z",
   "status": "PENDING",
   "today_posts": {
     "count": 2,
@@ -154,22 +154,22 @@
       },
       {
         "features": [
+          "kw_signed",
+          "kw_tariff"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.6,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
         "origin": "distilled"
       }
     ]
