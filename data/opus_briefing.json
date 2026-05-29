@@ -1,12 +1,12 @@
 {
   "date": "2026-05-29",
-  "prepared_at": "2026-05-29T08:45:40Z",
+  "prepared_at": "2026-05-29T11:45:48Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "John Solomon unpacks a bombshell revelation about James Comey: https://justthenews.com/podcasts/john-solomon-reports/john-solomon-unpacks-bombshell-revelation-about-james-comey",
+    "count": 5,
+    "latest": "Jill Biden is now out there finally admitting that she did NOT know what went wrong with Sleepy Joe during our spectacular, and highly rated, 2024 Presidential Debate, where Joe was not exactly perfor",
     "earliest_time": "2026-05-29T03:26:37.262Z",
-    "latest_time": "2026-05-29T03:34:25.225Z",
+    "latest_time": "2026-05-29T11:12:43.149Z",
     "sample": [
       {
         "time": "03:26",
@@ -23,24 +23,30 @@
       {
         "time": "03:34",
         "text": "John Solomon unpacks a bombshell revelation about James Comey: https://justthenews.com/podcasts/john-solomon-reports/john-solomon-unpacks-bombshell-revelation-about-james-comey"
+      },
+      {
+        "time": "11:12",
+        "text": "Jill Biden is now out there finally admitting that she did NOT know what went wrong with Sleepy Joe during our spectacular, and highly rated, 2024 Presidential Debate, where Joe was not exactly performing to the highest level of debate standards. She said that she thought he was having a \"stroke,\" a"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_medium": true,
+    "avg_len_long": true,
     "caps_low": true,
-    "excl_none": true,
-    "questions_no": true,
+    "excl_normal": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_ban": true,
+    "pre_ban": true,
     "kw_dow": true,
     "kw_great": true,
     "kw_tremendous": true,
+    "kw_biden": true,
+    "pre_biden": true,
     "kw_maga": true,
     "is_friday": true,
-    "volume_falling_3d": true,
-    "volume_drop": true
+    "volume_falling_3d": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -151,25 +157,15 @@
   "evolution_latest": {
     "date": "2026-05-29",
     "crossover": 16,
-    "mutation": 15,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "open_china"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_economy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -185,6 +181,16 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "mutation_remove"
       }
     ]
   },
