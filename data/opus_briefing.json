@@ -1,52 +1,47 @@
 {
-  "date": "2026-05-29",
-  "prepared_at": "2026-05-29T14:46:30Z",
+  "date": "2026-05-30",
+  "prepared_at": "2026-05-30T05:45:09Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 5,
-    "latest": "Jill Biden is now out there finally admitting that she did NOT know what went wrong with Sleepy Joe during our spectacular, and highly rated, 2024 Presidential Debate, where Joe was not exactly perfor",
-    "earliest_time": "2026-05-29T03:26:37.262Z",
-    "latest_time": "2026-05-29T11:12:43.149Z",
+    "count": 4,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116661706730496718",
+    "earliest_time": "2026-05-30T00:29:24.092Z",
+    "latest_time": "2026-05-30T04:46:27.293Z",
     "sample": [
       {
-        "time": "03:26",
-        "text": "Claude Lemieux, a true Legend of the Game, and one of the fiercest competitors Hockey has ever seen, has passed away. Claude was a friend to the family, and a tremendous \"TRUMP\" supporter. He won 4 Stanley Cups with 3 different Teams — Montreal, New Jersey, and Colorado — His 80 Career Playoff Goals"
+        "time": "00:29",
+        "text": "The Failing New York Times is doing everything possible to criticize the magnificent restoration of the Reflecting Pool, located between two of America's most important Landmarks, The Lincoln Memorial, and The Washington Monument. Hundreds of Millions of Dollars have been spent throughout the years "
       },
       {
-        "time": "03:32",
-        "text": "FBI and DOJ concerns on Mar-a-Lago raid bolster Florida-based anti-Trump 'grand conspiracy' inquiry: https://justthenews.com/government/courts-law/fbi-and-doj-concerns-mar-lago-raid-bolster-florida-based-anti-trump-grand"
+        "time": "03:39",
+        "text": "Dhillon wants judge who allegedly attended a Fani Willis event off Georgia election integrity case: https://justthenews.com/government/courts-law/dhillon-moves-recuse-atlanta-judge-over-alleged-attendance-democratic-event"
       },
       {
-        "time": "03:34",
-        "text": "Judge clears Trump's voter citizenship checks and mail-in voting crackdown, slapping down Democrats: https://justthenews.com/politics-policy/elections/judge-clears-trumps-voter-citizenship-checks-and-mail-voting-crackdown"
+        "time": "03:41",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116661451693288924"
       },
       {
-        "time": "03:34",
-        "text": "John Solomon unpacks a bombshell revelation about James Comey: https://justthenews.com/podcasts/john-solomon-reports/john-solomon-unpacks-bombshell-revelation-about-james-comey"
-      },
-      {
-        "time": "11:12",
-        "text": "Jill Biden is now out there finally admitting that she did NOT know what went wrong with Sleepy Joe during our spectacular, and highly rated, 2024 Presidential Debate, where Joe was not exactly performing to the highest level of debate standards. She said that she thought he was having a \"stroke,\" a"
+        "time": "04:46",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116661706730496718"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_long": true,
+    "avg_len_very_long": true,
     "caps_low": true,
     "excl_normal": true,
+    "questions_no": true,
     "has_night": true,
     "heavy_night": true,
-    "kw_ban": true,
-    "pre_ban": true,
-    "kw_dow": true,
+    "kw_energy": true,
     "kw_great": true,
-    "kw_tremendous": true,
+    "kw_beautiful": true,
+    "kw_wonderful": true,
     "kw_biden": true,
-    "pre_biden": true,
-    "kw_maga": true,
-    "is_friday": true,
-    "volume_falling_3d": true
+    "kw_obama": true,
+    "is_weekend": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -155,44 +150,45 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-05-29",
+    "date": "2026-05-30",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
           "kw_tariff",
-          "kw_signed"
+          "kw_jobs",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 94.4,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_tariffs",
+          "kw_signed",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 92.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_great",
+          "kw_economy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.6,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_jobs",
-          "kw_fantastic_2plus",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
         "score": 90.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "open_tariffs",
-          "is_friday",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "crossover"
+        "origin": "mutation_replace"
       }
     ]
   },

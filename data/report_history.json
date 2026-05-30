@@ -2973,5 +2973,42 @@
     "short": 0,
     "signals": [],
     "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-05-29",
+    "posts": 7,
+    "triggered": 3,
+    "long": 3,
+    "short": 0,
+    "signals": [
+      "DEAL",
+      "CHINA",
+      "IRAN",
+      "DEAL_ONLY"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-05-29",
+    "posts": 15,
+    "triggered": 13,
+    "long": 13,
+    "short": 0,
+    "signals": [
+      "DEAL",
+      "CHINA",
+      "IRAN",
+      "DEAL_ONLY"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-05-30",
+    "posts": 4,
+    "triggered": 0,
+    "long": 0,
+    "short": 0,
+    "signals": [],
+    "consensus": "NEUTRAL"
   }
 ]
