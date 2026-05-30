@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "prepared_at": "2026-05-30T08:45:16Z",
+  "prepared_at": "2026-05-30T11:45:14Z",
   "status": "PENDING",
   "today_posts": {
     "count": 4,
@@ -151,31 +151,21 @@
   },
   "evolution_latest": {
     "date": "2026-05-30",
-    "crossover": 14,
-    "mutation": 15,
+    "crossover": 16,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tariffs",
-          "kw_signed"
+          "avg_len_long",
+          "open_energy",
+          "kw_energy"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 92.3,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_tremendous",
-          "kw_biden",
-          "kw_ban"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 91.7,
+        "hold": 1,
+        "score": 93.8,
         "origin": "crossover"
       },
       {
@@ -187,6 +177,16 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_amazing",
+          "volume_spike"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
+        "origin": "mutation_remove"
       }
     ]
   },
