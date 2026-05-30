@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-05-30T05:45:09Z",
-    "evolved_rules_added": 47
+    "last_evolution": "2026-05-30T08:45:16Z",
+    "evolved_rules_added": 45
   },
   "rules": [
     {
@@ -13803,7 +13803,12 @@
       "parents": [
         "kw_corrupt+kw_tariff",
         "is_friday+kw_beautiful"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14881,7 +14886,12 @@
       "parents": [
         "is_friday+kw_signed",
         "kw_corrupt+kw_tariffs"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "id": "INVERSE_TARIFF_LONG",
