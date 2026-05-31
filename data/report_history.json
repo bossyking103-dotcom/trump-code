@@ -3037,5 +3037,39 @@
     "short": 0,
     "signals": [],
     "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-05-30",
+    "posts": 11,
+    "triggered": 0,
+    "long": 0,
+    "short": 0,
+    "signals": [
+      "TARIFF",
+      "TARIFF_ONLY"
+    ],
+    "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-05-30",
+    "posts": 12,
+    "triggered": 0,
+    "long": 0,
+    "short": 0,
+    "signals": [
+      "TARIFF",
+      "IRAN",
+      "TARIFF_ONLY"
+    ],
+    "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-05-31",
+    "posts": 5,
+    "triggered": 0,
+    "long": 0,
+    "short": 0,
+    "signals": [],
+    "consensus": "NEUTRAL"
   }
 ]

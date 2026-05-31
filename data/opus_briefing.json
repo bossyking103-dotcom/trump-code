@@ -1,46 +1,49 @@
 {
-  "date": "2026-05-30",
-  "prepared_at": "2026-05-30T14:45:12Z",
+  "date": "2026-05-31",
+  "prepared_at": "2026-05-31T05:45:16Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116661706730496718",
-    "earliest_time": "2026-05-30T00:29:24.092Z",
-    "latest_time": "2026-05-30T04:46:27.293Z",
+    "count": 5,
+    "latest": "Dhillon wants judge who allegedly attended a Fani Willis event off Georgia election integrity case: https://justthenews.com/government/courts-law/dhillon-moves-recuse-atlanta-judge-over-alleged-attend",
+    "earliest_time": "2026-05-31T01:08:00.000Z",
+    "latest_time": "2026-05-31T05:08:48.410Z",
     "sample": [
       {
-        "time": "00:29",
-        "text": "The Failing New York Times is doing everything possible to criticize the magnificent restoration of the Reflecting Pool, located between two of America's most important Landmarks, The Lincoln Memorial, and The Washington Monument. Hundreds of Millions of Dollars have been spent throughout the years "
+        "time": "01:08",
+        "text": "Cotton over chemicals: How Trump’s USDA is Making America’s Fabric Great Again: https://justthenews.com/government/white-house/cotton-over-chemicals-how-trumps-usda-making-americas-fabric-great-again"
       },
       {
-        "time": "03:39",
+        "time": "03:21",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116667034702707989"
+      },
+      {
+        "time": "04:35",
+        "text": "The results of my Physical Examination, taken at Walter Reed Military Medical Center, and just released, were extremely good. Unlike other U.S. Presidents, none of whom have ever taken an approved, high difficulty, Cognitive Test, I scored a perfect 30 out of 30, considered \"extreme intelligence.\" A"
+      },
+      {
+        "time": "05:08",
+        "text": "Cotton over chemicals: How Trump's USDA is Making America's Fabric Great Again: https://justthenews.com/government/white-house/cotton-over-chemicals-how-trumps-usda-making-americas-fabric-great-again"
+      },
+      {
+        "time": "05:08",
         "text": "Dhillon wants judge who allegedly attended a Fani Willis event off Georgia election integrity case: https://justthenews.com/government/courts-law/dhillon-moves-recuse-atlanta-judge-over-alleged-attendance-democratic-event"
-      },
-      {
-        "time": "03:41",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116661451693288924"
-      },
-      {
-        "time": "04:46",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116661706730496718"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_very_long": true,
+    "avg_len_medium": true,
     "caps_low": true,
     "excl_normal": true,
-    "questions_no": true,
+    "mostly_premarket": true,
     "has_night": true,
-    "heavy_night": true,
-    "kw_energy": true,
     "kw_great": true,
-    "kw_beautiful": true,
-    "kw_wonderful": true,
-    "kw_biden": true,
-    "kw_obama": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "kw_perfect": true,
+    "pre_perfect": true,
     "is_weekend": true,
+    "volume_rising_3d": true,
     "volume_drop": true
   },
   "model_performance": {
@@ -150,18 +153,18 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-05-30",
-    "crossover": 15,
+    "date": "2026-05-31",
+    "crossover": 16,
     "mutation": 16,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_dow_2plus",
-          "open_thank_you_for_your_attention",
-          "open_trade"
+          "open_tariffs",
+          "is_friday",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -180,13 +183,14 @@
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
+          "is_friday",
+          "kw_jobs",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "mutation_remove"
+        "origin": "crossover"
       }
     ]
   },
