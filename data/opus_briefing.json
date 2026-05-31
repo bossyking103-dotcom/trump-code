@@ -1,21 +1,13 @@
 {
   "date": "2026-05-31",
-  "prepared_at": "2026-05-31T14:45:27Z",
+  "prepared_at": "2026-05-31T20:45:25Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "I am pleased to announce that United States Ambassador to Türkiye, Tom Barrack, who has done an outstanding job, will be named Special Presidential Envoy to Syria and, likewise, Special Presidential E",
+    "count": 12,
+    "latest": "The New York Times wrote a story today entitled, \"Trump Administration Sees Striking Exodus of Legal Talent,\" as though that's a bad thing, when actually, it's very good. The people that are leaving a",
     "earliest_time": "2026-05-31T03:21:22.619Z",
-    "latest_time": "2026-05-31T14:09:32.323Z",
+    "latest_time": "2026-05-31T20:18:28.331Z",
     "sample": [
-      {
-        "time": "03:21",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116667034702707989"
-      },
-      {
-        "time": "04:35",
-        "text": "The results of my Physical Examination, taken at Walter Reed Military Medical Center, and just released, were extremely good. Unlike other U.S. Presidents, none of whom have ever taken an approved, high difficulty, Cognitive Test, I scored a perfect 30 out of 30, considered \"extreme intelligence.\" A"
-      },
       {
         "time": "05:08",
         "text": "Cotton over chemicals: How Trump's USDA is Making America's Fabric Great Again: https://justthenews.com/government/white-house/cotton-over-chemicals-how-trumps-usda-making-americas-fabric-great-again"
@@ -25,36 +17,167 @@
         "text": "Dhillon wants judge who allegedly attended a Fani Willis event off Georgia election integrity case: https://justthenews.com/government/courts-law/dhillon-moves-recuse-atlanta-judge-over-alleged-attendance-democratic-event"
       },
       {
-        "time": "10:33",
-        "text": "Counter to The Failing New York Times on the Fake Reflecting Pool story, it will be MAGNIFICENT! President DONALD J. TRUMP"
+        "time": "11:34",
+        "text": "After spending this week reviewing the Iranian war I am now convinced President Trump is on the edge of an historic victory. The real breakthrough for me came as I reviewed President Trump’s decisions and maneuvers not from the standpoint of American unilateralism but from the standpoint of the lead"
       },
       {
         "time": "14:09",
         "text": "I am pleased to announce that United States Ambassador to Türkiye, Tom Barrack, who has done an outstanding job, will be named Special Presidential Envoy to Syria and, likewise, Special Presidential Envoy to Iraq, as we advance our strategic cooperation with the Governments of Syria and Iraq, our re"
+      },
+      {
+        "time": "14:28",
+        "text": "Counter to The Failing New York Times on the Fake Reflecting Pool story, it will be MAGNIFICENT! President DONALD J. TRUMP"
+      },
+      {
+        "time": "15:34",
+        "text": "The DronePort at the White House Ballroom will be, perhaps, the most sophisticated anywhere in the World! It will safeguard our Nation's Capital, Washington, D.C., long into the future. Judge Richard Leon should stop playing games with America's Security! If anything happens, he will be held respons"
+      },
+      {
+        "time": "16:18",
+        "text": "The New York Times wrote a story today entitled, “Trump Administration Sees Striking Exodus of Legal Talent,” as though that’s a bad thing, when actually, it’s very good. The people that are leaving are Radical Left Deep State Lunatics, who are destroying our Country, and Weaponizing Government. Man"
+      },
+      {
+        "time": "17:54",
+        "text": "Congratulations to Congressman Gus Bilirakis, a great guy. He's MAGA all the way. His first grandchild!"
+      },
+      {
+        "time": "18:03",
+        "text": "Exclusive — Serbian President Aleksandar Vucic: Donald Trump 'Much More Popular' in Serbia than Any Other U.S. Leader Because He Is 'Pragmatic,' 'Rational': https://www.breitbart.com/politics/2026/05/31/exclusive-serbian-president-aleksandar-vucic-donald-trump-much-more-popular-in-serbia-than-any-ot"
+      },
+      {
+        "time": "20:18",
+        "text": "The New York Times wrote a story today entitled, \"Trump Administration Sees Striking Exodus of Legal Talent,\" as though that's a bad thing, when actually, it's very good. The people that are leaving are Radical Left Deep State Lunatics, who are destroying our Country, and Weaponizing Government. Man"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_medium": true,
+    "posts_11_20": true,
+    "avg_len_very_long": true,
     "caps_low": true,
     "excl_normal": true,
-    "mostly_premarket": true,
     "has_night": true,
+    "kw_deal": true,
+    "pre_deal": true,
+    "kw_immediately": true,
+    "open_immediately": true,
+    "kw_effective": true,
+    "pre_effective": true,
+    "kw_block": true,
+    "pre_block": true,
+    "kw_iran": true,
+    "pre_iran": true,
+    "kw_israel": true,
+    "pre_israel": true,
+    "kw_europe": true,
+    "pre_europe": true,
+    "kw_saudi": true,
+    "pre_saudi": true,
+    "kw_oil": true,
+    "pre_oil": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
     "open_great": true,
+    "kw_historic": true,
+    "pre_historic": true,
     "kw_perfect": true,
     "pre_perfect": true,
     "kw_fake": true,
-    "pre_fake": true,
+    "open_fake": true,
+    "kw_terrible": true,
+    "kw_terrible_2plus": true,
+    "open_terrible": true,
+    "kw_biden": true,
+    "kw_biden_2plus": true,
+    "open_biden": true,
+    "kw_obama": true,
+    "kw_obama_2plus": true,
+    "open_obama": true,
     "kw_vance": true,
     "open_vance": true,
+    "kw_maga": true,
+    "open_maga": true,
     "kw_thank_you_for_your_attention": true,
     "open_thank_you_for_your_attention": true,
     "is_weekend": true,
-    "volume_rising_3d": true
+    "volume_rising_3d": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
+  },
+  "triggered_rules": {
+    "total": 5,
+    "long": 5,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0006",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0011",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0012",
+        "features": [
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "posts_11_20"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0079",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0085",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -172,26 +295,6 @@
     "top_3": [
       {
         "features": [
-          "kw_hereby",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_india",
-          "kw_president_of_the_united_states"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
@@ -199,6 +302,27 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "kw_beautiful",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "excl_heavy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "mutation_remove"
       }
     ]
   },
