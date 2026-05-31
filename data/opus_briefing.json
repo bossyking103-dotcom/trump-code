@@ -1,6 +1,6 @@
 {
   "date": "2026-05-31",
-  "prepared_at": "2026-05-31T05:45:16Z",
+  "prepared_at": "2026-05-31T08:45:25Z",
   "status": "PENDING",
   "today_posts": {
     "count": 5,
@@ -162,13 +162,13 @@
     "top_3": [
       {
         "features": [
-          "open_tariffs",
-          "is_friday",
-          "kw_thank_you_for_your_attention"
+          "kw_economy",
+          "open_tariff",
+          "is_friday"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
+        "score": 91.7,
         "origin": "crossover"
       },
       {
@@ -183,9 +183,8 @@
       },
       {
         "features": [
-          "is_friday",
-          "kw_jobs",
-          "kw_thank_you_for_your_attention"
+          "kw_interest_rate",
+          "excl_heavy"
         ],
         "direction": "LONG",
         "hold": 3,
