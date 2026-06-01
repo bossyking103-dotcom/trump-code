@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-06-01T17:20:58Z",
+    "updated_at": "2026-06-01T17:45:33Z",
     "total_rules": 601,
     "eliminated": 0,
     "rules_with_data": 0
@@ -16,7 +16,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-05-31",
+      "born_date": "2026-06-01",
       "combined_score": 70.0,
       "learn_stats": {
         "correct": 0,

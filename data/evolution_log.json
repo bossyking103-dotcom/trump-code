@@ -11067,5 +11067,46 @@
         "origin": "distilled"
       }
     ]
+  },
+  {
+    "date": "2026-06-01",
+    "crossover": 16,
+    "mutation": 13,
+    "distill": 16,
+    "total_new": 45,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_tariffs",
+          "kw_beautiful",
+          "kw_terrible"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 100.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_china",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      }
+    ]
   }
 ]
