@@ -1,10 +1,10 @@
 {
   "date": "2026-06-02",
-  "generated_at": "2026-06-02T14:45:24Z",
-  "posts_today": 37,
+  "generated_at": "2026-06-02T17:45:20Z",
+  "posts_today": 39,
   "latest_post": {
-    "time": "2026-06-02T13:06",
-    "content_preview": "I am appointing the Director of the Federal Housing Finance Agency, and Chairman of Fannie Mae/Fredd"
+    "time": "2026-06-02T13:34",
+    "content_preview": "It was very nice having Flávio Bolsonaro in the Oval Office of the White House — A smart young man w"
   },
   "signals_detected": [
     "DEAL",
@@ -12,11 +12,11 @@
     "IRAN",
     "DEAL_ONLY"
   ],
-  "models_triggered": 2,
+  "models_triggered": 6,
   "direction_summary": {
-    "LONG": 1,
+    "LONG": 5,
     "SHORT": 1,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -25,14 +25,58 @@
   },
   "sp500_latest": {
     "date": "2026-06-02",
-    "close": 7605.75
+    "close": 7607.51
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-02\nPosts today: 37 | Models triggered: 2\nSignals: DEAL, CHINA, IRAN, DEAL_ONLY\nConsensus: 1 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: I am appointing the Director of the Federal Housing Finance Agency, and Chairman of Fannie Mae/Fredd",
-    "zh": "川普密碼每日報告 -- 2026-06-02\n今日推文: 37 篇 | 觸發模型: 2 組\n偵測信號: Deal, 中國, 伊朗, 只有Deal沒有關稅\n共識方向: 1 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: I am appointing the Director of the Federal Housing Finance Agency, and Chairman of Fannie Mae/Fredd",
-    "ja": "トランプ・コード日次レポート -- 2026-06-02\n本日の投稿: 37件 | トリガーモデル: 2組\n検出シグナル: ディール, 中国, イラン, Dealのみ（関税無し）\nコンセンサス: 1組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: I am appointing the Director of the Federal Housing Finance Agency, and Chairman of Fannie Mae/Fredd"
+    "en": "Trump Code Daily Report -- 2026-06-02\nPosts today: 39 | Models triggered: 6\nSignals: DEAL, CHINA, IRAN, DEAL_ONLY\nConsensus: 5 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: It was very nice having Flávio Bolsonaro in the Oval Office of the White House — A smart young man w",
+    "zh": "川普密碼每日報告 -- 2026-06-02\n今日推文: 39 篇 | 觸發模型: 6 組\n偵測信號: Deal, 中國, 伊朗, 只有Deal沒有關稅\n共識方向: 5 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: It was very nice having Flávio Bolsonaro in the Oval Office of the White House — A smart young man w",
+    "ja": "トランプ・コード日次レポート -- 2026-06-02\n本日の投稿: 39件 | トリガーモデル: 6組\n検出シグナル: ディール, 中国, イラン, Dealのみ（関税無し）\nコンセンサス: 5組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: It was very nice having Flávio Bolsonaro in the Oval Office of the White House — A smart young man w"
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "kw_china",
