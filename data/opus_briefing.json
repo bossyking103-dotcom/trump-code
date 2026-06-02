@@ -1,17 +1,13 @@
 {
   "date": "2026-06-02",
-  "prepared_at": "2026-06-02T08:45:25Z",
+  "prepared_at": "2026-06-02T11:45:24Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 32,
-    "latest": "When a Star Witness totally recants, and in every way reveals that he was pressured and coerced to give testimony, and when the Prosecutor admits that this Witness was the single reason that the case ",
+    "count": 33,
+    "latest": "Today is Judge Jeanine Pirro’s Birthday. She is the U.S. Attorney for the District of Columbia, and has done a fantastic job — Respected by everyone, even the Radical Left Lunatics. Thank you Jeanine,",
     "earliest_time": "2026-06-02T01:29:51.641Z",
-    "latest_time": "2026-06-02T04:08:21.851Z",
+    "latest_time": "2026-06-02T07:19:00.000Z",
     "sample": [
-      {
-        "time": "01:41",
-        "text": "Marty Jackley has been a tremendous Attorney General of South Dakota, a place I love and WON BIG, six times, including Primaries, in 2016, 2020, and 2024! An America First Patriot, and true friend of MAGA, Marty is now running for Congress, where I know he will continue to do a fantastic job! As you"
-      },
       {
         "time": "02:46",
         "text": "Congresswoman Ashley Hinson is running for the United States Senate in Iowa, a State I love and WON BIG, THREE TIMES, in 2016, 2020, and 2024. I know Ashley well, and she is a WINNER! A Loving Wife and Proud Mother of two sons, Ashley is a wonderful person, has ALWAYS delivered for Iowa, and will co"
@@ -47,6 +43,10 @@
       {
         "time": "04:08",
         "text": "When a Star Witness totally recants, and in every way reveals that he was pressured and coerced to give testimony, and when the Prosecutor admits that this Witness was the single reason that the case was brought, there was no other, how can that Case not be immediately dismissed? That is exactly wha"
+      },
+      {
+        "time": "07:19",
+        "text": "Today is Judge Jeanine Pirro’s Birthday. She is the U.S. Attorney for the District of Columbia, and has done a fantastic job — Respected by everyone, even the Radical Left Lunatics. Thank you Jeanine, and HAPPY BIRTHDAY! President DONALD J. TRUMP"
       }
     ]
   },
@@ -91,6 +91,7 @@
     "kw_amazing_2plus": true,
     "kw_fantastic": true,
     "kw_fantastic_2plus": true,
+    "pre_fantastic": true,
     "kw_wonderful": true,
     "kw_wonderful_2plus": true,
     "kw_fake": true,
@@ -257,21 +258,31 @@
   },
   "evolution_latest": {
     "date": "2026-06-02",
-    "crossover": 13,
-    "mutation": 14,
+    "crossover": 12,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "open_china"
+          "kw_signed",
+          "kw_tariffs"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.9,
+        "score": 92.3,
         "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_economy",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
       },
       {
         "features": [
@@ -281,16 +292,6 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
         "origin": "distilled"
       }
     ]
