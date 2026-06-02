@@ -1,29 +1,13 @@
 {
   "date": "2026-06-02",
-  "prepared_at": "2026-06-02T11:45:24Z",
+  "prepared_at": "2026-06-02T14:45:28Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 33,
-    "latest": "Today is Judge Jeanine Pirro’s Birthday. She is the U.S. Attorney for the District of Columbia, and has done a fantastic job — Respected by everyone, even the Radical Left Lunatics. Thank you Jeanine,",
+    "count": 37,
+    "latest": "I am appointing the Director of the Federal Housing Finance Agency, and Chairman of Fannie Mae/Freddie Mac, William J. Pulte, to serve as Acting Director of National Intelligence. William has deep exp",
     "earliest_time": "2026-06-02T01:29:51.641Z",
-    "latest_time": "2026-06-02T07:19:00.000Z",
+    "latest_time": "2026-06-02T13:06:14.449Z",
     "sample": [
-      {
-        "time": "02:46",
-        "text": "Congresswoman Ashley Hinson is running for the United States Senate in Iowa, a State I love and WON BIG, THREE TIMES, in 2016, 2020, and 2024. I know Ashley well, and she is a WINNER! A Loving Wife and Proud Mother of two sons, Ashley is a wonderful person, has ALWAYS delivered for Iowa, and will co"
-      },
-      {
-        "time": "03:11",
-        "text": "EPA boss made criminal referrals alleging Democrats 'self-dealing' in lucrative green energy grants: https://justthenews.com/accountability/waste-fraud-and-abuse/epa-boss-made-criminal-referrals-alleging-democrat-self"
-      },
-      {
-        "time": "03:11",
-        "text": "Ex-intel official reported Hunter Biden laptop letter was 'deception operation,' DOJ asked to probe: https://justthenews.com/accountability/political-ethics/ex-obama-intel-official-referred-hunter-biden-letter-over-concerns"
-      },
-      {
-        "time": "03:11",
-        "text": "Trump scores 30 out of 30 on cognitive assessment, looks 14 years younger than he is: physical: https://justthenews.com/government/white-house/trump-scores-30-out-30-cognitive-assessment-looks-14-years-younger-he"
-      },
       {
         "time": "03:13",
         "text": "Cotton over chemicals: How Trump's USDA is Making America's Fabric Great Again: https://justthenews.com/government/white-house/cotton-over-chemicals-how-trumps-usda-making-americas-fabric-great-again"
@@ -47,6 +31,22 @@
       {
         "time": "07:19",
         "text": "Today is Judge Jeanine Pirro’s Birthday. She is the U.S. Attorney for the District of Columbia, and has done a fantastic job — Respected by everyone, even the Radical Left Lunatics. Thank you Jeanine, and HAPPY BIRTHDAY! President DONALD J. TRUMP"
+      },
+      {
+        "time": "11:19",
+        "text": "Today is Judge Jeanine Pirro's Birthday. She is the U.S. Attorney for the District of Columbia, and has done a fantastic job — Respected by everyone, even the Radical Left Lunatics. Thank you Jeanine, and HAPPY BIRTHDAY! President DONALD J. TRUMP"
+      },
+      {
+        "time": "12:32",
+        "text": "Great job by highly decorated Navy Seal Officer, Mike Sarraille, on Jesse Watters. Mike has seen it all, and really gets it. A \"tough cookie.\" President DJT"
+      },
+      {
+        "time": "12:40",
+        "text": "CALIFORNIA: Vote today for Steve Hilton for Governor. He will work with me and the Federal Government, the money will flow because I have confidence in him (but not any of the others!), and we will MAKE CALIFORNIA GREAT AGAIN. Steve Hilton will NEVER let you down. VOTE NOW!"
+      },
+      {
+        "time": "13:06",
+        "text": "I am appointing the Director of the Federal Housing Finance Agency, and Chairman of Fannie Mae/Freddie Mac, William J. Pulte, to serve as Acting Director of National Intelligence. William has deep experience managing the most sensitive matters in America, the safety and soundness of the Markets, and"
       }
     ]
   },
@@ -57,7 +57,7 @@
     "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_21_35": true,
+    "posts_36plus": true,
     "avg_len_very_long": true,
     "caps_medium": true,
     "excl_heavy": true,
@@ -73,6 +73,7 @@
     "kw_iran": true,
     "kw_dow": true,
     "kw_dow_2plus": true,
+    "pre_dow": true,
     "kw_economy": true,
     "kw_economy_2plus": true,
     "kw_energy": true,
@@ -80,8 +81,11 @@
     "kw_jobs": true,
     "kw_jobs_2plus": true,
     "kw_trillion": true,
+    "kw_trillion_2plus": true,
+    "pre_trillion": true,
     "kw_great": true,
     "kw_great_2plus": true,
+    "pre_great": true,
     "kw_tremendous": true,
     "kw_tremendous_2plus": true,
     "kw_incredible": true,
@@ -108,8 +112,11 @@
     "kw_america_first_2plus": true,
     "kw_golden_age": true,
     "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true,
     "kw_never_let_you_down": true,
     "kw_never_let_you_down_2plus": true,
+    "pre_never_let_you_down": true,
     "kw_complete_and_total": true,
     "kw_complete_and_total_2plus": true,
     "volume_falling_3d": true,
@@ -258,31 +265,21 @@
   },
   "evolution_latest": {
     "date": "2026-06-02",
-    "crossover": 12,
-    "mutation": 16,
+    "crossover": 16,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_signed",
-          "kw_tariffs"
+          "open_china",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 92.3,
+        "score": 90.9,
         "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_economy",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "crossover"
       },
       {
         "features": [
@@ -293,6 +290,18 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_inflation",
+          "kw_economy",
+          "kw_tariffs",
+          "kw_trade"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
+        "origin": "crossover"
       }
     ]
   },
