@@ -1,6 +1,6 @@
 {
   "date": "2026-06-03",
-  "prepared_at": "2026-06-03T05:45:26Z",
+  "prepared_at": "2026-06-03T08:46:42Z",
   "status": "PENDING",
   "today_posts": {
     "count": 4,
@@ -169,20 +169,20 @@
   },
   "evolution_latest": {
     "date": "2026-06-03",
-    "crossover": 16,
-    "mutation": 14,
+    "crossover": 14,
+    "mutation": 16,
     "distill": 16,
     "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "open_china"
+          "open_china",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
+        "hold": 2,
+        "score": 90.9,
         "origin": "mutation_remove"
       },
       {
@@ -193,17 +193,19 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_amazing",
-          "volume_spike"
+          "kw_beautiful",
+          "kw_tariffs_2plus",
+          "open_thank_you_for_your_attention",
+          "kw_tariff_2plus"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.9,
-        "origin": "mutation_remove"
+        "score": 90.0,
+        "origin": "crossover"
       }
     ]
   },
