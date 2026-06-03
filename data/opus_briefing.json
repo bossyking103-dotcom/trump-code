@@ -1,17 +1,13 @@
 {
   "date": "2026-06-03",
-  "prepared_at": "2026-06-03T17:45:31Z",
+  "prepared_at": "2026-06-03T20:45:49Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "EPA boss made criminal referrals alleging Democrats 'self-dealing' in lucrative green energy grants: https://justthenews.com/accountability/waste-fraud-and-abuse/epa-boss-made-criminal-referrals-alleg",
+    "count": 11,
+    "latest": "I'll be going to the G7, in France, immediately following what will be one of the Most Entertaining Nights in American History, the UFC World Championship Fights on the South Lawn of the White House. ",
     "earliest_time": "2026-06-03T00:39:20.897Z",
-    "latest_time": "2026-06-03T02:54:57.017Z",
+    "latest_time": "2026-06-03T19:34:48.491Z",
     "sample": [
-      {
-        "time": "00:39",
-        "text": "Congratulations to Colombian Presidential Candidate, \"El Tigre (THE TIGER),\" Abelardo de la Espriella, a Smart, Strong, and Tough Leader, on his decisive Victory in the first round of the Colombian Presidential Election! Abelardo fights tirelessly for, and loves, his Great Country and People, just l"
-      },
       {
         "time": "00:43",
         "text": "It is my Great Honor to endorse America First Patriot, Adriana Guzmán Fralick, who is running to be the next Attorney General of the Wonderful State of Nevada. Adriana is strongly supported by many of the greatest MAGA Warriors in Nevada, including my friend, Governor Joe Lombardo, among others! I'v"
@@ -23,6 +19,34 @@
       {
         "time": "02:54",
         "text": "EPA boss made criminal referrals alleging Democrats 'self-dealing' in lucrative green energy grants: https://justthenews.com/accountability/waste-fraud-and-abuse/epa-boss-made-criminal-referrals-alleging-democrat-self"
+      },
+      {
+        "time": "15:34",
+        "text": "I’ll be going to the G7, in France, immediately following what will be one of the Most Entertaining Nights in American History, the UFC World Championship Fights on the South Lawn of the White House. Records indicate that whilst fights of a much lower level took place at the White House throughout i"
+      },
+      {
+        "time": "19:02",
+        "text": "Vice President JD Vance and Republicans are doing a great job hunting down Fraud in the various States. Billions of Dollars is being found, and we've just started! If we found it all, we would literally be able to balance the Budget, and simultaneously reduce Taxes, cutting them even more than I hav"
+      },
+      {
+        "time": "19:12",
+        "text": "Excitingly, the final coat of protection will be completed on the Reflecting Pool that sits between The Washington Monument and The Lincoln Memorial, at 4 P.M., today. The water will start flowing, shortly thereafter. The walking paths outside of the Pool will, likewise, be cleaned, sandblasted, and"
+      },
+      {
+        "time": "19:15",
+        "text": "Congratulations to Steve Hilton on coming in first, last night, in the California Vote for Governor. If Californians are smart, which I know they are, they will put Steve into the Governor's Mansion, and watch their State get better at a rate that has probably never been seen before. I know Steve — "
+      },
+      {
+        "time": "19:21",
+        "text": "Communists always do well with the Voters or, as they would say, THE PEOPLE, in the Early Years! But, in the end, the Country, State, or City, GOES TO HELL! Great Violence proceeds at levels never seen before, and the entity dissolves into Poverty, Squalor, and Crime. Remember, breathtaking \"Popular"
+      },
+      {
+        "time": "19:22",
+        "text": "Has anyone ever seen a Happy Communist? President DJT"
+      },
+      {
+        "time": "19:34",
+        "text": "I'll be going to the G7, in France, immediately following what will be one of the Most Entertaining Nights in American History, the UFC World Championship Fights on the South Lawn of the White House. Records indicate that whilst fights of a much lower level took place at the White House throughout i"
       }
     ]
   },
@@ -31,33 +55,46 @@
     "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_very_long": true,
+    "posts_11_20": true,
+    "avg_len_long": true,
     "caps_medium": true,
-    "excl_heavy": true,
-    "questions_no": true,
+    "excl_normal": true,
+    "mostly_open": true,
     "has_night": true,
     "heavy_night": true,
     "kw_deal": true,
     "kw_trade": true,
+    "kw_immediately": true,
+    "kw_immediately_2plus": true,
+    "open_immediately": true,
     "kw_dow": true,
     "kw_dow_2plus": true,
+    "open_dow": true,
     "kw_economy": true,
     "kw_energy": true,
     "kw_jobs": true,
+    "kw_billion": true,
+    "open_billion": true,
     "kw_great": true,
     "kw_great_2plus": true,
+    "open_great": true,
     "kw_tremendous": true,
     "kw_incredible": true,
+    "kw_amazing": true,
+    "open_amazing": true,
     "kw_fantastic": true,
     "kw_wonderful": true,
     "kw_wonderful_2plus": true,
+    "open_wonderful": true,
+    "kw_vance": true,
+    "open_vance": true,
     "kw_maga": true,
     "kw_america_first": true,
+    "kw_president_djt": true,
+    "open_president_djt": true,
     "kw_never_let_you_down": true,
     "kw_complete_and_total": true,
     "kw_complete_and_total_2plus": true,
-    "volume_drop": true,
     "deal_without_tariff": true,
     "deal_no_tariff": true
   },
@@ -177,13 +214,24 @@
     "top_3": [
       {
         "features": [
-          "kw_president_of_the_united_states",
-          "kw_india"
+          "kw_economy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "mutation_remove"
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "open_tariffs",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
       },
       {
         "features": [
@@ -194,16 +242,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_tremendous",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
       }
     ]
   },
