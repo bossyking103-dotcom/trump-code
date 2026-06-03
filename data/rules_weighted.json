@@ -1,29 +1,11 @@
 {
   "meta": {
-    "updated_at": "2026-06-03T11:45:55Z",
-    "total_rules": 601,
+    "updated_at": "2026-06-03T17:45:31Z",
+    "total_rules": 600,
     "eliminated": 0,
     "rules_with_data": 0
   },
   "rules": [
-    {
-      "id": "INVERSE_TARIFF_LONG",
-      "features": [
-        "kw_tariff"
-      ],
-      "direction": "LONG",
-      "hold": 1,
-      "origin": "inverse_from_failure",
-      "original_error_rate": 70.0,
-      "weight": 1.2,
-      "born_date": "2026-06-03",
-      "combined_score": 70.0,
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
     {
       "features": [
         "both_tariff_and_deal",
