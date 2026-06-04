@@ -1,12 +1,12 @@
 {
   "date": "2026-06-04",
-  "prepared_at": "2026-06-04T08:45:35Z",
+  "prepared_at": "2026-06-04T11:45:28Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 5,
-    "latest": "There's BIG cheating by the Dumocrats in California. Votes are all tied up. May not be in for weeks. Under investigation by the U.S. Attorney's Office in Los Angeles. Why the vote counting DELAY??? Pr",
+    "count": 6,
+    "latest": "Yesterday, in a meaningless vote, the House voted, 4 bad Republicans and all of the Dumocrats, to limit my War Powers, right in the middle of my final negotiations to end the War with the Islamic Repu",
     "earliest_time": "2026-06-04T00:38:00.000Z",
-    "latest_time": "2026-06-04T05:05:22.083Z",
+    "latest_time": "2026-06-04T11:13:54.987Z",
     "sample": [
       {
         "time": "00:38",
@@ -27,11 +27,18 @@
       {
         "time": "05:05",
         "text": "There's BIG cheating by the Dumocrats in California. Votes are all tied up. May not be in for weeks. Under investigation by the U.S. Attorney's Office in Los Angeles. Why the vote counting DELAY??? President DJT"
+      },
+      {
+        "time": "11:13",
+        "text": "Yesterday, in a meaningless vote, the House voted, 4 bad Republicans and all of the Dumocrats, to limit my War Powers, right in the middle of my final negotiations to end the War with the Islamic Republic of Iran. Who would do such an unpatriotic thing. They know where the negotiations stand. The De"
       }
     ]
   },
+  "keyword_signals": [
+    "IRAN"
+  ],
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_medium": true,
     "caps_high": true,
     "excl_normal": true,
@@ -42,11 +49,15 @@
     "kw_delay_2plus": true,
     "pre_delay": true,
     "kw_immediately": true,
+    "kw_iran": true,
+    "pre_iran": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
     "kw_biden": true,
     "pre_biden": true,
+    "kw_maga": true,
+    "pre_maga": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
@@ -160,21 +171,22 @@
   },
   "evolution_latest": {
     "date": "2026-06-04",
-    "crossover": 16,
+    "crossover": 12,
     "mutation": 11,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 39,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "questions_yes",
-          "kw_tariffs_2plus",
+          "is_friday",
+          "kw_dow_2plus",
+          "kw_beautiful",
           "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
+        "score": 90.0,
         "origin": "crossover"
       },
       {
@@ -185,16 +197,16 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
+        "origin": "mutation_remove"
       },
       {
         "features": [
           "kw_interest_rate",
-          "kw_tremendous"
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 90.0,
         "origin": "distilled"
       }
     ]
