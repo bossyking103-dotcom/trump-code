@@ -1,12 +1,12 @@
 {
   "date": "2026-06-04",
-  "prepared_at": "2026-06-04T14:45:37Z",
+  "prepared_at": "2026-06-04T17:45:41Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "Yesterday, in a meaningless vote, the House voted, 4 bad Republicans and all of the Dumocrats, to limit my War Powers, right in the middle of my final negotiations to end the War with the Islamic Repu",
+    "count": 10,
+    "latest": "College Sports, a Great American Institution that produces our many Athletes, Leaders, and Olympic Dominance, is a total \"mess,\" and everyone is saying that it must be fixed. After unending lawsuits a",
     "earliest_time": "2026-06-04T00:38:00.000Z",
-    "latest_time": "2026-06-04T11:13:54.987Z",
+    "latest_time": "2026-06-04T16:52:26.919Z",
     "sample": [
       {
         "time": "00:38",
@@ -31,6 +31,22 @@
       {
         "time": "11:13",
         "text": "Yesterday, in a meaningless vote, the House voted, 4 bad Republicans and all of the Dumocrats, to limit my War Powers, right in the middle of my final negotiations to end the War with the Islamic Republic of Iran. Who would do such an unpatriotic thing. They know where the negotiations stand. The De"
+      },
+      {
+        "time": "13:30",
+        "text": "Look what’s happening in California, the Dumocrats, right before our very eyes, are stealing the Vote. I hope the Republicans are watching so that they can finally pass THE SAVE AMERICA ACT! President DONALD J. TRUMP"
+      },
+      {
+        "time": "13:36",
+        "text": "THE SAVE AMERICA ACT!1. ALL VOTERS MUST SHOW PHOTO I.D. (IDENTIFICATION!).2. ALL VOTERS MUST SHOW PROOF OF CITIZENSHIP.3. NO MAIL-IN BALLOTS (EXCEPT FOR ILLNESS, DISABILITY, MILITARY, OR TRAVEL!).4. NO MEN IN WOMEN’S SPORTS.5. NO TRANSGENDER MUTILIZATION SURGERY FOR OUR CHILDREN."
+      },
+      {
+        "time": "14:59",
+        "text": "FoxNews should get rid of sloppy RINO Karl Rove. He's called ME and MAGA wrong for 11 years now, and he still doesn't get it, and he never will, because he suffers from a completely inoperable, and totally dysfunctional, case of Trump Derangement Syndrome. Put Karl Rove out to pasture, NOW. He is a "
+      },
+      {
+        "time": "16:52",
+        "text": "College Sports, a Great American Institution that produces our many Athletes, Leaders, and Olympic Dominance, is a total \"mess,\" and everyone is saying that it must be fixed. After unending lawsuits and crazed rulings, there are virtually no limits anymore, and soon most Colleges won't have Sports b"
       }
     ]
   },
@@ -39,29 +55,45 @@
   ],
   "today_features": {
     "posts_6_10": true,
-    "avg_len_medium": true,
+    "avg_len_long": true,
     "caps_high": true,
-    "excl_normal": true,
+    "excl_heavy": true,
     "questions_yes": true,
-    "mostly_premarket": true,
     "has_night": true,
     "kw_delay": true,
     "kw_delay_2plus": true,
     "pre_delay": true,
+    "kw_executive_order": true,
+    "open_executive_order": true,
+    "kw_signed": true,
+    "open_signed": true,
     "kw_immediately": true,
+    "kw_ban": true,
+    "open_ban": true,
     "kw_iran": true,
     "pre_iran": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
+    "open_great": true,
+    "kw_disaster": true,
+    "open_disaster": true,
     "kw_biden": true,
     "pre_biden": true,
     "kw_maga": true,
+    "kw_maga_2plus": true,
     "pre_maga": true,
+    "open_maga": true,
+    "kw_save_america": true,
+    "kw_save_america_2plus": true,
+    "open_save_america": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
-    "volume_drop": true
+    "open_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
+    "open_thank_you_for_your_attention": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -172,40 +204,42 @@
   "evolution_latest": {
     "date": "2026-06-04",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_china",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
+          "open_thank_you_for_your_attention",
+          "kw_beautiful",
+          "open_tariffs"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
-        "origin": "mutation_remove"
+        "score": 90.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_india",
+          "kw_president_of_the_united_states",
+          "kw_great"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "mutation_replace"
       }
     ]
   },
