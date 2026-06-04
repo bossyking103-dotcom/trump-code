@@ -1,45 +1,55 @@
 {
   "date": "2026-06-04",
-  "prepared_at": "2026-06-04T05:45:28Z",
+  "prepared_at": "2026-06-04T08:45:35Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "There’s BIG cheating by the Dumocrats in California. Votes are all tied up. May not be in for weeks. Under investigation by the U.S. Attorney’s Office in Los Angeles. Why the vote counting DELAY??? Pr",
+    "count": 5,
+    "latest": "There's BIG cheating by the Dumocrats in California. Votes are all tied up. May not be in for weeks. Under investigation by the U.S. Attorney's Office in Los Angeles. Why the vote counting DELAY??? Pr",
     "earliest_time": "2026-06-04T00:38:00.000Z",
-    "latest_time": "2026-06-04T01:32:00.000Z",
+    "latest_time": "2026-06-04T05:05:22.083Z",
     "sample": [
       {
         "time": "00:38",
         "text": "I’ll be going to the G7, in France, immediately following what will be one of the Most Entertaining Nights in American History, the UFC World Championship Fights on the South Lawn of the White House. Records indicate that whilst fights of a much lower level took place at the White House throughout i"
       },
       {
-        "time": "00:48",
-        "text": "If you add the largest Tax and Regulation Cuts in U.S. History, $5000 to $10,000 per family, coupled with falling prices across the board from the Sleepy Joe Biden years, “TRUMP” &amp; THE REPUBLICANS WIN THE AFFORDABILITY WARS by record numbers!"
+        "time": "01:32",
+        "text": "There’s BIG cheating by the Dumocrats in California. Votes are all tied up. May not be in for weeks. Under investigation by the U.S. Attorney’s Office in Los Angeles. Why the vote counting DELAY??? President DJT"
       },
       {
-        "time": "01:05",
+        "time": "04:38",
+        "text": "If you add the largest Tax and Regulation Cuts in U.S. History, $5000 to $10,000 per family, coupled with falling prices across the board from the Sleepy Joe Biden years, \"TRUMP\" & THE REPUBLICANS WIN THE AFFORDABILITY WARS by record numbers!"
+      },
+      {
+        "time": "04:48",
         "text": "The Dumocrats are at it again! They are trying to STEAL THE GOVERNOR OF CALIFORNIA PRIMARY, AND THE MAYOR OF LOS ANGELES, PRIMARY, AWAY FROM TWO GREAT REPUBLICAN CANDIDATES. Here we go with the very late and massive numbers of MAIL IN BALLOTS"
       },
       {
-        "time": "01:32",
-        "text": "There’s BIG cheating by the Dumocrats in California. Votes are all tied up. May not be in for weeks. Under investigation by the U.S. Attorney’s Office in Los Angeles. Why the vote counting DELAY??? President DJT"
+        "time": "05:05",
+        "text": "There's BIG cheating by the Dumocrats in California. Votes are all tied up. May not be in for weeks. Under investigation by the U.S. Attorney's Office in Los Angeles. Why the vote counting DELAY??? President DJT"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
     "avg_len_medium": true,
-    "caps_very_high": true,
+    "caps_high": true,
     "excl_normal": true,
     "questions_yes": true,
+    "mostly_premarket": true,
     "has_night": true,
-    "heavy_night": true,
     "kw_delay": true,
+    "kw_delay_2plus": true,
+    "pre_delay": true,
     "kw_immediately": true,
     "kw_great": true,
     "kw_great_2plus": true,
+    "pre_great": true,
     "kw_biden": true,
+    "pre_biden": true,
     "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true,
     "volume_drop": true
   },
   "model_performance": {
@@ -151,29 +161,20 @@
   "evolution_latest": {
     "date": "2026-06-04",
     "crossover": 16,
-    "mutation": 12,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_china",
+          "questions_yes",
+          "kw_tariffs_2plus",
           "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "open_president_of_the_united_states",
-          "open_deal"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 90.0,
+        "hold": 3,
+        "score": 91.7,
         "origin": "crossover"
       },
       {
@@ -184,7 +185,17 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "mutation_remove"
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
