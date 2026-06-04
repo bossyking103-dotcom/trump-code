@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-03T20:45:49Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-06-04T05:45:28Z",
+    "evolved_rules_added": 44
   },
   "rules": [
     {
@@ -14906,7 +14906,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-06-03",
+      "born_date": "2026-06-04",
       "combined_score": 70.0
     }
   ]
