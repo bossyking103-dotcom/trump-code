@@ -1,5 +1,5 @@
 {
-  "total_requests": 21800,
+  "total_requests": 22050,
   "total_unique_ips": 1,
   "daily": {
     "2026-05-03": {
@@ -246,12 +246,12 @@
       }
     },
     "2026-06-05": {
-      "views": 414,
+      "views": 664,
       "unique_ips": [
         "12ca17b49af2"
       ],
       "pages": {
-        "/api/signals": 413,
+        "/api/signals": 663,
         "/api/recent-posts": 1
       }
     }
@@ -625,10 +625,13 @@
     "2026-06-05T08": 79,
     "2026-06-05T09": 82,
     "2026-06-05T10": 82,
-    "2026-06-05T11": 16
+    "2026-06-05T11": 82,
+    "2026-06-05T12": 83,
+    "2026-06-05T13": 74,
+    "2026-06-05T14": 27
   },
   "pages": {
-    "/api/signals": 21785,
+    "/api/signals": 22035,
     "/api/status": 1,
     "/api/daily": 1,
     "/": 1,
@@ -636,6 +639,6 @@
   },
   "user_agents": {
     "curl": 17,
-    "Python": 21783
+    "Python": 22033
   }
 }

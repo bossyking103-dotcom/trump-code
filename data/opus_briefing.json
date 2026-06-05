@@ -1,12 +1,12 @@
 {
   "date": "2026-06-05",
-  "prepared_at": "2026-06-05T11:45:29Z",
+  "prepared_at": "2026-06-05T14:45:31Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "The Ballroom is coming along fantastically well. It's on time, and under budget (Unlike the Federal Reserve Building, where \"Too Late\" has done a terrible job of Cost and Time Control!), and at a much",
+    "count": 6,
+    "latest": "With a great Jobs Report, like just announced, stocks should go up, not down. That's the way it was for 200 years. Growth does not mean inflation! How else can a Country attain GREATNESS??? President ",
     "earliest_time": "2026-06-05T00:17:28.105Z",
-    "latest_time": "2026-06-05T02:48:05.507Z",
+    "latest_time": "2026-06-05T14:33:09.398Z",
     "sample": [
       {
         "time": "00:17",
@@ -19,22 +19,47 @@
       {
         "time": "02:48",
         "text": "The Ballroom is coming along fantastically well. It's on time, and under budget (Unlike the Federal Reserve Building, where \"Too Late\" has done a terrible job of Cost and Time Control!), and at a much higher quality than I ever promised, including the DronePort, and ALL of the other many Military el"
+      },
+      {
+        "time": "09:51",
+        "text": "A great new book by fabulous Ainsley Earhardt, “America, I’m  So Glad You Were Born,” is out now. What a great title! Get it now. Make it number ONE!!! President DJT"
+      },
+      {
+        "time": "13:51",
+        "text": "A great new book by fabulous Ainsley Earhardt, \"America, I'm  So Glad You Were Born,\" is out now. What a great title! Get it now. Make it number ONE!!! President DJT"
+      },
+      {
+        "time": "14:33",
+        "text": "With a great Jobs Report, like just announced, stocks should go up, not down. That's the way it was for 200 years. Growth does not mean inflation! How else can a Country attain GREATNESS??? President DJT"
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_very_long": true,
+    "posts_6_10": true,
+    "avg_len_long": true,
     "caps_high": true,
     "excl_heavy": true,
     "questions_yes": true,
     "has_night": true,
     "heavy_night": true,
     "kw_dow": true,
+    "kw_dow_2plus": true,
+    "open_dow": true,
+    "kw_inflation": true,
+    "open_inflation": true,
+    "kw_jobs": true,
+    "open_jobs": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "open_great": true,
     "kw_fantastic": true,
     "kw_terrible": true,
     "kw_save_america": true,
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true,
+    "open_president_djt": true,
     "kw_complete_and_total": true,
     "is_friday": true,
     "volume_drop": true
@@ -148,11 +173,21 @@
   "evolution_latest": {
     "date": "2026-06-05",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "kw_signed",
+          "kw_tariff"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.6,
+        "origin": "mutation_remove"
+      },
       {
         "features": [
           "kw_economy",
@@ -172,16 +207,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_tremendous",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "mutation_remove"
       }
     ]
   },

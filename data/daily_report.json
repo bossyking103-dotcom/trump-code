@@ -1,10 +1,10 @@
 {
   "date": "2026-06-05",
-  "generated_at": "2026-06-05T11:45:22Z",
-  "posts_today": 3,
+  "generated_at": "2026-06-05T14:45:22Z",
+  "posts_today": 6,
   "latest_post": {
-    "time": "2026-06-05T02:48",
-    "content_preview": "The Ballroom is coming along fantastically well. It's on time, and under budget (Unlike the Federal "
+    "time": "2026-06-05T14:33",
+    "content_preview": "With a great Jobs Report, like just announced, stocks should go up, not down. That's the way it was "
   },
   "signals_detected": [],
   "models_triggered": 0,
@@ -19,13 +19,13 @@
     "rate": 100.0
   },
   "sp500_latest": {
-    "date": "2026-06-04",
-    "close": 7584.31
+    "date": "2026-06-05",
+    "close": 7508.75
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-05\nPosts today: 3 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The Ballroom is coming along fantastically well. It's on time, and under budget (Unlike the Federal ",
-    "zh": "川普密碼每日報告 -- 2026-06-05\n今日推文: 3 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The Ballroom is coming along fantastically well. It's on time, and under budget (Unlike the Federal ",
-    "ja": "トランプ・コード日次レポート -- 2026-06-05\n本日の投稿: 3件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The Ballroom is coming along fantastically well. It's on time, and under budget (Unlike the Federal "
+    "en": "Trump Code Daily Report -- 2026-06-05\nPosts today: 6 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: With a great Jobs Report, like just announced, stocks should go up, not down. That's the way it was ",
+    "zh": "川普密碼每日報告 -- 2026-06-05\n今日推文: 6 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: With a great Jobs Report, like just announced, stocks should go up, not down. That's the way it was ",
+    "ja": "トランプ・コード日次レポート -- 2026-06-05\n本日の投稿: 6件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: With a great Jobs Report, like just announced, stocks should go up, not down. That's the way it was "
   },
   "triggered_rules_sample": []
 }
