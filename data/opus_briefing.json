@@ -1,12 +1,12 @@
 {
   "date": "2026-06-05",
-  "prepared_at": "2026-06-05T17:45:31Z",
+  "prepared_at": "2026-06-05T20:45:35Z",
   "status": "PENDING",
   "today_posts": {
     "count": 10,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116698624343659358Very impressive. Proud of you! President DJT",
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116698960799135985",
     "earliest_time": "2026-06-05T00:17:28.105Z",
-    "latest_time": "2026-06-05T17:15:07.171Z",
+    "latest_time": "2026-06-05T18:40:44.718Z",
     "sample": [
       {
         "time": "00:17",
@@ -21,18 +21,6 @@
         "text": "The Ballroom is coming along fantastically well. It's on time, and under budget (Unlike the Federal Reserve Building, where \"Too Late\" has done a terrible job of Cost and Time Control!), and at a much higher quality than I ever promised, including the DronePort, and ALL of the other many Military el"
       },
       {
-        "time": "10:33",
-        "text": "I’d like to thank our GREAT Senator, Lindsey Graham, for putting up THE SAVE AMERICA ACT for a Vote today. It states that: 1. ALL VOTERS MUST SHOW PHOTO I.D. (IDENTIFICATION!).2. ALL VOTERS MUST SHOW PROOF OF CITIZENSHIP.3. NO MAIL-IN BALLOTS (EXCEPT FOR ILLNESS, DISABILITY, MILITARY, OR TRAVEL!).4."
-      },
-      {
-        "time": "11:51",
-        "text": "A great new book by fabulous Ainsley Earhardt, “America, I’m  So Glad You Were Born,” is out now. What a great title! Get it now. Make it number ONE!!! President DJT"
-      },
-      {
-        "time": "13:15",
-        "text": "Very impressive. Proud of you! President DJT"
-      },
-      {
         "time": "13:51",
         "text": "A great new book by fabulous Ainsley Earhardt, \"America, I'm  So Glad You Were Born,\" is out now. What a great title! Get it now. Make it number ONE!!! President DJT"
       },
@@ -41,26 +29,38 @@
         "text": "With a great Jobs Report, like just announced, stocks should go up, not down. That's the way it was for 200 years. Growth does not mean inflation! How else can a Country attain GREATNESS??? President DJT"
       },
       {
+        "time": "14:40",
+        "text": "Very impressive. Proud of you! President DJT"
+      },
+      {
         "time": "15:26",
         "text": "The Great Reflecting Pool, that stretches between The Lincoln Memorial and The Washington Monument, just opened to \"rave reviews\" but, maliciously or not, some say, like The Washington Post, it was a \"paint job.\" This was not a paint job. This was highly sophisticated material, industrial strength, "
       },
       {
         "time": "17:15",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116698624343659358Very impressive. Proud of you! President DJT"
+      },
+      {
+        "time": "18:40",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116698954650603382"
+      },
+      {
+        "time": "18:40",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116698960799135985"
       }
     ]
   },
   "today_features": {
     "posts_6_10": true,
-    "avg_len_long": true,
-    "caps_very_high": true,
+    "avg_len_medium": true,
+    "caps_high": true,
     "excl_heavy": true,
     "questions_yes": true,
+    "mostly_open": true,
     "has_night": true,
     "heavy_night": true,
     "kw_dow": true,
     "kw_dow_2plus": true,
-    "pre_dow": true,
     "open_dow": true,
     "kw_inflation": true,
     "open_inflation": true,
@@ -68,22 +68,16 @@
     "open_jobs": true,
     "kw_great": true,
     "kw_great_2plus": true,
-    "pre_great": true,
     "open_great": true,
     "kw_beautiful": true,
     "open_beautiful": true,
     "kw_fantastic": true,
     "kw_terrible": true,
     "kw_save_america": true,
-    "kw_save_america_2plus": true,
-    "pre_save_america": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
-    "pre_president_djt": true,
     "open_president_djt": true,
     "kw_complete_and_total": true,
-    "kw_complete_and_total_2plus": true,
-    "pre_complete_and_total": true,
     "is_friday": true
   },
   "triggered_rules": {
@@ -215,19 +209,20 @@
   "evolution_latest": {
     "date": "2026-06-05",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_energy",
-          "is_friday"
+          "open_thank_you_for_your_attention",
+          "kw_beautiful",
+          "kw_tariffs_2plus"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 91.2,
+        "hold": 3,
+        "score": 90.0,
         "origin": "crossover"
       },
       {
@@ -242,13 +237,13 @@
       },
       {
         "features": [
-          "volume_falling_3d",
-          "kw_beautiful"
+          "is_friday",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 2,
         "score": 87.5,
-        "origin": "mutation_remove"
+        "origin": "crossover"
       }
     ]
   },
