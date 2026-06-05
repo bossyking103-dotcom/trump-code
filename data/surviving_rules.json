@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-04T20:45:43Z",
-    "evolved_rules_added": 46
+    "last_evolution": "2026-06-05T05:45:32Z",
+    "evolved_rules_added": 45
   },
   "rules": [
     {
@@ -13872,6 +13872,31 @@
     },
     {
       "features": [
+        "kw_never_let_you_down",
+        "open_dow",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 1,
+      "id": "d972d886e3c4",
+      "n_cond": 3,
+      "train_trades": 9,
+      "train_win_rate": 88.9,
+      "train_avg": 0.402,
+      "test_trades": 7,
+      "test_win_rate": 100.0,
+      "test_avg": 0.649,
+      "combined_score": 94.4,
+      "origin": "crossover",
+      "born_date": "2026-06-05",
+      "weight": 1.0,
+      "parents": [
+        "kw_india+kw_never_let_you_down",
+        "kw_thank_you_for_your_attention+open_china"
+      ]
+    },
+    {
+      "features": [
         "open_energy",
         "kw_thank_you_for_your_attention"
       ],
@@ -14870,33 +14895,6 @@
       }
     },
     {
-      "features": [
-        "caps_medium",
-        "kw_president_of_the_united_states",
-        "kw_never_let_you_down"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "id": "362209af17c4",
-      "n_cond": 3,
-      "train_trades": 7,
-      "train_win_rate": 85.7,
-      "train_avg": 0.829,
-      "test_trades": 6,
-      "test_win_rate": 100.0,
-      "test_avg": 0.823,
-      "combined_score": 92.9,
-      "origin": "mutation_replace",
-      "born_date": "2026-05-17",
-      "weight": 1.0,
-      "parent": "kw_india+kw_never_let_you_down+kw_president_of_the_united_states",
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
       "id": "INVERSE_TARIFF_LONG",
       "features": [
         "kw_tariff"
@@ -14906,7 +14904,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-06-04",
+      "born_date": "2026-06-05",
       "combined_score": 70.0
     }
   ]
