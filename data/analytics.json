@@ -1,5 +1,5 @@
 {
-  "total_requests": 21350,
+  "total_requests": 21600,
   "total_unique_ips": 1,
   "daily": {
     "2026-05-03": {
@@ -224,6 +224,35 @@
       ],
       "pages": {
         "/api/signals": 600
+      }
+    },
+    "2026-06-03": {
+      "views": 2,
+      "unique_ips": [
+        "12ca17b49af2"
+      ],
+      "pages": {
+        "/api/signals": 1,
+        "/api/recent-posts": 1
+      }
+    },
+    "2026-06-04": {
+      "views": 34,
+      "unique_ips": [
+        "12ca17b49af2"
+      ],
+      "pages": {
+        "/api/signals": 34
+      }
+    },
+    "2026-06-05": {
+      "views": 214,
+      "unique_ips": [
+        "12ca17b49af2"
+      ],
+      "pages": {
+        "/api/signals": 213,
+        "/api/recent-posts": 1
       }
     }
   },
@@ -586,17 +615,24 @@
     "2026-05-31T14": 62,
     "2026-05-31T15": 72,
     "2026-05-31T16": 71,
-    "2026-05-31T17": 17
+    "2026-05-31T17": 17,
+    "2026-06-03T23": 2,
+    "2026-06-04T08": 34,
+    "2026-06-05T00": 2,
+    "2026-06-05T05": 6,
+    "2026-06-05T06": 73,
+    "2026-06-05T07": 74,
+    "2026-06-05T08": 59
   },
   "pages": {
-    "/api/signals": 21337,
+    "/api/signals": 21585,
     "/api/status": 1,
     "/api/daily": 1,
     "/": 1,
-    "/api/recent-posts": 10
+    "/api/recent-posts": 12
   },
   "user_agents": {
     "curl": 17,
-    "Python": 21333
+    "Python": 21583
   }
 }

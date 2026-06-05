@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-05T05:45:32Z",
-    "evolved_rules_added": 45
+    "last_evolution": "2026-06-05T08:45:32Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -13893,7 +13893,12 @@
       "parents": [
         "kw_india+kw_never_let_you_down",
         "kw_thank_you_for_your_attention+open_china"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
