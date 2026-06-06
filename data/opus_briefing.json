@@ -1,12 +1,12 @@
 {
   "date": "2026-06-06",
-  "prepared_at": "2026-06-06T17:45:37Z",
+  "prepared_at": "2026-06-06T20:45:51Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116703094991947376",
+    "count": 7,
+    "latest": "This will someday save Washington. Judge Leon has to get out of the way, and FAST. He is putting our Country in danger!",
     "earliest_time": "2026-06-06T00:25:21.304Z",
-    "latest_time": "2026-06-06T12:12:12.897Z",
+    "latest_time": "2026-06-06T20:24:17.312Z",
     "sample": [
       {
         "time": "00:25",
@@ -23,11 +23,23 @@
       {
         "time": "12:12",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116703094991947376"
+      },
+      {
+        "time": "17:48",
+        "text": "All work is complete! Great American Patriots, primarily from the Great State of Oklahoma, plus Doug Burgum, Secretary of the Interior, inspecting the very complex, but powerful, Dark Blue surface of the Reflecting Pool, prior to submerging it in CLEAN, BEAUTIFUL WATER. It was originally opened in 1"
+      },
+      {
+        "time": "17:49",
+        "text": "The Barack Hussein Obama Library, in 10 years, when fully matured!"
+      },
+      {
+        "time": "20:24",
+        "text": "This will someday save Washington. Judge Leon has to get out of the way, and FAST. He is putting our Country in danger!"
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_long": true,
     "caps_medium": true,
     "excl_normal": true,
@@ -36,11 +48,16 @@
     "heavy_night": true,
     "kw_signed": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "open_great": true,
     "kw_beautiful": true,
+    "kw_beautiful_2plus": true,
+    "open_beautiful": true,
     "kw_terrible": true,
+    "kw_obama": true,
+    "open_obama": true,
     "kw_thank_you_for_your_attention": true,
-    "is_weekend": true,
-    "volume_drop": true
+    "is_weekend": true
   },
   "triggered_rules": {
     "total": 2,
@@ -184,41 +201,40 @@
   "evolution_latest": {
     "date": "2026-06-06",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_dow_2plus",
-          "kw_president_of_the_united_states",
+          "kw_economy",
           "open_president_of_the_united_states"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 95.5,
+        "hold": 3,
+        "score": 90.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "open_thank_you_for_your_attention",
-          "kw_biden_2plus"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 92.9,
-        "origin": "crossover"
+        "score": 90.0,
+        "origin": "distilled"
       },
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "is_friday",
-          "kw_energy"
+          "kw_tariff_2plus",
+          "questions_yes",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 92.3,
+        "hold": 3,
+        "score": 88.9,
         "origin": "crossover"
       }
     ]

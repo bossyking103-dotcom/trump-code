@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-06T17:45:36Z",
-    "evolved_rules_added": 46
+    "last_evolution": "2026-06-06T20:45:50Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -13598,7 +13598,12 @@
       "parents": [
         "kw_president_of_the_united_states+open_ban",
         "is_friday+kw_dow_2plus"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
