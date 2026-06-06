@@ -12208,5 +12208,46 @@
         "origin": "mutation_remove"
       }
     ]
+  },
+  {
+    "date": "2026-06-06",
+    "crossover": 16,
+    "mutation": 14,
+    "distill": 16,
+    "total_new": 46,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_inflation",
+          "kw_economy",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 93.8,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_signed",
+          "kw_maga"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      }
+    ]
   }
 ]
