@@ -1,16 +1,16 @@
 {
   "date": "2026-06-06",
-  "generated_at": "2026-06-06T11:45:31Z",
-  "posts_today": 3,
+  "generated_at": "2026-06-06T14:45:25Z",
+  "posts_today": 4,
   "latest_post": {
-    "time": "2026-06-06T01:17",
-    "content_preview": "I am pleased to announce the nomination of Judge James Crowell to the District of Columbia Court of "
+    "time": "2026-06-06T12:12",
+    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116703094991947376"
   },
   "signals_detected": [],
-  "models_triggered": 0,
+  "models_triggered": 2,
   "direction_summary": {
-    "LONG": 0,
-    "SHORT": 0,
+    "LONG": 1,
+    "SHORT": 1,
     "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
@@ -23,9 +23,32 @@
     "close": 7383.74
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-06\nPosts today: 3 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: I am pleased to announce the nomination of Judge James Crowell to the District of Columbia Court of ",
-    "zh": "川普密碼每日報告 -- 2026-06-06\n今日推文: 3 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: I am pleased to announce the nomination of Judge James Crowell to the District of Columbia Court of ",
-    "ja": "トランプ・コード日次レポート -- 2026-06-06\n本日の投稿: 3件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: I am pleased to announce the nomination of Judge James Crowell to the District of Columbia Court of "
+    "en": "Trump Code Daily Report -- 2026-06-06\nPosts today: 4 | Models triggered: 2\nSignals: None\nConsensus: 1 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116703094991947376",
+    "zh": "川普密碼每日報告 -- 2026-06-06\n今日推文: 4 篇 | 觸發模型: 2 組\n偵測信號: 無\n共識方向: 1 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116703094991947376",
+    "ja": "トランプ・コード日次レポート -- 2026-06-06\n本日の投稿: 4件 | トリガーモデル: 2組\n検出シグナル: なし\nコンセンサス: 1組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116703094991947376"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_america_first",
+        "kw_beautiful",
+        "kw_terrible"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_interest_rate",
+        "kw_signed",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }
