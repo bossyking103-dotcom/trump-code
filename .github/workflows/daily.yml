@@ -7,9 +7,10 @@
 name: Daily Pipeline
 
 on:
-  schedule:
-    # 每天 UTC 14:00 = 美東 10:00（開盤前）
-    - cron: '0 14 * * *'
+  # 2026-06-06 暫停 cron：避免跟 VPS 自動 push 衝突
+  # 保留 workflow_dispatch 手動觸發，供除錯用
+  # schedule:
+  #   - cron: '0 14 * * *'
   workflow_dispatch:
     # 手動觸發（除錯用）
 

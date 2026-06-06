@@ -20,7 +20,7 @@ from typing import Any
 GAMMA_BASE_URL = "https://gamma-api.polymarket.com"
 CLOB_BASE_URL = "https://clob.polymarket.com"
 
-DEFAULT_TIMEOUT = 15  # 秒
+DEFAULT_TIMEOUT = 5  # 秒（縮短，避免單一請求卡住）
 MAX_RETRIES = 3
 RETRY_DELAY = 1.0  # 秒，每次重試間隔（指數退避基數）
 
@@ -222,10 +222,10 @@ def get_market_price(token_id: str) -> dict[str, Any]:
 
 def get_prices_batch(token_ids: list[str]) -> dict[str, Any]:
     """
-    批量取得多個市場的即時價格。
+    批量取得多個市場的即時價格（併發）。
 
-    逐一呼叫 get_market_price 後彙整回傳。
-    （CLOB API 未提供原生批量端點，故此處逐筆查詢。）
+    使用 ThreadPoolExecutor 同時查詢，大幅減少總等待時間。
+    CLOB API /price 端點為公開端點，不需要認證。
 
     Args:
         token_ids: 代幣 ID 列表。
@@ -233,14 +233,25 @@ def get_prices_batch(token_ids: list[str]) -> dict[str, Any]:
     Returns:
         {"prices": {token_id: price_dict, ...}, "errors": {token_id: error_msg, ...}}
     """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
     results: dict[str, Any] = {}
     errors: dict[str, str] = {}
 
-    for tid in token_ids:
+    def _fetch_one(tid: str) -> tuple[str, dict[str, Any] | None, str | None]:
         try:
-            results[tid] = get_market_price(tid)
+            return (tid, get_market_price(tid), None)
         except PolymarketAPIError as e:
-            errors[tid] = str(e)
+            return (tid, None, str(e))
+
+    with ThreadPoolExecutor(max_workers=20) as executor:
+        futures = {executor.submit(_fetch_one, tid): tid for tid in token_ids}
+        for future in as_completed(futures):
+            tid, result, err = future.result()
+            if result is not None:
+                results[tid] = result
+            if err is not None:
+                errors[tid] = err
 
     return {"prices": results, "errors": errors}
 

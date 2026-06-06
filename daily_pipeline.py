@@ -299,10 +299,20 @@ def compute_day_features(day_posts, daily_posts_all=None, sorted_dates_all=None,
 
 
 def run_predictions(today_features, rules):
-    """用所有存活規則跑今天的預測"""
+    """用所有存活規則跑今天的預測
+
+    寬鬆匹配：3 特徵規則至少命中 2 個（67%），2 特徵至少命中 2 個，
+    1 特徵命中 1 個就觸發。解決 AND 太嚴、3 篇推文永遠 0 觸發的問題。
+    """
     triggered = []
     for rule in rules:
-        if all(today_features.get(feat, False) for feat in rule['features']):
+        feats = rule.get('features', [])
+        if not feats:
+            continue
+        matched = sum(1 for f in feats if today_features.get(f, False))
+        # 至少 2/3 命中（向下取整，且最少 1 個）
+        needed = max(1, (len(feats) * 2 + 2) // 3)
+        if matched >= needed:
             triggered.append(rule)
     return triggered
 
@@ -689,21 +699,21 @@ def main():
     log(f"{'='*70}")
     print(report['summary']['ja'])
 
-    # 7. 預測市場套利掃描
-    pm_results = scan_prediction_markets(key)
+    # 7. 預測市場套利掃描（已移除：Polymarket API 無法從本 VPS 訪問，功能長期失效）
+    # pm_results = scan_prediction_markets(key)
+    log("7/8 預測市場套利掃描: 已停用（API 無法訪問）")
 
-    # 8. 預測市場回饋迴路（追蹤過去的套利機會結果）
-    log("📊 8/10 預測市場回饋...")
-    try:
-        from pm_feedback_loop import run_pm_feedback
-        pm_fb = run_pm_feedback()
-        tracking = pm_fb.get('tracking', {})
-        if tracking.get('total_verified', 0) > 0:
-            log(f"   PM 命中率: {tracking.get('hit_rate', 0):.1f}%")
-    except ImportError:
-        log("   pm_feedback_loop 未安裝，跳過")
-    except Exception as e:
-        log(f"   PM 回饋失敗: {e}")
+    # 8. 預測市場回饋迴路（依賴 Polymarket，已連帶停用）
+    # try:
+    #     from pm_feedback_loop import run_pm_feedback
+    #     pm_fb = run_pm_feedback()
+    #     tracking = pm_fb.get('tracking', {})
+    #     if tracking.get('total_verified', 0) > 0:
+    #         log(f"   PM 命中率: {tracking.get('hit_rate', 0):.1f}%")
+    # except ImportError:
+    #     log("   pm_feedback_loop 未安裝，跳過")
+    # except Exception as e:
+    #     log(f"   PM 回饋失敗: {e}")
 
     # 9. 閉環學習 + 進化
     log("🧠 9/10 閉環學習...")

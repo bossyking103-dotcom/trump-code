@@ -8,7 +8,9 @@
 
 from __future__ import annotations
 
+import json
 import random
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Any
 
 from polymarket_client import (
@@ -284,7 +286,7 @@ def run_live(signals: list[str]) -> list[dict[str, Any]]:
     print("[Live] 搜尋川普相關市場...")
 
     try:
-        raw = fetch_trump_markets(limit=10)
+        raw = fetch_trump_markets(limit=5)  # 每個關鍵字最多5個市場（7關鍵字 × 5 = 最多35個市場）
     except PolymarketAPIError as e:
         print(f"  API 錯誤: {e}")
         return []
@@ -294,27 +296,47 @@ def run_live(signals: list[str]) -> list[dict[str, Any]]:
         print("  找不到市場數據")
         return []
 
-    # 收集 token_id 與名稱
+    # 收集 token_id 與名稱（先從 Gamma API 的 market 結構中取出）
+    # 優先用 market 自帶的 outcomePrices，其次用 token 自帶的 price，最後才呼叫 API
     prices: dict[str, float] = {}
     names: dict[str, str] = {}
 
     for market in market_list:
-        # Gamma API 回傳的市場結構中，tokens 是代幣列表
-        tokens = market.get("tokens", [])
         question = market.get("question", "(無標題)")
 
+        # 嘗試用 clobTokenIds + outcomePrices（Gamma API 已附帶，不需要額外請求）
+        clob_token_ids_raw = market.get("clobTokenIds")
+        outcome_prices_raw = market.get("outcomePrices")
+
+        if clob_token_ids_raw and outcome_prices_raw:
+            try:
+                clob_token_ids = json.loads(clob_token_ids_raw)
+                outcome_prices = json.loads(outcome_prices_raw)
+                for i, tid in enumerate(clob_token_ids):
+                    if not tid:
+                        continue
+                    price_val = float(outcome_prices[i]) if i < len(outcome_prices) else 0.5
+                    prices[tid] = price_val
+                    outcome = "YES" if i == 0 else "NO"
+                    names[tid] = f"{question} [{outcome}]"
+                continue  # 跳過下面的 tokens 迴圈
+            except (json.JSONDecodeError, ValueError, IndexError, TypeError):
+                pass  # 解析失敗，降級到 tokens 欄位
+
+        # 降級：使用 tokens 列表（少數市場 clobTokenIds 格式不符時走到這裡）
+        tokens = market.get("tokens", [])
         for token in tokens:
             tid = token.get("token_id", "")
-            if not tid:
+            if not tid or tid in prices:
                 continue
 
-            # 嘗試從 API 取得即時價格
-            try:
-                price_resp = get_market_price(tid)
-                price_val = float(price_resp.get("price", 0.5))
-            except (PolymarketAPIError, ValueError, TypeError):
-                # 如果 API 失敗，使用 token 本身可能帶的價格
-                price_val = float(token.get("price", 0.5))
+            # 優先用 token 自帶的 price
+            token_price = token.get("price")
+            if token_price is not None:
+                price_val = float(token_price)
+            else:
+                # fallback：用 CLOB 併發查詢（不走順序迴圈）
+                price_val = _fetch_price_safe(tid)
 
             prices[tid] = price_val
             outcome = token.get("outcome", "")
@@ -325,6 +347,15 @@ def run_live(signals: list[str]) -> list[dict[str, Any]]:
     # 執行分析
     results = analyze_opportunity(signals, prices, names)
     return results
+
+
+def _fetch_price_safe(token_id: str) -> float:
+    """安全取得單一代幣價格，失敗時回傳 0.5（中性價格）。"""
+    try:
+        resp = get_market_price(token_id)
+        return float(resp.get("price", 0.5))
+    except (PolymarketAPIError, ValueError, TypeError):
+        return 0.5
 
 
 # =====================================================================

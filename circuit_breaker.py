@@ -62,6 +62,9 @@ SYSTEM_PAUSE_HOURS = 24         # 停機幾小時
 
 # 反向信號
 INVERSE_THRESHOLD = 7           # 連錯幾次 → 嘗試反向
+
+# 資料新鮮度
+STALE_DATA_DAYS = 30            # 最後一筆 verified 超過 N 天 → 標記資料過期
 INVERSE_MIN_SAMPLES = 10        # 反向模式至少驗證幾筆
 
 
@@ -267,6 +270,36 @@ def run_circuit_breaker() -> dict[str, Any]:
     degrade_check = check_degradation(predictions)
     consec_check = check_consecutive_errors(predictions)
 
+    # 資料新鮮度檢查（最後一筆 verified 是什麼時候）
+    verified_all = [p for p in predictions if p.get('status') == 'VERIFIED']
+    last_signal_date = None
+    days_stale = None
+    if verified_all:
+        last_signal_date = max(p.get('date_signal', '') or p.get('signal_date', '') for p in verified_all)
+        if last_signal_date:
+            try:
+                from datetime import datetime as _dt
+                last_dt = _dt.strptime(last_signal_date[:10], '%Y-%m-%d').date()
+                days_stale = (_dt.now().date() - last_dt).days
+            except Exception:
+                pass
+    data_stale = days_stale is not None and days_stale > STALE_DATA_DAYS
+    freshness_check = {
+        'check': 'data_freshness',
+        'last_signal_date': last_signal_date,
+        'days_since_last': days_stale,
+        'threshold': STALE_DATA_DAYS,
+        'status': '🔴 STALE' if data_stale else '✅ FRESH',
+        'message': (
+            f'最後一筆驗證是 {last_signal_date}（{days_stale} 天前），'
+            f'資料可能過期（>{STALE_DATA_DAYS} 天）。'
+            if data_stale else
+            f'最後一筆驗證是 {last_signal_date}（{days_stale or 0} 天前），資料新鮮。'
+        ),
+    }
+    log(f"\n  第 0 道（資料新鮮度）: {freshness_check['status']}")
+    log(f"    {freshness_check['message']}")
+
     log(f"\n  第 1 道（vs 隨機）: {random_check['status']}")
     log(f"    {random_check.get('message', '')}")
     log(f"\n  第 2 道（惡化偵測）: {degrade_check['status']}")
@@ -293,6 +326,7 @@ def run_circuit_breaker() -> dict[str, Any]:
         'date': TODAY,
         'checked_at': NOW,
         'checks': {
+            'freshness': freshness_check,
             'vs_random': random_check,
             'degradation': degrade_check,
             'consecutive': consec_check,
