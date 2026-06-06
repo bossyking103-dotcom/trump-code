@@ -1,104 +1,42 @@
 {
-  "date": "2026-06-05",
-  "prepared_at": "2026-06-05T20:45:35Z",
+  "date": "2026-06-06",
+  "prepared_at": "2026-06-06T05:45:42Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 10,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116698960799135985",
-    "earliest_time": "2026-06-05T00:17:28.105Z",
-    "latest_time": "2026-06-05T18:40:44.718Z",
+    "count": 3,
+    "latest": "I am pleased to announce the nomination of Judge James Crowell to the District of Columbia Court of Appeals! James is one of the best Judges on the D.C. Superior Court, and previously served as a Seni",
+    "earliest_time": "2026-06-06T00:25:21.304Z",
+    "latest_time": "2026-06-06T01:17:02.172Z",
     "sample": [
       {
-        "time": "00:17",
-        "text": "Watch California, everybody! Our Election process is as bad, or worse, than any Third World Country. The biggest difference is, they count their Votes much faster — They don't wait seven days to tell you who won, rigging the Election during each and every one of them. Americans are ashamed of what i"
+        "time": "00:25",
+        "text": "The Governor of the Great State of Maryland, Wes Moore, has put a halt to all work being done at Joint Base Andrews Air Force Base, concerning the renovation and restoration of their two old and dilapidated Golf Courses, into two, World Class, Jack Nicklaus Designed Courses, plus nine additional hol"
       },
       {
-        "time": "00:21",
-        "text": "I'd like to thank our GREAT Senator, Lindsey Graham, for putting up THE SAVE AMERICA ACT for a Vote today. It states that: 1. ALL VOTERS MUST SHOW PHOTO I.D. (IDENTIFICATION!).2. ALL VOTERS MUST SHOW PROOF OF CITIZENSHIP.3. NO MAIL-IN BALLOTS (EXCEPT FOR ILLNESS, DISABILITY, MILITARY, OR TRAVEL!).4."
+        "time": "01:03",
+        "text": "I am pleased to announce the nomination of Stuart Nash to the District of Columbia Court of Appeals! Stuart is currently a Partner at Holland & Knight LLP, and previously served as a Judge on the D.C. Superior Court. He also worked as a Senior Official in the Office of the Deputy Attorney General, a"
       },
       {
-        "time": "02:48",
-        "text": "The Ballroom is coming along fantastically well. It's on time, and under budget (Unlike the Federal Reserve Building, where \"Too Late\" has done a terrible job of Cost and Time Control!), and at a much higher quality than I ever promised, including the DronePort, and ALL of the other many Military el"
-      },
-      {
-        "time": "13:51",
-        "text": "A great new book by fabulous Ainsley Earhardt, \"America, I'm  So Glad You Were Born,\" is out now. What a great title! Get it now. Make it number ONE!!! President DJT"
-      },
-      {
-        "time": "14:33",
-        "text": "With a great Jobs Report, like just announced, stocks should go up, not down. That's the way it was for 200 years. Growth does not mean inflation! How else can a Country attain GREATNESS??? President DJT"
-      },
-      {
-        "time": "14:40",
-        "text": "Very impressive. Proud of you! President DJT"
-      },
-      {
-        "time": "15:26",
-        "text": "The Great Reflecting Pool, that stretches between The Lincoln Memorial and The Washington Monument, just opened to \"rave reviews\" but, maliciously or not, some say, like The Washington Post, it was a \"paint job.\" This was not a paint job. This was highly sophisticated material, industrial strength, "
-      },
-      {
-        "time": "17:15",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116698624343659358Very impressive. Proud of you! President DJT"
-      },
-      {
-        "time": "18:40",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116698954650603382"
-      },
-      {
-        "time": "18:40",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116698960799135985"
+        "time": "01:17",
+        "text": "I am pleased to announce the nomination of Judge James Crowell to the District of Columbia Court of Appeals! James is one of the best Judges on the D.C. Superior Court, and previously served as a Senior DOJ Official, and Chief of the Criminal Division in the Maryland U.S. Attorney's Office. He is al"
       }
     ]
   },
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_medium": true,
-    "caps_high": true,
+    "posts_1_5": true,
+    "avg_len_very_long": true,
+    "caps_medium": true,
     "excl_heavy": true,
-    "questions_yes": true,
-    "mostly_open": true,
+    "questions_no": true,
     "has_night": true,
     "heavy_night": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "open_dow": true,
-    "kw_inflation": true,
-    "open_inflation": true,
-    "kw_jobs": true,
-    "open_jobs": true,
+    "kw_signed": true,
     "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
     "kw_beautiful": true,
-    "open_beautiful": true,
-    "kw_fantastic": true,
     "kw_terrible": true,
-    "kw_save_america": true,
-    "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "open_president_djt": true,
-    "kw_complete_and_total": true,
-    "is_friday": true
-  },
-  "triggered_rules": {
-    "total": 1,
-    "long": 1,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0091",
-        "features": [
-          "is_friday",
-          "kw_beautiful",
-          "open_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "kw_thank_you_for_your_attention": true,
+    "is_weekend": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -207,23 +145,34 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-06-05",
+    "date": "2026-06-06",
     "crossover": 16,
-    "mutation": 13,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_thank_you_for_your_attention",
-          "kw_beautiful",
-          "kw_tariffs_2plus"
+          "kw_wonderful",
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
+        "hold": 1,
+        "score": 100.0,
         "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_dow_2plus",
+          "open_great"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.0,
+        "origin": "mutation_replace"
       },
       {
         "features": [
@@ -234,16 +183,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "is_friday",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "crossover"
       }
     ]
   },
