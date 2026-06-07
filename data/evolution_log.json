@@ -12414,5 +12414,47 @@
         "origin": "distilled"
       }
     ]
+  },
+  {
+    "date": "2026-06-07",
+    "crossover": 16,
+    "mutation": 16,
+    "distill": 16,
+    "total_new": 48,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_beautiful",
+          "volume_falling_3d",
+          "open_trade"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_inflation",
+          "open_inflation",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
+        "origin": "crossover"
+      }
+    ]
   }
 ]
