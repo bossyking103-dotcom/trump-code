@@ -2,9 +2,29 @@
   "meta": {
     "total_surviving": 600,
     "last_evolution": "2026-06-07T17:45:21Z",
-    "evolved_rules_added": 48
+    "evolved_rules_added": 48,
+    "last_learning": "2026-06-07T20:45:55Z",
+    "eliminated_count": 0
   },
   "rules": [
+    {
+      "id": "INVERSE_TARIFF_LONG",
+      "features": [
+        "kw_tariff"
+      ],
+      "direction": "LONG",
+      "hold": 1,
+      "origin": "inverse_from_failure",
+      "original_error_rate": 70.0,
+      "weight": 1.2,
+      "born_date": "2026-06-07",
+      "combined_score": 70.0,
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
+    },
     {
       "features": [
         "both_tariff_and_deal",
@@ -14901,19 +14921,6 @@
         "wrong": 0,
         "streak": 0
       }
-    },
-    {
-      "id": "INVERSE_TARIFF_LONG",
-      "features": [
-        "kw_tariff"
-      ],
-      "direction": "LONG",
-      "hold": 1,
-      "origin": "inverse_from_failure",
-      "original_error_rate": 70.0,
-      "weight": 1.2,
-      "born_date": "2026-06-07",
-      "combined_score": 70.0
     }
   ]
 }
