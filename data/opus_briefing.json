@@ -1,17 +1,13 @@
 {
   "date": "2026-06-08",
-  "prepared_at": "2026-06-08T17:45:44Z",
+  "prepared_at": "2026-06-08T20:45:33Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 22,
-    "latest": "Congressman Russell Fry is an America First Patriot, who is doing an incredible job representing South Carolina's 7th Congressional District! A MAGA Warrior, who has been with us from the very beginni",
+    "count": 23,
+    "latest": "Senate Majority Leader John Thune should immediately fire the Parliamentarian, who treats Republicans, and everything that they stand for, horribly! She was put there by then Senate Majority Leader Ha",
     "earliest_time": "2026-06-08T03:02:48.439Z",
-    "latest_time": "2026-06-08T17:19:46.981Z",
+    "latest_time": "2026-06-08T18:19:19.172Z",
     "sample": [
-      {
-        "time": "17:14",
-        "text": "It is my Great Honor to endorse America First Patriot, David Flippo, who is running to represent the fantastic people of Nevada's 2nd Congressional District! He is strongly supported by the most Highly Respected MAGA Warriors in Nevada, and many Republicans in the U.S. House of Representatives. I wo"
-      },
       {
         "time": "17:17",
         "text": "It is my Great Honor to endorse America First Patriot, Marty O'Donnell, who is running to represent the incredible people of Nevada's 3rd Congressional District. Marty is running against Susie Lee, a true Radical Left Extremist who does not represent the Values of Southern Nevada. Susie Lee wants Op"
@@ -47,6 +43,10 @@
       {
         "time": "17:19",
         "text": "Congressman Russell Fry is an America First Patriot, who is doing an incredible job representing South Carolina's 7th Congressional District! A MAGA Warrior, who has been with us from the very beginning, Russell is working hard to Grow our Economy, Cut Taxes and Regulations, Advance American Energy "
+      },
+      {
+        "time": "18:19",
+        "text": "Senate Majority Leader John Thune should immediately fire the Parliamentarian, who treats Republicans, and everything that they stand for, horribly! She was put there by then Senate Majority Leader Harry Reid, and Barack Hussein Obama, need I say more? She is a nasty holdover from Mitch McConnell (A"
       }
     ]
   },
@@ -60,13 +60,14 @@
     "avg_len_very_long": true,
     "caps_high": true,
     "excl_heavy": true,
-    "questions_no": true,
     "mostly_open": true,
     "has_night": true,
     "kw_deal": true,
     "pre_deal": true,
     "kw_immediately": true,
+    "kw_immediately_2plus": true,
     "pre_immediately": true,
+    "open_immediately": true,
     "kw_effective": true,
     "open_effective": true,
     "kw_block": true,
@@ -93,6 +94,7 @@
     "kw_jobs": true,
     "open_jobs": true,
     "kw_trillion": true,
+    "kw_trillion_2plus": true,
     "open_trillion": true,
     "kw_great": true,
     "kw_great_2plus": true,
@@ -116,6 +118,8 @@
     "pre_stupid": true,
     "kw_biden": true,
     "open_biden": true,
+    "kw_obama": true,
+    "open_obama": true,
     "kw_elon": true,
     "open_elon": true,
     "kw_vance": true,
@@ -124,6 +128,8 @@
     "kw_maga": true,
     "kw_maga_2plus": true,
     "open_maga": true,
+    "kw_save_america": true,
+    "open_save_america": true,
     "kw_america_first": true,
     "kw_america_first_2plus": true,
     "open_america_first": true,
@@ -398,33 +404,35 @@
     "top_3": [
       {
         "features": [
-          "excl_heavy",
-          "open_tariffs",
-          "open_trade"
+          "open_jobs",
+          "kw_economy",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
+        "score": 92.9,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_economy",
+          "kw_dow_2plus",
+          "is_friday",
+          "open_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
-        "origin": "distilled"
+        "score": 91.7,
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_tremendous",
-          "kw_interest_rate"
+          "kw_thank_you_for_your_attention",
+          "open_china"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
+        "hold": 2,
+        "score": 90.9,
         "origin": "mutation_remove"
       }
     ]
