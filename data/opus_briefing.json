@@ -1,26 +1,40 @@
 {
   "date": "2026-06-09",
-  "prepared_at": "2026-06-09T14:45:40Z",
+  "prepared_at": "2026-06-09T17:46:03Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116718662947146337",
+    "count": 2,
+    "latest": "I have just been informed by our Great Military that last night the Iranians shot down one of our highly sophisticated Apache Helicopters while patrolling over the Strait of Hormuz. There were two pil",
     "earliest_time": "2026-06-09T06:11:15.270Z",
-    "latest_time": "2026-06-09T06:11:15.270Z",
+    "latest_time": "2026-06-09T16:38:07.892Z",
     "sample": [
       {
         "time": "06:11",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116718662947146337"
+      },
+      {
+        "time": "16:38",
+        "text": "I have just been informed by our Great Military that last night the Iranians shot down one of our highly sophisticated Apache Helicopters while patrolling over the Strait of Hormuz. There were two pilots involved, both are safe and uninjured. Nevertheless, the United States must, of necessity, respo"
       }
     ]
   },
+  "keyword_signals": [
+    "IRAN"
+  ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_short": true,
+    "avg_len_medium": true,
     "caps_low": true,
-    "excl_none": true,
+    "excl_normal": true,
     "questions_no": true,
-    "mostly_premarket": true,
+    "kw_iran": true,
+    "open_iran": true,
+    "kw_dow": true,
+    "open_dow": true,
+    "kw_great": true,
+    "open_great": true,
+    "kw_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "volume_drop": true
   },
   "model_performance": {
@@ -132,31 +146,31 @@
   "evolution_latest": {
     "date": "2026-06-09",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "kw_interest_rate",
-          "kw_great"
+          "open_china",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "mutation_replace"
+        "origin": "crossover"
       },
       {
         "features": [
+          "is_friday",
           "kw_economy",
-          "kw_interest_rate"
+          "open_dow"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "mutation_remove"
+        "origin": "crossover"
       },
       {
         "features": [
