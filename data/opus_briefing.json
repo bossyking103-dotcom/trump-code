@@ -1,33 +1,13 @@
 {
-  "date": "2026-06-08",
-  "prepared_at": "2026-06-08T20:45:33Z",
+  "date": "2026-06-09",
+  "prepared_at": "2026-06-09T05:45:35Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 23,
-    "latest": "Senate Majority Leader John Thune should immediately fire the Parliamentarian, who treats Republicans, and everything that they stand for, horribly! She was put there by then Senate Majority Leader Ha",
+    "count": 28,
+    "latest": "Early Voting is underway in the Great State of Georgia, where Highly Respected, and very popular Lieutenant Governor, Burt Jones, is running to be your next Governor. He is a fantastic person, and tru",
     "earliest_time": "2026-06-08T03:02:48.439Z",
-    "latest_time": "2026-06-08T18:19:19.172Z",
+    "latest_time": "2026-06-08T23:00:17.456Z",
     "sample": [
-      {
-        "time": "17:17",
-        "text": "It is my Great Honor to endorse America First Patriot, Marty O'Donnell, who is running to represent the incredible people of Nevada's 3rd Congressional District. Marty is running against Susie Lee, a true Radical Left Extremist who does not represent the Values of Southern Nevada. Susie Lee wants Op"
-      },
-      {
-        "time": "17:17",
-        "text": "Highly Respected and very popular Lieutenant Governor of South Carolina, Pam Evette, is an America First Patriot who has been with me from the very beginning. She never wavered, never let me down, and was the only South Carolina Gubernatorial Candidate to Endorse me as soon as I launched my 2024 Pre"
-      },
-      {
-        "time": "17:17",
-        "text": "Senator Lindsey Graham is working incredibly hard for the Great People of South Carolina, a State I love and WON BIG in 2016, 2020, and 2024! Lindsey has been a wonderful friend, and has always been there when I needed him. As the Chair of the Senate Budget Committee, Lindsey is fighting tirelessly "
-      },
-      {
-        "time": "17:18",
-        "text": "Highly Respected MAGA Warrior, Cody Simpson, is running for Commissioner of Agriculture in the wonderful State of South Carolina, which I won in 2016, 2020, and 2024, with the Highest Vote in History! Cody is a Fifth Generation Farmer, and Former Agriculture Advisor and Chief Executive Assistant to "
-      },
-      {
-        "time": "17:18",
-        "text": "I love the Great State of South Carolina, won every one of my Races there BY A LANDSLIDE, and only want the BEST representing you in Elected Office! There is a RINO Candidate in the Palmetto State named David Pascoe, a lifelong Democrat who previously endorsed Crooked Joe Biden for President, and se"
-      },
       {
         "time": "17:18",
         "text": "Congressman Joe Wilson, who has been with us from the very beginning, is a Tremendous Champion of South Carolina's 2nd Congressional District! A retired Colonel from the South Carolina Army National Guard, and Member of the House Armed Services Committee, Joe knows the Wisdom and Courage that is req"
@@ -47,6 +27,26 @@
       {
         "time": "18:19",
         "text": "Senate Majority Leader John Thune should immediately fire the Parliamentarian, who treats Republicans, and everything that they stand for, horribly! She was put there by then Senate Majority Leader Harry Reid, and Barack Hussein Obama, need I say more? She is a nasty holdover from Mitch McConnell (A"
+      },
+      {
+        "time": "20:43",
+        "text": "President Trump Trashes RINO Senator Tillis, Calls Him a \"Loser\" in Blistering Remarks to Reporters (VIDEO): https://www.thegatewaypundit.com/2026/06/president-trump-blasts-rino-senator-tillis-as-loser/"
+      },
+      {
+        "time": "21:18",
+        "text": "I will be doing a TeleRally LIVE at 5:30 P.M. EST for Senator Lindsey Graham and South Carolina Gubernatorial Candidate Pamela Evette — Both have my Complete and Total Endorsement. They will never let you down! Vote for Lindsey and Pam. They LOVE the great people of South Carolina, and so do I!!! Pr"
+      },
+      {
+        "time": "22:59",
+        "text": "It is my Great Honor to endorse America First Patriot, Wes Climer, who is running to represent the fantastic people of South Carolina's 5th Congressional District! A very successful Business Owner, Civic Leader, and Highly Respected State Senator, Wes has dedicated his life to serving his Community."
+      },
+      {
+        "time": "22:59",
+        "text": "Congratulations to the Ohio State Senate for passing Senate Joint Resolution 10, which would require VOTER I.D. in Ohio Elections! Democrats fought hard against this, presumably so they can CHEAT. I am now asking all of my Republican friends in the State House to, also, PASS THIS NOW, and put a Cons"
+      },
+      {
+        "time": "23:00",
+        "text": "Early Voting is underway in the Great State of Georgia, where Highly Respected, and very popular Lieutenant Governor, Burt Jones, is running to be your next Governor. He is a fantastic person, and truly loves the people of Georgia, as do I! As the first member of the Georgia State Assembly to Endors"
       }
     ]
   },
@@ -58,7 +58,7 @@
   "today_features": {
     "posts_21_35": true,
     "avg_len_very_long": true,
-    "caps_high": true,
+    "caps_medium": true,
     "excl_heavy": true,
     "mostly_open": true,
     "has_night": true,
@@ -139,6 +139,7 @@
     "kw_president_djt_2plus": true,
     "open_president_djt": true,
     "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
     "pre_thank_you_for_your_attention": true,
     "kw_never_let_you_down": true,
     "kw_never_let_you_down_2plus": true,
@@ -395,45 +396,42 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-06-08",
+    "date": "2026-06-09",
     "crossover": 16,
-    "mutation": 12,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_jobs",
-          "kw_economy",
-          "kw_thank_you_for_your_attention"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 92.9,
+        "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_economy",
-          "kw_dow_2plus",
-          "is_friday",
-          "open_thank_you_for_your_attention"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_thank_you_for_your_attention",
-          "open_china"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
