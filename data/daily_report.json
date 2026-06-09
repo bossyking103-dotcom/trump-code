@@ -1,21 +1,17 @@
 {
   "date": "2026-06-09",
-  "generated_at": "2026-06-09T08:45:25Z",
-  "posts_today": 28,
+  "generated_at": "2026-06-09T11:45:26Z",
+  "posts_today": 1,
   "latest_post": {
-    "time": "2026-06-08T23:00",
-    "content_preview": "Early Voting is underway in the Great State of Georgia, where Highly Respected, and very popular Lie"
+    "time": "2026-06-09T06:11",
+    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116718662947146337"
   },
-  "signals_detected": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
-  "models_triggered": 44,
+  "signals_detected": [],
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 42,
-    "SHORT": 2,
-    "consensus": "BULLISH"
+    "LONG": 0,
+    "SHORT": 0,
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -27,228 +23,9 @@
     "close": 7405.73
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-09\nPosts today: 28 | Models triggered: 44\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 42 LONG vs 2 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Early Voting is underway in the Great State of Georgia, where Highly Respected, and very popular Lie",
-    "zh": "川普密碼每日報告 -- 2026-06-09\n今日推文: 28 篇 | 觸發模型: 44 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 42 組看多 vs 2 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Early Voting is underway in the Great State of Georgia, where Highly Respected, and very popular Lie",
-    "ja": "トランプ・コード日次レポート -- 2026-06-09\n本日の投稿: 28件 | トリガーモデル: 44組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 42組ロング vs 2組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Early Voting is underway in the Great State of Georgia, where Highly Respected, and very popular Lie"
+    "en": "Trump Code Daily Report -- 2026-06-09\nPosts today: 1 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116718662947146337",
+    "zh": "川普密碼每日報告 -- 2026-06-09\n今日推文: 1 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116718662947146337",
+    "ja": "トランプ・コード日次レポート -- 2026-06-09\n本日の投稿: 1件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116718662947146337"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_jobs",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "open_biden",
-        "open_disaster"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tariffs_2plus",
-        "kw_thank_you_for_your_attention",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_executive_order",
-        "kw_jobs",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "kw_energy",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "kw_interest_rate",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
