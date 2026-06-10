@@ -1,20 +1,20 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T14:45:28Z",
-  "posts_today": 15,
+  "generated_at": "2026-06-10T17:45:23Z",
+  "posts_today": 18,
   "latest_post": {
-    "time": "2026-06-10T13:30",
-    "content_preview": "Wow! CITI was ranked Number 1 in topping M&A Advisory Market by Value in Q1. Congratulations to Jane"
+    "time": "2026-06-10T17:28",
+    "content_preview": "Congratulations to Nikol Pashinyan for his decisive victory in Armenia's National Elections. I was v"
   },
   "signals_detected": [
     "DEAL",
     "IRAN",
     "DEAL_ONLY"
   ],
-  "models_triggered": 1,
+  "models_triggered": 3,
   "direction_summary": {
     "LONG": 0,
-    "SHORT": 1,
+    "SHORT": 3,
     "consensus": "BEARISH"
   },
   "historical_hit_rate": {
@@ -24,14 +24,36 @@
   },
   "sp500_latest": {
     "date": "2026-06-10",
-    "close": 7364.87
+    "close": 7291.78
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-10\nPosts today: 15 | Models triggered: 1\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 0 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Wow! CITI was ranked Number 1 in topping M&A Advisory Market by Value in Q1. Congratulations to Jane",
-    "zh": "川普密碼每日報告 -- 2026-06-10\n今日推文: 15 篇 | 觸發模型: 1 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 0 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Wow! CITI was ranked Number 1 in topping M&A Advisory Market by Value in Q1. Congratulations to Jane",
-    "ja": "トランプ・コード日次レポート -- 2026-06-10\n本日の投稿: 15件 | トリガーモデル: 1組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 0組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Wow! CITI was ranked Number 1 in topping M&A Advisory Market by Value in Q1. Congratulations to Jane"
+    "en": "Trump Code Daily Report -- 2026-06-10\nPosts today: 18 | Models triggered: 3\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 0 LONG vs 3 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Congratulations to Nikol Pashinyan for his decisive victory in Armenia's National Elections. I was v",
+    "zh": "川普密碼每日報告 -- 2026-06-10\n今日推文: 18 篇 | 觸發模型: 3 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 0 組看多 vs 3 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Congratulations to Nikol Pashinyan for his decisive victory in Armenia's National Elections. I was v",
+    "ja": "トランプ・コード日次レポート -- 2026-06-10\n本日の投稿: 18件 | トリガーモデル: 3組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 0組ロング vs 3組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Congratulations to Nikol Pashinyan for his decisive victory in Armenia's National Elections. I was v"
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_biden",
+        "kw_india",
+        "kw_tariffs"
+      ],
+      "direction": "SHORT",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_america_first",
+        "kw_beautiful",
+        "kw_terrible"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "kw_biden",

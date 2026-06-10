@@ -1,29 +1,13 @@
 {
   "date": "2026-06-10",
-  "prepared_at": "2026-06-10T14:45:41Z",
+  "prepared_at": "2026-06-10T17:45:31Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 15,
-    "latest": "Wow! CITI was ranked Number 1 in topping M&A Advisory Market by Value in Q1. Congratulations to Jane F and ALL of her great people. They've worked really hard! BIG comeback for CITI!!! President DONAL",
+    "count": 18,
+    "latest": "Congratulations to Nikol Pashinyan for his decisive victory in Armenia's National Elections. I was very proud to have Endorsed him for Re-Election, and have no doubt that, with him as the Leader of th",
     "earliest_time": "2026-06-10T00:34:18.219Z",
-    "latest_time": "2026-06-10T13:30:58.894Z",
+    "latest_time": "2026-06-10T17:28:31.038Z",
     "sample": [
-      {
-        "time": "03:23",
-        "text": "Key senator presses to term limit parliamentarian, clear possible path for election law: https://justthenews.com/government/congress/key-senator-presses-term-limit-parliamentarian-clear-possible-path-election-law"
-      },
-      {
-        "time": "06:55",
-        "text": "Joe Scarborough’s ever shrinking, low rated show, one of the most inaccurate detailers of truthful facts on television, is being crushed in the ratings. His serious case on Trump Derangement Syndrome, often referred to as TDS, has made him a laughing stock among those who know what is going on in th"
-      },
-      {
-        "time": "07:03",
-        "text": "Iran’s Military is a complete and total mess. Much of it, like their Navy and Air Force, doesn’t even exist anymore - They have been completely defeated. Iran is all talk and no action. The Bully of the Middle East is DEAD!!! They’ve taken too long to negotiate a deal that would have been great for "
-      },
-      {
-        "time": "09:30",
-        "text": "Wow! CITI was ranked Number 1 in topping M&amp;A Advisory Market by Value in Q1. Congratulations to Jane F and ALL of her great people. They’ve worked really hard! BIG comeback for CITI!!! President DONALD J. TRUMP"
-      },
       {
         "time": "10:35",
         "text": "Stephen A. Smith is an arrogant fool, a low IQ individual. In other words, he's \"dumb as a rock,\" and totally unqualified to ever think of running for high political office, or even low political office, for that matter! He'd get annihilated in a debate by the most incompetent of politicians. Joe Bi"
@@ -37,6 +21,10 @@
         "text": "Iran's Military is a complete and total mess. Much of it, like their Navy and Air Force, doesn't even exist anymore - They have been completely defeated. Iran is all talk and no action. The Bully of the Middle East is DEAD!!! They've taken too long to negotiate a deal that would have been great for "
       },
       {
+        "time": "11:06",
+        "text": "Wow! CITI was ranked Number 1 in topping M&amp;A Advisory Market by Value in Q1. Congratulations to Jane F and ALL of her great people. They’ve worked really hard! BIG comeback for CITI!!! President DONALD J. TRUMP"
+      },
+      {
         "time": "11:32",
         "text": "The Fake News Media refuses to report how EFFECTIVE the U.S. Naval BLOCKADE is, the most successful Blockade in the history of Naval Warfare. NOTHING GETS THROUGH unless we want it to. IT IS A STEEL WALL! Iran is doing ZERO business, not paying their military, or any of their bills, and quickly beco"
       },
@@ -47,6 +35,18 @@
       {
         "time": "13:30",
         "text": "Wow! CITI was ranked Number 1 in topping M&A Advisory Market by Value in Q1. Congratulations to Jane F and ALL of her great people. They've worked really hard! BIG comeback for CITI!!! President DONALD J. TRUMP"
+      },
+      {
+        "time": "15:06",
+        "text": "Just like they did on Border Funding, the Radical Left Dumocrats are trying to take our National Security hostage because of unrelated issues. They should stop playing politics with the safety of our Great Country.   I have named William Pulte to be Acting Director of National Intelligence, who will"
+      },
+      {
+        "time": "17:22",
+        "text": "Congratulations to my friend, Prime Minister Narendra Modi, on becoming India's longest-serving Prime Minister – And a Great One he is! He is a strong, healthy, and wise man, and will have many years of Greatness and Success ahead of him! President DONALD J. TRUMP"
+      },
+      {
+        "time": "17:28",
+        "text": "Congratulations to Nikol Pashinyan for his decisive victory in Armenia's National Elections. I was very proud to have Endorsed him for Re-Election, and have no doubt that, with him as the Leader of the beautiful Country of Armenia, it will attain levels of Greatness and Success beyond everyone's wil"
       }
     ]
   },
@@ -61,7 +61,6 @@
     "caps_medium": true,
     "excl_heavy": true,
     "questions_no": true,
-    "mostly_premarket": true,
     "has_night": true,
     "heavy_night": true,
     "kw_deal": true,
@@ -77,12 +76,18 @@
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
+    "kw_india": true,
+    "open_india": true,
+    "kw_dow": true,
+    "open_dow": true,
     "kw_oil": true,
     "pre_oil": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
     "open_great": true,
+    "kw_beautiful": true,
+    "open_beautiful": true,
     "kw_wonderful": true,
     "kw_wonderful_2plus": true,
     "pre_wonderful": true,
@@ -105,10 +110,36 @@
     "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 1,
+    "total": 3,
     "long": 0,
-    "short": 1,
+    "short": 3,
     "sample": [
+      {
+        "id": "R0002",
+        "features": [
+          "kw_biden",
+          "kw_india",
+          "kw_tariffs"
+        ],
+        "direction": "SHORT",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0073",
+        "features": [
+          "kw_america_first",
+          "kw_beautiful",
+          "kw_terrible"
+        ],
+        "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
       {
         "id": "R0097",
         "features": [
@@ -232,12 +263,32 @@
   },
   "evolution_latest": {
     "date": "2026-06-10",
-    "crossover": 16,
-    "mutation": 16,
+    "crossover": 15,
+    "mutation": 10,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 41,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "kw_signed",
+          "kw_tariffs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 92.3,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -247,26 +298,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_beautiful",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_beautiful",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "mutation_remove"
       }
     ]
   },
