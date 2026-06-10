@@ -1,40 +1,51 @@
 {
-  "date": "2026-06-09",
-  "prepared_at": "2026-06-09T20:45:38Z",
+  "date": "2026-06-10",
+  "prepared_at": "2026-06-10T05:45:36Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "I have just been informed by our Great Military that last night the Iranians shot down one of our highly sophisticated Apache Helicopters while patrolling over the Strait of Hormuz. There were two pil",
-    "earliest_time": "2026-06-09T06:11:15.270Z",
-    "latest_time": "2026-06-09T16:38:07.892Z",
+    "count": 6,
+    "latest": "Key senator presses to term limit parliamentarian, clear possible path for election law: https://justthenews.com/government/congress/key-senator-presses-term-limit-parliamentarian-clear-possible-path-",
+    "earliest_time": "2026-06-10T00:34:18.219Z",
+    "latest_time": "2026-06-10T03:23:47.833Z",
     "sample": [
       {
-        "time": "06:11",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116718662947146337"
+        "time": "00:34",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116722993359636132"
       },
       {
-        "time": "16:38",
-        "text": "I have just been informed by our Great Military that last night the Iranians shot down one of our highly sophisticated Apache Helicopters while patrolling over the Strait of Hormuz. There were two pilots involved, both are safe and uninjured. Nevertheless, the United States must, of necessity, respo"
+        "time": "01:50",
+        "text": "Congratulations to Senator Lindsey Graham of the Great State of South Carolina on his BIG WIN tonight. With almost 60% of the vote against a large field of very capable candidates, there will be no runoff. Now Lindsey will be able to devote his time to passing the desperately needed, and long overdu"
+      },
+      {
+        "time": "02:36",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116723479960785181"
+      },
+      {
+        "time": "02:36",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116723480830148350"
+      },
+      {
+        "time": "03:23",
+        "text": "JD Vance refers evidence of Minnesota fraud, Walz inaction to DOJ for criminal inquiry: https://justthenews.com/accountability/waste-fraud-and-abuse/jd-vance-refers-evidence-minnesota-fraud-walz-inaction-doj"
+      },
+      {
+        "time": "03:23",
+        "text": "Key senator presses to term limit parliamentarian, clear possible path for election law: https://justthenews.com/government/congress/key-senator-presses-term-limit-parliamentarian-clear-possible-path-election-law"
       }
     ]
   },
-  "keyword_signals": [
-    "IRAN"
-  ],
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_medium": true,
     "caps_low": true,
-    "excl_normal": true,
+    "excl_none": true,
     "questions_no": true,
-    "kw_iran": true,
-    "open_iran": true,
-    "kw_dow": true,
-    "open_dow": true,
+    "has_night": true,
+    "heavy_night": true,
     "kw_great": true,
-    "open_great": true,
-    "kw_thank_you_for_your_attention": true,
-    "open_thank_you_for_your_attention": true,
+    "kw_vance": true,
+    "kw_save_america": true,
+    "kw_president_djt": true,
     "volume_drop": true
   },
   "model_performance": {
@@ -144,23 +155,22 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-06-09",
-    "crossover": 16,
+    "date": "2026-06-10",
+    "crossover": 12,
     "mutation": 16,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_jobs",
-          "kw_tremendous",
-          "is_friday"
+          "kw_economy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "mutation_replace"
+        "origin": "crossover"
       },
       {
         "features": [
@@ -174,13 +184,13 @@
       },
       {
         "features": [
-          "kw_agreement",
-          "questions_yes"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "distilled"
       }
     ]
   },
