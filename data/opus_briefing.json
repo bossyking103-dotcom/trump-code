@@ -1,6 +1,6 @@
 {
   "date": "2026-06-10",
-  "prepared_at": "2026-06-10T05:45:36Z",
+  "prepared_at": "2026-06-10T08:45:46Z",
   "status": "PENDING",
   "today_posts": {
     "count": 6,
@@ -156,16 +156,27 @@
   },
   "evolution_latest": {
     "date": "2026-06-10",
-    "crossover": 12,
-    "mutation": 16,
+    "crossover": 14,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "kw_interest_rate"
+          "open_thank_you_for_your_attention",
+          "open_inflation"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_trade",
+          "volume_falling_3d",
+          "open_tariff"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -180,16 +191,6 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
         "origin": "distilled"
       }
     ]
