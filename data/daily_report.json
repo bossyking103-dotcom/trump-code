@@ -1,10 +1,10 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T11:45:24Z",
-  "posts_today": 10,
+  "generated_at": "2026-06-10T14:45:28Z",
+  "posts_today": 15,
   "latest_post": {
-    "time": "2026-06-10T07:32",
-    "content_preview": "The Fake News Media refuses to report how EFFECTIVE the U.S. Naval BLOCKADE is, the most successful "
+    "time": "2026-06-10T13:30",
+    "content_preview": "Wow! CITI was ranked Number 1 in topping M&A Advisory Market by Value in Q1. Congratulations to Jane"
   },
   "signals_detected": [
     "DEAL",
@@ -23,13 +23,13 @@
     "rate": 100.0
   },
   "sp500_latest": {
-    "date": "2026-06-09",
-    "close": NaN
+    "date": "2026-06-10",
+    "close": 7364.87
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-10\nPosts today: 10 | Models triggered: 1\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 0 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The Fake News Media refuses to report how EFFECTIVE the U.S. Naval BLOCKADE is, the most successful ",
-    "zh": "川普密碼每日報告 -- 2026-06-10\n今日推文: 10 篇 | 觸發模型: 1 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 0 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The Fake News Media refuses to report how EFFECTIVE the U.S. Naval BLOCKADE is, the most successful ",
-    "ja": "トランプ・コード日次レポート -- 2026-06-10\n本日の投稿: 10件 | トリガーモデル: 1組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 0組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The Fake News Media refuses to report how EFFECTIVE the U.S. Naval BLOCKADE is, the most successful "
+    "en": "Trump Code Daily Report -- 2026-06-10\nPosts today: 15 | Models triggered: 1\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 0 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Wow! CITI was ranked Number 1 in topping M&A Advisory Market by Value in Q1. Congratulations to Jane",
+    "zh": "川普密碼每日報告 -- 2026-06-10\n今日推文: 15 篇 | 觸發模型: 1 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 0 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Wow! CITI was ranked Number 1 in topping M&A Advisory Market by Value in Q1. Congratulations to Jane",
+    "ja": "トランプ・コード日次レポート -- 2026-06-10\n本日の投稿: 15件 | トリガーモデル: 1組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 0組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Wow! CITI was ranked Number 1 in topping M&A Advisory Market by Value in Q1. Congratulations to Jane"
   },
   "triggered_rules_sample": [
     {
