@@ -3696,5 +3696,18 @@
       "DEAL_ONLY"
     ],
     "consensus": "BEARISH"
+  },
+  {
+    "date": "2026-06-10",
+    "posts": 19,
+    "triggered": 31,
+    "long": 28,
+    "short": 3,
+    "signals": [
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
+    ],
+    "consensus": "BULLISH"
   }
 ]

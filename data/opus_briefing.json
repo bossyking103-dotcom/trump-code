@@ -1,21 +1,13 @@
 {
   "date": "2026-06-10",
-  "prepared_at": "2026-06-10T17:45:31Z",
+  "prepared_at": "2026-06-10T20:45:45Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 18,
-    "latest": "Congratulations to Nikol Pashinyan for his decisive victory in Armenia's National Elections. I was very proud to have Endorsed him for Re-Election, and have no doubt that, with him as the Leader of th",
+    "count": 19,
+    "latest": "Last month, I directed our Great U.S. Military to execute a secret mission to support Oil Tankers and other Commercial Ships through the Strait of Hormuz. Today, I am pleased to announce that this eff",
     "earliest_time": "2026-06-10T00:34:18.219Z",
-    "latest_time": "2026-06-10T17:28:31.038Z",
+    "latest_time": "2026-06-10T17:50:24.111Z",
     "sample": [
-      {
-        "time": "10:35",
-        "text": "Stephen A. Smith is an arrogant fool, a low IQ individual. In other words, he's \"dumb as a rock,\" and totally unqualified to ever think of running for high political office, or even low political office, for that matter! He'd get annihilated in a debate by the most incompetent of politicians. Joe Bi"
-      },
-      {
-        "time": "10:55",
-        "text": "Joe Scarborough's ever shrinking, low rated show, one of the most inaccurate detailers of truthful facts on television, is being crushed in the ratings. His serious case on Trump Derangement Syndrome, often referred to as TDS, has made him a laughing stock among those who know what is going on in th"
-      },
       {
         "time": "11:03",
         "text": "Iran's Military is a complete and total mess. Much of it, like their Navy and Air Force, doesn't even exist anymore - They have been completely defeated. Iran is all talk and no action. The Bully of the Middle East is DEAD!!! They've taken too long to negotiate a deal that would have been great for "
@@ -47,6 +39,14 @@
       {
         "time": "17:28",
         "text": "Congratulations to Nikol Pashinyan for his decisive victory in Armenia's National Elections. I was very proud to have Endorsed him for Re-Election, and have no doubt that, with him as the Leader of the beautiful Country of Armenia, it will attain levels of Greatness and Success beyond everyone's wil"
+      },
+      {
+        "time": "17:43",
+        "text": "Congratulations to Colombian Presidential Candidate, \"El Tigre (THE TIGER),\" Abelardo de la Espriella, a Smart, Strong, and Tough Leader, on his decisive Victory in the first round of the Colombian Presidential Election! Abelardo fights tirelessly for, and loves, his Great Country and People, just l"
+      },
+      {
+        "time": "17:50",
+        "text": "Last month, I directed our Great U.S. Military to execute a secret mission to support Oil Tankers and other Commercial Ships through the Strait of Hormuz. Today, I am pleased to announce that this effort has resulted in more than 100 MILLION Barrels of Oil making its way through the Strait, and into"
       }
     ]
   },
@@ -57,7 +57,7 @@
   ],
   "today_features": {
     "posts_11_20": true,
-    "avg_len_medium": true,
+    "avg_len_long": true,
     "caps_medium": true,
     "excl_heavy": true,
     "questions_no": true,
@@ -66,6 +66,8 @@
     "kw_deal": true,
     "kw_deal_2plus": true,
     "pre_deal": true,
+    "kw_trade": true,
+    "open_trade": true,
     "kw_negotiate": true,
     "kw_negotiate_2plus": true,
     "pre_negotiate": true,
@@ -76,25 +78,36 @@
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
+    "open_iran": true,
     "kw_india": true,
     "open_india": true,
     "kw_dow": true,
+    "kw_dow_2plus": true,
     "open_dow": true,
+    "kw_economy": true,
+    "kw_economy_2plus": true,
+    "open_economy": true,
     "kw_oil": true,
+    "kw_oil_2plus": true,
     "pre_oil": true,
+    "open_oil": true,
+    "kw_jobs": true,
+    "open_jobs": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
     "open_great": true,
+    "kw_tremendous": true,
+    "open_tremendous": true,
     "kw_beautiful": true,
     "open_beautiful": true,
     "kw_wonderful": true,
     "kw_wonderful_2plus": true,
     "pre_wonderful": true,
+    "open_wonderful": true,
     "kw_fake": true,
     "pre_fake": true,
     "kw_terrible": true,
-    "kw_terrible_2plus": true,
     "pre_terrible": true,
     "kw_incompetent": true,
     "pre_incompetent": true,
@@ -103,15 +116,18 @@
     "kw_vance": true,
     "kw_save_america": true,
     "kw_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "kw_complete_and_total": true,
     "kw_complete_and_total_2plus": true,
     "pre_complete_and_total": true,
+    "open_complete_and_total": true,
     "deal_without_tariff": true,
     "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 3,
-    "long": 0,
+    "total": 31,
+    "long": 28,
     "short": 3,
     "sample": [
       {
@@ -128,26 +144,117 @@
         "score": 100.0
       },
       {
-        "id": "R0073",
+        "id": "R0004",
         "features": [
-          "kw_america_first",
-          "kw_beautiful",
-          "kw_terrible"
+          "kw_deal_2plus",
+          "kw_economy",
+          "kw_jobs"
         ],
-        "direction": "SHORT",
-        "hold": 3,
+        "direction": "LONG",
+        "hold": 2,
         "train_wr": 100.0,
         "test_wr": 100.0,
         "score": 100.0
       },
       {
-        "id": "R0097",
+        "id": "R0005",
         "features": [
-          "kw_biden",
-          "kw_deal",
-          "open_disaster"
+          "kw_deal_2plus",
+          "kw_dow_2plus",
+          "kw_jobs"
         ],
-        "direction": "SHORT",
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0006",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0007",
+        "features": [
+          "kw_deal_2plus",
+          "kw_europe",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0008",
+        "features": [
+          "open_dow",
+          "open_trade",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0010",
+        "features": [
+          "excl_heavy",
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0012",
+        "features": [
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "posts_11_20"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0013",
+        "features": [
+          "kw_dow_2plus",
+          "open_jobs",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0019",
+        "features": [
+          "kw_deal_2plus",
+          "kw_economy",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
         "hold": 3,
         "train_wr": 100.0,
         "test_wr": 100.0,
@@ -263,26 +370,28 @@
   },
   "evolution_latest": {
     "date": "2026-06-10",
-    "crossover": 15,
-    "mutation": 10,
+    "crossover": 16,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 41,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_signed",
-          "kw_tariffs"
+          "kw_beautiful",
+          "open_dow",
+          "kw_president_of_the_united_states"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 92.3,
-        "origin": "mutation_remove"
+        "hold": 1,
+        "score": 91.7,
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_dow_2plus",
+          "is_friday",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
