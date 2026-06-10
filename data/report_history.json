@@ -3657,5 +3657,18 @@
     "short": 0,
     "signals": [],
     "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-06-10",
+    "posts": 10,
+    "triggered": 1,
+    "long": 0,
+    "short": 1,
+    "signals": [
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
+    ],
+    "consensus": "BEARISH"
   }
 ]

@@ -1,12 +1,12 @@
 {
   "date": "2026-06-10",
-  "prepared_at": "2026-06-10T08:45:46Z",
+  "prepared_at": "2026-06-10T11:45:38Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "Key senator presses to term limit parliamentarian, clear possible path for election law: https://justthenews.com/government/congress/key-senator-presses-term-limit-parliamentarian-clear-possible-path-",
+    "count": 10,
+    "latest": "The Fake News Media refuses to report how EFFECTIVE the U.S. Naval BLOCKADE is, the most successful Blockade in the history of Naval Warfare. NOTHING GETS THROUGH unless we want it to. IT IS A STEEL W",
     "earliest_time": "2026-06-10T00:34:18.219Z",
-    "latest_time": "2026-06-10T03:23:47.833Z",
+    "latest_time": "2026-06-10T07:32:00.000Z",
     "sample": [
       {
         "time": "00:34",
@@ -31,22 +31,91 @@
       {
         "time": "03:23",
         "text": "Key senator presses to term limit parliamentarian, clear possible path for election law: https://justthenews.com/government/congress/key-senator-presses-term-limit-parliamentarian-clear-possible-path-election-law"
+      },
+      {
+        "time": "06:35",
+        "text": "Stephen A. Smith is an arrogant fool, a low IQ individual. In other words, he’s “dumb as a rock,” and totally unqualified to ever think of running for high political office, or even low political office, for that matter! He’d get annihilated in a debate by the most incompetent of politicians. Joe Bi"
+      },
+      {
+        "time": "06:55",
+        "text": "Joe Scarborough’s ever shrinking, low rated show, one of the most inaccurate detailers of truthful facts on television, is being crushed in the ratings. His serious case on Trump Derangement Syndrome, often referred to as TDS, has made him a laughing stock among those who know what is going on in th"
+      },
+      {
+        "time": "07:03",
+        "text": "Iran’s Military is a complete and total mess. Much of it, like their Navy and Air Force, doesn’t even exist anymore - They have been completely defeated. Iran is all talk and no action. The Bully of the Middle East is DEAD!!! They’ve taken too long to negotiate a deal that would have been great for "
+      },
+      {
+        "time": "07:32",
+        "text": "The Fake News Media refuses to report how EFFECTIVE the U.S. Naval BLOCKADE is, the most successful Blockade in the history of Naval Warfare. NOTHING GETS THROUGH unless we want it to. IT IS A STEEL WALL! Iran is doing ZERO business, not paying their military, or any of their bills, and quickly beco"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "today_features": {
     "posts_6_10": true,
     "avg_len_medium": true,
-    "caps_low": true,
-    "excl_none": true,
+    "caps_medium": true,
+    "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_deal": true,
+    "pre_deal": true,
+    "kw_negotiate": true,
+    "pre_negotiate": true,
+    "kw_effective": true,
+    "pre_effective": true,
+    "kw_block": true,
+    "pre_block": true,
+    "kw_iran": true,
+    "kw_iran_2plus": true,
+    "pre_iran": true,
+    "kw_oil": true,
+    "pre_oil": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "kw_wonderful": true,
+    "pre_wonderful": true,
+    "kw_fake": true,
+    "pre_fake": true,
+    "kw_terrible": true,
+    "pre_terrible": true,
+    "kw_incompetent": true,
+    "pre_incompetent": true,
+    "kw_biden": true,
+    "pre_biden": true,
     "kw_vance": true,
     "kw_save_america": true,
     "kw_president_djt": true,
-    "volume_drop": true
+    "kw_complete_and_total": true,
+    "pre_complete_and_total": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
+  },
+  "triggered_rules": {
+    "total": 1,
+    "long": 0,
+    "short": 1,
+    "sample": [
+      {
+        "id": "R0097",
+        "features": [
+          "kw_biden",
+          "kw_deal",
+          "open_disaster"
+        ],
+        "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -156,30 +225,30 @@
   },
   "evolution_latest": {
     "date": "2026-06-10",
-    "crossover": 14,
-    "mutation": 15,
+    "crossover": 16,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_thank_you_for_your_attention",
-          "open_inflation"
+          "kw_tariff",
+          "kw_signed"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
+        "hold": 2,
+        "score": 90.6,
+        "origin": "mutation_remove"
       },
       {
         "features": [
-          "open_trade",
-          "volume_falling_3d",
-          "open_tariff"
+          "kw_dow_2plus",
+          "kw_president_of_the_united_states",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 2,
         "score": 90.0,
         "origin": "crossover"
       },

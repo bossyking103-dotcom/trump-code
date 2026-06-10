@@ -1,17 +1,21 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T08:45:29Z",
-  "posts_today": 6,
+  "generated_at": "2026-06-10T11:45:24Z",
+  "posts_today": 10,
   "latest_post": {
-    "time": "2026-06-10T03:23",
-    "content_preview": "Key senator presses to term limit parliamentarian, clear possible path for election law: https://jus"
+    "time": "2026-06-10T07:32",
+    "content_preview": "The Fake News Media refuses to report how EFFECTIVE the U.S. Naval BLOCKADE is, the most successful "
   },
-  "signals_detected": [],
-  "models_triggered": 0,
+  "signals_detected": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
+  "models_triggered": 1,
   "direction_summary": {
     "LONG": 0,
-    "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "SHORT": 1,
+    "consensus": "BEARISH"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -23,9 +27,21 @@
     "close": NaN
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-10\nPosts today: 6 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Key senator presses to term limit parliamentarian, clear possible path for election law: https://jus",
-    "zh": "川普密碼每日報告 -- 2026-06-10\n今日推文: 6 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Key senator presses to term limit parliamentarian, clear possible path for election law: https://jus",
-    "ja": "トランプ・コード日次レポート -- 2026-06-10\n本日の投稿: 6件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Key senator presses to term limit parliamentarian, clear possible path for election law: https://jus"
+    "en": "Trump Code Daily Report -- 2026-06-10\nPosts today: 10 | Models triggered: 1\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 0 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The Fake News Media refuses to report how EFFECTIVE the U.S. Naval BLOCKADE is, the most successful ",
+    "zh": "川普密碼每日報告 -- 2026-06-10\n今日推文: 10 篇 | 觸發模型: 1 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 0 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The Fake News Media refuses to report how EFFECTIVE the U.S. Naval BLOCKADE is, the most successful ",
+    "ja": "トランプ・コード日次レポート -- 2026-06-10\n本日の投稿: 10件 | トリガーモデル: 1組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 0組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The Fake News Media refuses to report how EFFECTIVE the U.S. Naval BLOCKADE is, the most successful "
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_biden",
+        "kw_deal",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }
