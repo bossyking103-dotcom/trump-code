@@ -1,12 +1,12 @@
 {
   "date": "2026-06-11",
-  "prepared_at": "2026-06-11T17:45:51Z",
+  "prepared_at": "2026-06-11T20:46:03Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "Based on the fact that discussions with the Islamic Republic of Iran have been brought to the highest level of Iranian leadership and approved, I have, as President of the United States of America, ca",
+    "count": 5,
+    "latest": "I am pleased to announce the Nomination of very Highly Respected Jay Clayton, former Chairman of the Securities and Exchange Commission, the former Head of Sullivan & Cromwell, one of the most promine",
     "earliest_time": "2026-06-11T01:21:45.697Z",
-    "latest_time": "2026-06-11T17:28:48.782Z",
+    "latest_time": "2026-06-11T18:00:34.633Z",
     "sample": [
       {
         "time": "01:21",
@@ -23,6 +23,10 @@
       {
         "time": "17:28",
         "text": "Based on the fact that discussions with the Islamic Republic of Iran have been brought to the highest level of Iranian leadership and approved, I have, as President of the United States of America, cancelled the scheduled strikes and bombings against Iran this evening. Discussions and final points h"
+      },
+      {
+        "time": "18:00",
+        "text": "I am pleased to announce the Nomination of very Highly Respected Jay Clayton, former Chairman of the Securities and Exchange Commission, the former Head of Sullivan & Cromwell, one of the most prominent and successful Law Firms anywhere in the World, and the current United States Attorney for the So"
       }
     ]
   },
@@ -35,6 +39,7 @@
     "caps_high": true,
     "excl_heavy": true,
     "questions_no": true,
+    "mostly_open": true,
     "has_night": true,
     "kw_delay": true,
     "kw_immediately": true,
@@ -69,13 +74,27 @@
     "kw_thank_you_for_your_attention": true,
     "kw_thank_you_for_your_attention_2plus": true,
     "pre_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "volume_drop": true
   },
   "triggered_rules": {
-    "total": 2,
-    "long": 2,
+    "total": 3,
+    "long": 3,
     "short": 0,
     "sample": [
+      {
+        "id": "R0017",
+        "features": [
+          "kw_inflation",
+          "open_china",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
       {
         "id": "R0045",
         "features": [
@@ -213,20 +232,20 @@
   "evolution_latest": {
     "date": "2026-06-11",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tariff",
-          "kw_signed"
+          "kw_president_of_the_united_states",
+          "kw_india"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.6,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
       },
       {
         "features": [
@@ -240,12 +259,12 @@
       },
       {
         "features": [
-          "kw_beautiful",
-          "kw_interest_rate"
+          "volume_spike",
+          "kw_amazing"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 88.9,
         "origin": "mutation_remove"
       }
     ]
