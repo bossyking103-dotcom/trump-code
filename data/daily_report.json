@@ -1,20 +1,16 @@
 {
-  "date": "2026-06-10",
-  "generated_at": "2026-06-10T20:45:33Z",
-  "posts_today": 19,
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T05:45:32Z",
+  "posts_today": 1,
   "latest_post": {
-    "time": "2026-06-10T17:50",
-    "content_preview": "Last month, I directed our Great U.S. Military to execute a secret mission to support Oil Tankers an"
+    "time": "2026-06-11T01:21",
+    "content_preview": "No other President has ever been more committed to both REBUILDING our Great Military and SAVING our"
   },
-  "signals_detected": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
-  "models_triggered": 31,
+  "signals_detected": [],
+  "models_triggered": 2,
   "direction_summary": {
-    "LONG": 28,
-    "SHORT": 3,
+    "LONG": 2,
+    "SHORT": 0,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -24,179 +20,14 @@
   },
   "sp500_latest": {
     "date": "2026-06-10",
-    "close": 7266.99
+    "close": NaN
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-10\nPosts today: 19 | Models triggered: 31\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 28 LONG vs 3 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Last month, I directed our Great U.S. Military to execute a secret mission to support Oil Tankers an",
-    "zh": "川普密碼每日報告 -- 2026-06-10\n今日推文: 19 篇 | 觸發模型: 31 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 28 組看多 vs 3 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Last month, I directed our Great U.S. Military to execute a secret mission to support Oil Tankers an",
-    "ja": "トランプ・コード日次レポート -- 2026-06-10\n本日の投稿: 19件 | トリガーモデル: 31組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 28組ロング vs 3組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Last month, I directed our Great U.S. Military to execute a secret mission to support Oil Tankers an"
+    "en": "Trump Code Daily Report -- 2026-06-11\nPosts today: 1 | Models triggered: 2\nSignals: None\nConsensus: 2 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: No other President has ever been more committed to both REBUILDING our Great Military and SAVING our",
+    "zh": "川普密碼每日報告 -- 2026-06-11\n今日推文: 1 篇 | 觸發模型: 2 組\n偵測信號: 無\n共識方向: 2 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: No other President has ever been more committed to both REBUILDING our Great Military and SAVING our",
+    "ja": "トランプ・コード日次レポート -- 2026-06-11\n本日の投稿: 1件 | トリガーモデル: 2組\n検出シグナル: なし\nコンセンサス: 2組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: No other President has ever been more committed to both REBUILDING our Great Military and SAVING our"
   },
   "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_biden",
-        "kw_india",
-        "kw_tariffs"
-      ],
-      "direction": "SHORT",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_europe",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "open_dow",
-        "open_trade",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_perfect",
-        "kw_thank_you_for_your_attention",
-        "posts_11_20"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_jobs",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "open_trade",
-        "open_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "open_thank_you_for_your_attention",
-        "open_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
     {
       "features": [
         "kw_executive_order",
@@ -210,42 +41,9 @@
     },
     {
       "features": [
-        "kw_dow_2plus",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tremendous",
-        "open_thank_you_for_your_attention",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_tremendous",
-        "open_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "open_inflation",
-        "open_trade",
-        "pre_great"
+        "kw_agreement",
+        "kw_jobs",
+        "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
       "hold": 2,
