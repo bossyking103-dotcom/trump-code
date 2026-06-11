@@ -1,6 +1,6 @@
 {
   "date": "2026-06-11",
-  "prepared_at": "2026-06-11T08:45:54Z",
+  "prepared_at": "2026-06-11T11:45:51Z",
   "status": "PENDING",
   "today_posts": {
     "count": 1,
@@ -184,22 +184,12 @@
       {
         "features": [
           "open_china",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_economy",
-          "kw_interest_rate"
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "crossover"
+        "origin": "mutation_remove"
       },
       {
         "features": [
@@ -210,6 +200,16 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_beautiful",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },
