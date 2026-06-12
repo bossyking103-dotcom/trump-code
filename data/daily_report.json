@@ -1,12 +1,16 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-12T11:45:28Z",
-  "posts_today": 4,
+  "generated_at": "2026-06-12T14:45:27Z",
+  "posts_today": 6,
   "latest_post": {
-    "time": "2026-06-12T01:49",
-    "content_preview": "Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/"
+    "time": "2026-06-12T13:59",
+    "content_preview": "https://truthsocial.com/users/craigcowboy/statuses/116737420081036841zt"
   },
-  "signals_detected": [],
+  "signals_detected": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "models_triggered": 0,
   "direction_summary": {
     "LONG": 0,
@@ -19,13 +23,13 @@
     "rate": 100.0
   },
   "sp500_latest": {
-    "date": "2026-06-11",
-    "close": 7394.3
+    "date": "2026-06-12",
+    "close": 7395.36
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-12\nPosts today: 4 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/",
-    "zh": "川普密碼每日報告 -- 2026-06-12\n今日推文: 4 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/",
-    "ja": "トランプ・コード日次レポート -- 2026-06-12\n本日の投稿: 4件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/"
+    "en": "Trump Code Daily Report -- 2026-06-12\nPosts today: 6 | Models triggered: 0\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: https://truthsocial.com/users/craigcowboy/statuses/116737420081036841zt",
+    "zh": "川普密碼每日報告 -- 2026-06-12\n今日推文: 6 篇 | 觸發模型: 0 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: https://truthsocial.com/users/craigcowboy/statuses/116737420081036841zt",
+    "ja": "トランプ・コード日次レポート -- 2026-06-12\n本日の投稿: 6件 | トリガーモデル: 0組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: https://truthsocial.com/users/craigcowboy/statuses/116737420081036841zt"
   },
   "triggered_rules_sample": []
 }

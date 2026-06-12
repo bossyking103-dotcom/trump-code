@@ -1,12 +1,12 @@
 {
   "date": "2026-06-12",
-  "prepared_at": "2026-06-12T11:45:42Z",
+  "prepared_at": "2026-06-12T14:45:41Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/",
+    "count": 6,
+    "latest": "https://truthsocial.com/users/craigcowboy/statuses/116737420081036841zt",
     "earliest_time": "2026-06-12T00:11:42.548Z",
-    "latest_time": "2026-06-12T01:49:56.852Z",
+    "latest_time": "2026-06-12T13:59:27.160Z",
     "sample": [
       {
         "time": "00:11",
@@ -23,21 +23,47 @@
       {
         "time": "01:49",
         "text": "Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/"
+      },
+      {
+        "time": "13:40",
+        "text": "The terms that Iran leaked out to the Fake News have NOTHING to do with the terms that were agreed to, in writing. What they said, including their weak and pathetic statement on having a deal, bears no relation to the truth. Very dishonorable people to deal with. With them, there is no such thing as"
+      },
+      {
+        "time": "13:59",
+        "text": "https://truthsocial.com/users/craigcowboy/statuses/116737420081036841zt"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_medium": true,
     "caps_low": true,
     "excl_normal": true,
     "questions_no": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_deal": true,
+    "open_deal": true,
+    "kw_iran": true,
+    "open_iran": true,
+    "kw_india": true,
+    "open_india": true,
     "kw_jobs": true,
+    "kw_amazing": true,
+    "open_amazing": true,
     "kw_fantastic": true,
+    "kw_fake": true,
+    "open_fake": true,
+    "kw_pathetic": true,
+    "open_pathetic": true,
     "is_friday": true,
-    "volume_drop": true
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -148,20 +174,21 @@
   "evolution_latest": {
     "date": "2026-06-12",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_india",
-          "kw_president_of_the_united_states"
+          "kw_thank_you_for_your_attention",
+          "kw_biden_2plus",
+          "kw_tariff"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "mutation_remove"
+        "origin": "mutation_replace"
       },
       {
         "features": [
@@ -176,12 +203,12 @@
       {
         "features": [
           "kw_interest_rate",
-          "kw_tremendous"
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "crossover"
       }
     ]
   },
