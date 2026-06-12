@@ -1,127 +1,43 @@
 {
-  "date": "2026-06-11",
-  "prepared_at": "2026-06-11T20:46:03Z",
+  "date": "2026-06-12",
+  "prepared_at": "2026-06-12T05:46:01Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 5,
-    "latest": "I am pleased to announce the Nomination of very Highly Respected Jay Clayton, former Chairman of the Securities and Exchange Commission, the former Head of Sullivan & Cromwell, one of the most promine",
-    "earliest_time": "2026-06-11T01:21:45.697Z",
-    "latest_time": "2026-06-11T18:00:34.633Z",
+    "count": 4,
+    "latest": "Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/",
+    "earliest_time": "2026-06-12T00:11:42.548Z",
+    "latest_time": "2026-06-12T01:49:56.852Z",
     "sample": [
       {
-        "time": "01:21",
-        "text": "No other President has ever been more committed to both REBUILDING our Great Military and SAVING our Great Country — And NOW is the time to make it happen, for Generations to come.  I am hereby calling on Republicans in Congress to IMMEDIATELY advance and pass the forthcoming $350 Billion Reconcilia"
+        "time": "00:11",
+        "text": "Sara Baxter is a fantastic person, and highly qualified for many top political jobs but, on a somewhat selfish basis, I would rather have her stay on the Palm Beach County Commission (where so many important things are happening!), than run for Congress. Thank you Sara! President DONALD J. TRUMP"
       },
       {
-        "time": "12:22",
-        "text": "The United States will be hitting Iran (Whose Navy, Air Force, Radar, Anti Aircraft, and all other forms of Defense, together with most of its offensive capability, are GONE!), VERY HARD TONIGHT. At some point in the not too distant  future, we will be taking Kharg Island, and other oil infrastructu"
+        "time": "01:49",
+        "text": "Congress passes immigration funding bill, delivering major win for Trump after Democrat antics: https://justthenews.com/politics-policy/congress-passes-ice-border-patrol-funding-bill"
       },
       {
-        "time": "14:55",
-        "text": "The United States of America cannot live with the shackles of Birthright Citizenship. It is not economically, or otherwise, sustainable, and no other Country in the World, of consequence, does it! President DJT"
+        "time": "01:49",
+        "text": "US attorney in California suspects voter fraud investigation will result in charges: https://justthenews.com/government/courts-law/us-attorney-california-suspects-voter-fraud-investigation-will-result-charges"
       },
       {
-        "time": "17:28",
-        "text": "Based on the fact that discussions with the Islamic Republic of Iran have been brought to the highest level of Iranian leadership and approved, I have, as President of the United States of America, cancelled the scheduled strikes and bombings against Iran this evening. Discussions and final points h"
-      },
-      {
-        "time": "18:00",
-        "text": "I am pleased to announce the Nomination of very Highly Respected Jay Clayton, former Chairman of the Securities and Exchange Commission, the former Head of Sullivan & Cromwell, one of the most prominent and successful Law Firms anywhere in the World, and the current United States Attorney for the So"
+        "time": "01:49",
+        "text": "Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/"
       }
     ]
   },
-  "keyword_signals": [
-    "IRAN"
-  ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_very_long": true,
-    "caps_high": true,
-    "excl_heavy": true,
+    "avg_len_medium": true,
+    "caps_low": true,
+    "excl_normal": true,
     "questions_no": true,
-    "mostly_open": true,
     "has_night": true,
-    "kw_delay": true,
-    "kw_immediately": true,
-    "kw_hereby": true,
-    "kw_block": true,
-    "open_block": true,
-    "kw_iran": true,
-    "kw_iran_2plus": true,
-    "pre_iran": true,
-    "open_iran": true,
-    "kw_israel": true,
-    "open_israel": true,
-    "kw_saudi": true,
-    "open_saudi": true,
-    "kw_inflation": true,
-    "kw_oil": true,
-    "pre_oil": true,
-    "kw_gas": true,
-    "pre_gas": true,
+    "heavy_night": true,
     "kw_jobs": true,
-    "kw_billion": true,
-    "kw_trillion": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_vance": true,
-    "kw_save_america": true,
-    "kw_president_djt": true,
-    "open_president_djt": true,
-    "kw_president_of_the_united_states": true,
-    "open_president_of_the_united_states": true,
-    "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "pre_thank_you_for_your_attention": true,
-    "open_thank_you_for_your_attention": true,
+    "kw_fantastic": true,
+    "is_friday": true,
     "volume_drop": true
-  },
-  "triggered_rules": {
-    "total": 3,
-    "long": 3,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0017",
-        "features": [
-          "kw_inflation",
-          "open_china",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0045",
-        "features": [
-          "kw_executive_order",
-          "kw_jobs",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0100",
-        "features": [
-          "kw_agreement",
-          "kw_jobs",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -230,17 +146,27 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-06-11",
+    "date": "2026-06-12",
     "crossover": 16,
-    "mutation": 13,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_president_of_the_united_states",
-          "kw_india"
+          "kw_thank_you_for_your_attention",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "open_china",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -256,16 +182,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "volume_spike",
-          "kw_amazing"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 88.9,
-        "origin": "mutation_remove"
       }
     ]
   },

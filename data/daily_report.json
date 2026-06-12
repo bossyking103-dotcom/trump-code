@@ -1,19 +1,17 @@
 {
-  "date": "2026-06-11",
-  "generated_at": "2026-06-11T20:45:28Z",
-  "posts_today": 5,
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12T05:45:40Z",
+  "posts_today": 4,
   "latest_post": {
-    "time": "2026-06-11T18:00",
-    "content_preview": "I am pleased to announce the Nomination of very Highly Respected Jay Clayton, former Chairman of the"
+    "time": "2026-06-12T01:49",
+    "content_preview": "Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/"
   },
-  "signals_detected": [
-    "IRAN"
-  ],
-  "models_triggered": 3,
+  "signals_detected": [],
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 3,
+    "LONG": 0,
     "SHORT": 0,
-    "consensus": "BULLISH"
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -25,43 +23,9 @@
     "close": 7394.3
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-11\nPosts today: 5 | Models triggered: 3\nSignals: IRAN\nConsensus: 3 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: I am pleased to announce the Nomination of very Highly Respected Jay Clayton, former Chairman of the",
-    "zh": "川普密碼每日報告 -- 2026-06-11\n今日推文: 5 篇 | 觸發模型: 3 組\n偵測信號: 伊朗\n共識方向: 3 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: I am pleased to announce the Nomination of very Highly Respected Jay Clayton, former Chairman of the",
-    "ja": "トランプ・コード日次レポート -- 2026-06-11\n本日の投稿: 5件 | トリガーモデル: 3組\n検出シグナル: イラン\nコンセンサス: 3組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: I am pleased to announce the Nomination of very Highly Respected Jay Clayton, former Chairman of the"
+    "en": "Trump Code Daily Report -- 2026-06-12\nPosts today: 4 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/",
+    "zh": "川普密碼每日報告 -- 2026-06-12\n今日推文: 4 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/",
+    "ja": "トランプ・コード日次レポート -- 2026-06-12\n本日の投稿: 4件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_inflation",
-        "open_china",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_executive_order",
-        "kw_jobs",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_agreement",
-        "kw_jobs",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
