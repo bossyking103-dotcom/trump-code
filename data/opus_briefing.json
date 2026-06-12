@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "prepared_at": "2026-06-12T14:45:41Z",
+  "prepared_at": "2026-06-12T14:48:31Z",
   "status": "PENDING",
   "today_posts": {
     "count": 6,
@@ -174,21 +174,20 @@
   "evolution_latest": {
     "date": "2026-06-12",
     "crossover": 16,
-    "mutation": 12,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "kw_biden_2plus",
-          "kw_tariff"
+          "open_china",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "mutation_replace"
+        "hold": 2,
+        "score": 90.9,
+        "origin": "crossover"
       },
       {
         "features": [
