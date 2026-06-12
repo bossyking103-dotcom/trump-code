@@ -1,12 +1,12 @@
 {
   "date": "2026-06-12",
-  "prepared_at": "2026-06-12T14:48:31Z",
+  "prepared_at": "2026-06-12T17:45:41Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "https://truthsocial.com/users/craigcowboy/statuses/116737420081036841zt",
+    "count": 9,
+    "latest": "Highly Respected America First Congresswoman, Julia Letlow, of the wonderful State of Louisiana, is a Great Star, has been from the very beginning, and only gets better! Julia is running for the Unite",
     "earliest_time": "2026-06-12T00:11:42.548Z",
-    "latest_time": "2026-06-12T13:59:27.160Z",
+    "latest_time": "2026-06-12T16:30:57.466Z",
     "sample": [
       {
         "time": "00:11",
@@ -25,12 +25,24 @@
         "text": "Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/"
       },
       {
+        "time": "09:59",
+        "text": "Why Scott Pelley Doesn’t Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/"
+      },
+      {
         "time": "13:40",
         "text": "The terms that Iran leaked out to the Fake News have NOTHING to do with the terms that were agreed to, in writing. What they said, including their weak and pathetic statement on having a deal, bears no relation to the truth. Very dishonorable people to deal with. With them, there is no such thing as"
       },
       {
         "time": "13:59",
         "text": "https://truthsocial.com/users/craigcowboy/statuses/116737420081036841zt"
+      },
+      {
+        "time": "16:08",
+        "text": "Re-gilding of the massive Arts of War sculptures, located between The Lincoln Memorial and site of The Triumphal Arch, rapidly continues. The sculptures will be fully regilded by July 3rd. The photos below were taken yesterday. The Gilders' Studio has flown in Gilders from around the Country to perf"
+      },
+      {
+        "time": "16:30",
+        "text": "Highly Respected America First Congresswoman, Julia Letlow, of the wonderful State of Louisiana, is a Great Star, has been from the very beginning, and only gets better! Julia is running for the United States Senate in Louisiana, a place I love and WON BIG, six times, including Primaries, in 2016, 2"
       }
     ]
   },
@@ -42,7 +54,7 @@
   "today_features": {
     "posts_6_10": true,
     "avg_len_medium": true,
-    "caps_low": true,
+    "caps_medium": true,
     "excl_normal": true,
     "questions_no": true,
     "has_night": true,
@@ -53,17 +65,175 @@
     "open_iran": true,
     "kw_india": true,
     "open_india": true,
+    "kw_dow": true,
+    "open_dow": true,
+    "kw_economy": true,
+    "open_economy": true,
+    "kw_oil": true,
+    "open_oil": true,
+    "kw_gas": true,
+    "open_gas": true,
+    "kw_energy": true,
+    "open_energy": true,
     "kw_jobs": true,
+    "kw_great": true,
+    "open_great": true,
     "kw_amazing": true,
+    "kw_amazing_2plus": true,
     "open_amazing": true,
     "kw_fantastic": true,
+    "kw_wonderful": true,
+    "open_wonderful": true,
     "kw_fake": true,
     "open_fake": true,
     "kw_pathetic": true,
     "open_pathetic": true,
+    "kw_america_first": true,
+    "open_america_first": true,
+    "kw_never_let_you_down": true,
+    "open_never_let_you_down": true,
+    "kw_complete_and_total": true,
+    "open_complete_and_total": true,
     "is_friday": true,
     "deal_without_tariff": true,
     "deal_no_tariff": true
+  },
+  "triggered_rules": {
+    "total": 10,
+    "long": 10,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0004",
+        "features": [
+          "kw_deal_2plus",
+          "kw_economy",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0016",
+        "features": [
+          "kw_economy",
+          "kw_energy",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0019",
+        "features": [
+          "kw_deal_2plus",
+          "kw_economy",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0020",
+        "features": [
+          "is_friday",
+          "kw_china",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0021",
+        "features": [
+          "is_friday",
+          "kw_economy",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0030",
+        "features": [
+          "is_friday",
+          "kw_economy",
+          "open_tariffs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0052",
+        "features": [
+          "kw_energy",
+          "open_dow",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0059",
+        "features": [
+          "kw_energy",
+          "kw_interest_rate",
+          "open_energy"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0076",
+        "features": [
+          "kw_economy",
+          "kw_interest_rate",
+          "open_dow"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0094",
+        "features": [
+          "is_friday",
+          "kw_economy",
+          "open_trade"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -174,20 +344,32 @@
   "evolution_latest": {
     "date": "2026-06-12",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_china",
-          "kw_thank_you_for_your_attention"
+          "kw_thank_you_for_your_attention",
+          "open_thank_you_for_your_attention",
+          "volume_falling_3d"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.9,
+        "score": 93.8,
         "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "kw_complete_and_total",
+          "kw_agreement"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.0,
+        "origin": "mutation_replace"
       },
       {
         "features": [
@@ -198,16 +380,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
       }
     ]
   },
