@@ -1,12 +1,12 @@
 {
   "date": "2026-06-12",
-  "prepared_at": "2026-06-12T17:45:41Z",
+  "prepared_at": "2026-06-12T22:25:48Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 9,
-    "latest": "Highly Respected America First Congresswoman, Julia Letlow, of the wonderful State of Louisiana, is a Great Star, has been from the very beginning, and only gets better! Julia is running for the Unite",
+    "count": 10,
+    "latest": "This Sunday Night, during the historic Freedom 250 UFC Fight at the White House, The Department of War will debut their first TV Ad, entitled \"Peace Through Strength.\" WATCH IT BELOW. The Warrior Etho",
     "earliest_time": "2026-06-12T00:11:42.548Z",
-    "latest_time": "2026-06-12T16:30:57.466Z",
+    "latest_time": "2026-06-12T21:07:47.020Z",
     "sample": [
       {
         "time": "00:11",
@@ -25,7 +25,7 @@
         "text": "Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/"
       },
       {
-        "time": "09:59",
+        "time": "11:33",
         "text": "Why Scott Pelley Doesn’t Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/"
       },
       {
@@ -43,6 +43,10 @@
       {
         "time": "16:30",
         "text": "Highly Respected America First Congresswoman, Julia Letlow, of the wonderful State of Louisiana, is a Great Star, has been from the very beginning, and only gets better! Julia is running for the United States Senate in Louisiana, a place I love and WON BIG, six times, including Primaries, in 2016, 2"
+      },
+      {
+        "time": "21:07",
+        "text": "This Sunday Night, during the historic Freedom 250 UFC Fight at the White House, The Department of War will debut their first TV Ad, entitled \"Peace Through Strength.\" WATCH IT BELOW. The Warrior Ethos is BACK at the War Department, and we call on our greatest young Americans to join our Great Fight"
       }
     ]
   },
@@ -77,7 +81,9 @@
     "open_energy": true,
     "kw_jobs": true,
     "kw_great": true,
+    "kw_great_2plus": true,
     "open_great": true,
+    "kw_historic": true,
     "kw_amazing": true,
     "kw_amazing_2plus": true,
     "open_amazing": true,
@@ -344,42 +350,42 @@
   "evolution_latest": {
     "date": "2026-06-12",
     "crossover": 16,
-    "mutation": 15,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "open_thank_you_for_your_attention",
-          "volume_falling_3d"
+          "is_friday",
+          "kw_economy",
+          "open_tariff"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 93.8,
+        "hold": 3,
+        "score": 91.7,
         "origin": "crossover"
       },
       {
         "features": [
+          "volume_falling_3d",
           "kw_thank_you_for_your_attention",
-          "kw_complete_and_total",
-          "kw_agreement"
+          "open_tariff"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.0,
+        "score": 91.7,
         "origin": "mutation_replace"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_economy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
+        "origin": "crossover"
       }
     ]
   },

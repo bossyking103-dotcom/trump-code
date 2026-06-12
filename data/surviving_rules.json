@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-12T17:45:40Z",
-    "evolved_rules_added": 47
+    "last_evolution": "2026-06-12T22:25:48Z",
+    "evolved_rules_added": 46
   },
   "rules": [
     {
@@ -14627,7 +14627,12 @@
       "parents": [
         "is_friday+open_thank_you_for_your_attention",
         "kw_tariffs_2plus+kw_thank_you_for_your_attention"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
