@@ -1,24 +1,24 @@
 {
   "date": "2026-06-13",
-  "prepared_at": "2026-06-13T17:45:40Z",
+  "prepared_at": "2026-06-13T20:45:43Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "The Obama Library ten years from now will be a \"Mecca\" for those who hate America! President DJT",
+    "count": 7,
+    "latest": "I am pleased to announce my intent to appoint James M. McDonald as the United States Attorney for the Southern District of New York. A native of the Great State of Oklahoma, Jamie is a former Assistan",
     "earliest_time": "2026-06-13T01:03:58.666Z",
-    "latest_time": "2026-06-13T16:47:34.430Z",
+    "latest_time": "2026-06-13T18:58:22.407Z",
     "sample": [
       {
         "time": "01:03",
         "text": "At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to successfully execute Niño Guerrero, the infamous leader of Tren De Aragua, one of the most bloodthirsty Terrorist Organizations on Planet Earth. Before I returned to office, Joe Biden opened our Southe"
       },
       {
-        "time": "12:45",
-        "text": "Barack Hussein Obama’s Deal with Iran, the JCPOA, was an easy, beautiful, smooth road to a Nuclear Weapon, which Iran would have had six years ago, and would have used long before now. My Agreement with Iran is the exact opposite, A WALL TO NO NUCLEAR WEAPON! In fact, they no longer want a Nuclear W"
+        "time": "13:53",
+        "text": "The Obama Library ten years from now will be a “Mecca” for those who hate America! President DJT"
       },
       {
-        "time": "12:47",
-        "text": "The Obama Library ten years from now will be a “Mecca” for those who hate America! President DJT"
+        "time": "13:53",
+        "text": "Barack Hussein Obama’s Deal with Iran, the JCPOA, was an easy, beautiful, smooth road to a Nuclear Weapon, which Iran would have had six years ago, and would have used long before now. My Agreement with Iran is the exact opposite, A WALL TO NO NUCLEAR WEAPON! In fact, they no longer want a Nuclear W"
       },
       {
         "time": "14:50",
@@ -31,6 +31,10 @@
       {
         "time": "16:47",
         "text": "The Obama Library ten years from now will be a \"Mecca\" for those who hate America! President DJT"
+      },
+      {
+        "time": "18:58",
+        "text": "I am pleased to announce my intent to appoint James M. McDonald as the United States Attorney for the Southern District of New York. A native of the Great State of Oklahoma, Jamie is a former Assistant U.S. Attorney in the Southern District of New York, and served as Director of Enforcement at the U"
       }
     ]
   },
@@ -45,52 +49,46 @@
     "caps_low": true,
     "excl_heavy": true,
     "questions_no": true,
+    "mostly_open": true,
     "has_night": true,
     "kw_deal": true,
     "kw_deal_2plus": true,
-    "pre_deal": true,
     "open_deal": true,
     "kw_agreement": true,
     "kw_agreement_2plus": true,
-    "pre_agreement": true,
     "open_agreement": true,
     "kw_signed": true,
     "kw_signed_2plus": true,
-    "pre_signed": true,
     "open_signed": true,
     "kw_immediately": true,
     "kw_immediately_2plus": true,
-    "pre_immediately": true,
     "open_immediately": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
-    "pre_iran": true,
     "open_iran": true,
     "kw_dow": true,
     "kw_dow_2plus": true,
-    "pre_dow": true,
     "open_dow": true,
     "kw_billion": true,
     "kw_billion_2plus": true,
-    "pre_billion": true,
     "open_billion": true,
+    "kw_great": true,
+    "open_great": true,
     "kw_beautiful": true,
     "kw_beautiful_2plus": true,
-    "pre_beautiful": true,
     "open_beautiful": true,
+    "kw_fantastic": true,
+    "open_fantastic": true,
     "kw_biden": true,
     "kw_obama": true,
     "kw_obama_2plus": true,
-    "pre_obama": true,
     "open_obama": true,
     "kw_elon": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
-    "pre_president_djt": true,
     "open_president_djt": true,
     "kw_thank_you_for_your_attention": true,
     "kw_thank_you_for_your_attention_2plus": true,
-    "pre_thank_you_for_your_attention": true,
     "open_thank_you_for_your_attention": true,
     "is_weekend": true,
     "deal_without_tariff": true,
@@ -342,41 +340,42 @@
   "evolution_latest": {
     "date": "2026-06-13",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_signed",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 100.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
           "kw_thank_you_for_your_attention",
-          "excl_heavy",
+          "open_thank_you_for_your_attention",
           "kw_signed"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 93.8,
+        "score": 92.9,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_tariff",
-          "kw_signed"
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_economy",
+          "kw_biden",
+          "open_trade"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.6,
-        "origin": "mutation_remove"
+        "score": 88.9,
+        "origin": "crossover"
       }
     ]
   },
