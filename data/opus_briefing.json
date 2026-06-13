@@ -1,6 +1,6 @@
 {
   "date": "2026-06-13",
-  "prepared_at": "2026-06-13T07:49:05Z",
+  "prepared_at": "2026-06-13T08:45:40Z",
   "status": "PENDING",
   "today_posts": {
     "count": 1,
@@ -135,10 +135,10 @@
   },
   "evolution_latest": {
     "date": "2026-06-13",
-    "crossover": 15,
-    "mutation": 16,
+    "crossover": 16,
+    "mutation": 7,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 39,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -163,14 +163,13 @@
       },
       {
         "features": [
-          "open_deal",
-          "kw_jobs",
-          "kw_fantastic"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "distilled"
       }
     ]
   },
