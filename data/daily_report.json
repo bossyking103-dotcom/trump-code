@@ -1,17 +1,21 @@
 {
   "date": "2026-06-13",
-  "generated_at": "2026-06-13T14:45:24Z",
-  "posts_today": 1,
+  "generated_at": "2026-06-13T17:45:26Z",
+  "posts_today": 6,
   "latest_post": {
-    "time": "2026-06-13T01:03",
-    "content_preview": "At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to s"
+    "time": "2026-06-13T16:47",
+    "content_preview": "The Obama Library ten years from now will be a \"Mecca\" for those who hate America! President DJT"
   },
-  "signals_detected": [],
-  "models_triggered": 0,
+  "signals_detected": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
+  "models_triggered": 12,
   "direction_summary": {
-    "LONG": 0,
-    "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "LONG": 11,
+    "SHORT": 1,
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -23,9 +27,142 @@
     "close": 7431.46
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-13\nPosts today: 1 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to s",
-    "zh": "川普密碼每日報告 -- 2026-06-13\n今日推文: 1 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to s",
-    "ja": "トランプ・コード日次レポート -- 2026-06-13\n本日の投稿: 1件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to s"
+    "en": "Trump Code Daily Report -- 2026-06-13\nPosts today: 6 | Models triggered: 12\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 11 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The Obama Library ten years from now will be a \"Mecca\" for those who hate America! President DJT",
+    "zh": "川普密碼每日報告 -- 2026-06-13\n今日推文: 6 篇 | 觸發模型: 12 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 11 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The Obama Library ten years from now will be a \"Mecca\" for those who hate America! President DJT",
+    "ja": "トランプ・コード日次レポート -- 2026-06-13\n本日の投稿: 6件 | トリガーモデル: 12組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 11組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The Obama Library ten years from now will be a \"Mecca\" for those who hate America! President DJT"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "open_thank_you_for_your_attention",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_interest_rate",
+        "kw_signed",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_interest_rate",
+        "kw_signed",
+        "open_dow"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_biden",
+        "kw_deal",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "both_tariff_and_deal",
+        "kw_dow_2plus",
+        "kw_signed"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_agreement",
+        "kw_jobs",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }

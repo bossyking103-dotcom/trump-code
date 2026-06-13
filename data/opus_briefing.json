@@ -1,31 +1,237 @@
 {
   "date": "2026-06-13",
-  "prepared_at": "2026-06-13T14:45:37Z",
+  "prepared_at": "2026-06-13T17:45:40Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to successfully execute Niño Guerrero, the infamous leader of Tren De Aragua, one of the most bloodthirs",
+    "count": 6,
+    "latest": "The Obama Library ten years from now will be a \"Mecca\" for those who hate America! President DJT",
     "earliest_time": "2026-06-13T01:03:58.666Z",
-    "latest_time": "2026-06-13T01:03:58.666Z",
+    "latest_time": "2026-06-13T16:47:34.430Z",
     "sample": [
       {
         "time": "01:03",
         "text": "At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to successfully execute Niño Guerrero, the infamous leader of Tren De Aragua, one of the most bloodthirsty Terrorist Organizations on Planet Earth. Before I returned to office, Joe Biden opened our Southe"
+      },
+      {
+        "time": "12:45",
+        "text": "Barack Hussein Obama’s Deal with Iran, the JCPOA, was an easy, beautiful, smooth road to a Nuclear Weapon, which Iran would have had six years ago, and would have used long before now. My Agreement with Iran is the exact opposite, A WALL TO NO NUCLEAR WEAPON! In fact, they no longer want a Nuclear W"
+      },
+      {
+        "time": "12:47",
+        "text": "The Obama Library ten years from now will be a “Mecca” for those who hate America! President DJT"
+      },
+      {
+        "time": "14:50",
+        "text": "Congratulations to Team USA on their Big Win, 4-1, over a very good Paraguay team. Keep it going! President DJT"
+      },
+      {
+        "time": "16:45",
+        "text": "Barack Hussein Obama's Deal with Iran, the JCPOA, was an easy, beautiful, smooth road to a Nuclear Weapon, which Iran would have had six years ago, and would have used long before now. My Agreement with Iran is the exact opposite, A WALL TO NO NUCLEAR WEAPON! In fact, they no longer want a Nuclear W"
+      },
+      {
+        "time": "16:47",
+        "text": "The Obama Library ten years from now will be a \"Mecca\" for those who hate America! President DJT"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_very_long": true,
     "caps_low": true,
-    "excl_normal": true,
+    "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
+    "kw_deal": true,
+    "kw_deal_2plus": true,
+    "pre_deal": true,
+    "open_deal": true,
+    "kw_agreement": true,
+    "kw_agreement_2plus": true,
+    "pre_agreement": true,
+    "open_agreement": true,
+    "kw_signed": true,
+    "kw_signed_2plus": true,
+    "pre_signed": true,
+    "open_signed": true,
+    "kw_immediately": true,
+    "kw_immediately_2plus": true,
+    "pre_immediately": true,
+    "open_immediately": true,
+    "kw_iran": true,
+    "kw_iran_2plus": true,
+    "pre_iran": true,
+    "open_iran": true,
+    "kw_dow": true,
+    "kw_dow_2plus": true,
+    "pre_dow": true,
+    "open_dow": true,
+    "kw_billion": true,
+    "kw_billion_2plus": true,
+    "pre_billion": true,
+    "open_billion": true,
     "kw_beautiful": true,
+    "kw_beautiful_2plus": true,
+    "pre_beautiful": true,
+    "open_beautiful": true,
     "kw_biden": true,
+    "kw_obama": true,
+    "kw_obama_2plus": true,
+    "pre_obama": true,
+    "open_obama": true,
     "kw_elon": true,
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true,
+    "open_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
+    "pre_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "is_weekend": true,
-    "volume_drop": true
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
+  },
+  "triggered_rules": {
+    "total": 12,
+    "long": 11,
+    "short": 1,
+    "sample": [
+      {
+        "id": "R0005",
+        "features": [
+          "kw_deal_2plus",
+          "kw_dow_2plus",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0006",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0013",
+        "features": [
+          "kw_dow_2plus",
+          "open_jobs",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0033",
+        "features": [
+          "kw_deal_2plus",
+          "kw_dow_2plus",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0043",
+        "features": [
+          "kw_beautiful",
+          "open_thank_you_for_your_attention",
+          "open_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0050",
+        "features": [
+          "kw_dow_2plus",
+          "open_dow",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0081",
+        "features": [
+          "kw_interest_rate",
+          "kw_signed",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0082",
+        "features": [
+          "kw_interest_rate",
+          "kw_signed",
+          "open_dow"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0085",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0097",
+        "features": [
+          "kw_biden",
+          "kw_deal",
+          "open_disaster"
+        ],
+        "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -136,40 +342,41 @@
   "evolution_latest": {
     "date": "2026-06-13",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
+          "kw_signed",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 100.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
           "kw_thank_you_for_your_attention",
-          "open_china"
+          "excl_heavy",
+          "kw_signed"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 93.8,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_tariff",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.9,
+        "score": 90.6,
         "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
       }
     ]
   },
