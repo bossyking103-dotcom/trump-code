@@ -1,245 +1,31 @@
 {
-  "date": "2026-06-12",
-  "prepared_at": "2026-06-12T22:25:48Z",
+  "date": "2026-06-13",
+  "prepared_at": "2026-06-13T07:49:05Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 10,
-    "latest": "This Sunday Night, during the historic Freedom 250 UFC Fight at the White House, The Department of War will debut their first TV Ad, entitled \"Peace Through Strength.\" WATCH IT BELOW. The Warrior Etho",
-    "earliest_time": "2026-06-12T00:11:42.548Z",
-    "latest_time": "2026-06-12T21:07:47.020Z",
+    "count": 1,
+    "latest": "At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to successfully execute Niño Guerrero, the infamous leader of Tren De Aragua, one of the most bloodthirs",
+    "earliest_time": "2026-06-13T01:03:58.666Z",
+    "latest_time": "2026-06-13T01:03:58.666Z",
     "sample": [
       {
-        "time": "00:11",
-        "text": "Sara Baxter is a fantastic person, and highly qualified for many top political jobs but, on a somewhat selfish basis, I would rather have her stay on the Palm Beach County Commission (where so many important things are happening!), than run for Congress. Thank you Sara! President DONALD J. TRUMP"
-      },
-      {
-        "time": "01:49",
-        "text": "Congress passes immigration funding bill, delivering major win for Trump after Democrat antics: https://justthenews.com/politics-policy/congress-passes-ice-border-patrol-funding-bill"
-      },
-      {
-        "time": "01:49",
-        "text": "US attorney in California suspects voter fraud investigation will result in charges: https://justthenews.com/government/courts-law/us-attorney-california-suspects-voter-fraud-investigation-will-result-charges"
-      },
-      {
-        "time": "01:49",
-        "text": "Why Scott Pelley Doesn't Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/"
-      },
-      {
-        "time": "11:33",
-        "text": "Why Scott Pelley Doesn’t Matter: https://lyceumnow.com/why-scott-pelley-doesnt-matter/"
-      },
-      {
-        "time": "13:40",
-        "text": "The terms that Iran leaked out to the Fake News have NOTHING to do with the terms that were agreed to, in writing. What they said, including their weak and pathetic statement on having a deal, bears no relation to the truth. Very dishonorable people to deal with. With them, there is no such thing as"
-      },
-      {
-        "time": "13:59",
-        "text": "https://truthsocial.com/users/craigcowboy/statuses/116737420081036841zt"
-      },
-      {
-        "time": "16:08",
-        "text": "Re-gilding of the massive Arts of War sculptures, located between The Lincoln Memorial and site of The Triumphal Arch, rapidly continues. The sculptures will be fully regilded by July 3rd. The photos below were taken yesterday. The Gilders' Studio has flown in Gilders from around the Country to perf"
-      },
-      {
-        "time": "16:30",
-        "text": "Highly Respected America First Congresswoman, Julia Letlow, of the wonderful State of Louisiana, is a Great Star, has been from the very beginning, and only gets better! Julia is running for the United States Senate in Louisiana, a place I love and WON BIG, six times, including Primaries, in 2016, 2"
-      },
-      {
-        "time": "21:07",
-        "text": "This Sunday Night, during the historic Freedom 250 UFC Fight at the White House, The Department of War will debut their first TV Ad, entitled \"Peace Through Strength.\" WATCH IT BELOW. The Warrior Ethos is BACK at the War Department, and we call on our greatest young Americans to join our Great Fight"
+        "time": "01:03",
+        "text": "At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to successfully execute Niño Guerrero, the infamous leader of Tren De Aragua, one of the most bloodthirsty Terrorist Organizations on Planet Earth. Before I returned to office, Joe Biden opened our Southe"
       }
     ]
   },
-  "keyword_signals": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_medium": true,
-    "caps_medium": true,
+    "posts_1_5": true,
+    "avg_len_very_long": true,
+    "caps_low": true,
     "excl_normal": true,
     "questions_no": true,
     "has_night": true,
-    "heavy_night": true,
-    "kw_deal": true,
-    "open_deal": true,
-    "kw_iran": true,
-    "open_iran": true,
-    "kw_india": true,
-    "open_india": true,
-    "kw_dow": true,
-    "open_dow": true,
-    "kw_economy": true,
-    "open_economy": true,
-    "kw_oil": true,
-    "open_oil": true,
-    "kw_gas": true,
-    "open_gas": true,
-    "kw_energy": true,
-    "open_energy": true,
-    "kw_jobs": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_historic": true,
-    "kw_amazing": true,
-    "kw_amazing_2plus": true,
-    "open_amazing": true,
-    "kw_fantastic": true,
-    "kw_wonderful": true,
-    "open_wonderful": true,
-    "kw_fake": true,
-    "open_fake": true,
-    "kw_pathetic": true,
-    "open_pathetic": true,
-    "kw_america_first": true,
-    "open_america_first": true,
-    "kw_never_let_you_down": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "open_complete_and_total": true,
-    "is_friday": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
-  },
-  "triggered_rules": {
-    "total": 10,
-    "long": 10,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0004",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0016",
-        "features": [
-          "kw_economy",
-          "kw_energy",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0019",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0020",
-        "features": [
-          "is_friday",
-          "kw_china",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0021",
-        "features": [
-          "is_friday",
-          "kw_economy",
-          "open_china"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0030",
-        "features": [
-          "is_friday",
-          "kw_economy",
-          "open_tariffs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0052",
-        "features": [
-          "kw_energy",
-          "open_dow",
-          "open_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0059",
-        "features": [
-          "kw_energy",
-          "kw_interest_rate",
-          "open_energy"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0076",
-        "features": [
-          "kw_economy",
-          "kw_interest_rate",
-          "open_dow"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0094",
-        "features": [
-          "is_friday",
-          "kw_economy",
-          "open_trade"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "kw_beautiful": true,
+    "kw_biden": true,
+    "kw_elon": true,
+    "is_weekend": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -348,43 +134,42 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-06-12",
-    "crossover": 16,
-    "mutation": 14,
+    "date": "2026-06-13",
+    "crossover": 15,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "is_friday",
-          "kw_economy",
-          "open_tariff"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "volume_falling_3d",
           "kw_thank_you_for_your_attention",
-          "open_tariff"
+          "open_china"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 91.7,
-        "origin": "mutation_replace"
+        "score": 90.9,
+        "origin": "mutation_remove"
       },
       {
         "features": [
-          "kw_economy",
-          "kw_interest_rate"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "open_deal",
+          "kw_jobs",
+          "kw_fantastic"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
         "origin": "crossover"
       }
     ]

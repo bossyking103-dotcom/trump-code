@@ -1,21 +1,17 @@
 {
-  "date": "2026-06-12",
-  "generated_at": "2026-06-12T22:25:30Z",
-  "posts_today": 10,
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13T07:48:43Z",
+  "posts_today": 1,
   "latest_post": {
-    "time": "2026-06-12T21:07",
-    "content_preview": "This Sunday Night, during the historic Freedom 250 UFC Fight at the White House, The Department of W"
+    "time": "2026-06-13T01:03",
+    "content_preview": "At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to s"
   },
-  "signals_detected": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
-  "models_triggered": 10,
+  "signals_detected": [],
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 10,
+    "LONG": 0,
     "SHORT": 0,
-    "consensus": "BULLISH"
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -27,120 +23,9 @@
     "close": 7431.46
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-12\nPosts today: 10 | Models triggered: 10\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 10 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: This Sunday Night, during the historic Freedom 250 UFC Fight at the White House, The Department of W",
-    "zh": "川普密碼每日報告 -- 2026-06-12\n今日推文: 10 篇 | 觸發模型: 10 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 10 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: This Sunday Night, during the historic Freedom 250 UFC Fight at the White House, The Department of W",
-    "ja": "トランプ・コード日次レポート -- 2026-06-12\n本日の投稿: 10件 | トリガーモデル: 10組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 10組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: This Sunday Night, during the historic Freedom 250 UFC Fight at the White House, The Department of W"
+    "en": "Trump Code Daily Report -- 2026-06-13\nPosts today: 1 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to s",
+    "zh": "川普密碼每日報告 -- 2026-06-13\n今日推文: 1 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to s",
+    "ja": "トランプ・コード日次レポート -- 2026-06-13\n本日の投稿: 1件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to s"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_china",
-        "kw_economy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_economy",
-        "open_china"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_economy",
-        "open_tariffs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "kw_interest_rate",
-        "open_energy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "open_dow"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_economy",
-        "open_trade"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
