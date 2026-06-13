@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-13T11:45:29Z",
+  "timestamp": "2026-06-13T14:45:24Z",
   "sources": {
     "cnn": {
       "status": "ok",
@@ -8,7 +8,7 @@
     },
     "trumpstruth": {
       "status": "ok",
-      "count": 6,
+      "count": 5,
       "error": null
     },
     "truthsocial_direct": {
@@ -22,10 +22,10 @@
     "primary": "cnn",
     "secondary": "trumpstruth",
     "checked": 10,
-    "matched": 6,
-    "primary_only": 4,
+    "matched": 5,
+    "primary_only": 5,
     "secondary_only": 0,
-    "match_rate": 60.0,
+    "match_rate": 50.0,
     "verdict": "PARTIAL"
   },
   "merge": {
