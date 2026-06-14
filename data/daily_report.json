@@ -1,20 +1,20 @@
 {
   "date": "2026-06-14",
-  "generated_at": "2026-06-14T17:45:26Z",
-  "posts_today": 7,
+  "generated_at": "2026-06-14T20:45:25Z",
+  "posts_today": 12,
   "latest_post": {
-    "time": "2026-06-14T16:30",
-    "content_preview": "John Wahl, the Highly Respected former Chairman of the Alabama GOP, is running for Lieutenant Govern"
+    "time": "2026-06-14T20:35",
+    "content_preview": "Victoria Coates of the Heritage Foundation is absolutely fantastic! She gets it like few other do. T"
   },
   "signals_detected": [
     "DEAL",
     "IRAN",
     "DEAL_ONLY"
   ],
-  "models_triggered": 19,
+  "models_triggered": 34,
   "direction_summary": {
-    "LONG": 17,
-    "SHORT": 2,
+    "LONG": 30,
+    "SHORT": 4,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -27,9 +27,9 @@
     "close": 7431.46
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-14\nPosts today: 7 | Models triggered: 19\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 17 LONG vs 2 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: John Wahl, the Highly Respected former Chairman of the Alabama GOP, is running for Lieutenant Govern",
-    "zh": "川普密碼每日報告 -- 2026-06-14\n今日推文: 7 篇 | 觸發模型: 19 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 17 組看多 vs 2 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: John Wahl, the Highly Respected former Chairman of the Alabama GOP, is running for Lieutenant Govern",
-    "ja": "トランプ・コード日次レポート -- 2026-06-14\n本日の投稿: 7件 | トリガーモデル: 19組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 17組ロング vs 2組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: John Wahl, the Highly Respected former Chairman of the Alabama GOP, is running for Lieutenant Govern"
+    "en": "Trump Code Daily Report -- 2026-06-14\nPosts today: 12 | Models triggered: 34\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 30 LONG vs 4 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Victoria Coates of the Heritage Foundation is absolutely fantastic! She gets it like few other do. T",
+    "zh": "川普密碼每日報告 -- 2026-06-14\n今日推文: 12 篇 | 觸發模型: 34 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 30 組看多 vs 4 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Victoria Coates of the Heritage Foundation is absolutely fantastic! She gets it like few other do. T",
+    "ja": "トランプ・コード日次レポート -- 2026-06-14\n本日の投稿: 12件 | トリガーモデル: 34組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 30組ロング vs 4組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Victoria Coates of the Heritage Foundation is absolutely fantastic! She gets it like few other do. T"
   },
   "triggered_rules_sample": [
     {
@@ -59,6 +59,39 @@
         "kw_deal",
         "kw_perfect",
         "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "open_dow",
+        "open_trade",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "posts_11_20"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -166,7 +199,40 @@
     },
     {
       "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "open_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
         "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
         "kw_interest_rate",
         "open_energy"
       ],
@@ -177,67 +243,12 @@
     },
     {
       "features": [
-        "kw_economy",
-        "open_tariffs",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_america_first",
-        "kw_beautiful",
-        "kw_terrible"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_inflation",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
+        "kw_energy",
         "kw_interest_rate",
-        "open_dow"
+        "open_energy"
       ],
       "direction": "LONG",
       "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_biden",
-        "kw_deal",
-        "open_disaster"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     }
