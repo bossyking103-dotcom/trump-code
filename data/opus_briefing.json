@@ -1,12 +1,12 @@
 {
   "date": "2026-06-14",
-  "prepared_at": "2026-06-14T14:45:35Z",
+  "prepared_at": "2026-06-14T17:45:34Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "It is my Great Honor to endorse “MAGA” Mike Collins, a Highly Respected Congressman who has been with me from the very beginning, and is running for the United States Senate in Georgia, a very special",
+    "count": 7,
+    "latest": "John Wahl, the Highly Respected former Chairman of the Alabama GOP, is running for Lieutenant Governor of Alabama. John has been with us from the very beginning, and has been key to our many Republica",
     "earliest_time": "2026-06-14T04:29:33.591Z",
-    "latest_time": "2026-06-14T09:40:00.000Z",
+    "latest_time": "2026-06-14T16:30:54.170Z",
     "sample": [
       {
         "time": "04:29",
@@ -17,36 +17,69 @@
         "text": "It is my Great Honor to endorse \"MAGA\" Mike Collins, a Highly Respected Congressman who has been with me from the very beginning, and is running for the United States Senate in Georgia, a very special place to me, and where we just had a BIG Presidential Election Win with the Most Votes Received by "
       },
       {
-        "time": "09:40",
+        "time": "10:46",
         "text": "It is my Great Honor to endorse “MAGA” Mike Collins, a Highly Respected Congressman who has been with me from the very beginning, and is running for the United States Senate in Georgia, a very special place to me, and where we just had a BIG Presidential Election Win with the Most Votes Received by "
+      },
+      {
+        "time": "11:26",
+        "text": "This morning’s attack on Beirut should not have happened, particularly on a special day when we are so close to a Peace Deal with Iran. Israel has the right to defend itself against threats, but the attack it was responding to was very small and meaningless, nobody was hurt, injured, or killed, and "
+      },
+      {
+        "time": "14:46",
+        "text": "This morning's attack on Beirut should not have happened, particularly on a special day when we are so close to a Peace Deal with Iran. Israel has the right to defend itself against threats, but the attack it was responding to was very small and meaningless, nobody was hurt, injured, or killed, and "
+      },
+      {
+        "time": "15:26",
+        "text": "Thank you Michael. The Dumocrats Weaponized Government at levels never seen before, and you survived it all. They should pay the ultimate price for what they have done!!! President DJThttps://open.substack.com/pub/therealmichaelcohen/p/the-price-of-proximity"
+      },
+      {
+        "time": "16:30",
+        "text": "John Wahl, the Highly Respected former Chairman of the Alabama GOP, is running for Lieutenant Governor of Alabama. John has been with us from the very beginning, and has been key to our many Republican Victories in the Great State of Alabama, which I won with the Highest Vote in Alabama History, inc"
       }
     ]
   },
   "keyword_signals": [
-    "IRAN"
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_very_long": true,
     "caps_medium": true,
     "excl_extreme": true,
     "questions_no": true,
     "mostly_premarket": true,
+    "kw_deal": true,
+    "kw_deal_2plus": true,
+    "pre_deal": true,
+    "open_deal": true,
     "kw_effective": true,
     "kw_effective_2plus": true,
     "pre_effective": true,
+    "kw_ban": true,
+    "kw_ban_2plus": true,
+    "pre_ban": true,
+    "open_ban": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
+    "open_iran": true,
+    "kw_israel": true,
+    "kw_israel_2plus": true,
+    "pre_israel": true,
+    "open_israel": true,
     "kw_stock_market": true,
     "kw_stock_market_2plus": true,
     "pre_stock_market": true,
     "kw_dow": true,
     "kw_dow_2plus": true,
     "pre_dow": true,
+    "open_dow": true,
     "kw_economy": true,
     "kw_economy_2plus": true,
     "pre_economy": true,
+    "open_economy": true,
     "kw_inflation": true,
     "kw_inflation_2plus": true,
     "pre_inflation": true,
@@ -56,15 +89,25 @@
     "kw_energy": true,
     "kw_energy_2plus": true,
     "pre_energy": true,
+    "open_energy": true,
     "kw_trillion": true,
     "kw_trillion_2plus": true,
     "pre_trillion": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
+    "open_great": true,
     "kw_incredible": true,
     "kw_incredible_2plus": true,
     "pre_incredible": true,
+    "kw_historic": true,
+    "open_historic": true,
+    "kw_beautiful": true,
+    "kw_beautiful_2plus": true,
+    "pre_beautiful": true,
+    "open_beautiful": true,
+    "kw_amazing": true,
+    "open_amazing": true,
     "kw_pathetic": true,
     "kw_pathetic_2plus": true,
     "pre_pathetic": true,
@@ -80,26 +123,139 @@
     "kw_america_first": true,
     "kw_america_first_2plus": true,
     "pre_america_first": true,
+    "kw_president_djt": true,
+    "open_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
+    "pre_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "kw_never_let_you_down": true,
     "kw_never_let_you_down_2plus": true,
     "pre_never_let_you_down": true,
+    "open_never_let_you_down": true,
     "kw_complete_and_total": true,
     "kw_complete_and_total_2plus": true,
     "pre_complete_and_total": true,
+    "open_complete_and_total": true,
     "is_weekend": true,
-    "volume_drop": true
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 2,
-    "long": 2,
-    "short": 0,
+    "total": 19,
+    "long": 17,
+    "short": 2,
     "sample": [
+      {
+        "id": "R0004",
+        "features": [
+          "kw_deal_2plus",
+          "kw_economy",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0005",
+        "features": [
+          "kw_deal_2plus",
+          "kw_dow_2plus",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0006",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0013",
+        "features": [
+          "kw_dow_2plus",
+          "open_jobs",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
       {
         "id": "R0016",
         "features": [
           "kw_economy",
           "kw_energy",
           "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0017",
+        "features": [
+          "kw_inflation",
+          "open_china",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0019",
+        "features": [
+          "kw_deal_2plus",
+          "kw_economy",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0033",
+        "features": [
+          "kw_deal_2plus",
+          "kw_dow_2plus",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0043",
+        "features": [
+          "kw_beautiful",
+          "open_thank_you_for_your_attention",
+          "open_tremendous"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -230,34 +386,33 @@
   },
   "evolution_latest": {
     "date": "2026-06-14",
-    "crossover": 12,
-    "mutation": 16,
+    "crossover": 16,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_beautiful",
-          "kw_trade",
-          "open_jobs",
-          "kw_thank_you_for_your_attention"
+          "open_inflation",
+          "open_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 100.0,
+        "score": 91.7,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "kw_jobs",
-          "open_economy"
+          "open_tariff",
+          "kw_beautiful",
+          "kw_tremendous",
+          "open_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
         "score": 90.0,
-        "origin": "mutation_replace"
+        "origin": "crossover"
       },
       {
         "features": [

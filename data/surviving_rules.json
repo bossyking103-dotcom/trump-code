@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-14T14:45:35Z",
-    "evolved_rules_added": 44
+    "last_evolution": "2026-06-14T17:45:33Z",
+    "evolved_rules_added": 46
   },
   "rules": [
     {
@@ -13517,7 +13517,12 @@
       "parents": [
         "is_friday+kw_beautiful",
         "kw_thank_you_for_your_attention+kw_trade"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
