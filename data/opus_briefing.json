@@ -1,230 +1,70 @@
 {
-  "date": "2026-06-13",
-  "prepared_at": "2026-06-13T20:45:43Z",
+  "date": "2026-06-14",
+  "prepared_at": "2026-06-14T05:45:17Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "I am pleased to announce my intent to appoint James M. McDonald as the United States Attorney for the Southern District of New York. A native of the Great State of Oklahoma, Jamie is a former Assistan",
-    "earliest_time": "2026-06-13T01:03:58.666Z",
-    "latest_time": "2026-06-13T18:58:22.407Z",
+    "count": 2,
+    "latest": "It is my Great Honor to endorse “MAGA” Mike Collins, a Highly Respected Congressman who has been with me from the very beginning, and is running for the United States Senate in Georgia, a very special",
+    "earliest_time": "2026-06-14T00:29:00.000Z",
+    "latest_time": "2026-06-14T00:56:00.000Z",
     "sample": [
       {
-        "time": "01:03",
-        "text": "At my direction, the United States Southern Command delivered a swift and lethal kinetic strike to successfully execute Niño Guerrero, the infamous leader of Tren De Aragua, one of the most bloodthirsty Terrorist Organizations on Planet Earth. Before I returned to office, Joe Biden opened our Southe"
+        "time": "00:29",
+        "text": "Congratulations to Jim Dolan and the New York Knicks!!! What a year it has been but, even more so, what incredible playoff wins we have all witnessed, especially the last four - Maybe the greatest in the history of basketball. Also, tonight, a superstar was born. His name is Jalen Brunson, and there"
       },
       {
-        "time": "13:53",
-        "text": "The Obama Library ten years from now will be a “Mecca” for those who hate America! President DJT"
-      },
-      {
-        "time": "13:53",
-        "text": "Barack Hussein Obama’s Deal with Iran, the JCPOA, was an easy, beautiful, smooth road to a Nuclear Weapon, which Iran would have had six years ago, and would have used long before now. My Agreement with Iran is the exact opposite, A WALL TO NO NUCLEAR WEAPON! In fact, they no longer want a Nuclear W"
-      },
-      {
-        "time": "14:50",
-        "text": "Congratulations to Team USA on their Big Win, 4-1, over a very good Paraguay team. Keep it going! President DJT"
-      },
-      {
-        "time": "16:45",
-        "text": "Barack Hussein Obama's Deal with Iran, the JCPOA, was an easy, beautiful, smooth road to a Nuclear Weapon, which Iran would have had six years ago, and would have used long before now. My Agreement with Iran is the exact opposite, A WALL TO NO NUCLEAR WEAPON! In fact, they no longer want a Nuclear W"
-      },
-      {
-        "time": "16:47",
-        "text": "The Obama Library ten years from now will be a \"Mecca\" for those who hate America! President DJT"
-      },
-      {
-        "time": "18:58",
-        "text": "I am pleased to announce my intent to appoint James M. McDonald as the United States Attorney for the Southern District of New York. A native of the Great State of Oklahoma, Jamie is a former Assistant U.S. Attorney in the Southern District of New York, and served as Director of Enforcement at the U"
+        "time": "00:56",
+        "text": "It is my Great Honor to endorse “MAGA” Mike Collins, a Highly Respected Congressman who has been with me from the very beginning, and is running for the United States Senate in Georgia, a very special place to me, and where we just had a BIG Presidential Election Win with the Most Votes Received by "
       }
     ]
   },
   "keyword_signals": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
+    "IRAN"
   ],
   "today_features": {
-    "posts_6_10": true,
+    "posts_1_5": true,
     "avg_len_very_long": true,
-    "caps_low": true,
-    "excl_heavy": true,
+    "caps_medium": true,
+    "excl_extreme": true,
     "questions_no": true,
-    "mostly_open": true,
     "has_night": true,
-    "kw_deal": true,
-    "kw_deal_2plus": true,
-    "open_deal": true,
-    "kw_agreement": true,
-    "kw_agreement_2plus": true,
-    "open_agreement": true,
-    "kw_signed": true,
-    "kw_signed_2plus": true,
-    "open_signed": true,
-    "kw_immediately": true,
-    "kw_immediately_2plus": true,
-    "open_immediately": true,
+    "kw_effective": true,
     "kw_iran": true,
-    "kw_iran_2plus": true,
-    "open_iran": true,
+    "kw_stock_market": true,
     "kw_dow": true,
-    "kw_dow_2plus": true,
-    "open_dow": true,
-    "kw_billion": true,
-    "kw_billion_2plus": true,
-    "open_billion": true,
+    "kw_economy": true,
+    "kw_inflation": true,
+    "kw_gas": true,
+    "kw_energy": true,
+    "kw_trillion": true,
     "kw_great": true,
-    "open_great": true,
-    "kw_beautiful": true,
-    "kw_beautiful_2plus": true,
-    "open_beautiful": true,
-    "kw_fantastic": true,
-    "open_fantastic": true,
+    "kw_great_2plus": true,
+    "kw_incredible": true,
+    "kw_incredible_2plus": true,
+    "kw_pathetic": true,
     "kw_biden": true,
-    "kw_obama": true,
-    "kw_obama_2plus": true,
-    "open_obama": true,
-    "kw_elon": true,
-    "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "open_president_djt": true,
-    "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "open_thank_you_for_your_attention": true,
+    "kw_vance": true,
+    "kw_maga": true,
+    "kw_america_first": true,
+    "kw_never_let_you_down": true,
+    "kw_complete_and_total": true,
     "is_weekend": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
+    "volume_drop": true
   },
   "triggered_rules": {
-    "total": 12,
-    "long": 11,
-    "short": 1,
+    "total": 1,
+    "long": 1,
+    "short": 0,
     "sample": [
       {
-        "id": "R0005",
+        "id": "R0016",
         "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
+          "kw_economy",
+          "kw_energy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0006",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0013",
-        "features": [
-          "kw_dow_2plus",
-          "open_jobs",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0033",
-        "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0043",
-        "features": [
-          "kw_beautiful",
-          "open_thank_you_for_your_attention",
-          "open_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0050",
-        "features": [
-          "kw_dow_2plus",
-          "open_dow",
-          "open_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0081",
-        "features": [
-          "kw_interest_rate",
-          "kw_signed",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0082",
-        "features": [
-          "kw_interest_rate",
-          "kw_signed",
-          "open_dow"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0085",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0097",
-        "features": [
-          "kw_biden",
-          "kw_deal",
-          "open_disaster"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
         "train_wr": 100.0,
         "test_wr": 100.0,
         "score": 100.0
@@ -338,23 +178,22 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-06-13",
-    "crossover": 16,
-    "mutation": 11,
+    "date": "2026-06-14",
+    "crossover": 10,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 42,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "open_thank_you_for_your_attention",
-          "kw_signed"
+          "open_china",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 92.9,
-        "origin": "crossover"
+        "score": 90.0,
+        "origin": "mutation_remove"
       },
       {
         "features": [
@@ -368,14 +207,13 @@
       },
       {
         "features": [
-          "kw_economy",
-          "kw_biden",
-          "open_trade"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 88.9,
-        "origin": "crossover"
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
