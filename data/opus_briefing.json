@@ -1,31 +1,141 @@
 {
   "date": "2026-06-15",
-  "prepared_at": "2026-06-15T08:45:22Z",
+  "prepared_at": "2026-06-15T11:45:21Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "The Dumocrats want FISA because that’s what they used to go after me for three years during my First Term! I’m against FISA if it doesn’t come with The Save America Act (Full version!) firmly attached",
+    "count": 8,
+    "latest": "Under the disastrous Open Border Policy of Crooked Joe Biden and his traitorous DHS Secretary Alejandro Mayorkas, TENS OF MILLIONS of criminals, including over 13,000 STONE-COLD MURDERERS, poured into",
     "earliest_time": "2026-06-15T03:57:00.000Z",
-    "latest_time": "2026-06-15T03:57:00.000Z",
+    "latest_time": "2026-06-15T10:38:53.027Z",
     "sample": [
       {
         "time": "03:57",
         "text": "The Dumocrats want FISA because that’s what they used to go after me for three years during my First Term! I’m against FISA if it doesn’t come with The Save America Act (Full version!) firmly attached to it. MAKE AMERICA GREAT AGAIN!  THE SAVE AMERICA ACT!1. ALL VOTERS MUST SHOW PHOTO I.D. (IDENTIFI"
+      },
+      {
+        "time": "06:32",
+        "text": "Wednesday, June 24th, will be the “kick off” of our summer long Celebration of 250 Years of American Independence! Come and enjoy a night filled with beautiful music from our talented U.S. Army and Marine Corps Military Bands (ONLY THE HITS THAT YOU KNOW AND LOVE!), the highly gifted Christopher Mac"
+      },
+      {
+        "time": "07:57",
+        "text": "The Dumocrats want FISA because that's what they used to go after me for three years during my First Term! I'm against FISA if it doesn't come with The Save America Act (Full version!) firmly attached to it. MAKE AMERICA GREAT AGAIN!  THE SAVE AMERICA ACT!1. ALL VOTERS MUST SHOW PHOTO I.D. (IDENTIFI"
+      },
+      {
+        "time": "10:14",
+        "text": "Eric Metaxas, a great guy, has written an incredible new book, \"Revolution: The Birth of the Greatest Nation in the History of the World.\" As we celebrate our Nation's 250th Birthday, Eric honors the Faith, Wisdom, and Courage of the Great Patriots who sacrificed so much to secure our Independence. "
+      },
+      {
+        "time": "10:14",
+        "text": "The UFC at the White House last night was incredible. The weather was scheduled to be horrendous, and it turned out to be PERFECT! So much for weather predicting. The Fighters were outstanding — Bo Nickal, Justin Gaethje, Ciryl Gane, Sean O'Malley, Josh Hokit, Mauricio Ruffy, and Diego Lopes were al"
+      },
+      {
+        "time": "10:32",
+        "text": "Wednesday, June 24th, will be the \"kick off\" of our summer long Celebration of 250 Years of American Independence! Come and enjoy a night filled with beautiful music from our talented U.S. Army and Marine Corps Military Bands (ONLY THE HITS THAT YOU KNOW AND LOVE!), the highly gifted Christopher Mac"
+      },
+      {
+        "time": "10:34",
+        "text": "On July 4th, at The Lincoln Memorial and Washington Monument, in beautiful and safe Washington D.C., we are going to host the most spectacular TRUMP RALLY of them all, a \"TRIBUTE TO AMERICA.\" Starting at 7 P.M. EST, this HUGE Celebration will honor our Country's People, Spirit, Strength, Resolve, an"
+      },
+      {
+        "time": "10:38",
+        "text": "Under the disastrous Open Border Policy of Crooked Joe Biden and his traitorous DHS Secretary Alejandro Mayorkas, TENS OF MILLIONS of criminals, including over 13,000 STONE-COLD MURDERERS, poured into our Country from Prisons and Jails, from Mental Institutions and Insane Asylums. Needless to say, t"
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_long": true,
-    "caps_very_high": true,
+    "posts_6_10": true,
+    "avg_len_very_long": true,
+    "caps_high": true,
     "excl_extreme": true,
     "questions_no": true,
+    "mostly_premarket": true,
     "has_night": true,
+    "kw_ban": true,
+    "kw_ban_2plus": true,
+    "pre_ban": true,
+    "kw_dow": true,
+    "pre_dow": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "kw_incredible": true,
+    "kw_incredible_2plus": true,
+    "pre_incredible": true,
+    "kw_historic": true,
+    "pre_historic": true,
+    "kw_beautiful": true,
+    "kw_beautiful_2plus": true,
+    "pre_beautiful": true,
+    "kw_perfect": true,
+    "pre_perfect": true,
+    "kw_biden": true,
+    "pre_biden": true,
     "kw_save_america": true,
+    "kw_save_america_2plus": true,
+    "pre_save_america": true,
     "kw_thank_you_for_your_attention": true,
-    "is_monday": true,
-    "volume_drop": true
+    "kw_thank_you_for_your_attention_2plus": true,
+    "pre_thank_you_for_your_attention": true,
+    "is_monday": true
+  },
+  "triggered_rules": {
+    "total": 4,
+    "long": 4,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0006",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0012",
+        "features": [
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "posts_11_20"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0053",
+        "features": [
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0085",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -143,17 +253,6 @@
     "top_3": [
       {
         "features": [
-          "kw_beautiful",
-          "open_trade",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
@@ -164,13 +263,23 @@
       },
       {
         "features": [
-          "open_tariffs",
-          "is_friday"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.9,
-        "origin": "crossover"
+        "score": 87.5,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },

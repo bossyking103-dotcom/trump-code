@@ -1,17 +1,17 @@
 {
   "date": "2026-06-15",
-  "generated_at": "2026-06-15T08:45:18Z",
-  "posts_today": 1,
+  "generated_at": "2026-06-15T11:45:16Z",
+  "posts_today": 8,
   "latest_post": {
-    "time": "2026-06-15T03:57",
-    "content_preview": "The Dumocrats want FISA because that’s what they used to go after me for three years during my First"
+    "time": "2026-06-15T10:38",
+    "content_preview": "Under the disastrous Open Border Policy of Crooked Joe Biden and his traitorous DHS Secretary Alejan"
   },
   "signals_detected": [],
-  "models_triggered": 0,
+  "models_triggered": 4,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 4,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -23,9 +23,54 @@
     "close": 7431.46
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-15\nPosts today: 1 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The Dumocrats want FISA because that’s what they used to go after me for three years during my First",
-    "zh": "川普密碼每日報告 -- 2026-06-15\n今日推文: 1 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The Dumocrats want FISA because that’s what they used to go after me for three years during my First",
-    "ja": "トランプ・コード日次レポート -- 2026-06-15\n本日の投稿: 1件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The Dumocrats want FISA because that’s what they used to go after me for three years during my First"
+    "en": "Trump Code Daily Report -- 2026-06-15\nPosts today: 8 | Models triggered: 4\nSignals: None\nConsensus: 4 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Under the disastrous Open Border Policy of Crooked Joe Biden and his traitorous DHS Secretary Alejan",
+    "zh": "川普密碼每日報告 -- 2026-06-15\n今日推文: 8 篇 | 觸發模型: 4 組\n偵測信號: 無\n共識方向: 4 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Under the disastrous Open Border Policy of Crooked Joe Biden and his traitorous DHS Secretary Alejan",
+    "ja": "トランプ・コード日次レポート -- 2026-06-15\n本日の投稿: 8件 | トリガーモデル: 4組\n検出シグナル: なし\nコンセンサス: 4組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Under the disastrous Open Border Policy of Crooked Joe Biden and his traitorous DHS Secretary Alejan"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "posts_11_20"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }
