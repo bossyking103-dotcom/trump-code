@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-16T08:45:22Z",
-    "evolved_rules_added": 46
+    "last_evolution": "2026-06-16T11:45:29Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -14800,7 +14800,12 @@
       "parents": [
         "kw_beautiful+kw_interest_rate",
         "kw_agreement+open_china"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
