@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-16T17:45:17Z",
+  "timestamp": "2026-06-16T20:45:10Z",
   "sources": {
     "cnn": {
       "status": "ok",
-      "count": 6870,
+      "count": 6874,
       "error": null
     },
     "trumpstruth": {
@@ -21,16 +21,16 @@
     "status": "ok",
     "primary": "cnn",
     "secondary": "trumpstruth",
-    "checked": 16,
-    "matched": 4,
-    "primary_only": 6,
-    "secondary_only": 6,
-    "match_rate": 25.0,
-    "verdict": "INCONSISTENT"
+    "checked": 12,
+    "matched": 8,
+    "primary_only": 2,
+    "secondary_only": 2,
+    "match_rate": 66.7,
+    "verdict": "PARTIAL"
   },
   "merge": {
     "primary_source": "cnn",
-    "total_posts": 6875,
-    "added_from_others": 5
+    "total_posts": 6876,
+    "added_from_others": 2
   }
 }

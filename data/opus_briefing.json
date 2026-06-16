@@ -1,24 +1,28 @@
 {
   "date": "2026-06-16",
-  "prepared_at": "2026-06-16T17:45:24Z",
+  "prepared_at": "2026-06-16T20:45:16Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "FBI stopped alleged terror plot to attack UFC 250 event with drones and snipers, officials said: https://justthenews.com/government/security/fbi-stopped-alleged-terror-plot-attack-ufc-250-event-drones",
-    "earliest_time": "2026-06-16T12:06:00.000Z",
-    "latest_time": "2026-06-16T12:12:00.000Z",
+    "count": 4,
+    "latest": "Biden DOJ targeted parents at school board meetings despite FBI, sheriffs' objections, memos show: https://justthenews.com/government/federal-agencies/afl",
+    "earliest_time": "2026-06-16T16:06:33.381Z",
+    "latest_time": "2026-06-16T16:12:24.312Z",
     "sample": [
       {
-        "time": "12:06",
+        "time": "16:06",
+        "text": "US attorney in California suspects voter fraud investigation will result in charges: https://justthenews.com/government/courts-law/us-attorney-california-suspects-voter-fraud-investigation-will-result-charges"
+      },
+      {
+        "time": "16:06",
         "text": "Former Trump economist says Iran deal means big economic boom for US: https://justthenews.com/nation/free-speech/trumps-former-economist-says-iran-deal-means-big-economic-boom-us"
       },
       {
-        "time": "12:12",
-        "text": "Biden DOJ targeted parents at school board meetings despite FBI, sheriffs' objections, memos show: https://justthenews.com/government/federal-agencies/afl"
+        "time": "16:12",
+        "text": "FBI stopped alleged terror plot to attack UFC 250 event with drones and snipers, officials said: https://justthenews.com/government/security/fbi-stopped-alleged-terror-plot-attack-ufc-250-event-drones-and-snipers"
       },
       {
-        "time": "12:12",
-        "text": "FBI stopped alleged terror plot to attack UFC 250 event with drones and snipers, officials said: https://justthenews.com/government/security/fbi-stopped-alleged-terror-plot-attack-ufc-250-event-drones-and-snipers"
+        "time": "16:12",
+        "text": "Biden DOJ targeted parents at school board meetings despite FBI, sheriffs' objections, memos show: https://justthenews.com/government/federal-agencies/afl"
       }
     ]
   },
@@ -33,23 +37,36 @@
     "caps_low": true,
     "excl_none": true,
     "questions_no": true,
-    "mostly_premarket": true,
+    "mostly_open": true,
     "kw_deal": true,
-    "pre_deal": true,
+    "open_deal": true,
     "kw_iran": true,
-    "pre_iran": true,
+    "open_iran": true,
     "kw_biden": true,
-    "pre_biden": true,
+    "open_biden": true,
     "volume_rising_3d": true,
     "volume_drop": true,
     "deal_without_tariff": true,
     "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 1,
+    "total": 2,
     "long": 0,
-    "short": 1,
+    "short": 2,
     "sample": [
+      {
+        "id": "R0027",
+        "features": [
+          "kw_deal",
+          "open_biden",
+          "open_disaster"
+        ],
+        "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
       {
         "id": "R0097",
         "features": [
@@ -174,9 +191,9 @@
   "evolution_latest": {
     "date": "2026-06-16",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -191,23 +208,23 @@
       },
       {
         "features": [
-          "kw_beautiful",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "is_friday",
-          "kw_signed"
+          "kw_signed",
+          "open_tariff"
         ],
         "direction": "LONG",
         "hold": 2,
         "score": 87.5,
         "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
