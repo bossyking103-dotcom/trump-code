@@ -1,17 +1,13 @@
 {
-  "date": "2026-06-15",
-  "prepared_at": "2026-06-15T20:45:33Z",
+  "date": "2026-06-16",
+  "prepared_at": "2026-06-16T05:45:37Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 20,
-    "latest": "Sadly, if you import people from Third World Countries, you quickly become a Third World Country — And there's not a thing you can do about it. MAKE AMERICA GREAT AGAIN! President DONALD J. TRUMP",
+    "count": 21,
+    "latest": "Iran has agreed to never have a Nuclear Weapon! Also, the story that the U.S. is paying Iran 300 million Dollars is Fake News, put out by the Dumocrats!!! President DJT",
     "earliest_time": "2026-06-15T07:57:02.651Z",
-    "latest_time": "2026-06-15T13:11:00.819Z",
+    "latest_time": "2026-06-15T23:17:52.376Z",
     "sample": [
-      {
-        "time": "12:01",
-        "text": "It is my Great Honor to endorse MAGA Warrior, Mike Mazzei, who is running for Governor of Oklahoma, a State which I love, and WON BIG — All 77 out of 77 Counties in 2016, 2020, and 2024, and with the Highest Popular Vote Count, EVER!As a successful Businessman, and former Chairman of the State Senat"
-      },
       {
         "time": "12:02",
         "text": "Highly Respected and very popular Lieutenant Governor, Burt Jones, is running to be the next Governor of the Great State of Georgia, a very special place to me in that we had a BIG Presidential Election Win on November 5, 2024!As the first member of the Georgia State Assembly to Endorse \"DONALD J. T"
@@ -47,6 +43,10 @@
       {
         "time": "13:11",
         "text": "Sadly, if you import people from Third World Countries, you quickly become a Third World Country — And there's not a thing you can do about it. MAKE AMERICA GREAT AGAIN! President DONALD J. TRUMP"
+      },
+      {
+        "time": "23:17",
+        "text": "Iran has agreed to never have a Nuclear Weapon! Also, the story that the U.S. is paying Iran 300 million Dollars is Fake News, put out by the Dumocrats!!! President DJT"
       }
     ]
   },
@@ -56,7 +56,7 @@
     "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_11_20": true,
+    "posts_21_35": true,
     "avg_len_very_long": true,
     "caps_medium": true,
     "excl_heavy": true,
@@ -112,6 +112,7 @@
     "pre_wonderful": true,
     "kw_perfect": true,
     "pre_perfect": true,
+    "kw_fake": true,
     "kw_pathetic": true,
     "pre_pathetic": true,
     "kw_biden": true,
@@ -129,6 +130,7 @@
     "kw_america_first_2plus": true,
     "pre_america_first": true,
     "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
     "pre_president_djt": true,
     "kw_thank_you_for_your_attention": true,
     "pre_thank_you_for_your_attention": true,
@@ -385,7 +387,7 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-06-15",
+    "date": "2026-06-16",
     "crossover": 16,
     "mutation": 16,
     "distill": 16,
@@ -394,32 +396,34 @@
     "top_3": [
       {
         "features": [
-          "kw_signed",
-          "kw_tariff"
+          "kw_thank_you_for_your_attention",
+          "open_fake",
+          "kw_energy"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.6,
-        "origin": "mutation_remove"
+        "score": 93.8,
+        "origin": "mutation_replace"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_never_let_you_down",
+          "is_friday"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "distilled"
+        "hold": 1,
+        "score": 92.9,
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_agreement",
-          "kw_thank_you_for_your_attention"
+          "kw_beautiful",
+          "open_thank_you_for_your_attention",
+          "volume_falling_3d"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 88.9,
+        "hold": 2,
+        "score": 91.7,
         "origin": "crossover"
       }
     ]
