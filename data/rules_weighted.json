@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-06-16T05:45:37Z",
+    "updated_at": "2026-06-16T08:45:22Z",
     "total_rules": 601,
     "eliminated": 0,
     "rules_with_data": 0
@@ -16,7 +16,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-06-15",
+      "born_date": "2026-06-16",
       "combined_score": 70.0,
       "learn_stats": {
         "correct": 0,
@@ -14772,6 +14772,33 @@
     },
     {
       "features": [
+        "kw_thank_you_for_your_attention",
+        "open_fake",
+        "kw_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "id": "7d64108dd8ad",
+      "n_cond": 3,
+      "train_trades": 8,
+      "train_win_rate": 87.5,
+      "train_avg": 0.637,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 1.04,
+      "combined_score": 93.8,
+      "origin": "mutation_replace",
+      "born_date": "2026-06-16",
+      "weight": 1.0,
+      "parent": "kw_energy+kw_perfect+kw_thank_you_for_your_attention",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
+    },
+    {
+      "features": [
         "kw_signed",
         "kw_biden",
         "kw_ban"
@@ -14882,36 +14909,6 @@
       "parents": [
         "kw_corrupt+kw_dow_2plus",
         "kw_fake+mostly_open"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_tremendous",
-        "kw_tariffs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "3b38d55d2db0",
-      "n_cond": 3,
-      "train_trades": 7,
-      "train_win_rate": 85.7,
-      "train_avg": 1.362,
-      "test_trades": 4,
-      "test_win_rate": 100.0,
-      "test_avg": 1.037,
-      "combined_score": 92.9,
-      "origin": "crossover",
-      "born_date": "2026-04-15",
-      "weight": 1.0,
-      "parents": [
-        "is_friday+kw_interest_rate",
-        "kw_biden_2plus+kw_tariffs"
       ],
       "learn_stats": {
         "correct": 0,
