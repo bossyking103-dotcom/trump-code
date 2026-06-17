@@ -1,33 +1,101 @@
 {
   "date": "2026-06-17",
-  "prepared_at": "2026-06-17T05:45:22Z",
+  "prepared_at": "2026-06-17T08:45:26Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "Congratulations to Rick Jackson, who very successfully campaigned on being “TRUMP,” and won. He will be your next Governor of Georgia. Can’t wait! President DJT",
-    "earliest_time": "2026-06-17T00:42:00.000Z",
-    "latest_time": "2026-06-17T01:02:00.000Z",
+    "count": 7,
+    "latest": "Congratulations to Rick Jackson, who very successfully campaigned on being \"TRUMP,\" and won. He will be your next Governor of Georgia. Can't wait! President DJT",
+    "earliest_time": "2026-06-17T02:20:00.000Z",
+    "latest_time": "2026-06-17T05:02:15.657Z",
     "sample": [
       {
-        "time": "00:42",
+        "time": "02:20",
+        "text": "Rick Jackson ran a great TRUMP Campaign. Very smart! Was with me on Saturday Night making a pitch. Amazing!!! He won against a great guy, Burt Jones, who has a fantastic future!!! President DJT"
+      },
+      {
+        "time": "02:50",
+        "text": "Jesse Watters: Trump knows when you run the room, you set the volume: https://www.foxnews.com/video/6398602574112"
+      },
+      {
+        "time": "02:50",
+        "text": "So happy for highly respected Congressman Mike Collins. He will win his Senate Race in Georgia against a pathetic failed Dumocrat Senator, Os(jerk!)off, who is a joke in D.C. Nobody even knows who he is!!! I’ll be doing Big TRUMP Rallies for Mike in Georgia! President DJT"
+      },
+      {
+        "time": "03:54",
+        "text": "The Republicans agreed with Dumocrats to remove very fair, and talented, William Pulte, from serving as Acting DNI in return for getting FISA approved by the Dumocrats. However, the Republicans moved so fast with the hearings of the Great Jay Clayton, current U.S. Attorney for the Southern District "
+      },
+      {
+        "time": "04:33",
+        "text": "Thank you Greg and group. No wonder you’re Number One — By far!"
+      },
+      {
+        "time": "04:42",
         "text": "I HAD A LOT OF BIG ELECTION WINS LAST NIGHT. THANK YOU TO ALL!!! President DJT"
       },
       {
-        "time": "01:02",
-        "text": "Congratulations to Rick Jackson, who very successfully campaigned on being “TRUMP,” and won. He will be your next Governor of Georgia. Can’t wait! President DJT"
+        "time": "05:02",
+        "text": "Congratulations to Rick Jackson, who very successfully campaigned on being \"TRUMP,\" and won. He will be your next Governor of Georgia. Can't wait! President DJT"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "DEAL_ONLY"
+  ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_short": true,
-    "caps_very_high": true,
+    "posts_6_10": true,
+    "avg_len_medium": true,
+    "caps_medium": true,
     "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
+    "heavy_night": true,
+    "kw_deal": true,
+    "kw_great": true,
+    "kw_great_2plus": true,
+    "kw_amazing": true,
+    "kw_fantastic": true,
+    "kw_pathetic": true,
+    "kw_save_america": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
-    "volume_drop": true
+    "pre_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
+  },
+  "triggered_rules": {
+    "total": 2,
+    "long": 2,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0006",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0085",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -138,20 +206,31 @@
   "evolution_latest": {
     "date": "2026-06-17",
     "crossover": 16,
-    "mutation": 12,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_china",
-          "kw_thank_you_for_your_attention"
+          "kw_thank_you_for_your_attention",
+          "kw_tariffs_2plus",
+          "questions_yes"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
       },
       {
         "features": [
@@ -162,17 +241,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_tariffs",
-          "kw_thank_you_for_your_attention",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 88.9,
-        "origin": "crossover"
       }
     ]
   },
