@@ -1,17 +1,13 @@
 {
   "date": "2026-06-17",
-  "prepared_at": "2026-06-17T17:45:25Z",
+  "prepared_at": "2026-06-17T20:45:40Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 9,
-    "latest": "I will be doing a Press Conference in 45 minutes from France. I'll then be heading to Versailles for Dinner with French and other European Leaders, and then back home tonight! The trip was a Great Suc",
+    "count": 11,
+    "latest": "I greatly appreciate Jackson Lahmeyer's hard work under difficult circumstances — He has always been with me, and I will always be with him. But, when it comes to the current Congressional race for Ok",
     "earliest_time": "2026-06-17T04:33:00.000Z",
-    "latest_time": "2026-06-17T14:01:23.728Z",
+    "latest_time": "2026-06-17T18:23:13.677Z",
     "sample": [
-      {
-        "time": "04:33",
-        "text": "Thank you Greg and group. No wonder you’re Number One — By far!"
-      },
       {
         "time": "04:42",
         "text": "I HAD A LOT OF BIG ELECTION WINS LAST NIGHT. THANK YOU TO ALL!!! President DJT"
@@ -43,6 +39,14 @@
       {
         "time": "14:01",
         "text": "I will be doing a Press Conference in 45 minutes from France. I'll then be heading to Versailles for Dinner with French and other European Leaders, and then back home tonight! The trip was a Great Success but, mostly what people wanted to talk about, is the fact that Iran will not have a Nuclear Wea"
+      },
+      {
+        "time": "14:23",
+        "text": "I greatly appreciate Jackson Lahmeyer’s hard work under difficult circumstances — He has always been with me, and I will always be with him. But, when it comes to the current Congressional race for Oklahoma’s 1st Congressional District, I will be supporting America First Patriot, Mark Tedford. Mark "
+      },
+      {
+        "time": "18:23",
+        "text": "I greatly appreciate Jackson Lahmeyer's hard work under difficult circumstances — He has always been with me, and I will always be with him. But, when it comes to the current Congressional race for Oklahoma's 1st Congressional District, I will be supporting America First Patriot, Mark Tedford. Mark "
       }
     ]
   },
@@ -52,7 +56,7 @@
     "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_6_10": true,
+    "posts_11_20": true,
     "avg_len_long": true,
     "caps_medium": true,
     "excl_heavy": true,
@@ -69,6 +73,7 @@
     "kw_stock_market": true,
     "open_stock_market": true,
     "kw_dow": true,
+    "kw_dow_2plus": true,
     "open_dow": true,
     "kw_economy": true,
     "open_economy": true,
@@ -86,19 +91,31 @@
     "pre_fantastic": true,
     "kw_pathetic": true,
     "pre_pathetic": true,
+    "kw_maga": true,
+    "kw_maga_2plus": true,
+    "open_maga": true,
     "kw_save_america": true,
     "pre_save_america": true,
+    "kw_america_first": true,
+    "kw_america_first_2plus": true,
+    "open_america_first": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
     "kw_thank_you_for_your_attention": true,
     "pre_thank_you_for_your_attention": true,
+    "kw_never_let_you_down": true,
+    "kw_never_let_you_down_2plus": true,
+    "open_never_let_you_down": true,
+    "kw_complete_and_total": true,
+    "kw_complete_and_total_2plus": true,
+    "open_complete_and_total": true,
     "deal_without_tariff": true,
     "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 4,
-    "long": 4,
+    "total": 6,
+    "long": 6,
     "short": 0,
     "sample": [
       {
@@ -107,6 +124,32 @@
           "kw_deal",
           "kw_perfect",
           "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0012",
+        "features": [
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "posts_11_20"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0050",
+        "features": [
+          "kw_dow_2plus",
+          "open_dow",
+          "open_interest_rate"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -263,32 +306,12 @@
   },
   "evolution_latest": {
     "date": "2026-06-17",
-    "crossover": 16,
-    "mutation": 12,
+    "crossover": 13,
+    "mutation": 6,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 35,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "kw_tariffs",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 92.3,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "crossover"
-      },
       {
         "features": [
           "kw_interest_rate",
@@ -298,6 +321,28 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_tariff",
+          "kw_beautiful",
+          "kw_corrupt"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_tariff",
+          "kw_signed",
+          "kw_tariffs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.5,
+        "origin": "crossover"
       }
     ]
   },
