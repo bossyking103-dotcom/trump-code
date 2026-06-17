@@ -1,29 +1,13 @@
 {
   "date": "2026-06-17",
-  "prepared_at": "2026-06-17T08:45:26Z",
+  "prepared_at": "2026-06-17T11:45:20Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "Congratulations to Rick Jackson, who very successfully campaigned on being \"TRUMP,\" and won. He will be your next Governor of Georgia. Can't wait! President DJT",
-    "earliest_time": "2026-06-17T02:20:00.000Z",
-    "latest_time": "2026-06-17T05:02:15.657Z",
+    "count": 8,
+    "latest": "Thank you Greg and group. No wonder you're Number One — By far!",
+    "earliest_time": "2026-06-17T04:33:00.000Z",
+    "latest_time": "2026-06-17T08:33:19.345Z",
     "sample": [
-      {
-        "time": "02:20",
-        "text": "Rick Jackson ran a great TRUMP Campaign. Very smart! Was with me on Saturday Night making a pitch. Amazing!!! He won against a great guy, Burt Jones, who has a fantastic future!!! President DJT"
-      },
-      {
-        "time": "02:50",
-        "text": "Jesse Watters: Trump knows when you run the room, you set the volume: https://www.foxnews.com/video/6398602574112"
-      },
-      {
-        "time": "02:50",
-        "text": "So happy for highly respected Congressman Mike Collins. He will win his Senate Race in Georgia against a pathetic failed Dumocrat Senator, Os(jerk!)off, who is a joke in D.C. Nobody even knows who he is!!! I’ll be doing Big TRUMP Rallies for Mike in Georgia! President DJT"
-      },
-      {
-        "time": "03:54",
-        "text": "The Republicans agreed with Dumocrats to remove very fair, and talented, William Pulte, from serving as Acting DNI in return for getting FISA approved by the Dumocrats. However, the Republicans moved so fast with the hearings of the Great Jay Clayton, current U.S. Attorney for the Southern District "
-      },
       {
         "time": "04:33",
         "text": "Thank you Greg and group. No wonder you’re Number One — By far!"
@@ -35,6 +19,26 @@
       {
         "time": "05:02",
         "text": "Congratulations to Rick Jackson, who very successfully campaigned on being \"TRUMP,\" and won. He will be your next Governor of Georgia. Can't wait! President DJT"
+      },
+      {
+        "time": "06:20",
+        "text": "Rick Jackson ran a great TRUMP Campaign. Very smart! Was with me on Saturday Night making a pitch. Amazing!!! He won against a great guy, Burt Jones, who has a fantastic future!!! President DJT"
+      },
+      {
+        "time": "06:50",
+        "text": "So happy for highly respected Congressman Mike Collins. He will win his Senate Race in Georgia against a pathetic failed Dumocrat Senator, Os(jerk!)off, who is a joke in D.C. Nobody even knows who he is!!! I'll be doing Big TRUMP Rallies for Mike in Georgia! President DJT"
+      },
+      {
+        "time": "06:50",
+        "text": "Jesse Watters: Trump knows when you run the room, you set the volume: https://www.foxnews.com/video/6398602574112"
+      },
+      {
+        "time": "07:54",
+        "text": "The Republicans agreed with Dumocrats to remove very fair, and talented, William Pulte, from serving as Acting DNI in return for getting FISA approved by the Dumocrats. However, the Republicans moved so fast with the hearings of the Great Jay Clayton, current U.S. Attorney for the Southern District "
+      },
+      {
+        "time": "08:33",
+        "text": "Thank you Greg and group. No wonder you're Number One — By far!"
       }
     ]
   },
@@ -48,19 +52,25 @@
     "caps_medium": true,
     "excl_heavy": true,
     "questions_no": true,
-    "has_night": true,
-    "heavy_night": true,
+    "mostly_premarket": true,
     "kw_deal": true,
+    "pre_deal": true,
     "kw_great": true,
     "kw_great_2plus": true,
+    "pre_great": true,
     "kw_amazing": true,
+    "pre_amazing": true,
     "kw_fantastic": true,
+    "pre_fantastic": true,
     "kw_pathetic": true,
+    "pre_pathetic": true,
     "kw_save_america": true,
+    "pre_save_america": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
     "kw_thank_you_for_your_attention": true,
+    "pre_thank_you_for_your_attention": true,
     "deal_without_tariff": true,
     "deal_no_tariff": true
   },
@@ -205,17 +215,17 @@
   },
   "evolution_latest": {
     "date": "2026-06-17",
-    "crossover": 16,
-    "mutation": 15,
+    "crossover": 15,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 42,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "kw_tariffs_2plus",
-          "questions_yes"
+          "questions_yes",
+          "kw_agreement",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -224,8 +234,8 @@
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_economy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
