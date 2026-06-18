@@ -103,7 +103,9 @@
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
     "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
     "pre_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "kw_never_let_you_down": true,
     "kw_never_let_you_down_2plus": true,
     "open_never_let_you_down": true,
@@ -228,19 +230,6 @@
           "kw_dow_2plus",
           "open_jobs",
           "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0016",
-        "features": [
-          "kw_economy",
-          "kw_energy",
-          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 2,
