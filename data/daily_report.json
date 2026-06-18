@@ -1,17 +1,22 @@
 {
-  "date": "2026-06-07",
-  "generated_at": "2026-06-07T17:45:16Z",
-  "posts_today": 7,
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T17:26:57Z",
+  "posts_today": 23,
   "latest_post": {
-    "time": "2026-06-06T20:24",
-    "content_preview": "This will someday save Washington. Judge Leon has to get out of the way, and FAST. He is putting our"
+    "time": "2026-06-18T13:59",
+    "content_preview": "OIL IS FLOWING, IRAN CAN NEVER HAVE A NUCLEAR WEAPON (THE WORLD WILL BE SAFE!), THE STOCK MARKETS AR"
   },
-  "signals_detected": [],
-  "models_triggered": 2,
+  "signals_detected": [
+    "TARIFF",
+    "DEAL",
+    "CHINA",
+    "IRAN"
+  ],
+  "models_triggered": 39,
   "direction_summary": {
-    "LONG": 1,
-    "SHORT": 1,
-    "consensus": "NEUTRAL"
+    "LONG": 34,
+    "SHORT": 5,
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -19,20 +24,20 @@
     "rate": 100.0
   },
   "sp500_latest": {
-    "date": "2026-06-05",
-    "close": 7383.74
+    "date": "2026-06-18",
+    "close": 7505.31
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-07\nPosts today: 7 | Models triggered: 2\nSignals: None\nConsensus: 1 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: This will someday save Washington. Judge Leon has to get out of the way, and FAST. He is putting our",
-    "zh": "川普密碼每日報告 -- 2026-06-07\n今日推文: 7 篇 | 觸發模型: 2 組\n偵測信號: 無\n共識方向: 1 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: This will someday save Washington. Judge Leon has to get out of the way, and FAST. He is putting our",
-    "ja": "トランプ・コード日次レポート -- 2026-06-07\n本日の投稿: 7件 | トリガーモデル: 2組\n検出シグナル: なし\nコンセンサス: 1組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: This will someday save Washington. Judge Leon has to get out of the way, and FAST. He is putting our"
+    "en": "Trump Code Daily Report -- 2026-06-18\nPosts today: 23 | Models triggered: 39\nSignals: TARIFF, DEAL, CHINA, IRAN\nConsensus: 34 LONG vs 5 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: OIL IS FLOWING, IRAN CAN NEVER HAVE A NUCLEAR WEAPON (THE WORLD WILL BE SAFE!), THE STOCK MARKETS AR",
+    "zh": "川普密碼每日報告 -- 2026-06-18\n今日推文: 23 篇 | 觸發模型: 39 組\n偵測信號: 關稅, Deal, 中國, 伊朗\n共識方向: 34 組看多 vs 5 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: OIL IS FLOWING, IRAN CAN NEVER HAVE A NUCLEAR WEAPON (THE WORLD WILL BE SAFE!), THE STOCK MARKETS AR",
+    "ja": "トランプ・コード日次レポート -- 2026-06-18\n本日の投稿: 23件 | トリガーモデル: 39組\n検出シグナル: 関税, ディール, 中国, イラン\nコンセンサス: 34組ロング vs 5組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: OIL IS FLOWING, IRAN CAN NEVER HAVE A NUCLEAR WEAPON (THE WORLD WILL BE SAFE!), THE STOCK MARKETS AR"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_america_first",
-        "kw_beautiful",
-        "kw_terrible"
+        "both_tariff_and_deal",
+        "kw_disaster",
+        "kw_jobs"
       ],
       "direction": "SHORT",
       "hold": 3,
@@ -41,9 +46,207 @@
     },
     {
       "features": [
-        "kw_interest_rate",
-        "kw_signed",
+        "kw_biden",
+        "kw_india",
+        "kw_tariffs"
+      ],
+      "direction": "SHORT",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_disaster",
+        "kw_india",
+        "kw_tariffs"
+      ],
+      "direction": "SHORT",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
         "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_signed",
+        "kw_tariffs_2plus",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_china",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_china",
+        "kw_thank_you_for_your_attention",
+        "open_inflation"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_signed",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_executive_order",
+        "kw_jobs",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "questions_yes"
       ],
       "direction": "LONG",
       "hold": 2,
