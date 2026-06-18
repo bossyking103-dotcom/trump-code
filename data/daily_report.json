@@ -1,10 +1,10 @@
 {
   "date": "2026-06-18",
-  "generated_at": "2026-06-18T17:45:06Z",
-  "posts_today": 23,
+  "generated_at": "2026-06-18T22:08:09Z",
+  "posts_today": 27,
   "latest_post": {
-    "time": "2026-06-18T13:59",
-    "content_preview": "OIL IS FLOWING, IRAN CAN NEVER HAVE A NUCLEAR WEAPON (THE WORLD WILL BE SAFE!), THE STOCK MARKETS AR"
+    "time": "2026-06-18T18:24",
+    "content_preview": "Anybody who doesn't want to Terminate the Filibuster is a FOOL, a very stupid one, at that! The Dumo"
   },
   "signals_detected": [
     "TARIFF",
@@ -12,9 +12,9 @@
     "CHINA",
     "IRAN"
   ],
-  "models_triggered": 39,
+  "models_triggered": 53,
   "direction_summary": {
-    "LONG": 34,
+    "LONG": 48,
     "SHORT": 5,
     "consensus": "BULLISH"
   },
@@ -25,12 +25,12 @@
   },
   "sp500_latest": {
     "date": "2026-06-18",
-    "close": 7503.94
+    "close": 7500.58
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-18\nPosts today: 23 | Models triggered: 39\nSignals: TARIFF, DEAL, CHINA, IRAN\nConsensus: 34 LONG vs 5 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: OIL IS FLOWING, IRAN CAN NEVER HAVE A NUCLEAR WEAPON (THE WORLD WILL BE SAFE!), THE STOCK MARKETS AR",
-    "zh": "川普密碼每日報告 -- 2026-06-18\n今日推文: 23 篇 | 觸發模型: 39 組\n偵測信號: 關稅, Deal, 中國, 伊朗\n共識方向: 34 組看多 vs 5 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: OIL IS FLOWING, IRAN CAN NEVER HAVE A NUCLEAR WEAPON (THE WORLD WILL BE SAFE!), THE STOCK MARKETS AR",
-    "ja": "トランプ・コード日次レポート -- 2026-06-18\n本日の投稿: 23件 | トリガーモデル: 39組\n検出シグナル: 関税, ディール, 中国, イラン\nコンセンサス: 34組ロング vs 5組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: OIL IS FLOWING, IRAN CAN NEVER HAVE A NUCLEAR WEAPON (THE WORLD WILL BE SAFE!), THE STOCK MARKETS AR"
+    "en": "Trump Code Daily Report -- 2026-06-18\nPosts today: 27 | Models triggered: 53\nSignals: TARIFF, DEAL, CHINA, IRAN\nConsensus: 48 LONG vs 5 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Anybody who doesn't want to Terminate the Filibuster is a FOOL, a very stupid one, at that! The Dumo",
+    "zh": "川普密碼每日報告 -- 2026-06-18\n今日推文: 27 篇 | 觸發模型: 53 組\n偵測信號: 關稅, Deal, 中國, 伊朗\n共識方向: 48 組看多 vs 5 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Anybody who doesn't want to Terminate the Filibuster is a FOOL, a very stupid one, at that! The Dumo",
+    "ja": "トランプ・コード日次レポート -- 2026-06-18\n本日の投稿: 27件 | トリガーモデル: 53組\n検出シグナル: 関税, ディール, 中国, イラン\nコンセンサス: 48組ロング vs 5組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Anybody who doesn't want to Terminate the Filibuster is a FOOL, a very stupid one, at that! The Dumo"
   },
   "triggered_rules_sample": [
     {
@@ -93,6 +93,17 @@
         "kw_deal",
         "kw_perfect",
         "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "open_dow",
+        "open_trade",
+        "questions_yes"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -189,12 +200,34 @@
     },
     {
       "features": [
+        "kw_beautiful",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "kw_deal_2plus",
         "kw_dow_2plus",
         "kw_jobs"
       ],
       "direction": "LONG",
       "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_beautiful",
+        "kw_corrupt"
+      ],
+      "direction": "LONG",
+      "hold": 2,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
@@ -211,42 +244,9 @@
     },
     {
       "features": [
-        "is_friday",
-        "kw_signed",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_executive_order",
-        "kw_jobs",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "kw_energy",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_perfect",
-        "kw_thank_you_for_your_attention",
-        "questions_yes"
+        "kw_beautiful",
+        "open_thank_you_for_your_attention",
+        "open_tremendous"
       ],
       "direction": "LONG",
       "hold": 2,

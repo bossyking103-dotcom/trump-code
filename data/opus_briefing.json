@@ -1,29 +1,13 @@
 {
   "date": "2026-06-18",
-  "prepared_at": "2026-06-18T17:45:11Z",
+  "prepared_at": "2026-06-18T22:08:14Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 23,
-    "latest": "OIL IS FLOWING, IRAN CAN NEVER HAVE A NUCLEAR WEAPON (THE WORLD WILL BE SAFE!), THE STOCK MARKETS ARE ROARING, JOBS ARE AT RECORDS, AND PRICES ARE DROPPING (AFFORDABILITY!). OUR COUNTRY IS STRONG, SAF",
+    "count": 27,
+    "latest": "Anybody who doesn't want to Terminate the Filibuster is a FOOL, a very stupid one, at that! The Dumocrats will end it within minutes of taking office, and then rapidly proceed to destroy our Country, ",
     "earliest_time": "2026-06-18T01:28:46.612Z",
-    "latest_time": "2026-06-18T13:59:53.481Z",
+    "latest_time": "2026-06-18T18:24:04.987Z",
     "sample": [
-      {
-        "time": "06:44",
-        "text": "State Representative Don Chapman is doing a terrific job representing the wonderful people of South Carolina's8th State House District! A Successful Architect and Businessman, before his service in the State House, Don is a Proven Leader who has dedicated his life to serving his Community. In the St"
-      },
-      {
-        "time": "06:51",
-        "text": "The Ballroom is coming along fantastically well. It's on time, and under budget (Unlike the Federal Reserve Building, where \"Too Late\" has done a terrible job of Cost and Time Control!), and at a much higher quality than I ever promised, including the DronePort, and ALL of the other many Military el"
-      },
-      {
-        "time": "07:17",
-        "text": "The statue \"Valor,\" one of the Arts of War statues, is almost completely regilded by our Great Department of the Interior."
-      },
-      {
-        "time": "08:27",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116770160614131644"
-      },
       {
         "time": "08:28",
         "text": "Trump Says He Welcomes China, India Investment in Venezuela Oil: https://www.bloomberg.com/news/articles/2026-02-01/trump-says-he-welcomes-china-india-investment-in-venezuela-oil"
@@ -31,10 +15,6 @@
       {
         "time": "08:32",
         "text": "These fools, who think I haven't been tough enough on Iran, when the Stock Market Just Hit A RECORD HIGH, and Oil prices are \"tumbling\" down, are either jealous, bad people, or stupid. MAKE AMERICA GREAT AGAIN!!! President DJT"
-      },
-      {
-        "time": "12:49",
-        "text": "There is no 300 Billion Dollar payment to Iran by the U.S. That’s Fake News! All there is for the U.S. is Success, Lower Oil Prices, and Victory. Check out the Stock Market. Dumocrat propaganda at play!!! President DJT"
       },
       {
         "time": "12:57",
@@ -47,6 +27,26 @@
       {
         "time": "13:59",
         "text": "OIL IS FLOWING, IRAN CAN NEVER HAVE A NUCLEAR WEAPON (THE WORLD WILL BE SAFE!), THE STOCK MARKETS ARE ROARING, JOBS ARE AT RECORDS, AND PRICES ARE DROPPING (AFFORDABILITY!). OUR COUNTRY IS STRONG, SAFE, AND RESPECTED LIKE NEVER BEFORE. \"YOU'RE WELCOME!\" President DJT"
+      },
+      {
+        "time": "14:24",
+        "text": "Anybody who doesn’t want to Terminate the Filibuster is a FOOL, a very stupid one, at that! The Dumocrats will end it within minutes of taking office, and then rapidly proceed to destroy our Country, adding 2 Radical Left States, 4 Dumocrat Senators, many Congressmen/women, their dream of 21 Supreme"
+      },
+      {
+        "time": "16:49",
+        "text": "There is no 300 Billion Dollar payment to Iran by the U.S. That's Fake News! All there is for the U.S. is Success, Lower Oil Prices, and Victory. Check out the Stock Market. Dumocrat propaganda at play!!! President DJT"
+      },
+      {
+        "time": "18:01",
+        "text": "The United States is committed to PEACE, and we encourage everyone in the Middle East Region to maintain their commitment to allowing our negotiations to beautifully unfold. The Markets are loving what is happening with Oil Prices way down, and Stocks way up. We expect a complete Ceasefire on all fr"
+      },
+      {
+        "time": "18:09",
+        "text": "It seems as though the Great State of Utah, which I won each time, and handily, is going to the All Mail In Ballot format of Colorado, and the rest, that always head LEFT, as soon as the move is made. We should stop Utah from doing this. All Mail In Ballots, dishonestly handled, are a big advantage "
+      },
+      {
+        "time": "18:24",
+        "text": "Anybody who doesn't want to Terminate the Filibuster is a FOOL, a very stupid one, at that! The Dumocrats will end it within minutes of taking office, and then rapidly proceed to destroy our Country, adding 2 Radical Left States, 4 Dumocrat Senators, many Congressmen/women, their dream of 21 Supreme"
       }
     ]
   },
@@ -59,7 +59,7 @@
   "today_features": {
     "posts_21_35": true,
     "avg_len_long": true,
-    "caps_high": true,
+    "caps_medium": true,
     "excl_heavy": true,
     "questions_yes": true,
     "mostly_premarket": true,
@@ -74,12 +74,20 @@
     "kw_trade": true,
     "kw_signed": true,
     "pre_signed": true,
+    "kw_immediately": true,
+    "kw_immediately_2plus": true,
+    "open_immediately": true,
+    "kw_ban": true,
+    "kw_ban_2plus": true,
+    "open_ban": true,
     "kw_china": true,
     "pre_china": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
     "open_iran": true,
+    "kw_israel": true,
+    "open_israel": true,
     "kw_india": true,
     "pre_india": true,
     "kw_taiwan": true,
@@ -91,6 +99,7 @@
     "kw_dow": true,
     "kw_dow_2plus": true,
     "pre_dow": true,
+    "open_dow": true,
     "kw_economy": true,
     "kw_economy_2plus": true,
     "pre_economy": true,
@@ -107,16 +116,20 @@
     "kw_billion": true,
     "kw_billion_2plus": true,
     "pre_billion": true,
+    "open_billion": true,
     "kw_trillion": true,
     "pre_trillion": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
+    "open_great": true,
     "kw_tremendous": true,
     "kw_tremendous_2plus": true,
     "kw_incredible": true,
     "kw_incredible_2plus": true,
     "pre_incredible": true,
+    "kw_beautiful": true,
+    "open_beautiful": true,
     "kw_fantastic": true,
     "kw_fantastic_2plus": true,
     "pre_fantastic": true,
@@ -124,7 +137,7 @@
     "kw_wonderful_2plus": true,
     "pre_wonderful": true,
     "kw_fake": true,
-    "pre_fake": true,
+    "open_fake": true,
     "kw_corrupt": true,
     "pre_corrupt": true,
     "kw_terrible": true,
@@ -132,18 +145,26 @@
     "kw_stupid": true,
     "kw_stupid_2plus": true,
     "pre_stupid": true,
+    "open_stupid": true,
     "kw_elon": true,
     "pre_elon": true,
     "kw_vance": true,
     "pre_vance": true,
     "kw_save_america": true,
+    "kw_save_america_2plus": true,
+    "open_save_america": true,
     "kw_america_first": true,
+    "kw_filibuster": true,
+    "kw_filibuster_2plus": true,
+    "open_filibuster": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
     "open_president_djt": true,
     "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
     "pre_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "kw_never_let_you_down": true,
     "pre_never_let_you_down": true,
     "kw_complete_and_total": true,
@@ -153,8 +174,8 @@
     "both_tariff_and_deal": true
   },
   "triggered_rules": {
-    "total": 39,
-    "long": 34,
+    "total": 53,
+    "long": 48,
     "short": 5,
     "sample": [
       {
@@ -236,6 +257,19 @@
         "score": 100.0
       },
       {
+        "id": "R0008",
+        "features": [
+          "open_dow",
+          "open_trade",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
         "id": "R0009",
         "features": [
           "kw_economy",
@@ -267,19 +301,6 @@
           "kw_dow_2plus",
           "open_jobs",
           "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0016",
-        "features": [
-          "kw_economy",
-          "kw_energy",
-          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -398,41 +419,40 @@
   "evolution_latest": {
     "date": "2026-06-18",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_beautiful",
-          "volume_falling_3d",
-          "open_thank_you_for_your_attention"
+          "kw_signed",
+          "kw_tariffs"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "is_friday",
-          "kw_energy"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 91.2,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_tariff",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.6,
+        "score": 92.3,
         "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_president_of_the_united_states",
+          "kw_india"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
       }
     ]
   },
