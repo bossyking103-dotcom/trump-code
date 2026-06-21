@@ -52,7 +52,6 @@
   },
   "keyword_signals": [
     "DEAL",
-    "IRAN",
     "DEAL_ONLY"
   ],
   "today_features": {
@@ -122,11 +121,11 @@
     "short": 0,
     "sample": [
       {
-        "id": "R0005",
+        "id": "R0006",
         "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -135,11 +134,10 @@
         "score": 100.0
       },
       {
-        "id": "R0006",
+        "id": "R0011",
         "features": [
           "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
+          "kw_perfect"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -213,14 +211,26 @@
         "score": 100.0
       },
       {
-        "id": "R0054",
+        "id": "R0073",
         "features": [
-          "kw_perfect",
-          "open_thank_you_for_your_attention",
-          "questions_yes"
+          "kw_america_first",
+          "kw_beautiful",
+          "kw_terrible"
+        ],
+        "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0079",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
         "train_wr": 100.0,
         "test_wr": 100.0,
         "score": 100.0
@@ -406,6 +416,16 @@
     "total_new": 35,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "volume_rising_3d",
+          "kw_dow_2plus"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 94.4,
+        "origin": "crossover"
+      },
       {
         "features": [
           "kw_interest_rate",

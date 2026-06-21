@@ -8,7 +8,6 @@
   },
   "signals_detected": [
     "DEAL",
-    "IRAN",
     "DEAL_ONLY"
   ],
   "models_triggered": 6,
@@ -34,9 +33,9 @@
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -46,8 +45,7 @@
     {
       "features": [
         "kw_deal",
-        "kw_perfect",
-        "kw_thank_you_for_your_attention"
+        "kw_perfect"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -111,12 +109,22 @@
     },
     {
       "features": [
-        "kw_perfect",
-        "open_thank_you_for_your_attention",
-        "questions_yes"
+        "kw_america_first",
+        "kw_beautiful",
+        "kw_terrible"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect"
       ],
       "direction": "LONG",
-      "hold": 2,
+      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
