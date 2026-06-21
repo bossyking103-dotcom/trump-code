@@ -1,124 +1,98 @@
 {
-  "date": "2026-06-17",
-  "prepared_at": "2026-06-17T20:45:40Z",
+  "date": "2026-06-21",
+  "prepared_at": "2026-06-21T14:45:10Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 11,
-    "latest": "I greatly appreciate Jackson Lahmeyer's hard work under difficult circumstances — He has always been with me, and I will always be with him. But, when it comes to the current Congressional race for Ok",
-    "earliest_time": "2026-06-17T04:33:00.000Z",
-    "latest_time": "2026-06-17T18:23:13.677Z",
+    "count": 7,
+    "latest": "Keir Starmer will resign as Prime Minister of The United Kingdom. He failed badly on two very important subjects- IMMIGRATION AND ENERGY (OPEN NORTH SEA OIL!). I wish him well! President DJT",
+    "earliest_time": "2026-06-21T00:36:44.107Z",
+    "latest_time": "2026-06-21T13:59:13.627Z",
     "sample": [
       {
-        "time": "04:42",
-        "text": "I HAD A LOT OF BIG ELECTION WINS LAST NIGHT. THANK YOU TO ALL!!! President DJT"
+        "time": "00:36",
+        "text": "Many additional people have been arrested having to do with the disgraceful Vandalism of our beautiful Reflecting Pool. It hasn't looked or worked like this since 1922, when it was originally built, but even then, it leaked badly, and didn't work. Ours worked perfectly, including the mirror like fin"
       },
       {
-        "time": "05:02",
-        "text": "Congratulations to Rick Jackson, who very successfully campaigned on being \"TRUMP,\" and won. He will be your next Governor of Georgia. Can't wait! President DJT"
+        "time": "01:55",
+        "text": "Great daughter. MyHonor!!! President DJT"
       },
       {
-        "time": "06:20",
-        "text": "Rick Jackson ran a great TRUMP Campaign. Very smart! Was with me on Saturday Night making a pitch. Amazing!!! He won against a great guy, Burt Jones, who has a fantastic future!!! President DJT"
+        "time": "08:52",
+        "text": "Happy Father’s Day! Our Country is doing GREAT. Record Jobs Numbers and Stock Market, BEST ECONOMY EVER! Greatest Military in the World, by far. We are WINNING on all fronts, WINNING LIKE NEVER BEFORE. GOD BLESS YOU ALL!!! President DONALD J. TRUMP"
       },
       {
-        "time": "06:50",
-        "text": "So happy for highly respected Congressman Mike Collins. He will win his Senate Race in Georgia against a pathetic failed Dumocrat Senator, Os(jerk!)off, who is a joke in D.C. Nobody even knows who he is!!! I'll be doing Big TRUMP Rallies for Mike in Georgia! President DJT"
+        "time": "11:41",
+        "text": "Happy Father's Day! Our Country is doing GREAT. Record Jobs Numbers and Stock Market, BEST ECONOMY EVER! Greatest Military in the World, by far. We are WINNING on all fronts, WINNING LIKE NEVER BEFORE. GOD BLESS YOU ALL!!! President DONALD J. TRUMP"
       },
       {
-        "time": "06:50",
-        "text": "Jesse Watters: Trump knows when you run the room, you set the volume: https://www.foxnews.com/video/6398602574112"
+        "time": "12:52",
+        "text": "Lots of Killing going on in Chicago. 22 people shot, at least 4 Dead. Why isn't Governor Pritzker calling me for help. I could make Chicago a safe City in ONE MONTH, in ONE YEAR, it would be one of the safest!!! D.C. went from one of the worst, to one of the safest cities in the U.S. President DJT"
       },
       {
-        "time": "07:54",
-        "text": "The Republicans agreed with Dumocrats to remove very fair, and talented, William Pulte, from serving as Acting DNI in return for getting FISA approved by the Dumocrats. However, the Republicans moved so fast with the hearings of the Great Jay Clayton, current U.S. Attorney for the Southern District "
+        "time": "13:30",
+        "text": "Iran must immediately stop their highly paid PROXIES in Lebanon from causing trouble. If they don't, we'll hit Iran very hard again, just like we did last week, only harder!!! President  DONALD J. TRUMP"
       },
       {
-        "time": "08:33",
-        "text": "Thank you Greg and group. No wonder you're Number One — By far!"
-      },
-      {
-        "time": "14:01",
-        "text": "I will be doing a Press Conference in 45 minutes from France. I'll then be heading to Versailles for Dinner with French and other European Leaders, and then back home tonight! The trip was a Great Success but, mostly what people wanted to talk about, is the fact that Iran will not have a Nuclear Wea"
-      },
-      {
-        "time": "14:23",
-        "text": "I greatly appreciate Jackson Lahmeyer’s hard work under difficult circumstances — He has always been with me, and I will always be with him. But, when it comes to the current Congressional race for Oklahoma’s 1st Congressional District, I will be supporting America First Patriot, Mark Tedford. Mark "
-      },
-      {
-        "time": "18:23",
-        "text": "I greatly appreciate Jackson Lahmeyer's hard work under difficult circumstances — He has always been with me, and I will always be with him. But, when it comes to the current Congressional race for Oklahoma's 1st Congressional District, I will be supporting America First Patriot, Mark Tedford. Mark "
+        "time": "13:59",
+        "text": "Keir Starmer will resign as Prime Minister of The United Kingdom. He failed badly on two very important subjects- IMMIGRATION AND ENERGY (OPEN NORTH SEA OIL!). I wish him well! President DJT"
       }
     ]
   },
   "keyword_signals": [
     "DEAL",
+    "IRAN",
     "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_11_20": true,
+    "posts_6_10": true,
     "avg_len_long": true,
     "caps_medium": true,
-    "excl_heavy": true,
+    "excl_extreme": true,
     "questions_no": true,
-    "mostly_premarket": true,
+    "has_night": true,
     "kw_deal": true,
-    "kw_deal_2plus": true,
-    "pre_deal": true,
     "kw_immediately": true,
     "open_immediately": true,
+    "kw_ban": true,
+    "open_ban": true,
     "kw_iran": true,
     "open_iran": true,
-    "kw_europe": true,
-    "open_europe": true,
     "kw_stock_market": true,
-    "open_stock_market": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "open_dow": true,
+    "kw_stock_market_2plus": true,
+    "pre_stock_market": true,
     "kw_economy": true,
-    "open_economy": true,
+    "kw_economy_2plus": true,
+    "pre_economy": true,
     "kw_oil": true,
     "open_oil": true,
-    "kw_trillion": true,
-    "open_trillion": true,
+    "kw_gas": true,
+    "kw_energy": true,
+    "open_energy": true,
+    "kw_jobs": true,
+    "kw_jobs_2plus": true,
+    "pre_jobs": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
-    "open_great": true,
-    "kw_amazing": true,
-    "pre_amazing": true,
-    "kw_fantastic": true,
-    "pre_fantastic": true,
-    "kw_pathetic": true,
-    "pre_pathetic": true,
-    "kw_maga": true,
-    "kw_maga_2plus": true,
-    "open_maga": true,
-    "kw_save_america": true,
-    "pre_save_america": true,
-    "kw_america_first": true,
-    "kw_america_first_2plus": true,
-    "open_america_first": true,
+    "kw_beautiful": true,
+    "kw_perfect": true,
+    "kw_terrible": true,
+    "kw_worst": true,
+    "pre_worst": true,
+    "kw_disgrace": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
+    "open_president_djt": true,
     "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "pre_thank_you_for_your_attention": true,
-    "open_thank_you_for_your_attention": true,
-    "kw_never_let_you_down": true,
-    "kw_never_let_you_down_2plus": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "kw_complete_and_total_2plus": true,
-    "open_complete_and_total": true,
+    "is_weekend": true,
     "deal_without_tariff": true,
     "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 6,
-    "long": 6,
-    "short": 0,
+    "total": 13,
+    "long": 12,
+    "short": 1,
     "sample": [
       {
         "id": "R0004",
@@ -172,24 +146,11 @@
         "score": 100.0
       },
       {
-        "id": "R0050",
-        "features": [
-          "kw_dow_2plus",
-          "open_dow",
-          "open_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0076",
+        "id": "R0016",
         "features": [
           "kw_economy",
-          "kw_interest_rate",
-          "open_dow"
+          "kw_energy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -198,11 +159,24 @@
         "score": 100.0
       },
       {
-        "id": "R0043",
+        "id": "R0019",
         "features": [
-          "kw_beautiful",
-          "open_thank_you_for_your_attention",
-          "open_tremendous"
+          "kw_deal_2plus",
+          "kw_economy",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0045",
+        "features": [
+          "kw_executive_order",
+          "kw_jobs",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -224,6 +198,19 @@
         "score": 100.0
       },
       {
+        "id": "R0059",
+        "features": [
+          "kw_energy",
+          "kw_interest_rate",
+          "open_energy"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
         "id": "R0073",
         "features": [
           "kw_america_first",
@@ -232,83 +219,6 @@
         ],
         "direction": "SHORT",
         "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0079",
-        "features": [
-          "kw_deal",
-          "kw_perfect"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0085",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0099",
-        "features": [
-          "excl_heavy",
-          "kw_economy",
-          "kw_tariffs_2plus"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0009",
-        "features": [
-          "kw_economy",
-          "kw_interest_rate",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0010",
-        "features": [
-          "excl_heavy",
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0013",
-        "features": [
-          "kw_dow_2plus",
-          "open_jobs",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
         "train_wr": 100.0,
         "test_wr": 100.0,
         "score": 100.0
@@ -422,34 +332,13 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-06-17",
-    "crossover": 13,
-    "mutation": 6,
+    "date": "2026-06-21",
+    "crossover": 16,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 35,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "open_thank_you_for_your_attention",
-          "open_jobs",
-          "kw_energy"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "open_thank_you_for_your_attention",
-          "kw_never_let_you_down"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 91.7,
-        "origin": "crossover"
-      },
       {
         "features": [
           "kw_interest_rate",
@@ -462,25 +351,23 @@
       },
       {
         "features": [
-          "kw_tariff",
-          "kw_beautiful",
-          "kw_corrupt"
+          "kw_interest_rate",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.9,
+        "score": 87.5,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_tariff",
-          "kw_signed",
-          "kw_tariffs"
+          "kw_tremendous",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.5,
-        "origin": "crossover"
+        "score": 87.5,
+        "origin": "mutation_remove"
       }
     ]
   },
