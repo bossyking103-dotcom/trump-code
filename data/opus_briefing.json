@@ -1,12 +1,12 @@
 {
   "date": "2026-06-21",
-  "prepared_at": "2026-06-21T14:45:10Z",
+  "prepared_at": "2026-06-21T20:29:56Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "Keir Starmer will resign as Prime Minister of The United Kingdom. He failed badly on two very important subjects- IMMIGRATION AND ENERGY (OPEN NORTH SEA OIL!). I wish him well! President DJT",
+    "count": 8,
+    "latest": "After spending Trillions of Dollars on NATO, Italy, and its Prime Minister, wouldn't even think of becoming involved with the Islamic Republic of Iran and their very serious Nuclear Threat. For decade",
     "earliest_time": "2026-06-21T00:36:44.107Z",
-    "latest_time": "2026-06-21T13:59:13.627Z",
+    "latest_time": "2026-06-21T19:39:24.097Z",
     "sample": [
       {
         "time": "00:36",
@@ -17,7 +17,7 @@
         "text": "Great daughter. MyHonor!!! President DJT"
       },
       {
-        "time": "08:52",
+        "time": "09:30",
         "text": "Happy Father’s Day! Our Country is doing GREAT. Record Jobs Numbers and Stock Market, BEST ECONOMY EVER! Greatest Military in the World, by far. We are WINNING on all fronts, WINNING LIKE NEVER BEFORE. GOD BLESS YOU ALL!!! President DONALD J. TRUMP"
       },
       {
@@ -35,6 +35,10 @@
       {
         "time": "13:59",
         "text": "Keir Starmer will resign as Prime Minister of The United Kingdom. He failed badly on two very important subjects- IMMIGRATION AND ENERGY (OPEN NORTH SEA OIL!). I wish him well! President DJT"
+      },
+      {
+        "time": "19:39",
+        "text": "After spending Trillions of Dollars on NATO, Italy, and its Prime Minister, wouldn't even think of becoming involved with the Islamic Republic of Iran and their very serious Nuclear Threat. For decades, we defend them but, when tested, they are not there to defend us, and the rest of the World. Not "
       }
     ]
   },
@@ -56,6 +60,7 @@
     "kw_ban": true,
     "open_ban": true,
     "kw_iran": true,
+    "kw_iran_2plus": true,
     "open_iran": true,
     "kw_stock_market": true,
     "kw_stock_market_2plus": true,
@@ -71,6 +76,8 @@
     "kw_jobs": true,
     "kw_jobs_2plus": true,
     "pre_jobs": true,
+    "kw_trillion": true,
+    "open_trillion": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
@@ -334,11 +341,32 @@
   "evolution_latest": {
     "date": "2026-06-21",
     "crossover": 16,
-    "mutation": 13,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "kw_economy",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_signed",
+          "kw_tariff"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.6,
+        "origin": "mutation_remove"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -348,26 +376,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_tremendous",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "mutation_remove"
       }
     ]
   },
