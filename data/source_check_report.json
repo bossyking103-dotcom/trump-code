@@ -21,12 +21,12 @@
     "status": "ok",
     "primary": "cnn",
     "secondary": "trumpstruth",
-    "checked": 9,
-    "matched": 7,
-    "primary_only": 2,
-    "secondary_only": 0,
-    "match_rate": 77.8,
-    "verdict": "CONSISTENT"
+    "checked": 10,
+    "matched": 6,
+    "primary_only": 3,
+    "secondary_only": 1,
+    "match_rate": 60.0,
+    "verdict": "PARTIAL"
   },
   "merge": {
     "primary_source": "cnn",

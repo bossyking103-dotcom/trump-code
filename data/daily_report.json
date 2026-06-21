@@ -33,6 +33,17 @@
   "triggered_rules_sample": [
     {
       "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "kw_deal",
         "kw_perfect",
         "kw_thank_you_for_your_attention"
