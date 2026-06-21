@@ -1,9 +1,9 @@
 {
   "date": "2026-06-21",
-  "prepared_at": "2026-06-21T20:29:56Z",
+  "prepared_at": "2026-06-21T20:49:47Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 8,
+    "count": 9,
     "latest": "After spending Trillions of Dollars on NATO, Italy, and its Prime Minister, wouldn't even think of becoming involved with the Islamic Republic of Iran and their very serious Nuclear Threat. For decade",
     "earliest_time": "2026-06-21T00:36:44.107Z",
     "latest_time": "2026-06-21T19:39:24.097Z",
@@ -37,6 +37,10 @@
         "text": "Keir Starmer will resign as Prime Minister of The United Kingdom. He failed badly on two very important subjects- IMMIGRATION AND ENERGY (OPEN NORTH SEA OIL!). I wish him well! President DJT"
       },
       {
+        "time": "16:37",
+        "text": "Work will begin immediately on fixing the seriously vandalized Reflecting Pool. I just inspected it, and could only say to myself, and those gathered around me, WOW, who would do such a thing? SICK, DERANGED PEOPLE! We will fix it? President DJT"
+      },
+      {
         "time": "19:39",
         "text": "After spending Trillions of Dollars on NATO, Italy, and its Prime Minister, wouldn't even think of becoming involved with the Islamic Republic of Iran and their very serious Nuclear Threat. For decades, we defend them but, when tested, they are not there to defend us, and the rest of the World. Not "
       }
@@ -51,11 +55,12 @@
     "posts_6_10": true,
     "avg_len_long": true,
     "caps_medium": true,
-    "excl_extreme": true,
-    "questions_no": true,
+    "excl_heavy": true,
+    "questions_yes": true,
     "has_night": true,
     "kw_deal": true,
     "kw_immediately": true,
+    "kw_immediately_2plus": true,
     "open_immediately": true,
     "kw_ban": true,
     "open_ban": true,
@@ -97,8 +102,8 @@
     "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 13,
-    "long": 12,
+    "total": 19,
+    "long": 18,
     "short": 1,
     "sample": [
       {
@@ -120,6 +125,19 @@
           "kw_deal",
           "kw_perfect",
           "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0009",
+        "features": [
+          "kw_economy",
+          "kw_interest_rate",
+          "questions_yes"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -205,27 +223,14 @@
         "score": 100.0
       },
       {
-        "id": "R0059",
+        "id": "R0054",
         "features": [
-          "kw_energy",
-          "kw_interest_rate",
-          "open_energy"
+          "kw_perfect",
+          "open_thank_you_for_your_attention",
+          "questions_yes"
         ],
         "direction": "LONG",
         "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0073",
-        "features": [
-          "kw_america_first",
-          "kw_beautiful",
-          "kw_terrible"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
         "train_wr": 100.0,
         "test_wr": 100.0,
         "score": 100.0
@@ -348,24 +353,25 @@
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "kw_economy",
-          "kw_interest_rate"
+          "kw_tariffs_2plus",
+          "kw_tariffs",
+          "is_friday"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 91.7,
+        "hold": 3,
+        "score": 93.8,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_signed",
-          "kw_tariff"
+          "kw_ban",
+          "kw_thank_you_for_your_attention",
+          "kw_biden"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.6,
-        "origin": "mutation_remove"
+        "score": 92.9,
+        "origin": "crossover"
       },
       {
         "features": [

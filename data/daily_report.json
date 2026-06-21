@@ -1,7 +1,7 @@
 {
   "date": "2026-06-21",
-  "generated_at": "2026-06-21T20:29:51Z",
-  "posts_today": 8,
+  "generated_at": "2026-06-21T20:49:42Z",
+  "posts_today": 9,
   "latest_post": {
     "time": "2026-06-21T19:39",
     "content_preview": "After spending Trillions of Dollars on NATO, Italy, and its Prime Minister, wouldn't even think of b"
@@ -11,9 +11,9 @@
     "IRAN",
     "DEAL_ONLY"
   ],
-  "models_triggered": 13,
+  "models_triggered": 19,
   "direction_summary": {
-    "LONG": 12,
+    "LONG": 18,
     "SHORT": 1,
     "consensus": "BULLISH"
   },
@@ -27,9 +27,9 @@
     "close": 7500.58
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-21\nPosts today: 8 | Models triggered: 13\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 12 LONG vs 1 SHORT\nHistorical hit rate: 58.5% (24/41)\nLatest post: After spending Trillions of Dollars on NATO, Italy, and its Prime Minister, wouldn't even think of b",
-    "zh": "川普密碼每日報告 -- 2026-06-21\n今日推文: 8 篇 | 觸發模型: 13 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 12 組看多 vs 1 組看空\n歷史命中率: 58.5% (24/41)\n最新推文: After spending Trillions of Dollars on NATO, Italy, and its Prime Minister, wouldn't even think of b",
-    "ja": "トランプ・コード日次レポート -- 2026-06-21\n本日の投稿: 8件 | トリガーモデル: 13組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 12組ロング vs 1組ショート\n過去の的中率: 58.5% (24/41)\n最新投稿: After spending Trillions of Dollars on NATO, Italy, and its Prime Minister, wouldn't even think of b"
+    "en": "Trump Code Daily Report -- 2026-06-21\nPosts today: 9 | Models triggered: 19\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 18 LONG vs 1 SHORT\nHistorical hit rate: 58.5% (24/41)\nLatest post: After spending Trillions of Dollars on NATO, Italy, and its Prime Minister, wouldn't even think of b",
+    "zh": "川普密碼每日報告 -- 2026-06-21\n今日推文: 9 篇 | 觸發模型: 19 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 18 組看多 vs 1 組看空\n歷史命中率: 58.5% (24/41)\n最新推文: After spending Trillions of Dollars on NATO, Italy, and its Prime Minister, wouldn't even think of b",
+    "ja": "トランプ・コード日次レポート -- 2026-06-21\n本日の投稿: 9件 | トリガーモデル: 19組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 18組ロング vs 1組ショート\n過去の的中率: 58.5% (24/41)\n最新投稿: After spending Trillions of Dollars on NATO, Italy, and its Prime Minister, wouldn't even think of b"
   },
   "triggered_rules_sample": [
     {
@@ -48,6 +48,17 @@
         "kw_deal",
         "kw_perfect",
         "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "questions_yes"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -121,6 +132,39 @@
     },
     {
       "features": [
+        "kw_perfect",
+        "open_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "kw_energy",
         "kw_interest_rate",
         "open_energy"
@@ -159,6 +203,28 @@
       ],
       "direction": "LONG",
       "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_economy",
+        "kw_tariffs_2plus"
+      ],
+      "direction": "LONG",
+      "hold": 2,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
