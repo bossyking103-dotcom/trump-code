@@ -3576,5 +3576,18 @@
       "IRAN"
     ],
     "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-06-21",
+    "posts": 10,
+    "triggered": 22,
+    "long": 21,
+    "short": 1,
+    "signals": [
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
+    ],
+    "consensus": "BULLISH"
   }
 ]

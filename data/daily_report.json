@@ -1,21 +1,20 @@
 {
-  "date": "2026-06-18",
-  "generated_at": "2026-06-18T22:08:09Z",
-  "posts_today": 27,
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T21:53:29Z",
+  "posts_today": 10,
   "latest_post": {
-    "time": "2026-06-18T18:24",
-    "content_preview": "Anybody who doesn't want to Terminate the Filibuster is a FOOL, a very stupid one, at that! The Dumo"
+    "time": "2026-06-21T20:57",
+    "content_preview": "The headline in the Corrupt and Failing New York Times: \"What Changed After Almost 4 Months of War? "
   },
   "signals_detected": [
-    "TARIFF",
     "DEAL",
-    "CHINA",
-    "IRAN"
+    "IRAN",
+    "DEAL_ONLY"
   ],
-  "models_triggered": 53,
+  "models_triggered": 22,
   "direction_summary": {
-    "LONG": 48,
-    "SHORT": 5,
+    "LONG": 21,
+    "SHORT": 1,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -28,59 +27,15 @@
     "close": 7500.58
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-18\nPosts today: 27 | Models triggered: 53\nSignals: TARIFF, DEAL, CHINA, IRAN\nConsensus: 48 LONG vs 5 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Anybody who doesn't want to Terminate the Filibuster is a FOOL, a very stupid one, at that! The Dumo",
-    "zh": "川普密碼每日報告 -- 2026-06-18\n今日推文: 27 篇 | 觸發模型: 53 組\n偵測信號: 關稅, Deal, 中國, 伊朗\n共識方向: 48 組看多 vs 5 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Anybody who doesn't want to Terminate the Filibuster is a FOOL, a very stupid one, at that! The Dumo",
-    "ja": "トランプ・コード日次レポート -- 2026-06-18\n本日の投稿: 27件 | トリガーモデル: 53組\n検出シグナル: 関税, ディール, 中国, イラン\nコンセンサス: 48組ロング vs 5組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Anybody who doesn't want to Terminate the Filibuster is a FOOL, a very stupid one, at that! The Dumo"
+    "en": "Trump Code Daily Report -- 2026-06-21\nPosts today: 10 | Models triggered: 22\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 21 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The headline in the Corrupt and Failing New York Times: \"What Changed After Almost 4 Months of War? ",
+    "zh": "川普密碼每日報告 -- 2026-06-21\n今日推文: 10 篇 | 觸發模型: 22 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 21 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The headline in the Corrupt and Failing New York Times: \"What Changed After Almost 4 Months of War? ",
+    "ja": "トランプ・コード日次レポート -- 2026-06-21\n本日の投稿: 10件 | トリガーモデル: 22組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 21組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The headline in the Corrupt and Failing New York Times: \"What Changed After Almost 4 Months of War? "
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "both_tariff_and_deal",
-        "kw_disaster",
-        "kw_jobs"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_biden",
-        "kw_india",
-        "kw_tariffs"
-      ],
-      "direction": "SHORT",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_disaster",
-        "kw_india",
-        "kw_tariffs"
-      ],
-      "direction": "SHORT",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
         "kw_deal_2plus",
         "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
         "kw_jobs"
       ],
       "direction": "LONG",
@@ -101,17 +56,6 @@
     },
     {
       "features": [
-        "open_dow",
-        "open_trade",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
         "kw_economy",
         "kw_interest_rate",
         "questions_yes"
@@ -123,9 +67,8 @@
     },
     {
       "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "kw_tremendous"
+        "kw_deal",
+        "kw_perfect"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -134,9 +77,9 @@
     },
     {
       "features": [
-        "kw_dow_2plus",
-        "open_jobs",
-        "open_thank_you_for_your_attention"
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "posts_11_20"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -156,63 +99,8 @@
     },
     {
       "features": [
-        "kw_signed",
-        "kw_tariffs_2plus",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
         "kw_deal_2plus",
         "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_china",
-        "kw_economy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_china",
-        "kw_thank_you_for_your_attention",
-        "open_inflation"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
         "kw_jobs"
       ],
       "direction": "LONG",
@@ -233,9 +121,9 @@
     },
     {
       "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "kw_tremendous"
+        "kw_executive_order",
+        "kw_jobs",
+        "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -244,12 +132,121 @@
     },
     {
       "features": [
-        "kw_beautiful",
-        "open_thank_you_for_your_attention",
-        "open_tremendous"
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "questions_yes"
       ],
       "direction": "LONG",
       "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "open_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_china",
+        "kw_corrupt",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_america_first",
+        "kw_beautiful",
+        "kw_terrible"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_inflation",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     }
