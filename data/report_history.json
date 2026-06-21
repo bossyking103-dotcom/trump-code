@@ -4325,5 +4325,17 @@
       "DEAL_ONLY"
     ],
     "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-06-21",
+    "posts": 2,
+    "triggered": 7,
+    "long": 6,
+    "short": 1,
+    "signals": [
+      "DEAL",
+      "DEAL_ONLY"
+    ],
+    "consensus": "BULLISH"
   }
 ]

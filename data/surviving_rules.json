@@ -14042,7 +14042,12 @@
       "parents": [
         "kw_incredible_2plus+open_incredible",
         "kw_biden+kw_dow_2plus"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [

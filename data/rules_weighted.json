@@ -14041,6 +14041,35 @@
     },
     {
       "features": [
+        "volume_rising_3d",
+        "kw_dow_2plus"
+      ],
+      "direction": "LONG",
+      "hold": 1,
+      "id": "603e66c1be45",
+      "n_cond": 2,
+      "train_trades": 9,
+      "train_win_rate": 88.9,
+      "train_avg": 0.601,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.718,
+      "combined_score": 94.4,
+      "origin": "crossover",
+      "born_date": "2026-06-21",
+      "weight": 1.0,
+      "parents": [
+        "kw_incredible_2plus+open_incredible",
+        "kw_biden+kw_dow_2plus"
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
+    },
+    {
+      "features": [
         "open_energy",
         "kw_thank_you_for_your_attention"
       ],
