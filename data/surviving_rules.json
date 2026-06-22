@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-22T14:51:07Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-06-22T17:45:11Z",
+    "evolved_rules_added": 43
   },
   "rules": [
     {
@@ -13487,7 +13487,12 @@
       "parents": [
         "kw_beautiful+kw_signed",
         "is_friday+open_china"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [

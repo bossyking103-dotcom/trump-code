@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-06-22T14:51:07Z",
+    "updated_at": "2026-06-22T17:45:11Z",
     "total_rules": 601,
     "eliminated": 0,
     "rules_with_data": 0
@@ -16,7 +16,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-06-21",
+      "born_date": "2026-06-22",
       "combined_score": 70.0,
       "learn_stats": {
         "correct": 0,
@@ -13485,6 +13485,36 @@
     },
     {
       "features": [
+        "pre_great",
+        "open_dow",
+        "kw_signed"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "159016ad6181",
+      "n_cond": 3,
+      "train_trades": 8,
+      "train_win_rate": 100.0,
+      "train_avg": 1.378,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.969,
+      "combined_score": 100.0,
+      "origin": "crossover",
+      "born_date": "2026-06-22",
+      "weight": 1.0,
+      "parents": [
+        "kw_beautiful+kw_signed",
+        "is_friday+open_china"
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
+    },
+    {
+      "features": [
         "kw_maga",
         "open_ukraine"
       ],
@@ -14884,36 +14914,6 @@
       "parents": [
         "kw_amazing+kw_ban",
         "kw_economy+open_inflation"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_thank_you_for_your_attention",
-        "open_dow",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "66ffbf4fe492",
-      "n_cond": 3,
-      "train_trades": 7,
-      "train_win_rate": 85.7,
-      "train_avg": 2.029,
-      "test_trades": 6,
-      "test_win_rate": 100.0,
-      "test_avg": 0.852,
-      "combined_score": 92.9,
-      "origin": "crossover",
-      "born_date": "2026-04-26",
-      "weight": 1.0,
-      "parents": [
-        "kw_energy+open_dow",
-        "kw_executive_order+kw_jobs"
       ],
       "learn_stats": {
         "correct": 0,
