@@ -1,16 +1,18 @@
 {
   "date": "2026-06-22",
-  "generated_at": "2026-06-22T17:45:05Z",
-  "posts_today": 3,
+  "generated_at": "2026-06-22T21:04:08Z",
+  "posts_today": 25,
   "latest_post": {
-    "time": "2026-06-22T13:28",
-    "content_preview": "Of the MANY Statues and Fountains that we rebuilt, renovated, cleaned, and fixed, the only one that "
+    "time": "2026-06-22T19:21",
+    "content_preview": "Congratulations to \"El Tigre\" (THE TIGER!) Abelardo de la Espriella, the new President of Colombia! "
   },
-  "signals_detected": [],
-  "models_triggered": 1,
+  "signals_detected": [
+    "IRAN"
+  ],
+  "models_triggered": 29,
   "direction_summary": {
-    "LONG": 1,
-    "SHORT": 0,
+    "LONG": 28,
+    "SHORT": 1,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -20,19 +22,228 @@
   },
   "sp500_latest": {
     "date": "2026-06-22",
-    "close": 7472.19
+    "close": 7472.79
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-22\nPosts today: 3 | Models triggered: 1\nSignals: None\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Of the MANY Statues and Fountains that we rebuilt, renovated, cleaned, and fixed, the only one that ",
-    "zh": "川普密碼每日報告 -- 2026-06-22\n今日推文: 3 篇 | 觸發模型: 1 組\n偵測信號: 無\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Of the MANY Statues and Fountains that we rebuilt, renovated, cleaned, and fixed, the only one that ",
-    "ja": "トランプ・コード日次レポート -- 2026-06-22\n本日の投稿: 3件 | トリガーモデル: 1組\n検出シグナル: なし\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Of the MANY Statues and Fountains that we rebuilt, renovated, cleaned, and fixed, the only one that "
+    "en": "Trump Code Daily Report -- 2026-06-22\nPosts today: 25 | Models triggered: 29\nSignals: IRAN\nConsensus: 28 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Congratulations to \"El Tigre\" (THE TIGER!) Abelardo de la Espriella, the new President of Colombia! ",
+    "zh": "川普密碼每日報告 -- 2026-06-22\n今日推文: 25 篇 | 觸發模型: 29 組\n偵測信號: 伊朗\n共識方向: 28 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Congratulations to \"El Tigre\" (THE TIGER!) Abelardo de la Espriella, the new President of Colombia! ",
+    "ja": "トランプ・コード日次レポート -- 2026-06-22\n本日の投稿: 25件 | トリガーモデル: 29組\n検出シグナル: イラン\nコンセンサス: 28組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Congratulations to \"El Tigre\" (THE TIGER!) Abelardo de la Espriella, the new President of Colombia! "
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "open_trade",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "is_friday",
         "kw_beautiful",
         "kw_corrupt"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "open_thank_you_for_your_attention",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_executive_order",
+        "kw_jobs",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_tremendous",
+        "open_jobs"
       ],
       "direction": "LONG",
       "hold": 2,

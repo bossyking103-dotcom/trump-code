@@ -3607,5 +3607,16 @@
     "short": 0,
     "signals": [],
     "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-06-22",
+    "posts": 25,
+    "triggered": 29,
+    "long": 28,
+    "short": 1,
+    "signals": [
+      "IRAN"
+    ],
+    "consensus": "BULLISH"
   }
 ]
