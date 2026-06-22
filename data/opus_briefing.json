@@ -1,240 +1,57 @@
 {
-  "date": "2026-06-21",
-  "prepared_at": "2026-06-21T21:53:35Z",
+  "date": "2026-06-22",
+  "prepared_at": "2026-06-22T14:51:08Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 10,
-    "latest": "The headline in the Corrupt and Failing New York Times: \"What Changed After Almost 4 Months of War? Analysts Say Not Much.\" REALLY? Their Military is DONE, their Navy is GONE, their Air Force is GONE,",
-    "earliest_time": "2026-06-21T00:36:44.107Z",
-    "latest_time": "2026-06-21T20:57:26.429Z",
+    "count": 3,
+    "latest": "Of the MANY Statues and Fountains that we rebuilt, renovated, cleaned, and fixed, the only one that was Vandalized was the Reflecting Pool, which is being taken care of, ASAP! It has been given a 300 ",
+    "earliest_time": "2026-06-22T00:36:13.799Z",
+    "latest_time": "2026-06-22T09:28:00.000Z",
     "sample": [
       {
         "time": "00:36",
-        "text": "Many additional people have been arrested having to do with the disgraceful Vandalism of our beautiful Reflecting Pool. It hasn't looked or worked like this since 1922, when it was originally built, but even then, it leaked badly, and didn't work. Ours worked perfectly, including the mirror like fin"
+        "text": "The Failing New York Times is CORRUPT!"
       },
       {
-        "time": "01:55",
-        "text": "Great daughter. MyHonor!!! President DJT"
+        "time": "01:01",
+        "text": "He Won, BIG!https://justthenews.com/world/latin-america/trump-backed-candidate-colombia-holds-narrow-lead-presidential-cliffhanger"
       },
       {
-        "time": "09:30",
-        "text": "Happy Father’s Day! Our Country is doing GREAT. Record Jobs Numbers and Stock Market, BEST ECONOMY EVER! Greatest Military in the World, by far. We are WINNING on all fronts, WINNING LIKE NEVER BEFORE. GOD BLESS YOU ALL!!! President DONALD J. TRUMP"
-      },
-      {
-        "time": "11:41",
-        "text": "Happy Father's Day! Our Country is doing GREAT. Record Jobs Numbers and Stock Market, BEST ECONOMY EVER! Greatest Military in the World, by far. We are WINNING on all fronts, WINNING LIKE NEVER BEFORE. GOD BLESS YOU ALL!!! President DONALD J. TRUMP"
-      },
-      {
-        "time": "12:52",
-        "text": "Lots of Killing going on in Chicago. 22 people shot, at least 4 Dead. Why isn't Governor Pritzker calling me for help. I could make Chicago a safe City in ONE MONTH, in ONE YEAR, it would be one of the safest!!! D.C. went from one of the worst, to one of the safest cities in the U.S. President DJT"
-      },
-      {
-        "time": "13:30",
-        "text": "Iran must immediately stop their highly paid PROXIES in Lebanon from causing trouble. If they don't, we'll hit Iran very hard again, just like we did last week, only harder!!! President  DONALD J. TRUMP"
-      },
-      {
-        "time": "13:59",
-        "text": "Keir Starmer will resign as Prime Minister of The United Kingdom. He failed badly on two very important subjects- IMMIGRATION AND ENERGY (OPEN NORTH SEA OIL!). I wish him well! President DJT"
-      },
-      {
-        "time": "19:39",
-        "text": "After spending Trillions of Dollars on NATO, Italy, and its Prime Minister, wouldn't even think of becoming involved with the Islamic Republic of Iran and their very serious Nuclear Threat. For decades, we defend them but, when tested, they are not there to defend us, and the rest of the World. Not "
-      },
-      {
-        "time": "20:37",
-        "text": "Work will begin immediately on fixing the seriously vandalized Reflecting Pool. I just inspected it, and could only say to myself, and those gathered around me, WOW, who would do such a thing? SICK, DERANGED PEOPLE! We will fix it? President DJT"
-      },
-      {
-        "time": "20:57",
-        "text": "The headline in the Corrupt and Failing New York Times: \"What Changed After Almost 4 Months of War? Analysts Say Not Much.\" REALLY? Their Military is DONE, their Navy is GONE, their Air Force is GONE, their Launching Pads, Missiles, Drones and Manufacturing of same, is almost GONE, their top two set"
+        "time": "09:28",
+        "text": "Of the MANY Statues and Fountains that we rebuilt, renovated, cleaned, and fixed, the only one that was Vandalized was the Reflecting Pool, which is being taken care of, ASAP! It has been given a 300 foot long gash, chemicals have been illegally placed in the water, and the beautiful new grass field"
       }
     ]
   },
-  "keyword_signals": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_long": true,
-    "caps_medium": true,
+    "posts_1_5": true,
+    "avg_len_medium": true,
+    "caps_low": true,
     "excl_heavy": true,
-    "questions_yes": true,
+    "questions_no": true,
     "has_night": true,
-    "kw_deal": true,
-    "kw_immediately": true,
-    "kw_immediately_2plus": true,
-    "open_immediately": true,
-    "kw_ban": true,
-    "open_ban": true,
-    "kw_iran": true,
-    "kw_iran_2plus": true,
-    "open_iran": true,
-    "kw_stock_market": true,
-    "kw_stock_market_2plus": true,
-    "pre_stock_market": true,
-    "kw_economy": true,
-    "kw_economy_2plus": true,
-    "pre_economy": true,
-    "kw_inflation": true,
-    "kw_oil": true,
-    "kw_oil_2plus": true,
-    "open_oil": true,
     "kw_gas": true,
-    "kw_energy": true,
-    "open_energy": true,
-    "kw_jobs": true,
-    "kw_jobs_2plus": true,
-    "pre_jobs": true,
-    "kw_trillion": true,
-    "open_trillion": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "pre_great": true,
+    "pre_gas": true,
     "kw_beautiful": true,
-    "kw_perfect": true,
+    "pre_beautiful": true,
     "kw_corrupt": true,
-    "kw_terrible": true,
-    "kw_worst": true,
-    "pre_worst": true,
-    "kw_disgrace": true,
     "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
     "pre_president_djt": true,
-    "open_president_djt": true,
     "kw_thank_you_for_your_attention": true,
-    "is_weekend": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
+    "pre_thank_you_for_your_attention": true,
+    "is_monday": true,
+    "volume_drop": true
   },
   "triggered_rules": {
-    "total": 22,
-    "long": 21,
-    "short": 1,
+    "total": 1,
+    "long": 1,
+    "short": 0,
     "sample": [
-      {
-        "id": "R0004",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0006",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0009",
-        "features": [
-          "kw_economy",
-          "kw_interest_rate",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0011",
-        "features": [
-          "kw_deal",
-          "kw_perfect"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0012",
-        "features": [
-          "kw_perfect",
-          "kw_thank_you_for_your_attention",
-          "posts_11_20"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0016",
-        "features": [
-          "kw_economy",
-          "kw_energy",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0019",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
       {
         "id": "R0039",
         "features": [
           "is_friday",
           "kw_beautiful",
           "kw_corrupt"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0045",
-        "features": [
-          "kw_executive_order",
-          "kw_jobs",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0053",
-        "features": [
-          "kw_perfect",
-          "kw_thank_you_for_your_attention",
-          "questions_yes"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -351,7 +168,7 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-06-21",
+    "date": "2026-06-22",
     "crossover": 16,
     "mutation": 16,
     "distill": 16,
@@ -360,34 +177,35 @@
     "top_3": [
       {
         "features": [
-          "questions_yes",
-          "kw_signed",
-          "open_dow"
+          "pre_great",
+          "open_dow",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
         "features": [
+          "is_friday",
           "kw_thank_you_for_your_attention",
-          "open_china"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "open_tariffs"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_economy",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "mutation_remove"
       }
     ]
   },

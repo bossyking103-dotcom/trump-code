@@ -1,20 +1,16 @@
 {
-  "date": "2026-06-21",
-  "generated_at": "2026-06-21T21:53:29Z",
-  "posts_today": 10,
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T14:49:32Z",
+  "posts_today": 3,
   "latest_post": {
-    "time": "2026-06-21T20:57",
-    "content_preview": "The headline in the Corrupt and Failing New York Times: \"What Changed After Almost 4 Months of War? "
+    "time": "2026-06-22T09:28",
+    "content_preview": "Of the MANY Statues and Fountains that we rebuilt, renovated, cleaned, and fixed, the only one that "
   },
-  "signals_detected": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
-  "models_triggered": 22,
+  "signals_detected": [],
+  "models_triggered": 1,
   "direction_summary": {
-    "LONG": 21,
-    "SHORT": 1,
+    "LONG": 1,
+    "SHORT": 0,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -23,91 +19,15 @@
     "rate": 100.0
   },
   "sp500_latest": {
-    "date": "2026-06-18",
-    "close": 7500.58
+    "date": "2026-06-22",
+    "close": 7474.57
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-21\nPosts today: 10 | Models triggered: 22\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 21 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The headline in the Corrupt and Failing New York Times: \"What Changed After Almost 4 Months of War? ",
-    "zh": "川普密碼每日報告 -- 2026-06-21\n今日推文: 10 篇 | 觸發模型: 22 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 21 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The headline in the Corrupt and Failing New York Times: \"What Changed After Almost 4 Months of War? ",
-    "ja": "トランプ・コード日次レポート -- 2026-06-21\n本日の投稿: 10件 | トリガーモデル: 22組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 21組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The headline in the Corrupt and Failing New York Times: \"What Changed After Almost 4 Months of War? "
+    "en": "Trump Code Daily Report -- 2026-06-22\nPosts today: 3 | Models triggered: 1\nSignals: None\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Of the MANY Statues and Fountains that we rebuilt, renovated, cleaned, and fixed, the only one that ",
+    "zh": "川普密碼每日報告 -- 2026-06-22\n今日推文: 3 篇 | 觸發模型: 1 組\n偵測信號: 無\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Of the MANY Statues and Fountains that we rebuilt, renovated, cleaned, and fixed, the only one that ",
+    "ja": "トランプ・コード日次レポート -- 2026-06-22\n本日の投稿: 3件 | トリガーモデル: 1組\n検出シグナル: なし\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Of the MANY Statues and Fountains that we rebuilt, renovated, cleaned, and fixed, the only one that "
   },
   "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_perfect",
-        "kw_thank_you_for_your_attention",
-        "posts_11_20"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
     {
       "features": [
         "is_friday",
@@ -116,137 +36,6 @@
       ],
       "direction": "LONG",
       "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_executive_order",
-        "kw_jobs",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_perfect",
-        "kw_thank_you_for_your_attention",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_perfect",
-        "open_thank_you_for_your_attention",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "open_energy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "kw_interest_rate",
-        "open_energy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_china",
-        "kw_corrupt",
-        "kw_economy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_america_first",
-        "kw_beautiful",
-        "kw_terrible"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_inflation",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     }
