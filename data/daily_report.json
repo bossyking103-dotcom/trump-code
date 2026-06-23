@@ -1,19 +1,19 @@
 {
   "date": "2026-06-23",
-  "generated_at": "2026-06-23T11:45:05Z",
-  "posts_today": 10,
+  "generated_at": "2026-06-23T14:45:08Z",
+  "posts_today": 14,
   "latest_post": {
-    "time": "2026-06-23T11:24",
-    "content_preview": "19 Millions Barrels of Oil flowed out of the Hormuz Strait yesterday, an all time RECORD. Oil prices"
+    "time": "2026-06-23T13:36",
+    "content_preview": "The GREAT Rush Limbaugh's wonderful wife, Kathryn, was fantastic today on Fox & Friends, as intervie"
   },
   "signals_detected": [
     "DEAL",
     "IRAN",
     "DEAL_ONLY"
   ],
-  "models_triggered": 3,
+  "models_triggered": 4,
   "direction_summary": {
-    "LONG": 2,
+    "LONG": 3,
     "SHORT": 1,
     "consensus": "BULLISH"
   },
@@ -23,13 +23,13 @@
     "rate": 100.0
   },
   "sp500_latest": {
-    "date": "2026-06-22",
-    "close": 7472.79
+    "date": "2026-06-23",
+    "close": 7401.94
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-23\nPosts today: 10 | Models triggered: 3\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 2 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: 19 Millions Barrels of Oil flowed out of the Hormuz Strait yesterday, an all time RECORD. Oil prices",
-    "zh": "川普密碼每日報告 -- 2026-06-23\n今日推文: 10 篇 | 觸發模型: 3 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 2 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: 19 Millions Barrels of Oil flowed out of the Hormuz Strait yesterday, an all time RECORD. Oil prices",
-    "ja": "トランプ・コード日次レポート -- 2026-06-23\n本日の投稿: 10件 | トリガーモデル: 3組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 2組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: 19 Millions Barrels of Oil flowed out of the Hormuz Strait yesterday, an all time RECORD. Oil prices"
+    "en": "Trump Code Daily Report -- 2026-06-23\nPosts today: 14 | Models triggered: 4\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 3 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The GREAT Rush Limbaugh's wonderful wife, Kathryn, was fantastic today on Fox & Friends, as intervie",
+    "zh": "川普密碼每日報告 -- 2026-06-23\n今日推文: 14 篇 | 觸發模型: 4 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 3 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The GREAT Rush Limbaugh's wonderful wife, Kathryn, was fantastic today on Fox & Friends, as intervie",
+    "ja": "トランプ・コード日次レポート -- 2026-06-23\n本日の投稿: 14件 | トリガーモデル: 4組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 3組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The GREAT Rush Limbaugh's wonderful wife, Kathryn, was fantastic today on Fox & Friends, as intervie"
   },
   "triggered_rules_sample": [
     {
@@ -37,6 +37,17 @@
         "kw_deal",
         "kw_perfect",
         "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "posts_11_20"
       ],
       "direction": "LONG",
       "hold": 2,
