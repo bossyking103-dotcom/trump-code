@@ -1,29 +1,13 @@
 {
   "date": "2026-06-23",
-  "prepared_at": "2026-06-23T17:45:11Z",
+  "prepared_at": "2026-06-23T20:45:13Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 17,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116800007587633396These pictures were taken this morning!",
+    "count": 20,
+    "latest": "https://www.dailymail.com/news/article-15921233/trump-approval-bounces-iran-deal.html",
     "earliest_time": "2026-06-23T00:09:12.334Z",
-    "latest_time": "2026-06-23T14:58:14.200Z",
+    "latest_time": "2026-06-23T18:26:44.964Z",
     "sample": [
-      {
-        "time": "04:14",
-        "text": "At least 39 people injured, 4 dead, in Chicago weekend shootings. Governor Pritzker, I, as President, can fix this, FAST and Permanently. D.C., Memphis, New Orleans, all down to record lows, and quickly! CALL ME! President DJT"
-      },
-      {
-        "time": "10:57",
-        "text": "The GREAT Rush Limbaugh’s wonderful wife, Kathryn, was fantastic today on Fox &amp; Friends, as interviewed by Ainsley. We all miss Rush, truly one of a kind!!! President DJT"
-      },
-      {
-        "time": "10:58",
-        "text": "These pictures were taken this morning!"
-      },
-      {
-        "time": "11:20",
-        "text": "Despite their protestations and false statements to the contrary, coupled with the drumbeat of the Fake News, which is doing everything possible to make the U.S. Victory as small and insignificant as possible, Iran has fully and completely agreed to highest level Nuclear inspections long into the fu"
-      },
       {
         "time": "11:24",
         "text": "19 Millions Barrels of Oil flowed out of the Hormuz Strait yesterday, an all time RECORD. Oil prices are tumbling down, and the World is a much safer place!!! President DONALD J. TRUMP"
@@ -47,6 +31,22 @@
       {
         "time": "14:58",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116800007587633396These pictures were taken this morning!"
+      },
+      {
+        "time": "16:30",
+        "text": "These pictures were taken this morning!"
+      },
+      {
+        "time": "16:36",
+        "text": "https://wabcradio.com/player/"
+      },
+      {
+        "time": "16:37",
+        "text": "Thank you, Scotland!!! President DJT"
+      },
+      {
+        "time": "18:26",
+        "text": "https://www.dailymail.com/news/article-15921233/trump-approval-bounces-iran-deal.html"
       }
     ]
   },
@@ -63,6 +63,8 @@
     "has_night": true,
     "heavy_night": true,
     "kw_deal": true,
+    "kw_deal_2plus": true,
+    "open_deal": true,
     "kw_immediately": true,
     "open_immediately": true,
     "kw_block": true,
@@ -73,6 +75,7 @@
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
+    "open_iran": true,
     "kw_dow": true,
     "kw_dow_2plus": true,
     "pre_dow": true,
@@ -112,10 +115,23 @@
     "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 4,
-    "long": 3,
+    "total": 6,
+    "long": 5,
     "short": 1,
     "sample": [
+      {
+        "id": "R0005",
+        "features": [
+          "kw_deal_2plus",
+          "kw_dow_2plus",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
       {
         "id": "R0006",
         "features": [
@@ -138,6 +154,19 @@
         ],
         "direction": "LONG",
         "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0033",
+        "features": [
+          "kw_deal_2plus",
+          "kw_dow_2plus",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
         "train_wr": 100.0,
         "test_wr": 100.0,
         "score": 100.0
@@ -279,22 +308,11 @@
   "evolution_latest": {
     "date": "2026-06-23",
     "crossover": 16,
-    "mutation": 8,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 40,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "kw_tariff_2plus",
-          "open_thank_you_for_your_attention",
-          "kw_president_of_the_united_states"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.0,
-        "origin": "mutation_replace"
-      },
       {
         "features": [
           "kw_interest_rate",
@@ -308,11 +326,21 @@
       {
         "features": [
           "kw_thank_you_for_your_attention",
-          "open_inflation"
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 88.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_wonderful",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 87.5,
         "origin": "crossover"
       }
     ]

@@ -1,19 +1,19 @@
 {
   "date": "2026-06-23",
-  "generated_at": "2026-06-23T17:45:06Z",
-  "posts_today": 17,
+  "generated_at": "2026-06-23T20:45:07Z",
+  "posts_today": 20,
   "latest_post": {
-    "time": "2026-06-23T14:58",
-    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116800007587633396These pictures were tak"
+    "time": "2026-06-23T18:26",
+    "content_preview": "https://www.dailymail.com/news/article-15921233/trump-approval-bounces-iran-deal.html"
   },
   "signals_detected": [
     "DEAL",
     "IRAN",
     "DEAL_ONLY"
   ],
-  "models_triggered": 4,
+  "models_triggered": 6,
   "direction_summary": {
-    "LONG": 3,
+    "LONG": 5,
     "SHORT": 1,
     "consensus": "BULLISH"
   },
@@ -24,14 +24,25 @@
   },
   "sp500_latest": {
     "date": "2026-06-23",
-    "close": 7399.08
+    "close": 7365.46
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-23\nPosts today: 17 | Models triggered: 4\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 3 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116800007587633396These pictures were tak",
-    "zh": "川普密碼每日報告 -- 2026-06-23\n今日推文: 17 篇 | 觸發模型: 4 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 3 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116800007587633396These pictures were tak",
-    "ja": "トランプ・コード日次レポート -- 2026-06-23\n本日の投稿: 17件 | トリガーモデル: 4組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 3組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116800007587633396These pictures were tak"
+    "en": "Trump Code Daily Report -- 2026-06-23\nPosts today: 20 | Models triggered: 6\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 5 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: https://www.dailymail.com/news/article-15921233/trump-approval-bounces-iran-deal.html",
+    "zh": "川普密碼每日報告 -- 2026-06-23\n今日推文: 20 篇 | 觸發模型: 6 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 5 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: https://www.dailymail.com/news/article-15921233/trump-approval-bounces-iran-deal.html",
+    "ja": "トランプ・コード日次レポート -- 2026-06-23\n本日の投稿: 20件 | トリガーモデル: 6組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 5組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: https://www.dailymail.com/news/article-15921233/trump-approval-bounces-iran-deal.html"
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "kw_deal",
@@ -51,6 +62,17 @@
       ],
       "direction": "LONG",
       "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
