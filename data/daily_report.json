@@ -1,17 +1,19 @@
 {
-  "date": "2026-06-22",
-  "generated_at": "2026-06-22T21:04:08Z",
-  "posts_today": 25,
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T05:45:09Z",
+  "posts_today": 8,
   "latest_post": {
-    "time": "2026-06-22T19:21",
-    "content_preview": "Congratulations to \"El Tigre\" (THE TIGER!) Abelardo de la Espriella, the new President of Colombia! "
+    "time": "2026-06-23T04:14",
+    "content_preview": "At least 39 people injured, 4 dead, in Chicago weekend shootings. Governor Pritzker, I, as President"
   },
   "signals_detected": [
-    "IRAN"
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
   ],
-  "models_triggered": 29,
+  "models_triggered": 3,
   "direction_summary": {
-    "LONG": 28,
+    "LONG": 2,
     "SHORT": 1,
     "consensus": "BULLISH"
   },
@@ -25,147 +27,15 @@
     "close": 7472.79
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-22\nPosts today: 25 | Models triggered: 29\nSignals: IRAN\nConsensus: 28 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Congratulations to \"El Tigre\" (THE TIGER!) Abelardo de la Espriella, the new President of Colombia! ",
-    "zh": "川普密碼每日報告 -- 2026-06-22\n今日推文: 25 篇 | 觸發模型: 29 組\n偵測信號: 伊朗\n共識方向: 28 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Congratulations to \"El Tigre\" (THE TIGER!) Abelardo de la Espriella, the new President of Colombia! ",
-    "ja": "トランプ・コード日次レポート -- 2026-06-22\n本日の投稿: 25件 | トリガーモデル: 29組\n検出シグナル: イラン\nコンセンサス: 28組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Congratulations to \"El Tigre\" (THE TIGER!) Abelardo de la Espriella, the new President of Colombia! "
+    "en": "Trump Code Daily Report -- 2026-06-23\nPosts today: 8 | Models triggered: 3\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 2 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: At least 39 people injured, 4 dead, in Chicago weekend shootings. Governor Pritzker, I, as President",
+    "zh": "川普密碼每日報告 -- 2026-06-23\n今日推文: 8 篇 | 觸發模型: 3 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 2 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: At least 39 people injured, 4 dead, in Chicago weekend shootings. Governor Pritzker, I, as President",
+    "ja": "トランプ・コード日次レポート -- 2026-06-23\n本日の投稿: 8件 | トリガーモデル: 3組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 2組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: At least 39 people injured, 4 dead, in Chicago weekend shootings. Governor Pritzker, I, as President"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_jobs",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "open_trade",
-        "open_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_beautiful",
-        "kw_corrupt"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "open_thank_you_for_your_attention",
-        "open_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_executive_order",
-        "kw_jobs",
+        "kw_deal",
+        "kw_perfect",
         "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
@@ -175,78 +45,23 @@
     },
     {
       "features": [
-        "kw_dow_2plus",
-        "kw_energy",
-        "open_interest_rate"
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
-      "hold": 2,
+      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
     {
       "features": [
-        "kw_dow_2plus",
-        "open_dow",
-        "open_interest_rate"
+        "kw_biden",
+        "kw_deal",
+        "open_disaster"
       ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "open_energy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "kw_interest_rate",
-        "open_energy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_tremendous",
-        "open_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
+      "direction": "SHORT",
+      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     }
