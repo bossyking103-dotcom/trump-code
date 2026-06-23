@@ -1,12 +1,12 @@
 {
   "date": "2026-06-23",
-  "prepared_at": "2026-06-23T08:45:12Z",
+  "prepared_at": "2026-06-23T11:45:09Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 8,
-    "latest": "At least 39 people injured, 4 dead, in Chicago weekend shootings. Governor Pritzker, I, as President, can fix this, FAST and Permanently. D.C., Memphis, New Orleans, all down to record lows, and quick",
+    "count": 10,
+    "latest": "19 Millions Barrels of Oil flowed out of the Hormuz Strait yesterday, an all time RECORD. Oil prices are tumbling down, and the World is a much safer place!!! President DONALD J. TRUMP",
     "earliest_time": "2026-06-23T00:09:12.334Z",
-    "latest_time": "2026-06-23T04:14:37.982Z",
+    "latest_time": "2026-06-23T11:24:12.430Z",
     "sample": [
       {
         "time": "00:09",
@@ -39,6 +39,14 @@
       {
         "time": "04:14",
         "text": "At least 39 people injured, 4 dead, in Chicago weekend shootings. Governor Pritzker, I, as President, can fix this, FAST and Permanently. D.C., Memphis, New Orleans, all down to record lows, and quickly! CALL ME! President DJT"
+      },
+      {
+        "time": "11:20",
+        "text": "Despite their protestations and false statements to the contrary, coupled with the drumbeat of the Fake News, which is doing everything possible to make the U.S. Victory as small and insignificant as possible, Iran has fully and completely agreed to highest level Nuclear inspections long into the fu"
+      },
+      {
+        "time": "11:24",
+        "text": "19 Millions Barrels of Oil flowed out of the Hormuz Strait yesterday, an all time RECORD. Oil prices are tumbling down, and the World is a much safer place!!! President DONALD J. TRUMP"
       }
     ]
   },
@@ -49,18 +57,31 @@
   ],
   "today_features": {
     "posts_6_10": true,
-    "avg_len_medium": true,
+    "avg_len_long": true,
     "caps_low": true,
     "excl_normal": true,
     "has_night": true,
     "heavy_night": true,
     "kw_deal": true,
+    "kw_block": true,
+    "pre_block": true,
+    "kw_sanction": true,
+    "pre_sanction": true,
     "kw_russia": true,
     "kw_iran": true,
+    "kw_iran_2plus": true,
+    "pre_iran": true,
     "kw_dow": true,
+    "kw_dow_2plus": true,
     "pre_dow": true,
+    "kw_oil": true,
+    "pre_oil": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
     "kw_fake": true,
+    "kw_fake_2plus": true,
+    "pre_fake": true,
     "kw_worst": true,
     "kw_biden": true,
     "kw_biden_2plus": true,
@@ -69,6 +90,8 @@
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
     "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
+    "pre_thank_you_for_your_attention": true,
     "deal_without_tariff": true,
     "deal_no_tariff": true
   },
@@ -227,11 +250,22 @@
   "evolution_latest": {
     "date": "2026-06-23",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "open_tariffs",
+          "open_thank_you_for_your_attention",
+          "kw_biden"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "crossover"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -244,23 +278,13 @@
       },
       {
         "features": [
-          "kw_agreement",
-          "kw_tremendous"
+          "is_friday",
+          "kw_jobs"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
+        "hold": 1,
+        "score": 88.5,
         "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
       }
     ]
   },
