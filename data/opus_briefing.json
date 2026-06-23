@@ -1,32 +1,24 @@
 {
   "date": "2026-06-23",
-  "prepared_at": "2026-06-23T14:45:13Z",
+  "prepared_at": "2026-06-23T17:45:11Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 14,
-    "latest": "The GREAT Rush Limbaugh's wonderful wife, Kathryn, was fantastic today on Fox & Friends, as interviewed by Ainsley. We all miss Rush, truly one of a kind!!! President DJT",
+    "count": 17,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116800007587633396These pictures were taken this morning!",
     "earliest_time": "2026-06-23T00:09:12.334Z",
-    "latest_time": "2026-06-23T13:36:03.303Z",
+    "latest_time": "2026-06-23T14:58:14.200Z",
     "sample": [
-      {
-        "time": "00:51",
-        "text": "Biden administration buried whistleblower complaint alleging Fauci lied to Congress during pandemic: https://justthenews.com/accountability/whistleblowers/biden-administration-buried-whistleblower-complaint-alleging-fauci"
-      },
-      {
-        "time": "03:40",
-        "text": "Fast and Furious 2.0?' Biden DEA let 1M fentanyl pills flow to streets, whistleblower lawyer says: https://justthenews.com/government/federal-agencies/cover-dea-whistleblowers-lawyer-says-client-silenced-more-1m-pills"
-      },
-      {
-        "time": "03:58",
-        "text": "Trump Scores 8 Triumphs in 7 Years Across Latin America: https://www.newsmax.com/john-gizzi/donald-trump-latin-america-elections/2026/06/22/id/1260532/"
-      },
       {
         "time": "04:14",
         "text": "At least 39 people injured, 4 dead, in Chicago weekend shootings. Governor Pritzker, I, as President, can fix this, FAST and Permanently. D.C., Memphis, New Orleans, all down to record lows, and quickly! CALL ME! President DJT"
       },
       {
-        "time": "09:36",
+        "time": "10:57",
         "text": "The GREAT Rush Limbaugh’s wonderful wife, Kathryn, was fantastic today on Fox &amp; Friends, as interviewed by Ainsley. We all miss Rush, truly one of a kind!!! President DJT"
+      },
+      {
+        "time": "10:58",
+        "text": "These pictures were taken this morning!"
       },
       {
         "time": "11:20",
@@ -47,6 +39,14 @@
       {
         "time": "13:36",
         "text": "The GREAT Rush Limbaugh's wonderful wife, Kathryn, was fantastic today on Fox & Friends, as interviewed by Ainsley. We all miss Rush, truly one of a kind!!! President DJT"
+      },
+      {
+        "time": "14:56",
+        "text": "Six people have been arrested, and seven people have been cited, for the damage they did to our Country's now beautiful Reflecting Pool. The 350 foot gash, made by a very sharp knife or razors, is actually numerous slashes over a very long 350 foot length. It was purposefully and criminally done, an"
+      },
+      {
+        "time": "14:58",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116800007587633396These pictures were taken this morning!"
       }
     ]
   },
@@ -63,6 +63,8 @@
     "has_night": true,
     "heavy_night": true,
     "kw_deal": true,
+    "kw_immediately": true,
+    "open_immediately": true,
     "kw_block": true,
     "pre_block": true,
     "kw_sanction": true,
@@ -76,10 +78,14 @@
     "pre_dow": true,
     "kw_oil": true,
     "pre_oil": true,
+    "kw_gas": true,
+    "open_gas": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
     "open_great": true,
+    "kw_beautiful": true,
+    "open_beautiful": true,
     "kw_fantastic": true,
     "kw_fantastic_2plus": true,
     "pre_fantastic": true,
@@ -273,32 +279,21 @@
   "evolution_latest": {
     "date": "2026-06-23",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 8,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 40,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "questions_yes",
-          "kw_tariffs_2plus",
-          "kw_tariff_2plus"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_india",
+          "kw_tariff_2plus",
+          "open_thank_you_for_your_attention",
           "kw_president_of_the_united_states"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 2,
         "score": 90.0,
-        "origin": "mutation_remove"
+        "origin": "mutation_replace"
       },
       {
         "features": [
@@ -309,6 +304,16 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "open_inflation"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
+        "origin": "crossover"
       }
     ]
   },
