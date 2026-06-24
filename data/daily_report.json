@@ -1,17 +1,17 @@
 {
   "date": "2026-06-24",
-  "generated_at": "2026-06-24T14:45:08Z",
-  "posts_today": 14,
+  "generated_at": "2026-06-24T17:45:07Z",
+  "posts_today": 16,
   "latest_post": {
-    "time": "2026-06-24T13:49",
-    "content_preview": "The Elizabeth \"Pocahontas\" Warren centric housing bill, which is of minor importance compared to low"
+    "time": "2026-06-24T15:18",
+    "content_preview": "This is the hard rubber surface — No Paint — Before the Vandals cut and pulled it apart!"
   },
   "signals_detected": [
     "IRAN"
   ],
-  "models_triggered": 14,
+  "models_triggered": 16,
   "direction_summary": {
-    "LONG": 14,
+    "LONG": 16,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -22,12 +22,12 @@
   },
   "sp500_latest": {
     "date": "2026-06-24",
-    "close": 7404.71
+    "close": 7348.47
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-24\nPosts today: 14 | Models triggered: 14\nSignals: IRAN\nConsensus: 14 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The Elizabeth \"Pocahontas\" Warren centric housing bill, which is of minor importance compared to low",
-    "zh": "川普密碼每日報告 -- 2026-06-24\n今日推文: 14 篇 | 觸發模型: 14 組\n偵測信號: 伊朗\n共識方向: 14 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The Elizabeth \"Pocahontas\" Warren centric housing bill, which is of minor importance compared to low",
-    "ja": "トランプ・コード日次レポート -- 2026-06-24\n本日の投稿: 14件 | トリガーモデル: 14組\n検出シグナル: イラン\nコンセンサス: 14組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The Elizabeth \"Pocahontas\" Warren centric housing bill, which is of minor importance compared to low"
+    "en": "Trump Code Daily Report -- 2026-06-24\nPosts today: 16 | Models triggered: 16\nSignals: IRAN\nConsensus: 16 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: This is the hard rubber surface — No Paint — Before the Vandals cut and pulled it apart!",
+    "zh": "川普密碼每日報告 -- 2026-06-24\n今日推文: 16 篇 | 觸發模型: 16 組\n偵測信號: 伊朗\n共識方向: 16 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: This is the hard rubber surface — No Paint — Before the Vandals cut and pulled it apart!",
+    "ja": "トランプ・コード日次レポート -- 2026-06-24\n本日の投稿: 16件 | トリガーモデル: 16組\n検出シグナル: イラン\nコンセンサス: 16組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: This is the hard rubber surface — No Paint — Before the Vandals cut and pulled it apart!"
   },
   "triggered_rules_sample": [
     {
@@ -54,6 +54,17 @@
     },
     {
       "features": [
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "is_friday",
         "kw_beautiful",
         "kw_interest_rate"
@@ -68,6 +79,17 @@
         "kw_beautiful",
         "kw_interest_rate",
         "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "open_thank_you_for_your_attention",
+        "open_tremendous"
       ],
       "direction": "LONG",
       "hold": 2,
