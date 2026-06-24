@@ -1,19 +1,19 @@
 {
   "date": "2026-06-24",
-  "generated_at": "2026-06-24T11:45:05Z",
-  "posts_today": 7,
+  "generated_at": "2026-06-24T14:45:08Z",
+  "posts_today": 14,
   "latest_post": {
-    "time": "2026-06-24T07:37",
-    "content_preview": "Iran has informed the U.S. that, despite troublemaking Fake News reporting to the contrary, there ar"
+    "time": "2026-06-24T13:49",
+    "content_preview": "The Elizabeth \"Pocahontas\" Warren centric housing bill, which is of minor importance compared to low"
   },
   "signals_detected": [
     "IRAN"
   ],
-  "models_triggered": 0,
+  "models_triggered": 14,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 14,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -21,13 +21,167 @@
     "rate": 100.0
   },
   "sp500_latest": {
-    "date": "2026-06-23",
-    "close": 7365.46
+    "date": "2026-06-24",
+    "close": 7404.71
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-24\nPosts today: 7 | Models triggered: 0\nSignals: IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Iran has informed the U.S. that, despite troublemaking Fake News reporting to the contrary, there ar",
-    "zh": "川普密碼每日報告 -- 2026-06-24\n今日推文: 7 篇 | 觸發模型: 0 組\n偵測信號: 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Iran has informed the U.S. that, despite troublemaking Fake News reporting to the contrary, there ar",
-    "ja": "トランプ・コード日次レポート -- 2026-06-24\n本日の投稿: 7件 | トリガーモデル: 0組\n検出シグナル: イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Iran has informed the U.S. that, despite troublemaking Fake News reporting to the contrary, there ar"
+    "en": "Trump Code Daily Report -- 2026-06-24\nPosts today: 14 | Models triggered: 14\nSignals: IRAN\nConsensus: 14 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The Elizabeth \"Pocahontas\" Warren centric housing bill, which is of minor importance compared to low",
+    "zh": "川普密碼每日報告 -- 2026-06-24\n今日推文: 14 篇 | 觸發模型: 14 組\n偵測信號: 伊朗\n共識方向: 14 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The Elizabeth \"Pocahontas\" Warren centric housing bill, which is of minor importance compared to low",
+    "ja": "トランプ・コード日次レポート -- 2026-06-24\n本日の投稿: 14件 | トリガーモデル: 14組\n検出シグナル: イラン\nコンセンサス: 14組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The Elizabeth \"Pocahontas\" Warren centric housing bill, which is of minor importance compared to low"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "posts_11_20"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_beautiful",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_interest_rate",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "kw_interest_rate",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_interest_rate",
+        "kw_signed",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_interest_rate",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }
