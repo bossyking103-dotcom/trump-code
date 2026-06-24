@@ -1,203 +1,62 @@
 {
-  "date": "2026-06-23",
-  "prepared_at": "2026-06-23T20:45:13Z",
+  "date": "2026-06-24",
+  "prepared_at": "2026-06-24T05:45:13Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 20,
-    "latest": "https://www.dailymail.com/news/article-15921233/trump-approval-bounces-iran-deal.html",
-    "earliest_time": "2026-06-23T00:09:12.334Z",
-    "latest_time": "2026-06-23T18:26:44.964Z",
+    "count": 5,
+    "latest": "The big Oil Companies are not dropping their price at the pump commensurate with the sharply lower prices they are paying for Oil. Those prices are dropping like a rock! In other words, customers are ",
+    "earliest_time": "2026-06-24T02:39:15.117Z",
+    "latest_time": "2026-06-24T04:12:13.948Z",
     "sample": [
       {
-        "time": "11:24",
-        "text": "19 Millions Barrels of Oil flowed out of the Hormuz Strait yesterday, an all time RECORD. Oil prices are tumbling down, and the World is a much safer place!!! President DONALD J. TRUMP"
+        "time": "02:39",
+        "text": "So, I have Iran on the \"ropes,\" ready to go down for the fall, willing to give us practically anything, and for the first time in decades, respecting the hell out of the United States and its President, ME, and the U.S. Senate decides to have a poorly timed and meaningless War Powers Act Vote, telli"
       },
       {
-        "time": "11:44",
-        "text": "Trump Scores 8 Triumphs in 7 Years Across Latin America: https://www.newsmax.com/john-gizzi/donald-trump-latin-america-elections/2026/06/22/id/1260532/"
+        "time": "02:52",
+        "text": "Wow, Mr. Kellyanne Conway, a Trump Deranged Loser at the highest level, is getting absolutely CRUSHED in the Primaries tonight. He'll end up at about 5% of the vote in a rather weak field of young and aggressive Communists. No wonder his \"husband\" dumped him like a dog! This is a truly unattractive "
       },
       {
-        "time": "13:19",
-        "text": "Vote for Andy Biggs for Arizona Governor. He is GREAT!!! President DJT"
+        "time": "03:02",
+        "text": "Weak and pathetic Congressman Dan Goldman just lost, BIG! I guess people didn't like him illegally targeting President TRUMP. In any event, this jerk is finally GONE! President DJT"
       },
       {
-        "time": "13:36",
-        "text": "The GREAT Rush Limbaugh's wonderful wife, Kathryn, was fantastic today on Fox & Friends, as interviewed by Ainsley. We all miss Rush, truly one of a kind!!! President DJT"
+        "time": "03:52",
+        "text": "Many Communists running in badly failing Blue States. The votes seem to have them doing quite well against each other. The bad news is that history has conclusively shown that the downtrodden States that they will soon be running will ONLY GET WORSE. MAGA! President DJT"
       },
       {
-        "time": "14:56",
-        "text": "Six people have been arrested, and seven people have been cited, for the damage they did to our Country's now beautiful Reflecting Pool. The 350 foot gash, made by a very sharp knife or razors, is actually numerous slashes over a very long 350 foot length. It was purposefully and criminally done, an"
-      },
-      {
-        "time": "14:58",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116800007587633396These pictures were taken this morning!"
-      },
-      {
-        "time": "16:30",
-        "text": "These pictures were taken this morning!"
-      },
-      {
-        "time": "16:36",
-        "text": "https://wabcradio.com/player/"
-      },
-      {
-        "time": "16:37",
-        "text": "Thank you, Scotland!!! President DJT"
-      },
-      {
-        "time": "18:26",
-        "text": "https://www.dailymail.com/news/article-15921233/trump-approval-bounces-iran-deal.html"
+        "time": "04:12",
+        "text": "The big Oil Companies are not dropping their price at the pump commensurate with the sharply lower prices they are paying for Oil. Those prices are dropping like a rock! In other words, customers are being \"gouged.\" I have instructed the DOJ to immediately start looking into this. Gasoline prices be"
       }
     ]
   },
   "keyword_signals": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
+    "IRAN"
   ],
   "today_features": {
-    "posts_11_20": true,
-    "avg_len_medium": true,
+    "posts_1_5": true,
+    "avg_len_long": true,
     "caps_low": true,
-    "excl_normal": true,
+    "excl_heavy": true,
     "has_night": true,
     "heavy_night": true,
-    "kw_deal": true,
-    "kw_deal_2plus": true,
-    "open_deal": true,
     "kw_immediately": true,
-    "open_immediately": true,
-    "kw_block": true,
-    "pre_block": true,
-    "kw_sanction": true,
-    "pre_sanction": true,
-    "kw_russia": true,
+    "pre_immediately": true,
+    "kw_ban": true,
     "kw_iran": true,
-    "kw_iran_2plus": true,
-    "pre_iran": true,
-    "open_iran": true,
     "kw_dow": true,
     "kw_dow_2plus": true,
     "pre_dow": true,
     "kw_oil": true,
     "pre_oil": true,
     "kw_gas": true,
-    "open_gas": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "pre_great": true,
-    "open_great": true,
-    "kw_beautiful": true,
-    "open_beautiful": true,
-    "kw_fantastic": true,
-    "kw_fantastic_2plus": true,
-    "pre_fantastic": true,
-    "open_fantastic": true,
-    "kw_wonderful": true,
-    "kw_wonderful_2plus": true,
-    "pre_wonderful": true,
-    "open_wonderful": true,
-    "kw_fake": true,
-    "kw_fake_2plus": true,
-    "pre_fake": true,
-    "kw_worst": true,
-    "kw_biden": true,
-    "kw_biden_2plus": true,
-    "kw_obama": true,
+    "pre_gas": true,
+    "kw_pathetic": true,
+    "kw_maga": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
-    "open_president_djt": true,
-    "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "pre_thank_you_for_your_attention": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
-  },
-  "triggered_rules": {
-    "total": 6,
-    "long": 5,
-    "short": 1,
-    "sample": [
-      {
-        "id": "R0005",
-        "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0006",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0012",
-        "features": [
-          "kw_perfect",
-          "kw_thank_you_for_your_attention",
-          "posts_11_20"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0033",
-        "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0085",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0097",
-        "features": [
-          "kw_biden",
-          "kw_deal",
-          "open_disaster"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -306,13 +165,23 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-06-23",
+    "date": "2026-06-24",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "kw_signed",
+          "kw_tariffs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 92.3,
+        "origin": "mutation_remove"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -325,23 +194,13 @@
       },
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "kw_signed"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.9,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_wonderful",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 1,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "distilled"
       }
     ]
   },

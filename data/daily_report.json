@@ -1,21 +1,19 @@
 {
-  "date": "2026-06-23",
-  "generated_at": "2026-06-23T20:45:07Z",
-  "posts_today": 20,
+  "date": "2026-06-24",
+  "generated_at": "2026-06-24T05:45:08Z",
+  "posts_today": 5,
   "latest_post": {
-    "time": "2026-06-23T18:26",
-    "content_preview": "https://www.dailymail.com/news/article-15921233/trump-approval-bounces-iran-deal.html"
+    "time": "2026-06-24T04:12",
+    "content_preview": "The big Oil Companies are not dropping their price at the pump commensurate with the sharply lower p"
   },
   "signals_detected": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
+    "IRAN"
   ],
-  "models_triggered": 6,
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 5,
-    "SHORT": 1,
-    "consensus": "BULLISH"
+    "LONG": 0,
+    "SHORT": 0,
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -27,76 +25,9 @@
     "close": 7365.46
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-23\nPosts today: 20 | Models triggered: 6\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 5 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: https://www.dailymail.com/news/article-15921233/trump-approval-bounces-iran-deal.html",
-    "zh": "川普密碼每日報告 -- 2026-06-23\n今日推文: 20 篇 | 觸發模型: 6 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 5 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: https://www.dailymail.com/news/article-15921233/trump-approval-bounces-iran-deal.html",
-    "ja": "トランプ・コード日次レポート -- 2026-06-23\n本日の投稿: 20件 | トリガーモデル: 6組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 5組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: https://www.dailymail.com/news/article-15921233/trump-approval-bounces-iran-deal.html"
+    "en": "Trump Code Daily Report -- 2026-06-24\nPosts today: 5 | Models triggered: 0\nSignals: IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The big Oil Companies are not dropping their price at the pump commensurate with the sharply lower p",
+    "zh": "川普密碼每日報告 -- 2026-06-24\n今日推文: 5 篇 | 觸發模型: 0 組\n偵測信號: 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The big Oil Companies are not dropping their price at the pump commensurate with the sharply lower p",
+    "ja": "トランプ・コード日次レポート -- 2026-06-24\n本日の投稿: 5件 | トリガーモデル: 0組\n検出シグナル: イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The big Oil Companies are not dropping their price at the pump commensurate with the sharply lower p"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_perfect",
-        "kw_thank_you_for_your_attention",
-        "posts_11_20"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_biden",
-        "kw_deal",
-        "open_disaster"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
