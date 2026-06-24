@@ -1,17 +1,13 @@
 {
   "date": "2026-06-24",
-  "prepared_at": "2026-06-24T08:45:14Z",
+  "prepared_at": "2026-06-24T11:45:11Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "The big Oil Companies are not dropping their price at the pump commensurate with the sharply lower prices they are paying for Oil. Those prices are dropping like a rock! In other words, customers are ",
-    "earliest_time": "2026-06-24T02:38:00.000Z",
-    "latest_time": "2026-06-24T04:12:13.948Z",
+    "count": 7,
+    "latest": "Iran has informed the U.S. that, despite troublemaking Fake News reporting to the contrary, there are “NO TOLLS, NO INSURANCE COSTS, &amp; NO OTHER CHARGES OF ANY KIND BEING SOUGHT OR RECEIVED BY IRAN",
+    "earliest_time": "2026-06-24T02:39:15.117Z",
+    "latest_time": "2026-06-24T07:37:00.000Z",
     "sample": [
-      {
-        "time": "02:38",
-        "text": "America the Beautiful will NEVER be a Communist Country!!! President DJT"
-      },
       {
         "time": "02:39",
         "text": "So, I have Iran on the \"ropes,\" ready to go down for the fall, willing to give us practically anything, and for the first time in decades, respecting the hell out of the United States and its President, ME, and the U.S. Senate decides to have a poorly timed and meaningless War Powers Act Vote, telli"
@@ -31,6 +27,14 @@
       {
         "time": "04:12",
         "text": "The big Oil Companies are not dropping their price at the pump commensurate with the sharply lower prices they are paying for Oil. Those prices are dropping like a rock! In other words, customers are being \"gouged.\" I have instructed the DOJ to immediately start looking into this. Gasoline prices be"
+      },
+      {
+        "time": "06:38",
+        "text": "America the Beautiful will NEVER be a Communist Country!!! President DJT"
+      },
+      {
+        "time": "07:37",
+        "text": "Iran has informed the U.S. that, despite troublemaking Fake News reporting to the contrary, there are “NO TOLLS, NO INSURANCE COSTS, &amp; NO OTHER CHARGES OF ANY KIND BEING SOUGHT OR RECEIVED BY IRAN ON SHIPS TRAVELING THE STRAIT OF HORMUZ. If this is false information, negotiations would end, imme"
       }
     ]
   },
@@ -39,15 +43,18 @@
   ],
   "today_features": {
     "posts_6_10": true,
-    "avg_len_medium": true,
-    "caps_low": true,
+    "avg_len_long": true,
+    "caps_medium": true,
     "excl_heavy": true,
     "has_night": true,
     "heavy_night": true,
     "kw_immediately": true,
+    "kw_immediately_2plus": true,
     "pre_immediately": true,
     "kw_ban": true,
     "kw_iran": true,
+    "kw_iran_2plus": true,
+    "pre_iran": true,
     "kw_dow": true,
     "kw_dow_2plus": true,
     "pre_dow": true,
@@ -56,12 +63,16 @@
     "kw_gas": true,
     "pre_gas": true,
     "kw_beautiful": true,
+    "pre_beautiful": true,
+    "kw_fake": true,
+    "pre_fake": true,
     "kw_pathetic": true,
     "kw_maga": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
-    "volume_drop": true
+    "kw_thank_you_for_your_attention": true,
+    "pre_thank_you_for_your_attention": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -172,39 +183,42 @@
   "evolution_latest": {
     "date": "2026-06-24",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 9,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 41,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
+          "volume_falling_3d",
+          "kw_beautiful",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "questions_yes",
+          "is_friday",
           "kw_thank_you_for_your_attention",
-          "open_china"
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_china",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
         "score": 90.9,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "volume_spike",
-          "kw_amazing"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 88.9,
         "origin": "mutation_remove"
       }
     ]
