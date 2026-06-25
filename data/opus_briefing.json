@@ -1,12 +1,12 @@
 {
   "date": "2026-06-25",
-  "prepared_at": "2026-06-25T08:45:25Z",
+  "prepared_at": "2026-06-25T11:45:13Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 5,
-    "latest": "The two major earthquakes that just hit the great people of Venezuela are both massive in scale and have left a devastating number of deaths. The U.S.A. stands ready, willing, and able to help! I have",
+    "count": 6,
+    "latest": "After testy exchange, Senate hands Trump win by rejecting bill to rein in his war on Iran: https://justthenews.com/government/congress/after-testy-exchange-senate-hands-trump-win-rejecting-bill-rein-h",
     "earliest_time": "2026-06-25T02:37:40.237Z",
-    "latest_time": "2026-06-25T03:45:00.999Z",
+    "latest_time": "2026-06-25T09:30:57.585Z",
     "sample": [
       {
         "time": "02:37",
@@ -27,6 +27,10 @@
       {
         "time": "03:45",
         "text": "The two major earthquakes that just hit the great people of Venezuela are both massive in scale and have left a devastating number of deaths. The U.S.A. stands ready, willing, and able to help! I have instructed all agencies of our government to get ready to move quickly. We will be there for our ne"
+      },
+      {
+        "time": "09:30",
+        "text": "After testy exchange, Senate hands Trump win by rejecting bill to rein in his war on Iran: https://justthenews.com/government/congress/after-testy-exchange-senate-hands-trump-win-rejecting-bill-rein-his-war-iran"
       }
     ]
   },
@@ -34,7 +38,7 @@
     "IRAN"
   ],
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_medium": true,
     "caps_low": true,
     "excl_normal": true,
@@ -42,6 +46,8 @@
     "has_night": true,
     "heavy_night": true,
     "kw_iran": true,
+    "kw_iran_2plus": true,
+    "pre_iran": true,
     "kw_great": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
@@ -157,26 +163,15 @@
   "evolution_latest": {
     "date": "2026-06-25",
     "crossover": 16,
-    "mutation": 15,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_maga",
-          "kw_trade",
-          "excl_heavy"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_economy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -185,13 +180,24 @@
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_dow_2plus",
+          "kw_jobs",
+          "is_friday"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_president_of_the_united_states",
+          "kw_india"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "mutation_remove"
       }
     ]
   },
