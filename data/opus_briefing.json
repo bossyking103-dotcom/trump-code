@@ -1,6 +1,6 @@
 {
   "date": "2026-06-25",
-  "prepared_at": "2026-06-25T05:45:15Z",
+  "prepared_at": "2026-06-25T08:45:25Z",
   "status": "PENDING",
   "today_posts": {
     "count": 5,
@@ -156,31 +156,32 @@
   },
   "evolution_latest": {
     "date": "2026-06-25",
-    "crossover": 15,
-    "mutation": 16,
+    "crossover": 16,
+    "mutation": 15,
     "distill": 16,
     "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_china",
-          "open_russia"
+          "kw_maga",
+          "kw_trade",
+          "excl_heavy"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 91.7,
+        "hold": 2,
+        "score": 90.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_tariff",
-          "kw_signed"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.6,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
       },
       {
         "features": [
