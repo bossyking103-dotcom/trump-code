@@ -1,12 +1,12 @@
 {
   "date": "2026-06-25",
-  "prepared_at": "2026-06-25T17:45:24Z",
+  "prepared_at": "2026-06-25T20:45:28Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "After testy exchange, Senate hands Trump win by rejecting bill to rein in his war on Iran: https://justthenews.com/government/congress/after-testy-exchange-senate-hands-trump-win-rejecting-bill-rein-h",
+    "count": 8,
+    "latest": "The Crowd was incredible last night, packed to the brim — At least 45,000 people were there, with a huge Television and online audience. I wish we were able to have an even larger area, which we will ",
     "earliest_time": "2026-06-25T02:37:40.237Z",
-    "latest_time": "2026-06-25T09:30:57.585Z",
+    "latest_time": "2026-06-25T17:47:48.719Z",
     "sample": [
       {
         "time": "02:37",
@@ -31,6 +31,14 @@
       {
         "time": "09:30",
         "text": "After testy exchange, Senate hands Trump win by rejecting bill to rein in his war on Iran: https://justthenews.com/government/congress/after-testy-exchange-senate-hands-trump-win-rejecting-bill-rein-his-war-iran"
+      },
+      {
+        "time": "16:41",
+        "text": "House Republicans should unify, and stop voting down “Rules” or, threatening to do so. Giving power to the Radical Left Dumocrats in the House to control what goes up for a Vote will make our outcomes worse, not better. No more grandstanding, please! They are the Dumocrats, and we can’t let them WIN"
+      },
+      {
+        "time": "17:47",
+        "text": "The Crowd was incredible last night, packed to the brim — At least 45,000 people were there, with a huge Television and online audience. I wish we were able to have an even larger area, which we will be able to do on July 4th when I'll be speaking again. The airplane flyovers and music were fantasti"
       }
     ]
   },
@@ -48,11 +56,64 @@
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
+    "kw_dow": true,
+    "open_dow": true,
     "kw_great": true,
+    "kw_incredible": true,
+    "open_incredible": true,
+    "kw_fantastic": true,
+    "open_fantastic": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
-    "volume_falling_3d": true,
-    "volume_drop": true
+    "kw_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
+    "volume_falling_3d": true
+  },
+  "triggered_rules": {
+    "total": 3,
+    "long": 3,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0041",
+        "features": [
+          "kw_tariffs_2plus",
+          "kw_thank_you_for_your_attention",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0055",
+        "features": [
+          "kw_tremendous",
+          "open_thank_you_for_your_attention",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0069",
+        "features": [
+          "kw_tariffs_2plus",
+          "open_thank_you_for_your_attention",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -163,41 +224,42 @@
   "evolution_latest": {
     "date": "2026-06-25",
     "crossover": 16,
-    "mutation": 15,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_thank_you_for_your_attention",
-          "kw_maga",
-          "excl_heavy"
+          "kw_interest_rate",
+          "kw_economy",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.0,
+        "score": 91.7,
         "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "distilled"
       },
       {
         "features": [
           "kw_beautiful",
-          "volume_falling_3d"
+          "excl_heavy",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "open_china",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 87.5,
-        "origin": "crossover"
+        "score": 90.9,
+        "origin": "mutation_remove"
       }
     ]
   },
