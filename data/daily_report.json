@@ -1,20 +1,20 @@
 {
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T17:45:10Z",
-  "posts_today": 13,
+  "generated_at": "2026-06-26T20:45:06Z",
+  "posts_today": 16,
   "latest_post": {
-    "time": "2026-06-26T16:32",
-    "content_preview": "The Fourth of July Airshow, over Washington, D.C., our Great Capital, will be the biggest, by far, i"
+    "time": "2026-06-26T20:13",
+    "content_preview": "The new Donald Trump Avenue in Hyderabad, India — The first U.S. President to ever be honored in thi"
   },
   "signals_detected": [
     "TARIFF",
     "DEAL",
     "IRAN"
   ],
-  "models_triggered": 27,
+  "models_triggered": 28,
   "direction_summary": {
     "LONG": 23,
-    "SHORT": 4,
+    "SHORT": 5,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -24,14 +24,25 @@
   },
   "sp500_latest": {
     "date": "2026-06-26",
-    "close": 7371.13
+    "close": 7354.02
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-26\nPosts today: 13 | Models triggered: 27\nSignals: TARIFF, DEAL, IRAN\nConsensus: 23 LONG vs 4 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The Fourth of July Airshow, over Washington, D.C., our Great Capital, will be the biggest, by far, i",
-    "zh": "川普密碼每日報告 -- 2026-06-26\n今日推文: 13 篇 | 觸發模型: 27 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 23 組看多 vs 4 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The Fourth of July Airshow, over Washington, D.C., our Great Capital, will be the biggest, by far, i",
-    "ja": "トランプ・コード日次レポート -- 2026-06-26\n本日の投稿: 13件 | トリガーモデル: 27組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 23組ロング vs 4組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The Fourth of July Airshow, over Washington, D.C., our Great Capital, will be the biggest, by far, i"
+    "en": "Trump Code Daily Report -- 2026-06-26\nPosts today: 16 | Models triggered: 28\nSignals: TARIFF, DEAL, IRAN\nConsensus: 23 LONG vs 5 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The new Donald Trump Avenue in Hyderabad, India — The first U.S. President to ever be honored in thi",
+    "zh": "川普密碼每日報告 -- 2026-06-26\n今日推文: 16 篇 | 觸發模型: 28 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 23 組看多 vs 5 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The new Donald Trump Avenue in Hyderabad, India — The first U.S. President to ever be honored in thi",
+    "ja": "トランプ・コード日次レポート -- 2026-06-26\n本日の投稿: 16件 | トリガーモデル: 28組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 23組ロング vs 5組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The new Donald Trump Avenue in Hyderabad, India — The first U.S. President to ever be honored in thi"
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_biden",
+        "kw_india",
+        "kw_tariffs"
+      ],
+      "direction": "SHORT",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "kw_deal",
@@ -235,17 +246,6 @@
         "kw_signed",
         "kw_tariff",
         "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_interest_rate",
-        "kw_signed",
-        "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
       "hold": 2,
