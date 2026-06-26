@@ -1,18 +1,20 @@
 {
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T14:45:07Z",
-  "posts_today": 6,
+  "generated_at": "2026-06-26T17:45:10Z",
+  "posts_today": 13,
   "latest_post": {
-    "time": "2026-06-26T13:52",
-    "content_preview": "Other Polls have my Approval Rating at 65%, and more! Like Journalists, Honest Pollsters are very ra"
+    "time": "2026-06-26T16:32",
+    "content_preview": "The Fourth of July Airshow, over Washington, D.C., our Great Capital, will be the biggest, by far, i"
   },
   "signals_detected": [
+    "TARIFF",
+    "DEAL",
     "IRAN"
   ],
-  "models_triggered": 1,
+  "models_triggered": 27,
   "direction_summary": {
-    "LONG": 1,
-    "SHORT": 0,
+    "LONG": 23,
+    "SHORT": 4,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -22,19 +24,228 @@
   },
   "sp500_latest": {
     "date": "2026-06-26",
-    "close": 7348.39
+    "close": 7371.13
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-26\nPosts today: 6 | Models triggered: 1\nSignals: IRAN\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Other Polls have my Approval Rating at 65%, and more! Like Journalists, Honest Pollsters are very ra",
-    "zh": "川普密碼每日報告 -- 2026-06-26\n今日推文: 6 篇 | 觸發模型: 1 組\n偵測信號: 伊朗\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Other Polls have my Approval Rating at 65%, and more! Like Journalists, Honest Pollsters are very ra",
-    "ja": "トランプ・コード日次レポート -- 2026-06-26\n本日の投稿: 6件 | トリガーモデル: 1組\n検出シグナル: イラン\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Other Polls have my Approval Rating at 65%, and more! Like Journalists, Honest Pollsters are very ra"
+    "en": "Trump Code Daily Report -- 2026-06-26\nPosts today: 13 | Models triggered: 27\nSignals: TARIFF, DEAL, IRAN\nConsensus: 23 LONG vs 4 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The Fourth of July Airshow, over Washington, D.C., our Great Capital, will be the biggest, by far, i",
+    "zh": "川普密碼每日報告 -- 2026-06-26\n今日推文: 13 篇 | 觸發模型: 27 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 23 組看多 vs 4 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The Fourth of July Airshow, over Washington, D.C., our Great Capital, will be the biggest, by far, i",
+    "ja": "トランプ・コード日次レポート -- 2026-06-26\n本日の投稿: 13件 | トリガーモデル: 27組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 23組ロング vs 4組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The Fourth of July Airshow, over Washington, D.C., our Great Capital, will be the biggest, by far, i"
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "open_dow",
+        "open_trade",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "posts_11_20"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "is_friday",
         "open_china",
         "pre_great"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "both_tariff_and_deal",
+        "open_biden",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "open_biden",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_tariffs_2plus",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_dow_2plus",
+        "open_tariff"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tariffs_2plus",
+        "kw_thank_you_for_your_attention",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_signed",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tremendous",
+        "open_thank_you_for_your_attention",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_thank_you_for_your_attention",
+        "open_china"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "open_inflation",
+        "open_trade",
+        "pre_great"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_signed",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tariffs_2plus",
+        "open_thank_you_for_your_attention",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "open_tariff",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_signed",
+        "open_tariff",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_inflation",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_signed",
+        "kw_tariff",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_interest_rate",
+        "kw_signed",
+        "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
       "hold": 2,
