@@ -1,17 +1,19 @@
 {
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T11:45:05Z",
-  "posts_today": 4,
+  "generated_at": "2026-06-26T14:45:07Z",
+  "posts_today": 6,
   "latest_post": {
-    "time": "2026-06-26T02:29",
-    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116814048560190114"
+    "time": "2026-06-26T13:52",
+    "content_preview": "Other Polls have my Approval Rating at 65%, and more! Like Journalists, Honest Pollsters are very ra"
   },
-  "signals_detected": [],
-  "models_triggered": 0,
+  "signals_detected": [
+    "IRAN"
+  ],
+  "models_triggered": 1,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 1,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -19,13 +21,25 @@
     "rate": 100.0
   },
   "sp500_latest": {
-    "date": "2026-06-25",
-    "close": 7357.49
+    "date": "2026-06-26",
+    "close": 7348.39
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-26\nPosts today: 4 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116814048560190114",
-    "zh": "川普密碼每日報告 -- 2026-06-26\n今日推文: 4 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116814048560190114",
-    "ja": "トランプ・コード日次レポート -- 2026-06-26\n本日の投稿: 4件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116814048560190114"
+    "en": "Trump Code Daily Report -- 2026-06-26\nPosts today: 6 | Models triggered: 1\nSignals: IRAN\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Other Polls have my Approval Rating at 65%, and more! Like Journalists, Honest Pollsters are very ra",
+    "zh": "川普密碼每日報告 -- 2026-06-26\n今日推文: 6 篇 | 觸發模型: 1 組\n偵測信號: 伊朗\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Other Polls have my Approval Rating at 65%, and more! Like Journalists, Honest Pollsters are very ra",
+    "ja": "トランプ・コード日次レポート -- 2026-06-26\n本日の投稿: 6件 | トリガーモデル: 1組\n検出シグナル: イラン\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Other Polls have my Approval Rating at 65%, and more! Like Journalists, Honest Pollsters are very ra"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "is_friday",
+        "open_china",
+        "pre_great"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }
