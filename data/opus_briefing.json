@@ -1,119 +1,42 @@
 {
-  "date": "2026-06-25",
-  "prepared_at": "2026-06-25T20:45:28Z",
+  "date": "2026-06-26",
+  "prepared_at": "2026-06-26T05:45:10Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 8,
-    "latest": "The Crowd was incredible last night, packed to the brim — At least 45,000 people were there, with a huge Television and online audience. I wish we were able to have an even larger area, which we will ",
-    "earliest_time": "2026-06-25T02:37:40.237Z",
-    "latest_time": "2026-06-25T17:47:48.719Z",
+    "count": 4,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116814048560190114",
+    "earliest_time": "2026-06-26T01:14:52.108Z",
+    "latest_time": "2026-06-26T02:29:23.904Z",
     "sample": [
       {
-        "time": "02:37",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116808419683018774"
+        "time": "01:14",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116813755890271897"
       },
       {
-        "time": "03:15",
-        "text": "Wow! The Senate just changed its vote on Iran from 50-48 against, to 50-47 for. Rand Paul and Bill Cassidy changed. Thank you to Leader John Thune, Lindsey Graham, Bernie Moreno, and all. This vote puts Iran on notice! President DJT"
+        "time": "02:01",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116813941619435704"
       },
       {
-        "time": "03:17",
-        "text": "https://www.breitbart.com/politics/2026/06/06/exclusive-bernie-moreno-embarrassing-congress-cant-pass-save-america-act/"
+        "time": "02:02",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116813945253003849"
       },
       {
-        "time": "03:24",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116808605851125876"
-      },
-      {
-        "time": "03:45",
-        "text": "The two major earthquakes that just hit the great people of Venezuela are both massive in scale and have left a devastating number of deaths. The U.S.A. stands ready, willing, and able to help! I have instructed all agencies of our government to get ready to move quickly. We will be there for our ne"
-      },
-      {
-        "time": "09:30",
-        "text": "After testy exchange, Senate hands Trump win by rejecting bill to rein in his war on Iran: https://justthenews.com/government/congress/after-testy-exchange-senate-hands-trump-win-rejecting-bill-rein-his-war-iran"
-      },
-      {
-        "time": "16:41",
-        "text": "House Republicans should unify, and stop voting down “Rules” or, threatening to do so. Giving power to the Radical Left Dumocrats in the House to control what goes up for a Vote will make our outcomes worse, not better. No more grandstanding, please! They are the Dumocrats, and we can’t let them WIN"
-      },
-      {
-        "time": "17:47",
-        "text": "The Crowd was incredible last night, packed to the brim — At least 45,000 people were there, with a huge Television and online audience. I wish we were able to have an even larger area, which we will be able to do on July 4th when I'll be speaking again. The airplane flyovers and music were fantasti"
+        "time": "02:29",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116814048560190114"
       }
     ]
   },
-  "keyword_signals": [
-    "IRAN"
-  ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_medium": true,
+    "posts_1_5": true,
+    "avg_len_short": true,
     "caps_low": true,
-    "excl_normal": true,
+    "excl_none": true,
     "questions_no": true,
     "has_night": true,
     "heavy_night": true,
-    "kw_iran": true,
-    "kw_iran_2plus": true,
-    "pre_iran": true,
-    "kw_dow": true,
-    "open_dow": true,
-    "kw_great": true,
-    "kw_incredible": true,
-    "open_incredible": true,
-    "kw_fantastic": true,
-    "open_fantastic": true,
-    "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "kw_thank_you_for_your_attention": true,
-    "open_thank_you_for_your_attention": true,
-    "volume_falling_3d": true
-  },
-  "triggered_rules": {
-    "total": 3,
-    "long": 3,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0041",
-        "features": [
-          "kw_tariffs_2plus",
-          "kw_thank_you_for_your_attention",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0055",
-        "features": [
-          "kw_tremendous",
-          "open_thank_you_for_your_attention",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0069",
-        "features": [
-          "kw_tariffs_2plus",
-          "open_thank_you_for_your_attention",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "is_friday": true,
+    "volume_falling_3d": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -222,44 +145,42 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-06-25",
-    "crossover": 16,
+    "date": "2026-06-26",
+    "crossover": 15,
     "mutation": 16,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy",
-          "kw_thank_you_for_your_attention"
+          "kw_signed",
+          "kw_tariffs"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 91.7,
-        "origin": "crossover"
+        "score": 92.3,
+        "origin": "mutation_remove"
       },
       {
         "features": [
-          "kw_beautiful",
-          "excl_heavy",
-          "is_friday"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
-        "origin": "mutation_replace"
+        "score": 90.0,
+        "origin": "distilled"
       },
       {
         "features": [
-          "open_china",
-          "kw_thank_you_for_your_attention"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },

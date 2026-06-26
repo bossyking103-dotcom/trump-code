@@ -1,19 +1,17 @@
 {
-  "date": "2026-06-25",
-  "generated_at": "2026-06-25T20:45:21Z",
-  "posts_today": 8,
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T05:45:05Z",
+  "posts_today": 4,
   "latest_post": {
-    "time": "2026-06-25T17:47",
-    "content_preview": "The Crowd was incredible last night, packed to the brim — At least 45,000 people were there, with a "
+    "time": "2026-06-26T02:29",
+    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116814048560190114"
   },
-  "signals_detected": [
-    "IRAN"
-  ],
-  "models_triggered": 3,
+  "signals_detected": [],
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 3,
+    "LONG": 0,
     "SHORT": 0,
-    "consensus": "BULLISH"
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -25,43 +23,9 @@
     "close": 7357.49
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-25\nPosts today: 8 | Models triggered: 3\nSignals: IRAN\nConsensus: 3 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The Crowd was incredible last night, packed to the brim — At least 45,000 people were there, with a ",
-    "zh": "川普密碼每日報告 -- 2026-06-25\n今日推文: 8 篇 | 觸發模型: 3 組\n偵測信號: 伊朗\n共識方向: 3 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The Crowd was incredible last night, packed to the brim — At least 45,000 people were there, with a ",
-    "ja": "トランプ・コード日次レポート -- 2026-06-25\n本日の投稿: 8件 | トリガーモデル: 3組\n検出シグナル: イラン\nコンセンサス: 3組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The Crowd was incredible last night, packed to the brim — At least 45,000 people were there, with a "
+    "en": "Trump Code Daily Report -- 2026-06-26\nPosts today: 4 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116814048560190114",
+    "zh": "川普密碼每日報告 -- 2026-06-26\n今日推文: 4 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116814048560190114",
+    "ja": "トランプ・コード日次レポート -- 2026-06-26\n本日の投稿: 4件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116814048560190114"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_tariffs_2plus",
-        "kw_thank_you_for_your_attention",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tremendous",
-        "open_thank_you_for_your_attention",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tariffs_2plus",
-        "open_thank_you_for_your_attention",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
