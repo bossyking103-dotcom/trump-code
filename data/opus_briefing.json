@@ -1,24 +1,28 @@
 {
   "date": "2026-06-27",
-  "prepared_at": "2026-06-27T11:45:11Z",
+  "prepared_at": "2026-06-27T14:45:15Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116818915365927435LOUISIANA: VOTE FOR JULIA TODAY!!! DJT",
+    "count": 4,
+    "latest": "Reeling Democratic establishment accuses socialists of exploiting ballot access: https://justthenews.com/politics-policy/elections/reeling-democratic-establishment-suggests-policing-primaries-pushing-",
     "earliest_time": "2026-06-27T01:14:18.033Z",
-    "latest_time": "2026-06-27T09:56:09.624Z",
+    "latest_time": "2026-06-27T14:00:40.637Z",
     "sample": [
       {
         "time": "01:14",
         "text": "John Bolton, a very dumb, unbalanced, and unskilled former representative of the United States of America, just pleads guilty! He is a terrible person, a lunatic who only wanted to start trouble and wars, and who was a needless pusher of death and destruction wherever he went. Hopefully, he will be "
       },
       {
-        "time": "05:56",
-        "text": "LOUISIANA: VOTE FOR JULIA TODAY!!! DJT"
-      },
-      {
         "time": "09:56",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116818915365927435LOUISIANA: VOTE FOR JULIA TODAY!!! DJT"
+      },
+      {
+        "time": "13:56",
+        "text": "https://babylonbee.com/news/cubans-living-in-nyc-begin-boarding-rafts-to-escape-communism-again"
+      },
+      {
+        "time": "14:00",
+        "text": "Reeling Democratic establishment accuses socialists of exploiting ballot access: https://justthenews.com/politics-policy/elections/reeling-democratic-establishment-suggests-policing-primaries-pushing-back"
       }
     ]
   },
@@ -29,12 +33,13 @@
   "today_features": {
     "posts_1_5": true,
     "avg_len_medium": true,
-    "caps_high": true,
-    "excl_heavy": true,
+    "caps_low": true,
+    "excl_normal": true,
     "questions_no": true,
-    "mostly_premarket": true,
     "has_night": true,
     "kw_deal": true,
+    "kw_ban": true,
+    "open_ban": true,
     "kw_terrible": true,
     "kw_president_djt": true,
     "is_weekend": true,
@@ -151,19 +156,19 @@
   "evolution_latest": {
     "date": "2026-06-27",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_china",
-          "avg_len_long",
-          "kw_wonderful"
+          "open_thank_you_for_your_attention",
+          "open_jobs",
+          "kw_energy"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 1,
         "score": 91.7,
         "origin": "crossover"
       },
@@ -179,13 +184,13 @@
       },
       {
         "features": [
-          "kw_amazing",
-          "volume_spike"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.9,
-        "origin": "mutation_remove"
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
