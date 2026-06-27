@@ -1,9 +1,9 @@
 {
   "date": "2026-06-27",
-  "prepared_at": "2026-06-27T14:45:15Z",
+  "prepared_at": "2026-06-27T17:45:08Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
+    "count": 6,
     "latest": "Reeling Democratic establishment accuses socialists of exploiting ballot access: https://justthenews.com/politics-policy/elections/reeling-democratic-establishment-suggests-policing-primaries-pushing-",
     "earliest_time": "2026-06-27T01:14:18.033Z",
     "latest_time": "2026-06-27T14:00:40.637Z",
@@ -14,7 +14,15 @@
       },
       {
         "time": "09:56",
+        "text": "The Communists are finally making their move. I’ve been waiting and preparing for this for a long time. It’s easy to be a Communist — All you have to do is say, “I’ll give you everything,” but that means you’re taking it away from others that have earned it. Over thousands of years, that Ideology ha"
+      },
+      {
+        "time": "09:56",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116818915365927435LOUISIANA: VOTE FOR JULIA TODAY!!! DJT"
+      },
+      {
+        "time": "10:00",
+        "text": "Last night’s Rally was packed — 45,000 people. July 4th will be a step beyond anything you’ve ever seen. The Military flyovers will be the best, EVER — The most planes, the newest planes, the fastest planes! I’ll be there to speak about how Great our Country is and, Making America Great Again! Presi"
       },
       {
         "time": "13:56",
@@ -31,7 +39,7 @@
     "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_medium": true,
     "caps_low": true,
     "excl_normal": true,
@@ -40,6 +48,8 @@
     "kw_deal": true,
     "kw_ban": true,
     "open_ban": true,
+    "kw_great": true,
+    "pre_great": true,
     "kw_terrible": true,
     "kw_president_djt": true,
     "is_weekend": true,
@@ -156,21 +166,20 @@
   "evolution_latest": {
     "date": "2026-06-27",
     "crossover": 16,
-    "mutation": 13,
+    "mutation": 9,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 41,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_thank_you_for_your_attention",
-          "open_jobs",
-          "kw_energy"
+          "kw_tariffs",
+          "kw_signed"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 91.7,
-        "origin": "crossover"
+        "hold": 2,
+        "score": 92.3,
+        "origin": "mutation_remove"
       },
       {
         "features": [
