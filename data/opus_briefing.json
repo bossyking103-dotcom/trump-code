@@ -1,16 +1,24 @@
 {
   "date": "2026-06-27",
-  "prepared_at": "2026-06-27T08:45:11Z",
+  "prepared_at": "2026-06-27T11:45:11Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "John Bolton, a very dumb, unbalanced, and unskilled former representative of the United States of America, just pleads guilty! He is a terrible person, a lunatic who only wanted to start trouble and w",
+    "count": 3,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116818915365927435LOUISIANA: VOTE FOR JULIA TODAY!!! DJT",
     "earliest_time": "2026-06-27T01:14:18.033Z",
-    "latest_time": "2026-06-27T01:14:18.033Z",
+    "latest_time": "2026-06-27T09:56:09.624Z",
     "sample": [
       {
         "time": "01:14",
         "text": "John Bolton, a very dumb, unbalanced, and unskilled former representative of the United States of America, just pleads guilty! He is a terrible person, a lunatic who only wanted to start trouble and wars, and who was a needless pusher of death and destruction wherever he went. Hopefully, he will be "
+      },
+      {
+        "time": "05:56",
+        "text": "LOUISIANA: VOTE FOR JULIA TODAY!!! DJT"
+      },
+      {
+        "time": "09:56",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116818915365927435LOUISIANA: VOTE FOR JULIA TODAY!!! DJT"
       }
     ]
   },
@@ -21,9 +29,10 @@
   "today_features": {
     "posts_1_5": true,
     "avg_len_medium": true,
-    "caps_low": true,
+    "caps_high": true,
     "excl_heavy": true,
     "questions_no": true,
+    "mostly_premarket": true,
     "has_night": true,
     "kw_deal": true,
     "kw_terrible": true,
@@ -149,6 +158,17 @@
     "top_3": [
       {
         "features": [
+          "kw_china",
+          "avg_len_long",
+          "kw_wonderful"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
@@ -159,22 +179,12 @@
       },
       {
         "features": [
-          "is_friday",
-          "kw_signed"
+          "kw_amazing",
+          "volume_spike"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_beautiful",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
+        "hold": 3,
+        "score": 88.9,
         "origin": "mutation_remove"
       }
     ]
