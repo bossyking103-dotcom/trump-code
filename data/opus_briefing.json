@@ -1,12 +1,12 @@
 {
   "date": "2026-06-27",
-  "prepared_at": "2026-06-27T17:45:08Z",
+  "prepared_at": "2026-06-27T20:45:09Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "Reeling Democratic establishment accuses socialists of exploiting ballot access: https://justthenews.com/politics-policy/elections/reeling-democratic-establishment-suggests-policing-primaries-pushing-",
+    "count": 7,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116823758959638034",
     "earliest_time": "2026-06-27T01:14:18.033Z",
-    "latest_time": "2026-06-27T14:00:40.637Z",
+    "latest_time": "2026-06-27T19:38:28.516Z",
     "sample": [
       {
         "time": "01:14",
@@ -14,15 +14,7 @@
       },
       {
         "time": "09:56",
-        "text": "The Communists are finally making their move. I’ve been waiting and preparing for this for a long time. It’s easy to be a Communist — All you have to do is say, “I’ll give you everything,” but that means you’re taking it away from others that have earned it. Over thousands of years, that Ideology ha"
-      },
-      {
-        "time": "09:56",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116818915365927435LOUISIANA: VOTE FOR JULIA TODAY!!! DJT"
-      },
-      {
-        "time": "10:00",
-        "text": "Last night’s Rally was packed — 45,000 people. July 4th will be a step beyond anything you’ve ever seen. The Military flyovers will be the best, EVER — The most planes, the newest planes, the fastest planes! I’ll be there to speak about how Great our Country is and, Making America Great Again! Presi"
       },
       {
         "time": "13:56",
@@ -31,6 +23,18 @@
       {
         "time": "14:00",
         "text": "Reeling Democratic establishment accuses socialists of exploiting ballot access: https://justthenews.com/politics-policy/elections/reeling-democratic-establishment-suggests-policing-primaries-pushing-back"
+      },
+      {
+        "time": "19:34",
+        "text": "I am very pleased to announce that I have nominated Lance Schroyer to be our next ICE Director. Lance has over 29 YEARS of Law Enforcement experience in Oklahoma — A State where I WON all 77 Counties in 2016, 2020, and 2024! Lance is a former Oklahoma State Trooper, and United States Marine. He is a"
+      },
+      {
+        "time": "19:35",
+        "text": "MAGA Warrior Mike Mazzei is running for Governor in Oklahoma, where I was the ONLY President to win ALL 77 Counties in three straight Elections. Additionally, I won more votes than any Candidate in the State's History! I LOVE Oklahoma, and Mike has my COMPLETE and TOTAL Endorsement for Governor! Mea"
+      },
+      {
+        "time": "19:38",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116823758959638034"
       }
     ]
   },
@@ -40,22 +44,106 @@
   ],
   "today_features": {
     "posts_6_10": true,
-    "avg_len_medium": true,
-    "caps_low": true,
-    "excl_normal": true,
+    "avg_len_long": true,
+    "caps_medium": true,
+    "excl_heavy": true,
     "questions_no": true,
+    "mostly_open": true,
     "has_night": true,
     "kw_deal": true,
+    "kw_delay": true,
+    "open_delay": true,
+    "kw_immediately": true,
+    "open_immediately": true,
     "kw_ban": true,
     "open_ban": true,
+    "kw_block": true,
+    "open_block": true,
+    "kw_dow": true,
+    "open_dow": true,
     "kw_great": true,
-    "pre_great": true,
+    "open_great": true,
+    "kw_fake": true,
+    "open_fake": true,
+    "kw_corrupt": true,
+    "open_corrupt": true,
     "kw_terrible": true,
+    "kw_worst": true,
+    "open_worst": true,
+    "kw_biden": true,
+    "open_biden": true,
+    "kw_maga": true,
+    "open_maga": true,
     "kw_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
+    "open_thank_you_for_your_attention": true,
+    "kw_never_let_you_down": true,
+    "open_never_let_you_down": true,
+    "kw_complete_and_total": true,
+    "open_complete_and_total": true,
     "is_weekend": true,
-    "volume_drop": true,
     "deal_without_tariff": true,
     "deal_no_tariff": true
+  },
+  "triggered_rules": {
+    "total": 4,
+    "long": 2,
+    "short": 2,
+    "sample": [
+      {
+        "id": "R0006",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0027",
+        "features": [
+          "kw_deal",
+          "open_biden",
+          "open_disaster"
+        ],
+        "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0085",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0097",
+        "features": [
+          "kw_biden",
+          "kw_deal",
+          "open_disaster"
+        ],
+        "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -165,21 +253,22 @@
   },
   "evolution_latest": {
     "date": "2026-06-27",
-    "crossover": 16,
-    "mutation": 9,
+    "crossover": 11,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 41,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tariffs",
-          "kw_signed"
+          "questions_yes",
+          "kw_signed",
+          "kw_dow_2plus"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 92.3,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 91.7,
+        "origin": "mutation_replace"
       },
       {
         "features": [
@@ -199,7 +288,7 @@
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "crossover"
       }
     ]
   },

@@ -3965,5 +3965,17 @@
       "DEAL_ONLY"
     ],
     "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-06-27",
+    "posts": 7,
+    "triggered": 4,
+    "long": 2,
+    "short": 2,
+    "signals": [
+      "DEAL",
+      "DEAL_ONLY"
+    ],
+    "consensus": "NEUTRAL"
   }
 ]
