@@ -1,21 +1,21 @@
 {
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T08:45:05Z",
-  "posts_today": 7,
+  "generated_at": "2026-06-28T23:33:09Z",
+  "posts_today": 15,
   "latest_post": {
-    "time": "2026-06-28T04:22",
-    "content_preview": "Based on a very quick and boring briefing concerning the Magot Hagerman book about me, it is mostly "
+    "time": "2026-06-28T20:03",
+    "content_preview": "The FIFA Numbers are far greater than any World Cup in History. This is a Great Tribute to the Unite"
   },
   "signals_detected": [
     "TARIFF",
     "DEAL",
     "IRAN"
   ],
-  "models_triggered": 0,
+  "models_triggered": 22,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 22,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -27,9 +27,228 @@
     "close": 7354.02
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-28\nPosts today: 7 | Models triggered: 0\nSignals: TARIFF, DEAL, IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Based on a very quick and boring briefing concerning the Magot Hagerman book about me, it is mostly ",
-    "zh": "川普密碼每日報告 -- 2026-06-28\n今日推文: 7 篇 | 觸發模型: 0 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Based on a very quick and boring briefing concerning the Magot Hagerman book about me, it is mostly ",
-    "ja": "トランプ・コード日次レポート -- 2026-06-28\n本日の投稿: 7件 | トリガーモデル: 0組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Based on a very quick and boring briefing concerning the Magot Hagerman book about me, it is mostly "
+    "en": "Trump Code Daily Report -- 2026-06-28\nPosts today: 15 | Models triggered: 22\nSignals: TARIFF, DEAL, IRAN\nConsensus: 22 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The FIFA Numbers are far greater than any World Cup in History. This is a Great Tribute to the Unite",
+    "zh": "川普密碼每日報告 -- 2026-06-28\n今日推文: 15 篇 | 觸發模型: 22 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 22 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The FIFA Numbers are far greater than any World Cup in History. This is a Great Tribute to the Unite",
+    "ja": "トランプ・コード日次レポート -- 2026-06-28\n本日の投稿: 15件 | トリガーモデル: 22組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 22組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The FIFA Numbers are far greater than any World Cup in History. This is a Great Tribute to the Unite"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "posts_11_20"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "open_trade",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "open_thank_you_for_your_attention",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "open_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tremendous",
+        "open_thank_you_for_your_attention",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_signed",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_signed",
+        "kw_tariff",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_interest_rate",
+        "kw_signed",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_interest_rate",
+        "kw_signed",
+        "open_dow"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }

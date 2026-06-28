@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-28T08:45:09Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-06-28T23:33:14Z",
+    "evolved_rules_added": 45
   },
   "rules": [
     {
@@ -13517,7 +13517,12 @@
       "parents": [
         "kw_tariff+kw_thank_you_for_your_attention",
         "both_tariff_and_deal+kw_inflation"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [

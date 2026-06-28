@@ -1,29 +1,13 @@
 {
   "date": "2026-06-28",
-  "prepared_at": "2026-06-28T08:45:10Z",
+  "prepared_at": "2026-06-28T23:33:14Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "Based on a very quick and boring briefing concerning the Magot Hagerman book about me, it is mostly made up, Fake News, largely fiction, as have been most of the things she has written about me for so",
+    "count": 15,
+    "latest": "The FIFA Numbers are far greater than any World Cup in History. This is a Great Tribute to the United States of America. Thank you to all! President DONALD J. TRUMP",
     "earliest_time": "2026-06-28T02:06:59.454Z",
-    "latest_time": "2026-06-28T04:22:48.371Z",
+    "latest_time": "2026-06-28T20:03:02.366Z",
     "sample": [
-      {
-        "time": "02:06",
-        "text": "Great News!!! Julia Letlow WON in Louisiana, beating conclusively a very strong and smart opponent. Congratulations to Julia. She will be a truly GREAT Senator! President DONALD J. TRUMP"
-      },
-      {
-        "time": "03:50",
-        "text": "Trump's election run continues as Letlow wins GOP runoff for Louisiana Senate seat: https://justthenews.com/politics-policy/elections/trump-backed-letlow-facing-against-fleming-us-senate-runoff-louisiana"
-      },
-      {
-        "time": "03:51",
-        "text": "Reeling Democratic establishment accuses socialists of exploiting ballot access: https://justthenews.com/politics-policy/elections/reeling-democratic-establishment-suggests-policing-primaries-pushing-back"
-      },
-      {
-        "time": "03:52",
-        "text": "Aloha, gun grabbers: Trump's national carry push gets SCOTUS boost as Hawaii's rule is knocked down: https://justthenews.com/government/white-house/aloha-gun-grabbers-trumps-national-carry-push-gets-scotus-boost-hawaiis-rule"
-      },
       {
         "time": "03:52",
         "text": "Supreme Court immigration rulings cement Trump as foremost border security guardian: https://justthenews.com/government/security/friscotus-immigration-rulings-cement-trump-foremost-border-security-guardian"
@@ -35,6 +19,34 @@
       {
         "time": "04:22",
         "text": "Based on a very quick and boring briefing concerning the Magot Hagerman book about me, it is mostly made up, Fake News, largely fiction, as have been most of the things she has written about me for so many years. She is a third rate writer and intellect, who has made a first rate income because of y"
+      },
+      {
+        "time": "15:59",
+        "text": "Our Great National Security Facility and Ballroom is moving along on schedule. When completed, there will be nothing like it anywhere in the World! President DONALD J. TRUMP"
+      },
+      {
+        "time": "17:44",
+        "text": "This is what happens to people who desecrate, or even think about desecrating, our Great Monuments, Statues, or Fountains!https://www.egattorneys.com/destroy-govt-property"
+      },
+      {
+        "time": "18:42",
+        "text": "I just returned from a tour of various Statues, Monuments, Fountains and, most importantly, an old and run down Golf Course located throughout Washington, D.C., our Nation's Capital. Almost all of the Statues, Monuments, and Fountains have been completely renovated and restored, and are in, after su"
+      },
+      {
+        "time": "19:01",
+        "text": "Janeese Lewis George, the Communist who is almost certainly going to be elected Mayor of Washington, D.C., has stated that she wants to empty the prisons, make D.C. a Sanctuary City, oppose ICE, welcome Criminal Illegal Aliens back into our beloved Capital, resist Anti-Crime Crackdowns, Defund the P"
+      },
+      {
+        "time": "19:59",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116829500559553610Our Great National Security Facility and Ballroom is moving along on schedule. When completed, there will be nothing like it anywhere in the World! President DONALD J. TRUMP"
+      },
+      {
+        "time": "19:59",
+        "text": "Communism is the Greatest Threat to our Country since World War I, World War II, Pearl Harbor, or 9/11! President DONALD J. TRUMP"
+      },
+      {
+        "time": "20:03",
+        "text": "The FIFA Numbers are far greater than any World Cup in History. This is a Great Tribute to the United States of America. Thank you to all! President DONALD J. TRUMP"
       }
     ]
   },
@@ -44,8 +56,8 @@
     "IRAN"
   ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_medium": true,
+    "posts_11_20": true,
+    "avg_len_long": true,
     "caps_low": true,
     "excl_normal": true,
     "questions_no": true,
@@ -54,18 +66,172 @@
     "kw_tariff": true,
     "kw_tariffs": true,
     "kw_deal": true,
+    "kw_signed": true,
+    "open_signed": true,
     "kw_russia": true,
     "pre_russia": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
     "kw_dow": true,
+    "kw_dow_2plus": true,
+    "open_dow": true,
     "kw_energy": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "open_great": true,
+    "kw_tremendous": true,
+    "open_tremendous": true,
+    "kw_beautiful": true,
+    "open_beautiful": true,
+    "kw_fantastic": true,
+    "open_fantastic": true,
+    "kw_wonderful": true,
+    "open_wonderful": true,
+    "kw_perfect": true,
+    "open_perfect": true,
     "kw_fake": true,
     "pre_fake": true,
+    "kw_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "is_weekend": true,
     "both_tariff_and_deal": true
+  },
+  "triggered_rules": {
+    "total": 22,
+    "long": 22,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0006",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0011",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0012",
+        "features": [
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "posts_11_20"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0013",
+        "features": [
+          "kw_dow_2plus",
+          "open_jobs",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0031",
+        "features": [
+          "kw_beautiful",
+          "open_trade",
+          "open_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0032",
+        "features": [
+          "kw_beautiful",
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0043",
+        "features": [
+          "kw_beautiful",
+          "open_thank_you_for_your_attention",
+          "open_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0048",
+        "features": [
+          "kw_dow_2plus",
+          "kw_energy",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0050",
+        "features": [
+          "kw_dow_2plus",
+          "open_dow",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0052",
+        "features": [
+          "kw_energy",
+          "open_dow",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -175,41 +341,39 @@
   },
   "evolution_latest": {
     "date": "2026-06-28",
-    "crossover": 16,
+    "crossover": 13,
     "mutation": 16,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_trillion",
-          "kw_inflation",
-          "kw_tariff"
+          "kw_thank_you_for_your_attention",
+          "open_china"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 100.0,
-        "origin": "crossover"
+        "score": 90.9,
+        "origin": "mutation_remove"
       },
       {
         "features": [
-          "open_china",
-          "open_russia"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "volume_falling_3d",
           "kw_tariff",
+          "kw_signed"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.6,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_signed",
           "kw_maga"
         ],
         "direction": "LONG",
-        "hold": 1,
+        "hold": 3,
         "score": 90.0,
         "origin": "crossover"
       }
