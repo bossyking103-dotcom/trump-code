@@ -1,149 +1,71 @@
 {
-  "date": "2026-06-27",
-  "prepared_at": "2026-06-27T20:45:09Z",
+  "date": "2026-06-28",
+  "prepared_at": "2026-06-28T05:45:18Z",
   "status": "PENDING",
   "today_posts": {
     "count": 7,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116823758959638034",
-    "earliest_time": "2026-06-27T01:14:18.033Z",
-    "latest_time": "2026-06-27T19:38:28.516Z",
+    "latest": "Based on a very quick and boring briefing concerning the Magot Hagerman book about me, it is mostly made up, Fake News, largely fiction, as have been most of the things she has written about me for so",
+    "earliest_time": "2026-06-28T02:06:59.454Z",
+    "latest_time": "2026-06-28T04:22:48.371Z",
     "sample": [
       {
-        "time": "01:14",
-        "text": "John Bolton, a very dumb, unbalanced, and unskilled former representative of the United States of America, just pleads guilty! He is a terrible person, a lunatic who only wanted to start trouble and wars, and who was a needless pusher of death and destruction wherever he went. Hopefully, he will be "
+        "time": "02:06",
+        "text": "Great News!!! Julia Letlow WON in Louisiana, beating conclusively a very strong and smart opponent. Congratulations to Julia. She will be a truly GREAT Senator! President DONALD J. TRUMP"
       },
       {
-        "time": "09:56",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116818915365927435LOUISIANA: VOTE FOR JULIA TODAY!!! DJT"
+        "time": "03:50",
+        "text": "Trump's election run continues as Letlow wins GOP runoff for Louisiana Senate seat: https://justthenews.com/politics-policy/elections/trump-backed-letlow-facing-against-fleming-us-senate-runoff-louisiana"
       },
       {
-        "time": "13:56",
-        "text": "https://babylonbee.com/news/cubans-living-in-nyc-begin-boarding-rafts-to-escape-communism-again"
-      },
-      {
-        "time": "14:00",
+        "time": "03:51",
         "text": "Reeling Democratic establishment accuses socialists of exploiting ballot access: https://justthenews.com/politics-policy/elections/reeling-democratic-establishment-suggests-policing-primaries-pushing-back"
       },
       {
-        "time": "19:34",
-        "text": "I am very pleased to announce that I have nominated Lance Schroyer to be our next ICE Director. Lance has over 29 YEARS of Law Enforcement experience in Oklahoma — A State where I WON all 77 Counties in 2016, 2020, and 2024! Lance is a former Oklahoma State Trooper, and United States Marine. He is a"
+        "time": "03:52",
+        "text": "Aloha, gun grabbers: Trump's national carry push gets SCOTUS boost as Hawaii's rule is knocked down: https://justthenews.com/government/white-house/aloha-gun-grabbers-trumps-national-carry-push-gets-scotus-boost-hawaiis-rule"
       },
       {
-        "time": "19:35",
-        "text": "MAGA Warrior Mike Mazzei is running for Governor in Oklahoma, where I was the ONLY President to win ALL 77 Counties in three straight Elections. Additionally, I won more votes than any Candidate in the State's History! I LOVE Oklahoma, and Mike has my COMPLETE and TOTAL Endorsement for Governor! Mea"
+        "time": "03:52",
+        "text": "Supreme Court immigration rulings cement Trump as foremost border security guardian: https://justthenews.com/government/security/friscotus-immigration-rulings-cement-trump-foremost-border-security-guardian"
       },
       {
-        "time": "19:38",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116823758959638034"
+        "time": "03:53",
+        "text": "Mack to the future: Trump touts Iran deal energy boom that could boost trucking biz: https://justthenews.com/government/white-house/mack-future-trump-touts-tariffs-and-iran-deal-energy-boom-will-boost"
+      },
+      {
+        "time": "04:22",
+        "text": "Based on a very quick and boring briefing concerning the Magot Hagerman book about me, it is mostly made up, Fake News, largely fiction, as have been most of the things she has written about me for so many years. She is a third rate writer and intellect, who has made a first rate income because of y"
       }
     ]
   },
   "keyword_signals": [
+    "TARIFF",
     "DEAL",
-    "DEAL_ONLY"
+    "IRAN"
   ],
   "today_features": {
     "posts_6_10": true,
-    "avg_len_long": true,
-    "caps_medium": true,
-    "excl_heavy": true,
+    "avg_len_medium": true,
+    "caps_low": true,
+    "excl_normal": true,
     "questions_no": true,
-    "mostly_open": true,
     "has_night": true,
+    "heavy_night": true,
+    "kw_tariff": true,
+    "kw_tariffs": true,
     "kw_deal": true,
-    "kw_delay": true,
-    "open_delay": true,
-    "kw_immediately": true,
-    "open_immediately": true,
-    "kw_ban": true,
-    "open_ban": true,
-    "kw_block": true,
-    "open_block": true,
+    "kw_russia": true,
+    "pre_russia": true,
+    "kw_iran": true,
+    "kw_iran_2plus": true,
+    "pre_iran": true,
     "kw_dow": true,
-    "open_dow": true,
+    "kw_energy": true,
     "kw_great": true,
-    "open_great": true,
     "kw_fake": true,
-    "open_fake": true,
-    "kw_corrupt": true,
-    "open_corrupt": true,
-    "kw_terrible": true,
-    "kw_worst": true,
-    "open_worst": true,
-    "kw_biden": true,
-    "open_biden": true,
-    "kw_maga": true,
-    "open_maga": true,
-    "kw_president_djt": true,
-    "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "open_thank_you_for_your_attention": true,
-    "kw_never_let_you_down": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "open_complete_and_total": true,
+    "pre_fake": true,
     "is_weekend": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
-  },
-  "triggered_rules": {
-    "total": 4,
-    "long": 2,
-    "short": 2,
-    "sample": [
-      {
-        "id": "R0006",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0027",
-        "features": [
-          "kw_deal",
-          "open_biden",
-          "open_disaster"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0085",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0097",
-        "features": [
-          "kw_biden",
-          "kw_deal",
-          "open_disaster"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "both_tariff_and_deal": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -252,42 +174,44 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-06-27",
-    "crossover": 11,
+    "date": "2026-06-28",
+    "crossover": 15,
     "mutation": 16,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "questions_yes",
           "kw_signed",
-          "kw_dow_2plus"
+          "kw_tariff",
+          "kw_tariffs"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 91.7,
+        "hold": 2,
+        "score": 92.3,
         "origin": "mutation_replace"
       },
       {
         "features": [
+          "kw_economy",
           "kw_interest_rate",
-          "kw_economy"
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "pre_great",
+          "is_friday",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
         "origin": "crossover"
       }
     ]

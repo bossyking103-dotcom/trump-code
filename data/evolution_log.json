@@ -14092,5 +14092,48 @@
         "origin": "crossover"
       }
     ]
+  },
+  {
+    "date": "2026-06-28",
+    "crossover": 15,
+    "mutation": 16,
+    "distill": 16,
+    "total_new": 47,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_signed",
+          "kw_tariff",
+          "kw_tariffs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 92.3,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "kw_economy",
+          "kw_interest_rate",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "pre_great",
+          "is_friday",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
+      }
+    ]
   }
 ]
