@@ -1,32 +1,16 @@
 {
   "date": "2026-06-29",
-  "prepared_at": "2026-06-29T14:45:17Z",
+  "prepared_at": "2026-06-29T17:45:10Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 9,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116833595973466644",
+    "count": 15,
+    "latest": "To show the importance of the Slaughter Case, 90 years of precedent has been COMPLETELY AND UNEQUIVOCALLY OVERRULED, greatly increasing Presidential Power at a time when it is most needed! President D",
     "earliest_time": "2026-06-29T00:11:14.500Z",
-    "latest_time": "2026-06-29T13:20:07.722Z",
+    "latest_time": "2026-06-29T15:24:48.602Z",
     "sample": [
       {
-        "time": "00:11",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116830493710945459"
-      },
-      {
-        "time": "02:15",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116830981377783021"
-      },
-      {
-        "time": "02:46",
-        "text": "Great painting!!  President DJT"
-      },
-      {
-        "time": "10:27",
-        "text": "Do you think people appreciate what a fantastic job we did in building and operating the Great American State Fair at the National Mall, packed with happy people, and everybody loving it? Ask yourself this simple question, \"DO YOU THINK THAT OBUMA OR SLEEPY JOE BIDEN COULD HAVE DONE IT?\" THE ANSWER "
-      },
-      {
-        "time": "10:47",
-        "text": "Highest Poll Numbers Ever. Even Higher than Election Day, November 5th. This despite the fact that, IRAN WILL NOT HAVE A NUCLEAR WEAPON!"
+        "time": "11:16",
+        "text": "Surprisingly, the Supreme Court declined to “review” a Fake Case brought against me by a woman I never met (Decades old celebrity photo line, standing with her husband, does not count!). I will continue the fight against this Weaponization and Lawfare Case against me, including the ridiculous claim "
       },
       {
         "time": "11:20",
@@ -43,6 +27,26 @@
       {
         "time": "13:20",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116833595973466644"
+      },
+      {
+        "time": "14:51",
+        "text": "BIG WIN just moments ago at the Supreme Court, in the Slaughter Case, confirming Presidential Power in our Country to remove Executive Branch Officers and Agency Appointees, or Representatives, under Article II. This Decision was long sought by United States Presidents, dating all the way back to th"
+      },
+      {
+        "time": "15:03",
+        "text": "In light of the tremendous loss in the Supreme Court today concerning Voter's Rights, and the fact that \"people's\" votes are allowed to be counted LONG AFTER an Election is over, it is more important than ever to pass THE SAVE AMERICA ACT, which is, 1. ALL VOTERS MUST SHOW PHOTO I.D. (IDENTIFICATION"
+      },
+      {
+        "time": "15:16",
+        "text": "Surprisingly, the Supreme Court declined to \"review\" a Fake Case brought against me by a woman I never met (Decades old celebrity photo line, standing with her husband, does not count!). I will continue the fight against this Weaponization and Lawfare Case against me, including the ridiculous claim "
+      },
+      {
+        "time": "15:23",
+        "text": "The Cook Lawsuit, having to do with her suitability in sitting on the Board of the Federal Reserve, was sent back by the Supreme Court on a strictly procedural basis, we will take appropriate action immediately to make sure that someone who has committed wrongdoing will not be making vital decisions"
+      },
+      {
+        "time": "15:24",
+        "text": "To show the importance of the Slaughter Case, 90 years of precedent has been COMPLETELY AND UNEQUIVOCALLY OVERRULED, greatly increasing Presidential Power at a time when it is most needed! President DONALD J. TRUMP"
       }
     ]
   },
@@ -50,14 +54,19 @@
     "IRAN"
   ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_short": true,
-    "caps_very_high": true,
-    "excl_normal": true,
+    "posts_11_20": true,
+    "avg_len_medium": true,
+    "caps_high": true,
+    "excl_heavy": true,
     "questions_yes": true,
-    "mostly_premarket": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_immediately": true,
+    "open_immediately": true,
+    "kw_ban": true,
+    "kw_ban_2plus": true,
+    "pre_ban": true,
+    "open_ban": true,
     "kw_iran": true,
     "kw_iran_2plus": true,
     "pre_iran": true,
@@ -69,25 +78,157 @@
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
+    "open_great": true,
+    "kw_tremendous": true,
+    "open_tremendous": true,
+    "kw_historic": true,
+    "open_historic": true,
     "kw_fantastic": true,
     "pre_fantastic": true,
+    "kw_fake": true,
+    "kw_fake_2plus": true,
+    "pre_fake": true,
+    "open_fake": true,
     "kw_biden": true,
     "pre_biden": true,
+    "kw_save_america": true,
+    "open_save_america": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
+    "pre_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "is_monday": true
   },
   "triggered_rules": {
-    "total": 1,
-    "long": 1,
+    "total": 13,
+    "long": 13,
     "short": 0,
     "sample": [
+      {
+        "id": "R0010",
+        "features": [
+          "excl_heavy",
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0012",
+        "features": [
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "posts_11_20"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0013",
+        "features": [
+          "kw_dow_2plus",
+          "open_jobs",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0043",
+        "features": [
+          "kw_beautiful",
+          "open_thank_you_for_your_attention",
+          "open_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0053",
+        "features": [
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0054",
+        "features": [
+          "kw_perfect",
+          "open_thank_you_for_your_attention",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0055",
+        "features": [
+          "kw_tremendous",
+          "open_thank_you_for_your_attention",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
       {
         "id": "R0086",
         "features": [
           "kw_dow_2plus",
           "kw_interest_rate",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0087",
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0088",
+        "features": [
+          "kw_tariff_2plus",
+          "open_thank_you_for_your_attention",
           "questions_yes"
         ],
         "direction": "LONG",
@@ -214,13 +355,25 @@
     "top_3": [
       {
         "features": [
-          "open_dow",
-          "kw_signed",
-          "questions_yes"
+          "open_tariff",
+          "volume_falling_3d",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "is_friday",
+          "kw_thank_you_for_your_attention",
+          "kw_dow_2plus",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
+        "score": 90.0,
         "origin": "crossover"
       },
       {
@@ -232,16 +385,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_dow_2plus",
-          "kw_president_of_the_united_states"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 89.3,
-        "origin": "crossover"
       }
     ]
   },
