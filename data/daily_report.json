@@ -1,17 +1,17 @@
 {
   "date": "2026-06-29",
-  "generated_at": "2026-06-29T17:45:05Z",
-  "posts_today": 15,
+  "generated_at": "2026-06-29T20:45:05Z",
+  "posts_today": 17,
   "latest_post": {
-    "time": "2026-06-29T15:24",
-    "content_preview": "To show the importance of the Slaughter Case, 90 years of precedent has been COMPLETELY AND UNEQUIVO"
+    "time": "2026-06-29T18:40",
+    "content_preview": "Today's Historic Slaughter Decision by the Supreme Court is the Greatest Increase in Presidential Po"
   },
   "signals_detected": [
     "IRAN"
   ],
-  "models_triggered": 13,
+  "models_triggered": 11,
   "direction_summary": {
-    "LONG": 13,
+    "LONG": 11,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -22,25 +22,14 @@
   },
   "sp500_latest": {
     "date": "2026-06-29",
-    "close": 7430.64
+    "close": 7440.43
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-29\nPosts today: 15 | Models triggered: 13\nSignals: IRAN\nConsensus: 13 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: To show the importance of the Slaughter Case, 90 years of precedent has been COMPLETELY AND UNEQUIVO",
-    "zh": "川普密碼每日報告 -- 2026-06-29\n今日推文: 15 篇 | 觸發模型: 13 組\n偵測信號: 伊朗\n共識方向: 13 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: To show the importance of the Slaughter Case, 90 years of precedent has been COMPLETELY AND UNEQUIVO",
-    "ja": "トランプ・コード日次レポート -- 2026-06-29\n本日の投稿: 15件 | トリガーモデル: 13組\n検出シグナル: イラン\nコンセンサス: 13組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: To show the importance of the Slaughter Case, 90 years of precedent has been COMPLETELY AND UNEQUIVO"
+    "en": "Trump Code Daily Report -- 2026-06-29\nPosts today: 17 | Models triggered: 11\nSignals: IRAN\nConsensus: 11 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Today's Historic Slaughter Decision by the Supreme Court is the Greatest Increase in Presidential Po",
+    "zh": "川普密碼每日報告 -- 2026-06-29\n今日推文: 17 篇 | 觸發模型: 11 組\n偵測信號: 伊朗\n共識方向: 11 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Today's Historic Slaughter Decision by the Supreme Court is the Greatest Increase in Presidential Po",
+    "ja": "トランプ・コード日次レポート -- 2026-06-29\n本日の投稿: 17件 | トリガーモデル: 11組\n検出シグナル: イラン\nコンセンサス: 11組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Today's Historic Slaughter Decision by the Supreme Court is the Greatest Increase in Presidential Po"
   },
   "triggered_rules_sample": [
-    {
-      "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
     {
       "features": [
         "kw_perfect",
@@ -159,17 +148,6 @@
       ],
       "direction": "LONG",
       "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     }
