@@ -1,17 +1,19 @@
 {
   "date": "2026-06-29",
-  "generated_at": "2026-06-29T08:45:07Z",
-  "posts_today": 3,
+  "generated_at": "2026-06-29T11:45:07Z",
+  "posts_today": 8,
   "latest_post": {
-    "time": "2026-06-29T02:46",
-    "content_preview": "Great painting!!  President DJT"
+    "time": "2026-06-29T10:27",
+    "content_preview": "Do you think people appreciate what a fantastic job we did in building and operating the Great Ameri"
   },
-  "signals_detected": [],
-  "models_triggered": 0,
+  "signals_detected": [
+    "IRAN"
+  ],
+  "models_triggered": 1,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 1,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -23,9 +25,21 @@
     "close": 7354.02
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-29\nPosts today: 3 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Great painting!!  President DJT",
-    "zh": "川普密碼每日報告 -- 2026-06-29\n今日推文: 3 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Great painting!!  President DJT",
-    "ja": "トランプ・コード日次レポート -- 2026-06-29\n本日の投稿: 3件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Great painting!!  President DJT"
+    "en": "Trump Code Daily Report -- 2026-06-29\nPosts today: 8 | Models triggered: 1\nSignals: IRAN\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Do you think people appreciate what a fantastic job we did in building and operating the Great Ameri",
+    "zh": "川普密碼每日報告 -- 2026-06-29\n今日推文: 8 篇 | 觸發模型: 1 組\n偵測信號: 伊朗\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Do you think people appreciate what a fantastic job we did in building and operating the Great Ameri",
+    "ja": "トランプ・コード日次レポート -- 2026-06-29\n本日の投稿: 8件 | トリガーモデル: 1組\n検出シグナル: イラン\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Do you think people appreciate what a fantastic job we did in building and operating the Great Ameri"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_interest_rate",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }

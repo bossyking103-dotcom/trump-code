@@ -1,12 +1,12 @@
 {
   "date": "2026-06-29",
-  "prepared_at": "2026-06-29T08:45:11Z",
+  "prepared_at": "2026-06-29T11:45:14Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "Great painting!!  President DJT",
+    "count": 8,
+    "latest": "Do you think people appreciate what a fantastic job we did in building and operating the Great American State Fair at the National Mall, packed with happy people, and everybody loving it? Ask yourself",
     "earliest_time": "2026-06-29T00:11:14.500Z",
-    "latest_time": "2026-06-29T02:46:19.422Z",
+    "latest_time": "2026-06-29T10:27:42.906Z",
     "sample": [
       {
         "time": "00:11",
@@ -19,21 +19,80 @@
       {
         "time": "02:46",
         "text": "Great painting!!  President DJT"
+      },
+      {
+        "time": "06:47",
+        "text": "Highest Poll Numbers Ever. Even Higher than Election Day, November 5th. This despite the fact that, IRAN WILL NOT HAVE A NUCLEAR WEAPON!"
+      },
+      {
+        "time": "07:20",
+        "text": "GAS PRICES COMING DOWN, FAST! REPORT ANY ABUSES AT RETAIL LEVEL!!! President DJT"
+      },
+      {
+        "time": "07:23",
+        "text": "WTI CRUDE - $69, and heading down. This is less than it was prior to the start of the Denuclearization of Iran! President DJT"
+      },
+      {
+        "time": "07:31",
+        "text": "IRAN HAS REQUESTED A MEETING. IT WILL TAKE PLACE TOMORROW IN DOHA! President DJT"
+      },
+      {
+        "time": "10:27",
+        "text": "Do you think people appreciate what a fantastic job we did in building and operating the Great American State Fair at the National Mall, packed with happy people, and everybody loving it? Ask yourself this simple question, \"DO YOU THINK THAT OBUMA OR SLEEPY JOE BIDEN COULD HAVE DONE IT?\" THE ANSWER "
       }
     ]
   },
+  "keyword_signals": [
+    "IRAN"
+  ],
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_short": true,
-    "caps_medium": true,
+    "caps_very_high": true,
     "excl_normal": true,
-    "questions_no": true,
+    "questions_yes": true,
+    "mostly_premarket": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_iran": true,
+    "kw_iran_2plus": true,
+    "pre_iran": true,
+    "kw_dow": true,
+    "kw_dow_2plus": true,
+    "pre_dow": true,
+    "kw_gas": true,
+    "pre_gas": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "kw_fantastic": true,
+    "pre_fantastic": true,
+    "kw_biden": true,
+    "pre_biden": true,
     "kw_president_djt": true,
-    "is_monday": true,
-    "volume_drop": true
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true,
+    "is_monday": true
+  },
+  "triggered_rules": {
+    "total": 1,
+    "long": 1,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0086",
+        "features": [
+          "kw_dow_2plus",
+          "kw_interest_rate",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -143,40 +202,41 @@
   },
   "evolution_latest": {
     "date": "2026-06-29",
-    "crossover": 14,
-    "mutation": 15,
+    "crossover": 16,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "kw_interest_rate"
+          "kw_president_of_the_united_states",
+          "kw_ban"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
+        "hold": 2,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "open_china",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_president_of_the_united_states",
+          "kw_economy",
+          "open_president_of_the_united_states"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_signed",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 88.9,
         "origin": "crossover"
       }
     ]
