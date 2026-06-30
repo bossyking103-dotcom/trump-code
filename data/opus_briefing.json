@@ -1,21 +1,13 @@
 {
   "date": "2026-06-30",
-  "prepared_at": "2026-06-30T14:45:11Z",
+  "prepared_at": "2026-06-30T17:45:09Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "Trump's efforts to reverse birthright citizenship may succeed with or without SCOTUS: https://justthenews.com/government/white-house/trumps-efforts-reverse-birthright-citizenship-can-succeed-or-withou",
+    "count": 12,
+    "latest": "The biggest and most consequential Decision issued by the Court, by far, is the Slaughter Case, which overturned the very famous Humphrey's Executor Rule. This whole concept of \"Power\" has been fought",
     "earliest_time": "2026-06-30T00:23:48.147Z",
-    "latest_time": "2026-06-30T13:31:24.850Z",
+    "latest_time": "2026-06-30T16:45:13.564Z",
     "sample": [
-      {
-        "time": "00:23",
-        "text": "A Golden Gift to the White House for its 250th Birthday Year!"
-      },
-      {
-        "time": "01:22",
-        "text": "I am pleased to announce the nomination of Anna St. John to serve as a Judge on the U.S. Court of Appeals for the Fifth Circuit. Anna is currently a Judge on the U.S. District Court for the Eastern District of Louisiana, and was previously President and General Counsel of the Hamilton Lincoln Law In"
-      },
       {
         "time": "01:23",
         "text": "I am pleased to announce the nomination of Justice Gregory Cook to serve as a Judge on the U.S. District Court for the Northern District of Alabama. Greg was elected to the Alabama Supreme Court in 2022. Before joining the Bench, he had a private practice career spanning more than three decades. Gre"
@@ -33,21 +25,143 @@
         "text": "Trump’s efforts to reverse birthright citizenship may succeed with or without SCOTUS: https://justthenews.com/government/white-house/trumps-efforts-reverse-birthright-citizenship-can-succeed-or-without-scotus"
       },
       {
+        "time": "13:30",
+        "text": "I would like to congratulate President Xi, and the Great Country of China, on their massive Birthright Citizenship WIN! President DONALD J. TRUMP"
+      },
+      {
         "time": "13:31",
         "text": "Trump's efforts to reverse birthright citizenship may succeed with or without SCOTUS: https://justthenews.com/government/white-house/trumps-efforts-reverse-birthright-citizenship-can-succeed-or-without-scotus"
+      },
+      {
+        "time": "14:46",
+        "text": "BIG WIN: The United States Supreme Court  just RULED AGAINST MEN PLAYING IN WOMEN'S SPORTS. Wow! That takes that ridiculous situation off the table!!! President DONALD J. TRUMP"
+      },
+      {
+        "time": "14:56",
+        "text": "The Supreme Court just took restrictions off political spending! A BIG WIN FOR REPUBLICANS and, more importantly, The First Amendment! President DONALD J. TRUMP"
+      },
+      {
+        "time": "16:23",
+        "text": "The Supreme Court upheld Birthright Citizenship, which is too bad for our Country, but we can easily make it up in Congress through Legislation, with the support of the President, that has now been determined during this process. No long and unwieldy Constitutional Amendment is necessary! Congress s"
+      },
+      {
+        "time": "16:45",
+        "text": "The biggest and most consequential Decision issued by the Court, by far, is the Slaughter Case, which overturned the very famous Humphrey's Executor Rule. This whole concept of \"Power\" has been fought over for nearly 100 years, going all the way back to Franklin Delanor Roosevelt, where a large slic"
       }
     ]
   },
+  "keyword_signals": [
+    "CHINA"
+  ],
   "today_features": {
-    "posts_6_10": true,
+    "posts_11_20": true,
     "avg_len_long": true,
     "caps_medium": true,
     "excl_normal": true,
     "questions_no": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_restrict": true,
+    "open_restrict": true,
+    "kw_china": true,
+    "open_china": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "open_great": true,
+    "kw_tremendous": true,
+    "open_tremendous": true,
+    "kw_elon": true,
+    "open_elon": true,
+    "kw_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
+    "kw_complete_and_total": true,
+    "open_complete_and_total": true,
     "volume_rising_3d": true
+  },
+  "triggered_rules": {
+    "total": 6,
+    "long": 6,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0012",
+        "features": [
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "posts_11_20"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0017",
+        "features": [
+          "kw_inflation",
+          "open_china",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0029",
+        "features": [
+          "kw_china",
+          "kw_thank_you_for_your_attention",
+          "open_inflation"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0043",
+        "features": [
+          "kw_beautiful",
+          "open_thank_you_for_your_attention",
+          "open_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0055",
+        "features": [
+          "kw_tremendous",
+          "open_thank_you_for_your_attention",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0061",
+        "features": [
+          "is_friday",
+          "kw_thank_you_for_your_attention",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -157,20 +271,20 @@
   },
   "evolution_latest": {
     "date": "2026-06-30",
-    "crossover": 16,
+    "crossover": 13,
     "mutation": 16,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_signed",
-          "kw_tariff"
+          "kw_thank_you_for_your_attention",
+          "open_china"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.6,
+        "score": 90.9,
         "origin": "mutation_remove"
       },
       {
@@ -185,13 +299,14 @@
       },
       {
         "features": [
-          "is_friday",
-          "kw_signed"
+          "kw_economy",
+          "kw_thank_you_for_your_attention",
+          "open_trade"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 87.5,
-        "origin": "mutation_remove"
+        "score": 88.9,
+        "origin": "crossover"
       }
     ]
   },

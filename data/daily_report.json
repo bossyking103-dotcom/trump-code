@@ -1,17 +1,19 @@
 {
   "date": "2026-06-30",
-  "generated_at": "2026-06-30T14:45:06Z",
-  "posts_today": 7,
+  "generated_at": "2026-06-30T17:45:04Z",
+  "posts_today": 12,
   "latest_post": {
-    "time": "2026-06-30T13:31",
-    "content_preview": "Trump's efforts to reverse birthright citizenship may succeed with or without SCOTUS: https://justth"
+    "time": "2026-06-30T16:45",
+    "content_preview": "The biggest and most consequential Decision issued by the Court, by far, is the Slaughter Case, whic"
   },
-  "signals_detected": [],
-  "models_triggered": 0,
+  "signals_detected": [
+    "CHINA"
+  ],
+  "models_triggered": 6,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 6,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -20,12 +22,79 @@
   },
   "sp500_latest": {
     "date": "2026-06-30",
-    "close": 7475.64
+    "close": 7493.88
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-30\nPosts today: 7 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Trump's efforts to reverse birthright citizenship may succeed with or without SCOTUS: https://justth",
-    "zh": "川普密碼每日報告 -- 2026-06-30\n今日推文: 7 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Trump's efforts to reverse birthright citizenship may succeed with or without SCOTUS: https://justth",
-    "ja": "トランプ・コード日次レポート -- 2026-06-30\n本日の投稿: 7件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Trump's efforts to reverse birthright citizenship may succeed with or without SCOTUS: https://justth"
+    "en": "Trump Code Daily Report -- 2026-06-30\nPosts today: 12 | Models triggered: 6\nSignals: CHINA\nConsensus: 6 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The biggest and most consequential Decision issued by the Court, by far, is the Slaughter Case, whic",
+    "zh": "川普密碼每日報告 -- 2026-06-30\n今日推文: 12 篇 | 觸發模型: 6 組\n偵測信號: 中國\n共識方向: 6 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The biggest and most consequential Decision issued by the Court, by far, is the Slaughter Case, whic",
+    "ja": "トランプ・コード日次レポート -- 2026-06-30\n本日の投稿: 12件 | トリガーモデル: 6組\n検出シグナル: 中国\nコンセンサス: 6組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The biggest and most consequential Decision issued by the Court, by far, is the Slaughter Case, whic"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "posts_11_20"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_inflation",
+        "open_china",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_china",
+        "kw_thank_you_for_your_attention",
+        "open_inflation"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "open_thank_you_for_your_attention",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tremendous",
+        "open_thank_you_for_your_attention",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_thank_you_for_your_attention",
+        "open_china"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }

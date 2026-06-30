@@ -4114,5 +4114,16 @@
     "short": 0,
     "signals": [],
     "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-06-30",
+    "posts": 12,
+    "triggered": 6,
+    "long": 6,
+    "short": 0,
+    "signals": [
+      "CHINA"
+    ],
+    "consensus": "BULLISH"
   }
 ]
