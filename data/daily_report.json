@@ -1,18 +1,18 @@
 {
   "date": "2026-06-30",
-  "generated_at": "2026-06-30T17:45:04Z",
-  "posts_today": 12,
+  "generated_at": "2026-06-30T20:45:06Z",
+  "posts_today": 17,
   "latest_post": {
-    "time": "2026-06-30T16:45",
-    "content_preview": "The biggest and most consequential Decision issued by the Court, by far, is the Slaughter Case, whic"
+    "time": "2026-06-30T19:30",
+    "content_preview": "\"FREE TINA!\" became the rallying cry of the Republican Party over the past two years. Tina Peters ju"
   },
   "signals_detected": [
     "CHINA"
   ],
-  "models_triggered": 6,
+  "models_triggered": 28,
   "direction_summary": {
-    "LONG": 6,
-    "SHORT": 0,
+    "LONG": 25,
+    "SHORT": 3,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -22,19 +22,52 @@
   },
   "sp500_latest": {
     "date": "2026-06-30",
-    "close": 7493.88
+    "close": 7499.36
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-06-30\nPosts today: 12 | Models triggered: 6\nSignals: CHINA\nConsensus: 6 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The biggest and most consequential Decision issued by the Court, by far, is the Slaughter Case, whic",
-    "zh": "川普密碼每日報告 -- 2026-06-30\n今日推文: 12 篇 | 觸發模型: 6 組\n偵測信號: 中國\n共識方向: 6 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The biggest and most consequential Decision issued by the Court, by far, is the Slaughter Case, whic",
-    "ja": "トランプ・コード日次レポート -- 2026-06-30\n本日の投稿: 12件 | トリガーモデル: 6組\n検出シグナル: 中国\nコンセンサス: 6組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The biggest and most consequential Decision issued by the Court, by far, is the Slaughter Case, whic"
+    "en": "Trump Code Daily Report -- 2026-06-30\nPosts today: 17 | Models triggered: 28\nSignals: CHINA\nConsensus: 25 LONG vs 3 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: \"FREE TINA!\" became the rallying cry of the Republican Party over the past two years. Tina Peters ju",
+    "zh": "川普密碼每日報告 -- 2026-06-30\n今日推文: 17 篇 | 觸發模型: 28 組\n偵測信號: 中國\n共識方向: 25 組看多 vs 3 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: \"FREE TINA!\" became the rallying cry of the Republican Party over the past two years. Tina Peters ju",
+    "ja": "トランプ・コード日次レポート -- 2026-06-30\n本日の投稿: 17件 | トリガーモデル: 28組\n検出シグナル: 中国\nコンセンサス: 25組ロング vs 3組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: \"FREE TINA!\" became the rallying cry of the Republican Party over the past two years. Tina Peters ju"
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "kw_perfect",
         "kw_thank_you_for_your_attention",
         "posts_11_20"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_energy",
+        "kw_interest_rate"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -54,9 +87,64 @@
     },
     {
       "features": [
+        "is_friday",
+        "kw_china",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_economy",
+        "open_china"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_biden",
+        "kw_china",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_china",
+        "open_biden",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "kw_china",
         "kw_thank_you_for_your_attention",
         "open_inflation"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "kw_tremendous"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -76,9 +164,75 @@
     },
     {
       "features": [
+        "kw_dow_2plus",
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "kw_tremendous",
         "open_thank_you_for_your_attention",
         "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "kw_interest_rate",
+        "open_energy"
       ],
       "direction": "LONG",
       "hold": 2,
