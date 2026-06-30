@@ -1,244 +1,46 @@
 {
-  "date": "2026-06-29",
-  "prepared_at": "2026-06-29T20:45:13Z",
+  "date": "2026-06-30",
+  "prepared_at": "2026-06-30T05:45:09Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 17,
-    "latest": "Today's Historic Slaughter Decision by the Supreme Court is the Greatest Increase in Presidential Power in the last 100 years. Such a Monumental Ruling at such an important time! President DONALD J. T",
-    "earliest_time": "2026-06-29T00:11:14.500Z",
-    "latest_time": "2026-06-29T18:40:01.516Z",
+    "count": 5,
+    "latest": "I am pleased to announce the nomination of Jason Manion to the United States Sentencing Commission. Jason is General Counsel and Senior Advisor to the White House Task Force to Eliminate Fraud. He pre",
+    "earliest_time": "2026-06-30T00:23:48.147Z",
+    "latest_time": "2026-06-30T01:26:01.298Z",
     "sample": [
       {
-        "time": "11:23",
-        "text": "WTI CRUDE - $69, and heading down. This is less than it was prior to the start of the Denuclearization of Iran! President DJT"
+        "time": "00:23",
+        "text": "A Golden Gift to the White House for its 250th Birthday Year!"
       },
       {
-        "time": "11:31",
-        "text": "IRAN HAS REQUESTED A MEETING. IT WILL TAKE PLACE TOMORROW IN DOHA! President DJT"
+        "time": "01:22",
+        "text": "I am pleased to announce the nomination of Anna St. John to serve as a Judge on the U.S. Court of Appeals for the Fifth Circuit. Anna is currently a Judge on the U.S. District Court for the Eastern District of Louisiana, and was previously President and General Counsel of the Hamilton Lincoln Law In"
       },
       {
-        "time": "13:20",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116833595973466644"
+        "time": "01:23",
+        "text": "I am pleased to announce the nomination of Justice Gregory Cook to serve as a Judge on the U.S. District Court for the Northern District of Alabama. Greg was elected to the Alabama Supreme Court in 2022. Before joining the Bench, he had a private practice career spanning more than three decades. Gre"
       },
       {
-        "time": "14:40",
-        "text": "Today’s Historic Slaughter Decision by the Supreme Court is the Greatest Increase in Presidential Power in the last 100 years. Such a Monumental Ruling at such an important time! President DONALD J. TRUMP"
+        "time": "01:24",
+        "text": "I am pleased to announce the nomination of Judge John Cronan to the United States Sentencing Commission. Judge Cronan is a Highly Respected Judge on the U.S. District Court for the Southern District of New York. Before joining the Bench, Judge Cronan was a Senior Official in the Department of Justic"
       },
       {
-        "time": "14:51",
-        "text": "BIG WIN just moments ago at the Supreme Court, in the Slaughter Case, confirming Presidential Power in our Country to remove Executive Branch Officers and Agency Appointees, or Representatives, under Article II. This Decision was long sought by United States Presidents, dating all the way back to th"
-      },
-      {
-        "time": "15:03",
-        "text": "In light of the tremendous loss in the Supreme Court today concerning Voter's Rights, and the fact that \"people's\" votes are allowed to be counted LONG AFTER an Election is over, it is more important than ever to pass THE SAVE AMERICA ACT, which is, 1. ALL VOTERS MUST SHOW PHOTO I.D. (IDENTIFICATION"
-      },
-      {
-        "time": "15:16",
-        "text": "Surprisingly, the Supreme Court declined to \"review\" a Fake Case brought against me by a woman I never met (Decades old celebrity photo line, standing with her husband, does not count!). I will continue the fight against this Weaponization and Lawfare Case against me, including the ridiculous claim "
-      },
-      {
-        "time": "15:23",
-        "text": "The Cook Lawsuit, having to do with her suitability in sitting on the Board of the Federal Reserve, was sent back by the Supreme Court on a strictly procedural basis, we will take appropriate action immediately to make sure that someone who has committed wrongdoing will not be making vital decisions"
-      },
-      {
-        "time": "15:24",
-        "text": "To show the importance of the Slaughter Case, 90 years of precedent has been COMPLETELY AND UNEQUIVOCALLY OVERRULED, greatly increasing Presidential Power at a time when it is most needed! President DONALD J. TRUMP"
-      },
-      {
-        "time": "18:40",
-        "text": "Today's Historic Slaughter Decision by the Supreme Court is the Greatest Increase in Presidential Power in the last 100 years. Such a Monumental Ruling at such an important time! President DONALD J. TRUMP"
+        "time": "01:26",
+        "text": "I am pleased to announce the nomination of Jason Manion to the United States Sentencing Commission. Jason is General Counsel and Senior Advisor to the White House Task Force to Eliminate Fraud. He previously served as Counselor to the Attorney General, and was an Assistant U.S. Attorney for the Nort"
       }
     ]
   },
-  "keyword_signals": [
-    "IRAN"
-  ],
   "today_features": {
-    "posts_11_20": true,
-    "avg_len_medium": true,
-    "caps_high": true,
+    "posts_1_5": true,
+    "avg_len_long": true,
+    "caps_medium": true,
     "excl_normal": true,
-    "questions_yes": true,
+    "questions_no": true,
     "has_night": true,
     "heavy_night": true,
-    "kw_immediately": true,
-    "open_immediately": true,
-    "kw_ban": true,
-    "kw_ban_2plus": true,
-    "pre_ban": true,
-    "open_ban": true,
-    "kw_iran": true,
-    "kw_iran_2plus": true,
-    "pre_iran": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "pre_dow": true,
-    "kw_gas": true,
-    "pre_gas": true,
     "kw_great": true,
-    "kw_great_2plus": true,
-    "pre_great": true,
-    "open_great": true,
-    "kw_tremendous": true,
-    "open_tremendous": true,
-    "kw_historic": true,
-    "kw_historic_2plus": true,
-    "open_historic": true,
-    "kw_fantastic": true,
-    "pre_fantastic": true,
-    "kw_fake": true,
-    "kw_fake_2plus": true,
-    "pre_fake": true,
-    "open_fake": true,
-    "kw_biden": true,
-    "pre_biden": true,
-    "kw_save_america": true,
-    "open_save_america": true,
-    "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "pre_president_djt": true,
-    "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "pre_thank_you_for_your_attention": true,
-    "open_thank_you_for_your_attention": true,
-    "is_monday": true
-  },
-  "triggered_rules": {
-    "total": 11,
-    "long": 11,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0012",
-        "features": [
-          "kw_perfect",
-          "kw_thank_you_for_your_attention",
-          "posts_11_20"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0013",
-        "features": [
-          "kw_dow_2plus",
-          "open_jobs",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0043",
-        "features": [
-          "kw_beautiful",
-          "open_thank_you_for_your_attention",
-          "open_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0053",
-        "features": [
-          "kw_perfect",
-          "kw_thank_you_for_your_attention",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0054",
-        "features": [
-          "kw_perfect",
-          "open_thank_you_for_your_attention",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0055",
-        "features": [
-          "kw_tremendous",
-          "open_thank_you_for_your_attention",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0086",
-        "features": [
-          "kw_dow_2plus",
-          "kw_interest_rate",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0087",
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0088",
-        "features": [
-          "kw_tariff_2plus",
-          "open_thank_you_for_your_attention",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0089",
-        "features": [
-          "kw_tariffs",
-          "open_thank_you_for_your_attention",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "volume_rising_3d": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -347,43 +149,43 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-06-29",
+    "date": "2026-06-30",
     "crossover": 16,
-    "mutation": 15,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_president_of_the_united_states",
-          "kw_president_of_the_united_states",
-          "kw_economy"
+          "open_russia",
+          "open_china"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 95.0,
+        "hold": 3,
+        "score": 91.7,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "open_china"
+          "kw_economy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_signed",
-          "kw_tariff"
+          "kw_president_of_the_united_states",
+          "kw_agreement",
+          "kw_tremendous"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.6,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
       }
     ]
   },

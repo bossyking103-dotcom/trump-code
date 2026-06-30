@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-06-29T20:45:13Z",
-    "evolved_rules_added": 47
+    "last_evolution": "2026-06-30T05:45:08Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -13836,7 +13836,12 @@
       "parents": [
         "kw_economy+kw_interest_rate",
         "kw_president_of_the_united_states+open_ban"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14907,7 +14912,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-06-29",
+      "born_date": "2026-06-30",
       "combined_score": 70.0
     }
   ]
