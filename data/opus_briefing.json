@@ -1,30 +1,54 @@
 {
   "date": "2026-07-01",
-  "prepared_at": "2026-07-01T14:45:10Z",
+  "prepared_at": "2026-07-01T17:45:13Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "Village People singer Victor Willis is dead at 74. He was a great and happy guy who loved that I used his groups song, YMCA, at my Rallies. It became a \"monster\" hit, again, 30 years after its origina",
+    "count": 3,
+    "latest": "How the Republican Senate is not firing the Parliamentarian, who was appointed by Radical Left Senator Harry Reid, and Barack Hussein Obama, is beyond me! She has been ruling unfairly against Republic",
     "earliest_time": "2026-07-01T10:53:46.961Z",
-    "latest_time": "2026-07-01T10:53:46.961Z",
+    "latest_time": "2026-07-01T16:56:26.350Z",
     "sample": [
       {
         "time": "10:53",
         "text": "Village People singer Victor Willis is dead at 74. He was a great and happy guy who loved that I used his groups song, YMCA, at my Rallies. It became a \"monster\" hit, again, 30 years after its original launch. Many singers and groups wanted to get on board at the Rallies after all of the Rally Atten"
+      },
+      {
+        "time": "16:19",
+        "text": "BIG NEWS! Micron, a truly GREAT American Company, and one of the \"HOTTEST\" anywhere in the World, has announced a HISTORIC $250 MILLION Investment in TRUMP ACCOUNTS. This incredible gesture, made by Micron's fantastic CEO, Sanjay Mehrotra, will make many children extremely happy some day in the not "
+      },
+      {
+        "time": "16:56",
+        "text": "How the Republican Senate is not firing the Parliamentarian, who was appointed by Radical Left Senator Harry Reid, and Barack Hussein Obama, is beyond me! She has been ruling unfairly against Republicans for years, and Majority Leader John Thune has the right to do it, immediately. FIRE THE PARLIAME"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
     "avg_len_very_long": true,
-    "caps_low": true,
+    "caps_medium": true,
     "excl_extreme": true,
     "questions_no": true,
-    "mostly_premarket": true,
+    "mostly_open": true,
+    "kw_immediately": true,
+    "open_immediately": true,
     "kw_great": true,
+    "kw_great_2plus": true,
     "pre_great": true,
+    "open_great": true,
+    "kw_incredible": true,
+    "open_incredible": true,
+    "kw_historic": true,
+    "open_historic": true,
+    "kw_fantastic": true,
+    "open_fantastic": true,
     "kw_wonderful": true,
     "pre_wonderful": true,
+    "kw_obama": true,
+    "open_obama": true,
+    "kw_golden_age": true,
+    "open_golden_age": true,
+    "kw_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "volume_rising_3d": true,
     "volume_drop": true
   },
@@ -137,33 +161,32 @@
   "evolution_latest": {
     "date": "2026-07-01",
     "crossover": 16,
-    "mutation": 9,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 41,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tariff_2plus",
-          "volume_falling_3d",
-          "kw_thank_you_for_your_attention"
+          "kw_economy",
+          "is_friday",
+          "kw_dow_2plus",
+          "open_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.0,
+        "hold": 3,
+        "score": 91.7,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_economy",
-          "kw_energy",
           "kw_thank_you_for_your_attention",
-          "kw_trade"
+          "open_china"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 90.0,
-        "origin": "crossover"
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
       },
       {
         "features": [
