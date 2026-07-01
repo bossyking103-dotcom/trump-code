@@ -1,255 +1,32 @@
 {
   "date": "2026-07-01",
-  "prepared_at": "2026-07-01T08:45:12Z",
+  "prepared_at": "2026-07-01T11:45:10Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 27,
-    "latest": "I just spoke with Governor Brian Kemp, and informed him that the Great State of Georgia has been approved to be given $318.3 Million Dollars in its Disaster Declaration Request related to Hurricane He",
-    "earliest_time": "2026-06-30T00:23:48.147Z",
-    "latest_time": "2026-06-30T23:34:29.502Z",
+    "count": 1,
+    "latest": "Village People singer Victor Willis is dead at 74. He was a great and happy guy who loved that I used his groups song, YMCA, at my Rallies. It became a \"monster\" hit, again, 30 years after its origina",
+    "earliest_time": "2026-07-01T10:53:46.961Z",
+    "latest_time": "2026-07-01T10:53:46.961Z",
     "sample": [
       {
-        "time": "21:20",
-        "text": "I just spoke with Governor Tate Reeves, and informed him that the Great State of Mississippi has been approved to be given $11 Million Dollars in its Disaster Declaration Request for Severe Storms, Winds, Tornadoes, and Flooding. Thank you for your attention to this matter! President DONALD J. TRUMP"
-      },
-      {
-        "time": "21:36",
-        "text": "I just spoke with Governor Brad Little (who has my Complete and Total Endorsement for Re-Election!), and informed him that the Great State of Idaho has been approved to be given $4.5 Million Dollars in its Disaster Declaration Request for Severe Storms, Winds, Flooding, and Landslides. Thank you for"
-      },
-      {
-        "time": "21:37",
-        "text": "I just spoke with Governor Mike Kehoe, and informed him that the Great State of Missouri has been approved to be given $27.6 Million Dollars in its Disaster Declaration Request for Severe Storms, Tornadoes, and Flooding. Thank you for your attention to this matter! President DONALD J. TRUMP"
-      },
-      {
-        "time": "21:39",
-        "text": "BIG NEWS! For the first time ever, the Republican Party will hold a MIDTERM CONVENTION. It will be in Dallas, Texas — One of my favorite places in the World. It will be fantastic! It has never been done before, and will be a truly Historic Event. We are going to celebrate the GREAT AMERICAN COMEBACK"
-      },
-      {
-        "time": "22:08",
-        "text": "I just spoke with Congressman Tom Tiffany (who has my Complete and Total Endorsement for Governor!), and informed him that the Great State of Wisconsin has been approved to be given $22.6 Million Dollars in its Disaster Declaration Request, for Severe Storms, Tornadoes, and Flooding. The wonderful p"
-      },
-      {
-        "time": "22:09",
-        "text": "I am pleased to announce that the Great State of Louisiana has been approved to be given $8.6 Million Dollars in its Disaster Declaration Request. Louisiana is truly a special place, with Governor Jeff Landry, Senator John Kennedy, soon to be Senator Julia Letlow, Speaker of the House Mike Johnson, "
-      },
-      {
-        "time": "22:10",
-        "text": "Since September, my Council of Economic Advisers has been led by the very highly respected Professor Pierre Yared, of Columbia University, as he and his team of \"Brainiacs\" at the CEA have worked around the clock to Make America WEALTHY Again — with Great Success! Unfortunately, Pierre is returning "
-      },
-      {
-        "time": "23:11",
-        "text": "Congratulations to Rachel Campos-Duffy on her new book, \"All American Patriotism: Celebrating 250 Years of America's Greatness!\" By sharing personal stories of Patriotism, along with those of her FOX colleagues, Rachel reveals the true Spirit of the U.S.A., how to end this crazy and wrong hatred for"
-      },
-      {
-        "time": "23:29",
-        "text": "I am pleased to announce that the Great State of Michigan has been approved to be given $32.1 Million Dollars in its Disaster Declaration Request, for Severe Storms, Tornadoes, and Flooding. I have so informed Governor Gretchen Whitmer of this approval. She was very grateful. The people of Michigan "
-      },
-      {
-        "time": "23:34",
-        "text": "I just spoke with Governor Brian Kemp, and informed him that the Great State of Georgia has been approved to be given $318.3 Million Dollars in its Disaster Declaration Request related to Hurricane Helene. I love the people of Georgia — My Great Honor. Thank you for your attention to this matter! Pr"
+        "time": "10:53",
+        "text": "Village People singer Victor Willis is dead at 74. He was a great and happy guy who loved that I used his groups song, YMCA, at my Rallies. It became a \"monster\" hit, again, 30 years after its original launch. Many singers and groups wanted to get on board at the Rallies after all of the Rally Atten"
       }
     ]
   },
-  "keyword_signals": [
-    "CHINA",
-    "IRAN"
-  ],
   "today_features": {
-    "posts_21_35": true,
-    "avg_len_long": true,
-    "caps_medium": true,
-    "excl_heavy": true,
+    "posts_1_5": true,
+    "avg_len_very_long": true,
+    "caps_low": true,
+    "excl_extreme": true,
     "questions_no": true,
-    "has_night": true,
-    "heavy_night": true,
-    "kw_restrict": true,
-    "open_restrict": true,
-    "kw_china": true,
-    "open_china": true,
-    "kw_iran": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "open_dow": true,
-    "kw_economy": true,
-    "kw_economy_2plus": true,
-    "open_economy": true,
-    "kw_oil": true,
-    "kw_energy": true,
-    "kw_energy_2plus": true,
-    "open_energy": true,
-    "kw_jobs": true,
+    "mostly_premarket": true,
     "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_tremendous": true,
-    "open_tremendous": true,
-    "kw_incredible": true,
-    "kw_incredible_2plus": true,
-    "open_incredible": true,
-    "kw_historic": true,
-    "kw_fantastic": true,
-    "kw_fantastic_2plus": true,
-    "open_fantastic": true,
+    "pre_great": true,
     "kw_wonderful": true,
-    "kw_wonderful_2plus": true,
-    "kw_corrupt": true,
-    "open_corrupt": true,
-    "kw_disaster": true,
-    "kw_disaster_2plus": true,
-    "open_disaster": true,
-    "kw_elon": true,
-    "open_elon": true,
-    "kw_america_first": true,
-    "kw_america_first_2plus": true,
-    "open_america_first": true,
-    "kw_golden_age": true,
-    "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "open_thank_you_for_your_attention": true,
-    "kw_never_let_you_down": true,
-    "kw_never_let_you_down_2plus": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "kw_complete_and_total_2plus": true,
-    "open_complete_and_total": true,
-    "volume_rising_3d": true
-  },
-  "triggered_rules": {
-    "total": 34,
-    "long": 30,
-    "short": 4,
-    "sample": [
-      {
-        "id": "R0001",
-        "features": [
-          "both_tariff_and_deal",
-          "kw_disaster",
-          "kw_jobs"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0004",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0005",
-        "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0010",
-        "features": [
-          "excl_heavy",
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0013",
-        "features": [
-          "kw_dow_2plus",
-          "open_jobs",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0016",
-        "features": [
-          "kw_economy",
-          "kw_energy",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0017",
-        "features": [
-          "kw_inflation",
-          "open_china",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0019",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0020",
-        "features": [
-          "is_friday",
-          "kw_china",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0021",
-        "features": [
-          "is_friday",
-          "kw_economy",
-          "open_china"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "pre_wonderful": true,
+    "volume_rising_3d": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -359,21 +136,31 @@
   },
   "evolution_latest": {
     "date": "2026-07-01",
-    "crossover": 15,
+    "crossover": 16,
     "mutation": 16,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "kw_interest_rate"
+          "kw_signed",
+          "kw_tariffs"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "crossover"
+        "hold": 2,
+        "score": 92.3,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_signed",
+          "kw_tariff"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.6,
+        "origin": "mutation_remove"
       },
       {
         "features": [
@@ -384,16 +171,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_signed",
-          "is_friday"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "mutation_remove"
       }
     ]
   },

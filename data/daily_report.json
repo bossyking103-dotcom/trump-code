@@ -1,20 +1,17 @@
 {
   "date": "2026-07-01",
-  "generated_at": "2026-07-01T08:45:07Z",
-  "posts_today": 27,
+  "generated_at": "2026-07-01T11:45:06Z",
+  "posts_today": 1,
   "latest_post": {
-    "time": "2026-06-30T23:34",
-    "content_preview": "I just spoke with Governor Brian Kemp, and informed him that the Great State of Georgia has been app"
+    "time": "2026-07-01T10:53",
+    "content_preview": "Village People singer Victor Willis is dead at 74. He was a great and happy guy who loved that I use"
   },
-  "signals_detected": [
-    "CHINA",
-    "IRAN"
-  ],
-  "models_triggered": 34,
+  "signals_detected": [],
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 30,
-    "SHORT": 4,
-    "consensus": "BULLISH"
+    "LONG": 0,
+    "SHORT": 0,
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -26,230 +23,9 @@
     "close": 7499.36
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-01\nPosts today: 27 | Models triggered: 34\nSignals: CHINA, IRAN\nConsensus: 30 LONG vs 4 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: I just spoke with Governor Brian Kemp, and informed him that the Great State of Georgia has been app",
-    "zh": "川普密碼每日報告 -- 2026-07-01\n今日推文: 27 篇 | 觸發模型: 34 組\n偵測信號: 中國, 伊朗\n共識方向: 30 組看多 vs 4 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: I just spoke with Governor Brian Kemp, and informed him that the Great State of Georgia has been app",
-    "ja": "トランプ・コード日次レポート -- 2026-07-01\n本日の投稿: 27件 | トリガーモデル: 34組\n検出シグナル: 中国, イラン\nコンセンサス: 30組ロング vs 4組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: I just spoke with Governor Brian Kemp, and informed him that the Great State of Georgia has been app"
+    "en": "Trump Code Daily Report -- 2026-07-01\nPosts today: 1 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Village People singer Victor Willis is dead at 74. He was a great and happy guy who loved that I use",
+    "zh": "川普密碼每日報告 -- 2026-07-01\n今日推文: 1 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Village People singer Victor Willis is dead at 74. He was a great and happy guy who loved that I use",
+    "ja": "トランプ・コード日次レポート -- 2026-07-01\n本日の投稿: 1件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Village People singer Victor Willis is dead at 74. He was a great and happy guy who loved that I use"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "both_tariff_and_deal",
-        "kw_disaster",
-        "kw_jobs"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_jobs",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_inflation",
-        "open_china",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_china",
-        "kw_economy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_economy",
-        "open_china"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_biden",
-        "kw_china",
-        "open_disaster"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_china",
-        "open_biden",
-        "open_disaster"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_china",
-        "kw_thank_you_for_your_attention",
-        "open_inflation"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "open_thank_you_for_your_attention",
-        "open_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_executive_order",
-        "kw_jobs",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "kw_energy",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
