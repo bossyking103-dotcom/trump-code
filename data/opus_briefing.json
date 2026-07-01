@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "prepared_at": "2026-07-01T17:45:13Z",
+  "prepared_at": "2026-07-01T20:45:11Z",
   "status": "PENDING",
   "today_posts": {
     "count": 3,
@@ -161,42 +161,41 @@
   "evolution_latest": {
     "date": "2026-07-01",
     "crossover": 16,
-    "mutation": 15,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "is_friday",
-          "kw_dow_2plus",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_thank_you_for_your_attention",
-          "open_china"
+          "open_thank_you_for_your_attention",
+          "kw_trade",
+          "volume_falling_3d"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
+        "score": 91.7,
+        "origin": "mutation_replace"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_economy",
+          "open_president_of_the_united_states"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_president_of_the_united_states",
+          "kw_india"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "mutation_remove"
       }
     ]
   },
