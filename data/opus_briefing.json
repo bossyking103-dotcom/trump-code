@@ -1,12 +1,12 @@
 {
   "date": "2026-07-02",
-  "prepared_at": "2026-07-02T11:45:09Z",
+  "prepared_at": "2026-07-02T14:45:11Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "S&P 500 closes with strongest quarter since 2020: https://justthenews.com/politics-policy/finance/sp-500-closes-strongest-quarter-2020",
+    "count": 6,
+    "latest": "How about this? Micron, a GREAT American Company, announced that they are putting in 250 Million Dollars into the Trump Accounts for the future benefit of children, and their stock went up 9 points to",
     "earliest_time": "2026-07-02T00:51:13.412Z",
-    "latest_time": "2026-07-02T01:59:19.117Z",
+    "latest_time": "2026-07-02T13:23:28.727Z",
     "sample": [
       {
         "time": "00:51",
@@ -23,23 +23,36 @@
       {
         "time": "01:59",
         "text": "S&P 500 closes with strongest quarter since 2020: https://justthenews.com/politics-policy/finance/sp-500-closes-strongest-quarter-2020"
+      },
+      {
+        "time": "12:02",
+        "text": "The United States spends more money on NATO than any other country, by far, to protect them, without getting any benefit from so doing: U.S. 999 Billion Dollars, United Kingdom, 90.5 Billion Dollars, France, 66.5  Billion Dollars, Italy, 48.8 Billion Dollars, Poland, 44.3 Billion Dollars. Others, in"
+      },
+      {
+        "time": "13:23",
+        "text": "How about this? Micron, a GREAT American Company, announced that they are putting in 250 Million Dollars into the Trump Accounts for the future benefit of children, and their stock went up 9 points today. Thank you Micron! President DJT"
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_medium": true,
     "caps_low": true,
     "excl_normal": true,
-    "questions_no": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_billion": true,
+    "pre_billion": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
     "kw_incredible": true,
     "kw_biden": true,
     "kw_kamala": true,
     "kw_save_america": true,
-    "volume_drop": true
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -150,32 +163,31 @@
   "evolution_latest": {
     "date": "2026-07-02",
     "crossover": 16,
-    "mutation": 10,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 42,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_jobs",
-          "open_thank_you_for_your_attention",
-          "kw_energy"
+          "mostly_open",
+          "kw_fake",
+          "open_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 1,
-        "score": 91.7,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "is_friday",
-          "kw_dow_2plus",
-          "kw_jobs"
+          "kw_tariffs",
+          "kw_signed"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "crossover"
+        "hold": 2,
+        "score": 92.3,
+        "origin": "mutation_remove"
       },
       {
         "features": [
