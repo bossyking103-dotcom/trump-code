@@ -1,17 +1,17 @@
 {
   "date": "2026-07-02",
-  "generated_at": "2026-07-02T17:45:09Z",
-  "posts_today": 6,
+  "generated_at": "2026-07-02T20:45:05Z",
+  "posts_today": 8,
   "latest_post": {
-    "time": "2026-07-02T13:23",
-    "content_preview": "How about this? Micron, a GREAT American Company, announced that they are putting in 250 Million Dol"
+    "time": "2026-07-02T17:48",
+    "content_preview": "Today I am declaring a National Scallops Day to celebrate an action taken by the National Oceanic an"
   },
   "signals_detected": [],
-  "models_triggered": 0,
+  "models_triggered": 5,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 5,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -20,12 +20,68 @@
   },
   "sp500_latest": {
     "date": "2026-07-02",
-    "close": 7437.16
+    "close": 7483.24
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-02\nPosts today: 6 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: How about this? Micron, a GREAT American Company, announced that they are putting in 250 Million Dol",
-    "zh": "川普密碼每日報告 -- 2026-07-02\n今日推文: 6 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: How about this? Micron, a GREAT American Company, announced that they are putting in 250 Million Dol",
-    "ja": "トランプ・コード日次レポート -- 2026-07-02\n本日の投稿: 6件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: How about this? Micron, a GREAT American Company, announced that they are putting in 250 Million Dol"
+    "en": "Trump Code Daily Report -- 2026-07-02\nPosts today: 8 | Models triggered: 5\nSignals: None\nConsensus: 5 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Today I am declaring a National Scallops Day to celebrate an action taken by the National Oceanic an",
+    "zh": "川普密碼每日報告 -- 2026-07-02\n今日推文: 8 篇 | 觸發模型: 5 組\n偵測信號: 無\n共識方向: 5 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Today I am declaring a National Scallops Day to celebrate an action taken by the National Oceanic an",
+    "ja": "トランプ・コード日次レポート -- 2026-07-02\n本日の投稿: 8件 | トリガーモデル: 5組\n検出シグナル: なし\nコンセンサス: 5組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Today I am declaring a National Scallops Day to celebrate an action taken by the National Oceanic an"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "open_thank_you_for_your_attention",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_executive_order",
+        "kw_jobs",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_beautiful",
+        "open_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_agreement",
+        "kw_jobs",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }

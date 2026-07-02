@@ -1,12 +1,12 @@
 {
   "date": "2026-07-02",
-  "prepared_at": "2026-07-02T17:45:15Z",
+  "prepared_at": "2026-07-02T20:45:10Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "How about this? Micron, a GREAT American Company, announced that they are putting in 250 Million Dollars into the Trump Accounts for the future benefit of children, and their stock went up 9 points to",
+    "count": 8,
+    "latest": "Today I am declaring a National Scallops Day to celebrate an action taken by the National Oceanic and Atmospheric Administration (NOAA) that will open up the Northern Edge of Georges Bank to Scallops ",
     "earliest_time": "2026-07-02T00:51:13.412Z",
-    "latest_time": "2026-07-02T13:23:28.727Z",
+    "latest_time": "2026-07-02T17:48:58.681Z",
     "sample": [
       {
         "time": "00:51",
@@ -25,34 +25,131 @@
         "text": "S&P 500 closes with strongest quarter since 2020: https://justthenews.com/politics-policy/finance/sp-500-closes-strongest-quarter-2020"
       },
       {
+        "time": "08:02",
+        "text": "S&amp;P 500 closes with strongest quarter since 2020: https://justthenews.com/politics-policy/finance/sp-500-closes-strongest-quarter-2020"
+      },
+      {
         "time": "12:02",
         "text": "The United States spends more money on NATO than any other country, by far, to protect them, without getting any benefit from so doing: U.S. 999 Billion Dollars, United Kingdom, 90.5 Billion Dollars, France, 66.5  Billion Dollars, Italy, 48.8 Billion Dollars, Poland, 44.3 Billion Dollars. Others, in"
       },
       {
         "time": "13:23",
         "text": "How about this? Micron, a GREAT American Company, announced that they are putting in 250 Million Dollars into the Trump Accounts for the future benefit of children, and their stock went up 9 points today. Thank you Micron! President DJT"
+      },
+      {
+        "time": "17:48",
+        "text": "Today I am declaring a National Scallops Day to celebrate an action taken by the National Oceanic and Atmospheric Administration (NOAA) that will open up the Northern Edge of Georges Bank to Scallops Fishing, fulfilling the dream to our Great Fishermen who were so badly treated by the Obama and Bide"
       }
     ]
   },
   "today_features": {
     "posts_6_10": true,
-    "avg_len_medium": true,
-    "caps_low": true,
+    "avg_len_long": true,
+    "caps_medium": true,
     "excl_normal": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_ban": true,
+    "open_ban": true,
+    "kw_restrict": true,
+    "open_restrict": true,
+    "kw_canada": true,
+    "open_canada": true,
+    "kw_jobs": true,
+    "open_jobs": true,
     "kw_billion": true,
     "pre_billion": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
+    "open_great": true,
     "kw_incredible": true,
+    "kw_beautiful": true,
+    "open_beautiful": true,
     "kw_biden": true,
+    "kw_biden_2plus": true,
+    "open_biden": true,
+    "kw_obama": true,
+    "open_obama": true,
     "kw_kamala": true,
     "kw_save_america": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
-    "pre_president_djt": true
+    "pre_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true
+  },
+  "triggered_rules": {
+    "total": 5,
+    "long": 5,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0013",
+        "features": [
+          "kw_dow_2plus",
+          "open_jobs",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0043",
+        "features": [
+          "kw_beautiful",
+          "open_thank_you_for_your_attention",
+          "open_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0045",
+        "features": [
+          "kw_executive_order",
+          "kw_jobs",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0091",
+        "features": [
+          "is_friday",
+          "kw_beautiful",
+          "open_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0100",
+        "features": [
+          "kw_agreement",
+          "kw_jobs",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -163,15 +260,16 @@
   "evolution_latest": {
     "date": "2026-07-02",
     "crossover": 16,
-    "mutation": 12,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "kw_interest_rate"
+          "kw_president_of_the_united_states",
+          "kw_inflation",
+          "kw_biden"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -190,13 +288,13 @@
       },
       {
         "features": [
-          "excl_heavy",
-          "kw_interest_rate"
+          "volume_falling_3d",
+          "kw_beautiful"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 2,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "mutation_remove"
       }
     ]
   },
