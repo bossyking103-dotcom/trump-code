@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-07-02T14:45:11Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-07-02T17:45:14Z",
+    "evolved_rules_added": 44
   },
   "rules": [
     {
@@ -13576,7 +13576,12 @@
       "parents": [
         "kw_economy+open_inflation",
         "kw_fake+mostly_open"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
