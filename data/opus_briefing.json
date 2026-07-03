@@ -1,12 +1,12 @@
 {
   "date": "2026-07-03",
-  "prepared_at": "2026-07-03T17:45:11Z",
+  "prepared_at": "2026-07-03T20:45:12Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "Ridiculous for the U.S.A. to continue along this one sided path when the relationship is not reciprocal. They were not there for us!!! President DJT",
+    "count": 6,
+    "latest": "Justin Gaethje came to the Oval Office to celebrate, with his parents, his Great Victory two weeks ago. It was one of the Highest Rated Fights in the History of Television, and what a Fight it was! Gr",
     "earliest_time": "2026-07-03T01:54:19.433Z",
-    "latest_time": "2026-07-03T02:56:01.261Z",
+    "latest_time": "2026-07-03T20:02:58.364Z",
     "sample": [
       {
         "time": "01:54",
@@ -19,11 +19,23 @@
       {
         "time": "02:56",
         "text": "Ridiculous for the U.S.A. to continue along this one sided path when the relationship is not reciprocal. They were not there for us!!! President DJT"
+      },
+      {
+        "time": "15:24",
+        "text": "250 years ago, on the eve of America’s momentous vote for Independence, Caesar Rodney received word that he was urgently needed to break a deadlock among the Delegates to the Second Continental Congress. Although he suffered from asthma and facial cancer, Rodney immediately set forth on a 80-mile ov"
+      },
+      {
+        "time": "19:24",
+        "text": "It is my Great Honor to have just signed Pardons for six people who were persecuted by the Biden Administration, and were in, or being sent to, prison, for \"fixing their car.\" While I know this sounds ridiculous, it is nevertheless a fact, and part of the Weaponization and Stupidity that our Country"
+      },
+      {
+        "time": "20:02",
+        "text": "Justin Gaethje came to the Oval Office to celebrate, with his parents, his Great Victory two weeks ago. It was one of the Highest Rated Fights in the History of Television, and what a Fight it was! Great Honor to see The Champ – He beat another truly Great Fighter who had never lost before. Presiden"
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_very_long": true,
     "caps_low": true,
     "excl_heavy": true,
@@ -31,11 +43,53 @@
     "has_night": true,
     "heavy_night": true,
     "kw_reciprocal": true,
+    "kw_signed": true,
+    "open_signed": true,
     "kw_immediately": true,
+    "kw_immediately_2plus": true,
+    "open_immediately": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "open_great": true,
+    "kw_stupid": true,
+    "open_stupid": true,
+    "kw_biden": true,
+    "open_biden": true,
     "kw_president_djt": true,
-    "is_friday": true,
-    "volume_drop": true
+    "is_friday": true
+  },
+  "triggered_rules": {
+    "total": 2,
+    "long": 2,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0044",
+        "features": [
+          "is_friday",
+          "kw_signed",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0068",
+        "features": [
+          "is_friday",
+          "kw_signed",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -146,32 +200,20 @@
   "evolution_latest": {
     "date": "2026-07-03",
     "crossover": 16,
-    "mutation": 13,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "questions_yes",
-          "kw_energy",
-          "open_energy"
+          "kw_signed",
+          "kw_tariffs"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 93.8,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "is_friday",
-          "kw_never_let_you_down"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 92.9,
-        "origin": "crossover"
+        "hold": 2,
+        "score": 92.3,
+        "origin": "mutation_remove"
       },
       {
         "features": [
@@ -182,6 +224,16 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "excl_heavy",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },
