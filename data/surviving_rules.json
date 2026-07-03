@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-07-03T14:45:15Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-07-03T17:45:11Z",
+    "evolved_rules_added": 45
   },
   "rules": [
     {
@@ -14874,33 +14874,29 @@
     },
     {
       "features": [
-        "kw_signed",
-        "kw_biden",
-        "kw_ban"
+        "kw_thank_you_for_your_attention",
+        "questions_yes",
+        "kw_energy",
+        "open_energy"
       ],
       "direction": "LONG",
-      "hold": 2,
-      "id": "22aeb89bf77c",
-      "n_cond": 3,
-      "train_trades": 7,
-      "train_win_rate": 85.7,
-      "train_avg": 0.546,
+      "hold": 1,
+      "id": "2a99bbe9dab0",
+      "n_cond": 4,
+      "train_trades": 8,
+      "train_win_rate": 87.5,
+      "train_avg": 0.209,
       "test_trades": 3,
       "test_win_rate": 100.0,
-      "test_avg": 0.389,
-      "combined_score": 92.9,
+      "test_avg": 0.728,
+      "combined_score": 93.8,
       "origin": "crossover",
-      "born_date": "2026-03-15",
+      "born_date": "2026-07-03",
       "weight": 1.0,
       "parents": [
-        "kw_signed+kw_tariffs_2plus",
-        "kw_ban+kw_biden"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
+        "kw_energy+kw_interest_rate",
+        "kw_perfect+kw_thank_you_for_your_attention"
+      ]
     },
     {
       "id": "INVERSE_TARIFF_LONG",
