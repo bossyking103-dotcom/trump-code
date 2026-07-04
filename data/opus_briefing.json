@@ -1,12 +1,12 @@
 {
   "date": "2026-07-04",
-  "prepared_at": "2026-07-04T14:45:09Z",
+  "prepared_at": "2026-07-04T17:45:09Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 5,
-    "latest": "Heading to beautiful Mount Rushmore to speak, shortly. Big Crowd! On all TV. Enjoy! President DJT",
+    "count": 6,
+    "latest": "Has anyone ever seen a Happy Dumocrat? President DONALD J. TRUMP",
     "earliest_time": "2026-07-04T00:03:06.343Z",
-    "latest_time": "2026-07-04T02:09:48.198Z",
+    "latest_time": "2026-07-04T15:02:16.970Z",
     "sample": [
       {
         "time": "00:03",
@@ -27,14 +27,19 @@
       {
         "time": "02:09",
         "text": "Heading to beautiful Mount Rushmore to speak, shortly. Big Crowd! On all TV. Enjoy! President DJT"
+      },
+      {
+        "time": "15:02",
+        "text": "Has anyone ever seen a Happy Dumocrat? President DONALD J. TRUMP"
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_long": true,
     "caps_high": true,
     "excl_heavy": true,
+    "questions_yes": true,
     "has_night": true,
     "heavy_night": true,
     "kw_trade": true,
@@ -55,12 +60,11 @@
     "kw_golden_age_2plus": true,
     "kw_filibuster": true,
     "kw_president_djt": true,
-    "is_weekend": true,
-    "volume_drop": true
+    "is_weekend": true
   },
   "triggered_rules": {
-    "total": 4,
-    "long": 3,
+    "total": 6,
+    "long": 5,
     "short": 1,
     "sample": [
       {
@@ -69,6 +73,19 @@
           "kw_deal_2plus",
           "kw_economy",
           "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0009",
+        "features": [
+          "kw_economy",
+          "kw_interest_rate",
+          "questions_yes"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -97,6 +114,19 @@
           "kw_terrible"
         ],
         "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0092",
+        "features": [
+          "kw_economy",
+          "kw_interest_rate",
+          "questions_yes"
+        ],
+        "direction": "LONG",
         "hold": 3,
         "train_wr": 100.0,
         "test_wr": 100.0,
@@ -225,12 +255,32 @@
   },
   "evolution_latest": {
     "date": "2026-07-04",
-    "crossover": 16,
-    "mutation": 10,
+    "crossover": 14,
+    "mutation": 12,
     "distill": 16,
     "total_new": 42,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "kw_signed",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 92.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_tariffs",
+          "kw_signed"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 92.3,
+        "origin": "mutation_remove"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -240,28 +290,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_signed",
-          "kw_tariffs",
-          "kw_tariff"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 88.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_thank_you_for_your_attention",
-          "is_friday",
-          "excl_heavy"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
       }
     ]
   },
