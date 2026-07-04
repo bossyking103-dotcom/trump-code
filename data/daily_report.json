@@ -1,10 +1,10 @@
 {
   "date": "2026-07-04",
-  "generated_at": "2026-07-04T17:45:04Z",
-  "posts_today": 6,
+  "generated_at": "2026-07-04T20:45:05Z",
+  "posts_today": 9,
   "latest_post": {
-    "time": "2026-07-04T15:02",
-    "content_preview": "Has anyone ever seen a Happy Dumocrat? President DONALD J. TRUMP"
+    "time": "2026-07-04T18:59",
+    "content_preview": "Europe is learning that when you take in Third World criminals, you become a Third World Country. It"
   },
   "signals_detected": [],
   "models_triggered": 6,
@@ -23,15 +23,26 @@
     "close": 7483.24
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-04\nPosts today: 6 | Models triggered: 6\nSignals: None\nConsensus: 5 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Has anyone ever seen a Happy Dumocrat? President DONALD J. TRUMP",
-    "zh": "川普密碼每日報告 -- 2026-07-04\n今日推文: 6 篇 | 觸發模型: 6 組\n偵測信號: 無\n共識方向: 5 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Has anyone ever seen a Happy Dumocrat? President DONALD J. TRUMP",
-    "ja": "トランプ・コード日次レポート -- 2026-07-04\n本日の投稿: 6件 | トリガーモデル: 6組\n検出シグナル: なし\nコンセンサス: 5組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Has anyone ever seen a Happy Dumocrat? President DONALD J. TRUMP"
+    "en": "Trump Code Daily Report -- 2026-07-04\nPosts today: 9 | Models triggered: 6\nSignals: None\nConsensus: 5 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Europe is learning that when you take in Third World criminals, you become a Third World Country. It",
+    "zh": "川普密碼每日報告 -- 2026-07-04\n今日推文: 9 篇 | 觸發模型: 6 組\n偵測信號: 無\n共識方向: 5 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Europe is learning that when you take in Third World criminals, you become a Third World Country. It",
+    "ja": "トランプ・コード日次レポート -- 2026-07-04\n本日の投稿: 9件 | トリガーモデル: 6組\n検出シグナル: なし\nコンセンサス: 5組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Europe is learning that when you take in Third World criminals, you become a Third World Country. It"
   },
   "triggered_rules_sample": [
     {
       "features": [
         "kw_deal_2plus",
         "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_europe",
         "kw_jobs"
       ],
       "direction": "LONG",
@@ -80,17 +91,6 @@
       ],
       "direction": "LONG",
       "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_economy",
-        "kw_tariffs_2plus"
-      ],
-      "direction": "LONG",
-      "hold": 2,
       "train_wr": 100.0,
       "test_wr": 100.0
     }
