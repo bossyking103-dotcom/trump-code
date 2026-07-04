@@ -1,74 +1,74 @@
 {
-  "date": "2026-07-03",
-  "prepared_at": "2026-07-03T20:45:12Z",
+  "date": "2026-07-04",
+  "prepared_at": "2026-07-04T05:45:23Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "Justin Gaethje came to the Oval Office to celebrate, with his parents, his Great Victory two weeks ago. It was one of the Highest Rated Fights in the History of Television, and what a Fight it was! Gr",
-    "earliest_time": "2026-07-03T01:54:19.433Z",
-    "latest_time": "2026-07-03T20:02:58.364Z",
+    "count": 5,
+    "latest": "Heading to beautiful Mount Rushmore to speak, shortly. Big Crowd! On all TV. Enjoy! President DJT",
+    "earliest_time": "2026-07-04T00:03:06.343Z",
+    "latest_time": "2026-07-04T02:09:48.198Z",
     "sample": [
       {
-        "time": "01:54",
-        "text": "I am thrilled to announce the opening of SPIRIT OF '76 at FREEDOM PLAZA, a new Exhibition in Washington, D.C., honoring the Heroes and Martyrs of the American Revolution. This Exhibition includes a series of statues, including an equestrian statue of Founding Father Caesar Rodney, 12 Soldiers of the"
+        "time": "00:03",
+        "text": "BIG NEWS! My Administration is delivering another fantastic America First Victory. The Department of Treasury will now accept philanthropic contributions of readily tradable Publicly Traded Stock to help fund TRUMP ACCOUNTS for eligible American children. This opens the door for GREAT American Busin"
       },
       {
-        "time": "01:57",
-        "text": "250 years ago, on the eve of America's momentous vote for Independence, Caesar Rodney received word that he was urgently needed to break a deadlock among the Delegates to the Second Continental Congress. Although he suffered from asthma and facial cancer, Rodney immediately set forth on a 80-mile ov"
+        "time": "00:42",
+        "text": "The Communist Party is made up of Illegal Immigrants, Criminals, and Everybody That Doesn't Want to Work! President DONALD J. TRUMP"
       },
       {
-        "time": "02:56",
-        "text": "Ridiculous for the U.S.A. to continue along this one sided path when the relationship is not reciprocal. They were not there for us!!! President DJT"
+        "time": "01:02",
+        "text": "THE TRUMP ECONOMY IS SOARING! The Stock Market just completed its BEST QUARTER since the last time I was President. The S&P 500, Nasdaq, and Dow are all SURGING, sending Americans' 401(k)s higher and higher. My Working Families Tax Cuts mean MORE MONEY IN AMERICAN POCKETS. Our Trade Deficit continue"
       },
       {
-        "time": "15:24",
-        "text": "250 years ago, on the eve of America’s momentous vote for Independence, Caesar Rodney received word that he was urgently needed to break a deadlock among the Delegates to the Second Continental Congress. Although he suffered from asthma and facial cancer, Rodney immediately set forth on a 80-mile ov"
+        "time": "01:04",
+        "text": "Republicans, look what I just found! The Dumocrats are openly stating that they plan to TERMINATE THE FILIBUSTER if they ever take power, and EXPAND THE SUPREME COURT. In other words, they will add two Radical Left States, 4 Dumocrat Senators, many Congressmen/women, their dream of 21 Supreme Court "
       },
       {
-        "time": "19:24",
-        "text": "It is my Great Honor to have just signed Pardons for six people who were persecuted by the Biden Administration, and were in, or being sent to, prison, for \"fixing their car.\" While I know this sounds ridiculous, it is nevertheless a fact, and part of the Weaponization and Stupidity that our Country"
-      },
-      {
-        "time": "20:02",
-        "text": "Justin Gaethje came to the Oval Office to celebrate, with his parents, his Great Victory two weeks ago. It was one of the Highest Rated Fights in the History of Television, and what a Fight it was! Great Honor to see The Champ – He beat another truly Great Fighter who had never lost before. Presiden"
+        "time": "02:09",
+        "text": "Heading to beautiful Mount Rushmore to speak, shortly. Big Crowd! On all TV. Enjoy! President DJT"
       }
     ]
   },
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_very_long": true,
-    "caps_low": true,
+    "posts_1_5": true,
+    "avg_len_long": true,
+    "caps_high": true,
     "excl_heavy": true,
-    "questions_no": true,
     "has_night": true,
     "heavy_night": true,
-    "kw_reciprocal": true,
-    "kw_signed": true,
-    "open_signed": true,
-    "kw_immediately": true,
-    "kw_immediately_2plus": true,
-    "open_immediately": true,
+    "kw_trade": true,
+    "kw_trade_2plus": true,
+    "kw_stock_market": true,
+    "kw_dow": true,
+    "kw_nasdaq": true,
+    "kw_economy": true,
+    "kw_jobs": true,
+    "kw_deficit": true,
+    "kw_trillion": true,
     "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_stupid": true,
-    "open_stupid": true,
-    "kw_biden": true,
-    "open_biden": true,
+    "kw_incredible": true,
+    "kw_beautiful": true,
+    "kw_fantastic": true,
+    "kw_america_first": true,
+    "kw_golden_age": true,
+    "kw_golden_age_2plus": true,
+    "kw_filibuster": true,
     "kw_president_djt": true,
-    "is_friday": true
+    "is_weekend": true,
+    "volume_drop": true
   },
   "triggered_rules": {
-    "total": 2,
-    "long": 2,
-    "short": 0,
+    "total": 4,
+    "long": 3,
+    "short": 1,
     "sample": [
       {
-        "id": "R0044",
+        "id": "R0004",
         "features": [
-          "is_friday",
-          "kw_signed",
-          "questions_yes"
+          "kw_deal_2plus",
+          "kw_economy",
+          "kw_jobs"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -77,11 +77,37 @@
         "score": 100.0
       },
       {
-        "id": "R0068",
+        "id": "R0019",
         "features": [
-          "is_friday",
-          "kw_signed",
-          "kw_tremendous"
+          "kw_deal_2plus",
+          "kw_economy",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0073",
+        "features": [
+          "kw_america_first",
+          "kw_beautiful",
+          "kw_terrible"
+        ],
+        "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0099",
+        "features": [
+          "excl_heavy",
+          "kw_economy",
+          "kw_tariffs_2plus"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -198,42 +224,44 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-03",
+    "date": "2026-07-04",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_signed",
-          "kw_tariffs"
+          "kw_tariffs",
+          "questions_yes",
+          "kw_signed"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 92.3,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 92.9,
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
+          "kw_beautiful",
+          "kw_immediately",
+          "open_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "open_china",
           "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "excl_heavy",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
+        "origin": "mutation_remove"
       }
     ]
   },
