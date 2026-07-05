@@ -1,44 +1,183 @@
 {
   "date": "2026-07-05",
-  "prepared_at": "2026-07-05T14:45:11Z",
+  "prepared_at": "2026-07-05T17:45:11Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "Best fireworks show, EVER! President DJT",
+    "count": 44,
+    "latest": "Thank you to FIFA for doing what was right, and reversing a great injustice! President DONALD J. TRUMP",
     "earliest_time": "2026-07-05T01:05:25.474Z",
-    "latest_time": "2026-07-05T04:36:04.379Z",
+    "latest_time": "2026-07-05T17:14:05.678Z",
     "sample": [
       {
-        "time": "01:05",
-        "text": "Storms bring luck to whatever the occasion. They also make events a little bit more exciting! We will wait it out, I don't care if it's 2:00 O'Clock in the morning, or in one hour from now. Looks like it is going to pass, they always do. I will be there no matter what, but the \"what\" usually turns o"
+        "time": "16:08",
+        "text": "The statue \"Valor\" — one of the Arts of War statues — being completely regilded!"
       },
       {
-        "time": "02:16",
-        "text": "I'M HERE!!! DJT"
+        "time": "16:11",
+        "text": "From Greg Wischer at the United States Department of the Interior: \"The Theodore Roosevelt Island National Memorial, with two fountains and a 17-foot statue of Theodore Roosevelt, was just repaired, cleaned, and beautified, after experiencing chronic periods of disrepair.  The fountains were fixed; "
       },
       {
-        "time": "03:15",
-        "text": "https://www.youtube.com/live/qNhZAA7E3Ss?si=3u5VUWJJU61_hmdH"
+        "time": "16:12",
+        "text": "From Greg Wischer at the United States Department of the Interior: \"After 6 long years, the original cannons that previously surrounded the Andrew Jackson statue in Lafayette Park but were damaged in the 2020 riots have been returned to their rightful location around the statue.The four cannons—El W"
       },
       {
-        "time": "04:36",
-        "text": "Best fireworks show, EVER! President DJT"
+        "time": "16:16",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116868259368267169"
+      },
+      {
+        "time": "16:23",
+        "text": "From Shou Chew, CEO of TikTok: \"Attached are the latest numbers of the President on TikTok. All time views of #Trump TikToks are now at 425 billion. Also, 1 billion new views across UFC 250, Trump's Iran Peace Deal and \"Happy Birthday, Mr. President\" TikToks in just 48 hours!Wishing the President a "
+      },
+      {
+        "time": "16:24",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116868292534134605Number 1 on TikTok!"
+      },
+      {
+        "time": "16:28",
+        "text": "First Statue for Triumphal Arch — Amazing!"
+      },
+      {
+        "time": "16:32",
+        "text": "Plants like this are going up all over the Country. Many are Defense. They are massive!"
+      },
+      {
+        "time": "16:32",
+        "text": "They do this, and the Republican Party is DEAD!Key House caucus leaders target Supreme Court, Senate filibuster: https://www.politico.com/live-updates/2026/06/24/congress/dem-caucuses-target-scotus-00973895"
+      },
+      {
+        "time": "17:14",
+        "text": "Thank you to FIFA for doing what was right, and reversing a great injustice! President DONALD J. TRUMP"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "today_features": {
-    "posts_1_5": true,
+    "posts_36plus": true,
     "avg_len_medium": true,
-    "caps_medium": true,
-    "excl_heavy": true,
+    "caps_low": true,
+    "excl_normal": true,
     "questions_yes": true,
+    "mostly_open": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_deal": true,
+    "kw_deal_2plus": true,
+    "pre_deal": true,
+    "open_deal": true,
+    "kw_agreement": true,
+    "open_agreement": true,
+    "kw_signed": true,
+    "kw_signed_2plus": true,
+    "open_signed": true,
+    "kw_ban": true,
+    "open_ban": true,
+    "kw_iran": true,
+    "kw_iran_2plus": true,
+    "pre_iran": true,
+    "open_iran": true,
+    "kw_europe": true,
+    "open_europe": true,
+    "kw_billion": true,
+    "kw_billion_2plus": true,
+    "pre_billion": true,
+    "open_billion": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "open_great": true,
+    "kw_beautiful": true,
+    "open_beautiful": true,
+    "kw_amazing": true,
+    "open_amazing": true,
+    "kw_obama": true,
+    "open_obama": true,
+    "kw_elon": true,
+    "open_elon": true,
+    "kw_america_first": true,
+    "open_america_first": true,
+    "kw_filibuster": true,
+    "open_filibuster": true,
     "kw_president_djt": true,
     "pre_president_djt": true,
     "is_weekend": true,
-    "volume_drop": true
+    "volume_spike": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
+  },
+  "triggered_rules": {
+    "total": 5,
+    "long": 4,
+    "short": 1,
+    "sample": [
+      {
+        "id": "R0007",
+        "features": [
+          "kw_deal_2plus",
+          "kw_europe",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0018",
+        "features": [
+          "kw_signed",
+          "kw_tariffs_2plus",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0044",
+        "features": [
+          "is_friday",
+          "kw_signed",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0073",
+        "features": [
+          "kw_america_first",
+          "kw_beautiful",
+          "kw_terrible"
+        ],
+        "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0083",
+        "features": [
+          "kw_interest_rate",
+          "kw_signed",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -148,20 +287,31 @@
   },
   "evolution_latest": {
     "date": "2026-07-05",
-    "crossover": 15,
-    "mutation": 16,
+    "crossover": 11,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 42,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "open_china"
+          "kw_interest_rate",
+          "open_great",
+          "kw_dow_2plus"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 100.0,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "kw_signed",
+          "kw_tariffs"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.9,
+        "score": 92.3,
         "origin": "mutation_remove"
       },
       {
@@ -172,18 +322,7 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_president_of_the_united_states",
-          "kw_biden",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 88.9,
-        "origin": "crossover"
+        "origin": "mutation_remove"
       }
     ]
   },
