@@ -1,17 +1,17 @@
 {
-  "date": "2026-07-04",
-  "generated_at": "2026-07-04T20:45:05Z",
-  "posts_today": 9,
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T05:45:05Z",
+  "posts_today": 4,
   "latest_post": {
-    "time": "2026-07-04T18:59",
-    "content_preview": "Europe is learning that when you take in Third World criminals, you become a Third World Country. It"
+    "time": "2026-07-05T04:36",
+    "content_preview": "Best fireworks show, EVER! President DJT"
   },
   "signals_detected": [],
-  "models_triggered": 6,
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 5,
-    "SHORT": 1,
-    "consensus": "BULLISH"
+    "LONG": 0,
+    "SHORT": 0,
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -23,76 +23,9 @@
     "close": 7483.24
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-04\nPosts today: 9 | Models triggered: 6\nSignals: None\nConsensus: 5 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Europe is learning that when you take in Third World criminals, you become a Third World Country. It",
-    "zh": "川普密碼每日報告 -- 2026-07-04\n今日推文: 9 篇 | 觸發模型: 6 組\n偵測信號: 無\n共識方向: 5 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Europe is learning that when you take in Third World criminals, you become a Third World Country. It",
-    "ja": "トランプ・コード日次レポート -- 2026-07-04\n本日の投稿: 9件 | トリガーモデル: 6組\n検出シグナル: なし\nコンセンサス: 5組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Europe is learning that when you take in Third World criminals, you become a Third World Country. It"
+    "en": "Trump Code Daily Report -- 2026-07-05\nPosts today: 4 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Best fireworks show, EVER! President DJT",
+    "zh": "川普密碼每日報告 -- 2026-07-05\n今日推文: 4 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Best fireworks show, EVER! President DJT",
+    "ja": "トランプ・コード日次レポート -- 2026-07-05\n本日の投稿: 4件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Best fireworks show, EVER! President DJT"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_europe",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_america_first",
-        "kw_beautiful",
-        "kw_terrible"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }

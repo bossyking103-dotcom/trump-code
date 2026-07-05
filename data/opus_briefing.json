@@ -1,171 +1,44 @@
 {
-  "date": "2026-07-04",
-  "prepared_at": "2026-07-04T20:45:10Z",
+  "date": "2026-07-05",
+  "prepared_at": "2026-07-05T05:45:10Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 9,
-    "latest": "Europe is learning that when you take in Third World criminals, you become a Third World Country. It happens quickly, in just a blink of the eye. I was elected just in time!!! President DJT",
-    "earliest_time": "2026-07-04T00:03:06.343Z",
-    "latest_time": "2026-07-04T18:59:04.514Z",
+    "count": 4,
+    "latest": "Best fireworks show, EVER! President DJT",
+    "earliest_time": "2026-07-05T01:05:25.474Z",
+    "latest_time": "2026-07-05T04:36:04.379Z",
     "sample": [
       {
-        "time": "00:03",
-        "text": "BIG NEWS! My Administration is delivering another fantastic America First Victory. The Department of Treasury will now accept philanthropic contributions of readily tradable Publicly Traded Stock to help fund TRUMP ACCOUNTS for eligible American children. This opens the door for GREAT American Busin"
+        "time": "01:05",
+        "text": "Storms bring luck to whatever the occasion. They also make events a little bit more exciting! We will wait it out, I don't care if it's 2:00 O'Clock in the morning, or in one hour from now. Looks like it is going to pass, they always do. I will be there no matter what, but the \"what\" usually turns o"
       },
       {
-        "time": "00:42",
-        "text": "The Communist Party is made up of Illegal Immigrants, Criminals, and Everybody That Doesn't Want to Work! President DONALD J. TRUMP"
+        "time": "02:16",
+        "text": "I'M HERE!!! DJT"
       },
       {
-        "time": "01:02",
-        "text": "THE TRUMP ECONOMY IS SOARING! The Stock Market just completed its BEST QUARTER since the last time I was President. The S&P 500, Nasdaq, and Dow are all SURGING, sending Americans' 401(k)s higher and higher. My Working Families Tax Cuts mean MORE MONEY IN AMERICAN POCKETS. Our Trade Deficit continue"
+        "time": "03:15",
+        "text": "https://www.youtube.com/live/qNhZAA7E3Ss?si=3u5VUWJJU61_hmdH"
       },
       {
-        "time": "01:04",
-        "text": "Republicans, look what I just found! The Dumocrats are openly stating that they plan to TERMINATE THE FILIBUSTER if they ever take power, and EXPAND THE SUPREME COURT. In other words, they will add two Radical Left States, 4 Dumocrat Senators, many Congressmen/women, their dream of 21 Supreme Court "
-      },
-      {
-        "time": "02:09",
-        "text": "Heading to beautiful Mount Rushmore to speak, shortly. Big Crowd! On all TV. Enjoy! President DJT"
-      },
-      {
-        "time": "14:53",
-        "text": "Despite the heat, which isn’t as bad as predicted, the crowds in D.C. are INCREDIBLE! The love of our Country has never been stronger! The Air Shows are at a level never seen before - What great pilots, what great equipment!!! See you all later! Speaking at around 10:00 P.M. at The Lincoln Memorial."
-      },
-      {
-        "time": "15:02",
-        "text": "Has anyone ever seen a Happy Dumocrat? President DONALD J. TRUMP"
-      },
-      {
-        "time": "18:53",
-        "text": "Despite the heat, which isn't as bad as predicted, the crowds in D.C. are INCREDIBLE! The love of our Country has never been stronger! The Air Shows are at a level never seen before - What great pilots, what great equipment!!! See you all later! Speaking at around 10:00 P.M. at The Lincoln Memorial."
-      },
-      {
-        "time": "18:59",
-        "text": "Europe is learning that when you take in Third World criminals, you become a Third World Country. It happens quickly, in just a blink of the eye. I was elected just in time!!! President DJT"
+        "time": "04:36",
+        "text": "Best fireworks show, EVER! President DJT"
       }
     ]
   },
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_long": true,
+    "posts_1_5": true,
+    "avg_len_medium": true,
     "caps_medium": true,
-    "excl_extreme": true,
+    "excl_heavy": true,
     "questions_yes": true,
     "has_night": true,
     "heavy_night": true,
-    "kw_trade": true,
-    "kw_trade_2plus": true,
-    "kw_europe": true,
-    "open_europe": true,
-    "kw_stock_market": true,
-    "kw_dow": true,
-    "kw_nasdaq": true,
-    "kw_economy": true,
-    "kw_jobs": true,
-    "kw_deficit": true,
-    "kw_trillion": true,
     "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_incredible": true,
-    "kw_incredible_2plus": true,
-    "open_incredible": true,
-    "kw_beautiful": true,
-    "kw_fantastic": true,
-    "kw_america_first": true,
-    "kw_golden_age": true,
-    "kw_golden_age_2plus": true,
-    "kw_filibuster": true,
     "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "open_president_djt": true,
-    "is_weekend": true
-  },
-  "triggered_rules": {
-    "total": 6,
-    "long": 5,
-    "short": 1,
-    "sample": [
-      {
-        "id": "R0004",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0007",
-        "features": [
-          "kw_deal_2plus",
-          "kw_europe",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0009",
-        "features": [
-          "kw_economy",
-          "kw_interest_rate",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0019",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0073",
-        "features": [
-          "kw_america_first",
-          "kw_beautiful",
-          "kw_terrible"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0092",
-        "features": [
-          "kw_economy",
-          "kw_interest_rate",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "pre_president_djt": true,
+    "is_weekend": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -274,7 +147,7 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-04",
+    "date": "2026-07-05",
     "crossover": 16,
     "mutation": 16,
     "distill": 16,
@@ -283,34 +156,34 @@
     "top_3": [
       {
         "features": [
-          "open_inflation",
-          "open_thank_you_for_your_attention"
+          "kw_biden",
+          "kw_beautiful",
+          "kw_ban"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 2,
         "score": 91.7,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_tariff",
-          "kw_signed"
+          "open_china",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.6,
+        "hold": 3,
+        "score": 90.0,
         "origin": "mutation_remove"
       },
       {
         "features": [
-          "avg_len_long",
-          "kw_inflation",
-          "kw_incredible"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
         "score": 90.0,
-        "origin": "mutation_replace"
+        "origin": "distilled"
       }
     ]
   },
