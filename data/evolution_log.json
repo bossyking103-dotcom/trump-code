@@ -15818,5 +15818,46 @@
         "origin": "crossover"
       }
     ]
+  },
+  {
+    "date": "2026-07-05",
+    "crossover": 15,
+    "mutation": 16,
+    "distill": 16,
+    "total_new": 47,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_president_of_the_united_states",
+          "kw_biden",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 88.9,
+        "origin": "crossover"
+      }
+    ]
   }
 ]
