@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-07-05T17:45:10Z",
+    "last_evolution": "2026-07-05T20:45:10Z",
     "evolved_rules_added": 42
   },
   "rules": [
@@ -13632,7 +13632,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-07-05",
       "weight": 1.0,
-      "parent": "kw_dow_2plus+kw_interest_rate+questions_yes"
+      "parent": "kw_dow_2plus+kw_interest_rate+questions_yes",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
