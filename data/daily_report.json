@@ -1,21 +1,17 @@
 {
-  "date": "2026-07-05",
-  "generated_at": "2026-07-05T20:45:05Z",
-  "posts_today": 48,
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T05:45:08Z",
+  "posts_today": 2,
   "latest_post": {
-    "time": "2026-07-05T20:26",
-    "content_preview": "My father, grandparents, uncle, and aunt!"
+    "time": "2026-07-06T03:08",
+    "content_preview": "Harry Kane of England is a GREAT player!!!"
   },
-  "signals_detected": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
-  "models_triggered": 6,
+  "signals_detected": [],
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 5,
-    "SHORT": 1,
-    "consensus": "BULLISH"
+    "LONG": 0,
+    "SHORT": 0,
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -27,76 +23,9 @@
     "close": 7483.24
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-05\nPosts today: 48 | Models triggered: 6\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 5 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: My father, grandparents, uncle, and aunt!",
-    "zh": "川普密碼每日報告 -- 2026-07-05\n今日推文: 48 篇 | 觸發模型: 6 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 5 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: My father, grandparents, uncle, and aunt!",
-    "ja": "トランプ・コード日次レポート -- 2026-07-05\n本日の投稿: 48件 | トリガーモデル: 6組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 5組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: My father, grandparents, uncle, and aunt!"
+    "en": "Trump Code Daily Report -- 2026-07-06\nPosts today: 2 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Harry Kane of England is a GREAT player!!!",
+    "zh": "川普密碼每日報告 -- 2026-07-06\n今日推文: 2 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Harry Kane of England is a GREAT player!!!",
+    "ja": "トランプ・コード日次レポート -- 2026-07-06\n本日の投稿: 2件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Harry Kane of England is a GREAT player!!!"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "open_dow",
-        "open_trade",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_signed",
-        "kw_tariffs_2plus",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_signed",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_america_first",
-        "kw_beautiful",
-        "kw_terrible"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_interest_rate",
-        "kw_signed",
-        "open_dow"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_interest_rate",
-        "kw_signed",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
