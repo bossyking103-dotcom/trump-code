@@ -1,12 +1,12 @@
 {
   "date": "2026-07-06",
-  "prepared_at": "2026-07-06T17:45:13Z",
+  "prepared_at": "2026-07-06T20:45:11Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 8,
-    "latest": "From Greg Wischer at the United States Department of the Interior: \"The regilding of the sculpture \"Sacrifice\" is completed. That means both Arts of War sculptures, \"Valor\" and \"Sacrifice,\" were regil",
+    "count": 9,
+    "latest": "OIL PRICES COMING DOWN!https://www.bloomberg.com/news/articles/2026-07-06/saudis-make-biggest-oil-price-cut-in-decades-as-market-weakens",
     "earliest_time": "2026-07-06T02:21:04.294Z",
-    "latest_time": "2026-07-06T15:12:10.937Z",
+    "latest_time": "2026-07-06T19:00:46.080Z",
     "sample": [
       {
         "time": "02:21",
@@ -39,6 +39,10 @@
       {
         "time": "15:12",
         "text": "From Greg Wischer at the United States Department of the Interior: \"The regilding of the sculpture \"Sacrifice\" is completed. That means both Arts of War sculptures, \"Valor\" and \"Sacrifice,\" were regilded over one week ahead of schedule.\""
+      },
+      {
+        "time": "19:00",
+        "text": "OIL PRICES COMING DOWN!https://www.bloomberg.com/news/articles/2026-07-06/saudis-make-biggest-oil-price-cut-in-decades-as-market-weakens"
       }
     ]
   },
@@ -52,6 +56,12 @@
     "has_night": true,
     "kw_ban": true,
     "open_ban": true,
+    "kw_saudi": true,
+    "open_saudi": true,
+    "kw_dow": true,
+    "open_dow": true,
+    "kw_oil": true,
+    "open_oil": true,
     "kw_great": true,
     "kw_beautiful": true,
     "open_beautiful": true,
@@ -168,11 +178,31 @@
   "evolution_latest": {
     "date": "2026-07-06",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "is_friday",
+          "kw_complete_and_total_2plus"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 92.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_energy",
+          "kw_trade"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 90.9,
+        "origin": "crossover"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -181,29 +211,7 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_dow_2plus",
-          "is_friday",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "volume_spike",
-          "kw_amazing",
-          "kw_biden"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "mutation_replace"
+        "origin": "distilled"
       }
     ]
   },
