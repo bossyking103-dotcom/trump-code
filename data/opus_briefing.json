@@ -1,31 +1,51 @@
 {
   "date": "2026-07-07",
-  "prepared_at": "2026-07-07T05:45:10Z",
+  "prepared_at": "2026-07-07T08:45:13Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "The United States Military has never been stronger, or more powerful. No other Nation can do what we do (It’s not even close!). This year we set even more Historic Recruiting Records, months ahead of ",
-    "earliest_time": "2026-07-07T00:58:00.000Z",
-    "latest_time": "2026-07-07T00:58:00.000Z",
+    "count": 4,
+    "latest": "The United States Military has never been stronger, or more powerful. No other Nation can do what we do (It's not even close!). This year we set even more Historic Recruiting Records, months ahead of ",
+    "earliest_time": "2026-07-07T02:20:00.000Z",
+    "latest_time": "2026-07-07T04:58:08.186Z",
     "sample": [
       {
-        "time": "00:58",
-        "text": "The United States Military has never been stronger, or more powerful. No other Nation can do what we do (It’s not even close!). This year we set even more Historic Recruiting Records, months ahead of schedule. Morale has never been higher. Our Military’s unmatched POWER was on full display during ou"
+        "time": "02:20",
+        "text": "ROCK STAR: Trump Returns to Mount Rushmore For America’s 250th Birthday Bash: https://hannity.com/media-room/rock-star-trump-returns-to-mount-rushmore-for-americas-250th-birthday-bash/"
+      },
+      {
+        "time": "02:22",
+        "text": "Defying The Odds: President Trump Just Put On The Greatest Show On Earth: https://nickadamsmaga.substack.com/p/defying-the-odds-president-trump"
+      },
+      {
+        "time": "02:23",
+        "text": "American Exceptionalism &amp; Manifest Destiny: Trump Gives 4th of July Speech for the Ages on America’s 250th Birthday: https://www.breitbart.com/politics/2026/07/04/american-exceptionalism-manifest-destiny-trump-gives-4th-of-july-speech-for-the-ages-on-americas-250th-birthday/"
+      },
+      {
+        "time": "04:58",
+        "text": "The United States Military has never been stronger, or more powerful. No other Nation can do what we do (It's not even close!). This year we set even more Historic Recruiting Records, months ahead of schedule. Morale has never been higher. Our Military's unmatched POWER was on full display during ou"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_very_long": true,
+    "avg_len_long": true,
     "caps_medium": true,
-    "excl_extreme": true,
+    "excl_normal": true,
     "questions_no": true,
     "has_night": true,
+    "heavy_night": true,
     "kw_billion": true,
+    "pre_billion": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
     "kw_historic": true,
+    "pre_historic": true,
+    "kw_maga": true,
     "kw_save_america": true,
+    "pre_save_america": true,
     "kw_thank_you_for_your_attention": true,
+    "pre_thank_you_for_your_attention": true,
     "volume_drop": true
   },
   "model_performance": {
@@ -136,12 +156,22 @@
   },
   "evolution_latest": {
     "date": "2026-07-07",
-    "crossover": 16,
-    "mutation": 11,
+    "crossover": 15,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "kw_president_of_the_united_states",
+          "kw_india"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "mutation_remove"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -154,23 +184,14 @@
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
+          "kw_thank_you_for_your_attention",
+          "volume_falling_3d",
           "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "crossover"
       }
     ]
   },
