@@ -1,10 +1,10 @@
 {
   "date": "2026-07-07",
-  "generated_at": "2026-07-07T14:45:09Z",
-  "posts_today": 6,
+  "generated_at": "2026-07-07T17:45:06Z",
+  "posts_today": 7,
   "latest_post": {
-    "time": "2026-07-07T12:21",
-    "content_preview": "Toyota is moving from Mexico to the United States (Texas!). A really big deal. Tariffs at work! Pres"
+    "time": "2026-07-07T15:51",
+    "content_preview": "Thank you!NATO is stronger because Trump demanded more: https://www.washingtonexaminer.com/op-eds/46"
   },
   "signals_detected": [
     "TARIFF",
@@ -23,12 +23,12 @@
   },
   "sp500_latest": {
     "date": "2026-07-07",
-    "close": 7484.07
+    "close": 7518.06
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-07\nPosts today: 6 | Models triggered: 2\nSignals: TARIFF, DEAL\nConsensus: 2 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Toyota is moving from Mexico to the United States (Texas!). A really big deal. Tariffs at work! Pres",
-    "zh": "川普密碼每日報告 -- 2026-07-07\n今日推文: 6 篇 | 觸發模型: 2 組\n偵測信號: 關稅, Deal\n共識方向: 2 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Toyota is moving from Mexico to the United States (Texas!). A really big deal. Tariffs at work! Pres",
-    "ja": "トランプ・コード日次レポート -- 2026-07-07\n本日の投稿: 6件 | トリガーモデル: 2組\n検出シグナル: 関税, ディール\nコンセンサス: 2組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Toyota is moving from Mexico to the United States (Texas!). A really big deal. Tariffs at work! Pres"
+    "en": "Trump Code Daily Report -- 2026-07-07\nPosts today: 7 | Models triggered: 2\nSignals: TARIFF, DEAL\nConsensus: 2 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Thank you!NATO is stronger because Trump demanded more: https://www.washingtonexaminer.com/op-eds/46",
+    "zh": "川普密碼每日報告 -- 2026-07-07\n今日推文: 7 篇 | 觸發模型: 2 組\n偵測信號: 關稅, Deal\n共識方向: 2 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Thank you!NATO is stronger because Trump demanded more: https://www.washingtonexaminer.com/op-eds/46",
+    "ja": "トランプ・コード日次レポート -- 2026-07-07\n本日の投稿: 7件 | トリガーモデル: 2組\n検出シグナル: 関税, ディール\nコンセンサス: 2組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Thank you!NATO is stronger because Trump demanded more: https://www.washingtonexaminer.com/op-eds/46"
   },
   "triggered_rules_sample": [
     {

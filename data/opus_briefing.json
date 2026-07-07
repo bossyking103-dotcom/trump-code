@@ -1,12 +1,12 @@
 {
   "date": "2026-07-07",
-  "prepared_at": "2026-07-07T14:45:13Z",
+  "prepared_at": "2026-07-07T17:45:12Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "Toyota is moving from Mexico to the United States (Texas!). A really big deal. Tariffs at work! President DONALD J. TRUMP",
+    "count": 7,
+    "latest": "Thank you!NATO is stronger because Trump demanded more: https://www.washingtonexaminer.com/op-eds/4637918/shared-security-interests-nato-stronger-because-trump-demanded-more/",
     "earliest_time": "2026-07-07T04:58:08.186Z",
-    "latest_time": "2026-07-07T12:21:24.593Z",
+    "latest_time": "2026-07-07T15:51:24.451Z",
     "sample": [
       {
         "time": "04:58",
@@ -31,6 +31,10 @@
       {
         "time": "12:21",
         "text": "Toyota is moving from Mexico to the United States (Texas!). A really big deal. Tariffs at work! President DONALD J. TRUMP"
+      },
+      {
+        "time": "15:51",
+        "text": "Thank you!NATO is stronger because Trump demanded more: https://www.washingtonexaminer.com/op-eds/4637918/shared-security-interests-nato-stronger-because-trump-demanded-more/"
       }
     ]
   },
@@ -66,7 +70,6 @@
     "pre_save_america": true,
     "kw_thank_you_for_your_attention": true,
     "pre_thank_you_for_your_attention": true,
-    "volume_drop": true,
     "both_tariff_and_deal": true
   },
   "triggered_rules": {
@@ -211,11 +214,21 @@
   "evolution_latest": {
     "date": "2026-07-07",
     "crossover": 16,
-    "mutation": 13,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "kw_india",
+          "kw_president_of_the_united_states"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "mutation_remove"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -228,23 +241,14 @@
       },
       {
         "features": [
-          "kw_tremendous",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
+          "kw_beautiful",
           "kw_interest_rate",
-          "kw_tremendous"
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "crossover"
       }
     ]
   },
