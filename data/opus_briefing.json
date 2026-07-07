@@ -1,28 +1,32 @@
 {
   "date": "2026-07-07",
-  "prepared_at": "2026-07-07T08:45:13Z",
+  "prepared_at": "2026-07-07T11:45:14Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "The United States Military has never been stronger, or more powerful. No other Nation can do what we do (It's not even close!). This year we set even more Historic Recruiting Records, months ahead of ",
-    "earliest_time": "2026-07-07T02:20:00.000Z",
-    "latest_time": "2026-07-07T04:58:08.186Z",
+    "count": 5,
+    "latest": "American Exceptionalism &amp; Manifest Destiny: Trump Gives 4th of July Speech for the Ages on America’s 250th Birthday: https://www.breitbart.com/politics/2026/07/04/american-exceptionalism-manifest-",
+    "earliest_time": "2026-07-07T04:58:08.186Z",
+    "latest_time": "2026-07-07T06:43:00.000Z",
     "sample": [
-      {
-        "time": "02:20",
-        "text": "ROCK STAR: Trump Returns to Mount Rushmore For America’s 250th Birthday Bash: https://hannity.com/media-room/rock-star-trump-returns-to-mount-rushmore-for-americas-250th-birthday-bash/"
-      },
-      {
-        "time": "02:22",
-        "text": "Defying The Odds: President Trump Just Put On The Greatest Show On Earth: https://nickadamsmaga.substack.com/p/defying-the-odds-president-trump"
-      },
-      {
-        "time": "02:23",
-        "text": "American Exceptionalism &amp; Manifest Destiny: Trump Gives 4th of July Speech for the Ages on America’s 250th Birthday: https://www.breitbart.com/politics/2026/07/04/american-exceptionalism-manifest-destiny-trump-gives-4th-of-july-speech-for-the-ages-on-americas-250th-birthday/"
-      },
       {
         "time": "04:58",
         "text": "The United States Military has never been stronger, or more powerful. No other Nation can do what we do (It's not even close!). This year we set even more Historic Recruiting Records, months ahead of schedule. Morale has never been higher. Our Military's unmatched POWER was on full display during ou"
+      },
+      {
+        "time": "06:20",
+        "text": "ROCK STAR: Trump Returns to Mount Rushmore For America's 250th Birthday Bash: https://hannity.com/media-room/rock-star-trump-returns-to-mount-rushmore-for-americas-250th-birthday-bash/"
+      },
+      {
+        "time": "06:22",
+        "text": "Defying The Odds: President Trump Just Put On The Greatest Show On Earth: https://nickadamsmaga.substack.com/p/defying-the-odds-president-trump"
+      },
+      {
+        "time": "06:23",
+        "text": "American Exceptionalism & Manifest Destiny: Trump Gives 4th of July Speech for the Ages on America's 250th Birthday: https://www.breitbart.com/politics/2026/07/04/american-exceptionalism-manifest-destiny-trump-gives-4th-of-july-speech-for-the-ages-on-americas-250th-birthday/"
+      },
+      {
+        "time": "06:43",
+        "text": "American Exceptionalism &amp; Manifest Destiny: Trump Gives 4th of July Speech for the Ages on America’s 250th Birthday: https://www.breitbart.com/politics/2026/07/04/american-exceptionalism-manifest-destiny-trump-gives-4th-of-july-speech-for-the-ages-on-americas-250th-birthday/"
       }
     ]
   },
@@ -32,8 +36,7 @@
     "caps_medium": true,
     "excl_normal": true,
     "questions_no": true,
-    "has_night": true,
-    "heavy_night": true,
+    "mostly_premarket": true,
     "kw_billion": true,
     "pre_billion": true,
     "kw_great": true,
@@ -42,6 +45,7 @@
     "kw_historic": true,
     "pre_historic": true,
     "kw_maga": true,
+    "pre_maga": true,
     "kw_save_america": true,
     "pre_save_america": true,
     "kw_thank_you_for_your_attention": true,
@@ -156,41 +160,41 @@
   },
   "evolution_latest": {
     "date": "2026-07-07",
-    "crossover": 15,
-    "mutation": 13,
+    "crossover": 16,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_president_of_the_united_states",
-          "kw_india"
+          "open_china",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
+        "hold": 2,
+        "score": 90.9,
         "origin": "mutation_remove"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_jobs",
+          "is_friday",
+          "kw_dow_2plus"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "volume_falling_3d",
-          "kw_beautiful"
+          "kw_economy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 90.0,
         "origin": "crossover"
       }
     ]
