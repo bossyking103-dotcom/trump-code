@@ -1,17 +1,20 @@
 {
   "date": "2026-07-07",
-  "generated_at": "2026-07-07T11:45:08Z",
-  "posts_today": 5,
+  "generated_at": "2026-07-07T14:45:09Z",
+  "posts_today": 6,
   "latest_post": {
-    "time": "2026-07-07T06:43",
-    "content_preview": "American Exceptionalism &amp; Manifest Destiny: Trump Gives 4th of July Speech for the Ages on Ameri"
+    "time": "2026-07-07T12:21",
+    "content_preview": "Toyota is moving from Mexico to the United States (Texas!). A really big deal. Tariffs at work! Pres"
   },
-  "signals_detected": [],
-  "models_triggered": 0,
+  "signals_detected": [
+    "TARIFF",
+    "DEAL"
+  ],
+  "models_triggered": 2,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 2,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -19,13 +22,36 @@
     "rate": 100.0
   },
   "sp500_latest": {
-    "date": "2026-07-06",
-    "close": 7537.43
+    "date": "2026-07-07",
+    "close": 7484.07
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-07\nPosts today: 5 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: American Exceptionalism &amp; Manifest Destiny: Trump Gives 4th of July Speech for the Ages on Ameri",
-    "zh": "川普密碼每日報告 -- 2026-07-07\n今日推文: 5 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: American Exceptionalism &amp; Manifest Destiny: Trump Gives 4th of July Speech for the Ages on Ameri",
-    "ja": "トランプ・コード日次レポート -- 2026-07-07\n本日の投稿: 5件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: American Exceptionalism &amp; Manifest Destiny: Trump Gives 4th of July Speech for the Ages on Ameri"
+    "en": "Trump Code Daily Report -- 2026-07-07\nPosts today: 6 | Models triggered: 2\nSignals: TARIFF, DEAL\nConsensus: 2 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Toyota is moving from Mexico to the United States (Texas!). A really big deal. Tariffs at work! Pres",
+    "zh": "川普密碼每日報告 -- 2026-07-07\n今日推文: 6 篇 | 觸發模型: 2 組\n偵測信號: 關稅, Deal\n共識方向: 2 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Toyota is moving from Mexico to the United States (Texas!). A really big deal. Tariffs at work! Pres",
+    "ja": "トランプ・コード日次レポート -- 2026-07-07\n本日の投稿: 6件 | トリガーモデル: 2組\n検出シグナル: 関税, ディール\nコンセンサス: 2組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Toyota is moving from Mexico to the United States (Texas!). A really big deal. Tariffs at work! Pres"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }
