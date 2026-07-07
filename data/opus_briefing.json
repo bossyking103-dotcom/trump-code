@@ -1,73 +1,32 @@
 {
-  "date": "2026-07-06",
-  "prepared_at": "2026-07-06T20:45:11Z",
+  "date": "2026-07-07",
+  "prepared_at": "2026-07-07T05:45:10Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 9,
-    "latest": "OIL PRICES COMING DOWN!https://www.bloomberg.com/news/articles/2026-07-06/saudis-make-biggest-oil-price-cut-in-decades-as-market-weakens",
-    "earliest_time": "2026-07-06T02:21:04.294Z",
-    "latest_time": "2026-07-06T19:00:46.080Z",
+    "count": 1,
+    "latest": "The United States Military has never been stronger, or more powerful. No other Nation can do what we do (It’s not even close!). This year we set even more Historic Recruiting Records, months ahead of ",
+    "earliest_time": "2026-07-07T00:58:00.000Z",
+    "latest_time": "2026-07-07T00:58:00.000Z",
     "sample": [
       {
-        "time": "02:21",
-        "text": "Fed Reserve working paper suggests Biden illegal immigrant wave drove up home prices 30%: https://justthenews.com/government/security/fed-reserve-working-paper-suggests-biden-illegal-immigrant-wave-drove-home"
-      },
-      {
-        "time": "03:08",
-        "text": "Harry Kane of England is a GREAT player!!!"
-      },
-      {
-        "time": "14:59",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116873621175645512"
-      },
-      {
-        "time": "15:01",
-        "text": "From Greg Wischer at the United States Department of the Interior:\"Latest Law Enforcement numbers from the Reflecting Pool: 7 arrests, 7 additional people issued Federal citations, 19 incidents/reports filed. Here is the Reflecting Pool tonight!\""
-      },
-      {
-        "time": "15:04",
-        "text": "From Greg Wischer at the United States Department of the Interior:\"Here is another fountain update —Another one was just turned on. The Freedom Plaza fountain, which is located just southeast of the White House Ballroom, is not only fixed but also significantly improved, just like the President's ot"
-      },
-      {
-        "time": "15:06",
-        "text": "From Greg Wischer at the United States Department of the Interior:\"Another fountain has been fixed, beautified, and turned on — The Rawlins Park fountain! This fountain was defunct for nearly a decade, and the fountain's plumbing, electrical, mechanical systems all needed repairs. Like other parks w"
-      },
-      {
-        "time": "15:08",
-        "text": "https://www.washingtonpost.com/opinions/2026/06/22/jim-banks-architecture-america-should-be-beautiful-not-brutalist/"
-      },
-      {
-        "time": "15:12",
-        "text": "From Greg Wischer at the United States Department of the Interior: \"The regilding of the sculpture \"Sacrifice\" is completed. That means both Arts of War sculptures, \"Valor\" and \"Sacrifice,\" were regilded over one week ahead of schedule.\""
-      },
-      {
-        "time": "19:00",
-        "text": "OIL PRICES COMING DOWN!https://www.bloomberg.com/news/articles/2026-07-06/saudis-make-biggest-oil-price-cut-in-decades-as-market-weakens"
+        "time": "00:58",
+        "text": "The United States Military has never been stronger, or more powerful. No other Nation can do what we do (It’s not even close!). This year we set even more Historic Recruiting Records, months ahead of schedule. Morale has never been higher. Our Military’s unmatched POWER was on full display during ou"
       }
     ]
   },
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_medium": true,
-    "caps_low": true,
-    "excl_normal": true,
+    "posts_1_5": true,
+    "avg_len_very_long": true,
+    "caps_medium": true,
+    "excl_extreme": true,
     "questions_no": true,
-    "mostly_open": true,
     "has_night": true,
-    "kw_ban": true,
-    "open_ban": true,
-    "kw_saudi": true,
-    "open_saudi": true,
-    "kw_dow": true,
-    "open_dow": true,
-    "kw_oil": true,
-    "open_oil": true,
+    "kw_billion": true,
     "kw_great": true,
-    "kw_beautiful": true,
-    "open_beautiful": true,
-    "kw_biden": true,
-    "is_monday": true,
-    "volume_rising_3d": true
+    "kw_historic": true,
+    "kw_save_america": true,
+    "kw_thank_you_for_your_attention": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -176,33 +135,13 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-06",
+    "date": "2026-07-07",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "is_friday",
-          "kw_complete_and_total_2plus"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 92.9,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "open_energy",
-          "kw_trade"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 90.9,
-        "origin": "crossover"
-      },
       {
         "features": [
           "kw_interest_rate",
@@ -211,6 +150,26 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
         "origin": "distilled"
       }
     ]
