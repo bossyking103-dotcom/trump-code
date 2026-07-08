@@ -32,14 +32,6 @@
     "consecutive_wrong": 0
   },
   {
-    "date": "2026-06-23",
-    "status": "🟡 DEGRADING",
-    "vs_random": "✅ OK",
-    "degradation": "🔴 DEGRADING",
-    "consecutive": "✅ OK",
-    "consecutive_wrong": 0
-  },
-  {
     "date": "2026-06-24",
     "status": "🟡 DEGRADING",
     "vs_random": "✅ OK",
@@ -681,6 +673,14 @@
   },
   {
     "date": "2026-07-07",
+    "status": "🟡 DEGRADING",
+    "vs_random": "✅ OK",
+    "degradation": "🔴 DEGRADING",
+    "consecutive": "✅ OK",
+    "consecutive_wrong": 0
+  },
+  {
+    "date": "2026-07-08",
     "status": "🟡 DEGRADING",
     "vs_random": "✅ OK",
     "degradation": "🔴 DEGRADING",
