@@ -1,88 +1,141 @@
 {
-  "date": "2026-07-07",
-  "prepared_at": "2026-07-07T20:45:10Z",
+  "date": "2026-07-08",
+  "prepared_at": "2026-07-08T05:45:12Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "Thank you!NATO is stronger because Trump demanded more: https://www.washingtonexaminer.com/op-eds/4637918/shared-security-interests-nato-stronger-because-trump-demanded-more/",
-    "earliest_time": "2026-07-07T04:58:08.186Z",
-    "latest_time": "2026-07-07T15:51:24.451Z",
+    "count": 10,
+    "latest": "BREAKING NEWS: A very fair and highly respected Judge in the Middle District of Florida just denied The Failing New York Times' desperate attempt, together with other defendants we are suing, to move ",
+    "earliest_time": "2026-07-08T02:31:59.245Z",
+    "latest_time": "2026-07-08T02:48:47.329Z",
     "sample": [
       {
-        "time": "04:58",
-        "text": "The United States Military has never been stronger, or more powerful. No other Nation can do what we do (It's not even close!). This year we set even more Historic Recruiting Records, months ahead of schedule. Morale has never been higher. Our Military's unmatched POWER was on full display during ou"
+        "time": "02:31",
+        "text": "Australian alien arrested after investigation finds she illegally voted in two federal elections: https://justthenews.com/government/security/australian-alien-arrested-after-investigation-finds-she-illegally-voted-two"
       },
       {
-        "time": "06:20",
-        "text": "ROCK STAR: Trump Returns to Mount Rushmore For America's 250th Birthday Bash: https://hannity.com/media-room/rock-star-trump-returns-to-mount-rushmore-for-americas-250th-birthday-bash/"
+        "time": "02:32",
+        "text": "Federal judge hands Trump big win, directs DHS to restore voter verification features of SAVE system: https://justthenews.com/government/courts-law/federal-judge-directs-dhs-restore-voter-verification-features-save-system"
       },
       {
-        "time": "06:22",
-        "text": "Defying The Odds: President Trump Just Put On The Greatest Show On Earth: https://nickadamsmaga.substack.com/p/defying-the-odds-president-trump"
+        "time": "02:33",
+        "text": "Trump announces Walmart to lower prices for thousands of products at his administration's request: https://justthenews.com/nation/economy/trump-announces-walmart-lower-prices-thousands-products-his-administrations-request"
       },
       {
-        "time": "06:23",
-        "text": "American Exceptionalism & Manifest Destiny: Trump Gives 4th of July Speech for the Ages on America's 250th Birthday: https://www.breitbart.com/politics/2026/07/04/american-exceptionalism-manifest-destiny-trump-gives-4th-of-july-speech-for-the-ages-on-americas-250th-birthday/"
+        "time": "02:33",
+        "text": "Comer blasts Senate Republicans who do not support SAVE America Act: 'Are you that weak?'https://justthenews.com/government/congress/comer-blasts-senate-republicans-who-do-not-support-save-america-act-are-you"
       },
       {
-        "time": "06:43",
-        "text": "American Exceptionalism &amp; Manifest Destiny: Trump Gives 4th of July Speech for the Ages on America’s 250th Birthday: https://www.breitbart.com/politics/2026/07/04/american-exceptionalism-manifest-destiny-trump-gives-4th-of-july-speech-for-the-ages-on-americas-250th-birthday/"
+        "time": "02:34",
+        "text": "Trump fan or not, economists say Trump accounts are a good deal: https://justthenews.com/politics-policy/all-things-trump/trump-fan-or-not-economists-say-trump-accounts-are-good-deal"
       },
       {
-        "time": "12:21",
-        "text": "Toyota is moving from Mexico to the United States (Texas!). A really big deal. Tariffs at work! President DONALD J. TRUMP"
+        "time": "02:34",
+        "text": "Fed Reserve working paper suggests Biden illegal immigrant wave caused 30% of home price increases: https://justthenews.com/government/security/fed-reserve-working-paper-suggests-biden-illegal-immigrant-wave-drove-home"
       },
       {
-        "time": "15:51",
-        "text": "Thank you!NATO is stronger because Trump demanded more: https://www.washingtonexaminer.com/op-eds/4637918/shared-security-interests-nato-stronger-because-trump-demanded-more/"
+        "time": "02:36",
+        "text": "Trump caps sensational 250th celebration with tribute to the glory of American freedom: https://justthenews.com/politics-policy/all-things-trump/trump-caps-sensational-250th-celebration-tribute-glory-american"
+      },
+      {
+        "time": "02:45",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116882059882536161"
+      },
+      {
+        "time": "02:47",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116882069375303735"
+      },
+      {
+        "time": "02:48",
+        "text": "BREAKING NEWS: A very fair and highly respected Judge in the Middle District of Florida just denied The Failing New York Times' desperate attempt, together with other defendants we are suing, to move our powerhouse Defamation Lawsuit against them to another jurisdiction. We will now have an oral arg"
       }
     ]
   },
   "keyword_signals": [
-    "TARIFF",
-    "DEAL"
+    "DEAL",
+    "DEAL_ONLY"
   ],
   "today_features": {
     "posts_6_10": true,
     "avg_len_medium": true,
-    "caps_medium": true,
-    "excl_normal": true,
-    "questions_no": true,
-    "mostly_premarket": true,
-    "kw_tariff": true,
-    "pre_tariff": true,
-    "kw_tariffs": true,
-    "pre_tariffs": true,
+    "caps_low": true,
+    "excl_none": true,
+    "has_night": true,
+    "heavy_night": true,
     "kw_deal": true,
-    "pre_deal": true,
-    "kw_mexico": true,
-    "pre_mexico": true,
-    "kw_billion": true,
-    "pre_billion": true,
+    "kw_deal_2plus": true,
+    "kw_economy": true,
     "kw_great": true,
-    "kw_great_2plus": true,
-    "pre_great": true,
-    "kw_historic": true,
-    "pre_historic": true,
-    "kw_maga": true,
-    "pre_maga": true,
+    "kw_fake": true,
+    "kw_biden": true,
     "kw_save_america": true,
-    "pre_save_america": true,
     "kw_thank_you_for_your_attention": true,
-    "pre_thank_you_for_your_attention": true,
-    "both_tariff_and_deal": true
+    "volume_falling_3d": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 2,
-    "long": 2,
-    "short": 0,
+    "total": 7,
+    "long": 6,
+    "short": 1,
     "sample": [
+      {
+        "id": "R0004",
+        "features": [
+          "kw_deal_2plus",
+          "kw_economy",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
       {
         "id": "R0006",
         "features": [
           "kw_deal",
           "kw_perfect",
           "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0019",
+        "features": [
+          "kw_deal_2plus",
+          "kw_economy",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0041",
+        "features": [
+          "kw_tariffs_2plus",
+          "kw_thank_you_for_your_attention",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0075",
+        "features": [
+          "kw_deal",
+          "kw_inflation",
+          "volume_falling_3d"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -98,6 +151,19 @@
           "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0097",
+        "features": [
+          "kw_biden",
+          "kw_deal",
+          "open_disaster"
+        ],
+        "direction": "SHORT",
         "hold": 3,
         "train_wr": 100.0,
         "test_wr": 100.0,
@@ -212,29 +278,18 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "crossover": 16,
-    "mutation": 15,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_tariff",
-          "kw_thank_you_for_your_attention",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_tremendous",
-          "kw_jobs",
-          "is_friday"
+          "open_thank_you_for_your_attention",
+          "kw_beautiful",
+          "open_tariffs"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -250,6 +305,16 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "open_tariffs",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
+        "origin": "crossover"
       }
     ]
   },
