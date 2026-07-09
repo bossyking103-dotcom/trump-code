@@ -1,6 +1,6 @@
 {
   "date": "2026-07-09",
-  "prepared_at": "2026-07-09T08:45:17Z",
+  "prepared_at": "2026-07-09T11:45:11Z",
   "status": "PENDING",
   "today_posts": {
     "count": 1,
@@ -151,23 +151,23 @@
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
+          "kw_jobs",
+          "questions_yes"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
+          "kw_tremendous",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "mutation_remove"
       }
     ]
   },
