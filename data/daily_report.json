@@ -1,18 +1,18 @@
 {
   "date": "2026-07-10",
-  "generated_at": "2026-07-10T17:51:18Z",
-  "posts_today": 3,
+  "generated_at": "2026-07-10T20:45:06Z",
+  "posts_today": 10,
   "latest_post": {
-    "time": "2026-07-10T14:32",
-    "content_preview": "The Islamic Republic of Iran has asked us to continue \"talks.\" We have agreed to do so, but the Unit"
+    "time": "2026-07-10T20:17",
+    "content_preview": "Congressman Abe Hamadeh is an America First Patriot who is doing a fantastic job representing Arizon"
   },
   "signals_detected": [
     "IRAN"
   ],
-  "models_triggered": 4,
+  "models_triggered": 46,
   "direction_summary": {
-    "LONG": 4,
-    "SHORT": 0,
+    "LONG": 45,
+    "SHORT": 1,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -22,14 +22,113 @@
   },
   "sp500_latest": {
     "date": "2026-07-10",
-    "close": 7569.46
+    "close": 7575.39
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-10\nPosts today: 3 | Models triggered: 4\nSignals: IRAN\nConsensus: 4 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: The Islamic Republic of Iran has asked us to continue \"talks.\" We have agreed to do so, but the Unit",
-    "zh": "川普密碼每日報告 -- 2026-07-10\n今日推文: 3 篇 | 觸發模型: 4 組\n偵測信號: 伊朗\n共識方向: 4 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: The Islamic Republic of Iran has asked us to continue \"talks.\" We have agreed to do so, but the Unit",
-    "ja": "トランプ・コード日次レポート -- 2026-07-10\n本日の投稿: 3件 | トリガーモデル: 4組\n検出シグナル: イラン\nコンセンサス: 4組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: The Islamic Republic of Iran has asked us to continue \"talks.\" We have agreed to do so, but the Unit"
+    "en": "Trump Code Daily Report -- 2026-07-10\nPosts today: 10 | Models triggered: 46\nSignals: IRAN\nConsensus: 45 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Congressman Abe Hamadeh is an America First Patriot who is doing a fantastic job representing Arizon",
+    "zh": "川普密碼每日報告 -- 2026-07-10\n今日推文: 10 篇 | 觸發模型: 46 組\n偵測信號: 伊朗\n共識方向: 45 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Congressman Abe Hamadeh is an America First Patriot who is doing a fantastic job representing Arizon",
+    "ja": "トランプ・コード日次レポート -- 2026-07-10\n本日の投稿: 10件 | トリガーモデル: 46組\n検出シグナル: イラン\nコンセンサス: 45組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Congressman Abe Hamadeh is an America First Patriot who is doing a fantastic job representing Arizon"
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_china",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_economy",
+        "open_china"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "is_friday",
@@ -38,6 +137,72 @@
       ],
       "direction": "LONG",
       "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_tariffs_2plus",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_beautiful",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_economy",
+        "open_tariffs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "open_trade",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
@@ -55,8 +220,8 @@
     {
       "features": [
         "is_friday",
-        "kw_beautiful",
-        "kw_corrupt"
+        "kw_dow_2plus",
+        "kw_tariffs_2plus"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -66,8 +231,19 @@
     {
       "features": [
         "is_friday",
-        "kw_thank_you_for_your_attention",
-        "open_china"
+        "kw_dow_2plus",
+        "open_tariff"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_dow_2plus",
+        "open_tariffs"
       ],
       "direction": "LONG",
       "hold": 2,
