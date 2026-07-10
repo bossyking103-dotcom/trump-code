@@ -1,28 +1,28 @@
 {
-  "date": "2026-07-09",
-  "prepared_at": "2026-07-09T20:45:10Z",
+  "date": "2026-07-10",
+  "prepared_at": "2026-07-10T05:45:14Z",
   "status": "PENDING",
   "today_posts": {
     "count": 1,
-    "latest": "Thank you to the brilliant and highly respected Gwynne Shotwell, and her husband, Robert, for their extreme Generosity in helping children to attain the ever magnificent American Dream! Their Gift of ",
-    "earliest_time": "2026-07-09T01:39:05.242Z",
-    "latest_time": "2026-07-09T01:39:05.242Z",
+    "latest": "A very big day in Palm Beach, Florida, where it was my Great Honor to have the Palm Beach International Airport be renamed, by a spectacular vote, The President Donald J. Trump International Airport. ",
+    "earliest_time": "2026-07-10T00:07:32.805Z",
+    "latest_time": "2026-07-10T00:07:32.805Z",
     "sample": [
       {
-        "time": "01:39",
-        "text": "Thank you to the brilliant and highly respected Gwynne Shotwell, and her husband, Robert, for their extreme Generosity in helping children to attain the ever magnificent American Dream! Their Gift of 325 Million Dollars of SpaceX Stock is greatly appreciated by all. Thousands of children have just b"
+        "time": "00:07",
+        "text": "A very big day in Palm Beach, Florida, where it was my Great Honor to have the Palm Beach International Airport be renamed, by a spectacular vote, The President Donald J. Trump International Airport. The Area is HOT, the Location is GREAT, and the Renovation will be SPECTACULAR. Thank you to all in "
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
     "avg_len_long": true,
-    "caps_low": true,
-    "excl_heavy": true,
+    "caps_medium": true,
+    "excl_normal": true,
     "questions_no": true,
     "has_night": true,
-    "kw_ban": true,
     "kw_great": true,
+    "is_friday": true,
     "volume_drop": true
   },
   "model_performance": {
@@ -132,11 +132,11 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-09",
+    "date": "2026-07-10",
     "crossover": 16,
-    "mutation": 15,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -147,27 +147,27 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_agreement",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 88.9,
         "origin": "crossover"
       },
       {
         "features": [
-          "volume_falling_3d",
-          "kw_beautiful"
+          "kw_signed",
+          "pre_great"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
       }
     ]
   },
