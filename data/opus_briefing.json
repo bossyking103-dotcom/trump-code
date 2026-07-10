@@ -1,29 +1,103 @@
 {
   "date": "2026-07-10",
-  "prepared_at": "2026-07-10T11:45:10Z",
+  "prepared_at": "2026-07-10T14:45:13Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "A very big day in Palm Beach, Florida, where it was my Great Honor to have the Palm Beach International Airport be renamed, by a spectacular vote, The President Donald J. Trump International Airport. ",
+    "count": 3,
+    "latest": "I will not sign the Housing Bill, which has been fully approved by Congress and sent to the White House, in PROTEST over the fact that the United States Senate is not capable of passing THE SAVE AMERI",
     "earliest_time": "2026-07-10T00:07:32.805Z",
-    "latest_time": "2026-07-10T00:07:32.805Z",
+    "latest_time": "2026-07-10T13:16:48.363Z",
     "sample": [
       {
         "time": "00:07",
         "text": "A very big day in Palm Beach, Florida, where it was my Great Honor to have the Palm Beach International Airport be renamed, by a spectacular vote, The President Donald J. Trump International Airport. The Area is HOT, the Location is GREAT, and the Renovation will be SPECTACULAR. Thank you to all in "
+      },
+      {
+        "time": "10:32",
+        "text": "The Islamic Republic of Iran has asked us to continue “talks.” We have agreed to do so, but the United States has stated to them, in no uncertain terms, that the Cease Fire is OVER! Thank you for your attention to this matter. President DONALD J. TRUMP"
+      },
+      {
+        "time": "13:16",
+        "text": "I will not sign the Housing Bill, which has been fully approved by Congress and sent to the White House, in PROTEST over the fact that the United States Senate is not capable of passing THE SAVE AMERICA ACT, which is polling at 97% with the Republican Party, and very high with the non-politician Dum"
       }
     ]
   },
+  "keyword_signals": [
+    "IRAN"
+  ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_long": true,
-    "caps_medium": true,
-    "excl_normal": true,
+    "avg_len_very_long": true,
+    "caps_high": true,
+    "excl_extreme": true,
     "questions_no": true,
+    "mostly_premarket": true,
     "has_night": true,
+    "kw_iran": true,
+    "pre_iran": true,
+    "kw_debt": true,
+    "pre_debt": true,
     "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "kw_corrupt": true,
+    "pre_corrupt": true,
+    "kw_horrible": true,
+    "pre_horrible": true,
+    "kw_save_america": true,
+    "pre_save_america": true,
+    "kw_filibuster": true,
+    "pre_filibuster": true,
+    "kw_thank_you_for_your_attention": true,
+    "pre_thank_you_for_your_attention": true,
     "is_friday": true,
     "volume_drop": true
+  },
+  "triggered_rules": {
+    "total": 3,
+    "long": 3,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0022",
+        "features": [
+          "is_friday",
+          "open_china",
+          "pre_great"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0039",
+        "features": [
+          "is_friday",
+          "kw_beautiful",
+          "kw_corrupt"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0061",
+        "features": [
+          "is_friday",
+          "kw_thank_you_for_your_attention",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -133,41 +207,43 @@
   },
   "evolution_latest": {
     "date": "2026-07-10",
-    "crossover": 15,
+    "crossover": 16,
     "mutation": 13,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_thank_you_for_your_attention",
+          "open_trade",
+          "kw_jobs"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
+        "score": 95.5,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "open_inflation",
+          "open_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
-        "origin": "distilled"
+        "score": 91.7,
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
+          "kw_incredible",
+          "open_energy",
+          "open_jobs"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "distilled"
+        "hold": 1,
+        "score": 91.7,
+        "origin": "crossover"
       }
     ]
   },

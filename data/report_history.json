@@ -4699,5 +4699,16 @@
     "short": 0,
     "signals": [],
     "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-07-10",
+    "posts": 3,
+    "triggered": 3,
+    "long": 3,
+    "short": 0,
+    "signals": [
+      "IRAN"
+    ],
+    "consensus": "BULLISH"
   }
 ]
