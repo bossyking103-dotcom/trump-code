@@ -1,24 +1,24 @@
 {
   "date": "2026-07-10",
-  "prepared_at": "2026-07-10T14:45:13Z",
+  "prepared_at": "2026-07-10T17:51:24Z",
   "status": "PENDING",
   "today_posts": {
     "count": 3,
-    "latest": "I will not sign the Housing Bill, which has been fully approved by Congress and sent to the White House, in PROTEST over the fact that the United States Senate is not capable of passing THE SAVE AMERI",
+    "latest": "The Islamic Republic of Iran has asked us to continue \"talks.\" We have agreed to do so, but the United States has stated to them, in no uncertain terms, that the Cease Fire is OVER! Thank you for your",
     "earliest_time": "2026-07-10T00:07:32.805Z",
-    "latest_time": "2026-07-10T13:16:48.363Z",
+    "latest_time": "2026-07-10T14:32:41.320Z",
     "sample": [
       {
         "time": "00:07",
         "text": "A very big day in Palm Beach, Florida, where it was my Great Honor to have the Palm Beach International Airport be renamed, by a spectacular vote, The President Donald J. Trump International Airport. The Area is HOT, the Location is GREAT, and the Renovation will be SPECTACULAR. Thank you to all in "
       },
       {
-        "time": "10:32",
-        "text": "The Islamic Republic of Iran has asked us to continue “talks.” We have agreed to do so, but the United States has stated to them, in no uncertain terms, that the Cease Fire is OVER! Thank you for your attention to this matter. President DONALD J. TRUMP"
-      },
-      {
         "time": "13:16",
         "text": "I will not sign the Housing Bill, which has been fully approved by Congress and sent to the White House, in PROTEST over the fact that the United States Senate is not capable of passing THE SAVE AMERICA ACT, which is polling at 97% with the Republican Party, and very high with the non-politician Dum"
+      },
+      {
+        "time": "14:32",
+        "text": "The Islamic Republic of Iran has asked us to continue \"talks.\" We have agreed to do so, but the United States has stated to them, in no uncertain terms, that the Cease Fire is OVER! Thank you for your attention to this matter. President DONALD J. TRUMP"
       }
     ]
   },
@@ -31,10 +31,9 @@
     "caps_high": true,
     "excl_extreme": true,
     "questions_no": true,
-    "mostly_premarket": true,
     "has_night": true,
     "kw_iran": true,
-    "pre_iran": true,
+    "open_iran": true,
     "kw_debt": true,
     "pre_debt": true,
     "kw_great": true,
@@ -49,13 +48,13 @@
     "kw_filibuster": true,
     "pre_filibuster": true,
     "kw_thank_you_for_your_attention": true,
-    "pre_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "is_friday": true,
     "volume_drop": true
   },
   "triggered_rules": {
-    "total": 3,
-    "long": 3,
+    "total": 4,
+    "long": 4,
     "short": 0,
     "sample": [
       {
@@ -64,6 +63,19 @@
           "is_friday",
           "open_china",
           "pre_great"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0034",
+        "features": [
+          "is_friday",
+          "kw_tariffs_2plus",
+          "open_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -208,42 +220,41 @@
   "evolution_latest": {
     "date": "2026-07-10",
     "crossover": 16,
-    "mutation": 13,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "open_trade",
-          "kw_jobs"
+          "kw_tariffs_2plus",
+          "open_thank_you_for_your_attention",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 95.5,
+        "score": 90.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "open_inflation",
-          "open_thank_you_for_your_attention"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
+        "score": 90.0,
+        "origin": "distilled"
       },
       {
         "features": [
-          "kw_incredible",
-          "open_energy",
-          "open_jobs"
+          "volume_falling_3d",
+          "kw_beautiful"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 91.7,
-        "origin": "crossover"
+        "hold": 2,
+        "score": 87.5,
+        "origin": "mutation_remove"
       }
     ]
   },
