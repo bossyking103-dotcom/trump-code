@@ -1,19 +1,19 @@
 {
   "date": "2026-07-11",
-  "generated_at": "2026-07-11T17:45:05Z",
-  "posts_today": 8,
+  "generated_at": "2026-07-11T20:45:04Z",
+  "posts_today": 10,
   "latest_post": {
-    "time": "2026-07-11T16:23",
-    "content_preview": "Maggot Hagerman has covered me incorrectly for ten years. Her book is a joke! 90% of it is Fake News"
+    "time": "2026-07-11T19:16",
+    "content_preview": "It's incredible! I win the Election IN A LANDSLIDE against the entire Dumocrat Party, and almost 100"
   },
   "signals_detected": [
     "DEAL",
     "IRAN",
     "DEAL_ONLY"
   ],
-  "models_triggered": 4,
+  "models_triggered": 5,
   "direction_summary": {
-    "LONG": 4,
+    "LONG": 5,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -27,9 +27,9 @@
     "close": 7575.39
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-11\nPosts today: 8 | Models triggered: 4\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 4 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Maggot Hagerman has covered me incorrectly for ten years. Her book is a joke! 90% of it is Fake News",
-    "zh": "川普密碼每日報告 -- 2026-07-11\n今日推文: 8 篇 | 觸發模型: 4 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 4 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Maggot Hagerman has covered me incorrectly for ten years. Her book is a joke! 90% of it is Fake News",
-    "ja": "トランプ・コード日次レポート -- 2026-07-11\n本日の投稿: 8件 | トリガーモデル: 4組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 4組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Maggot Hagerman has covered me incorrectly for ten years. Her book is a joke! 90% of it is Fake News"
+    "en": "Trump Code Daily Report -- 2026-07-11\nPosts today: 10 | Models triggered: 5\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 5 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: It's incredible! I win the Election IN A LANDSLIDE against the entire Dumocrat Party, and almost 100",
+    "zh": "川普密碼每日報告 -- 2026-07-11\n今日推文: 10 篇 | 觸發模型: 5 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 5 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: It's incredible! I win the Election IN A LANDSLIDE against the entire Dumocrat Party, and almost 100",
+    "ja": "トランプ・コード日次レポート -- 2026-07-11\n本日の投稿: 10件 | トリガーモデル: 5組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 5組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: It's incredible! I win the Election IN A LANDSLIDE against the entire Dumocrat Party, and almost 100"
   },
   "triggered_rules_sample": [
     {
@@ -47,6 +47,17 @@
       "features": [
         "kw_deal",
         "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "kw_interest_rate",
+        "open_energy"
       ],
       "direction": "LONG",
       "hold": 2,

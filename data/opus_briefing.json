@@ -1,12 +1,12 @@
 {
   "date": "2026-07-11",
-  "prepared_at": "2026-07-11T17:45:10Z",
+  "prepared_at": "2026-07-11T20:45:08Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 8,
-    "latest": "Maggot Hagerman has covered me incorrectly for ten years. Her book is a joke! 90% of it is Fake News. She has made a living off her bad reporting, and will pay the price when our Multi Billion Dollar ",
+    "count": 10,
+    "latest": "It's incredible! I win the Election IN A LANDSLIDE against the entire Dumocrat Party, and almost 100% negative news — I won 86% of the Counties in America, 2,750 to 525, won the Electoral College, 312",
     "earliest_time": "2026-07-11T00:19:01.525Z",
-    "latest_time": "2026-07-11T16:23:20.995Z",
+    "latest_time": "2026-07-11T19:16:20.955Z",
     "sample": [
       {
         "time": "00:19",
@@ -37,8 +37,16 @@
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116901293654083857"
       },
       {
+        "time": "15:16",
+        "text": "It’s incredible! I win the Election IN A LANDSLIDE against the entire Dumocrat Party, and almost 100% negative news — I won 86% of the Counties in America, 2,750 to 525, won the Electoral College, 312 to 226, was the first Republican in decades to win the Popular Vote, and decisively won all seven S"
+      },
+      {
         "time": "16:23",
         "text": "Maggot Hagerman has covered me incorrectly for ten years. Her book is a joke! 90% of it is Fake News. She has made a living off her bad reporting, and will pay the price when our Multi Billion Dollar Lawsuit against The Failing New York Times gets to Court, which should not be that long. I don't min"
+      },
+      {
+        "time": "19:16",
+        "text": "It's incredible! I win the Election IN A LANDSLIDE against the entire Dumocrat Party, and almost 100% negative news — I won 86% of the Counties in America, 2,750 to 525, won the Electoral College, 312 to 226, was the first Republican in decades to win the Popular Vote, and decisively won all seven S"
       }
     ]
   },
@@ -49,21 +57,34 @@
   ],
   "today_features": {
     "posts_6_10": true,
-    "avg_len_medium": true,
-    "caps_low": true,
-    "excl_heavy": true,
+    "avg_len_very_long": true,
+    "caps_medium": true,
+    "excl_extreme": true,
     "questions_no": true,
     "has_night": true,
     "heavy_night": true,
     "kw_deal": true,
     "pre_deal": true,
     "kw_immediately": true,
+    "kw_immediately_2plus": true,
+    "open_immediately": true,
     "kw_iran": true,
+    "kw_energy": true,
+    "kw_energy_2plus": true,
+    "open_energy": true,
     "kw_billion": true,
     "kw_billion_2plus": true,
     "open_billion": true,
     "kw_great": true,
+    "kw_great_2plus": true,
     "pre_great": true,
+    "open_great": true,
+    "kw_incredible": true,
+    "kw_incredible_2plus": true,
+    "open_incredible": true,
+    "kw_historic": true,
+    "kw_historic_2plus": true,
+    "open_historic": true,
     "kw_beautiful": true,
     "pre_beautiful": true,
     "kw_wonderful": true,
@@ -71,15 +92,25 @@
     "kw_perfect": true,
     "open_perfect": true,
     "kw_fake": true,
+    "kw_fake_2plus": true,
     "open_fake": true,
+    "kw_worst": true,
+    "kw_worst_2plus": true,
+    "open_worst": true,
+    "kw_stupid": true,
+    "kw_stupid_2plus": true,
+    "open_stupid": true,
+    "kw_kamala": true,
+    "kw_kamala_2plus": true,
+    "open_kamala": true,
     "kw_president_of_the_united_states": true,
     "is_weekend": true,
     "deal_without_tariff": true,
     "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 4,
-    "long": 4,
+    "total": 5,
+    "long": 5,
     "short": 0,
     "sample": [
       {
@@ -100,6 +131,19 @@
         "features": [
           "kw_deal",
           "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0059",
+        "features": [
+          "kw_energy",
+          "kw_interest_rate",
+          "open_energy"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -242,40 +286,42 @@
   },
   "evolution_latest": {
     "date": "2026-07-11",
-    "crossover": 16,
-    "mutation": 11,
+    "crossover": 15,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "open_jobs",
+          "is_friday",
+          "kw_tariffs"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "questions_yes",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
+          "open_jobs",
+          "kw_economy",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 92.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_economy",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
         "origin": "crossover"
       }
     ]
