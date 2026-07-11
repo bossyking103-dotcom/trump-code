@@ -1,12 +1,12 @@
 {
   "date": "2026-07-11",
-  "prepared_at": "2026-07-11T14:45:08Z",
+  "prepared_at": "2026-07-11T17:45:10Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116901293654083857",
+    "count": 8,
+    "latest": "Maggot Hagerman has covered me incorrectly for ten years. Her book is a joke! 90% of it is Fake News. She has made a living off her bad reporting, and will pay the price when our Multi Billion Dollar ",
     "earliest_time": "2026-07-11T00:19:01.525Z",
-    "latest_time": "2026-07-11T12:17:13.977Z",
+    "latest_time": "2026-07-11T16:23:20.995Z",
     "sample": [
       {
         "time": "00:19",
@@ -35,6 +35,10 @@
       {
         "time": "12:17",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116901293654083857"
+      },
+      {
+        "time": "16:23",
+        "text": "Maggot Hagerman has covered me incorrectly for ten years. Her book is a joke! 90% of it is Fake News. She has made a living off her bad reporting, and will pay the price when our Multi Billion Dollar Lawsuit against The Failing New York Times gets to Court, which should not be that long. I don't min"
       }
     ]
   },
@@ -47,7 +51,7 @@
     "posts_6_10": true,
     "avg_len_medium": true,
     "caps_low": true,
-    "excl_normal": true,
+    "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
     "heavy_night": true,
@@ -56,16 +60,79 @@
     "kw_immediately": true,
     "kw_iran": true,
     "kw_billion": true,
+    "kw_billion_2plus": true,
+    "open_billion": true,
     "kw_great": true,
     "pre_great": true,
     "kw_beautiful": true,
     "pre_beautiful": true,
     "kw_wonderful": true,
     "pre_wonderful": true,
+    "kw_perfect": true,
+    "open_perfect": true,
+    "kw_fake": true,
+    "open_fake": true,
     "kw_president_of_the_united_states": true,
     "is_weekend": true,
     "deal_without_tariff": true,
     "deal_no_tariff": true
+  },
+  "triggered_rules": {
+    "total": 4,
+    "long": 4,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0006",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0011",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0079",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0085",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -175,33 +242,12 @@
   },
   "evolution_latest": {
     "date": "2026-07-11",
-    "crossover": 14,
-    "mutation": 14,
+    "crossover": 16,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "open_china",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "open_great",
-          "kw_economy",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.0,
-        "origin": "mutation_replace"
-      },
       {
         "features": [
           "kw_interest_rate",
@@ -211,6 +257,26 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "questions_yes",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },
