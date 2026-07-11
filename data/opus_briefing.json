@@ -1,264 +1,62 @@
 {
-  "date": "2026-07-10",
-  "prepared_at": "2026-07-10T20:45:13Z",
+  "date": "2026-07-11",
+  "prepared_at": "2026-07-11T05:45:12Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 10,
-    "latest": "Congressman Abe Hamadeh is an America First Patriot who is doing a fantastic job representing Arizona's 8th Congressional District! A Brave U.S. Army Veteran, and former Criminal Prosecutor, Abe is fi",
-    "earliest_time": "2026-07-10T00:07:32.805Z",
-    "latest_time": "2026-07-10T20:17:41.119Z",
+    "count": 5,
+    "latest": "I was able to cut a MUCH BETTER DEAL for America, and by so doing, will be allowing the new and spectacular Gordie Howe International Bridge, spanning Detroit and Windsor, Ontario, to open on July 27t",
+    "earliest_time": "2026-07-11T00:19:01.525Z",
+    "latest_time": "2026-07-11T04:04:44.212Z",
     "sample": [
       {
-        "time": "00:07",
-        "text": "A very big day in Palm Beach, Florida, where it was my Great Honor to have the Palm Beach International Airport be renamed, by a spectacular vote, The President Donald J. Trump International Airport. The Area is HOT, the Location is GREAT, and the Renovation will be SPECTACULAR. Thank you to all in "
+        "time": "00:19",
+        "text": "Apple to invest $30 billion in US chip manufacturing: https://www.foxbusiness.com/media/apple-invest-30-billion-us-chip-manufacturing"
       },
       {
-        "time": "13:16",
-        "text": "I will not sign the Housing Bill, which has been fully approved by Congress and sent to the White House, in PROTEST over the fact that the United States Senate is not capable of passing THE SAVE AMERICA ACT, which is polling at 97% with the Republican Party, and very high with the non-politician Dum"
+        "time": "00:43",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116898569732588886"
       },
       {
-        "time": "14:32",
-        "text": "The Islamic Republic of Iran has asked us to continue \"talks.\" We have agreed to do so, but the United States has stated to them, in no uncertain terms, that the Cease Fire is OVER! Thank you for your attention to this matter. President DONALD J. TRUMP"
+        "time": "02:17",
+        "text": "Jack Smith's team may have exposed classified info while probing Trump for allegedly doing the same: https://justthenews.com/government/congress/jack-smiths-team-may-have-exposed-classified-info-while-probing-trump-allegedly"
       },
       {
-        "time": "16:32",
-        "text": "The Base of the Magnificent White House Face, around the Column area, at its front door — It hasn’t been fixed in decades, but you can see how beautiful it will soon be. This is representative of what we are doing in Washington, D.C. — Beautification — and NO CRIME! People are saying that the City h"
+        "time": "03:18",
+        "text": "1000 Missiles are Locked and Loaded and aimed at the Islamic Republic of Iran, with thousands of more to immediately follow, should the Iranian Government act on its threat, pronounced in many corners of the Globe, to assassinate, or attempt to assassinate, the sitting President of the United States"
       },
       {
-        "time": "18:26",
-        "text": "It is my Great Honor to endorse America First Patriot, Zach Lahn, a tremendous Candidate running to be the next Governor of the Wonderful State of Iowa, a place I love and WON BIG in 2016, 2020, and 2024! As a Sixth Generation Iowan, and a very successful Businessman, Zach knows the AMERICA FIRST Po"
-      },
-      {
-        "time": "18:30",
-        "text": "It is my Great Honor to endorse Highly Respected America First Congressman, Andy Biggs, who is running to be the next Governor of the wonderful State of Arizona, a State I won BIG! A very successful Civic Leader, Attorney, former State Representative, former State Senator, and now, as a distinguishe"
-      },
-      {
-        "time": "18:51",
-        "text": "Congressman Paul Gosar, D.D.S., is an America First Patriot, who is doing a fantastic job representing Arizona's 9th Congressional District! A MAGA Warrior, who has been with us from the very beginning, Paul is working hard to Grow our Economy, Cut Taxes and Regulations, Promote MADE IN THE U.S.A., "
-      },
-      {
-        "time": "20:09",
-        "text": "Congressman Eli Crane is an America First Patriot who is doing an incredible job representing Arizona's 2nd Congressional District! A retired Navy SEAL, Eli bravely served our Nation in combat, and is doing a fantastic job in Congress. Eli is fighting tirelessly to Grow our Economy, Cut Taxes and Re"
-      },
-      {
-        "time": "20:09",
-        "text": "Congressman Juan Ciscomani is a Tremendous Champion for Arizona's 6th Congressional District! As a Member of the POWERFUL Appropriations Committee, Juan is fighting hard to Keep our Border SECURE, Stop Migrant Crime, Strengthen our Military/Vets, Support our Great Law Enforcement, and Protect our al"
-      },
-      {
-        "time": "20:17",
-        "text": "Congressman Abe Hamadeh is an America First Patriot who is doing a fantastic job representing Arizona's 8th Congressional District! A Brave U.S. Army Veteran, and former Criminal Prosecutor, Abe is fighting tirelessly to Keep our Border SECURE, Stop Migrant Crime, Grow our Economy, Cut Taxes, Streng"
+        "time": "04:04",
+        "text": "I was able to cut a MUCH BETTER DEAL for America, and by so doing, will be allowing the new and spectacular Gordie Howe International Bridge, spanning Detroit and Windsor, Ontario, to open on July 27th, as scheduled. The original deal made was unacceptable to me! The new deal is great, and fair. Tha"
       }
     ]
   },
   "keyword_signals": [
-    "IRAN"
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_very_long": true,
-    "caps_high": true,
-    "excl_heavy": true,
+    "posts_1_5": true,
+    "avg_len_medium": true,
+    "caps_low": true,
+    "excl_normal": true,
     "questions_no": true,
     "has_night": true,
-    "kw_effective": true,
-    "open_effective": true,
+    "heavy_night": true,
+    "kw_deal": true,
+    "pre_deal": true,
+    "kw_immediately": true,
     "kw_iran": true,
-    "open_iran": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "open_dow": true,
-    "kw_economy": true,
-    "kw_economy_2plus": true,
-    "open_economy": true,
-    "kw_energy": true,
-    "kw_energy_2plus": true,
-    "open_energy": true,
-    "kw_jobs": true,
-    "open_jobs": true,
-    "kw_debt": true,
-    "pre_debt": true,
+    "kw_billion": true,
     "kw_great": true,
-    "kw_great_2plus": true,
     "pre_great": true,
-    "open_great": true,
-    "kw_tremendous": true,
-    "kw_tremendous_2plus": true,
-    "open_tremendous": true,
-    "kw_incredible": true,
-    "kw_incredible_2plus": true,
-    "open_incredible": true,
-    "kw_beautiful": true,
-    "open_beautiful": true,
-    "kw_amazing": true,
-    "open_amazing": true,
-    "kw_fantastic": true,
-    "kw_fantastic_2plus": true,
-    "open_fantastic": true,
     "kw_wonderful": true,
-    "kw_wonderful_2plus": true,
-    "open_wonderful": true,
-    "kw_corrupt": true,
-    "pre_corrupt": true,
-    "kw_horrible": true,
-    "pre_horrible": true,
-    "kw_vance": true,
-    "kw_vance_2plus": true,
-    "open_vance": true,
-    "kw_maga": true,
-    "open_maga": true,
-    "kw_save_america": true,
-    "pre_save_america": true,
-    "kw_america_first": true,
-    "kw_america_first_2plus": true,
-    "open_america_first": true,
-    "kw_filibuster": true,
-    "pre_filibuster": true,
-    "kw_thank_you_for_your_attention": true,
-    "open_thank_you_for_your_attention": true,
-    "kw_never_let_you_down": true,
-    "kw_never_let_you_down_2plus": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "kw_complete_and_total_2plus": true,
-    "open_complete_and_total": true,
-    "is_friday": true
-  },
-  "triggered_rules": {
-    "total": 46,
-    "long": 45,
-    "short": 1,
-    "sample": [
-      {
-        "id": "R0004",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0005",
-        "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0010",
-        "features": [
-          "excl_heavy",
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0013",
-        "features": [
-          "kw_dow_2plus",
-          "open_jobs",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0014",
-        "features": [
-          "is_friday",
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0016",
-        "features": [
-          "kw_economy",
-          "kw_energy",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0019",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0020",
-        "features": [
-          "is_friday",
-          "kw_china",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0021",
-        "features": [
-          "is_friday",
-          "kw_economy",
-          "open_china"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0022",
-        "features": [
-          "is_friday",
-          "open_china",
-          "pre_great"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "pre_wonderful": true,
+    "kw_president_of_the_united_states": true,
+    "is_weekend": true,
+    "volume_drop": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -367,22 +165,22 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-10",
+    "date": "2026-07-11",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_thank_you_for_your_attention",
-          "kw_signed"
+          "kw_economy",
+          "open_china"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 92.9,
-        "origin": "crossover"
+        "score": 90.0,
+        "origin": "mutation_remove"
       },
       {
         "features": [
@@ -396,13 +194,14 @@
       },
       {
         "features": [
-          "volume_falling_3d",
-          "kw_beautiful"
+          "open_tariffs",
+          "kw_beautiful",
+          "kw_tariffs_2plus"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 88.9,
+        "origin": "crossover"
       }
     ]
   },
