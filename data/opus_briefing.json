@@ -1,12 +1,12 @@
 {
   "date": "2026-07-12",
-  "prepared_at": "2026-07-12T17:45:10Z",
+  "prepared_at": "2026-07-12T20:45:11Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "In honor of the remarkable life and achievements of Senator Lindsey Graham, a dear friend of mine, and a truly great man, who achieved so much for our Country, and his beloved Home State of South Caro",
+    "count": 3,
+    "latest": "Thank you to Ben Domenech, for all of the great things he has been saying. We're doing well. Our Country has never been stronger, and it's nice to be recognized! More importantly, it is really great t",
     "earliest_time": "2026-07-12T07:21:57.078Z",
-    "latest_time": "2026-07-12T16:53:04.128Z",
+    "latest_time": "2026-07-12T18:50:39.443Z",
     "sample": [
       {
         "time": "07:21",
@@ -15,15 +15,20 @@
       {
         "time": "16:53",
         "text": "In honor of the remarkable life and achievements of Senator Lindsey Graham, a dear friend of mine, and a truly great man, who achieved so much for our Country, and his beloved Home State of South Carolina, I am ordering all American Flags throughout the United States lowered to Half Mast until Satur"
+      },
+      {
+        "time": "18:50",
+        "text": "Thank you to Ben Domenech, for all of the great things he has been saying. We're doing well. Our Country has never been stronger, and it's nice to be recognized! More importantly, it is really great that Lindsey Graham is being so respectfully honored — He greatly deserves it! President DONALD J. TR"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
     "avg_len_medium": true,
-    "caps_high": true,
-    "excl_extreme": true,
+    "caps_medium": true,
+    "excl_heavy": true,
     "questions_no": true,
+    "mostly_open": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
@@ -139,12 +144,23 @@
   },
   "evolution_latest": {
     "date": "2026-07-12",
-    "crossover": 15,
-    "mutation": 14,
+    "crossover": 14,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "open_trade",
+          "volume_falling_3d",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.0,
+        "origin": "crossover"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -157,18 +173,8 @@
       },
       {
         "features": [
-          "kw_tariffs",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 88.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
           "kw_signed",
-          "is_friday"
+          "open_tariff"
         ],
         "direction": "LONG",
         "hold": 2,
