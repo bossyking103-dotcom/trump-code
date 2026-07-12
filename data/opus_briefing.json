@@ -1,16 +1,16 @@
 {
   "date": "2026-07-12",
-  "prepared_at": "2026-07-12T08:45:11Z",
+  "prepared_at": "2026-07-12T11:45:11Z",
   "status": "PENDING",
   "today_posts": {
     "count": 1,
     "latest": "Senator Lindsey Graham, one of the greatest people and Senators I have ever known, is dead! He was always working, and was a true American Patriot. Lindsey will be greatly missed!!! DETAILS AND ARRANG",
-    "earliest_time": "2026-07-12T03:21:00.000Z",
-    "latest_time": "2026-07-12T03:21:00.000Z",
+    "earliest_time": "2026-07-12T07:21:57.078Z",
+    "latest_time": "2026-07-12T07:21:57.078Z",
     "sample": [
       {
-        "time": "03:21",
-        "text": "Senator Lindsey Graham, one of the greatest people and Senators I have ever known, is dead! He was always working, and was a true American Patriot. Lindsey will be greatly missed!!! DETAILS AND ARRANGEMENTS TO FOLLOW. So sad!President DONALD J. TRUMP"
+        "time": "07:21",
+        "text": "Senator Lindsey Graham, one of the greatest people and Senators I have ever known, is dead! He was always working, and was a true American Patriot. Lindsey will be greatly missed!!! DETAILS AND ARRANGEMENTS TO FOLLOW. So sad! President DONALD J. TRUMP"
       }
     ]
   },
@@ -20,8 +20,9 @@
     "caps_very_high": true,
     "excl_extreme": true,
     "questions_no": true,
-    "has_night": true,
+    "mostly_premarket": true,
     "kw_great": true,
+    "pre_great": true,
     "is_weekend": true,
     "volume_drop": true
   },
@@ -133,23 +134,12 @@
   },
   "evolution_latest": {
     "date": "2026-07-12",
-    "crossover": 16,
-    "mutation": 9,
+    "crossover": 15,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 41,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "kw_corrupt",
-          "kw_beautiful",
-          "kw_tariffs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
-      },
       {
         "features": [
           "kw_interest_rate",
@@ -162,12 +152,22 @@
       },
       {
         "features": [
-          "kw_signed",
-          "kw_tariffs"
+          "volume_spike",
+          "kw_amazing"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.5,
+        "score": 88.9,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
         "origin": "crossover"
       }
     ]
