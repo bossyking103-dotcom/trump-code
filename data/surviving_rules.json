@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-07-11T20:45:08Z",
-    "evolved_rules_added": 44
+    "last_evolution": "2026-07-12T05:45:15Z",
+    "evolved_rules_added": 47
   },
   "rules": [
     {
@@ -13662,7 +13662,12 @@
       "parents": [
         "kw_economy+kw_interest_rate",
         "is_friday+kw_beautiful"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14901,7 +14906,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-07-11",
+      "born_date": "2026-07-12",
       "combined_score": 70.0
     }
   ]

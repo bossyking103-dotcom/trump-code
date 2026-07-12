@@ -1,20 +1,20 @@
 {
-  "date": "2026-07-11",
-  "generated_at": "2026-07-11T20:45:04Z",
-  "posts_today": 10,
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T05:45:10Z",
+  "posts_today": 15,
   "latest_post": {
-    "time": "2026-07-11T19:16",
-    "content_preview": "It's incredible! I win the Election IN A LANDSLIDE against the entire Dumocrat Party, and almost 100"
+    "time": "2026-07-11T22:56",
+    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116903805619949346"
   },
   "signals_detected": [
     "DEAL",
     "IRAN",
     "DEAL_ONLY"
   ],
-  "models_triggered": 5,
+  "models_triggered": 9,
   "direction_summary": {
-    "LONG": 5,
-    "SHORT": 0,
+    "LONG": 8,
+    "SHORT": 1,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -27,9 +27,9 @@
     "close": 7575.39
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-11\nPosts today: 10 | Models triggered: 5\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 5 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: It's incredible! I win the Election IN A LANDSLIDE against the entire Dumocrat Party, and almost 100",
-    "zh": "川普密碼每日報告 -- 2026-07-11\n今日推文: 10 篇 | 觸發模型: 5 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 5 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: It's incredible! I win the Election IN A LANDSLIDE against the entire Dumocrat Party, and almost 100",
-    "ja": "トランプ・コード日次レポート -- 2026-07-11\n本日の投稿: 10件 | トリガーモデル: 5組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 5組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: It's incredible! I win the Election IN A LANDSLIDE against the entire Dumocrat Party, and almost 100"
+    "en": "Trump Code Daily Report -- 2026-07-12\nPosts today: 15 | Models triggered: 9\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 8 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116903805619949346",
+    "zh": "川普密碼每日報告 -- 2026-07-12\n今日推文: 15 篇 | 觸發模型: 9 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 8 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116903805619949346",
+    "ja": "トランプ・コード日次レポート -- 2026-07-12\n本日の投稿: 15件 | トリガーモデル: 9組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 8組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116903805619949346"
   },
   "triggered_rules_sample": [
     {
@@ -47,6 +47,39 @@
       "features": [
         "kw_deal",
         "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "posts_11_20"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "open_energy"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -81,6 +114,17 @@
         "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_biden",
+        "kw_deal",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
       "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
