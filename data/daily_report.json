@@ -1,18 +1,18 @@
 {
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T14:45:06Z",
+  "generated_at": "2026-07-13T17:45:04Z",
   "posts_today": 19,
   "latest_post": {
-    "time": "2026-07-13T13:19",
-    "content_preview": "Reflecting Pool showing F-35s!"
+    "time": "2026-07-13T14:43",
+    "content_preview": "I recommended, to Governor Henry McMaster, Lindsey Graham's wonderful sister, Darline, to serve as i"
   },
   "signals_detected": [
     "CHINA",
     "IRAN"
   ],
-  "models_triggered": 3,
+  "models_triggered": 8,
   "direction_summary": {
-    "LONG": 3,
+    "LONG": 8,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -23,12 +23,12 @@
   },
   "sp500_latest": {
     "date": "2026-07-13",
-    "close": 7539.91
+    "close": 7526.11
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-13\nPosts today: 19 | Models triggered: 3\nSignals: CHINA, IRAN\nConsensus: 3 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Reflecting Pool showing F-35s!",
-    "zh": "川普密碼每日報告 -- 2026-07-13\n今日推文: 19 篇 | 觸發模型: 3 組\n偵測信號: 中國, 伊朗\n共識方向: 3 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Reflecting Pool showing F-35s!",
-    "ja": "トランプ・コード日次レポート -- 2026-07-13\n本日の投稿: 19件 | トリガーモデル: 3組\n検出シグナル: 中国, イラン\nコンセンサス: 3組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Reflecting Pool showing F-35s!"
+    "en": "Trump Code Daily Report -- 2026-07-13\nPosts today: 19 | Models triggered: 8\nSignals: CHINA, IRAN\nConsensus: 8 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: I recommended, to Governor Henry McMaster, Lindsey Graham's wonderful sister, Darline, to serve as i",
+    "zh": "川普密碼每日報告 -- 2026-07-13\n今日推文: 19 篇 | 觸發模型: 8 組\n偵測信號: 中國, 伊朗\n共識方向: 8 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: I recommended, to Governor Henry McMaster, Lindsey Graham's wonderful sister, Darline, to serve as i",
+    "ja": "トランプ・コード日次レポート -- 2026-07-13\n本日の投稿: 19件 | トリガーモデル: 8組\n検出シグナル: 中国, イラン\nコンセンサス: 8組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: I recommended, to Governor Henry McMaster, Lindsey Graham's wonderful sister, Darline, to serve as i"
   },
   "triggered_rules_sample": [
     {
@@ -36,6 +36,28 @@
         "kw_perfect",
         "kw_thank_you_for_your_attention",
         "posts_11_20"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_inflation",
+        "open_china",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "open_china",
+        "pre_great"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -57,6 +79,39 @@
       "features": [
         "kw_tariffs_2plus",
         "kw_thank_you_for_your_attention",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tremendous",
+        "open_thank_you_for_your_attention",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_thank_you_for_your_attention",
+        "open_china"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tariffs_2plus",
+        "open_thank_you_for_your_attention",
         "volume_falling_3d"
       ],
       "direction": "LONG",

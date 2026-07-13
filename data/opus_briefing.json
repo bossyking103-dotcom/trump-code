@@ -1,25 +1,13 @@
 {
   "date": "2026-07-13",
-  "prepared_at": "2026-07-13T14:45:10Z",
+  "prepared_at": "2026-07-13T17:45:09Z",
   "status": "PENDING",
   "today_posts": {
     "count": 19,
-    "latest": "Reflecting Pool showing F-35s!",
+    "latest": "I recommended, to Governor Henry McMaster, Lindsey Graham's wonderful sister, Darline, to serve as interim Senator from the Great State of South Carolina. This would be a fabulous tribute to Lindsey, ",
     "earliest_time": "2026-07-13T01:03:05.451Z",
-    "latest_time": "2026-07-13T13:19:47.359Z",
+    "latest_time": "2026-07-13T14:43:56.539Z",
     "sample": [
-      {
-        "time": "13:06",
-        "text": "Trump kicks off Great American State Fair celebrating America's 250th anniversary: 'The best is yet to come': https://nypost.com/2026/06/24/us-news/trump-says-the-best-is-yet-to-come-for-america-at-freedom-250-rally/"
-      },
-      {
-        "time": "13:07",
-        "text": "Trump touts US as 'hottest country' at Great American State Fair rally: https://www.usatoday.com/story/news/usa250/2026/06/24/trump-rally-dc-great-american-state-fair--live/90661812007/"
-      },
-      {
-        "time": "13:07",
-        "text": "'America is back': Trump kicks off Great American State Fair with flyovers, patriotic National Mall speech: https://www.foxnews.com/politics/america-back-trump-kicks-off-great-american-state-fair-flyovers-patriotic-national-mall-speech"
-      },
       {
         "time": "13:07",
         "text": "FBI agents descend on Skid Row in massive voter fraud probe after stunning claims of election bribery: https://nypost.com/2026/06/18/us-news/fbi-agents-probe-las-skid-row-in-voter-fraud-investigation/"
@@ -47,6 +35,18 @@
       {
         "time": "13:19",
         "text": "Reflecting Pool showing F-35s!"
+      },
+      {
+        "time": "14:16",
+        "text": "The Hormuz Strait is OPEN, and will remain OPEN, with or without Iran. We are reinstating the THE IRANIAN BLOCKADE, so named because it is only stopping Iran's ships or customers from entering or leaving. All other countries will have fair and open use of the Strait. The U.S.A. will be, from this po"
+      },
+      {
+        "time": "14:26",
+        "text": "In honor of Senator Lindsey Graham, a big supporter, the U.S. Senate should pass the Clarity Act. China, and many other countries, would like to take complete and total control of this major financial \"happening,\" as well as A.I., where we are now leading, but where they are fighting hard. Don't let"
+      },
+      {
+        "time": "14:43",
+        "text": "I recommended, to Governor Henry McMaster, Lindsey Graham's wonderful sister, Darline, to serve as interim Senator from the Great State of South Carolina. This would be a fabulous tribute to Lindsey, who loved her dearly! President DONALD J. TRUMP"
       }
     ]
   },
@@ -64,36 +64,38 @@
     "has_night": true,
     "heavy_night": true,
     "kw_immediately": true,
-    "pre_immediately": true,
+    "open_immediately": true,
     "kw_block": true,
-    "pre_block": true,
+    "open_block": true,
     "kw_china": true,
-    "pre_china": true,
+    "open_china": true,
     "kw_iran": true,
-    "pre_iran": true,
+    "open_iran": true,
     "kw_dow": true,
     "kw_oil": true,
     "kw_gas": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
+    "open_great": true,
     "kw_historic": true,
     "pre_historic": true,
     "kw_wonderful": true,
-    "pre_wonderful": true,
+    "open_wonderful": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "kw_thank_you_for_your_attention": true,
     "kw_thank_you_for_your_attention_2plus": true,
     "pre_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "kw_complete_and_total": true,
-    "pre_complete_and_total": true,
+    "open_complete_and_total": true,
     "is_monday": true,
     "volume_falling_3d": true
   },
   "triggered_rules": {
-    "total": 3,
-    "long": 3,
+    "total": 8,
+    "long": 8,
     "short": 0,
     "sample": [
       {
@@ -102,6 +104,32 @@
           "kw_perfect",
           "kw_thank_you_for_your_attention",
           "posts_11_20"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0017",
+        "features": [
+          "kw_inflation",
+          "open_china",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0022",
+        "features": [
+          "is_friday",
+          "open_china",
+          "pre_great"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -127,6 +155,45 @@
         "features": [
           "kw_tariffs_2plus",
           "kw_thank_you_for_your_attention",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0055",
+        "features": [
+          "kw_tremendous",
+          "open_thank_you_for_your_attention",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0061",
+        "features": [
+          "is_friday",
+          "kw_thank_you_for_your_attention",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0069",
+        "features": [
+          "kw_tariffs_2plus",
+          "open_thank_you_for_your_attention",
           "volume_falling_3d"
         ],
         "direction": "LONG",
@@ -245,43 +312,41 @@
   },
   "evolution_latest": {
     "date": "2026-07-13",
-    "crossover": 16,
-    "mutation": 14,
+    "crossover": 11,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 39,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "kw_energy",
-          "is_friday"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 92.3,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_thank_you_for_your_attention",
-          "open_china"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "open_thank_you_for_your_attention",
-          "kw_tariff_2plus",
+          "kw_interest_rate",
           "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "crossover"
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },

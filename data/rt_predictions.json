@@ -2750,5 +2750,89 @@
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
     "status": "LIVE"
+  },
+  {
+    "id": "rt_1783954954",
+    "created_at": "2026-07-13T15:02:34Z",
+    "post_time": "2026-07-13T14:16:44.181Z",
+    "post_preview": "The Hormuz Strait is OPEN, and will remain OPEN, with or without Iran. We are reinstating the THE IRANIAN BLOCKADE, so named because it is only stopping Iran's ships or customers from entering or leav",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "block"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION",
+      "THREAT"
+    ],
+    "predicted_direction": "NEUTRAL",
+    "confidence": 0.3,
+    "tracked_markets": [
+      {
+        "token_id": "866802472974042276988353754878",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.925
+      },
+      {
+        "token_id": "421899132255834746844556601247",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.075
+      },
+      {
+        "token_id": "751493203762260041743264764064",
+        "question": "Will Donald Trump publicly insult someone on July 1, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "729255970835712148019010831128",
+        "question": "Will Donald Trump publicly insult someone on July 1, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "414151061402199123855715701613",
+        "question": "Will Donald Trump publicly insult someone on July 2, 2026?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.925,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.56,
+    "trump_coin_24h_change": -1.31,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
   }
 ]
