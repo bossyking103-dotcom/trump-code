@@ -1,43 +1,141 @@
 {
   "date": "2026-07-13",
-  "prepared_at": "2026-07-13T11:45:13Z",
+  "prepared_at": "2026-07-13T14:45:10Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116908044067369620",
+    "count": 19,
+    "latest": "Reflecting Pool showing F-35s!",
     "earliest_time": "2026-07-13T01:03:05.451Z",
-    "latest_time": "2026-07-13T01:42:15.222Z",
+    "latest_time": "2026-07-13T13:19:47.359Z",
     "sample": [
       {
-        "time": "01:03",
-        "text": "59% Approval Rating. Prices coming down along with the lowering of oil and gas. Thank you! President DJT"
+        "time": "13:06",
+        "text": "Trump kicks off Great American State Fair celebrating America's 250th anniversary: 'The best is yet to come': https://nypost.com/2026/06/24/us-news/trump-says-the-best-is-yet-to-come-for-america-at-freedom-250-rally/"
       },
       {
-        "time": "01:10",
-        "text": "So sad!!! President DJT"
+        "time": "13:07",
+        "text": "Trump touts US as 'hottest country' at Great American State Fair rally: https://www.usatoday.com/story/news/usa250/2026/06/24/trump-rally-dc-great-american-state-fair--live/90661812007/"
       },
       {
-        "time": "01:42",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116908044067369620"
+        "time": "13:07",
+        "text": "'America is back': Trump kicks off Great American State Fair with flyovers, patriotic National Mall speech: https://www.foxnews.com/politics/america-back-trump-kicks-off-great-american-state-fair-flyovers-patriotic-national-mall-speech"
+      },
+      {
+        "time": "13:07",
+        "text": "FBI agents descend on Skid Row in massive voter fraud probe after stunning claims of election bribery: https://nypost.com/2026/06/18/us-news/fbi-agents-probe-las-skid-row-in-voter-fraud-investigation/"
+      },
+      {
+        "time": "13:08",
+        "text": "Bill O'Reilly Warns Republicans They'll Get 'Slaughtered' in Midterms if They Shun Trump: https://www.mediaite.com/media/bill-oreilly-warns-republicans-theyll-get-slaughtered-in-midterms-if-they-shun-trump/"
+      },
+      {
+        "time": "13:18",
+        "text": "https://www.19fortyfive.com/2026/04/american-history-teaches-that-operation-epic-fury-is-not-another-forever-war/"
+      },
+      {
+        "time": "13:19",
+        "text": "BIG WIN at the Supreme Court, in the Slaughter Case, confirming Presidential Power in our Country to remove Executive Branch Officers and Agency Appointees, or Representatives, under Article II. This Decision was long sought by United States Presidents, dating all the way back to the 1930s. It is su"
+      },
+      {
+        "time": "13:19",
+        "text": "To show the importance of the Slaughter Case, 90 years of precedent has been COMPLETELY AND UNEQUIVOCALLY OVERRULED, greatly increasing Presidential Power at a time when it is most needed! President DONALD J. TRUMP"
+      },
+      {
+        "time": "13:19",
+        "text": "Thank you to the Great Dr. Phil. The Deep State never sleeps.https://www.theepochtimes.com/opinion/dont-mistake-the-messenger-for-the-message-on-the-question-of-trumps-intelligence-6058533"
+      },
+      {
+        "time": "13:19",
+        "text": "Reflecting Pool showing F-35s!"
       }
     ]
   },
+  "keyword_signals": [
+    "CHINA",
+    "IRAN"
+  ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_short": true,
+    "posts_11_20": true,
+    "avg_len_medium": true,
     "caps_medium": true,
     "excl_normal": true,
     "questions_no": true,
+    "mostly_premarket": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_immediately": true,
+    "pre_immediately": true,
+    "kw_block": true,
+    "pre_block": true,
+    "kw_china": true,
+    "pre_china": true,
+    "kw_iran": true,
+    "pre_iran": true,
     "kw_dow": true,
     "kw_oil": true,
     "kw_gas": true,
+    "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "kw_historic": true,
+    "pre_historic": true,
+    "kw_wonderful": true,
+    "pre_wonderful": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
+    "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
+    "pre_thank_you_for_your_attention": true,
+    "kw_complete_and_total": true,
+    "pre_complete_and_total": true,
     "is_monday": true,
-    "volume_falling_3d": true,
-    "volume_drop": true
+    "volume_falling_3d": true
+  },
+  "triggered_rules": {
+    "total": 3,
+    "long": 3,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0012",
+        "features": [
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "posts_11_20"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0029",
+        "features": [
+          "kw_china",
+          "kw_thank_you_for_your_attention",
+          "open_inflation"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0041",
+        "features": [
+          "kw_tariffs_2plus",
+          "kw_thank_you_for_your_attention",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -155,34 +253,35 @@
     "top_3": [
       {
         "features": [
-          "kw_tremendous",
-          "is_friday",
-          "kw_jobs"
+          "kw_thank_you_for_your_attention",
+          "kw_energy",
+          "is_friday"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
+        "hold": 1,
+        "score": 92.3,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_india",
-          "kw_president_of_the_united_states"
+          "kw_thank_you_for_your_attention",
+          "open_china"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
+        "hold": 2,
+        "score": 90.9,
         "origin": "mutation_remove"
       },
       {
         "features": [
-          "kw_interest_rate",
+          "open_thank_you_for_your_attention",
+          "kw_tariff_2plus",
           "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
+        "origin": "crossover"
       }
     ]
   },
