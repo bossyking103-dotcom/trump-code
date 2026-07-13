@@ -1,39 +1,42 @@
 {
-  "date": "2026-07-12",
-  "prepared_at": "2026-07-12T20:45:11Z",
+  "date": "2026-07-13",
+  "prepared_at": "2026-07-13T05:45:11Z",
   "status": "PENDING",
   "today_posts": {
     "count": 3,
-    "latest": "Thank you to Ben Domenech, for all of the great things he has been saying. We're doing well. Our Country has never been stronger, and it's nice to be recognized! More importantly, it is really great t",
-    "earliest_time": "2026-07-12T07:21:57.078Z",
-    "latest_time": "2026-07-12T18:50:39.443Z",
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116908044067369620",
+    "earliest_time": "2026-07-13T01:03:05.451Z",
+    "latest_time": "2026-07-13T01:42:15.222Z",
     "sample": [
       {
-        "time": "07:21",
-        "text": "Senator Lindsey Graham, one of the greatest people and Senators I have ever known, is dead! He was always working, and was a true American Patriot. Lindsey will be greatly missed!!! DETAILS AND ARRANGEMENTS TO FOLLOW. So sad! President DONALD J. TRUMP"
+        "time": "01:03",
+        "text": "59% Approval Rating. Prices coming down along with the lowering of oil and gas. Thank you! President DJT"
       },
       {
-        "time": "16:53",
-        "text": "In honor of the remarkable life and achievements of Senator Lindsey Graham, a dear friend of mine, and a truly great man, who achieved so much for our Country, and his beloved Home State of South Carolina, I am ordering all American Flags throughout the United States lowered to Half Mast until Satur"
+        "time": "01:10",
+        "text": "So sad!!! President DJT"
       },
       {
-        "time": "18:50",
-        "text": "Thank you to Ben Domenech, for all of the great things he has been saying. We're doing well. Our Country has never been stronger, and it's nice to be recognized! More importantly, it is really great that Lindsey Graham is being so respectfully honored — He greatly deserves it! President DONALD J. TR"
+        "time": "01:42",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116908044067369620"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_medium": true,
+    "avg_len_short": true,
     "caps_medium": true,
-    "excl_heavy": true,
+    "excl_normal": true,
     "questions_no": true,
-    "mostly_open": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "pre_great": true,
-    "open_great": true,
-    "is_weekend": true,
+    "has_night": true,
+    "heavy_night": true,
+    "kw_dow": true,
+    "kw_oil": true,
+    "kw_gas": true,
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "is_monday": true,
+    "volume_falling_3d": true,
     "volume_drop": true
   },
   "model_performance": {
@@ -143,24 +146,13 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-12",
-    "crossover": 14,
-    "mutation": 16,
+    "date": "2026-07-13",
+    "crossover": 16,
+    "mutation": 14,
     "distill": 16,
     "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "open_trade",
-          "volume_falling_3d",
-          "kw_beautiful"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.0,
-        "origin": "crossover"
-      },
       {
         "features": [
           "kw_interest_rate",
@@ -173,13 +165,23 @@
       },
       {
         "features": [
-          "kw_signed",
-          "open_tariff"
+          "kw_deal",
+          "kw_agreement"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
+        "score": 88.1,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
         "score": 87.5,
-        "origin": "mutation_remove"
+        "origin": "distilled"
       }
     ]
   },
