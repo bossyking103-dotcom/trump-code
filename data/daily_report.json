@@ -1,19 +1,21 @@
 {
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T17:45:04Z",
-  "posts_today": 19,
+  "generated_at": "2026-07-13T20:45:06Z",
+  "posts_today": 24,
   "latest_post": {
-    "time": "2026-07-13T14:43",
-    "content_preview": "I recommended, to Governor Henry McMaster, Lindsey Graham's wonderful sister, Darline, to serve as i"
+    "time": "2026-07-13T19:59",
+    "content_preview": "It is my Great Honor to endorse America First Patriot, Dr. John Cowan, who is running to represent t"
   },
   "signals_detected": [
+    "DEAL",
     "CHINA",
-    "IRAN"
+    "IRAN",
+    "DEAL_ONLY"
   ],
-  "models_triggered": 8,
+  "models_triggered": 41,
   "direction_summary": {
-    "LONG": 8,
-    "SHORT": 0,
+    "LONG": 36,
+    "SHORT": 5,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -23,19 +25,63 @@
   },
   "sp500_latest": {
     "date": "2026-07-13",
-    "close": 7526.11
+    "close": 7515.34
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-13\nPosts today: 19 | Models triggered: 8\nSignals: CHINA, IRAN\nConsensus: 8 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: I recommended, to Governor Henry McMaster, Lindsey Graham's wonderful sister, Darline, to serve as i",
-    "zh": "川普密碼每日報告 -- 2026-07-13\n今日推文: 19 篇 | 觸發模型: 8 組\n偵測信號: 中國, 伊朗\n共識方向: 8 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: I recommended, to Governor Henry McMaster, Lindsey Graham's wonderful sister, Darline, to serve as i",
-    "ja": "トランプ・コード日次レポート -- 2026-07-13\n本日の投稿: 19件 | トリガーモデル: 8組\n検出シグナル: 中国, イラン\nコンセンサス: 8組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: I recommended, to Governor Henry McMaster, Lindsey Graham's wonderful sister, Darline, to serve as i"
+    "en": "Trump Code Daily Report -- 2026-07-13\nPosts today: 24 | Models triggered: 41\nSignals: DEAL, CHINA, IRAN, DEAL_ONLY\nConsensus: 36 LONG vs 5 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: It is my Great Honor to endorse America First Patriot, Dr. John Cowan, who is running to represent t",
+    "zh": "川普密碼每日報告 -- 2026-07-13\n今日推文: 24 篇 | 觸發模型: 41 組\n偵測信號: Deal, 中國, 伊朗, 只有Deal沒有關稅\n共識方向: 36 組看多 vs 5 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: It is my Great Honor to endorse America First Patriot, Dr. John Cowan, who is running to represent t",
+    "ja": "トランプ・コード日次レポート -- 2026-07-13\n本日の投稿: 24件 | トリガーモデル: 41組\n検出シグナル: ディール, 中国, イラン, Dealのみ（関税無し）\nコンセンサス: 36組ロング vs 5組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: It is my Great Honor to endorse America First Patriot, Dr. John Cowan, who is running to represent t"
   },
   "triggered_rules_sample": [
     {
       "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
         "kw_perfect",
-        "kw_thank_you_for_your_attention",
-        "posts_11_20"
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_energy",
+        "kw_interest_rate"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -55,12 +101,78 @@
     },
     {
       "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_china",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_economy",
+        "open_china"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "is_friday",
         "open_china",
         "pre_great"
       ],
       "direction": "LONG",
       "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_biden",
+        "kw_china",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_china",
+        "open_biden",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "open_biden",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
@@ -77,6 +189,50 @@
     },
     {
       "features": [
+        "kw_beautiful",
+        "open_trade",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "kw_tariffs_2plus",
         "kw_thank_you_for_your_attention",
         "volume_falling_3d"
@@ -88,31 +244,9 @@
     },
     {
       "features": [
-        "kw_tremendous",
+        "kw_beautiful",
         "open_thank_you_for_your_attention",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_thank_you_for_your_attention",
-        "open_china"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tariffs_2plus",
-        "open_thank_you_for_your_attention",
-        "volume_falling_3d"
+        "open_tremendous"
       ],
       "direction": "LONG",
       "hold": 2,
