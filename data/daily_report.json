@@ -1,17 +1,21 @@
 {
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T11:45:04Z",
-  "posts_today": 2,
+  "generated_at": "2026-07-14T14:45:07Z",
+  "posts_today": 15,
   "latest_post": {
-    "time": "2026-07-14T02:53",
-    "content_preview": "ABC Fake News and its shaky anchor, David Muir, said that the Reflecting Pool was drained to address"
+    "time": "2026-07-14T14:28",
+    "content_preview": "Man pleads guilty to false US citizenship claim on North Carolina voter form for 2024 election: http"
   },
-  "signals_detected": [],
-  "models_triggered": 0,
+  "signals_detected": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
+  "models_triggered": 1,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 1,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -19,13 +23,25 @@
     "rate": 100.0
   },
   "sp500_latest": {
-    "date": "2026-07-13",
-    "close": 7515.34
+    "date": "2026-07-14",
+    "close": 7537.3
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-14\nPosts today: 2 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: ABC Fake News and its shaky anchor, David Muir, said that the Reflecting Pool was drained to address",
-    "zh": "川普密碼每日報告 -- 2026-07-14\n今日推文: 2 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: ABC Fake News and its shaky anchor, David Muir, said that the Reflecting Pool was drained to address",
-    "ja": "トランプ・コード日次レポート -- 2026-07-14\n本日の投稿: 2件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: ABC Fake News and its shaky anchor, David Muir, said that the Reflecting Pool was drained to address"
+    "en": "Trump Code Daily Report -- 2026-07-14\nPosts today: 15 | Models triggered: 1\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Man pleads guilty to false US citizenship claim on North Carolina voter form for 2024 election: http",
+    "zh": "川普密碼每日報告 -- 2026-07-14\n今日推文: 15 篇 | 觸發模型: 1 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Man pleads guilty to false US citizenship claim on North Carolina voter form for 2024 election: http",
+    "ja": "トランプ・コード日次レポート -- 2026-07-14\n本日の投稿: 15件 | トリガーモデル: 1組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Man pleads guilty to false US citizenship claim on North Carolina voter form for 2024 election: http"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal",
+        "kw_inflation",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }

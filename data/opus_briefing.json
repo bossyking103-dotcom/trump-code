@@ -1,36 +1,114 @@
 {
   "date": "2026-07-14",
-  "prepared_at": "2026-07-14T11:45:11Z",
+  "prepared_at": "2026-07-14T14:45:14Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 2,
-    "latest": "ABC Fake News and its shaky anchor, David Muir, said that the Reflecting Pool was drained to address Peeling Paint (there is no paint, it was slashed with a knife, or box cutter, high grade colored wa",
+    "count": 15,
+    "latest": "Man pleads guilty to false US citizenship claim on North Carolina voter form for 2024 election: https://www.wbtv.com/2026/03/09/man-pleads-guilty-false-us-citizenship-claim-north-carolina-voter-form-2",
     "earliest_time": "2026-07-14T01:49:26.130Z",
-    "latest_time": "2026-07-14T02:53:57.413Z",
+    "latest_time": "2026-07-14T14:28:09.586Z",
     "sample": [
       {
-        "time": "01:49",
-        "text": "We drained the beautiful \"Reflecting Pool\" today in order to fix the scars and damage that was done by the Vandals two weeks ago. We wanted to wait until after the July 4th Weekend. The slashes were 300 yards long, and the floor of the pool was cut and then pulled upward, with great force, by these "
+        "time": "10:34",
+        "text": "President Trump Reiterates Support for ‘National Right to Carry’: https://www.breitbart.com/politics/2026/06/23/president-trump-reiterates-support-national-right-carry/"
       },
       {
-        "time": "02:53",
-        "text": "ABC Fake News and its shaky anchor, David Muir, said that the Reflecting Pool was drained to address Peeling Paint (there is no paint, it was slashed with a knife, or box cutter, high grade colored waterproofing liner - it was VANDALISM!) and Algae Blooms (also caused by Vandals, but removed long ag"
+        "time": "10:34",
+        "text": "Trump says he’s ‘working on’ national concealed-carry legislation: https://www.washingtonexaminer.com/news/white-house/4621630/trump-says-working-on-national-concealed-carry-legislation-bill-bachenberg/"
+      },
+      {
+        "time": "10:34",
+        "text": "Trump tells Pa. truck workers ‘fat drug’ prices coming down next week: ‘That alone should win the midterms’: https://nypost.com/2026/06/23/us-news/trump-tells-pa-truck-workers-fat-drug-prices-coming-down-next-week-that-alone-should-win-the-midterms/"
+      },
+      {
+        "time": "10:34",
+        "text": "Trump claims military victory, points to economic progress in the wake of first-stage Iran deal: https://www.washingtontimes.com/news/2026/jun/23/trump-claims-military-victory-points-economic-progress-wake-first/"
+      },
+      {
+        "time": "10:35",
+        "text": "Trump says he stopped California from rigging the gubernatorial race against Steve Hilton: https://www.washingtonexaminer.com/news/white-house/4621502/trump-stop-california-rigging-gubernatorial-race-against-steve-hilton/"
+      },
+      {
+        "time": "10:35",
+        "text": "Trump touts U.S. economy and oil prices in a midterm pitch in Pennsylvania: https://www.nbcnews.com/politics/donald-trump/trump-touts-us-economy-oil-prices-midterm-pitch-pennsylvania-rcna351414"
+      },
+      {
+        "time": "13:24",
+        "text": "Labor Department reports annual inflation in June was 3.5%, biggest monthly drop in over six years: https://justthenews.com/nation/economy/labor-department-reports-annual-inflation-june-was-35-biggest-monthly-drop-over-six"
+      },
+      {
+        "time": "13:55",
+        "text": "Maria Bartiromo is FANTASTIC!!! President DJT"
+      },
+      {
+        "time": "14:27",
+        "text": "Trump donates $1 million to Mike Johnson for recordbreaking fundraiser:"
+      },
+      {
+        "time": "14:28",
+        "text": "Man pleads guilty to false US citizenship claim on North Carolina voter form for 2024 election: https://www.wbtv.com/2026/03/09/man-pleads-guilty-false-us-citizenship-claim-north-carolina-voter-form-2024-election/"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_long": true,
+    "posts_11_20": true,
+    "avg_len_medium": true,
     "caps_low": true,
-    "excl_heavy": true,
+    "excl_normal": true,
     "questions_no": true,
+    "mostly_premarket": true,
     "has_night": true,
+    "kw_deal": true,
+    "pre_deal": true,
+    "kw_iran": true,
+    "kw_iran_2plus": true,
+    "pre_iran": true,
+    "kw_israel": true,
+    "pre_israel": true,
+    "kw_dow": true,
+    "pre_dow": true,
+    "kw_economy": true,
+    "kw_economy_2plus": true,
+    "pre_economy": true,
+    "kw_inflation": true,
+    "pre_inflation": true,
+    "kw_oil": true,
+    "pre_oil": true,
     "kw_great": true,
     "kw_beautiful": true,
+    "kw_fantastic": true,
+    "open_fantastic": true,
     "kw_fake": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
-    "volume_drop": true
+    "open_president_djt": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
+  },
+  "triggered_rules": {
+    "total": 1,
+    "long": 1,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0075",
+        "features": [
+          "kw_deal",
+          "kw_inflation",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -141,32 +219,31 @@
   "evolution_latest": {
     "date": "2026-07-14",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "questions_yes",
-          "kw_dow_2plus",
-          "kw_signed"
+          "kw_signed",
+          "kw_maga"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 91.7,
+        "hold": 1,
+        "score": 90.0,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "kw_complete_and_total",
-          "kw_agreement"
+          "kw_economy",
+          "open_great",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
         "score": 90.0,
-        "origin": "crossover"
+        "origin": "mutation_replace"
       },
       {
         "features": [
