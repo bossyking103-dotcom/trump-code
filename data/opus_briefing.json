@@ -1,279 +1,36 @@
 {
-  "date": "2026-07-13",
-  "prepared_at": "2026-07-13T20:45:11Z",
+  "date": "2026-07-14",
+  "prepared_at": "2026-07-14T06:19:23Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 24,
-    "latest": "It is my Great Honor to endorse America First Patriot, Dr. John Cowan, who is running to represent the Wonderful People of Georgia's 11th Congressional District! A Proven Leader, John has served his C",
-    "earliest_time": "2026-07-13T01:03:05.451Z",
-    "latest_time": "2026-07-13T19:59:02.854Z",
+    "count": 2,
+    "latest": "ABC Fake News and its shaky anchor, David Muir, said that the Reflecting Pool was drained to address Peeling Paint (there is no paint, it was slashed with a knife, or box cutter, high grade colored wa",
+    "earliest_time": "2026-07-14T01:49:26.130Z",
+    "latest_time": "2026-07-14T02:53:57.413Z",
     "sample": [
       {
-        "time": "13:19",
-        "text": "Thank you to the Great Dr. Phil. The Deep State never sleeps.https://www.theepochtimes.com/opinion/dont-mistake-the-messenger-for-the-message-on-the-question-of-trumps-intelligence-6058533"
+        "time": "01:49",
+        "text": "We drained the beautiful \"Reflecting Pool\" today in order to fix the scars and damage that was done by the Vandals two weeks ago. We wanted to wait until after the July 4th Weekend. The slashes were 300 yards long, and the floor of the pool was cut and then pulled upward, with great force, by these "
       },
       {
-        "time": "13:19",
-        "text": "Reflecting Pool showing F-35s!"
-      },
-      {
-        "time": "14:16",
-        "text": "The Hormuz Strait is OPEN, and will remain OPEN, with or without Iran. We are reinstating the THE IRANIAN BLOCKADE, so named because it is only stopping Iran's ships or customers from entering or leaving. All other countries will have fair and open use of the Strait. The U.S.A. will be, from this po"
-      },
-      {
-        "time": "14:26",
-        "text": "In honor of Senator Lindsey Graham, a big supporter, the U.S. Senate should pass the Clarity Act. China, and many other countries, would like to take complete and total control of this major financial \"happening,\" as well as A.I., where we are now leading, but where they are fighting hard. Don't let"
-      },
-      {
-        "time": "14:43",
-        "text": "I recommended, to Governor Henry McMaster, Lindsey Graham's wonderful sister, Darline, to serve as interim Senator from the Great State of South Carolina. This would be a fabulous tribute to Lindsey, who loved her dearly! President DONALD J. TRUMP"
-      },
-      {
-        "time": "16:41",
-        "text": "It is my Great Honor to endorse MAGA Warrior, Steve Toth, who is running to represent the Tremendous People of Texas’ 2nd Congressional District! A Highly Respected State Legislator, and Very Successful Small Business Owner, Steve has been an incredible Voice for MAGA, and has been with me from the "
-      },
-      {
-        "time": "18:45",
-        "text": "President Trump will be making a Speech to the Nation on Thursday evening, at 9 P.M. Eastern. Thank you for your attention to this matter!"
-      },
-      {
-        "time": "19:35",
-        "text": "It is my Great Honor to endorse America First Patriot and Highly Respected Jenny Costa Honeycutt, who is running to represent the fantastic people of South Carolina's 1st Congressional District! A very successful Business Owner, Attorney, Civic Leader, and Loving Wife and Mother, Jenny has dedicated"
-      },
-      {
-        "time": "19:45",
-        "text": "Nobody knows Henry Cuellar better than Donald J. Trump. I studied his records, learned about his financing, and listened to his two wonderful daughters beg me to help the mother and father that they love. Their letters were heart wrenching and beautiful, but their father had problems that nobody cou"
-      },
-      {
-        "time": "19:59",
-        "text": "It is my Great Honor to endorse America First Patriot, Dr. John Cowan, who is running to represent the Wonderful People of Georgia's 11th Congressional District! A Proven Leader, John has served his Community well as a Highly Respected Neurosurgeon, Small Business Owner, and Civic Leader, prior to r"
+        "time": "02:53",
+        "text": "ABC Fake News and its shaky anchor, David Muir, said that the Reflecting Pool was drained to address Peeling Paint (there is no paint, it was slashed with a knife, or box cutter, high grade colored waterproofing liner - it was VANDALISM!) and Algae Blooms (also caused by Vandals, but removed long ag"
       }
     ]
   },
-  "keyword_signals": [
-    "DEAL",
-    "CHINA",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
   "today_features": {
-    "posts_21_35": true,
+    "posts_1_5": true,
     "avg_len_long": true,
-    "caps_medium": true,
-    "excl_normal": true,
+    "caps_low": true,
+    "excl_heavy": true,
     "questions_no": true,
-    "mostly_premarket": true,
     "has_night": true,
-    "heavy_night": true,
-    "kw_deal": true,
-    "open_deal": true,
-    "kw_immediately": true,
-    "open_immediately": true,
-    "kw_block": true,
-    "open_block": true,
-    "kw_china": true,
-    "open_china": true,
-    "kw_iran": true,
-    "open_iran": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "open_dow": true,
-    "kw_economy": true,
-    "kw_economy_2plus": true,
-    "open_economy": true,
-    "kw_oil": true,
-    "kw_gas": true,
-    "kw_energy": true,
-    "kw_energy_2plus": true,
-    "open_energy": true,
-    "kw_jobs": true,
-    "open_jobs": true,
     "kw_great": true,
-    "kw_great_2plus": true,
-    "pre_great": true,
-    "open_great": true,
-    "kw_tremendous": true,
-    "open_tremendous": true,
-    "kw_incredible": true,
-    "kw_incredible_2plus": true,
-    "open_incredible": true,
-    "kw_historic": true,
-    "pre_historic": true,
     "kw_beautiful": true,
-    "open_beautiful": true,
-    "kw_fantastic": true,
-    "open_fantastic": true,
-    "kw_wonderful": true,
-    "kw_wonderful_2plus": true,
-    "open_wonderful": true,
-    "kw_stupid": true,
-    "open_stupid": true,
-    "kw_incompetent": true,
-    "open_incompetent": true,
-    "kw_biden": true,
-    "open_biden": true,
-    "kw_vance": true,
-    "kw_vance_2plus": true,
-    "open_vance": true,
-    "kw_maga": true,
-    "open_maga": true,
-    "kw_america_first": true,
-    "kw_america_first_2plus": true,
-    "open_america_first": true,
+    "kw_fake": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
-    "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "pre_thank_you_for_your_attention": true,
-    "open_thank_you_for_your_attention": true,
-    "kw_never_let_you_down": true,
-    "kw_never_let_you_down_2plus": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "kw_complete_and_total_2plus": true,
-    "open_complete_and_total": true,
-    "is_monday": true,
-    "volume_falling_3d": true,
-    "volume_spike": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
-  },
-  "triggered_rules": {
-    "total": 41,
-    "long": 36,
-    "short": 5,
-    "sample": [
-      {
-        "id": "R0004",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0005",
-        "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0006",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0013",
-        "features": [
-          "kw_dow_2plus",
-          "open_jobs",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0016",
-        "features": [
-          "kw_economy",
-          "kw_energy",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0017",
-        "features": [
-          "kw_inflation",
-          "open_china",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0019",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0020",
-        "features": [
-          "is_friday",
-          "kw_china",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0021",
-        "features": [
-          "is_friday",
-          "kw_economy",
-          "open_china"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0022",
-        "features": [
-          "is_friday",
-          "open_china",
-          "pre_great"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -382,11 +139,11 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-13",
+    "date": "2026-07-14",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -401,24 +158,23 @@
       },
       {
         "features": [
-          "is_friday",
-          "kw_jobs",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 87.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
           "kw_interest_rate",
-          "excl_heavy"
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
