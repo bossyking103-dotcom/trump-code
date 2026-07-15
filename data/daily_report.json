@@ -1,20 +1,18 @@
 {
-  "date": "2026-07-14",
-  "generated_at": "2026-07-14T14:45:07Z",
-  "posts_today": 15,
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T20:10:00Z",
+  "posts_today": 11,
   "latest_post": {
-    "time": "2026-07-14T14:28",
-    "content_preview": "Man pleads guilty to false US citizenship claim on North Carolina voter form for 2024 election: http"
+    "time": "2026-07-15T17:09",
+    "content_preview": "Amy Klobuchar, the lightly respected Senator from Minnesota, is running for Governor to take the pla"
   },
   "signals_detected": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
+    "CHINA"
   ],
-  "models_triggered": 1,
+  "models_triggered": 26,
   "direction_summary": {
-    "LONG": 1,
-    "SHORT": 0,
+    "LONG": 25,
+    "SHORT": 1,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -23,20 +21,229 @@
     "rate": 100.0
   },
   "sp500_latest": {
-    "date": "2026-07-14",
-    "close": 7537.3
+    "date": "2026-07-15",
+    "close": 7572.4
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-14\nPosts today: 15 | Models triggered: 1\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Man pleads guilty to false US citizenship claim on North Carolina voter form for 2024 election: http",
-    "zh": "川普密碼每日報告 -- 2026-07-14\n今日推文: 15 篇 | 觸發模型: 1 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Man pleads guilty to false US citizenship claim on North Carolina voter form for 2024 election: http",
-    "ja": "トランプ・コード日次レポート -- 2026-07-14\n本日の投稿: 15件 | トリガーモデル: 1組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Man pleads guilty to false US citizenship claim on North Carolina voter form for 2024 election: http"
+    "en": "Trump Code Daily Report -- 2026-07-15\nPosts today: 11 | Models triggered: 26\nSignals: CHINA\nConsensus: 25 LONG vs 1 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Amy Klobuchar, the lightly respected Senator from Minnesota, is running for Governor to take the pla",
+    "zh": "川普密碼每日報告 -- 2026-07-15\n今日推文: 11 篇 | 觸發模型: 26 組\n偵測信號: 中國\n共識方向: 25 組看多 vs 1 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Amy Klobuchar, the lightly respected Senator from Minnesota, is running for Governor to take the pla",
+    "ja": "トランプ・コード日次レポート -- 2026-07-15\n本日の投稿: 11件 | トリガーモデル: 26組\n検出シグナル: 中国\nコンセンサス: 25組ロング vs 1組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Amy Klobuchar, the lightly respected Senator from Minnesota, is running for Governor to take the pla"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_deal",
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "posts_11_20"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "kw_inflation",
-        "volume_falling_3d"
+        "open_china",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_china",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_economy",
+        "open_china"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "open_china",
+        "pre_great"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_biden",
+        "kw_china",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_china",
+        "kw_thank_you_for_your_attention",
+        "open_inflation"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_executive_order",
+        "kw_jobs",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_tremendous",
+        "open_jobs"
       ],
       "direction": "LONG",
       "hold": 2,

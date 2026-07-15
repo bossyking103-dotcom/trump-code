@@ -2833,7 +2833,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1783972842",
@@ -3215,6 +3215,174 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.53,
     "trump_coin_24h_change": -0.67,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1784041786",
+    "created_at": "2026-07-14T15:09:46Z",
+    "post_time": "2026-07-14T15:04:19.213Z",
+    "post_preview": "Oil is flowing like never before, thanks to the awesome Power of the United States Military. A special salute to Secretary of War, Pete Hegseth, Chairman of the Joint Chiefs of Staff, Dan Caine, and C",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "block"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL",
+      "THREAT",
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "102660424653109859340616006357",
+        "question": "Trump out as President by July 31?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "884852732362643034869031467123",
+        "question": "Trump out as President by July 31?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "516162325567819335283998515633",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.0415
+      },
+      {
+        "token_id": "572162725645295484646864636912",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.9585
+      },
+      {
+        "token_id": "866802472974042276988353754878",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.952
+      }
+    ],
+    "pm_price_at_signal": 0.0055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.55,
+    "trump_coin_24h_change": -0.98,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1784041786",
+    "created_at": "2026-07-14T15:09:46Z",
+    "post_time": "2026-07-14T14:34:11.873Z",
+    "post_preview": "Trump claims military victory, points to economic progress in the wake of first-stage Iran deal: https://www.washingtontimes.com/news/2026/jun/23/trump-claims-military-victory-points-economic-progress",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "102660424653109859340616006357",
+        "question": "Trump out as President by July 31?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "884852732362643034869031467123",
+        "question": "Trump out as President by July 31?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "516162325567819335283998515633",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.0415
+      },
+      {
+        "token_id": "572162725645295484646864636912",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.9585
+      },
+      {
+        "token_id": "866802472974042276988353754878",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.952
+      }
+    ],
+    "pm_price_at_signal": 0.0055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.55,
+    "trump_coin_24h_change": -0.98,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
