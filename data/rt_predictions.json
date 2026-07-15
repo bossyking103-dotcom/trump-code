@@ -2908,7 +2908,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1783972842",
@@ -2983,7 +2983,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1783976478",
@@ -3058,7 +3058,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1784009670",
@@ -3133,7 +3133,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1784009670",
@@ -3218,7 +3218,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1784041786",
@@ -3311,7 +3311,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1784041786",
@@ -3383,6 +3383,399 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.55,
     "trump_coin_24h_change": -0.98,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1784146421",
+    "created_at": "2026-07-15T20:13:41Z",
+    "post_time": "2026-07-15T16:39:53.766Z",
+    "post_preview": "One of the biggest Driving Forces in the Future for Jobs, are Data Centers. They are big, strong, bold, and Money Machines for the State in which they are built. Governor Kathy Hochul, for political r",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "terrible"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION",
+      "BULLISH",
+      "BEARISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "866802472974042276988353754878",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.948
+      },
+      {
+        "token_id": "421899132255834746844556601247",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.052
+      },
+      {
+        "token_id": "912255830419891605997922164240",
+        "question": "Will Trump pardon SBF by July 31?",
+        "price_at_signal": 0.004
+      },
+      {
+        "token_id": "137278596238758455950050906570",
+        "question": "Will Trump pardon SBF by July 31?",
+        "price_at_signal": 0.996
+      },
+      {
+        "token_id": "276810932868235780397209167503",
+        "question": "Will Trump meet with Kim Jong Un in July 2026?",
+        "price_at_signal": 0.007
+      }
+    ],
+    "pm_price_at_signal": 0.948,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.59,
+    "trump_coin_24h_change": 2.26,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1784146421",
+    "created_at": "2026-07-15T20:13:41Z",
+    "post_time": "2026-07-15T11:31:15.715Z",
+    "post_preview": "Mike Lindell, the \"Pillow Man,\" and one of America's greatest and most hard working Patriots, is running to be GOVERNOR OF MINNESOTA, replacing one of the worst and most incompetent governors in the h",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "worst"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "866802472974042276988353754878",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.948
+      },
+      {
+        "token_id": "421899132255834746844556601247",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.052
+      },
+      {
+        "token_id": "912255830419891605997922164240",
+        "question": "Will Trump pardon SBF by July 31?",
+        "price_at_signal": 0.004
+      },
+      {
+        "token_id": "137278596238758455950050906570",
+        "question": "Will Trump pardon SBF by July 31?",
+        "price_at_signal": 0.996
+      },
+      {
+        "token_id": "276810932868235780397209167503",
+        "question": "Will Trump meet with Kim Jong Un in July 2026?",
+        "price_at_signal": 0.007
+      }
+    ],
+    "pm_price_at_signal": 0.948,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.59,
+    "trump_coin_24h_change": 2.26,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1784146421",
+    "created_at": "2026-07-15T20:13:41Z",
+    "post_time": "2026-07-15T10:45:34.161Z",
+    "post_preview": "The men and women of ICE are doing a GREAT job, one that has to be done. CRIME IS WAY DOWN IN AMERICA, in many cases with numbers that haven't been seen in decades. The Open Border Policy of Sleepy Jo",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "effective"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "866802472974042276988353754878",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.948
+      },
+      {
+        "token_id": "421899132255834746844556601247",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.052
+      },
+      {
+        "token_id": "912255830419891605997922164240",
+        "question": "Will Trump pardon SBF by July 31?",
+        "price_at_signal": 0.004
+      },
+      {
+        "token_id": "137278596238758455950050906570",
+        "question": "Will Trump pardon SBF by July 31?",
+        "price_at_signal": 0.996
+      },
+      {
+        "token_id": "276810932868235780397209167503",
+        "question": "Will Trump meet with Kim Jong Un in July 2026?",
+        "price_at_signal": 0.007
+      }
+    ],
+    "pm_price_at_signal": 0.948,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.59,
+    "trump_coin_24h_change": 2.26,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1784146421",
+    "created_at": "2026-07-15T20:13:41Z",
+    "post_time": "2026-07-15T07:31:00.000Z",
+    "post_preview": "Mike Lindell, the “Pillow Man,” and one of America’s greatest and most hard working Patriots, is running to be GOVERNOR OF MINNESOTA, replacing one of the worst and most incompetent governors in the h",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "worst"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "866802472974042276988353754878",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.948
+      },
+      {
+        "token_id": "421899132255834746844556601247",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.052
+      },
+      {
+        "token_id": "912255830419891605997922164240",
+        "question": "Will Trump pardon SBF by July 31?",
+        "price_at_signal": 0.004
+      },
+      {
+        "token_id": "137278596238758455950050906570",
+        "question": "Will Trump pardon SBF by July 31?",
+        "price_at_signal": 0.996
+      },
+      {
+        "token_id": "276810932868235780397209167503",
+        "question": "Will Trump meet with Kim Jong Un in July 2026?",
+        "price_at_signal": 0.007
+      }
+    ],
+    "pm_price_at_signal": 0.948,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.59,
+    "trump_coin_24h_change": 2.26,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1784146421",
+    "created_at": "2026-07-15T20:13:41Z",
+    "post_time": "2026-07-14T18:37:42.161Z",
+    "post_preview": "Todd Blanche is doing a PHENOMENAL job as Acting Attorney General of the United States. Under Todd's incredible leadership at DOJ, Murder is down to the LOWEST level since 1900, and we just saw the bi",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "crash"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "866802472974042276988353754878",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.948
+      },
+      {
+        "token_id": "421899132255834746844556601247",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.052
+      },
+      {
+        "token_id": "912255830419891605997922164240",
+        "question": "Will Trump pardon SBF by July 31?",
+        "price_at_signal": 0.004
+      },
+      {
+        "token_id": "137278596238758455950050906570",
+        "question": "Will Trump pardon SBF by July 31?",
+        "price_at_signal": 0.996
+      },
+      {
+        "token_id": "276810932868235780397209167503",
+        "question": "Will Trump meet with Kim Jong Un in July 2026?",
+        "price_at_signal": 0.007
+      }
+    ],
+    "pm_price_at_signal": 0.948,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.59,
+    "trump_coin_24h_change": 2.26,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
