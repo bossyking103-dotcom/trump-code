@@ -1,32 +1,36 @@
 {
   "date": "2026-07-16",
-  "prepared_at": "2026-07-16T08:45:09Z",
+  "prepared_at": "2026-07-16T11:45:13Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 5,
-    "latest": "https://www.instagram.com/reel/Da1tu08OPxD/?igsh=MWFmNXIxMzR3ZzBhbw==",
+    "count": 6,
+    "latest": "https://www.breitbart.com/politics/2026/07/15/exclusive-azerbaijani-president-ilham-aliyev-lauds-trump-as-man-peace-credits-him-armenia-azerbaijan-deal/",
     "earliest_time": "2026-07-16T01:05:00.000Z",
-    "latest_time": "2026-07-16T04:35:21.523Z",
+    "latest_time": "2026-07-16T05:06:24.603Z",
     "sample": [
       {
         "time": "01:05",
         "text": "With today’s announcement, Pennsylvania will play a key role in building the arsenal of freedom to defend our nation in the modern world!"
       },
       {
-        "time": "01:06",
+        "time": "04:35",
+        "text": "https://www.instagram.com/reel/Da1tu08OPxD/?igsh=MWFmNXIxMzR3ZzBhbw=="
+      },
+      {
+        "time": "04:59",
+        "text": "With today's announcement, Pennsylvania will play a key role in building the arsenal of freedom to defend our nation in the modern world!"
+      },
+      {
+        "time": "05:04",
         "text": "FREEDOM 250 GRAND PRIX🏎️🇺🇸🏁"
       },
       {
-        "time": "01:30",
+        "time": "05:05",
         "text": "https://www.breitbart.com/politics/2026/07/15/trump-announces-nearly-10-billion-in-defense-industrial-base-investments-in-pennsylvania-at-mccormicks-summit/"
       },
       {
-        "time": "01:33",
+        "time": "05:06",
         "text": "https://www.breitbart.com/politics/2026/07/15/exclusive-azerbaijani-president-ilham-aliyev-lauds-trump-as-man-peace-credits-him-armenia-azerbaijan-deal/"
-      },
-      {
-        "time": "04:35",
-        "text": "https://www.instagram.com/reel/Da1tu08OPxD/?igsh=MWFmNXIxMzR3ZzBhbw=="
       }
     ]
   },
@@ -35,16 +39,17 @@
     "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_short": true,
     "caps_low": true,
-    "excl_none": true,
+    "excl_normal": true,
+    "mostly_premarket": true,
     "has_night": true,
-    "heavy_night": true,
     "kw_deal": true,
+    "pre_deal": true,
     "kw_billion": true,
+    "pre_billion": true,
     "volume_falling_3d": true,
-    "volume_drop": true,
     "deal_without_tariff": true,
     "deal_no_tariff": true
   },
@@ -176,10 +181,10 @@
   },
   "evolution_latest": {
     "date": "2026-07-16",
-    "crossover": 13,
-    "mutation": 15,
+    "crossover": 16,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -195,17 +200,17 @@
       {
         "features": [
           "kw_interest_rate",
-          "kw_tremendous"
+          "excl_heavy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "crossover"
       },
       {
         "features": [
           "kw_interest_rate",
-          "kw_beautiful"
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
