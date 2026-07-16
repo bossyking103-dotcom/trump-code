@@ -1,15 +1,15 @@
 {
   "date": "2026-07-16",
-  "prepared_at": "2026-07-16T11:45:13Z",
+  "prepared_at": "2026-07-16T14:45:10Z",
   "status": "PENDING",
   "today_posts": {
     "count": 6,
     "latest": "https://www.breitbart.com/politics/2026/07/15/exclusive-azerbaijani-president-ilham-aliyev-lauds-trump-as-man-peace-credits-him-armenia-azerbaijan-deal/",
-    "earliest_time": "2026-07-16T01:05:00.000Z",
+    "earliest_time": "2026-07-16T01:06:00.000Z",
     "latest_time": "2026-07-16T05:06:24.603Z",
     "sample": [
       {
-        "time": "01:05",
+        "time": "01:06",
         "text": "With today’s announcement, Pennsylvania will play a key role in building the arsenal of freedom to defend our nation in the modern world!"
       },
       {
@@ -181,10 +181,10 @@
   },
   "evolution_latest": {
     "date": "2026-07-16",
-    "crossover": 16,
-    "mutation": 16,
+    "crossover": 10,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 40,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -199,23 +199,23 @@
       },
       {
         "features": [
-          "kw_interest_rate",
-          "excl_heavy"
+          "kw_thank_you_for_your_attention",
+          "open_inflation"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 87.5,
+        "score": 88.9,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
+          "kw_president_of_the_united_states",
+          "kw_never_let_you_down"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 2,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "mutation_remove"
       }
     ]
   },
