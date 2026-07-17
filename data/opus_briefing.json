@@ -1,29 +1,80 @@
 {
   "date": "2026-07-17",
-  "prepared_at": "2026-07-17T11:45:10Z",
+  "prepared_at": "2026-07-17T14:45:10Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "https://www.whitehouse.gov/election-integrity",
+    "count": 6,
+    "latest": "The Reflecting Pool, so badly damaged by Deranged Vandals, has been emptied as the massive slash gets repaired. We got it through the great July Fourth Weekend. What kind of animals would do such a th",
     "earliest_time": "2026-07-17T01:02:21.559Z",
-    "latest_time": "2026-07-17T01:02:21.559Z",
+    "latest_time": "2026-07-17T13:46:04.477Z",
     "sample": [
       {
         "time": "01:02",
         "text": "https://www.whitehouse.gov/election-integrity"
+      },
+      {
+        "time": "09:36",
+        "text": "Election integrity documents are available for review here: https://www.whitehouse.gov"
+      },
+      {
+        "time": "11:52",
+        "text": "Great reviews on speech last night. Big audience. Pass THE SAVE AMERICA ACT!!! Thank you! President DONALD J. TRUMP"
+      },
+      {
+        "time": "12:54",
+        "text": "Italian Embassy as fully renovated by a great American Patriot!!! This should be done to NEW YORK CITY! Needs so much loving care. D.C. is the best example. All cleaned up, and safe. Crime down 95%! President DJT"
+      },
+      {
+        "time": "13:36",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116932617277175999Election integrity documents are available for review here: https://www.whitehouse.gov"
+      },
+      {
+        "time": "13:46",
+        "text": "The Reflecting Pool, so badly damaged by Deranged Vandals, has been emptied as the massive slash gets repaired. We got it through the great July Fourth Weekend. What kind of animals would do such a thing? We are looking for a Vandal Proof material, but such a thing should not have been necessary. Th"
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_short": true,
-    "caps_low": true,
-    "excl_none": true,
-    "questions_no": true,
+    "posts_6_10": true,
+    "avg_len_medium": true,
+    "caps_medium": true,
+    "excl_heavy": true,
     "has_night": true,
+    "kw_dow": true,
+    "pre_dow": true,
+    "kw_great": true,
+    "kw_great_2plus": true,
+    "pre_great": true,
+    "open_great": true,
+    "kw_save_america": true,
+    "pre_save_america": true,
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true,
+    "open_president_djt": true,
     "is_friday": true,
     "volume_falling_3d": true,
     "volume_drop": true
+  },
+  "triggered_rules": {
+    "total": 1,
+    "long": 1,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0022",
+        "features": [
+          "is_friday",
+          "open_china",
+          "pre_great"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -133,21 +184,22 @@
   },
   "evolution_latest": {
     "date": "2026-07-17",
-    "crossover": 10,
-    "mutation": 16,
+    "crossover": 16,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 42,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "questions_yes",
+          "kw_dow_2plus",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
-        "origin": "mutation_remove"
+        "score": 91.7,
+        "origin": "mutation_replace"
       },
       {
         "features": [
@@ -161,13 +213,14 @@
       },
       {
         "features": [
-          "kw_signed",
-          "open_tariff"
+          "kw_beautiful",
+          "kw_thank_you_for_your_attention",
+          "kw_tariffs_2plus"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
         "score": 87.5,
-        "origin": "mutation_remove"
+        "origin": "crossover"
       }
     ]
   },
