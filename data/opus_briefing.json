@@ -1,77 +1,29 @@
 {
-  "date": "2026-07-16",
-  "prepared_at": "2026-07-16T20:45:09Z",
+  "date": "2026-07-17",
+  "prepared_at": "2026-07-17T05:45:09Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "https://www.breitbart.com/politics/2026/07/15/exclusive-azerbaijani-president-ilham-aliyev-lauds-trump-as-man-peace-credits-him-armenia-azerbaijan-deal/",
-    "earliest_time": "2026-07-16T01:06:00.000Z",
-    "latest_time": "2026-07-16T05:06:24.603Z",
+    "count": 1,
+    "latest": "https://www.whitehouse.gov/election-integrity",
+    "earliest_time": "2026-07-17T01:02:21.559Z",
+    "latest_time": "2026-07-17T01:02:21.559Z",
     "sample": [
       {
-        "time": "01:06",
-        "text": "With today’s announcement, Pennsylvania will play a key role in building the arsenal of freedom to defend our nation in the modern world!"
-      },
-      {
-        "time": "04:35",
-        "text": "https://www.instagram.com/reel/Da1tu08OPxD/?igsh=MWFmNXIxMzR3ZzBhbw=="
-      },
-      {
-        "time": "04:59",
-        "text": "With today's announcement, Pennsylvania will play a key role in building the arsenal of freedom to defend our nation in the modern world!"
-      },
-      {
-        "time": "05:04",
-        "text": "FREEDOM 250 GRAND PRIX🏎️🇺🇸🏁"
-      },
-      {
-        "time": "05:05",
-        "text": "https://www.breitbart.com/politics/2026/07/15/trump-announces-nearly-10-billion-in-defense-industrial-base-investments-in-pennsylvania-at-mccormicks-summit/"
-      },
-      {
-        "time": "05:06",
-        "text": "https://www.breitbart.com/politics/2026/07/15/exclusive-azerbaijani-president-ilham-aliyev-lauds-trump-as-man-peace-credits-him-armenia-azerbaijan-deal/"
+        "time": "01:02",
+        "text": "https://www.whitehouse.gov/election-integrity"
       }
     ]
   },
-  "keyword_signals": [
-    "DEAL",
-    "DEAL_ONLY"
-  ],
   "today_features": {
-    "posts_6_10": true,
+    "posts_1_5": true,
     "avg_len_short": true,
     "caps_low": true,
-    "excl_normal": true,
-    "mostly_premarket": true,
+    "excl_none": true,
+    "questions_no": true,
     "has_night": true,
-    "kw_deal": true,
-    "pre_deal": true,
-    "kw_billion": true,
-    "pre_billion": true,
+    "is_friday": true,
     "volume_falling_3d": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
-  },
-  "triggered_rules": {
-    "total": 1,
-    "long": 1,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0075",
-        "features": [
-          "kw_deal",
-          "kw_inflation",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -180,17 +132,17 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-16",
-    "crossover": 16,
-    "mutation": 15,
+    "date": "2026-07-17",
+    "crossover": 14,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "kw_interest_rate"
+          "kw_president_of_the_united_states",
+          "kw_india"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -209,12 +161,12 @@
       },
       {
         "features": [
-          "kw_signed",
-          "is_friday"
+          "kw_energy",
+          "kw_agreement"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
+        "hold": 3,
+        "score": 88.9,
         "origin": "crossover"
       }
     ]

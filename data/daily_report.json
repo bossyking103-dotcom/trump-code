@@ -1,20 +1,17 @@
 {
-  "date": "2026-07-16",
-  "generated_at": "2026-07-16T20:45:05Z",
-  "posts_today": 6,
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T05:45:04Z",
+  "posts_today": 1,
   "latest_post": {
-    "time": "2026-07-16T05:06",
-    "content_preview": "https://www.breitbart.com/politics/2026/07/15/exclusive-azerbaijani-president-ilham-aliyev-lauds-tru"
+    "time": "2026-07-17T01:02",
+    "content_preview": "https://www.whitehouse.gov/election-integrity"
   },
-  "signals_detected": [
-    "DEAL",
-    "DEAL_ONLY"
-  ],
-  "models_triggered": 1,
+  "signals_detected": [],
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 1,
+    "LONG": 0,
     "SHORT": 0,
-    "consensus": "BULLISH"
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 22,
@@ -26,21 +23,9 @@
     "close": 7533.77
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-16\nPosts today: 6 | Models triggered: 1\nSignals: DEAL, DEAL_ONLY\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: https://www.breitbart.com/politics/2026/07/15/exclusive-azerbaijani-president-ilham-aliyev-lauds-tru",
-    "zh": "川普密碼每日報告 -- 2026-07-16\n今日推文: 6 篇 | 觸發模型: 1 組\n偵測信號: Deal, 只有Deal沒有關稅\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: https://www.breitbart.com/politics/2026/07/15/exclusive-azerbaijani-president-ilham-aliyev-lauds-tru",
-    "ja": "トランプ・コード日次レポート -- 2026-07-16\n本日の投稿: 6件 | トリガーモデル: 1組\n検出シグナル: ディール, Dealのみ（関税無し）\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: https://www.breitbart.com/politics/2026/07/15/exclusive-azerbaijani-president-ilham-aliyev-lauds-tru"
+    "en": "Trump Code Daily Report -- 2026-07-17\nPosts today: 1 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: https://www.whitehouse.gov/election-integrity",
+    "zh": "川普密碼每日報告 -- 2026-07-17\n今日推文: 1 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: https://www.whitehouse.gov/election-integrity",
+    "ja": "トランプ・コード日次レポート -- 2026-07-17\n本日の投稿: 1件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: https://www.whitehouse.gov/election-integrity"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_deal",
-        "kw_inflation",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
