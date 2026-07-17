@@ -5103,5 +5103,17 @@
     "short": 0,
     "signals": [],
     "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-07-17",
+    "posts": 12,
+    "triggered": 57,
+    "long": 48,
+    "short": 9,
+    "signals": [
+      "TARIFF",
+      "DEAL"
+    ],
+    "consensus": "BULLISH"
   }
 ]
