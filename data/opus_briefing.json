@@ -1,267 +1,49 @@
 {
-  "date": "2026-07-17",
-  "prepared_at": "2026-07-17T20:45:10Z",
+  "date": "2026-07-18",
+  "prepared_at": "2026-07-18T05:45:09Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 12,
-    "latest": "Such great news in June's Inflation Numbers! Prices FELL by the most in a single month in over six years. The June CPI was below the forecast of every single Economist (67!) that Bloomberg polled. Pri",
-    "earliest_time": "2026-07-17T01:02:21.559Z",
-    "latest_time": "2026-07-17T19:35:55.921Z",
+    "count": 4,
+    "latest": "Tim Sheehy is GREAT. A Winner!!! President DJT",
+    "earliest_time": "2026-07-18T01:59:50.365Z",
+    "latest_time": "2026-07-18T02:18:32.394Z",
     "sample": [
       {
-        "time": "12:54",
-        "text": "Italian Embassy as fully renovated by a great American Patriot!!! This should be done to NEW YORK CITY! Needs so much loving care. D.C. is the best example. All cleaned up, and safe. Crime down 95%! President DJT"
+        "time": "01:59",
+        "text": "For many years, I have called for bold, swift, and decisive action to protect the integrity of America's elections. Every American deserves to know that when they cast their vote, that vote will be counted accurately in a system that is secure—one where cheating and interference are not just difficu"
       },
       {
-        "time": "13:36",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116932617277175999Election integrity documents are available for review here: https://www.whitehouse.gov"
+        "time": "02:01",
+        "text": "Newly declassified documents show that over a period of years starting during the 2020 election cycle, the People's Republic of China carried out what is believed to be the largest compromise of election data in history — resulting in China's illicit acquisition of 220 million U.S. voter files.That "
       },
       {
-        "time": "13:38",
-        "text": "Election integrity documents are available for review here: https://www.whitehouse.gov"
+        "time": "02:13",
+        "text": "Ensuring the integrity of our elections is fundamental to preserving trust in American democracy. Following the 2020 presidential election, concerns about potential irregularities prompted detailed examinations of voting processes, data security, and registration practices across multiple states…Dow"
       },
       {
-        "time": "13:46",
-        "text": "The Reflecting Pool, so badly damaged by Deranged Vandals, has been emptied as the massive slash gets repaired. We got it through the great July Fourth Weekend. What kind of animals would do such a thing? We are looking for a Vandal Proof material, but such a thing should not have been necessary. Th"
-      },
-      {
-        "time": "15:36",
-        "text": "Such great news in June’s Inflation Numbers! Prices FELL by the most in a single month in over six years. The June CPI was below the forecast of every single Economist (67!) that Bloomberg polled. Prices were down across the board including for Gasoline, Electricity, Auto Insurance, Hotels, and Pres"
-      },
-      {
-        "time": "19:15",
-        "text": "It was my Honor to welcome now Senator Darline Graham Nordone (The sister of the Late, Great Lindsey Graham!), from the Wonderful State of South Carolina, into the Oval Office. We have known each other for a long time — She is a spectacular person, and a true American Patriot. Lindsey was one of the"
-      },
-      {
-        "time": "19:24",
-        "text": "We are holding Canada responsible for the fact that they are not properly maintaining their Forests, and Brush therein, and the United States is being unnecessarily invaded by filthy, polluted, and unhealthy air, the quality of which is dangerous, and totally unacceptable! I will call the Prime Mini"
-      },
-      {
-        "time": "19:30",
-        "text": "For decades, horrible politicians allowed our Industrial Base to move overseas. Their Trade Policies encouraged Companies to find the cheapest Labor, and build the Products we invented across Asia. When I took Office, we didn't build Leading Edge Semiconductor Chips here in America. American Trade P"
-      },
-      {
-        "time": "19:32",
-        "text": "BIG WIN in Court for the American People! The so-called \"Digital Equity Act,\" a Biden DEI law, was ruled exactly what I said it was last year — A RACIST and UNCONSTITUTIONAL giveaway that never should have become Law. Sleepy Joe and the Dumocrats used YOUR Tax Dollars to divide Americans, instead of"
-      },
-      {
-        "time": "19:35",
-        "text": "Such great news in June's Inflation Numbers! Prices FELL by the most in a single month in over six years. The June CPI was below the forecast of every single Economist (67!) that Bloomberg polled. Prices were down across the board including for Gasoline, Electricity, Auto Insurance, Hotels, and Pres"
+        "time": "02:18",
+        "text": "Tim Sheehy is GREAT. A Winner!!! President DJT"
       }
     ]
   },
   "keyword_signals": [
-    "TARIFF",
-    "DEAL"
+    "CHINA"
   ],
   "today_features": {
-    "posts_11_20": true,
-    "avg_len_long": true,
-    "caps_medium": true,
-    "excl_heavy": true,
-    "mostly_open": true,
+    "posts_1_5": true,
+    "avg_len_very_long": true,
+    "caps_low": true,
+    "excl_normal": true,
+    "questions_no": true,
     "has_night": true,
-    "kw_tariff": true,
-    "kw_tariff_2plus": true,
-    "open_tariff": true,
-    "kw_tariffs": true,
-    "kw_tariffs_2plus": true,
-    "open_tariffs": true,
-    "kw_deal": true,
-    "open_deal": true,
-    "kw_trade": true,
-    "open_trade": true,
-    "kw_canada": true,
-    "open_canada": true,
+    "heavy_night": true,
+    "kw_signed": true,
+    "kw_china": true,
     "kw_dow": true,
-    "kw_dow_2plus": true,
-    "pre_dow": true,
-    "open_dow": true,
-    "kw_economy": true,
-    "open_economy": true,
-    "kw_inflation": true,
-    "kw_inflation_2plus": true,
-    "open_inflation": true,
-    "kw_gas": true,
-    "kw_gas_2plus": true,
-    "open_gas": true,
-    "kw_jobs": true,
-    "kw_jobs_2plus": true,
-    "open_jobs": true,
-    "kw_billion": true,
-    "kw_billion_2plus": true,
-    "open_billion": true,
     "kw_great": true,
-    "kw_great_2plus": true,
-    "pre_great": true,
-    "open_great": true,
-    "kw_incredible": true,
-    "open_incredible": true,
-    "kw_wonderful": true,
-    "kw_wonderful_2plus": true,
-    "open_wonderful": true,
-    "kw_horrible": true,
-    "open_horrible": true,
-    "kw_biden": true,
-    "open_biden": true,
-    "kw_vance": true,
-    "open_vance": true,
-    "kw_save_america": true,
-    "pre_save_america": true,
-    "kw_golden_age": true,
-    "kw_golden_age_2plus": true,
-    "open_golden_age": true,
     "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "pre_president_djt": true,
-    "open_president_djt": true,
-    "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "open_thank_you_for_your_attention": true,
-    "kw_never_let_you_down": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "open_complete_and_total": true,
-    "is_friday": true,
-    "volume_falling_3d": true,
-    "both_tariff_and_deal": true
-  },
-  "triggered_rules": {
-    "total": 57,
-    "long": 48,
-    "short": 9,
-    "sample": [
-      {
-        "id": "R0001",
-        "features": [
-          "both_tariff_and_deal",
-          "kw_disaster",
-          "kw_jobs"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0002",
-        "features": [
-          "kw_biden",
-          "kw_india",
-          "kw_tariffs"
-        ],
-        "direction": "SHORT",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0004",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0005",
-        "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0006",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0008",
-        "features": [
-          "open_dow",
-          "open_trade",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0012",
-        "features": [
-          "kw_perfect",
-          "kw_thank_you_for_your_attention",
-          "posts_11_20"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0013",
-        "features": [
-          "kw_dow_2plus",
-          "open_jobs",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0017",
-        "features": [
-          "kw_inflation",
-          "open_china",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0019",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "is_weekend": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -370,33 +152,33 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-17",
+    "date": "2026-07-18",
     "crossover": 16,
-    "mutation": 11,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_jobs",
+          "kw_economy",
           "is_friday",
-          "kw_great_2plus"
+          "kw_fantastic"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 100.0,
-        "origin": "mutation_replace"
+        "hold": 1,
+        "score": 91.7,
+        "origin": "crossover"
       },
       {
         "features": [
-          "kw_president_of_the_united_states",
-          "kw_india"
+          "kw_economy",
+          "kw_interest_rate"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "mutation_remove"
+        "origin": "crossover"
       },
       {
         "features": [

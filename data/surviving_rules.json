@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-07-17T20:45:10Z",
-    "evolved_rules_added": 43
+    "last_evolution": "2026-07-18T05:45:08Z",
+    "evolved_rules_added": 46
   },
   "rules": [
     {
@@ -13689,7 +13689,12 @@
       "origin": "mutation_replace",
       "born_date": "2026-07-17",
       "weight": 1.0,
-      "parent": "is_friday+kw_tremendous+open_jobs"
+      "parent": "is_friday+kw_tremendous+open_jobs",
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14898,7 +14903,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-07-17",
+      "born_date": "2026-07-18",
       "combined_score": 70.0
     }
   ]
