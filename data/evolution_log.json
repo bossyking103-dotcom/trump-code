@@ -18743,5 +18743,47 @@
         "origin": "crossover"
       }
     ]
+  },
+  {
+    "date": "2026-07-18",
+    "crossover": 16,
+    "mutation": 15,
+    "distill": 16,
+    "total_new": 47,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_economy",
+          "kw_wonderful",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 100.0,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "kw_agreement",
+          "kw_maga"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 92.3,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_biden_2plus",
+          "kw_tariff",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
+      }
+    ]
   }
 ]
