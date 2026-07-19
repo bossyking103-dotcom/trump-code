@@ -4241,5 +4241,155 @@
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
     "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1784464258",
+    "created_at": "2026-07-19T12:30:58Z",
+    "post_time": "2026-07-19T11:54:33.979Z",
+    "post_preview": "Republicans should add Iran to the Russian Sanctions Bill. That's what Lindsey wanted to do, and it was going to happen. IMPORTANT!!! President DJT",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "sanction"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "866802472974042276988353754878",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.978
+      },
+      {
+        "token_id": "421899132255834746844556601247",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.022
+      },
+      {
+        "token_id": "102660424653109859340616006357",
+        "question": "Trump out as President by July 31?",
+        "price_at_signal": 0.0045
+      },
+      {
+        "token_id": "884852732362643034869031467123",
+        "question": "Trump out as President by July 31?",
+        "price_at_signal": 0.9955
+      },
+      {
+        "token_id": "653903951823141514562181556461",
+        "question": "Will Trump attend 0 World Cup matches?",
+        "price_at_signal": 0.0165
+      }
+    ],
+    "pm_price_at_signal": 0.978,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.63,
+    "trump_coin_24h_change": -2.72,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1784471831",
+    "created_at": "2026-07-19T14:37:11Z",
+    "post_time": "2026-07-19T14:05:05.638Z",
+    "post_preview": "The People of Aberdeen, in Scotland, are dancing in the streets because the new Prime Minister, Andy Burnham, has stated that he will be opening up, all the way, the invaluable North Sea Oil! It is on",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "disaster"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "866802472974042276988353754878",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.981
+      },
+      {
+        "token_id": "421899132255834746844556601247",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.019
+      },
+      {
+        "token_id": "102660424653109859340616006357",
+        "question": "Trump out as President by July 31?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "884852732362643034869031467123",
+        "question": "Trump out as President by July 31?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "653903951823141514562181556461",
+        "question": "Will Trump attend 0 World Cup matches?",
+        "price_at_signal": 0.0205
+      }
+    ],
+    "pm_price_at_signal": 0.981,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.63,
+    "trump_coin_24h_change": -0.61,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
   }
 ]

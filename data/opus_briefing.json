@@ -1,25 +1,54 @@
 {
   "date": "2026-07-19",
-  "prepared_at": "2026-07-19T11:45:07Z",
+  "prepared_at": "2026-07-19T14:45:08Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "Trump-style nationalism surges across globe. Will France be next with Le Pen reprise?https://justthenews.com/government/white-house/trump-style-nationalism-continues-its-sweep-french-do-over-le-pen",
+    "count": 3,
+    "latest": "The People of Aberdeen, in Scotland, are dancing in the streets because the new Prime Minister, Andy Burnham, has stated that he will be opening up, all the way, the invaluable North Sea Oil! It is on",
     "earliest_time": "2026-07-19T11:28:07.988Z",
-    "latest_time": "2026-07-19T11:28:07.988Z",
+    "latest_time": "2026-07-19T14:05:05.638Z",
     "sample": [
       {
         "time": "11:28",
         "text": "Trump-style nationalism surges across globe. Will France be next with Le Pen reprise?https://justthenews.com/government/white-house/trump-style-nationalism-continues-its-sweep-french-do-over-le-pen"
+      },
+      {
+        "time": "11:54",
+        "text": "Republicans should add Iran to the Russian Sanctions Bill. That's what Lindsey wanted to do, and it was going to happen. IMPORTANT!!! President DJT"
+      },
+      {
+        "time": "14:05",
+        "text": "The People of Aberdeen, in Scotland, are dancing in the streets because the new Prime Minister, Andy Burnham, has stated that he will be opening up, all the way, the invaluable North Sea Oil! It is one of the Greatest Sources of quality Oil on Earth, has hundreds of years of Capacity left, with much"
       }
     ]
   },
+  "keyword_signals": [
+    "IRAN"
+  ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_medium": true,
-    "caps_low": true,
-    "excl_none": true,
+    "avg_len_long": true,
+    "caps_medium": true,
+    "excl_heavy": true,
     "mostly_premarket": true,
+    "kw_sanction": true,
+    "pre_sanction": true,
+    "kw_russia": true,
+    "pre_russia": true,
+    "kw_iran": true,
+    "pre_iran": true,
+    "kw_oil": true,
+    "open_oil": true,
+    "kw_billion": true,
+    "open_billion": true,
+    "kw_great": true,
+    "open_great": true,
+    "kw_horrible": true,
+    "open_horrible": true,
+    "kw_disaster": true,
+    "open_disaster": true,
+    "kw_president_djt": true,
+    "pre_president_djt": true,
     "is_weekend": true,
     "volume_drop": true
   },
@@ -131,21 +160,33 @@
   },
   "evolution_latest": {
     "date": "2026-07-19",
-    "crossover": 16,
-    "mutation": 11,
+    "crossover": 14,
+    "mutation": 13,
     "distill": 16,
     "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "open_china"
+          "kw_wonderful",
+          "kw_interest_rate",
+          "kw_dow_2plus"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
-        "origin": "mutation_remove"
+        "score": 100.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_china",
+          "kw_thank_you_for_your_attention",
+          "kw_china"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "crossover"
       },
       {
         "features": [
@@ -156,16 +197,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_beautiful",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
       }
     ]
   },
