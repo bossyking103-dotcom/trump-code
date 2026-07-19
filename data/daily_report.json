@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-18",
-  "generated_at": "2026-07-18T20:45:05Z",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T05:45:06Z",
   "posts_today": 4,
   "latest_post": {
     "time": "2026-07-18T02:18",
@@ -16,18 +16,18 @@
     "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
-    "verified": 22,
-    "correct": 22,
-    "rate": 100.0
+    "verified": 41,
+    "correct": 24,
+    "rate": 58.5
   },
   "sp500_latest": {
     "date": "2026-07-17",
     "close": 7457.69
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-18\nPosts today: 4 | Models triggered: 0\nSignals: CHINA\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 100.0% (22/22)\nLatest post: Tim Sheehy is GREAT. A Winner!!! President DJT",
-    "zh": "川普密碼每日報告 -- 2026-07-18\n今日推文: 4 篇 | 觸發模型: 0 組\n偵測信號: 中國\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 100.0% (22/22)\n最新推文: Tim Sheehy is GREAT. A Winner!!! President DJT",
-    "ja": "トランプ・コード日次レポート -- 2026-07-18\n本日の投稿: 4件 | トリガーモデル: 0組\n検出シグナル: 中国\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 100.0% (22/22)\n最新投稿: Tim Sheehy is GREAT. A Winner!!! President DJT"
+    "en": "Trump Code Daily Report -- 2026-07-19\nPosts today: 4 | Models triggered: 0\nSignals: CHINA\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 58.5% (24/41)\nLatest post: Tim Sheehy is GREAT. A Winner!!! President DJT",
+    "zh": "川普密碼每日報告 -- 2026-07-19\n今日推文: 4 篇 | 觸發模型: 0 組\n偵測信號: 中國\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 58.5% (24/41)\n最新推文: Tim Sheehy is GREAT. A Winner!!! President DJT",
+    "ja": "トランプ・コード日次レポート -- 2026-07-19\n本日の投稿: 4件 | トリガーモデル: 0組\n検出シグナル: 中国\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 58.5% (24/41)\n最新投稿: Tim Sheehy is GREAT. A Winner!!! President DJT"
   },
   "triggered_rules_sample": []
 }
