@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-07-19T14:45:08Z",
-    "evolved_rules_added": 43
+    "last_evolution": "2026-07-19T17:45:08Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -13746,6 +13746,36 @@
       "parents": [
         "kw_dow_2plus+kw_interest_rate",
         "kw_maga+kw_wonderful"
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
+    },
+    {
+      "features": [
+        "posts_21_35",
+        "open_thank_you_for_your_attention",
+        "open_trade"
+      ],
+      "direction": "LONG",
+      "hold": 1,
+      "id": "23062e3e45de",
+      "n_cond": 3,
+      "train_trades": 5,
+      "train_win_rate": 100.0,
+      "train_avg": 0.971,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.896,
+      "combined_score": 100.0,
+      "origin": "crossover",
+      "born_date": "2026-07-19",
+      "weight": 1.0,
+      "parents": [
+        "kw_inflation+kw_jobs",
+        "is_friday+open_thank_you_for_your_attention"
       ]
     },
     {
@@ -14848,36 +14878,6 @@
       "parents": [
         "kw_deal_2plus+kw_europe",
         "is_friday+kw_signed"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "open_trade",
-        "pre_great",
-        "kw_biden"
-      ],
-      "direction": "LONG",
-      "hold": 1,
-      "id": "40d536041041",
-      "n_cond": 3,
-      "train_trades": 8,
-      "train_win_rate": 87.5,
-      "train_avg": 1.385,
-      "test_trades": 4,
-      "test_win_rate": 100.0,
-      "test_avg": 0.398,
-      "combined_score": 93.8,
-      "origin": "crossover",
-      "born_date": "2026-05-14",
-      "weight": 1.0,
-      "parents": [
-        "open_inflation+open_trade",
-        "kw_biden+kw_india"
       ],
       "learn_stats": {
         "correct": 0,
