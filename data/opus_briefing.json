@@ -1,47 +1,25 @@
 {
   "date": "2026-07-19",
-  "prepared_at": "2026-07-19T08:45:08Z",
+  "prepared_at": "2026-07-19T11:45:07Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "Tim Sheehy is GREAT. A Winner!!! President DJT",
-    "earliest_time": "2026-07-18T01:59:50.365Z",
-    "latest_time": "2026-07-18T02:18:32.394Z",
+    "count": 1,
+    "latest": "Trump-style nationalism surges across globe. Will France be next with Le Pen reprise?https://justthenews.com/government/white-house/trump-style-nationalism-continues-its-sweep-french-do-over-le-pen",
+    "earliest_time": "2026-07-19T11:28:07.988Z",
+    "latest_time": "2026-07-19T11:28:07.988Z",
     "sample": [
       {
-        "time": "01:59",
-        "text": "For many years, I have called for bold, swift, and decisive action to protect the integrity of America's elections. Every American deserves to know that when they cast their vote, that vote will be counted accurately in a system that is secure—one where cheating and interference are not just difficu"
-      },
-      {
-        "time": "02:01",
-        "text": "Newly declassified documents show that over a period of years starting during the 2020 election cycle, the People's Republic of China carried out what is believed to be the largest compromise of election data in history — resulting in China's illicit acquisition of 220 million U.S. voter files.That "
-      },
-      {
-        "time": "02:13",
-        "text": "Ensuring the integrity of our elections is fundamental to preserving trust in American democracy. Following the 2020 presidential election, concerns about potential irregularities prompted detailed examinations of voting processes, data security, and registration practices across multiple states…Dow"
-      },
-      {
-        "time": "02:18",
-        "text": "Tim Sheehy is GREAT. A Winner!!! President DJT"
+        "time": "11:28",
+        "text": "Trump-style nationalism surges across globe. Will France be next with Le Pen reprise?https://justthenews.com/government/white-house/trump-style-nationalism-continues-its-sweep-french-do-over-le-pen"
       }
     ]
   },
-  "keyword_signals": [
-    "CHINA"
-  ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_very_long": true,
+    "avg_len_medium": true,
     "caps_low": true,
-    "excl_normal": true,
-    "questions_no": true,
-    "has_night": true,
-    "heavy_night": true,
-    "kw_signed": true,
-    "kw_china": true,
-    "kw_dow": true,
-    "kw_great": true,
-    "kw_president_djt": true,
+    "excl_none": true,
+    "mostly_premarket": true,
     "is_weekend": true,
     "volume_drop": true
   },
@@ -154,29 +132,19 @@
   "evolution_latest": {
     "date": "2026-07-19",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_china",
-          "kw_thank_you_for_your_attention"
+          "kw_economy",
+          "open_china"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_signed",
-          "kw_tariff"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.6,
+        "hold": 3,
+        "score": 90.0,
         "origin": "mutation_remove"
       },
       {
@@ -188,6 +156,16 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_beautiful",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },
