@@ -1,19 +1,19 @@
 {
   "date": "2026-07-19",
-  "generated_at": "2026-07-19T17:45:03Z",
-  "posts_today": 3,
+  "generated_at": "2026-07-19T20:45:05Z",
+  "posts_today": 15,
   "latest_post": {
-    "time": "2026-07-19T14:05",
-    "content_preview": "The People of Aberdeen, in Scotland, are dancing in the streets because the new Prime Minister, Andy"
+    "time": "2026-07-19T18:26",
+    "content_preview": "GUILTY!Jack Smith spied on me in Congress — this illegal weaponization needs to end: https://nypost."
   },
   "signals_detected": [
     "IRAN"
   ],
-  "models_triggered": 0,
+  "models_triggered": 8,
   "direction_summary": {
-    "LONG": 0,
-    "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "LONG": 1,
+    "SHORT": 7,
+    "consensus": "BEARISH"
   },
   "historical_hit_rate": {
     "verified": 41,
@@ -25,9 +25,98 @@
     "close": 7457.69
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-19\nPosts today: 3 | Models triggered: 0\nSignals: IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 58.5% (24/41)\nLatest post: The People of Aberdeen, in Scotland, are dancing in the streets because the new Prime Minister, Andy",
-    "zh": "川普密碼每日報告 -- 2026-07-19\n今日推文: 3 篇 | 觸發模型: 0 組\n偵測信號: 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 58.5% (24/41)\n最新推文: The People of Aberdeen, in Scotland, are dancing in the streets because the new Prime Minister, Andy",
-    "ja": "トランプ・コード日次レポート -- 2026-07-19\n本日の投稿: 3件 | トリガーモデル: 0組\n検出シグナル: イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 58.5% (24/41)\n最新投稿: The People of Aberdeen, in Scotland, are dancing in the streets because the new Prime Minister, Andy"
+    "en": "Trump Code Daily Report -- 2026-07-19\nPosts today: 15 | Models triggered: 8\nSignals: IRAN\nConsensus: 1 LONG vs 7 SHORT\nHistorical hit rate: 58.5% (24/41)\nLatest post: GUILTY!Jack Smith spied on me in Congress — this illegal weaponization needs to end: https://nypost.",
+    "zh": "川普密碼每日報告 -- 2026-07-19\n今日推文: 15 篇 | 觸發模型: 8 組\n偵測信號: 伊朗\n共識方向: 1 組看多 vs 7 組看空\n歷史命中率: 58.5% (24/41)\n最新推文: GUILTY!Jack Smith spied on me in Congress — this illegal weaponization needs to end: https://nypost.",
+    "ja": "トランプ・コード日次レポート -- 2026-07-19\n本日の投稿: 15件 | トリガーモデル: 8組\n検出シグナル: イラン\nコンセンサス: 1組ロング vs 7組ショート\n過去の的中率: 58.5% (24/41)\n最新投稿: GUILTY!Jack Smith spied on me in Congress — this illegal weaponization needs to end: https://nypost."
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "both_tariff_and_deal",
+        "kw_disaster",
+        "kw_jobs"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "both_tariff_and_deal",
+        "open_biden",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_biden",
+        "kw_china",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_china",
+        "open_biden",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "open_biden",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_beautiful",
+        "open_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "both_tariff_and_deal",
+        "kw_biden",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_biden",
+        "kw_deal",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }

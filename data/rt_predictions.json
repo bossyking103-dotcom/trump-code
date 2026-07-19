@@ -4391,5 +4391,80 @@
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
     "status": "LIVE"
+  },
+  {
+    "id": "rt_1784484883",
+    "created_at": "2026-07-19T18:14:43Z",
+    "post_time": "2026-07-19T18:08:59.542Z",
+    "post_preview": "Pennsylvania defense summit leads to nearly $10 billion in defense contracts that will create thousands of jobs: https://www.washingtonexaminer.com/policy/defense/4650426/pennsylvania-defense-summit-t",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "866802472974042276988353754878",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.9905
+      },
+      {
+        "token_id": "421899132255834746844556601247",
+        "question": "President Trump to Attend World Cup Final?",
+        "price_at_signal": 0.0095
+      },
+      {
+        "token_id": "102660424653109859340616006357",
+        "question": "Trump out as President by July 31?",
+        "price_at_signal": 0.005
+      },
+      {
+        "token_id": "884852732362643034869031467123",
+        "question": "Trump out as President by July 31?",
+        "price_at_signal": 0.995
+      },
+      {
+        "token_id": "653903951823141514562181556461",
+        "question": "Will Trump attend 0 World Cup matches?",
+        "price_at_signal": 0.0085
+      }
+    ],
+    "pm_price_at_signal": 0.9905,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.62,
+    "trump_coin_24h_change": -0.15,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
   }
 ]
