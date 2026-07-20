@@ -1,12 +1,12 @@
 {
   "date": "2026-07-20",
-  "prepared_at": "2026-07-20T17:45:10Z",
+  "prepared_at": "2026-07-20T20:45:13Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 9,
-    "latest": "Benjamin Netanyahu will not be arrested, in any way, shape, or form, while in the United States of America. He is fighting against the Islamic Republic of Iran, which recently killed 52,000 innocent p",
+    "count": 10,
+    "latest": "Great words of wisdom from Highly Respected James Carafano. Thank you James! \"Our position in the Region is the strongest that it's been since the end of World War II. We have been dealing with this f",
     "earliest_time": "2026-07-20T00:17:38.592Z",
-    "latest_time": "2026-07-20T16:50:58.129Z",
+    "latest_time": "2026-07-20T17:56:00.420Z",
     "sample": [
       {
         "time": "00:17",
@@ -43,6 +43,10 @@
       {
         "time": "16:50",
         "text": "Benjamin Netanyahu will not be arrested, in any way, shape, or form, while in the United States of America. He is fighting against the Islamic Republic of Iran, which recently killed 52,000 innocent protestors, and has spent the last 47 years killing American Soldiers, and others. The only ones that"
+      },
+      {
+        "time": "17:56",
+        "text": "Great words of wisdom from Highly Respected James Carafano. Thank you James! \"Our position in the Region is the strongest that it's been since the end of World War II. We have been dealing with this from Jimmy Carter. Since the days of Jimmy Carter, we have never had a position in the Region this st"
       }
     ]
   },
@@ -55,11 +59,12 @@
     "posts_6_10": true,
     "avg_len_long": true,
     "caps_medium": true,
-    "excl_normal": true,
+    "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
     "heavy_night": true,
     "kw_deal": true,
+    "kw_deal_2plus": true,
     "open_deal": true,
     "kw_immediately": true,
     "kw_hereby": true,
@@ -99,10 +104,23 @@
     "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 11,
-    "long": 8,
+    "total": 13,
+    "long": 10,
     "short": 3,
     "sample": [
+      {
+        "id": "R0005",
+        "features": [
+          "kw_deal_2plus",
+          "kw_dow_2plus",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
       {
         "id": "R0006",
         "features": [
@@ -137,6 +155,19 @@
         ],
         "direction": "LONG",
         "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0033",
+        "features": [
+          "kw_deal_2plus",
+          "kw_dow_2plus",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
         "train_wr": 100.0,
         "test_wr": 100.0,
         "score": 100.0
@@ -197,32 +228,6 @@
         "features": [
           "kw_deal",
           "kw_perfect"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0084",
-        "features": [
-          "both_tariff_and_deal",
-          "kw_disaster",
-          "kw_incredible"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0085",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -354,26 +359,6 @@
     "top_3": [
       {
         "features": [
-          "kw_agreement",
-          "kw_maga"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 92.3,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_signed",
-          "kw_tariff"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.6,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
@@ -381,6 +366,26 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_ban",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },

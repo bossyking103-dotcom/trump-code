@@ -4465,7 +4465,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1784507092",
@@ -4855,6 +4855,81 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.59,
     "trump_coin_24h_change": -2.31,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1784572602",
+    "created_at": "2026-07-20T18:36:42Z",
+    "post_time": "2026-07-20T17:56:00.420Z",
+    "post_preview": "Great words of wisdom from Highly Respected James Carafano. Thank you James! \"Our position in the Region is the strongest that it's been since the end of World War II. We have been dealing with this f",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "647787579085011794763313905913",
+        "question": "Will Trump be in the WC Champions Photo?",
+        "price_at_signal": 0.9935
+      },
+      {
+        "token_id": "692227611525674224565507549541",
+        "question": "Will Trump be in the WC Champions Photo?",
+        "price_at_signal": 0.0065
+      },
+      {
+        "token_id": "102660424653109859340616006357",
+        "question": "Trump out as President by July 31?",
+        "price_at_signal": 0.0045
+      },
+      {
+        "token_id": "884852732362643034869031467123",
+        "question": "Trump out as President by July 31?",
+        "price_at_signal": 0.9955
+      },
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.065
+      }
+    ],
+    "pm_price_at_signal": 0.9935,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.61,
+    "trump_coin_24h_change": -1.26,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,

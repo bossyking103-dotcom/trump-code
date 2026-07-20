@@ -1,19 +1,19 @@
 {
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T17:45:05Z",
-  "posts_today": 9,
+  "generated_at": "2026-07-20T20:45:05Z",
+  "posts_today": 10,
   "latest_post": {
-    "time": "2026-07-20T16:50",
-    "content_preview": "Benjamin Netanyahu will not be arrested, in any way, shape, or form, while in the United States of A"
+    "time": "2026-07-20T17:56",
+    "content_preview": "Great words of wisdom from Highly Respected James Carafano. Thank you James! \"Our position in the Re"
   },
   "signals_detected": [
     "DEAL",
     "IRAN",
     "DEAL_ONLY"
   ],
-  "models_triggered": 11,
+  "models_triggered": 13,
   "direction_summary": {
-    "LONG": 8,
+    "LONG": 10,
     "SHORT": 3,
     "consensus": "BULLISH"
   },
@@ -24,14 +24,25 @@
   },
   "sp500_latest": {
     "date": "2026-07-20",
-    "close": 7463.02
+    "close": 7443.28
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-20\nPosts today: 9 | Models triggered: 11\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 8 LONG vs 3 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Benjamin Netanyahu will not be arrested, in any way, shape, or form, while in the United States of A",
-    "zh": "川普密碼每日報告 -- 2026-07-20\n今日推文: 9 篇 | 觸發模型: 11 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 8 組看多 vs 3 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Benjamin Netanyahu will not be arrested, in any way, shape, or form, while in the United States of A",
-    "ja": "トランプ・コード日次レポート -- 2026-07-20\n本日の投稿: 9件 | トリガーモデル: 11組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 8組ロング vs 3組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Benjamin Netanyahu will not be arrested, in any way, shape, or form, while in the United States of A"
+    "en": "Trump Code Daily Report -- 2026-07-20\nPosts today: 10 | Models triggered: 13\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 10 LONG vs 3 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Great words of wisdom from Highly Respected James Carafano. Thank you James! \"Our position in the Re",
+    "zh": "川普密碼每日報告 -- 2026-07-20\n今日推文: 10 篇 | 觸發模型: 13 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 10 組看多 vs 3 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Great words of wisdom from Highly Respected James Carafano. Thank you James! \"Our position in the Re",
+    "ja": "トランプ・コード日次レポート -- 2026-07-20\n本日の投稿: 10件 | トリガーモデル: 13組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 10組ロング vs 3組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Great words of wisdom from Highly Respected James Carafano. Thank you James! \"Our position in the Re"
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "kw_deal",
@@ -61,6 +72,17 @@
       ],
       "direction": "LONG",
       "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
