@@ -1,12 +1,12 @@
 {
   "date": "2026-07-20",
-  "prepared_at": "2026-07-20T14:45:17Z",
+  "prepared_at": "2026-07-20T17:45:10Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "Congratulations! A perfect baby boy for the wonderful Vance family.",
+    "count": 9,
+    "latest": "Benjamin Netanyahu will not be arrested, in any way, shape, or form, while in the United States of America. He is fighting against the Islamic Republic of Iran, which recently killed 52,000 innocent p",
     "earliest_time": "2026-07-20T00:17:38.592Z",
-    "latest_time": "2026-07-20T10:38:30.246Z",
+    "latest_time": "2026-07-20T16:50:58.129Z",
     "sample": [
       {
         "time": "00:17",
@@ -25,54 +25,83 @@
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116949957118811451"
       },
       {
-        "time": "06:45",
-        "text": "Christopher Maccio, the Great Opera Singer, was AMAZING at the World Cup today — He\"took the house down!\" President DONALD J.TRUMP"
-      },
-      {
         "time": "10:38",
         "text": "Congratulations! A perfect baby boy for the wonderful Vance family."
+      },
+      {
+        "time": "15:38",
+        "text": "Thank you to our Great Speaker, Mike Johnson, the House Budget Chairman, Jodey Arrington, and the members of the House Budget Committee, including Lloyd Smucker, Ron Estes, Andrew Clyde, Josh Brecheen, Erin Houchin, Mike Carey, Blake Moore, Jay Obernolte, Tom McClintock, and many others, for launchi"
+      },
+      {
+        "time": "16:36",
+        "text": "The World Cup turned out to be a spectacular SUCCESS! I want to thank all of those involved but, in particular, our GREAT Law Enforcement. The Respect that everyone has for them, together with their Love of our Country, kept this Great Championship the Safest and Most Spectacular World Cup in Histor"
+      },
+      {
+        "time": "16:41",
+        "text": "Every time Iran kills an American Soldier they will pay for that killing many times over! This directive has been passed on to Secretary of War, Pete Hegseth, Chairman of the Joint Chiefs of Staff, Daniel Caine, and every Leader in the Military. President DONALD J. TRUMP"
+      },
+      {
+        "time": "16:50",
+        "text": "Benjamin Netanyahu will not be arrested, in any way, shape, or form, while in the United States of America. He is fighting against the Islamic Republic of Iran, which recently killed 52,000 innocent protestors, and has spent the last 47 years killing American Soldiers, and others. The only ones that"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "today_features": {
     "posts_6_10": true,
-    "avg_len_medium": true,
+    "avg_len_long": true,
     "caps_medium": true,
     "excl_normal": true,
     "questions_no": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_deal": true,
+    "open_deal": true,
     "kw_immediately": true,
     "kw_hereby": true,
+    "kw_iran": true,
+    "kw_iran_2plus": true,
+    "open_iran": true,
     "kw_dow": true,
     "kw_dow_2plus": true,
-    "pre_dow": true,
     "kw_inflation": true,
     "kw_oil": true,
     "kw_gas": true,
     "kw_great": true,
     "kw_great_2plus": true,
-    "pre_great": true,
+    "open_great": true,
+    "kw_incredible": true,
+    "open_incredible": true,
     "kw_historic": true,
     "kw_amazing": true,
-    "kw_amazing_2plus": true,
-    "pre_amazing": true,
+    "kw_fantastic": true,
+    "open_fantastic": true,
     "kw_wonderful": true,
     "kw_wonderful_2plus": true,
     "pre_wonderful": true,
     "kw_perfect": true,
     "pre_perfect": true,
+    "kw_corrupt": true,
+    "open_corrupt": true,
     "kw_disaster": true,
     "kw_biden": true,
     "kw_vance": true,
     "pre_vance": true,
+    "kw_save_america": true,
+    "open_save_america": true,
     "kw_thank_you_for_your_attention": true,
-    "is_monday": true
+    "is_monday": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 7,
-    "long": 7,
-    "short": 0,
+    "total": 11,
+    "long": 8,
+    "short": 3,
     "sample": [
       {
         "id": "R0006",
@@ -138,12 +167,51 @@
         "score": 100.0
       },
       {
+        "id": "R0075",
+        "features": [
+          "kw_deal",
+          "kw_inflation",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0078",
+        "features": [
+          "kw_deal",
+          "kw_disaster",
+          "open_tariffs"
+        ],
+        "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
         "id": "R0079",
         "features": [
           "kw_deal",
           "kw_perfect"
         ],
         "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0084",
+        "features": [
+          "both_tariff_and_deal",
+          "kw_disaster",
+          "kw_incredible"
+        ],
+        "direction": "SHORT",
         "hold": 3,
         "train_wr": 100.0,
         "test_wr": 100.0,
@@ -286,12 +354,22 @@
     "top_3": [
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_agreement",
+          "kw_maga"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
+        "score": 92.3,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_signed",
+          "kw_tariff"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.6,
         "origin": "mutation_remove"
       },
       {
@@ -303,16 +381,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
       }
     ]
   },

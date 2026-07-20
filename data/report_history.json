@@ -5281,5 +5281,18 @@
     "short": 0,
     "signals": [],
     "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-07-20",
+    "posts": 9,
+    "triggered": 11,
+    "long": 8,
+    "short": 3,
+    "signals": [
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
+    ],
+    "consensus": "BULLISH"
   }
 ]
