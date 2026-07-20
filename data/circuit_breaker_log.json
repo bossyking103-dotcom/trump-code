@@ -16,38 +16,6 @@
     "consecutive_wrong": 0
   },
   {
-    "date": "2026-07-04",
-    "status": "🟡 DEGRADING",
-    "vs_random": "✅ OK",
-    "degradation": "🔴 DEGRADING",
-    "consecutive": "✅ OK",
-    "consecutive_wrong": 0
-  },
-  {
-    "date": "2026-07-04",
-    "status": "🟡 DEGRADING",
-    "vs_random": "✅ OK",
-    "degradation": "🔴 DEGRADING",
-    "consecutive": "✅ OK",
-    "consecutive_wrong": 0
-  },
-  {
-    "date": "2026-07-04",
-    "status": "🟡 DEGRADING",
-    "vs_random": "✅ OK",
-    "degradation": "🔴 DEGRADING",
-    "consecutive": "✅ OK",
-    "consecutive_wrong": 0
-  },
-  {
-    "date": "2026-07-04",
-    "status": "🟡 DEGRADING",
-    "vs_random": "✅ OK",
-    "degradation": "🔴 DEGRADING",
-    "consecutive": "✅ OK",
-    "consecutive_wrong": 0
-  },
-  {
     "date": "2026-07-05",
     "status": "🟡 DEGRADING",
     "vs_random": "✅ OK",
@@ -705,6 +673,38 @@
   },
   {
     "date": "2026-07-19",
+    "status": "🟡 DEGRADING",
+    "vs_random": "✅ OK",
+    "degradation": "🔴 DEGRADING",
+    "consecutive": "✅ OK",
+    "consecutive_wrong": 0
+  },
+  {
+    "date": "2026-07-20",
+    "status": "🟡 DEGRADING",
+    "vs_random": "✅ OK",
+    "degradation": "🔴 DEGRADING",
+    "consecutive": "✅ OK",
+    "consecutive_wrong": 0
+  },
+  {
+    "date": "2026-07-20",
+    "status": "🟡 DEGRADING",
+    "vs_random": "✅ OK",
+    "degradation": "🔴 DEGRADING",
+    "consecutive": "✅ OK",
+    "consecutive_wrong": 0
+  },
+  {
+    "date": "2026-07-20",
+    "status": "🔴 PAUSED",
+    "vs_random": "🔴 WARNING",
+    "degradation": "🔴 DEGRADING",
+    "consecutive": "🔴 CIRCUIT_BREAK",
+    "consecutive_wrong": 86
+  },
+  {
+    "date": "2026-07-20",
     "status": "🟡 DEGRADING",
     "vs_random": "✅ OK",
     "degradation": "🔴 DEGRADING",
