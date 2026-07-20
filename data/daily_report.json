@@ -1,15 +1,15 @@
 {
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T08:45:07Z",
-  "posts_today": 4,
+  "generated_at": "2026-07-20T11:45:06Z",
+  "posts_today": 6,
   "latest_post": {
-    "time": "2026-07-20T02:32",
-    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116949957118811451"
+    "time": "2026-07-20T10:38",
+    "content_preview": "Congratulations! A perfect baby boy for the wonderful Vance family."
   },
   "signals_detected": [],
-  "models_triggered": 1,
+  "models_triggered": 7,
   "direction_summary": {
-    "LONG": 1,
+    "LONG": 7,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -23,11 +23,43 @@
     "close": 7457.69
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-20\nPosts today: 4 | Models triggered: 1\nSignals: None\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116949957118811451",
-    "zh": "川普密碼每日報告 -- 2026-07-20\n今日推文: 4 篇 | 觸發模型: 1 組\n偵測信號: 無\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116949957118811451",
-    "ja": "トランプ・コード日次レポート -- 2026-07-20\n本日の投稿: 4件 | トリガーモデル: 1組\n検出シグナル: なし\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116949957118811451"
+    "en": "Trump Code Daily Report -- 2026-07-20\nPosts today: 6 | Models triggered: 7\nSignals: None\nConsensus: 7 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Congratulations! A perfect baby boy for the wonderful Vance family.",
+    "zh": "川普密碼每日報告 -- 2026-07-20\n今日推文: 6 篇 | 觸發模型: 7 組\n偵測信號: 無\n共識方向: 7 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Congratulations! A perfect baby boy for the wonderful Vance family.",
+    "ja": "トランプ・コード日次レポート -- 2026-07-20\n本日の投稿: 6件 | トリガーモデル: 7組\n検出シグナル: なし\nコンセンサス: 7組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Congratulations! A perfect baby boy for the wonderful Vance family."
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "posts_11_20"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "kw_dow_2plus",
@@ -35,6 +67,38 @@
       ],
       "direction": "LONG",
       "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     }
