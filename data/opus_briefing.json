@@ -1,203 +1,56 @@
 {
-  "date": "2026-07-19",
-  "prepared_at": "2026-07-19T20:45:10Z",
+  "date": "2026-07-20",
+  "prepared_at": "2026-07-20T05:45:11Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 15,
-    "latest": "GUILTY!Jack Smith spied on me in Congress — this illegal weaponization needs to end: https://nypost.com/2026/07/15/opinion/jack-smith-spied-on-me-in-congress-this-illegal-weaponization-needs-to-end/",
-    "earliest_time": "2026-07-19T11:28:07.988Z",
-    "latest_time": "2026-07-19T18:26:44.265Z",
+    "count": 4,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116949957118811451",
+    "earliest_time": "2026-07-20T00:17:38.592Z",
+    "latest_time": "2026-07-20T02:32:18.636Z",
     "sample": [
       {
-        "time": "18:08",
-        "text": "Trump calls Pennsylvania 'key' to national defense renaissance: https://justthenews.com/nation/states/center-square/pennsylvania-called-key-national-defense-renaissance-trump-says"
+        "time": "00:17",
+        "text": "The National Academy of Sciences has historically published analytical Scientific Manuals expressly for our Federal Judiciary. Of course, the Academy has been run by Radical Left Dumocrats who, it turns out, published fraudulent, biased, and misleading Manuals on Climate Change. These bogus Manuals "
       },
       {
-        "time": "18:08",
-        "text": "Trump announces $10 billion for defense projects in Pennsylvania: https://www.washingtontimes.com/news/2026/jul/15/trump-announces-10-billion-defense-projects-pennsylvania/"
+        "time": "00:34",
+        "text": "Wonderful news! I have just been informed that Giant Eagle, a GREAT American Grocery Company, will be lowering Prices, by a lot, across more than 300 products this Summer, through Labor Day, to help hardworking American families.Giant Eagle, like Walmart, is stepping up in a big and bold way to answ"
       },
       {
-        "time": "18:08",
-        "text": "Trump Touts $10 Billion Pa. Defense Investment: https://www.newsmax.com/newsfront/donald-trump-defense-summit-pennsylvania/2026/07/15/id/1262982/"
+        "time": "00:38",
+        "text": "Christopher Macchio, the Great Opera Singer, was AMAZING at the World Cup today — He\"took the house down!\" President DONALD J.TRUMP"
       },
       {
-        "time": "18:08",
-        "text": "Trump says 'proud American veterans' will replace illegal immigrant truck drivers: https://www.washingtonexaminer.com/news/white-house/4650629/trump-veterans-replace-illegal-immigrant-truck-drivers/"
-      },
-      {
-        "time": "18:08",
-        "text": "Pennsylvania defense summit leads to nearly $10 billion in defense contracts that will create thousands of jobs: https://www.washingtonexaminer.com/policy/defense/4650426/pennsylvania-defense-summit-trump-contracts-jobs/"
-      },
-      {
-        "time": "18:09",
-        "text": "PRESIDENT TRUMP HIGHLIGHTS NEARLY $10 BILLION IN DEFENSE INVESTMENTS AT PENNSYLVANIA SUMMIT: https://www.rsbnetwork.com/news/president-trump-highlights-nearly-10-billion-in-defense-investments-at-pennsylvania-summit/"
-      },
-      {
-        "time": "18:10",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116947984234570305Jack Posobiec: \"She said the quiet part out loud!\""
-      },
-      {
-        "time": "18:18",
-        "text": "Planting beautiful Maple and Oak Trees at the White House!"
-      },
-      {
-        "time": "18:20",
-        "text": "From Greg Wischer at the United States Department of the Interior:\"Given POTUS's direction to coat the WW2 Memorial fountains, we visited the \"vault\"—which is located underneath the memorial and contains all the plumbing, electricity, water treatment, and drainage equipment for the fountains. The va"
-      },
-      {
-        "time": "18:26",
-        "text": "GUILTY!Jack Smith spied on me in Congress — this illegal weaponization needs to end: https://nypost.com/2026/07/15/opinion/jack-smith-spied-on-me-in-congress-this-illegal-weaponization-needs-to-end/"
+        "time": "02:32",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116949957118811451"
       }
     ]
   },
-  "keyword_signals": [
-    "IRAN"
-  ],
   "today_features": {
-    "posts_11_20": true,
-    "avg_len_medium": true,
-    "caps_low": true,
+    "posts_1_5": true,
+    "avg_len_long": true,
+    "caps_medium": true,
     "excl_normal": true,
-    "mostly_open": true,
-    "kw_sanction": true,
-    "pre_sanction": true,
-    "kw_russia": true,
-    "pre_russia": true,
-    "kw_iran": true,
-    "pre_iran": true,
+    "questions_no": true,
+    "has_night": true,
+    "heavy_night": true,
+    "kw_immediately": true,
+    "kw_hereby": true,
+    "kw_dow": true,
+    "kw_dow_2plus": true,
+    "kw_inflation": true,
     "kw_oil": true,
-    "open_oil": true,
-    "kw_jobs": true,
-    "open_jobs": true,
-    "kw_billion": true,
-    "kw_billion_2plus": true,
-    "open_billion": true,
+    "kw_gas": true,
     "kw_great": true,
-    "open_great": true,
-    "kw_beautiful": true,
-    "open_beautiful": true,
-    "kw_horrible": true,
-    "open_horrible": true,
+    "kw_great_2plus": true,
+    "kw_historic": true,
+    "kw_amazing": true,
+    "kw_wonderful": true,
     "kw_disaster": true,
-    "open_disaster": true,
     "kw_biden": true,
-    "open_biden": true,
-    "kw_filibuster": true,
-    "open_filibuster": true,
-    "kw_president_djt": true,
-    "pre_president_djt": true,
-    "is_weekend": true
-  },
-  "triggered_rules": {
-    "total": 8,
-    "long": 1,
-    "short": 7,
-    "sample": [
-      {
-        "id": "R0001",
-        "features": [
-          "both_tariff_and_deal",
-          "kw_disaster",
-          "kw_jobs"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0024",
-        "features": [
-          "both_tariff_and_deal",
-          "open_biden",
-          "open_disaster"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0025",
-        "features": [
-          "kw_biden",
-          "kw_china",
-          "open_disaster"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0026",
-        "features": [
-          "kw_china",
-          "open_biden",
-          "open_disaster"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0027",
-        "features": [
-          "kw_deal",
-          "open_biden",
-          "open_disaster"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0091",
-        "features": [
-          "is_friday",
-          "kw_beautiful",
-          "open_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0096",
-        "features": [
-          "both_tariff_and_deal",
-          "kw_biden",
-          "open_disaster"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0097",
-        "features": [
-          "kw_biden",
-          "kw_deal",
-          "open_disaster"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "kw_thank_you_for_your_attention": true,
+    "is_monday": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -306,22 +159,23 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-19",
+    "date": "2026-07-20",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "open_china"
+          "volume_falling_3d",
+          "both_tariff_and_deal",
+          "kw_trade"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
+        "score": 91.7,
+        "origin": "crossover"
       },
       {
         "features": [
@@ -331,17 +185,17 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "crossover"
+        "origin": "distilled"
       },
       {
         "features": [
-          "kw_economy",
-          "kw_interest_rate"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
-        "origin": "mutation_remove"
+        "score": 87.5,
+        "origin": "distilled"
       }
     ]
   },
