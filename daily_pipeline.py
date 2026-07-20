@@ -310,8 +310,8 @@ def run_predictions(today_features, rules):
         if not feats:
             continue
         matched = sum(1 for f in feats if today_features.get(f, False))
-        # 至少 2/3 命中（向下取整，且最少 1 個）
-        needed = max(1, (len(feats) * 2 + 2) // 3)
+        # B 方案 (2026-07-20)：從 2/3 降到 1/2，解除 4 個月 0 觸發僵死
+        needed = max(1, (len(feats) + 1) // 2)
         if matched >= needed:
             triggered.append(rule)
     return triggered

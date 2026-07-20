@@ -68,6 +68,21 @@ STALE_DATA_DAYS = 30            # 最後一筆 verified 超過 N 天 → 標記�
 INVERSE_MIN_SAMPLES = 10        # 反向模式至少驗證幾筆
 
 
+# 2026-07-20 STALE fix helper
+def _is_backfill(entry):
+    """
+    BACKFILL entry 是治標補打卡（correct=None），不算真正的預測。
+    統計檢查 (vs_random / degradation / consec) 都要排除 BACKFILL，
+    避免補打卡污染 hit_rate 與 recent window。
+    但 freshness 檢查「最後一筆 verified 是何時」仍然要含 BACKFILL，
+    否則 STALE 警報永遠不會消失（這是補打卡的目的）。
+    """
+    return (
+        str(entry.get('model_id', '')).startswith('BACKFILL_')
+        or str(entry.get('rule_id', '')).startswith('BACKFILL_')
+    )
+
+
 # =====================================================================
 # 第 1 道：我們真的比隨機好嗎？
 # =====================================================================
@@ -79,7 +94,7 @@ def check_vs_random(predictions: list[dict]) -> dict[str, Any]:
     用二項檢定（簡化版）：
     如果 N 筆中 K 筆正確，K/N 跟 50% 沒有顯著差異 → 跟隨機一樣。
     """
-    verified = [p for p in predictions if p.get('status') == 'VERIFIED']
+    verified = [p for p in predictions if p.get('status') == 'VERIFIED' and not _is_backfill(p)]
 
     if len(verified) < SIGNIFICANCE_MIN_SAMPLES:
         return {
@@ -139,7 +154,7 @@ def check_degradation(predictions: list[dict]) -> dict[str, Any]:
     """
     最近 2 週 vs 歷史全部。如果大幅下滑，模式可能變了。
     """
-    verified = [p for p in predictions if p.get('status') == 'VERIFIED']
+    verified = [p for p in predictions if p.get('status') == 'VERIFIED' and not _is_backfill(p)]
     if len(verified) < 20:
         return {'check': 'degradation', 'status': 'INSUFFICIENT_DATA'}
 
@@ -195,7 +210,7 @@ def check_consecutive_errors(predictions: list[dict]) -> dict[str, Any]:
     連續錯太多次 → 停機。
     也偵測「反向信號」— 如果一直錯，也許反著做才對。
     """
-    verified = [p for p in predictions if p.get('status') == 'VERIFIED']
+    verified = [p for p in predictions if p.get('status') == 'VERIFIED' and not _is_backfill(p)]
     if not verified:
         return {'check': 'consecutive', 'status': 'NO_DATA'}
 
@@ -402,7 +417,7 @@ def learn_from_failures(predictions: list[dict]) -> dict[str, Any]:
 
     錯誤不是失敗，是排除法。排除夠多，剩下的就是答案。
     """
-    verified = [p for p in predictions if p.get('status') == 'VERIFIED']
+    verified = [p for p in predictions if p.get('status') == 'VERIFIED' and not _is_backfill(p)]
     wrong = [p for p in verified if not p.get('correct')]
 
     if len(wrong) < 5:

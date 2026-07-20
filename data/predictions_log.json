@@ -16658,5 +16658,1467 @@
       "burst_then_silence": true,
       "avg_emotion": 7.2
     }
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-03-16",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6674.37,
+      "close": 6699.38
+    },
+    "actual_return": 0.375,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-03-17",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6722.35,
+      "close": 6716.09
+    },
+    "actual_return": -0.093,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-03-18",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6697.16,
+      "close": 6624.7
+    },
+    "actual_return": -1.082,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-03-19",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6583.12,
+      "close": 6606.49
+    },
+    "actual_return": 0.355,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-03-20",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6594.66,
+      "close": 6506.48
+    },
+    "actual_return": -1.337,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-03-23",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6574.96,
+      "close": 6581.0
+    },
+    "actual_return": 0.092,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-03-24",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6552.09,
+      "close": 6556.37
+    },
+    "actual_return": 0.065,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-03-25",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6598.35,
+      "close": 6591.9
+    },
+    "actual_return": -0.098,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-03-26",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6555.86,
+      "close": 6477.16
+    },
+    "actual_return": -1.2,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-03-27",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6453.89,
+      "close": 6368.85
+    },
+    "actual_return": -1.318,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-03-30",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6403.37,
+      "close": 6343.72
+    },
+    "actual_return": -0.932,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-03-31",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6395.88,
+      "close": 6528.52
+    },
+    "actual_return": 2.074,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-01",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6556.56,
+      "close": 6575.32
+    },
+    "actual_return": 0.286,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-02",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6512.61,
+      "close": 6582.69
+    },
+    "actual_return": 1.076,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-06",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6587.66,
+      "close": 6611.83
+    },
+    "actual_return": 0.367,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-07",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6601.93,
+      "close": 6616.85
+    },
+    "actual_return": 0.226,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-08",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6754.36,
+      "close": 6782.81
+    },
+    "actual_return": 0.421,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-09",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6783.69,
+      "close": 6824.66
+    },
+    "actual_return": 0.604,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-10",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6839.24,
+      "close": 6816.89
+    },
+    "actual_return": -0.327,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-13",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6806.47,
+      "close": 6886.24
+    },
+    "actual_return": 1.172,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-14",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6910.2,
+      "close": 6967.38
+    },
+    "actual_return": 0.827,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-15",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 6978.17,
+      "close": 7022.95
+    },
+    "actual_return": 0.642,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-16",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7037.78,
+      "close": 7041.28
+    },
+    "actual_return": 0.05,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-17",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7074.55,
+      "close": 7126.06
+    },
+    "actual_return": 0.728,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-20",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7117.05,
+      "close": 7109.14
+    },
+    "actual_return": -0.111,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-21",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7122.64,
+      "close": 7064.01
+    },
+    "actual_return": -0.823,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-22",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7102.91,
+      "close": 7137.9
+    },
+    "actual_return": 0.493,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-23",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7118.8,
+      "close": 7108.4
+    },
+    "actual_return": -0.146,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-24",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7136.48,
+      "close": 7165.08
+    },
+    "actual_return": 0.401,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-27",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7152.72,
+      "close": 7173.91
+    },
+    "actual_return": 0.296,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-28",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7133.74,
+      "close": 7138.8
+    },
+    "actual_return": 0.071,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-29",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7131.61,
+      "close": 7135.95
+    },
+    "actual_return": 0.061,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-04-30",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7161.75,
+      "close": 7209.01
+    },
+    "actual_return": 0.66,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-01",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7234.54,
+      "close": 7230.12
+    },
+    "actual_return": -0.061,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-04",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7228.38,
+      "close": 7200.75
+    },
+    "actual_return": -0.382,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-05",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7233.62,
+      "close": 7259.22
+    },
+    "actual_return": 0.354,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-06",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7294.14,
+      "close": 7365.12
+    },
+    "actual_return": 0.973,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-07",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7376.78,
+      "close": 7337.11
+    },
+    "actual_return": -0.538,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-08",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7362.97,
+      "close": 7398.93
+    },
+    "actual_return": 0.488,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-11",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7385.31,
+      "close": 7412.84
+    },
+    "actual_return": 0.373,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-12",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7390.63,
+      "close": 7400.96
+    },
+    "actual_return": 0.14,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-13",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7409.12,
+      "close": 7444.25
+    },
+    "actual_return": 0.474,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-14",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7454.4,
+      "close": 7501.24
+    },
+    "actual_return": 0.628,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-15",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7445.11,
+      "close": 7408.5
+    },
+    "actual_return": -0.492,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-18",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7415.07,
+      "close": 7403.05
+    },
+    "actual_return": -0.162,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-19",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7375.75,
+      "close": 7353.61
+    },
+    "actual_return": -0.3,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-20",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7369.19,
+      "close": 7432.97
+    },
+    "actual_return": 0.865,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-21",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7410.78,
+      "close": 7445.72
+    },
+    "actual_return": 0.471,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-22",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7468.82,
+      "close": 7473.47
+    },
+    "actual_return": 0.062,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-26",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7511.79,
+      "close": 7519.12
+    },
+    "actual_return": 0.098,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-27",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7526.01,
+      "close": 7520.36
+    },
+    "actual_return": -0.075,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-28",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7519.82,
+      "close": 7563.63
+    },
+    "actual_return": 0.583,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-05-29",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7579.33,
+      "close": 7580.06
+    },
+    "actual_return": 0.01,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-01",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7582.29,
+      "close": 7599.96
+    },
+    "actual_return": 0.233,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-02",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7595.4,
+      "close": 7609.78
+    },
+    "actual_return": 0.189,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-03",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7605.31,
+      "close": 7553.68
+    },
+    "actual_return": -0.679,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-04",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7516.54,
+      "close": 7584.31
+    },
+    "actual_return": 0.902,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-05",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7537.36,
+      "close": 7383.74
+    },
+    "actual_return": -2.038,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-08",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7440.57,
+      "close": 7405.73
+    },
+    "actual_return": -0.468,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-09",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7438.66,
+      "close": 7386.65
+    },
+    "actual_return": -0.699,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-10",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7350.54,
+      "close": 7266.99
+    },
+    "actual_return": -1.137,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-11",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7287.67,
+      "close": 7394.3
+    },
+    "actual_return": 1.463,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-12",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7410.85,
+      "close": 7431.46
+    },
+    "actual_return": 0.278,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-15",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7516.75,
+      "close": 7554.29
+    },
+    "actual_return": 0.499,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-16",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7548.78,
+      "close": 7511.35
+    },
+    "actual_return": -0.496,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-17",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7524.5,
+      "close": 7420.1
+    },
+    "actual_return": -1.387,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-18",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7487.36,
+      "close": 7500.58
+    },
+    "actual_return": 0.177,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-22",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7500.44,
+      "close": 7472.79
+    },
+    "actual_return": -0.369,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-23",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7366.51,
+      "close": 7365.46
+    },
+    "actual_return": -0.014,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-24",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7370.88,
+      "close": 7358.22
+    },
+    "actual_return": -0.172,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-25",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7404.91,
+      "close": 7357.49
+    },
+    "actual_return": -0.64,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-26",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7312.74,
+      "close": 7354.02
+    },
+    "actual_return": 0.564,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-29",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7391.88,
+      "close": 7440.43
+    },
+    "actual_return": 0.657,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-06-30",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7441.27,
+      "close": 7499.36
+    },
+    "actual_return": 0.781,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-07-01",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7478.84,
+      "close": 7483.23
+    },
+    "actual_return": 0.059,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-07-02",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7495.14,
+      "close": 7483.24
+    },
+    "actual_return": -0.159,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-07-06",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7506.96,
+      "close": 7537.43
+    },
+    "actual_return": 0.406,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-07-07",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7516.63,
+      "close": 7503.85
+    },
+    "actual_return": -0.17,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-07-08",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7476.54,
+      "close": 7482.71
+    },
+    "actual_return": 0.083,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-07-09",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7491.6,
+      "close": 7543.64
+    },
+    "actual_return": 0.695,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-07-10",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7547.64,
+      "close": 7575.39
+    },
+    "actual_return": 0.368,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-07-13",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7547.53,
+      "close": 7515.34
+    },
+    "actual_return": -0.426,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-07-14",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7536.7,
+      "close": 7543.59
+    },
+    "actual_return": 0.091,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-07-15",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7571.72,
+      "close": 7572.4
+    },
+    "actual_return": 0.009,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-07-16",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7558.8,
+      "close": 7533.77
+    },
+    "actual_return": -0.331,
+    "correct": null
+  },
+  {
+    "model_id": "BACKFILL_NEUTRAL_2026Q3",
+    "model_name": "🔧 2026-07-20 STALE backfill",
+    "date_signal": "2026-07-17",
+    "direction": "MARKET",
+    "hold_days": 0,
+    "status": "VERIFIED",
+    "created_at": "2026-07-20T08:09:29Z",
+    "day_summary": {
+      "post_count": 0,
+      "backfill": true,
+      "open": 7447.52,
+      "close": 7457.69
+    },
+    "actual_return": 0.137,
+    "correct": null
   }
 ]
