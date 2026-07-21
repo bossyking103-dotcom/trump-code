@@ -1,17 +1,13 @@
 {
-  "date": "2026-07-20",
-  "prepared_at": "2026-07-20T20:45:13Z",
+  "date": "2026-07-21",
+  "prepared_at": "2026-07-21T05:45:09Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 10,
-    "latest": "Great words of wisdom from Highly Respected James Carafano. Thank you James! \"Our position in the Region is the strongest that it's been since the end of World War II. We have been dealing with this f",
+    "count": 11,
+    "latest": "I had a very good conversation with the new Prime Minister of the United Kingdom, Andy Burnham. We discussed many subjects, including the outstanding relationship we have had with the UK. We will be m",
     "earliest_time": "2026-07-20T00:17:38.592Z",
-    "latest_time": "2026-07-20T17:56:00.420Z",
+    "latest_time": "2026-07-20T22:18:52.091Z",
     "sample": [
-      {
-        "time": "00:17",
-        "text": "The National Academy of Sciences has historically published analytical Scientific Manuals expressly for our Federal Judiciary. Of course, the Academy has been run by Radical Left Dumocrats who, it turns out, published fraudulent, biased, and misleading Manuals on Climate Change. These bogus Manuals "
-      },
       {
         "time": "00:34",
         "text": "Wonderful news! I have just been informed that Giant Eagle, a GREAT American Grocery Company, will be lowering Prices, by a lot, across more than 300 products this Summer, through Labor Day, to help hardworking American families.Giant Eagle, like Walmart, is stepping up in a big and bold way to answ"
@@ -47,6 +43,10 @@
       {
         "time": "17:56",
         "text": "Great words of wisdom from Highly Respected James Carafano. Thank you James! \"Our position in the Region is the strongest that it's been since the end of World War II. We have been dealing with this from Jimmy Carter. Since the days of Jimmy Carter, we have never had a position in the Region this st"
+      },
+      {
+        "time": "22:18",
+        "text": "I had a very good conversation with the new Prime Minister of the United Kingdom, Andy Burnham. We discussed many subjects, including the outstanding relationship we have had with the UK. We will be meeting in the not too distant future for topics of mutual interest. The Prime Minister has got a big"
       }
     ]
   },
@@ -56,7 +56,7 @@
     "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_6_10": true,
+    "posts_11_20": true,
     "avg_len_long": true,
     "caps_medium": true,
     "excl_heavy": true,
@@ -66,6 +66,7 @@
     "kw_deal": true,
     "kw_deal_2plus": true,
     "open_deal": true,
+    "kw_trade": true,
     "kw_immediately": true,
     "kw_hereby": true,
     "kw_iran": true,
@@ -75,6 +76,7 @@
     "kw_dow_2plus": true,
     "kw_inflation": true,
     "kw_oil": true,
+    "kw_oil_2plus": true,
     "kw_gas": true,
     "kw_great": true,
     "kw_great_2plus": true,
@@ -350,13 +352,34 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-20",
+    "date": "2026-07-21",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "kw_deal",
+          "volume_falling_3d",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 94.4,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_india",
+          "kw_president_of_the_united_states"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "mutation_remove"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -366,26 +389,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "open_ban",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "crossover"
       }
     ]
   },

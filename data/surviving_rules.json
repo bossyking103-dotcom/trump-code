@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-07-20T20:45:13Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-07-21T05:45:09Z",
+    "evolved_rules_added": 47
   },
   "rules": [
     {
@@ -14368,6 +14368,31 @@
     },
     {
       "features": [
+        "kw_deal",
+        "volume_falling_3d",
+        "kw_beautiful"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "id": "302aa116d6a1",
+      "n_cond": 3,
+      "train_trades": 9,
+      "train_win_rate": 88.9,
+      "train_avg": 1.211,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 1.164,
+      "combined_score": 94.4,
+      "origin": "crossover",
+      "born_date": "2026-07-21",
+      "weight": 1.0,
+      "parents": [
+        "kw_beautiful+kw_tariffs_2plus",
+        "kw_deal+kw_thank_you_for_your_attention"
+      ]
+    },
+    {
+      "features": [
         "open_energy",
         "kw_thank_you_for_your_attention"
       ],
@@ -14861,36 +14886,6 @@
       }
     },
     {
-      "features": [
-        "open_dow",
-        "kw_thank_you_for_your_attention",
-        "kw_signed"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "5054034fc933",
-      "n_cond": 3,
-      "train_trades": 8,
-      "train_win_rate": 87.5,
-      "train_avg": 0.869,
-      "test_trades": 4,
-      "test_win_rate": 100.0,
-      "test_avg": 1.103,
-      "combined_score": 93.8,
-      "origin": "crossover",
-      "born_date": "2026-05-09",
-      "weight": 1.0,
-      "parents": [
-        "kw_deal_2plus+kw_europe",
-        "is_friday+kw_signed"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
       "id": "INVERSE_TARIFF_LONG",
       "features": [
         "kw_tariff"
@@ -14900,7 +14895,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-07-20",
+      "born_date": "2026-07-21",
       "combined_score": 70.0
     }
   ]
