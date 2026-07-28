@@ -1,47 +1,102 @@
 {
-  "date": "2026-07-21",
-  "prepared_at": "2026-07-21T14:45:10Z",
+  "date": "2026-07-28",
+  "prepared_at": "2026-07-28T17:45:32Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 5,
-    "latest": "The latest one of 52,000, plus, innocent protesters. Savages!!! When will the Dumocrats wake up??? President DJT",
-    "earliest_time": "2026-07-21T08:57:00.000Z",
-    "latest_time": "2026-07-21T12:57:08.044Z",
+    "count": 36,
+    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116998687659903888We're going to bring this heroic young man, and his family, into the White House with, perhaps, the boy he saved, to give h",
+    "earliest_time": "2026-07-28T02:00:56.829Z",
+    "latest_time": "2026-07-28T17:05:05.827Z",
     "sample": [
       {
-        "time": "08:57",
-        "text": "Across the nation, Trump’s long-predicted high-tax exodus has a Midwest sequel: https://justthenews.com/government/white-house/california-illinois-trumps-predicted-tax-apocalypse-has-midwest-sequel"
+        "time": "13:51",
+        "text": "Confirm Todd Blanche without delay: https://www.washingtontimes.com/news/2026/jul/23/confirm-todd-blanche-without-delay/"
       },
       {
-        "time": "08:58",
-        "text": "Rich people and Companies are pouring out of Dumocrat run Blue States at levels never seen before! If this trend continues, these States will become the “Ghettos” of the Future — No people, no money, no hope. MAKE AMERICA GREAT AGAIN! President DONALD J. TRUMP"
+        "time": "13:51",
+        "text": "Lil Wayne Praises Trump for Building White House Ballroom: 'I'm So Glad!'https://www.mediaite.com/media/lil-wayne-praises-trump-for-building-white-house-ballroom-im-so-glad/"
       },
       {
-        "time": "12:22",
-        "text": "Across the nation, Trump's long-predicted high-tax exodus has a Midwest sequel: https://justthenews.com/government/white-house/california-illinois-trumps-predicted-tax-apocalypse-has-midwest-sequel"
+        "time": "13:52",
+        "text": "It was a Rigged Election that we must learn from. Never forget!https://www.dailymail.com/news/article-15993893/Trump-2020-election-win-biden-poll.html"
       },
       {
-        "time": "12:27",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116957942431800428Rich people and Companies are pouring out of Dumocrat run Blue States at levels never seen before! If this trend continues, these States will become the \"Ghettos\" of the Future — No people, no money, no hope. MAKE AMERICA G"
+        "time": "13:52",
+        "text": "MIKE DAVIS: Why criminal referral of Jack Smith was 100% justified: https://www.foxnews.com/opinion/mike-davis-why-criminal-referral-jack-smith-100-percent-justified"
       },
       {
-        "time": "12:57",
-        "text": "The latest one of 52,000, plus, innocent protesters. Savages!!! When will the Dumocrats wake up??? President DJT"
+        "time": "13:52",
+        "text": "She only went public because she was caught!Software vendor disputes NJ governor's 'glitch' claim, says state approves foreigners on voter roll: https://justthenews.com/nation/states/software-vendor-disputes-nj-governors-glitch-claim-says-state-approved-foreigners"
+      },
+      {
+        "time": "13:53",
+        "text": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities"
+      },
+      {
+        "time": "13:53",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116997933680774362"
+      },
+      {
+        "time": "13:53",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116997934475409421"
+      },
+      {
+        "time": "13:53",
+        "text": "'Up Like a Rocket!' CNN Data Guru Says Lindsey Graham's Sister Is Now 'Clear Favorite' to Win Primary: https://www.mediaite.com/media/news/up-like-a-rocket-cnn-data-guru-says-lindsey-grahams-sister-is-now-clear-favorite-to-win-primary/"
+      },
+      {
+        "time": "17:05",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116998687659903888We're going to bring this heroic young man, and his family, into the White House with, perhaps, the boy he saved, to give him a High Civilian Honor. Very brave, he deserves it! President DONALD J. TRUMP"
       }
     ]
   },
+  "keyword_signals": [
+    "TARIFF",
+    "TARIFF_ONLY"
+  ],
   "today_features": {
-    "posts_1_5": true,
+    "posts_36plus": true,
     "avg_len_medium": true,
-    "caps_medium": true,
-    "excl_normal": true,
-    "questions_yes": true,
-    "mostly_premarket": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "pre_great": true,
-    "kw_president_djt": true,
-    "pre_president_djt": true
+    "caps_low": true,
+    "excl_none": true,
+    "questions_no": true,
+    "mostly_open": true,
+    "has_night": true,
+    "kw_tariff": true,
+    "pre_tariff": true,
+    "kw_tariffs": true,
+    "pre_tariffs": true,
+    "kw_delay": true,
+    "kw_delay_2plus": true,
+    "open_delay": true,
+    "kw_biden": true,
+    "open_biden": true,
+    "kw_golden_age": true,
+    "open_golden_age": true,
+    "volume_rising_3d": true,
+    "volume_spike": true,
+    "tariff_without_deal": true,
+    "tariff_no_deal": true
+  },
+  "triggered_rules": {
+    "total": 1,
+    "long": 0,
+    "short": 1,
+    "sample": [
+      {
+        "id": "R0002",
+        "features": [
+          "kw_biden",
+          "kw_india",
+          "kw_tariffs"
+        ],
+        "direction": "SHORT",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -156,33 +211,13 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-21",
-    "crossover": 16,
-    "mutation": 11,
+    "date": "2026-07-28",
+    "crossover": 14,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "is_friday",
-          "kw_energy"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 91.2,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "is_friday",
-          "kw_tariff_2plus"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.9,
-        "origin": "crossover"
-      },
       {
         "features": [
           "kw_interest_rate",
@@ -192,6 +227,27 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_economy",
+          "open_deal",
+          "kw_complete_and_total_2plus"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_jobs",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },

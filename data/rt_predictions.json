@@ -4858,7 +4858,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1784572602",
@@ -4930,6 +4930,81 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.61,
     "trump_coin_24h_change": -1.26,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1785255969",
+    "created_at": "2026-07-28T16:26:09Z",
+    "post_time": "2026-07-28T13:51:36.739Z",
+    "post_preview": "Confirm Todd Blanche without delay: https://www.washingtontimes.com/news/2026/jul/23/confirm-todd-blanche-without-delay/",
+    "signals": [
+      {
+        "type": "RELIEF",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "delay"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "RELIEF"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "605133221372969374010638161021",
+        "question": "Will Trump say \"Hell\" 2+ times during tribute to Lindsey Graham?",
+        "price_at_signal": 0.255
+      },
+      {
+        "token_id": "190025080804742035159206818507",
+        "question": "Will Trump say \"Hell\" 2+ times during tribute to Lindsey Graham?",
+        "price_at_signal": 0.745
+      },
+      {
+        "token_id": "336492337555418469037369951196",
+        "question": "Will Trump say \"Ukraine\" during tribute to Lindsey Graham?",
+        "price_at_signal": 0.755
+      },
+      {
+        "token_id": "184083243932334093934437967845",
+        "question": "Will Trump say \"Ukraine\" during tribute to Lindsey Graham?",
+        "price_at_signal": 0.245
+      },
+      {
+        "token_id": "100050752431817983743015770934",
+        "question": "Will Trump say \"Save America Act\" during tribute to Lindsey Graham?",
+        "price_at_signal": 0.755
+      }
+    ],
+    "pm_price_at_signal": 0.255,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.48,
+    "trump_coin_24h_change": -4.51,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,

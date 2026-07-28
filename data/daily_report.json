@@ -1,17 +1,20 @@
 {
-  "date": "2026-07-21",
-  "generated_at": "2026-07-21T14:45:04Z",
-  "posts_today": 5,
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28T17:45:26Z",
+  "posts_today": 36,
   "latest_post": {
-    "time": "2026-07-21T12:57",
-    "content_preview": "The latest one of 52,000, plus, innocent protesters. Savages!!! When will the Dumocrats wake up??? P"
+    "time": "2026-07-28T17:05",
+    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116998687659903888We're going to bring th"
   },
-  "signals_detected": [],
-  "models_triggered": 0,
+  "signals_detected": [
+    "TARIFF",
+    "TARIFF_ONLY"
+  ],
+  "models_triggered": 1,
   "direction_summary": {
     "LONG": 0,
-    "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "SHORT": 1,
+    "consensus": "BEARISH"
   },
   "historical_hit_rate": {
     "verified": 127,
@@ -19,13 +22,25 @@
     "rate": 18.9
   },
   "sp500_latest": {
-    "date": "2026-07-21",
-    "close": 7492.71
+    "date": "2026-07-28",
+    "close": 7431.62
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-21\nPosts today: 5 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: The latest one of 52,000, plus, innocent protesters. Savages!!! When will the Dumocrats wake up??? P",
-    "zh": "川普密碼每日報告 -- 2026-07-21\n今日推文: 5 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: The latest one of 52,000, plus, innocent protesters. Savages!!! When will the Dumocrats wake up??? P",
-    "ja": "トランプ・コード日次レポート -- 2026-07-21\n本日の投稿: 5件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: The latest one of 52,000, plus, innocent protesters. Savages!!! When will the Dumocrats wake up??? P"
+    "en": "Trump Code Daily Report -- 2026-07-28\nPosts today: 36 | Models triggered: 1\nSignals: TARIFF, TARIFF_ONLY\nConsensus: 0 LONG vs 1 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116998687659903888We're going to bring th",
+    "zh": "川普密碼每日報告 -- 2026-07-28\n今日推文: 36 篇 | 觸發模型: 1 組\n偵測信號: 關稅, 只有關稅沒有Deal\n共識方向: 0 組看多 vs 1 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116998687659903888We're going to bring th",
+    "ja": "トランプ・コード日次レポート -- 2026-07-28\n本日の投稿: 36件 | トリガーモデル: 1組\n検出シグナル: 関税, 関税のみ（Deal無し）\nコンセンサス: 0組ロング vs 1組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116998687659903888We're going to bring th"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_biden",
+        "kw_india",
+        "kw_tariffs"
+      ],
+      "direction": "SHORT",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }
