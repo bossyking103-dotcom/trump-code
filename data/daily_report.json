@@ -1,10 +1,10 @@
 {
   "date": "2026-07-28",
-  "generated_at": "2026-07-28T17:45:26Z",
-  "posts_today": 36,
+  "generated_at": "2026-07-28T20:45:07Z",
+  "posts_today": 38,
   "latest_post": {
-    "time": "2026-07-28T17:05",
-    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116998687659903888We're going to bring th"
+    "time": "2026-07-28T17:28",
+    "content_preview": "Trump Rallies Around 'Trump Accounts' During Ga. Speech: https://www.newsmax.com/newsfront/donald-tr"
   },
   "signals_detected": [
     "TARIFF",
@@ -23,12 +23,12 @@
   },
   "sp500_latest": {
     "date": "2026-07-28",
-    "close": 7431.62
+    "close": 7428.78
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-28\nPosts today: 36 | Models triggered: 1\nSignals: TARIFF, TARIFF_ONLY\nConsensus: 0 LONG vs 1 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116998687659903888We're going to bring th",
-    "zh": "川普密碼每日報告 -- 2026-07-28\n今日推文: 36 篇 | 觸發模型: 1 組\n偵測信號: 關稅, 只有關稅沒有Deal\n共識方向: 0 組看多 vs 1 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116998687659903888We're going to bring th",
-    "ja": "トランプ・コード日次レポート -- 2026-07-28\n本日の投稿: 36件 | トリガーモデル: 1組\n検出シグナル: 関税, 関税のみ（Deal無し）\nコンセンサス: 0組ロング vs 1組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/116998687659903888We're going to bring th"
+    "en": "Trump Code Daily Report -- 2026-07-28\nPosts today: 38 | Models triggered: 1\nSignals: TARIFF, TARIFF_ONLY\nConsensus: 0 LONG vs 1 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Trump Rallies Around 'Trump Accounts' During Ga. Speech: https://www.newsmax.com/newsfront/donald-tr",
+    "zh": "川普密碼每日報告 -- 2026-07-28\n今日推文: 38 篇 | 觸發模型: 1 組\n偵測信號: 關稅, 只有關稅沒有Deal\n共識方向: 0 組看多 vs 1 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Trump Rallies Around 'Trump Accounts' During Ga. Speech: https://www.newsmax.com/newsfront/donald-tr",
+    "ja": "トランプ・コード日次レポート -- 2026-07-28\n本日の投稿: 38件 | トリガーモデル: 1組\n検出シグナル: 関税, 関税のみ（Deal無し）\nコンセンサス: 0組ロング vs 1組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Trump Rallies Around 'Trump Accounts' During Ga. Speech: https://www.newsmax.com/newsfront/donald-tr"
   },
   "triggered_rules_sample": [
     {

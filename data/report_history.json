@@ -5367,5 +5367,17 @@
       "TARIFF_ONLY"
     ],
     "consensus": "BEARISH"
+  },
+  {
+    "date": "2026-07-28",
+    "posts": 38,
+    "triggered": 1,
+    "long": 0,
+    "short": 1,
+    "signals": [
+      "TARIFF",
+      "TARIFF_ONLY"
+    ],
+    "consensus": "BEARISH"
   }
 ]
