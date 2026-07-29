@@ -1,12 +1,12 @@
 {
   "date": "2026-07-29",
-  "prepared_at": "2026-07-29T11:45:12Z",
+  "prepared_at": "2026-07-29T14:45:12Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 5,
-    "latest": "Senator Ron Johnson is working hard with Senate Republican Leadership to adopt a Budget Resolution before the August recess. This is the first step towards getting as much of THE SAVE AMERICA ACT as p",
+    "count": 6,
+    "latest": "Many more people died of Covid under the Biden Administration than under the Trump Administration. \"Operation Warp Speed\"  was a SPECTACULAR SUCCESS, in fact, many say, one of the most successful thin",
     "earliest_time": "2026-07-29T00:35:57.679Z",
-    "latest_time": "2026-07-29T01:09:06.353Z",
+    "latest_time": "2026-07-29T11:46:42.077Z",
     "sample": [
       {
         "time": "00:35",
@@ -27,20 +27,31 @@
       {
         "time": "01:09",
         "text": "Senator Ron Johnson is working hard with Senate Republican Leadership to adopt a Budget Resolution before the August recess. This is the first step towards getting as much of THE SAVE AMERICA ACT as possible in a Budget Bill, funding our Troops, and helping our Farmers. I am calling on the Senate to"
+      },
+      {
+        "time": "11:46",
+        "text": "Many more people died of Covid under the Biden Administration than under the Trump Administration. \"Operation Warp Speed\"  was a SPECTACULAR SUCCESS, in fact, many say, one of the most successful things ever done by an American President. I overrode Fauci on this. His ideas were CRAZY! Also, I said "
       }
     ]
   },
+  "keyword_signals": [
+    "CHINA"
+  ],
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_long": true,
     "caps_medium": true,
-    "excl_normal": true,
+    "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_china": true,
+    "pre_china": true,
     "kw_ukraine": true,
     "kw_israel": true,
     "kw_dow": true,
+    "kw_dow_2plus": true,
+    "pre_dow": true,
     "kw_economy": true,
     "kw_energy": true,
     "kw_great": true,
@@ -49,7 +60,11 @@
     "kw_fantastic": true,
     "kw_terrible": true,
     "kw_worst": true,
+    "kw_biden": true,
+    "pre_biden": true,
     "kw_save_america": true,
+    "kw_president_djt": true,
+    "pre_president_djt": true,
     "kw_thank_you_for_your_attention": true,
     "kw_never_let_you_down": true,
     "kw_complete_and_total": true,
@@ -57,9 +72,9 @@
     "volume_drop": true
   },
   "triggered_rules": {
-    "total": 2,
-    "long": 2,
-    "short": 0,
+    "total": 10,
+    "long": 9,
+    "short": 1,
     "sample": [
       {
         "id": "R0016",
@@ -75,10 +90,113 @@
         "score": 100.0
       },
       {
+        "id": "R0020",
+        "features": [
+          "is_friday",
+          "kw_china",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0025",
+        "features": [
+          "kw_biden",
+          "kw_china",
+          "open_disaster"
+        ],
+        "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0029",
+        "features": [
+          "kw_china",
+          "kw_thank_you_for_your_attention",
+          "open_inflation"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0046",
+        "features": [
+          "kw_dow_2plus",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
         "id": "R0047",
         "features": [
           "kw_energy",
           "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0048",
+        "features": [
+          "kw_dow_2plus",
+          "kw_energy",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0057",
+        "features": [
+          "excl_heavy",
+          "kw_energy",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0062",
+        "features": [
+          "kw_china",
+          "kw_corrupt",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0099",
+        "features": [
+          "excl_heavy",
+          "kw_economy",
+          "kw_tariffs_2plus"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -202,12 +320,33 @@
   },
   "evolution_latest": {
     "date": "2026-07-29",
-    "crossover": 15,
-    "mutation": 13,
+    "crossover": 13,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "kw_deficit",
+          "open_trade"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.0,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "kw_india",
+          "kw_president_of_the_united_states"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "mutation_remove"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -217,26 +356,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_thank_you_for_your_attention",
-          "open_inflation"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 88.9,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "is_friday",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "mutation_remove"
       }
     ]
   },

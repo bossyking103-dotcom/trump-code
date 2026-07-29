@@ -1,16 +1,18 @@
 {
   "date": "2026-07-29",
-  "generated_at": "2026-07-29T11:45:06Z",
-  "posts_today": 5,
+  "generated_at": "2026-07-29T14:45:06Z",
+  "posts_today": 6,
   "latest_post": {
-    "time": "2026-07-29T01:09",
-    "content_preview": "Senator Ron Johnson is working hard with Senate Republican Leadership to adopt a Budget Resolution b"
+    "time": "2026-07-29T11:46",
+    "content_preview": "Many more people died of Covid under the Biden Administration than under the Trump Administration. \""
   },
-  "signals_detected": [],
-  "models_triggered": 2,
+  "signals_detected": [
+    "CHINA"
+  ],
+  "models_triggered": 10,
   "direction_summary": {
-    "LONG": 2,
-    "SHORT": 0,
+    "LONG": 9,
+    "SHORT": 1,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -19,13 +21,13 @@
     "rate": 18.9
   },
   "sp500_latest": {
-    "date": "2026-07-28",
-    "close": NaN
+    "date": "2026-07-29",
+    "close": 7366.46
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-29\nPosts today: 5 | Models triggered: 2\nSignals: None\nConsensus: 2 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Senator Ron Johnson is working hard with Senate Republican Leadership to adopt a Budget Resolution b",
-    "zh": "川普密碼每日報告 -- 2026-07-29\n今日推文: 5 篇 | 觸發模型: 2 組\n偵測信號: 無\n共識方向: 2 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Senator Ron Johnson is working hard with Senate Republican Leadership to adopt a Budget Resolution b",
-    "ja": "トランプ・コード日次レポート -- 2026-07-29\n本日の投稿: 5件 | トリガーモデル: 2組\n検出シグナル: なし\nコンセンサス: 2組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Senator Ron Johnson is working hard with Senate Republican Leadership to adopt a Budget Resolution b"
+    "en": "Trump Code Daily Report -- 2026-07-29\nPosts today: 6 | Models triggered: 10\nSignals: CHINA\nConsensus: 9 LONG vs 1 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Many more people died of Covid under the Biden Administration than under the Trump Administration. \"",
+    "zh": "川普密碼每日報告 -- 2026-07-29\n今日推文: 6 篇 | 觸發模型: 10 組\n偵測信號: 中國\n共識方向: 9 組看多 vs 1 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Many more people died of Covid under the Biden Administration than under the Trump Administration. \"",
+    "ja": "トランプ・コード日次レポート -- 2026-07-29\n本日の投稿: 6件 | トリガーモデル: 10組\n検出シグナル: 中国\nコンセンサス: 9組ロング vs 1組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Many more people died of Covid under the Biden Administration than under the Trump Administration. \""
   },
   "triggered_rules_sample": [
     {
@@ -41,8 +43,95 @@
     },
     {
       "features": [
+        "is_friday",
+        "kw_china",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_biden",
+        "kw_china",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_china",
+        "kw_thank_you_for_your_attention",
+        "open_inflation"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "kw_energy",
         "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_china",
+        "kw_corrupt",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_economy",
+        "kw_tariffs_2plus"
       ],
       "direction": "LONG",
       "hold": 2,
