@@ -1,96 +1,86 @@
 {
-  "date": "2026-07-28",
-  "prepared_at": "2026-07-28T20:45:12Z",
+  "date": "2026-07-29",
+  "prepared_at": "2026-07-29T05:45:12Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 38,
-    "latest": "Trump Rallies Around 'Trump Accounts' During Ga. Speech: https://www.newsmax.com/newsfront/donald-trump-georgia-rally-investment-accounts/2026/07/22/id/1263753/",
-    "earliest_time": "2026-07-28T02:00:56.829Z",
-    "latest_time": "2026-07-28T17:28:59.884Z",
+    "count": 5,
+    "latest": "Senator Ron Johnson is working hard with Senate Republican Leadership to adopt a Budget Resolution before the August recess. This is the first step towards getting as much of THE SAVE AMERICA ACT as p",
+    "earliest_time": "2026-07-29T00:35:57.679Z",
+    "latest_time": "2026-07-29T01:09:06.353Z",
     "sample": [
       {
-        "time": "13:53",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116997934475409421"
+        "time": "00:35",
+        "text": "Fauci told everyone he was a great basketball player, so I assumed that he would be easily able to throw a ball to Home Plate. It turned out that he was a phony on that, just like he was on everything else (See below!). He was a terrible \"athlete,\" and this is, by far, the worst throw I have ever se"
       },
       {
-        "time": "13:53",
-        "text": "'Up Like a Rocket!' CNN Data Guru Says Lindsey Graham's Sister Is Now 'Clear Favorite' to Win Primary: https://www.mediaite.com/media/news/up-like-a-rocket-cnn-data-guru-says-lindsey-grahams-sister-is-now-clear-favorite-to-win-primary/"
+        "time": "00:54",
+        "text": "Great Honor to meet with President Zelenskyy of Ukraine. Many things were discussed. The meeting went very well! President DONALD J. TRUMP"
       },
       {
-        "time": "17:05",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/116998687659903888We're going to bring this heroic young man, and his family, into the White House with, perhaps, the boy he saved, to give him a High Civilian Honor. Very brave, he deserves it! President DONALD J. TRUMP"
+        "time": "00:57",
+        "text": "Prime Minister Bibi Netanyahu of Israel, along with myself and Representatives. Had a very good meeting! Obviously, many important subjects were discussed. President DONALD J. TRUMP"
       },
       {
-        "time": "17:24",
-        "text": "Tariffs pull, USMCA pushes: Toyota to Texas: https://thehill.com/opinion/white-house/5965989-toyota-texas-tacoma-tariffs-impact/"
+        "time": "00:59",
+        "text": "It is my Great Honor to endorse Amir Hassan, who is running to represent the fantastic people of Michigan's 8th Congressional District! From bravely fighting for our incredible U.S. Navy, to protecting his Community as a Federal Law Enforcement Officer, Amir has served our Nation with distinction, a"
       },
       {
-        "time": "17:26",
-        "text": "Trump gives emotional tribute to fallen Army Lt Tyler Feehan after flying grieving family on Air Force One: https://www.foxnews.com/politics/trump-pays-emotional-tribute-fallen-army-lt-tyler-feehan-flying-grieving-family-air-force-one"
-      },
-      {
-        "time": "17:26",
-        "text": "Trump holds hands with toddler and mocks 'Pee-wee Herman look-alike' Jon Ossoff at Georgia Trump Accounts rally: https://nypost.com/2026/07/22/us-news/trump-holds-hands-with-toddler-and-mocks-pee-wee-jon-ossoff-at-georgia-trump-accounts-rally/"
-      },
-      {
-        "time": "17:26",
-        "text": "Trump blasts Jon Ossoff, 'communist' Democrats in Georgia speech: https://justthenews.com/politics-policy/all-things-trump/trump-blasts-jon-ossoff-communist-democrats-georgia-speech"
-      },
-      {
-        "time": "17:27",
-        "text": "Trump: 'With communism, everything turns to s***': https://www.washingtonexaminer.com/news/white-house/4659752/trump-communism-dont-think-anybody-wants-that-georgia-remarks/"
-      },
-      {
-        "time": "17:28",
-        "text": "Trump touts explosive early growth of new child savings accounts: https://www.washingtontimes.com/news/2026/jul/22/trump-touts-explosive-early-growth-new-child-savings-accounts/"
-      },
-      {
-        "time": "17:28",
-        "text": "Trump Rallies Around 'Trump Accounts' During Ga. Speech: https://www.newsmax.com/newsfront/donald-trump-georgia-rally-investment-accounts/2026/07/22/id/1263753/"
+        "time": "01:09",
+        "text": "Senator Ron Johnson is working hard with Senate Republican Leadership to adopt a Budget Resolution before the August recess. This is the first step towards getting as much of THE SAVE AMERICA ACT as possible in a Budget Bill, funding our Troops, and helping our Farmers. I am calling on the Senate to"
       }
     ]
   },
-  "keyword_signals": [
-    "TARIFF",
-    "TARIFF_ONLY"
-  ],
   "today_features": {
-    "posts_36plus": true,
-    "avg_len_medium": true,
-    "caps_low": true,
-    "excl_none": true,
+    "posts_1_5": true,
+    "avg_len_long": true,
+    "caps_medium": true,
+    "excl_normal": true,
     "questions_no": true,
-    "mostly_open": true,
     "has_night": true,
-    "kw_tariff": true,
-    "open_tariff": true,
-    "kw_tariffs": true,
-    "open_tariffs": true,
-    "kw_delay": true,
-    "kw_delay_2plus": true,
-    "open_delay": true,
-    "kw_biden": true,
-    "open_biden": true,
-    "kw_golden_age": true,
-    "open_golden_age": true,
+    "heavy_night": true,
+    "kw_ukraine": true,
+    "kw_israel": true,
+    "kw_dow": true,
+    "kw_economy": true,
+    "kw_energy": true,
+    "kw_great": true,
+    "kw_great_2plus": true,
+    "kw_incredible": true,
+    "kw_fantastic": true,
+    "kw_terrible": true,
+    "kw_worst": true,
+    "kw_save_america": true,
+    "kw_thank_you_for_your_attention": true,
+    "kw_never_let_you_down": true,
+    "kw_complete_and_total": true,
     "volume_rising_3d": true,
-    "volume_spike": true,
-    "tariff_without_deal": true,
-    "tariff_no_deal": true
+    "volume_drop": true
   },
   "triggered_rules": {
-    "total": 1,
-    "long": 0,
-    "short": 1,
+    "total": 2,
+    "long": 2,
+    "short": 0,
     "sample": [
       {
-        "id": "R0002",
+        "id": "R0016",
         "features": [
-          "kw_biden",
-          "kw_india",
-          "kw_tariffs"
+          "kw_economy",
+          "kw_energy",
+          "kw_interest_rate"
         ],
-        "direction": "SHORT",
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0047",
+        "features": [
+          "kw_energy",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
         "hold": 2,
         "train_wr": 100.0,
         "test_wr": 100.0,
@@ -211,7 +201,7 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "crossover": 16,
     "mutation": 16,
     "distill": 16,
@@ -220,24 +210,14 @@
     "top_3": [
       {
         "features": [
-          "kw_china",
-          "kw_thank_you_for_your_attention",
-          "open_china"
+          "kw_tariff_2plus",
+          "open_thank_you_for_your_attention",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_replace"
-      },
-      {
-        "features": [
-          "kw_tariff",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.6,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
       },
       {
         "features": [
@@ -248,6 +228,17 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "open_dow",
+          "kw_thank_you_for_your_attention",
+          "excl_heavy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },

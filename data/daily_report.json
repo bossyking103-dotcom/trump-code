@@ -1,20 +1,17 @@
 {
-  "date": "2026-07-28",
-  "generated_at": "2026-07-28T20:45:07Z",
-  "posts_today": 38,
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T05:45:07Z",
+  "posts_today": 5,
   "latest_post": {
-    "time": "2026-07-28T17:28",
-    "content_preview": "Trump Rallies Around 'Trump Accounts' During Ga. Speech: https://www.newsmax.com/newsfront/donald-tr"
+    "time": "2026-07-29T01:09",
+    "content_preview": "Senator Ron Johnson is working hard with Senate Republican Leadership to adopt a Budget Resolution b"
   },
-  "signals_detected": [
-    "TARIFF",
-    "TARIFF_ONLY"
-  ],
-  "models_triggered": 1,
+  "signals_detected": [],
+  "models_triggered": 2,
   "direction_summary": {
-    "LONG": 0,
-    "SHORT": 1,
-    "consensus": "BEARISH"
+    "LONG": 2,
+    "SHORT": 0,
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 127,
@@ -23,21 +20,31 @@
   },
   "sp500_latest": {
     "date": "2026-07-28",
-    "close": 7428.78
+    "close": NaN
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-28\nPosts today: 38 | Models triggered: 1\nSignals: TARIFF, TARIFF_ONLY\nConsensus: 0 LONG vs 1 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Trump Rallies Around 'Trump Accounts' During Ga. Speech: https://www.newsmax.com/newsfront/donald-tr",
-    "zh": "川普密碼每日報告 -- 2026-07-28\n今日推文: 38 篇 | 觸發模型: 1 組\n偵測信號: 關稅, 只有關稅沒有Deal\n共識方向: 0 組看多 vs 1 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Trump Rallies Around 'Trump Accounts' During Ga. Speech: https://www.newsmax.com/newsfront/donald-tr",
-    "ja": "トランプ・コード日次レポート -- 2026-07-28\n本日の投稿: 38件 | トリガーモデル: 1組\n検出シグナル: 関税, 関税のみ（Deal無し）\nコンセンサス: 0組ロング vs 1組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Trump Rallies Around 'Trump Accounts' During Ga. Speech: https://www.newsmax.com/newsfront/donald-tr"
+    "en": "Trump Code Daily Report -- 2026-07-29\nPosts today: 5 | Models triggered: 2\nSignals: None\nConsensus: 2 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Senator Ron Johnson is working hard with Senate Republican Leadership to adopt a Budget Resolution b",
+    "zh": "川普密碼每日報告 -- 2026-07-29\n今日推文: 5 篇 | 觸發模型: 2 組\n偵測信號: 無\n共識方向: 2 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Senator Ron Johnson is working hard with Senate Republican Leadership to adopt a Budget Resolution b",
+    "ja": "トランプ・コード日次レポート -- 2026-07-29\n本日の投稿: 5件 | トリガーモデル: 2組\n検出シグナル: なし\nコンセンサス: 2組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Senator Ron Johnson is working hard with Senate Republican Leadership to adopt a Budget Resolution b"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_biden",
-        "kw_india",
-        "kw_tariffs"
+        "kw_economy",
+        "kw_energy",
+        "kw_interest_rate"
       ],
-      "direction": "SHORT",
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
       "hold": 2,
       "train_wr": 100.0,
       "test_wr": 100.0
