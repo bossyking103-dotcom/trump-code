@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-30T05:40:32Z",
+  "timestamp": "2026-07-30T08:52:55Z",
   "markets": [
     {
       "question": "Trump out as President by July 31?",
@@ -16,17 +16,171 @@
       "slug": "trump-out-as-president-by-july-31-20260626202639374"
     },
     {
+      "question": "Will Donald Trump post 0-19 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "595590670357679006789582896274",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 0-19 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "469876457183825439051427152459",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 20-39 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "788138131737782151570738043096",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 20-39 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "969556844903272081536381833426",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 40-59 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "212280238416777227262230477652",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 40-59 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "981241266113759260783127095526",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 60-79 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "329231377335558219166068591937",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 60-79 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "364839373092665322270241509352",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 80-99 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "500341858748600444791963250886",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 80-99 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "936823359043909915584421312308",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 100-119 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "844588740816976866236156669423",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 100-119 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "898656844358536028390754685176",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 120-139 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "709606605961115941092373009074",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 120-139 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "816814171969640864202452945630",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 140-159 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "609858046843646049115517826584",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 140-159 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "851514641584065065575052396104",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 160-179 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "313110025481349659354009023120",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 160-179 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "660279410131043858738573417476",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 180-199 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "507857814947442757969574196947",
+      "outcome": "Yes",
+      "price": 0.995,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 180-199 Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "955899295162390739440210734187",
+      "outcome": "No",
+      "price": 0.005,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 200+ Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "345008985320218037784381672536",
+      "outcome": "Yes",
+      "price": 0.0045,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
+      "question": "Will Donald Trump post 200+ Truth Social posts from July 21 to July 28, 2026?",
+      "token_id": "176013838202960921582119299209",
+      "outcome": "No",
+      "price": 0.9955,
+      "slug": "donald-trump-of-truth-social-posts-july-21-july-28"
+    },
+    {
       "question": "Will Trump pardon SBF by July 31?",
       "token_id": "912255830419891605997922164240",
       "outcome": "Yes",
-      "price": 0.0015,
+      "price": 0.0005,
       "slug": "will-trump-pardon-sbf-by-july-31-20260608235339562"
     },
     {
       "question": "Will Trump pardon SBF by July 31?",
       "token_id": "137278596238758455950050906570",
       "outcome": "No",
-      "price": 0.9985,
+      "price": 0.9995,
       "slug": "will-trump-pardon-sbf-by-july-31-20260608235339562"
     },
     {
@@ -47,56 +201,56 @@
       "question": "Will Trump and Netanyahu not shake hands by July 31, 2026?",
       "token_id": "551451326034460176953604751019",
       "outcome": "Yes",
-      "price": 0.9555,
+      "price": 0.97,
       "slug": "how-long-will-trump-and-netanyahu-shake-hands-for-20260724175229942"
     },
     {
       "question": "Will Trump and Netanyahu not shake hands by July 31, 2026?",
       "token_id": "100784658938130074806832394291",
       "outcome": "No",
-      "price": 0.0445,
+      "price": 0.03,
       "slug": "how-long-will-trump-and-netanyahu-shake-hands-for-20260724175229942"
     },
     {
       "question": "Will Trump and Netanyahu handshake last less than 2 seconds by July 31, 2026?",
       "token_id": "653924553712497863216338602605",
       "outcome": "Yes",
-      "price": 0.015,
+      "price": 0.0155,
       "slug": "how-long-will-trump-and-netanyahu-shake-hands-for-20260724175229942"
     },
     {
       "question": "Will Trump and Netanyahu handshake last less than 2 seconds by July 31, 2026?",
       "token_id": "295169773084186581371841832516",
       "outcome": "No",
-      "price": 0.985,
+      "price": 0.9845,
       "slug": "how-long-will-trump-and-netanyahu-shake-hands-for-20260724175229942"
     },
     {
       "question": "Will Trump and Netanyahu handshake last 2–6 seconds by July 31, 2026?",
       "token_id": "255874259923344686801807918157",
       "outcome": "Yes",
-      "price": 0.0285,
+      "price": 0.0085,
       "slug": "how-long-will-trump-and-netanyahu-shake-hands-for-20260724175229942"
     },
     {
       "question": "Will Trump and Netanyahu handshake last 2–6 seconds by July 31, 2026?",
       "token_id": "946583305668005229210581429619",
       "outcome": "No",
-      "price": 0.9715,
+      "price": 0.9915,
       "slug": "how-long-will-trump-and-netanyahu-shake-hands-for-20260724175229942"
     },
     {
       "question": "Will Trump and Netanyahu handshake last 6–10 seconds by July 31, 2026?",
       "token_id": "112603102549848831965545367243",
       "outcome": "Yes",
-      "price": 0.006,
+      "price": 0.012,
       "slug": "how-long-will-trump-and-netanyahu-shake-hands-for-20260724175229942"
     },
     {
       "question": "Will Trump and Netanyahu handshake last 6–10 seconds by July 31, 2026?",
       "token_id": "620617776398411353032493877881",
       "outcome": "No",
-      "price": 0.994,
+      "price": 0.988,
       "slug": "how-long-will-trump-and-netanyahu-shake-hands-for-20260724175229942"
     },
     {
@@ -117,42 +271,42 @@
       "question": "Will Trump and Netanyahu handshake last at least 15 seconds by July 31, 2026?",
       "token_id": "991405177030283338952264506056",
       "outcome": "Yes",
-      "price": 0.0035,
+      "price": 0.0045,
       "slug": "how-long-will-trump-and-netanyahu-shake-hands-for-20260724175229942"
     },
     {
       "question": "Will Trump and Netanyahu handshake last at least 15 seconds by July 31, 2026?",
       "token_id": "783645646744432798378676004121",
       "outcome": "No",
-      "price": 0.9965,
+      "price": 0.9955,
       "slug": "how-long-will-trump-and-netanyahu-shake-hands-for-20260724175229942"
     },
     {
       "question": "Will Trump and Netanyahu only be photographed together by July 31, 2026?",
       "token_id": "397509156508354121850511152739",
       "outcome": "Yes",
-      "price": 0.0235,
+      "price": 0.0185,
       "slug": "how-long-will-trump-and-netanyahu-shake-hands-for-20260724175229942"
     },
     {
       "question": "Will Trump and Netanyahu only be photographed together by July 31, 2026?",
       "token_id": "100334201074901404360303075366",
       "outcome": "No",
-      "price": 0.9765,
+      "price": 0.9815,
       "slug": "how-long-will-trump-and-netanyahu-shake-hands-for-20260724175229942"
     },
     {
       "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during cabinet meeting?",
       "token_id": "450876931650246623485450887682",
       "outcome": "Yes",
-      "price": 0.735,
+      "price": 0.74,
       "slug": "what-will-trump-say-during-cabinet-meeting-20260727172357435"
     },
     {
       "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during cabinet meeting?",
       "token_id": "108277815858601098686707903002",
       "outcome": "No",
-      "price": 0.265,
+      "price": 0.26,
       "slug": "what-will-trump-say-during-cabinet-meeting-20260727172357435"
     },
     {
@@ -229,14 +383,14 @@
       "question": "Will Trump say \"Transparent\" during cabinet meeting?",
       "token_id": "373550264487141520401250590121",
       "outcome": "Yes",
-      "price": 0.585,
+      "price": 0.59,
       "slug": "what-will-trump-say-during-cabinet-meeting-20260727172357435"
     },
     {
       "question": "Will Trump say \"Transparent\" during cabinet meeting?",
       "token_id": "112404815193705833936297800235",
       "outcome": "No",
-      "price": 0.415,
+      "price": 0.41,
       "slug": "what-will-trump-say-during-cabinet-meeting-20260727172357435"
     },
     {
@@ -271,14 +425,14 @@
       "question": "Will Trump say \"Transgender\" during cabinet meeting?",
       "token_id": "641671311078290972136081893995",
       "outcome": "Yes",
-      "price": 0.54,
+      "price": 0.555,
       "slug": "what-will-trump-say-during-cabinet-meeting-20260727172357435"
     },
     {
       "question": "Will Trump say \"Transgender\" during cabinet meeting?",
       "token_id": "910820404143086172165443180768",
       "outcome": "No",
-      "price": 0.46,
+      "price": 0.445,
       "slug": "what-will-trump-say-during-cabinet-meeting-20260727172357435"
     },
     {
@@ -299,14 +453,14 @@
       "question": "Will Trump say \"Trump Derangement Syndrome\" during cabinet meeting?",
       "token_id": "112373533505231623126954488798",
       "outcome": "Yes",
-      "price": 0.235,
+      "price": 0.21,
       "slug": "what-will-trump-say-during-cabinet-meeting-20260727172357435"
     },
     {
       "question": "Will Trump say \"Trump Derangement Syndrome\" during cabinet meeting?",
       "token_id": "180321329707414930135230309958",
       "outcome": "No",
-      "price": 0.765,
+      "price": 0.79,
       "slug": "what-will-trump-say-during-cabinet-meeting-20260727172357435"
     },
     {
@@ -341,14 +495,14 @@
       "question": "Will Trump say \"Russia\" during cabinet meeting?",
       "token_id": "107690055796773429778894426873",
       "outcome": "Yes",
-      "price": 0.715,
+      "price": 0.725,
       "slug": "what-will-trump-say-during-cabinet-meeting-20260727172357435"
     },
     {
       "question": "Will Trump say \"Russia\" during cabinet meeting?",
       "token_id": "363048558157405152629597482055",
       "outcome": "No",
-      "price": 0.285,
+      "price": 0.275,
       "slug": "what-will-trump-say-during-cabinet-meeting-20260727172357435"
     },
     {
@@ -425,169 +579,15 @@
       "question": "Will Trump’s remarks not air?",
       "token_id": "112849768532149753225379407605",
       "outcome": "Yes",
-      "price": 0.0385,
+      "price": 0.037,
       "slug": "what-will-trump-say-during-cabinet-meeting-20260727172357435"
     },
     {
       "question": "Will Trump’s remarks not air?",
       "token_id": "300636280037148341144030431874",
       "outcome": "No",
-      "price": 0.9615,
+      "price": 0.963,
       "slug": "what-will-trump-say-during-cabinet-meeting-20260727172357435"
-    },
-    {
-      "question": "Will Donald Trump post 0-19 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "322378109974804089178533620991",
-      "outcome": "Yes",
-      "price": 0.0,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 0-19 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "277524492297965384478899521613",
-      "outcome": "No",
-      "price": 1.0,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 20-39 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "734100740089878021943054800447",
-      "outcome": "Yes",
-      "price": 0.0,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 20-39 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "774088239610605319199577777787",
-      "outcome": "No",
-      "price": 1.0,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 40-59 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "101147393202842622795993788909",
-      "outcome": "Yes",
-      "price": 0.0,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 40-59 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "316069044147032437187536780218",
-      "outcome": "No",
-      "price": 1.0,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 60-79 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "269554816472522536909376357385",
-      "outcome": "Yes",
-      "price": 0.0,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 60-79 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "762653262588290005270008017350",
-      "outcome": "No",
-      "price": 1.0,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 80-99 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "111268414917722574715482509701",
-      "outcome": "Yes",
-      "price": 0.001,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 80-99 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "801591357976471924795473038411",
-      "outcome": "No",
-      "price": 0.999,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 100-119 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "718376028293245165315776361558",
-      "outcome": "Yes",
-      "price": 0.0005,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 100-119 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "568721799868576832235321634636",
-      "outcome": "No",
-      "price": 0.9995,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 120-139 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "584729667643988917996809175942",
-      "outcome": "Yes",
-      "price": 0.0005,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 120-139 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "102946955231836230313395593843",
-      "outcome": "No",
-      "price": 0.9995,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 140-159 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "876067043781005264931740004030",
-      "outcome": "Yes",
-      "price": 0.005,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 140-159 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "407078937453615140430709672112",
-      "outcome": "No",
-      "price": 0.995,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 160-179 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "113932503882753981600292397363",
-      "outcome": "Yes",
-      "price": 0.2865,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 160-179 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "818441097157049782881668048772",
-      "outcome": "No",
-      "price": 0.7135,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 180-199 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "515325609089281888745400911432",
-      "outcome": "Yes",
-      "price": 0.495,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 180-199 Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "175303215772737365898912882525",
-      "outcome": "No",
-      "price": 0.505,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 200+ Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "966223728208624851875091525621",
-      "outcome": "Yes",
-      "price": 0.3,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
-    },
-    {
-      "question": "Will Donald Trump post 200+ Truth Social posts from July 24 to July 31, 2026?",
-      "token_id": "876703696975122867217763170282",
-      "outcome": "No",
-      "price": 0.7,
-      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
     },
     {
       "question": "Will Donald Trump publicly insult Tucker Carlson by July 31, 2026?",
@@ -663,14 +663,14 @@
       "question": "Will Donald Trump publicly insult Vladimir Putin by July 31, 2026?",
       "token_id": "914626029228331809477261121702",
       "outcome": "Yes",
-      "price": 0.266,
+      "price": 0.1745,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
       "question": "Will Donald Trump publicly insult Vladimir Putin by July 31, 2026?",
       "token_id": "817215791494179631897652362447",
       "outcome": "No",
-      "price": 0.734,
+      "price": 0.8255,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
@@ -733,56 +733,56 @@
       "question": "Will Donald Trump publicly insult Benjamin Netanyahu by July 31, 2026?",
       "token_id": "508376896123888405601099262982",
       "outcome": "Yes",
-      "price": 0.009,
+      "price": 0.0525,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
       "question": "Will Donald Trump publicly insult Benjamin Netanyahu by July 31, 2026?",
       "token_id": "574461756726983488932192402187",
       "outcome": "No",
-      "price": 0.991,
+      "price": 0.9475,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
       "question": "Will Donald Trump publicly insult J.D. Vance by July 31, 2026?",
       "token_id": "686445811118576971001746629686",
       "outcome": "Yes",
-      "price": 0.016,
+      "price": 0.0245,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
       "question": "Will Donald Trump publicly insult J.D. Vance by July 31, 2026?",
       "token_id": "966786585471635833267149615892",
       "outcome": "No",
-      "price": 0.984,
+      "price": 0.9755,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
       "question": "Will Donald Trump publicly insult Melania Trump by July 31, 2026?",
       "token_id": "346375737384430114159417111331",
       "outcome": "Yes",
-      "price": 0.0085,
+      "price": 0.009,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
       "question": "Will Donald Trump publicly insult Melania Trump by July 31, 2026?",
       "token_id": "925815669393205046312197989030",
       "outcome": "No",
-      "price": 0.9915,
+      "price": 0.991,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
       "question": "Will Donald Trump publicly insult Xi Jinping by July 31, 2026?",
       "token_id": "486060881197308485297487692987",
       "outcome": "Yes",
-      "price": 0.0005,
+      "price": 0.0085,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
       "question": "Will Donald Trump publicly insult Xi Jinping by July 31, 2026?",
       "token_id": "675715306577739556844245479539",
       "outcome": "No",
-      "price": 0.9995,
+      "price": 0.9915,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
@@ -803,14 +803,14 @@
       "question": "Will Donald Trump publicly insult Viktor Orbán by July 31, 2026?",
       "token_id": "551141247607070361984319670406",
       "outcome": "Yes",
-      "price": 0.0265,
+      "price": 0.015,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
       "question": "Will Donald Trump publicly insult Viktor Orbán by July 31, 2026?",
       "token_id": "731374309900189352995351533188",
       "outcome": "No",
-      "price": 0.9735,
+      "price": 0.985,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
@@ -943,29 +943,183 @@
       "question": "Will Donald Trump publicly insult Mohammed bin Salman by July 31, 2026?",
       "token_id": "126120780748900946193664498588",
       "outcome": "Yes",
-      "price": 0.0175,
+      "price": 0.026,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
       "question": "Will Donald Trump publicly insult Mohammed bin Salman by July 31, 2026?",
       "token_id": "285108001887301715522907995288",
       "outcome": "No",
-      "price": 0.9825,
+      "price": 0.974,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
       "question": "Will Donald Trump publicly insult Kevin Warsh by July 31, 2026?",
       "token_id": "571442632827701372559650911629",
       "outcome": "Yes",
-      "price": 0.044,
+      "price": 0.043,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
       "question": "Will Donald Trump publicly insult Kevin Warsh by July 31, 2026?",
       "token_id": "205288832361350088835316777237",
       "outcome": "No",
-      "price": 0.956,
+      "price": 0.957,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
+    },
+    {
+      "question": "Will Donald Trump post 0-19 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "322378109974804089178533620991",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 0-19 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "277524492297965384478899521613",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 20-39 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "734100740089878021943054800447",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 20-39 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "774088239610605319199577777787",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 40-59 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "101147393202842622795993788909",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 40-59 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "316069044147032437187536780218",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 60-79 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "269554816472522536909376357385",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 60-79 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "762653262588290005270008017350",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 80-99 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "111268414917722574715482509701",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 80-99 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "801591357976471924795473038411",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 100-119 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "718376028293245165315776361558",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 100-119 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "568721799868576832235321634636",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 120-139 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "584729667643988917996809175942",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 120-139 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "102946955231836230313395593843",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 140-159 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "876067043781005264931740004030",
+      "outcome": "Yes",
+      "price": 0.002,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 140-159 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "407078937453615140430709672112",
+      "outcome": "No",
+      "price": 0.998,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 160-179 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "113932503882753981600292397363",
+      "outcome": "Yes",
+      "price": 0.388,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 160-179 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "818441097157049782881668048772",
+      "outcome": "No",
+      "price": 0.612,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 180-199 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "515325609089281888745400911432",
+      "outcome": "Yes",
+      "price": 0.425,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 180-199 Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "175303215772737365898912882525",
+      "outcome": "No",
+      "price": 0.575,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 200+ Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "966223728208624851875091525621",
+      "outcome": "Yes",
+      "price": 0.245,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
+    },
+    {
+      "question": "Will Donald Trump post 200+ Truth Social posts from July 24 to July 31, 2026?",
+      "token_id": "876703696975122867217763170282",
+      "outcome": "No",
+      "price": 0.755,
+      "slug": "donald-trump-of-truth-social-posts-july-24-july-31"
     },
     {
       "question": "Will Trump be impeached before his term ends?",
@@ -982,45 +1136,17 @@
       "slug": "will-trump-be-impeached-before-his-term-ends"
     },
     {
-      "question": "Will Trump and Netanyahu hug on Tuesday?",
-      "token_id": "552902412871796700595577035644",
-      "outcome": "Yes",
-      "price": 0.01,
-      "slug": "will-trump-and-netanyahu-hug-on-tuesday-20260724181151719"
-    },
-    {
-      "question": "Will Trump and Netanyahu hug on Tuesday?",
-      "token_id": "443505861982819155321931487257",
-      "outcome": "No",
-      "price": 0.99,
-      "slug": "will-trump-and-netanyahu-hug-on-tuesday-20260724181151719"
-    },
-    {
-      "question": "Will Trump acquire Greenland before 2027?",
-      "token_id": "516162325567819335283998515633",
-      "outcome": "Yes",
-      "price": 0.044,
-      "slug": "will-trump-acquire-greenland-before-2027"
-    },
-    {
-      "question": "Will Trump acquire Greenland before 2027?",
-      "token_id": "572162725645295484646864636912",
-      "outcome": "No",
-      "price": 0.956,
-      "slug": "will-trump-acquire-greenland-before-2027"
-    },
-    {
       "question": "Will Trump say \"Hundred\" or \"Thousand\" 7+ times during Tele-Rallies?",
       "token_id": "132831104041673981374727028795",
       "outcome": "Yes",
-      "price": 0.045,
+      "price": 0.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"Hundred\" or \"Thousand\" 7+ times during Tele-Rallies?",
       "token_id": "108157703003623521293960141533",
       "outcome": "No",
-      "price": 0.955,
+      "price": 1.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
@@ -1069,28 +1195,28 @@
       "question": "Will Trump say \"Congress\" 2+ times during Tele-Rallies?",
       "token_id": "232004558723471490336655872735",
       "outcome": "Yes",
-      "price": 0.95,
+      "price": 1.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"Congress\" 2+ times during Tele-Rallies?",
       "token_id": "115412114841570621299782782726",
       "outcome": "No",
-      "price": 0.05,
+      "price": 0.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"Save America\" during Tele-Rallies?",
       "token_id": "160599716896175863532332669876",
       "outcome": "Yes",
-      "price": 0.9655,
+      "price": 1.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"Save America\" during Tele-Rallies?",
       "token_id": "576223737165159430409882931422",
       "outcome": "No",
-      "price": 0.0345,
+      "price": 0.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
@@ -1125,14 +1251,14 @@
       "question": "Will Trump say \"MAGA\" or \"Make America Great Again\" during Tele-Rallies?",
       "token_id": "951064146103679026936856992450",
       "outcome": "Yes",
-      "price": 0.035,
+      "price": 0.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"MAGA\" or \"Make America Great Again\" during Tele-Rallies?",
       "token_id": "523207129727911831877469952003",
       "outcome": "No",
-      "price": 0.965,
+      "price": 1.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
@@ -1153,14 +1279,14 @@
       "question": "Will Trump say \"Gun\" during Tele-Rallies?",
       "token_id": "105246423161805651766133217854",
       "outcome": "Yes",
-      "price": 0.03,
+      "price": 0.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"Gun\" during Tele-Rallies?",
       "token_id": "660053027657974692359510268109",
       "outcome": "No",
-      "price": 0.97,
+      "price": 1.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
@@ -1195,70 +1321,70 @@
       "question": "Will Trump say \"Transportation\" during Tele-Rallies?",
       "token_id": "114247157909869837509868575770",
       "outcome": "Yes",
-      "price": 0.9985,
+      "price": 1.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"Transportation\" during Tele-Rallies?",
       "token_id": "345209607586053969853785512862",
       "outcome": "No",
-      "price": 0.0015,
+      "price": 0.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"Communist\" or \"Communism\" during Tele-Rallies?",
       "token_id": "595438894567681814711312697025",
       "outcome": "Yes",
-      "price": 0.9655,
+      "price": 1.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"Communist\" or \"Communism\" during Tele-Rallies?",
       "token_id": "373010697801898817589979352301",
       "outcome": "No",
-      "price": 0.0345,
+      "price": 0.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"China\" during Tele-Rallies?",
       "token_id": "101433395424759386728305407949",
       "outcome": "Yes",
-      "price": 0.011,
+      "price": 0.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"China\" during Tele-Rallies?",
       "token_id": "285168973921530375161195258304",
       "outcome": "No",
-      "price": 0.989,
+      "price": 1.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"Oil\" or \"Gas\" or \"Gasoline\" during Tele-Rallies?",
       "token_id": "253675575118069537892300763002",
       "outcome": "Yes",
-      "price": 0.04,
+      "price": 0.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"Oil\" or \"Gas\" or \"Gasoline\" during Tele-Rallies?",
       "token_id": "876761258332918777762749961465",
       "outcome": "No",
-      "price": 0.96,
+      "price": 1.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"Transgender\" during Tele-Rallies?",
       "token_id": "630647718900712395577029786752",
       "outcome": "Yes",
-      "price": 0.9995,
+      "price": 1.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
       "question": "Will Trump say \"Transgender\" during Tele-Rallies?",
       "token_id": "344294112492745434076188807782",
       "outcome": "No",
-      "price": 0.0005,
+      "price": 0.0,
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
@@ -1276,17 +1402,535 @@
       "slug": "what-will-trump-say-during-tele-rallies-on-july-29-20260729141144264"
     },
     {
+      "question": "Will Trump acquire Greenland before 2027?",
+      "token_id": "516162325567819335283998515633",
+      "outcome": "Yes",
+      "price": 0.044,
+      "slug": "will-trump-acquire-greenland-before-2027"
+    },
+    {
+      "question": "Will Trump acquire Greenland before 2027?",
+      "token_id": "572162725645295484646864636912",
+      "outcome": "No",
+      "price": 0.956,
+      "slug": "will-trump-acquire-greenland-before-2027"
+    },
+    {
+      "question": "Will Trump say \"Ass\" in August?",
+      "token_id": "470419186920096353762515910819",
+      "outcome": "Yes",
+      "price": 0.655,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Ass\" in August?",
+      "token_id": "926311436208439098550243876587",
+      "outcome": "No",
+      "price": 0.345,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Shit\" in August?",
+      "token_id": "106896938124702603466518873882",
+      "outcome": "Yes",
+      "price": 0.35,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Shit\" in August?",
+      "token_id": "815415375954822159455873052322",
+      "outcome": "No",
+      "price": 0.65,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Red Card\" in August?",
+      "token_id": "616366473366042597573463501255",
+      "outcome": "Yes",
+      "price": 0.2,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Red Card\" in August?",
+      "token_id": "789580113545666753444448373647",
+      "outcome": "No",
+      "price": 0.8,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Death to America\" in August?",
+      "token_id": "318032705301010492848129497854",
+      "outcome": "Yes",
+      "price": 0.235,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Death to America\" in August?",
+      "token_id": "856587206533245344931131210506",
+      "outcome": "No",
+      "price": 0.765,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Sucker\" in August?",
+      "token_id": "778890128609565943927769989594",
+      "outcome": "Yes",
+      "price": 0.75,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Sucker\" in August?",
+      "token_id": "367815818176521695975827233191",
+      "outcome": "No",
+      "price": 0.25,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Slob\" in August?",
+      "token_id": "732518404376772393944170298414",
+      "outcome": "Yes",
+      "price": 0.74,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Slob\" in August?",
+      "token_id": "432677942639818881590136088702",
+      "outcome": "No",
+      "price": 0.26,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Garbage\" in August?",
+      "token_id": "238273216402354030535476554225",
+      "outcome": "Yes",
+      "price": 0.81,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Garbage\" in August?",
+      "token_id": "109160786657528566398451399801",
+      "outcome": "No",
+      "price": 0.19,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Let Me Finish\" in August?",
+      "token_id": "346786967357248730970347139325",
+      "outcome": "Yes",
+      "price": 0.535,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Let Me Finish\" in August?",
+      "token_id": "888272055801788401515014832780",
+      "outcome": "No",
+      "price": 0.465,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"State of the Union\" or \"State of Union\" in August?",
+      "token_id": "662770129666985076024080075800",
+      "outcome": "Yes",
+      "price": 0.725,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"State of the Union\" or \"State of Union\" in August?",
+      "token_id": "376140148559792728867478825622",
+      "outcome": "No",
+      "price": 0.275,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Potato\" in August?",
+      "token_id": "768430176993930628816031730973",
+      "outcome": "Yes",
+      "price": 0.5,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Potato\" in August?",
+      "token_id": "440542198078897859180106052261",
+      "outcome": "No",
+      "price": 0.5,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Tango\" in August?",
+      "token_id": "307671601528097347222280989282",
+      "outcome": "Yes",
+      "price": 0.545,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Tango\" in August?",
+      "token_id": "297221575678892001070387865715",
+      "outcome": "No",
+      "price": 0.455,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Marxist\" in August?",
+      "token_id": "958003186804469936219695982148",
+      "outcome": "Yes",
+      "price": 0.6,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Marxist\" in August?",
+      "token_id": "521085697037804216536332970590",
+      "outcome": "No",
+      "price": 0.4,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Crooked Joe\" in August?",
+      "token_id": "766500148962429167088228444021",
+      "outcome": "Yes",
+      "price": 0.84,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Crooked Joe\" in August?",
+      "token_id": "722854594013759706907788805120",
+      "outcome": "No",
+      "price": 0.16,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Dictionary\" in August?",
+      "token_id": "140548937113735062536723994648",
+      "outcome": "Yes",
+      "price": 0.545,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Dictionary\" in August?",
+      "token_id": "478252359095090679014748897958",
+      "outcome": "No",
+      "price": 0.455,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Gay\" in August?",
+      "token_id": "384310095592982537526351867632",
+      "outcome": "Yes",
+      "price": 0.325,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Gay\" in August?",
+      "token_id": "420417845561941030261848287609",
+      "outcome": "No",
+      "price": 0.675,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Central Casting\" in August?",
+      "token_id": "972741933981745053223190126384",
+      "outcome": "Yes",
+      "price": 0.86,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Central Casting\" in August?",
+      "token_id": "802551300675269832729405194799",
+      "outcome": "No",
+      "price": 0.14,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"No No No\" in August?",
+      "token_id": "137127066263880198206074889041",
+      "outcome": "Yes",
+      "price": 0.845,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"No No No\" in August?",
+      "token_id": "520660151899906982037238443382",
+      "outcome": "No",
+      "price": 0.155,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Through the Roof\" in August?",
+      "token_id": "222644601891323061354228522256",
+      "outcome": "Yes",
+      "price": 0.895,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Through the Roof\" in August?",
+      "token_id": "104996609583299789913261033731",
+      "outcome": "No",
+      "price": 0.105,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Antifa\" in August?",
+      "token_id": "621407816523006636645950779081",
+      "outcome": "Yes",
+      "price": 0.265,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Antifa\" in August?",
+      "token_id": "103984372146867713130133020850",
+      "outcome": "No",
+      "price": 0.735,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Midterm\" in August?",
+      "token_id": "153944043912962431382539560459",
+      "outcome": "Yes",
+      "price": 0.965,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Midterm\" in August?",
+      "token_id": "251989228618443057233632792943",
+      "outcome": "No",
+      "price": 0.035,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Cocaine\" in August?",
+      "token_id": "103876100567417353522908057644",
+      "outcome": "Yes",
+      "price": 0.555,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Cocaine\" in August?",
+      "token_id": "514569398108906271314533468898",
+      "outcome": "No",
+      "price": 0.445,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Movie Star\" in August?",
+      "token_id": "848284896466499364930781339967",
+      "outcome": "Yes",
+      "price": 0.555,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Movie Star\" in August?",
+      "token_id": "100284749614237169852440085639",
+      "outcome": "No",
+      "price": 0.445,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Green New Scam\" in August?",
+      "token_id": "881312289834713032718800142215",
+      "outcome": "Yes",
+      "price": 0.72,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Green New Scam\" in August?",
+      "token_id": "500992434387907153323506585587",
+      "outcome": "No",
+      "price": 0.28,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"State of the Art\" in August?",
+      "token_id": "878527487374583633005837308751",
+      "outcome": "Yes",
+      "price": 0.51,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"State of the Art\" in August?",
+      "token_id": "915707596432569924694360221712",
+      "outcome": "No",
+      "price": 0.49,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Soaking Wet\" in August?",
+      "token_id": "990250758811556092382519010659",
+      "outcome": "Yes",
+      "price": 0.765,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Soaking Wet\" in August?",
+      "token_id": "243406394035850280849738065695",
+      "outcome": "No",
+      "price": 0.235,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Six Seven\" in August?",
+      "token_id": "109102434395997110507956679375",
+      "outcome": "Yes",
+      "price": 0.545,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Six Seven\" in August?",
+      "token_id": "278072663788783404372211796594",
+      "outcome": "No",
+      "price": 0.455,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Presidential Walk of Fame\" in August?",
+      "token_id": "888043411336947861007461052404",
+      "outcome": "Yes",
+      "price": 0.61,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Presidential Walk of Fame\" in August?",
+      "token_id": "597892798173395310245012937785",
+      "outcome": "No",
+      "price": 0.39,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Future President\" in August?",
+      "token_id": "209177416378616614150766302877",
+      "outcome": "Yes",
+      "price": 0.27,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Future President\" in August?",
+      "token_id": "187065859433237094351177012278",
+      "outcome": "No",
+      "price": 0.73,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Affordable\" or \"Affordability\" in August?",
+      "token_id": "931540538477199854019686407559",
+      "outcome": "Yes",
+      "price": 0.945,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Affordable\" or \"Affordability\" in August?",
+      "token_id": "976148518536033042944179131945",
+      "outcome": "No",
+      "price": 0.055,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Pelosi\" in August?",
+      "token_id": "843639066221542464032526803661",
+      "outcome": "Yes",
+      "price": 0.44,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Pelosi\" in August?",
+      "token_id": "384191263129135021236485438679",
+      "outcome": "No",
+      "price": 0.56,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Epstein\" in August?",
+      "token_id": "545272255541849716017471899920",
+      "outcome": "Yes",
+      "price": 0.405,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Epstein\" in August?",
+      "token_id": "593093837044471038261473836414",
+      "outcome": "No",
+      "price": 0.595,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"American Dream\" in August?",
+      "token_id": "107454780197628475166786523684",
+      "outcome": "Yes",
+      "price": 0.825,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"American Dream\" in August?",
+      "token_id": "272645273736080875274964255517",
+      "outcome": "No",
+      "price": 0.175,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Moscow\" in August?",
+      "token_id": "254346789515436238997886408826",
+      "outcome": "Yes",
+      "price": 0.6,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Moscow\" in August?",
+      "token_id": "151561419466372101602747415697",
+      "outcome": "No",
+      "price": 0.4,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Thomas Jefferson\" in August?",
+      "token_id": "519143188332578329628305056668",
+      "outcome": "Yes",
+      "price": 0.455,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"Thomas Jefferson\" in August?",
+      "token_id": "562823794423365306922838345121",
+      "outcome": "No",
+      "price": 0.545,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"World Cup\" in August?",
+      "token_id": "803287121164051236910997579008",
+      "outcome": "Yes",
+      "price": 0.5,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump say \"World Cup\" in August?",
+      "token_id": "108046020667877539944327999329",
+      "outcome": "No",
+      "price": 0.5,
+      "slug": "what-will-trump-say-in-august-20260728181847522"
+    },
+    {
+      "question": "Will Trump and Netanyahu hug on Tuesday?",
+      "token_id": "552902412871796700595577035644",
+      "outcome": "Yes",
+      "price": 0.0105,
+      "slug": "will-trump-and-netanyahu-hug-on-tuesday-20260724181151719"
+    },
+    {
+      "question": "Will Trump and Netanyahu hug on Tuesday?",
+      "token_id": "443505861982819155321931487257",
+      "outcome": "No",
+      "price": 0.9895,
+      "slug": "will-trump-and-netanyahu-hug-on-tuesday-20260724181151719"
+    },
+    {
       "question": "Will Trump say \"Iran\" 5+ times during Announcement with the Secretary of Transportation?",
       "token_id": "617086585219389377844820939206",
       "outcome": "Yes",
-      "price": 0.4895,
+      "price": 0.0345,
       "slug": "what-will-trump-say-during-his-announcement-with-the-secretary-of-transportation-20260729142018020"
     },
     {
       "question": "Will Trump say \"Iran\" 5+ times during Announcement with the Secretary of Transportation?",
       "token_id": "514051897147892940656078219039",
       "outcome": "No",
-      "price": 0.5105,
+      "price": 0.9655,
       "slug": "what-will-trump-say-during-his-announcement-with-the-secretary-of-transportation-20260729142018020"
     },
     {
@@ -1531,28 +2175,28 @@
       "question": "Will Donald Trump publicly insult someone on August 1, 2026?",
       "token_id": "536815524213209181751787623377",
       "outcome": "Yes",
-      "price": 0.865,
+      "price": 0.88,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 1, 2026?",
       "token_id": "532632819017488806874378343717",
       "outcome": "No",
-      "price": 0.135,
+      "price": 0.12,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 2, 2026?",
       "token_id": "585919168479422326944994259469",
       "outcome": "Yes",
-      "price": 0.885,
+      "price": 0.895,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 2, 2026?",
       "token_id": "585254679390818361059924303868",
       "outcome": "No",
-      "price": 0.115,
+      "price": 0.105,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
@@ -1615,28 +2259,28 @@
       "question": "Will Donald Trump publicly insult someone on August 7, 2026?",
       "token_id": "582602436876464093184030359399",
       "outcome": "Yes",
-      "price": 0.895,
+      "price": 0.88,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 7, 2026?",
       "token_id": "865683761086600464701203899789",
       "outcome": "No",
-      "price": 0.105,
+      "price": 0.12,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 8, 2026?",
       "token_id": "999018024409195107740196233073",
       "outcome": "Yes",
-      "price": 0.89,
+      "price": 0.885,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 8, 2026?",
       "token_id": "986492116543382177716246703338",
       "outcome": "No",
-      "price": 0.11,
+      "price": 0.115,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
@@ -1685,14 +2329,14 @@
       "question": "Will Donald Trump publicly insult someone on August 12, 2026?",
       "token_id": "325969481168153077803960332791",
       "outcome": "Yes",
-      "price": 0.89,
+      "price": 0.885,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 12, 2026?",
       "token_id": "108248323902542884668633220089",
       "outcome": "No",
-      "price": 0.11,
+      "price": 0.115,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
@@ -1881,14 +2525,14 @@
       "question": "Will Donald Trump publicly insult someone on August 26, 2026?",
       "token_id": "716749487537127030440235076431",
       "outcome": "Yes",
-      "price": 0.91,
+      "price": 0.905,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 26, 2026?",
       "token_id": "880027473308128501368029172219",
       "outcome": "No",
-      "price": 0.09,
+      "price": 0.095,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
@@ -1909,42 +2553,42 @@
       "question": "Will Donald Trump publicly insult someone on August 28, 2026?",
       "token_id": "658258977681485969255246153549",
       "outcome": "Yes",
-      "price": 0.915,
+      "price": 0.91,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 28, 2026?",
       "token_id": "417888054972814430389444487570",
       "outcome": "No",
-      "price": 0.085,
+      "price": 0.09,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 29, 2026?",
       "token_id": "106590338344677470833649219387",
       "outcome": "Yes",
-      "price": 0.92,
+      "price": 0.91,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 29, 2026?",
       "token_id": "898843248074585597728474040534",
       "outcome": "No",
-      "price": 0.08,
+      "price": 0.09,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 30, 2026?",
       "token_id": "860015568828893430700841393556",
       "outcome": "Yes",
-      "price": 0.88,
+      "price": 0.875,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 30, 2026?",
       "token_id": "585031743265926204902249227538",
       "outcome": "No",
-      "price": 0.12,
+      "price": 0.125,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
@@ -1962,886 +2606,18 @@
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
-      "question": "Will Trump say \"Ass\" in August?",
-      "token_id": "470419186920096353762515910819",
+      "question": "Will Netanyahu publicly insult Trump by July 31?",
+      "token_id": "712559612125564227716396407558",
       "outcome": "Yes",
-      "price": 0.615,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
+      "price": 0.007,
+      "slug": "will-netanyahu-publicly-insult-trump-by-july-31-20260724180328774"
     },
     {
-      "question": "Will Trump say \"Ass\" in August?",
-      "token_id": "926311436208439098550243876587",
+      "question": "Will Netanyahu publicly insult Trump by July 31?",
+      "token_id": "113420041318237181593504290409",
       "outcome": "No",
-      "price": 0.385,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Shit\" in August?",
-      "token_id": "106896938124702603466518873882",
-      "outcome": "Yes",
-      "price": 0.35,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Shit\" in August?",
-      "token_id": "815415375954822159455873052322",
-      "outcome": "No",
-      "price": 0.65,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Red Card\" in August?",
-      "token_id": "616366473366042597573463501255",
-      "outcome": "Yes",
-      "price": 0.205,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Red Card\" in August?",
-      "token_id": "789580113545666753444448373647",
-      "outcome": "No",
-      "price": 0.795,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Death to America\" in August?",
-      "token_id": "318032705301010492848129497854",
-      "outcome": "Yes",
-      "price": 0.23,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Death to America\" in August?",
-      "token_id": "856587206533245344931131210506",
-      "outcome": "No",
-      "price": 0.77,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Sucker\" in August?",
-      "token_id": "778890128609565943927769989594",
-      "outcome": "Yes",
-      "price": 0.745,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Sucker\" in August?",
-      "token_id": "367815818176521695975827233191",
-      "outcome": "No",
-      "price": 0.255,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Slob\" in August?",
-      "token_id": "732518404376772393944170298414",
-      "outcome": "Yes",
-      "price": 0.545,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Slob\" in August?",
-      "token_id": "432677942639818881590136088702",
-      "outcome": "No",
-      "price": 0.455,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Garbage\" in August?",
-      "token_id": "238273216402354030535476554225",
-      "outcome": "Yes",
-      "price": 0.81,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Garbage\" in August?",
-      "token_id": "109160786657528566398451399801",
-      "outcome": "No",
-      "price": 0.19,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Let Me Finish\" in August?",
-      "token_id": "346786967357248730970347139325",
-      "outcome": "Yes",
-      "price": 0.53,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Let Me Finish\" in August?",
-      "token_id": "888272055801788401515014832780",
-      "outcome": "No",
-      "price": 0.47,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"State of the Union\" or \"State of Union\" in August?",
-      "token_id": "662770129666985076024080075800",
-      "outcome": "Yes",
-      "price": 0.725,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"State of the Union\" or \"State of Union\" in August?",
-      "token_id": "376140148559792728867478825622",
-      "outcome": "No",
-      "price": 0.275,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Potato\" in August?",
-      "token_id": "768430176993930628816031730973",
-      "outcome": "Yes",
-      "price": 0.495,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Potato\" in August?",
-      "token_id": "440542198078897859180106052261",
-      "outcome": "No",
-      "price": 0.505,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Tango\" in August?",
-      "token_id": "307671601528097347222280989282",
-      "outcome": "Yes",
-      "price": 0.545,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Tango\" in August?",
-      "token_id": "297221575678892001070387865715",
-      "outcome": "No",
-      "price": 0.455,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Marxist\" in August?",
-      "token_id": "958003186804469936219695982148",
-      "outcome": "Yes",
-      "price": 0.6,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Marxist\" in August?",
-      "token_id": "521085697037804216536332970590",
-      "outcome": "No",
-      "price": 0.4,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Crooked Joe\" in August?",
-      "token_id": "766500148962429167088228444021",
-      "outcome": "Yes",
-      "price": 0.84,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Crooked Joe\" in August?",
-      "token_id": "722854594013759706907788805120",
-      "outcome": "No",
-      "price": 0.16,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Dictionary\" in August?",
-      "token_id": "140548937113735062536723994648",
-      "outcome": "Yes",
-      "price": 0.545,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Dictionary\" in August?",
-      "token_id": "478252359095090679014748897958",
-      "outcome": "No",
-      "price": 0.455,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Gay\" in August?",
-      "token_id": "384310095592982537526351867632",
-      "outcome": "Yes",
-      "price": 0.305,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Gay\" in August?",
-      "token_id": "420417845561941030261848287609",
-      "outcome": "No",
-      "price": 0.695,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Central Casting\" in August?",
-      "token_id": "972741933981745053223190126384",
-      "outcome": "Yes",
-      "price": 0.86,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Central Casting\" in August?",
-      "token_id": "802551300675269832729405194799",
-      "outcome": "No",
-      "price": 0.14,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"No No No\" in August?",
-      "token_id": "137127066263880198206074889041",
-      "outcome": "Yes",
-      "price": 0.845,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"No No No\" in August?",
-      "token_id": "520660151899906982037238443382",
-      "outcome": "No",
-      "price": 0.155,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Through the Roof\" in August?",
-      "token_id": "222644601891323061354228522256",
-      "outcome": "Yes",
-      "price": 0.89,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Through the Roof\" in August?",
-      "token_id": "104996609583299789913261033731",
-      "outcome": "No",
-      "price": 0.11,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Antifa\" in August?",
-      "token_id": "621407816523006636645950779081",
-      "outcome": "Yes",
-      "price": 0.245,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Antifa\" in August?",
-      "token_id": "103984372146867713130133020850",
-      "outcome": "No",
-      "price": 0.755,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Midterm\" in August?",
-      "token_id": "153944043912962431382539560459",
-      "outcome": "Yes",
-      "price": 0.965,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Midterm\" in August?",
-      "token_id": "251989228618443057233632792943",
-      "outcome": "No",
-      "price": 0.035,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Cocaine\" in August?",
-      "token_id": "103876100567417353522908057644",
-      "outcome": "Yes",
-      "price": 0.555,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Cocaine\" in August?",
-      "token_id": "514569398108906271314533468898",
-      "outcome": "No",
-      "price": 0.445,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Movie Star\" in August?",
-      "token_id": "848284896466499364930781339967",
-      "outcome": "Yes",
-      "price": 0.555,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Movie Star\" in August?",
-      "token_id": "100284749614237169852440085639",
-      "outcome": "No",
-      "price": 0.445,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Green New Scam\" in August?",
-      "token_id": "881312289834713032718800142215",
-      "outcome": "Yes",
-      "price": 0.72,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Green New Scam\" in August?",
-      "token_id": "500992434387907153323506585587",
-      "outcome": "No",
-      "price": 0.28,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"State of the Art\" in August?",
-      "token_id": "878527487374583633005837308751",
-      "outcome": "Yes",
-      "price": 0.51,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"State of the Art\" in August?",
-      "token_id": "915707596432569924694360221712",
-      "outcome": "No",
-      "price": 0.49,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Soaking Wet\" in August?",
-      "token_id": "990250758811556092382519010659",
-      "outcome": "Yes",
-      "price": 0.305,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Soaking Wet\" in August?",
-      "token_id": "243406394035850280849738065695",
-      "outcome": "No",
-      "price": 0.695,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Six Seven\" in August?",
-      "token_id": "109102434395997110507956679375",
-      "outcome": "Yes",
-      "price": 0.55,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Six Seven\" in August?",
-      "token_id": "278072663788783404372211796594",
-      "outcome": "No",
-      "price": 0.45,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Presidential Walk of Fame\" in August?",
-      "token_id": "888043411336947861007461052404",
-      "outcome": "Yes",
-      "price": 0.61,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Presidential Walk of Fame\" in August?",
-      "token_id": "597892798173395310245012937785",
-      "outcome": "No",
-      "price": 0.39,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Future President\" in August?",
-      "token_id": "209177416378616614150766302877",
-      "outcome": "Yes",
-      "price": 0.27,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Future President\" in August?",
-      "token_id": "187065859433237094351177012278",
-      "outcome": "No",
-      "price": 0.73,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Affordable\" or \"Affordability\" in August?",
-      "token_id": "931540538477199854019686407559",
-      "outcome": "Yes",
-      "price": 0.945,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Affordable\" or \"Affordability\" in August?",
-      "token_id": "976148518536033042944179131945",
-      "outcome": "No",
-      "price": 0.055,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Pelosi\" in August?",
-      "token_id": "843639066221542464032526803661",
-      "outcome": "Yes",
-      "price": 0.44,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Pelosi\" in August?",
-      "token_id": "384191263129135021236485438679",
-      "outcome": "No",
-      "price": 0.56,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Epstein\" in August?",
-      "token_id": "545272255541849716017471899920",
-      "outcome": "Yes",
-      "price": 0.405,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Epstein\" in August?",
-      "token_id": "593093837044471038261473836414",
-      "outcome": "No",
-      "price": 0.595,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"American Dream\" in August?",
-      "token_id": "107454780197628475166786523684",
-      "outcome": "Yes",
-      "price": 0.825,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"American Dream\" in August?",
-      "token_id": "272645273736080875274964255517",
-      "outcome": "No",
-      "price": 0.175,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Moscow\" in August?",
-      "token_id": "254346789515436238997886408826",
-      "outcome": "Yes",
-      "price": 0.215,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Moscow\" in August?",
-      "token_id": "151561419466372101602747415697",
-      "outcome": "No",
-      "price": 0.785,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Thomas Jefferson\" in August?",
-      "token_id": "519143188332578329628305056668",
-      "outcome": "Yes",
-      "price": 0.455,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"Thomas Jefferson\" in August?",
-      "token_id": "562823794423365306922838345121",
-      "outcome": "No",
-      "price": 0.545,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"World Cup\" in August?",
-      "token_id": "803287121164051236910997579008",
-      "outcome": "Yes",
-      "price": 0.495,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump say \"World Cup\" in August?",
-      "token_id": "108046020667877539944327999329",
-      "outcome": "No",
-      "price": 0.505,
-      "slug": "what-will-trump-say-in-august-20260728181847522"
-    },
-    {
-      "question": "Will Trump pardon Andrew Tate before 2027?",
-      "token_id": "351962674163628284524258969813",
-      "outcome": "Yes",
-      "price": 0.0345,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Andrew Tate before 2027?",
-      "token_id": "173223303345765028896133326194",
-      "outcome": "No",
-      "price": 0.9655,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Sam Bankman-Fried before 2027?",
-      "token_id": "374716695062127461456306971057",
-      "outcome": "Yes",
-      "price": 0.0495,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Sam Bankman-Fried before 2027?",
-      "token_id": "689213199377970347302391545216",
-      "outcome": "No",
-      "price": 0.9505,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Eric Adams before 2027?",
-      "token_id": "612361537102072116469171774457",
-      "outcome": "Yes",
-      "price": 0.11,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Eric Adams before 2027?",
-      "token_id": "527791166651262924229281638671",
-      "outcome": "No",
-      "price": 0.89,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Steve Bannon before 2027?",
-      "token_id": "452808522004217039244055027126",
-      "outcome": "Yes",
-      "price": 0.12,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Steve Bannon before 2027?",
-      "token_id": "950671275880274528128978930219",
-      "outcome": "No",
-      "price": 0.88,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Roger Ver before 2027?",
-      "token_id": "689826048676289605510080861005",
-      "outcome": "Yes",
-      "price": 0.075,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Roger Ver before 2027?",
-      "token_id": "692525445809431366264206057455",
-      "outcome": "No",
-      "price": 0.925,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Julian Assange before 2027?",
-      "token_id": "978139301121011171078339814713",
-      "outcome": "Yes",
-      "price": 0.0635,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Julian Assange before 2027?",
-      "token_id": "538166351911821297423358405701",
-      "outcome": "No",
-      "price": 0.9365,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Himself before 2027?",
-      "token_id": "114783771900977108635550348466",
-      "outcome": "Yes",
-      "price": 0.0535,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Himself before 2027?",
-      "token_id": "438053153702536073900973724636",
-      "outcome": "No",
-      "price": 0.9465,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Diddy before 2027?",
-      "token_id": "113406361681601122128421859763",
-      "outcome": "Yes",
-      "price": 0.0385,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Diddy before 2027?",
-      "token_id": "734317496176912219326739679281",
-      "outcome": "No",
-      "price": 0.9615,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Elon Musk before 2027?",
-      "token_id": "912620357103736859912647470147",
-      "outcome": "Yes",
-      "price": 0.0135,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Elon Musk before 2027?",
-      "token_id": "190172636945942263991972675820",
-      "outcome": "No",
-      "price": 0.9865,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Hunter Biden before 2027?",
-      "token_id": "382402743387373732307916274290",
-      "outcome": "Yes",
-      "price": 0.0165,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Hunter Biden before 2027?",
-      "token_id": "479768961367662843587350336101",
-      "outcome": "No",
-      "price": 0.9835,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Young Thug before 2027?",
-      "token_id": "104581597576139011386177902310",
-      "outcome": "Yes",
-      "price": 0.0305,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Young Thug before 2027?",
-      "token_id": "539303296137293411908340061326",
-      "outcome": "No",
-      "price": 0.9695,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Edward Snowden before 2027?",
-      "token_id": "854711427783953495542228198258",
-      "outcome": "Yes",
-      "price": 0.0245,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Edward Snowden before 2027?",
-      "token_id": "114894176615436170065776834279",
-      "outcome": "No",
-      "price": 0.9755,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Matt Gaetz before 2027?",
-      "token_id": "250632924733862772270114731688",
-      "outcome": "Yes",
-      "price": 0.16,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Matt Gaetz before 2027?",
-      "token_id": "643673976258766785715819578647",
-      "outcome": "No",
-      "price": 0.84,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Daniel Penny before 2027?",
-      "token_id": "306726180417133202644420468447",
-      "outcome": "Yes",
-      "price": 0.3,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Daniel Penny before 2027?",
-      "token_id": "234391472234498458912918786238",
-      "outcome": "No",
-      "price": 0.7,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Roger Stone before 2027?",
-      "token_id": "853530191685180327135973061349",
-      "outcome": "Yes",
-      "price": 0.15,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Roger Stone before 2027?",
-      "token_id": "102276463173336397788087894652",
-      "outcome": "No",
-      "price": 0.85,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Bob Menendez before 2027?",
-      "token_id": "875704695182730425870880135081",
-      "outcome": "Yes",
-      "price": 0.053,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Bob Menendez before 2027?",
-      "token_id": "559256552866805639605717009398",
-      "outcome": "No",
-      "price": 0.947,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Joe Exotic \"The Tiger King\" before 2027?",
-      "token_id": "101707490114982593982881245488",
-      "outcome": "Yes",
-      "price": 0.09,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Joe Exotic \"The Tiger King\" before 2027?",
-      "token_id": "403960386643305922927596906732",
-      "outcome": "No",
-      "price": 0.91,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Derek Chauvin before 2027?",
-      "token_id": "490374553746905886904924554706",
-      "outcome": "Yes",
-      "price": 0.048,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Derek Chauvin before 2027?",
-      "token_id": "739061915119724846402634228096",
-      "outcome": "No",
-      "price": 0.952,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Antoine Massey before 2027?",
-      "token_id": "806889597930717656027277175844",
-      "outcome": "Yes",
-      "price": 0.075,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Antoine Massey before 2027?",
-      "token_id": "320146391720596704631535652732",
-      "outcome": "No",
-      "price": 0.925,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Elizabeth Holmes before 2027?",
-      "token_id": "100561432383876919947224911890",
-      "outcome": "Yes",
-      "price": 0.018,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Elizabeth Holmes before 2027?",
-      "token_id": "613505162020737146350111898022",
-      "outcome": "No",
-      "price": 0.982,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Ghislaine Maxwell before 2027?",
-      "token_id": "392549921762724889118551610456",
-      "outcome": "Yes",
-      "price": 0.066,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Ghislaine Maxwell before 2027?",
-      "token_id": "664189160979854581137361367918",
-      "outcome": "No",
-      "price": 0.934,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Do Kwon before 2027?",
-      "token_id": "641477531049024083399991700285",
-      "outcome": "Yes",
-      "price": 0.022,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Do Kwon before 2027?",
-      "token_id": "935891803582806317908254852680",
-      "outcome": "No",
-      "price": 0.978,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Stefan Brodie before 2027?",
-      "token_id": "515676168921952388768432828681",
-      "outcome": "Yes",
-      "price": 0.155,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Stefan Brodie before 2027?",
-      "token_id": "847757364951018000231242345155",
-      "outcome": "No",
-      "price": 0.845,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Donald Brodie before 2027?",
-      "token_id": "504478589280090095614185349457",
-      "outcome": "Yes",
-      "price": 0.265,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Donald Brodie before 2027?",
-      "token_id": "559409210665643133114713043943",
-      "outcome": "No",
-      "price": 0.735,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Ryan Salame before 2027?",
-      "token_id": "138817014738533615333983627463",
-      "outcome": "Yes",
-      "price": 0.185,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Ryan Salame before 2027?",
-      "token_id": "104869673577819668024517200476",
-      "outcome": "No",
-      "price": 0.815,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Keonne Rodriguez before 2027?",
-      "token_id": "133519414112019179396754975430",
-      "outcome": "Yes",
-      "price": 0.135,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Keonne Rodriguez before 2027?",
-      "token_id": "698511612714959396099558388038",
-      "outcome": "No",
-      "price": 0.865,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Martin Shkreli before 2027?",
-      "token_id": "104164365396079964916732796976",
-      "outcome": "Yes",
-      "price": 0.06,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Martin Shkreli before 2027?",
-      "token_id": "733597878545752095260698927263",
-      "outcome": "No",
-      "price": 0.94,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Nicolas Maduro before 2027?",
-      "token_id": "853670843581819513897895683611",
-      "outcome": "Yes",
-      "price": 0.0385,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Nicolas Maduro before 2027?",
-      "token_id": "100628964596700510074164574995",
-      "outcome": "No",
-      "price": 0.9615,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.993,
+      "slug": "will-netanyahu-publicly-insult-trump-by-july-31-20260724180328774"
     },
     {
       "question": "Will Trump pardon Ghislaine Maxwell by end of 2026?",
@@ -2856,20 +2632,6 @@
       "outcome": "No",
       "price": 0.9,
       "slug": "will-trump-pardon-ghislaine-maxwell"
-    },
-    {
-      "question": "Will Netanyahu publicly insult Trump by July 31?",
-      "token_id": "712559612125564227716396407558",
-      "outcome": "Yes",
-      "price": 0.007,
-      "slug": "will-netanyahu-publicly-insult-trump-by-july-31-20260724180328774"
-    },
-    {
-      "question": "Will Netanyahu publicly insult Trump by July 31?",
-      "token_id": "113420041318237181593504290409",
-      "outcome": "No",
-      "price": 0.993,
-      "slug": "will-netanyahu-publicly-insult-trump-by-july-31-20260724180328774"
     },
     {
       "question": "Trump declassifies new UFO files by July 17?",
@@ -2889,42 +2651,42 @@
       "question": "Trump declassifies new UFO files by July 31?",
       "token_id": "228667208085019468394280155926",
       "outcome": "Yes",
-      "price": 0.1835,
+      "price": 0.164,
       "slug": "trump-declassifies-new-ufo-files-byptptpt-20260710184334563"
     },
     {
       "question": "Trump declassifies new UFO files by July 31?",
       "token_id": "458987471851918399683275579640",
       "outcome": "No",
-      "price": 0.8165,
+      "price": 0.836,
       "slug": "trump-declassifies-new-ufo-files-byptptpt-20260710184334563"
     },
     {
       "question": "Trump declassifies new UFO files by August 15?",
       "token_id": "476534561038470124298603758658",
       "outcome": "Yes",
-      "price": 0.65,
+      "price": 0.645,
       "slug": "trump-declassifies-new-ufo-files-byptptpt-20260710184334563"
     },
     {
       "question": "Trump declassifies new UFO files by August 15?",
       "token_id": "816225292390878032701830499492",
       "outcome": "No",
-      "price": 0.35,
+      "price": 0.355,
       "slug": "trump-declassifies-new-ufo-files-byptptpt-20260710184334563"
     },
     {
       "question": "Trump declassifies new UFO files by August 31?",
       "token_id": "908115677583467810653949159492",
       "outcome": "Yes",
-      "price": 0.865,
+      "price": 0.86,
       "slug": "trump-declassifies-new-ufo-files-byptptpt-20260710184334563"
     },
     {
       "question": "Trump declassifies new UFO files by August 31?",
       "token_id": "561300806344538666373539909454",
       "outcome": "No",
-      "price": 0.135,
+      "price": 0.14,
       "slug": "trump-declassifies-new-ufo-files-byptptpt-20260710184334563"
     },
     {
@@ -2959,14 +2721,14 @@
       "question": "Will Trump meet with Delcy Rodríguez by December 31, 2026?",
       "token_id": "262044810399941168571582249080",
       "outcome": "Yes",
-      "price": 0.18,
+      "price": 0.23,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Delcy Rodríguez by December 31, 2026?",
       "token_id": "855858948874671328432210530428",
       "outcome": "No",
-      "price": 0.82,
+      "price": 0.77,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
@@ -3701,14 +3463,14 @@
       "question": "Will Donald Trump publicly insult someone on July 30, 2026?",
       "token_id": "107823935758588031587897770377",
       "outcome": "Yes",
-      "price": 0.9585,
+      "price": 0.9555,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260630182730878"
     },
     {
       "question": "Will Donald Trump publicly insult someone on July 30, 2026?",
       "token_id": "570945018628071841885721246130",
       "outcome": "No",
-      "price": 0.0415,
+      "price": 0.0445,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260630182730878"
     },
     {
@@ -3726,6 +3488,6 @@
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260630182730878"
     }
   ],
-  "updated": "2026-07-30T05:40:32Z",
-  "total": 532
+  "updated": "2026-07-30T08:52:55Z",
+  "total": 498
 }
