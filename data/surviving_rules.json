@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-07-29T20:46:48Z",
-    "evolved_rules_added": 45
+    "last_evolution": "2026-07-30T05:45:15Z",
+    "evolved_rules_added": 47
   },
   "rules": [
     {
@@ -13806,7 +13806,12 @@
       "parents": [
         "kw_tariff_2plus+open_trade",
         "kw_thank_you_for_your_attention+open_tariffs"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
@@ -14898,7 +14903,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-07-29",
+      "born_date": "2026-07-30",
       "combined_score": 70.0
     }
   ]
