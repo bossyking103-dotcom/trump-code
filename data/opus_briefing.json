@@ -1,16 +1,20 @@
 {
   "date": "2026-07-31",
-  "prepared_at": "2026-07-31T14:45:10Z",
+  "prepared_at": "2026-07-31T17:45:11Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "John Cornyn never had a problem with the so called \"Fund,\" which will not benefit me, but rather the great American Patriots who were hunted down like dogs and whose lives were unfairly and illegally ",
+    "count": 2,
+    "latest": "I am pleased to announce that the man who so foolishly led the Indiana State Senate, with almost every Candidate losing their Race, many of them in Office for years, will not be seeking Re-Election as",
     "earliest_time": "2026-07-31T11:03:27.383Z",
-    "latest_time": "2026-07-31T11:03:27.383Z",
+    "latest_time": "2026-07-31T14:50:41.513Z",
     "sample": [
       {
         "time": "11:03",
         "text": "John Cornyn never had a problem with the so called \"Fund,\" which will not benefit me, but rather the great American Patriots who were hunted down like dogs and whose lives were unfairly and illegally destroyed by the Crooked Joe Biden Administration, until after I decided to Endorse and Support his "
+      },
+      {
+        "time": "14:50",
+        "text": "I am pleased to announce that the man who so foolishly led the Indiana State Senate, with almost every Candidate losing their Race, many of them in Office for years, will not be seeking Re-Election as Senate President because he wouldn't have had a chance to be elected — Better yet would be if he wo"
       }
     ]
   },
@@ -18,15 +22,21 @@
     "posts_1_5": true,
     "avg_len_very_long": true,
     "caps_low": true,
-    "excl_extreme": true,
-    "questions_no": true,
-    "mostly_premarket": true,
+    "excl_heavy": true,
     "kw_immediately": true,
     "pre_immediately": true,
+    "kw_india": true,
+    "open_india": true,
     "kw_dow": true,
+    "kw_dow_2plus": true,
     "pre_dow": true,
+    "open_dow": true,
     "kw_great": true,
+    "kw_great_2plus": true,
     "pre_great": true,
+    "open_great": true,
+    "kw_amazing": true,
+    "open_amazing": true,
     "kw_biden": true,
     "pre_biden": true,
     "kw_thank_you_for_your_attention": true,
@@ -36,10 +46,23 @@
     "volume_drop": true
   },
   "triggered_rules": {
-    "total": 4,
-    "long": 4,
-    "short": 0,
+    "total": 10,
+    "long": 9,
+    "short": 1,
     "sample": [
+      {
+        "id": "R0002",
+        "features": [
+          "kw_biden",
+          "kw_india",
+          "kw_tariffs"
+        ],
+        "direction": "SHORT",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
       {
         "id": "R0022",
         "features": [
@@ -54,11 +77,75 @@
         "score": 100.0
       },
       {
+        "id": "R0036",
+        "features": [
+          "is_friday",
+          "kw_dow_2plus",
+          "kw_tariffs_2plus"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0037",
+        "features": [
+          "is_friday",
+          "kw_dow_2plus",
+          "open_tariff"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0038",
+        "features": [
+          "is_friday",
+          "kw_dow_2plus",
+          "open_tariffs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
         "id": "R0041",
         "features": [
           "kw_tariffs_2plus",
           "kw_thank_you_for_your_attention",
           "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0046",
+        "features": [
+          "kw_dow_2plus",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0050",
+        "features": [
+          "kw_dow_2plus",
+          "open_dow",
+          "open_interest_rate"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -208,11 +295,32 @@
   "evolution_latest": {
     "date": "2026-07-31",
     "crossover": 16,
-    "mutation": 12,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "kw_president_of_the_united_states",
+          "volume_spike"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 100.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_president_of_the_united_states",
+          "kw_never_let_you_down",
+          "open_dow"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 91.7,
+        "origin": "crossover"
+      },
       {
         "features": [
           "kw_thank_you_for_your_attention",
@@ -222,26 +330,6 @@
         "hold": 2,
         "score": 90.9,
         "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_signed",
-          "kw_tariff"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.6,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "distilled"
       }
     ]
   },

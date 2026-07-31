@@ -1,16 +1,16 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T14:45:05Z",
-  "posts_today": 1,
+  "generated_at": "2026-07-31T17:45:07Z",
+  "posts_today": 2,
   "latest_post": {
-    "time": "2026-07-31T11:03",
-    "content_preview": "John Cornyn never had a problem with the so called \"Fund,\" which will not benefit me, but rather the"
+    "time": "2026-07-31T14:50",
+    "content_preview": "I am pleased to announce that the man who so foolishly led the Indiana State Senate, with almost eve"
   },
   "signals_detected": [],
-  "models_triggered": 4,
+  "models_triggered": 10,
   "direction_summary": {
-    "LONG": 4,
-    "SHORT": 0,
+    "LONG": 9,
+    "SHORT": 1,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -20,14 +20,25 @@
   },
   "sp500_latest": {
     "date": "2026-07-31",
-    "close": 7439.91
+    "close": 7482.33
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-31\nPosts today: 1 | Models triggered: 4\nSignals: None\nConsensus: 4 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: John Cornyn never had a problem with the so called \"Fund,\" which will not benefit me, but rather the",
-    "zh": "川普密碼每日報告 -- 2026-07-31\n今日推文: 1 篇 | 觸發模型: 4 組\n偵測信號: 無\n共識方向: 4 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: John Cornyn never had a problem with the so called \"Fund,\" which will not benefit me, but rather the",
-    "ja": "トランプ・コード日次レポート -- 2026-07-31\n本日の投稿: 1件 | トリガーモデル: 4組\n検出シグナル: なし\nコンセンサス: 4組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: John Cornyn never had a problem with the so called \"Fund,\" which will not benefit me, but rather the"
+    "en": "Trump Code Daily Report -- 2026-07-31\nPosts today: 2 | Models triggered: 10\nSignals: None\nConsensus: 9 LONG vs 1 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: I am pleased to announce that the man who so foolishly led the Indiana State Senate, with almost eve",
+    "zh": "川普密碼每日報告 -- 2026-07-31\n今日推文: 2 篇 | 觸發模型: 10 組\n偵測信號: 無\n共識方向: 9 組看多 vs 1 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: I am pleased to announce that the man who so foolishly led the Indiana State Senate, with almost eve",
+    "ja": "トランプ・コード日次レポート -- 2026-07-31\n本日の投稿: 2件 | トリガーモデル: 10組\n検出シグナル: なし\nコンセンサス: 9組ロング vs 1組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: I am pleased to announce that the man who so foolishly led the Indiana State Senate, with almost eve"
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_biden",
+        "kw_india",
+        "kw_tariffs"
+      ],
+      "direction": "SHORT",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "is_friday",
@@ -41,9 +52,63 @@
     },
     {
       "features": [
+        "is_friday",
+        "kw_dow_2plus",
+        "kw_tariffs_2plus"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_dow_2plus",
+        "open_tariff"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_dow_2plus",
+        "open_tariffs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "kw_tariffs_2plus",
         "kw_thank_you_for_your_attention",
         "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_dow",
+        "open_interest_rate"
       ],
       "direction": "LONG",
       "hold": 2,
