@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "prepared_at": "2026-07-31T05:45:16Z",
+  "prepared_at": "2026-07-31T08:45:19Z",
   "status": "PENDING",
   "today_posts": {
     "count": 6,
@@ -205,24 +205,24 @@
       },
       {
         "features": [
-          "kw_tariff",
-          "kw_signed"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.6,
-        "origin": "mutation_remove"
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
       },
       {
         "features": [
-          "kw_deficit",
-          "kw_trade",
-          "pre_great"
+          "kw_thank_you_for_your_attention",
+          "kw_economy",
+          "open_tariffs"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 90.0,
-        "origin": "mutation_replace"
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },
