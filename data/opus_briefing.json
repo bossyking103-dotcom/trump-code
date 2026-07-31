@@ -1,12 +1,12 @@
 {
-  "date": "2026-07-30",
-  "prepared_at": "2026-07-30T20:45:14Z",
+  "date": "2026-07-31",
+  "prepared_at": "2026-07-31T05:45:16Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "President Trump Makes an Announcement with the Secretary of Transportation: https://youtube.com/watch?v=sCPQKhHlN9k&t=1016s&pp=2AH4B5ACAdIHCQlkAqO1ajebQw%3D%3D&ra=m",
+    "count": 6,
+    "latest": "GREAT new song by Steve Gruber & The Freedom Project!https://youtu.be/9rHJoI3Ge6U?is=zDTIM86DSa4d5qbv",
     "earliest_time": "2026-07-30T01:18:18.306Z",
-    "latest_time": "2026-07-30T17:09:36.401Z",
+    "latest_time": "2026-07-30T23:13:06.746Z",
     "sample": [
       {
         "time": "01:18",
@@ -19,22 +19,59 @@
       {
         "time": "17:09",
         "text": "President Trump Makes an Announcement with the Secretary of Transportation: https://youtube.com/watch?v=sCPQKhHlN9k&t=1016s&pp=2AH4B5ACAdIHCQlkAqO1ajebQw%3D%3D&ra=m"
+      },
+      {
+        "time": "19:13",
+        "text": "GREAT new song by Steve Gruber &amp; The Freedom Project!https://youtu.be/9rHJoI3Ge6U?is=zDTIM86DSa4d5qbv"
+      },
+      {
+        "time": "22:24",
+        "text": "Today, the Board of Peace reached a HISTORIC agreement for the COMPLETE DISARMAMENT of Hamas and all other armed groups in Gaza. This is a monumental step toward lasting PEACE and SECURITY.This agreement is a critical step towards Gaza finally being governed by a new Palestinian government that will"
+      },
+      {
+        "time": "23:13",
+        "text": "GREAT new song by Steve Gruber & The Freedom Project!https://youtu.be/9rHJoI3Ge6U?is=zDTIM86DSa4d5qbv"
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_medium": true,
+    "posts_6_10": true,
+    "avg_len_long": true,
     "caps_medium": true,
     "excl_normal": true,
-    "mostly_open": true,
+    "questions_yes": true,
     "has_night": true,
+    "kw_agreement": true,
+    "kw_israel": true,
     "kw_dow": true,
     "open_dow": true,
     "kw_great": true,
+    "kw_great_2plus": true,
     "open_great": true,
+    "kw_historic": true,
+    "kw_amazing": true,
     "kw_president_djt": true,
-    "volume_drop": true
+    "kw_president_of_the_united_states": true
+  },
+  "triggered_rules": {
+    "total": 1,
+    "long": 1,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0008",
+        "features": [
+          "open_dow",
+          "open_trade",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -149,44 +186,43 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-07-30",
+    "date": "2026-07-31",
     "crossover": 16,
-    "mutation": 15,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_deal",
-          "kw_inflation",
-          "open_thank_you_for_your_attention"
+          "open_china",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_thank_you_for_your_attention",
-          "kw_tariff",
-          "kw_biden_2plus"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_economy",
-          "open_china"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
+        "hold": 2,
+        "score": 90.9,
         "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_tariff",
+          "kw_signed"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.6,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_deficit",
+          "kw_trade",
+          "pre_great"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.0,
+        "origin": "mutation_replace"
       }
     ]
   },

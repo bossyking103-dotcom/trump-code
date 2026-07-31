@@ -1,17 +1,17 @@
 {
-  "date": "2026-07-30",
-  "generated_at": "2026-07-30T20:45:08Z",
-  "posts_today": 3,
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T05:45:11Z",
+  "posts_today": 6,
   "latest_post": {
-    "time": "2026-07-30T17:09",
-    "content_preview": "President Trump Makes an Announcement with the Secretary of Transportation: https://youtube.com/watc"
+    "time": "2026-07-30T23:13",
+    "content_preview": "GREAT new song by Steve Gruber & The Freedom Project!https://youtu.be/9rHJoI3Ge6U?is=zDTIM86DSa4d5qb"
   },
   "signals_detected": [],
-  "models_triggered": 0,
+  "models_triggered": 1,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 1,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 127,
@@ -23,9 +23,21 @@
     "close": 7437.63
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-30\nPosts today: 3 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: President Trump Makes an Announcement with the Secretary of Transportation: https://youtube.com/watc",
-    "zh": "川普密碼每日報告 -- 2026-07-30\n今日推文: 3 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: President Trump Makes an Announcement with the Secretary of Transportation: https://youtube.com/watc",
-    "ja": "トランプ・コード日次レポート -- 2026-07-30\n本日の投稿: 3件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: President Trump Makes an Announcement with the Secretary of Transportation: https://youtube.com/watc"
+    "en": "Trump Code Daily Report -- 2026-07-31\nPosts today: 6 | Models triggered: 1\nSignals: None\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: GREAT new song by Steve Gruber & The Freedom Project!https://youtu.be/9rHJoI3Ge6U?is=zDTIM86DSa4d5qb",
+    "zh": "川普密碼每日報告 -- 2026-07-31\n今日推文: 6 篇 | 觸發模型: 1 組\n偵測信號: 無\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: GREAT new song by Steve Gruber & The Freedom Project!https://youtu.be/9rHJoI3Ge6U?is=zDTIM86DSa4d5qb",
+    "ja": "トランプ・コード日次レポート -- 2026-07-31\n本日の投稿: 6件 | トリガーモデル: 1組\n検出シグナル: なし\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: GREAT new song by Steve Gruber & The Freedom Project!https://youtu.be/9rHJoI3Ge6U?is=zDTIM86DSa4d5qb"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "open_dow",
+        "open_trade",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }
