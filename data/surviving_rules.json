@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-07-31T17:45:10Z",
-    "evolved_rules_added": 48
+    "last_evolution": "2026-07-31T20:45:15Z",
+    "evolved_rules_added": 44
   },
   "rules": [
     {
@@ -13835,7 +13835,12 @@
       "parents": [
         "kw_biden+kw_president_of_the_united_states",
         "kw_amazing+kw_ban"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
