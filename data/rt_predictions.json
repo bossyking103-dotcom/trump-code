@@ -5463,5 +5463,155 @@
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
     "status": "LIVE"
+  },
+  {
+    "id": "rt_1785496154",
+    "created_at": "2026-07-31T11:09:14Z",
+    "post_time": "2026-07-31T07:03:00.000Z",
+    "post_preview": "John Cornyn never had a problem with the so called “Fund,” which will not benefit me, but rather the great American Patriots who were hunted down like dogs and whose lives were unfairly and illegally ",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "922136356989965131742954407110",
+        "question": "Will Donald Trump publicly insult Tucker Carlson by July 31, 2026?",
+        "price_at_signal": 0.215
+      },
+      {
+        "token_id": "411962976288881663473389152034",
+        "question": "Will Donald Trump publicly insult Tucker Carlson by July 31, 2026?",
+        "price_at_signal": 0.785
+      },
+      {
+        "token_id": "288526539718095124336902514161",
+        "question": "Will Donald Trump publicly insult Megyn Kelly by July 31, 2026?",
+        "price_at_signal": 0.065
+      },
+      {
+        "token_id": "591203375738039327397103287171",
+        "question": "Will Donald Trump publicly insult Megyn Kelly by July 31, 2026?",
+        "price_at_signal": 0.935
+      },
+      {
+        "token_id": "915405048155436096458369122362",
+        "question": "Will Donald Trump publicly insult Candace Owens by July 31, 2026?",
+        "price_at_signal": 0.0755
+      }
+    ],
+    "pm_price_at_signal": 0.215,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.44,
+    "trump_coin_24h_change": -1.08,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785498284",
+    "created_at": "2026-07-31T11:44:44Z",
+    "post_time": "2026-07-31T11:03:27.383Z",
+    "post_preview": "John Cornyn never had a problem with the so called \"Fund,\" which will not benefit me, but rather the great American Patriots who were hunted down like dogs and whose lives were unfairly and illegally ",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "922136356989965131742954407110",
+        "question": "Will Donald Trump publicly insult Tucker Carlson by July 31, 2026?",
+        "price_at_signal": 0.21
+      },
+      {
+        "token_id": "411962976288881663473389152034",
+        "question": "Will Donald Trump publicly insult Tucker Carlson by July 31, 2026?",
+        "price_at_signal": 0.79
+      },
+      {
+        "token_id": "288526539718095124336902514161",
+        "question": "Will Donald Trump publicly insult Megyn Kelly by July 31, 2026?",
+        "price_at_signal": 0.065
+      },
+      {
+        "token_id": "591203375738039327397103287171",
+        "question": "Will Donald Trump publicly insult Megyn Kelly by July 31, 2026?",
+        "price_at_signal": 0.935
+      },
+      {
+        "token_id": "915405048155436096458369122362",
+        "question": "Will Donald Trump publicly insult Candace Owens by July 31, 2026?",
+        "price_at_signal": 0.0755
+      }
+    ],
+    "pm_price_at_signal": 0.21,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.44,
+    "trump_coin_24h_change": -1.57,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
   }
 ]
