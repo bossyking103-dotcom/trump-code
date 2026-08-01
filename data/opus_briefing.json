@@ -1,37 +1,62 @@
 {
   "date": "2026-08-01",
-  "prepared_at": "2026-08-01T08:45:09Z",
+  "prepared_at": "2026-08-01T11:45:13Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "Federal Appeals Court Rejects Bid to Block Trump's Mail Voting Restrictions: https://www.theepochtimes.com/us/federal-appeals-court-rejects-bid-to-block-trumps-mail-voting-restrictions-6068410",
+    "count": 2,
+    "latest": "If Senators Cornyn and Tillis, both upset because I wouldn’t Endorse them (they lost, and quit, respectively!), aren’t going to approve Todd Blanche, one of the most respected professionals, according",
     "earliest_time": "2026-08-01T01:46:40.445Z",
-    "latest_time": "2026-08-01T01:46:40.445Z",
+    "latest_time": "2026-08-01T07:32:00.000Z",
     "sample": [
       {
         "time": "01:46",
         "text": "Federal Appeals Court Rejects Bid to Block Trump's Mail Voting Restrictions: https://www.theepochtimes.com/us/federal-appeals-court-rejects-bid-to-block-trumps-mail-voting-restrictions-6068410"
+      },
+      {
+        "time": "07:32",
+        "text": "If Senators Cornyn and Tillis, both upset because I wouldn’t Endorse them (they lost, and quit, respectively!), aren’t going to approve Todd Blanche, one of the most respected professionals, according to everybody, in the Country, to be the United States Attorney General, then I will keep Todd as Ac"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_medium": true,
+    "avg_len_long": true,
     "caps_low": true,
-    "excl_none": true,
+    "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
+    "kw_immediately": true,
+    "pre_immediately": true,
     "kw_block": true,
     "kw_restrict": true,
+    "kw_biden": true,
+    "pre_biden": true,
+    "kw_president_djt": true,
+    "pre_president_djt": true,
+    "kw_thank_you_for_your_attention": true,
+    "pre_thank_you_for_your_attention": true,
     "is_weekend": true,
     "volume_falling_3d": true,
     "volume_drop": true
   },
   "triggered_rules": {
-    "total": 1,
-    "long": 1,
+    "total": 2,
+    "long": 2,
     "short": 0,
     "sample": [
+      {
+        "id": "R0041",
+        "features": [
+          "kw_tariffs_2plus",
+          "kw_thank_you_for_your_attention",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
       {
         "id": "R0093",
         "features": [
@@ -161,11 +186,21 @@
   "evolution_latest": {
     "date": "2026-08-01",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -178,23 +213,13 @@
       },
       {
         "features": [
-          "kw_signed",
-          "is_friday"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 87.5,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
           "kw_interest_rate",
           "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "mutation_remove"
       }
     ]
   },

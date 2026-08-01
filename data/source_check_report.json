@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-01T08:45:05Z",
+  "timestamp": "2026-08-01T11:45:09Z",
   "sources": {
     "cnn": {
       "status": "ok",
@@ -21,16 +21,16 @@
     "status": "ok",
     "primary": "cnn",
     "secondary": "trumpstruth",
-    "checked": 15,
+    "checked": 16,
     "matched": 3,
     "primary_only": 7,
-    "secondary_only": 5,
-    "match_rate": 20.0,
+    "secondary_only": 6,
+    "match_rate": 18.8,
     "verdict": "INCONSISTENT"
   },
   "merge": {
     "primary_source": "cnn",
-    "total_posts": 7555,
-    "added_from_others": 5
+    "total_posts": 7556,
+    "added_from_others": 6
   }
 }
