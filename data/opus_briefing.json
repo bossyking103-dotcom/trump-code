@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "prepared_at": "2026-08-01T05:45:15Z",
+  "prepared_at": "2026-08-01T08:45:09Z",
   "status": "PENDING",
   "today_posts": {
     "count": 1,
@@ -161,9 +161,9 @@
   "evolution_latest": {
     "date": "2026-08-01",
     "crossover": 16,
-    "mutation": 10,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 42,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -178,18 +178,18 @@
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
+          "kw_signed",
+          "is_friday"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 2,
         "score": 87.5,
-        "origin": "distilled"
+        "origin": "mutation_remove"
       },
       {
         "features": [
           "kw_interest_rate",
-          "kw_beautiful"
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
