@@ -1,12 +1,12 @@
 {
   "date": "2026-08-01",
-  "prepared_at": "2026-08-01T17:45:11Z",
+  "prepared_at": "2026-08-01T20:45:13Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117021276346508609Look for yourselves at the VANDALISM that took place at The Reflecting Pool. The material is being cut with a knife or a bo",
+    "count": 10,
+    "latest": "President Trump is fixing our wonderful White House, just like he is fixing our Country!",
     "earliest_time": "2026-08-01T01:46:40.445Z",
-    "latest_time": "2026-08-01T16:51:22.611Z",
+    "latest_time": "2026-08-01T18:27:57.832Z",
     "sample": [
       {
         "time": "01:46",
@@ -17,11 +17,7 @@
         "text": "If Senators Cornyn and Tillis, both upset because I wouldn't Endorse them (they lost, and quit, respectively!), aren't going to approve Todd Blanche, one of the most respected professionals, according to everybody, in the Country, to be the United States Attorney General, then I will keep Todd as Ac"
       },
       {
-        "time": "13:30",
-        "text": "Look for yourselves at the VANDALISM that took place at The Reflecting Pool. The material is being cut with a knife or a box cutter, for all to see!"
-      },
-      {
-        "time": "13:31",
+        "time": "15:47",
         "text": "At the @ufc fights in Serbia the crowd goes wild for a @realDonaldTrump sign flung open by the crowd…."
       },
       {
@@ -35,6 +31,22 @@
       {
         "time": "16:51",
         "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117021276346508609Look for yourselves at the VANDALISM that took place at The Reflecting Pool. The material is being cut with a knife or a box cutter, for all to see!"
+      },
+      {
+        "time": "17:44",
+        "text": "Great job by Chairman Rick Crawford on FoxNews interview - A total Pro!!! President DJT"
+      },
+      {
+        "time": "18:04",
+        "text": "The Triumphal Arch, prior to affixing the magnificent Statues and Artwork!"
+      },
+      {
+        "time": "18:12",
+        "text": "Because of President Donald J. Trump, Oil Exports are SURGING!"
+      },
+      {
+        "time": "18:27",
+        "text": "President Trump is fixing our wonderful White House, just like he is fixing our Country!"
       }
     ]
   },
@@ -49,6 +61,12 @@
     "pre_immediately": true,
     "kw_block": true,
     "kw_restrict": true,
+    "kw_oil": true,
+    "open_oil": true,
+    "kw_great": true,
+    "open_great": true,
+    "kw_wonderful": true,
+    "open_wonderful": true,
     "kw_biden": true,
     "pre_biden": true,
     "kw_president_djt": true,
@@ -214,32 +232,33 @@
     "top_3": [
       {
         "features": [
+          "open_tariff",
+          "is_friday",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_oil",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
         "origin": "distilled"
       }
     ]
