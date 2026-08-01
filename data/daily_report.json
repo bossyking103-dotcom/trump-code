@@ -1,16 +1,16 @@
 {
-  "date": "2026-07-31",
-  "generated_at": "2026-07-31T20:45:56Z",
-  "posts_today": 4,
+  "date": "2026-08-01",
+  "generated_at": "2026-08-01T05:45:10Z",
+  "posts_today": 1,
   "latest_post": {
-    "time": "2026-07-31T20:10",
-    "content_preview": "What's happening with Spain, with tens of thousands of Illegal Immigrants invading it, happened in t"
+    "time": "2026-08-01T01:46",
+    "content_preview": "Federal Appeals Court Rejects Bid to Block Trump's Mail Voting Restrictions: https://www.theepochtim"
   },
   "signals_detected": [],
-  "models_triggered": 10,
+  "models_triggered": 1,
   "direction_summary": {
-    "LONG": 9,
-    "SHORT": 1,
+    "LONG": 1,
+    "SHORT": 0,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -23,109 +23,11 @@
     "close": 7489.72
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-07-31\nPosts today: 4 | Models triggered: 10\nSignals: None\nConsensus: 9 LONG vs 1 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: What's happening with Spain, with tens of thousands of Illegal Immigrants invading it, happened in t",
-    "zh": "川普密碼每日報告 -- 2026-07-31\n今日推文: 4 篇 | 觸發模型: 10 組\n偵測信號: 無\n共識方向: 9 組看多 vs 1 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: What's happening with Spain, with tens of thousands of Illegal Immigrants invading it, happened in t",
-    "ja": "トランプ・コード日次レポート -- 2026-07-31\n本日の投稿: 4件 | トリガーモデル: 10組\n検出シグナル: なし\nコンセンサス: 9組ロング vs 1組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: What's happening with Spain, with tens of thousands of Illegal Immigrants invading it, happened in t"
+    "en": "Trump Code Daily Report -- 2026-08-01\nPosts today: 1 | Models triggered: 1\nSignals: None\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Federal Appeals Court Rejects Bid to Block Trump's Mail Voting Restrictions: https://www.theepochtim",
+    "zh": "川普密碼每日報告 -- 2026-08-01\n今日推文: 1 篇 | 觸發模型: 1 組\n偵測信號: 無\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Federal Appeals Court Rejects Bid to Block Trump's Mail Voting Restrictions: https://www.theepochtim",
+    "ja": "トランプ・コード日次レポート -- 2026-08-01\n本日の投稿: 1件 | トリガーモデル: 1組\n検出シグナル: なし\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Federal Appeals Court Rejects Bid to Block Trump's Mail Voting Restrictions: https://www.theepochtim"
   },
   "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_biden",
-        "kw_india",
-        "kw_tariffs"
-      ],
-      "direction": "SHORT",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "open_china",
-        "pre_great"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_dow_2plus",
-        "kw_tariffs_2plus"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_dow_2plus",
-        "open_tariff"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_dow_2plus",
-        "open_tariffs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tariffs_2plus",
-        "kw_thank_you_for_your_attention",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_thank_you_for_your_attention",
-        "open_china"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
     {
       "features": [
         "kw_interest_rate",
