@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-08-01T11:45:57Z",
-    "evolved_rules_added": 46
+    "last_evolution": "2026-08-01T14:45:14Z",
+    "evolved_rules_added": 47
   },
   "rules": [
     {
@@ -13865,7 +13865,12 @@
       "parents": [
         "open_jobs+open_tariffs",
         "kw_wonderful+open_trade"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
