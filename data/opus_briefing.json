@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "prepared_at": "2026-08-02T05:45:10Z",
+  "prepared_at": "2026-08-02T08:45:48Z",
   "status": "PENDING",
   "today_posts": {
     "count": 1,
@@ -207,20 +207,22 @@
   "evolution_latest": {
     "date": "2026-08-02",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "open_china"
+          "open_tariffs",
+          "open_dow",
+          "kw_thank_you_for_your_attention",
+          "kw_tariffs_2plus"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "mutation_remove"
+        "origin": "crossover"
       },
       {
         "features": [
@@ -234,12 +236,12 @@
       },
       {
         "features": [
-          "is_friday",
-          "kw_jobs"
+          "kw_jobs",
+          "questions_yes"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 88.5,
+        "hold": 3,
+        "score": 87.5,
         "origin": "crossover"
       }
     ]
