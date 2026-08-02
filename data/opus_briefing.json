@@ -1,16 +1,28 @@
 {
   "date": "2026-08-02",
-  "prepared_at": "2026-08-02T08:45:48Z",
+  "prepared_at": "2026-08-02T11:45:18Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "The U.S.A. is locked and loaded and ready to go against the Islamic Republic of Iran, at levels of Military Terror, Strength, and Power not seen since World War II. Despite this, we have just been ask",
+    "count": 4,
+    "latest": "Trump's new NIH chief outlines sweeping reforms like new pandemic playbook, vaccine injury body: https://justthenews.com/government/federal-agencies/trumps-new-nih-chief-outlines-sweeping-reforms-such",
     "earliest_time": "2026-08-02T02:05:08.929Z",
-    "latest_time": "2026-08-02T02:05:08.929Z",
+    "latest_time": "2026-08-02T11:20:56.001Z",
     "sample": [
       {
         "time": "02:05",
         "text": "The U.S.A. is locked and loaded and ready to go against the Islamic Republic of Iran, at levels of Military Terror, Strength, and Power not seen since World War II. Despite this, we have just been asked by Iran, and other Middle Eastern Countries, to hold off any attack in that the perimeters of a d"
+      },
+      {
+        "time": "07:20",
+        "text": "Trump administration creating ‘incubators’ to develop new tech to counter drone terror attacks: https://justthenews.com/government/security/combatting-fury-skies-drone-warfare-necessitates-new-protection-technology"
+      },
+      {
+        "time": "11:20",
+        "text": "Trump administration creating 'incubators' to develop new tech to counter drone terror attacks: https://justthenews.com/government/security/combatting-fury-skies-drone-warfare-necessitates-new-protection-technology"
+      },
+      {
+        "time": "11:20",
+        "text": "Trump's new NIH chief outlines sweeping reforms like new pandemic playbook, vaccine injury body: https://justthenews.com/government/federal-agencies/trumps-new-nih-chief-outlines-sweeping-reforms-such-new-pandemic"
       }
     ]
   },
@@ -21,10 +33,11 @@
   ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_very_long": true,
-    "caps_medium": true,
-    "excl_normal": true,
+    "avg_len_long": true,
+    "caps_low": true,
+    "excl_none": true,
     "questions_no": true,
+    "mostly_premarket": true,
     "has_night": true,
     "kw_deal": true,
     "kw_iran": true,
@@ -207,21 +220,19 @@
   "evolution_latest": {
     "date": "2026-08-02",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 9,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 41,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_tariffs",
-          "open_dow",
-          "kw_thank_you_for_your_attention",
-          "kw_tariffs_2plus"
+          "open_russia",
+          "open_china"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 90.0,
+        "score": 91.7,
         "origin": "crossover"
       },
       {
@@ -236,13 +247,13 @@
       },
       {
         "features": [
-          "kw_jobs",
-          "questions_yes"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "distilled"
       }
     ]
   },
