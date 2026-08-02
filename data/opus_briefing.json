@@ -1,94 +1,51 @@
 {
-  "date": "2026-08-01",
-  "prepared_at": "2026-08-01T20:45:13Z",
+  "date": "2026-08-02",
+  "prepared_at": "2026-08-02T05:45:10Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 10,
-    "latest": "President Trump is fixing our wonderful White House, just like he is fixing our Country!",
-    "earliest_time": "2026-08-01T01:46:40.445Z",
-    "latest_time": "2026-08-01T18:27:57.832Z",
+    "count": 1,
+    "latest": "The U.S.A. is locked and loaded and ready to go against the Islamic Republic of Iran, at levels of Military Terror, Strength, and Power not seen since World War II. Despite this, we have just been ask",
+    "earliest_time": "2026-08-02T02:05:08.929Z",
+    "latest_time": "2026-08-02T02:05:08.929Z",
     "sample": [
       {
-        "time": "01:46",
-        "text": "Federal Appeals Court Rejects Bid to Block Trump's Mail Voting Restrictions: https://www.theepochtimes.com/us/federal-appeals-court-rejects-bid-to-block-trumps-mail-voting-restrictions-6068410"
-      },
-      {
-        "time": "11:32",
-        "text": "If Senators Cornyn and Tillis, both upset because I wouldn't Endorse them (they lost, and quit, respectively!), aren't going to approve Todd Blanche, one of the most respected professionals, according to everybody, in the Country, to be the United States Attorney General, then I will keep Todd as Ac"
-      },
-      {
-        "time": "15:47",
-        "text": "At the @ufc fights in Serbia the crowd goes wild for a @realDonaldTrump sign flung open by the crowd…."
-      },
-      {
-        "time": "16:32",
-        "text": "I disagree 100% with Jeanine Pirro, the U.S. Attorney for the District of Columbia, on the Reflecting Pool. I don't know what she was thinking? To me, it was a pure case of VANDALISM, that included the grass, which had a big 86 47 emblazoned in giant letters on it, and other elements of the surround"
-      },
-      {
-        "time": "16:49",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117021210137447022"
-      },
-      {
-        "time": "16:51",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117021276346508609Look for yourselves at the VANDALISM that took place at The Reflecting Pool. The material is being cut with a knife or a box cutter, for all to see!"
-      },
-      {
-        "time": "17:44",
-        "text": "Great job by Chairman Rick Crawford on FoxNews interview - A total Pro!!! President DJT"
-      },
-      {
-        "time": "18:04",
-        "text": "The Triumphal Arch, prior to affixing the magnificent Statues and Artwork!"
-      },
-      {
-        "time": "18:12",
-        "text": "Because of President Donald J. Trump, Oil Exports are SURGING!"
-      },
-      {
-        "time": "18:27",
-        "text": "President Trump is fixing our wonderful White House, just like he is fixing our Country!"
+        "time": "02:05",
+        "text": "The U.S.A. is locked and loaded and ready to go against the Islamic Republic of Iran, at levels of Military Terror, Strength, and Power not seen since World War II. Despite this, we have just been asked by Iran, and other Middle Eastern Countries, to hold off any attack in that the perimeters of a d"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_medium": true,
-    "caps_low": true,
+    "posts_1_5": true,
+    "avg_len_very_long": true,
+    "caps_medium": true,
     "excl_normal": true,
-    "mostly_open": true,
+    "questions_no": true,
     "has_night": true,
-    "kw_immediately": true,
-    "pre_immediately": true,
-    "kw_block": true,
-    "kw_restrict": true,
-    "kw_oil": true,
-    "open_oil": true,
-    "kw_great": true,
-    "open_great": true,
-    "kw_wonderful": true,
-    "open_wonderful": true,
-    "kw_biden": true,
-    "pre_biden": true,
-    "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "pre_president_djt": true,
-    "open_president_djt": true,
+    "kw_deal": true,
+    "kw_iran": true,
+    "kw_israel": true,
     "kw_thank_you_for_your_attention": true,
-    "pre_thank_you_for_your_attention": true,
     "is_weekend": true,
-    "volume_falling_3d": true
+    "volume_drop": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 2,
-    "long": 2,
+    "total": 4,
+    "long": 4,
     "short": 0,
     "sample": [
       {
-        "id": "R0041",
+        "id": "R0006",
         "features": [
-          "kw_tariffs_2plus",
-          "kw_thank_you_for_your_attention",
-          "volume_falling_3d"
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -97,13 +54,38 @@
         "score": 100.0
       },
       {
-        "id": "R0093",
+        "id": "R0011",
         "features": [
-          "kw_interest_rate",
-          "volume_falling_3d"
+          "kw_deal",
+          "kw_perfect"
         ],
         "direction": "LONG",
         "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0079",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0085",
+        "features": [
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
         "train_wr": 100.0,
         "test_wr": 100.0,
         "score": 100.0
@@ -223,33 +205,22 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-08-01",
+    "date": "2026-08-02",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_tariff",
-          "is_friday",
-          "kw_economy"
+          "kw_economy",
+          "open_china"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_oil",
-          "is_friday"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 91.7,
-        "origin": "crossover"
+        "score": 90.0,
+        "origin": "mutation_remove"
       },
       {
         "features": [
@@ -260,6 +231,16 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "is_friday",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 88.5,
+        "origin": "crossover"
       }
     ]
   },

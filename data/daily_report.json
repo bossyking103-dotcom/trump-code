@@ -1,15 +1,19 @@
 {
-  "date": "2026-08-01",
-  "generated_at": "2026-08-01T20:45:09Z",
-  "posts_today": 10,
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T05:45:04Z",
+  "posts_today": 1,
   "latest_post": {
-    "time": "2026-08-01T18:27",
-    "content_preview": "President Trump is fixing our wonderful White House, just like he is fixing our Country!"
+    "time": "2026-08-02T02:05",
+    "content_preview": "The U.S.A. is locked and loaded and ready to go against the Islamic Republic of Iran, at levels of M"
   },
-  "signals_detected": [],
-  "models_triggered": 2,
+  "signals_detected": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
+  "models_triggered": 4,
   "direction_summary": {
-    "LONG": 2,
+    "LONG": 4,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -23,16 +27,16 @@
     "close": 7489.72
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-01\nPosts today: 10 | Models triggered: 2\nSignals: None\nConsensus: 2 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: President Trump is fixing our wonderful White House, just like he is fixing our Country!",
-    "zh": "川普密碼每日報告 -- 2026-08-01\n今日推文: 10 篇 | 觸發模型: 2 組\n偵測信號: 無\n共識方向: 2 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: President Trump is fixing our wonderful White House, just like he is fixing our Country!",
-    "ja": "トランプ・コード日次レポート -- 2026-08-01\n本日の投稿: 10件 | トリガーモデル: 2組\n検出シグナル: なし\nコンセンサス: 2組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: President Trump is fixing our wonderful White House, just like he is fixing our Country!"
+    "en": "Trump Code Daily Report -- 2026-08-02\nPosts today: 1 | Models triggered: 4\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 4 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: The U.S.A. is locked and loaded and ready to go against the Islamic Republic of Iran, at levels of M",
+    "zh": "川普密碼每日報告 -- 2026-08-02\n今日推文: 1 篇 | 觸發模型: 4 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 4 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: The U.S.A. is locked and loaded and ready to go against the Islamic Republic of Iran, at levels of M",
+    "ja": "トランプ・コード日次レポート -- 2026-08-02\n本日の投稿: 1件 | トリガーモデル: 4組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 4組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: The U.S.A. is locked and loaded and ready to go against the Islamic Republic of Iran, at levels of M"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_tariffs_2plus",
-        "kw_thank_you_for_your_attention",
-        "volume_falling_3d"
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -41,11 +45,32 @@
     },
     {
       "features": [
-        "kw_interest_rate",
-        "volume_falling_3d"
+        "kw_deal",
+        "kw_perfect"
       ],
       "direction": "LONG",
       "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     }
