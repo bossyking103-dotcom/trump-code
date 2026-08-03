@@ -1,6 +1,328 @@
 {
-  "timestamp": "2026-08-03T08:40:52Z",
+  "timestamp": "2026-08-03T08:45:55Z",
   "markets": [
+    {
+      "question": "Will Trump speak to Nicolás Maduro in July?",
+      "token_id": "320735701764211505607711137797",
+      "outcome": "Yes",
+      "price": 0.0065,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Nicolás Maduro in July?",
+      "token_id": "957600519477638817897513790686",
+      "outcome": "No",
+      "price": 0.9935,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Reza Pahlavi in July?",
+      "token_id": "268445303254185102102420774522",
+      "outcome": "Yes",
+      "price": 0.014,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Reza Pahlavi in July?",
+      "token_id": "698502497190720696918596792845",
+      "outcome": "No",
+      "price": 0.986,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Kim Jong Un in July?",
+      "token_id": "217548604683024787077848188852",
+      "outcome": "Yes",
+      "price": 0.003,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Kim Jong Un in July?",
+      "token_id": "641672706057008994095268096825",
+      "outcome": "No",
+      "price": 0.997,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Volodymyr Zelenskyy in July?",
+      "token_id": "772263754329444564495998767054",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Volodymyr Zelenskyy in July?",
+      "token_id": "638335757509255255153004677346",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Xi Jinping in July?",
+      "token_id": "614003578745239530486277898490",
+      "outcome": "Yes",
+      "price": 0.0025,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Xi Jinping in July?",
+      "token_id": "770132876243368475133293602795",
+      "outcome": "No",
+      "price": 0.9975,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Mohammed bin Salman in July?",
+      "token_id": "908544301997383476158870192887",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Mohammed bin Salman in July?",
+      "token_id": "543074091189929056835404699784",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Vladimir Putin in July?",
+      "token_id": "951810016415481875185775620477",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Vladimir Putin in July?",
+      "token_id": "896128816851296935785936894126",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Yoon Suk Yeol in July?",
+      "token_id": "973425742681858521786897377038",
+      "outcome": "Yes",
+      "price": 0.0005,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Yoon Suk Yeol in July?",
+      "token_id": "293073617739374809147543013139",
+      "outcome": "No",
+      "price": 0.9995,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Maria Corina Machado in July?",
+      "token_id": "107084230850050144366176175236",
+      "outcome": "Yes",
+      "price": 0.005,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Maria Corina Machado in July?",
+      "token_id": "145257158365618035238229823314",
+      "outcome": "No",
+      "price": 0.995,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Emmanuel Macron in July?",
+      "token_id": "946623984047144451920268060530",
+      "outcome": "Yes",
+      "price": 0.006,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Emmanuel Macron in July?",
+      "token_id": "252040030623626766522707219790",
+      "outcome": "No",
+      "price": 0.994,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Keir Starmer in July?",
+      "token_id": "555755699070056055065970797441",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Keir Starmer in July?",
+      "token_id": "389796252504925551462903183529",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Ursula von der Leyen in July?",
+      "token_id": "409457684754584151260789267152",
+      "outcome": "Yes",
+      "price": 0.205,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Ursula von der Leyen in July?",
+      "token_id": "108413197769018070132818474375",
+      "outcome": "No",
+      "price": 0.795,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Ahmed al-Sharaa in July?",
+      "token_id": "411095267437889422975310977275",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Ahmed al-Sharaa in July?",
+      "token_id": "443486223341188540805640400585",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Mark Rutte in July?",
+      "token_id": "384026421990193902098732729642",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Mark Rutte in July?",
+      "token_id": "112786447791666246626505587122",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Friedrich Merz in July?",
+      "token_id": "680698230032330481576441863600",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Friedrich Merz in July?",
+      "token_id": "158826748156401154671875494146",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Mark Carney in July?",
+      "token_id": "468057235342072927752184780957",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Mark Carney in July?",
+      "token_id": "703221043886021297029668964522",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Masoud Pezeshkian in July?",
+      "token_id": "101182708233214289100719901609",
+      "outcome": "Yes",
+      "price": 0.008,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Masoud Pezeshkian in July?",
+      "token_id": "190535333837299616911806039983",
+      "outcome": "No",
+      "price": 0.992,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Luiz Inácio Lula da Silva in July?",
+      "token_id": "742187946765558336348815137401",
+      "outcome": "Yes",
+      "price": 0.019,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Luiz Inácio Lula da Silva in July?",
+      "token_id": "230562608376194973660670414074",
+      "outcome": "No",
+      "price": 0.981,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Elon Musk in July?",
+      "token_id": "392201914224506967330711995625",
+      "outcome": "Yes",
+      "price": 0.0535,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Elon Musk in July?",
+      "token_id": "107023270369489975354923788478",
+      "outcome": "No",
+      "price": 0.9465,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Pope Leo XIV in July?",
+      "token_id": "826390134761360912792668862537",
+      "outcome": "Yes",
+      "price": 0.0125,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Pope Leo XIV in July?",
+      "token_id": "220956923902649490716373562700",
+      "outcome": "No",
+      "price": 0.9875,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Mojtaba Khamenei in July?",
+      "token_id": "808574773815789264702658561315",
+      "outcome": "Yes",
+      "price": 0.0045,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Mojtaba Khamenei in July?",
+      "token_id": "394071519646007490082782424435",
+      "outcome": "No",
+      "price": 0.9955,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Miguel Díaz-Canel in July?",
+      "token_id": "113985446611916901002757129605",
+      "outcome": "Yes",
+      "price": 0.0255,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Miguel Díaz-Canel in July?",
+      "token_id": "513804403603544461149336448277",
+      "outcome": "No",
+      "price": 0.9745,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Andy Burnham in July?",
+      "token_id": "460887762294901819781748818159",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
+    {
+      "question": "Will Trump speak to Andy Burnham in July?",
+      "token_id": "111915286708998091205780386851",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
+    },
     {
       "question": "Will Donald Trump publicly insult Tucker Carlson by July 31, 2026?",
       "token_id": "922136356989965131742954407110",
@@ -313,14 +635,14 @@
       "question": "Will Donald Trump publicly insult Friedrich Merz by July 31, 2026?",
       "token_id": "328534901903464589967972461147",
       "outcome": "Yes",
-      "price": 0.0415,
+      "price": 0.0405,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
       "question": "Will Donald Trump publicly insult Friedrich Merz by July 31, 2026?",
       "token_id": "861325632052049864678214071645",
       "outcome": "No",
-      "price": 0.9585,
+      "price": 0.9595,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
     },
     {
@@ -378,328 +700,6 @@
       "outcome": "No",
       "price": 1.0,
       "slug": "who-will-trump-publicly-insult-by-july-31-20260626210612709"
-    },
-    {
-      "question": "Will Trump speak to Nicolás Maduro in July?",
-      "token_id": "320735701764211505607711137797",
-      "outcome": "Yes",
-      "price": 0.0065,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Nicolás Maduro in July?",
-      "token_id": "957600519477638817897513790686",
-      "outcome": "No",
-      "price": 0.9935,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Reza Pahlavi in July?",
-      "token_id": "268445303254185102102420774522",
-      "outcome": "Yes",
-      "price": 0.014,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Reza Pahlavi in July?",
-      "token_id": "698502497190720696918596792845",
-      "outcome": "No",
-      "price": 0.986,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Kim Jong Un in July?",
-      "token_id": "217548604683024787077848188852",
-      "outcome": "Yes",
-      "price": 0.003,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Kim Jong Un in July?",
-      "token_id": "641672706057008994095268096825",
-      "outcome": "No",
-      "price": 0.997,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Volodymyr Zelenskyy in July?",
-      "token_id": "772263754329444564495998767054",
-      "outcome": "Yes",
-      "price": 1.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Volodymyr Zelenskyy in July?",
-      "token_id": "638335757509255255153004677346",
-      "outcome": "No",
-      "price": 0.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Xi Jinping in July?",
-      "token_id": "614003578745239530486277898490",
-      "outcome": "Yes",
-      "price": 0.0025,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Xi Jinping in July?",
-      "token_id": "770132876243368475133293602795",
-      "outcome": "No",
-      "price": 0.9975,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Mohammed bin Salman in July?",
-      "token_id": "908544301997383476158870192887",
-      "outcome": "Yes",
-      "price": 1.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Mohammed bin Salman in July?",
-      "token_id": "543074091189929056835404699784",
-      "outcome": "No",
-      "price": 0.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Vladimir Putin in July?",
-      "token_id": "951810016415481875185775620477",
-      "outcome": "Yes",
-      "price": 1.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Vladimir Putin in July?",
-      "token_id": "896128816851296935785936894126",
-      "outcome": "No",
-      "price": 0.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Yoon Suk Yeol in July?",
-      "token_id": "973425742681858521786897377038",
-      "outcome": "Yes",
-      "price": 0.0005,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Yoon Suk Yeol in July?",
-      "token_id": "293073617739374809147543013139",
-      "outcome": "No",
-      "price": 0.9995,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Maria Corina Machado in July?",
-      "token_id": "107084230850050144366176175236",
-      "outcome": "Yes",
-      "price": 0.005,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Maria Corina Machado in July?",
-      "token_id": "145257158365618035238229823314",
-      "outcome": "No",
-      "price": 0.995,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Emmanuel Macron in July?",
-      "token_id": "946623984047144451920268060530",
-      "outcome": "Yes",
-      "price": 0.006,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Emmanuel Macron in July?",
-      "token_id": "252040030623626766522707219790",
-      "outcome": "No",
-      "price": 0.994,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Keir Starmer in July?",
-      "token_id": "555755699070056055065970797441",
-      "outcome": "Yes",
-      "price": 1.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Keir Starmer in July?",
-      "token_id": "389796252504925551462903183529",
-      "outcome": "No",
-      "price": 0.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Ursula von der Leyen in July?",
-      "token_id": "409457684754584151260789267152",
-      "outcome": "Yes",
-      "price": 0.2065,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Ursula von der Leyen in July?",
-      "token_id": "108413197769018070132818474375",
-      "outcome": "No",
-      "price": 0.7935,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Ahmed al-Sharaa in July?",
-      "token_id": "411095267437889422975310977275",
-      "outcome": "Yes",
-      "price": 1.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Ahmed al-Sharaa in July?",
-      "token_id": "443486223341188540805640400585",
-      "outcome": "No",
-      "price": 0.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Mark Rutte in July?",
-      "token_id": "384026421990193902098732729642",
-      "outcome": "Yes",
-      "price": 1.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Mark Rutte in July?",
-      "token_id": "112786447791666246626505587122",
-      "outcome": "No",
-      "price": 0.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Friedrich Merz in July?",
-      "token_id": "680698230032330481576441863600",
-      "outcome": "Yes",
-      "price": 1.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Friedrich Merz in July?",
-      "token_id": "158826748156401154671875494146",
-      "outcome": "No",
-      "price": 0.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Mark Carney in July?",
-      "token_id": "468057235342072927752184780957",
-      "outcome": "Yes",
-      "price": 1.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Mark Carney in July?",
-      "token_id": "703221043886021297029668964522",
-      "outcome": "No",
-      "price": 0.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Masoud Pezeshkian in July?",
-      "token_id": "101182708233214289100719901609",
-      "outcome": "Yes",
-      "price": 0.0085,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Masoud Pezeshkian in July?",
-      "token_id": "190535333837299616911806039983",
-      "outcome": "No",
-      "price": 0.9915,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Luiz Inácio Lula da Silva in July?",
-      "token_id": "742187946765558336348815137401",
-      "outcome": "Yes",
-      "price": 0.0315,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Luiz Inácio Lula da Silva in July?",
-      "token_id": "230562608376194973660670414074",
-      "outcome": "No",
-      "price": 0.9685,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Elon Musk in July?",
-      "token_id": "392201914224506967330711995625",
-      "outcome": "Yes",
-      "price": 0.0535,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Elon Musk in July?",
-      "token_id": "107023270369489975354923788478",
-      "outcome": "No",
-      "price": 0.9465,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Pope Leo XIV in July?",
-      "token_id": "826390134761360912792668862537",
-      "outcome": "Yes",
-      "price": 0.0125,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Pope Leo XIV in July?",
-      "token_id": "220956923902649490716373562700",
-      "outcome": "No",
-      "price": 0.9875,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Mojtaba Khamenei in July?",
-      "token_id": "808574773815789264702658561315",
-      "outcome": "Yes",
-      "price": 0.0045,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Mojtaba Khamenei in July?",
-      "token_id": "394071519646007490082782424435",
-      "outcome": "No",
-      "price": 0.9955,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Miguel Díaz-Canel in July?",
-      "token_id": "113985446611916901002757129605",
-      "outcome": "Yes",
-      "price": 0.03,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Miguel Díaz-Canel in July?",
-      "token_id": "513804403603544461149336448277",
-      "outcome": "No",
-      "price": 0.97,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Andy Burnham in July?",
-      "token_id": "460887762294901819781748818159",
-      "outcome": "Yes",
-      "price": 1.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
-    },
-    {
-      "question": "Will Trump speak to Andy Burnham in July?",
-      "token_id": "111915286708998091205780386851",
-      "outcome": "No",
-      "price": 0.0,
-      "slug": "who-will-trump-speak-to-in-july-20260626154217421"
     },
     {
       "question": "Trump out as President by August 31?",
@@ -873,14 +873,14 @@
       "question": "Will Trump and Putin meet next in United States?",
       "token_id": "863551799605937124039040975434",
       "outcome": "Yes",
-      "price": 0.015,
+      "price": 0.0145,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in United States?",
       "token_id": "218242733979412572187779022148",
       "outcome": "No",
-      "price": 0.985,
+      "price": 0.9855,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
@@ -1013,14 +1013,14 @@
       "question": "Will Donald Trump post 80-99 Truth Social posts from July 28 to August 4, 2026?",
       "token_id": "716938670746295615115623929203",
       "outcome": "Yes",
-      "price": 0.118,
+      "price": 0.1165,
       "slug": "donald-trump-of-truth-social-posts-july-28-august-4"
     },
     {
       "question": "Will Donald Trump post 80-99 Truth Social posts from July 28 to August 4, 2026?",
       "token_id": "166384739637094688166628835218",
       "outcome": "No",
-      "price": 0.882,
+      "price": 0.8835,
       "slug": "donald-trump-of-truth-social-posts-july-28-august-4"
     },
     {
@@ -1111,14 +1111,14 @@
       "question": "Will Donald Trump publicly insult Tucker Carlson by August 31, 2026?",
       "token_id": "109451873122177421986707674585",
       "outcome": "Yes",
-      "price": 0.525,
+      "price": 0.52,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
       "question": "Will Donald Trump publicly insult Tucker Carlson by August 31, 2026?",
       "token_id": "473115592670683333252612351064",
       "outcome": "No",
-      "price": 0.475,
+      "price": 0.48,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
@@ -1181,14 +1181,14 @@
       "question": "Will Donald Trump publicly insult Vladimir Putin by August 31, 2026?",
       "token_id": "110511081131228698990877899247",
       "outcome": "Yes",
-      "price": 0.095,
+      "price": 0.09,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
       "question": "Will Donald Trump publicly insult Vladimir Putin by August 31, 2026?",
       "token_id": "478744313683671356046937153347",
       "outcome": "No",
-      "price": 0.905,
+      "price": 0.91,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
@@ -1223,14 +1223,14 @@
       "question": "Will Donald Trump publicly insult Marjorie Taylor Greene by August 31, 2026?",
       "token_id": "232897421147035050684335317630",
       "outcome": "Yes",
-      "price": 0.495,
+      "price": 0.49,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
       "question": "Will Donald Trump publicly insult Marjorie Taylor Greene by August 31, 2026?",
       "token_id": "429299801621505400106968993344",
       "outcome": "No",
-      "price": 0.505,
+      "price": 0.51,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
@@ -1265,28 +1265,28 @@
       "question": "Will Donald Trump publicly insult J.D. Vance by August 31, 2026?",
       "token_id": "273944011691206560752363857213",
       "outcome": "Yes",
-      "price": 0.0295,
+      "price": 0.03,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
       "question": "Will Donald Trump publicly insult J.D. Vance by August 31, 2026?",
       "token_id": "930611665905904698231745089340",
       "outcome": "No",
-      "price": 0.9705,
+      "price": 0.97,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
       "question": "Will Donald Trump publicly insult Melania Trump by August 31, 2026?",
       "token_id": "530908093077117312873644182544",
       "outcome": "Yes",
-      "price": 0.014,
+      "price": 0.0135,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
       "question": "Will Donald Trump publicly insult Melania Trump by August 31, 2026?",
       "token_id": "795281041535168926277471921025",
       "outcome": "No",
-      "price": 0.986,
+      "price": 0.9865,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
@@ -1405,14 +1405,14 @@
       "question": "Will Donald Trump publicly insult Emmanuel Macron by August 31, 2026?",
       "token_id": "199177821632647052352359821137",
       "outcome": "Yes",
-      "price": 0.31,
+      "price": 0.3,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
       "question": "Will Donald Trump publicly insult Emmanuel Macron by August 31, 2026?",
       "token_id": "419202627623974568288700048218",
       "outcome": "No",
-      "price": 0.69,
+      "price": 0.7,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
@@ -1447,28 +1447,28 @@
       "question": "Will Donald Trump publicly insult Kaitlan Collins by August 31, 2026?",
       "token_id": "663032529692532020535838563213",
       "outcome": "Yes",
-      "price": 0.52,
+      "price": 0.535,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
       "question": "Will Donald Trump publicly insult Kaitlan Collins by August 31, 2026?",
       "token_id": "235148878401916684534415924553",
       "outcome": "No",
-      "price": 0.48,
+      "price": 0.465,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
       "question": "Will Donald Trump publicly insult Mohammed bin Salman by August 31, 2026?",
       "token_id": "795986300714282102616244563913",
       "outcome": "Yes",
-      "price": 0.3545,
+      "price": 0.3535,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
       "question": "Will Donald Trump publicly insult Mohammed bin Salman by August 31, 2026?",
       "token_id": "328045609756736811998625267530",
       "outcome": "No",
-      "price": 0.6455,
+      "price": 0.6465,
       "slug": "who-will-trump-publicly-insult-by-august-31-20260730161613099"
     },
     {
@@ -1531,14 +1531,14 @@
       "question": "Will Trump post \"Russia\" on Truth Social this week?",
       "token_id": "793303072322419849343181124291",
       "outcome": "Yes",
-      "price": 0.63,
+      "price": 0.645,
       "slug": "what-will-trump-post-this-week-august-3-august-9-20260731171732958"
     },
     {
       "question": "Will Trump post \"Russia\" on Truth Social this week?",
       "token_id": "472790546762691732958375353580",
       "outcome": "No",
-      "price": 0.37,
+      "price": 0.355,
       "slug": "what-will-trump-post-this-week-august-3-august-9-20260731171732958"
     },
     {
@@ -1587,14 +1587,14 @@
       "question": "Will Trump post \"Crime\" on Truth Social this week?",
       "token_id": "235028685371974360751456204864",
       "outcome": "Yes",
-      "price": 0.925,
+      "price": 0.92,
       "slug": "what-will-trump-post-this-week-august-3-august-9-20260731171732958"
     },
     {
       "question": "Will Trump post \"Crime\" on Truth Social this week?",
       "token_id": "316005505995315003906610749741",
       "outcome": "No",
-      "price": 0.075,
+      "price": 0.08,
       "slug": "what-will-trump-post-this-week-august-3-august-9-20260731171732958"
     },
     {
@@ -1643,14 +1643,14 @@
       "question": "Will Trump post \"China\" on Truth Social this week?",
       "token_id": "766166655063111212189453113143",
       "outcome": "Yes",
-      "price": 0.905,
+      "price": 0.9,
       "slug": "what-will-trump-post-this-week-august-3-august-9-20260731171732958"
     },
     {
       "question": "Will Trump post \"China\" on Truth Social this week?",
       "token_id": "109698564937035846548018054887",
       "outcome": "No",
-      "price": 0.095,
+      "price": 0.1,
       "slug": "what-will-trump-post-this-week-august-3-august-9-20260731171732958"
     },
     {
@@ -2007,14 +2007,14 @@
       "question": "Will Trump meet with Kim Jong Un in August 2026?",
       "token_id": "657564868728897170477629378872",
       "outcome": "Yes",
-      "price": 0.0135,
+      "price": 0.013,
       "slug": "who-will-trump-meet-with-in-august-20260731154151454"
     },
     {
       "question": "Will Trump meet with Kim Jong Un in August 2026?",
       "token_id": "696751408452833730771216518354",
       "outcome": "No",
-      "price": 0.9865,
+      "price": 0.987,
       "slug": "who-will-trump-meet-with-in-august-20260731154151454"
     },
     {
@@ -2091,28 +2091,28 @@
       "question": "Will Trump meet with Luiz Inácio Lula da Silva in August 2026?",
       "token_id": "345185430564515196559578685157",
       "outcome": "Yes",
-      "price": 0.023,
+      "price": 0.0235,
       "slug": "who-will-trump-meet-with-in-august-20260731154151454"
     },
     {
       "question": "Will Trump meet with Luiz Inácio Lula da Silva in August 2026?",
       "token_id": "214763487146156668471046526526",
       "outcome": "No",
-      "price": 0.977,
+      "price": 0.9765,
       "slug": "who-will-trump-meet-with-in-august-20260731154151454"
     },
     {
       "question": "Will Trump meet with Giorgia Meloni in August 2026?",
       "token_id": "167250828859997258088258263634",
       "outcome": "Yes",
-      "price": 0.0325,
+      "price": 0.0305,
       "slug": "who-will-trump-meet-with-in-august-20260731154151454"
     },
     {
       "question": "Will Trump meet with Giorgia Meloni in August 2026?",
       "token_id": "507456471914167522686975780918",
       "outcome": "No",
-      "price": 0.9675,
+      "price": 0.9695,
       "slug": "who-will-trump-meet-with-in-august-20260731154151454"
     },
     {
@@ -2231,14 +2231,14 @@
       "question": "Will Donald Trump post 80-99 Truth Social posts from July 31 to August 7, 2026?",
       "token_id": "446505843882635911314318957039",
       "outcome": "Yes",
-      "price": 0.0345,
+      "price": 0.017,
       "slug": "donald-trump-of-truth-social-posts-july-31-august-7"
     },
     {
       "question": "Will Donald Trump post 80-99 Truth Social posts from July 31 to August 7, 2026?",
       "token_id": "115136714713791262464031027120",
       "outcome": "No",
-      "price": 0.9655,
+      "price": 0.983,
       "slug": "donald-trump-of-truth-social-posts-july-31-august-7"
     },
     {
@@ -2343,56 +2343,56 @@
       "question": "Will Trump speak to Reza Pahlavi in August?",
       "token_id": "203684796511406705123273938980",
       "outcome": "Yes",
-      "price": 0.0285,
+      "price": 0.028,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
       "question": "Will Trump speak to Reza Pahlavi in August?",
       "token_id": "391403432562756418074988100711",
       "outcome": "No",
-      "price": 0.9715,
+      "price": 0.972,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
       "question": "Will Trump speak to Kim Jong Un in August?",
       "token_id": "320692948924405172710364397110",
       "outcome": "Yes",
-      "price": 0.0255,
+      "price": 0.024,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
       "question": "Will Trump speak to Kim Jong Un in August?",
       "token_id": "343803796752661480259545022779",
       "outcome": "No",
-      "price": 0.9745,
+      "price": 0.976,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
       "question": "Will Trump speak to Volodymyr Zelenskyy in August?",
       "token_id": "705949688531969222751411120919",
       "outcome": "Yes",
-      "price": 0.64,
+      "price": 0.625,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
       "question": "Will Trump speak to Volodymyr Zelenskyy in August?",
       "token_id": "128503824287345599135669497551",
       "outcome": "No",
-      "price": 0.36,
+      "price": 0.375,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
       "question": "Will Trump speak to Xi Jinping in August?",
       "token_id": "993757016563668823824451395349",
       "outcome": "Yes",
-      "price": 0.28,
+      "price": 0.285,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
       "question": "Will Trump speak to Xi Jinping in August?",
       "token_id": "886477996379486661362819594205",
       "outcome": "No",
-      "price": 0.72,
+      "price": 0.715,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
@@ -2427,14 +2427,14 @@
       "question": "Will Trump speak to Yoon Suk Yeol in August?",
       "token_id": "238935031137535877718830313322",
       "outcome": "Yes",
-      "price": 0.009,
+      "price": 0.011,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
       "question": "Will Trump speak to Yoon Suk Yeol in August?",
       "token_id": "169759134477035563549576180863",
       "outcome": "No",
-      "price": 0.991,
+      "price": 0.989,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
@@ -2483,28 +2483,28 @@
       "question": "Will Trump speak to Ahmed al-Sharaa in August?",
       "token_id": "105584344760639508038818859478",
       "outcome": "Yes",
-      "price": 0.51,
+      "price": 0.47,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
       "question": "Will Trump speak to Ahmed al-Sharaa in August?",
       "token_id": "988905989061088179896386066473",
       "outcome": "No",
-      "price": 0.49,
+      "price": 0.53,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
       "question": "Will Trump speak to Mark Rutte in August?",
       "token_id": "405089561669459840550812152519",
       "outcome": "Yes",
-      "price": 0.625,
+      "price": 0.635,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
       "question": "Will Trump speak to Mark Rutte in August?",
       "token_id": "615409142854730008320024527779",
       "outcome": "No",
-      "price": 0.375,
+      "price": 0.365,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
@@ -2553,14 +2553,14 @@
       "question": "Will Trump speak to Luiz Inácio Lula da Silva in August?",
       "token_id": "837663642585141075035635719647",
       "outcome": "Yes",
-      "price": 0.52,
+      "price": 0.51,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
       "question": "Will Trump speak to Luiz Inácio Lula da Silva in August?",
       "token_id": "268459940887343703420744218463",
       "outcome": "No",
-      "price": 0.48,
+      "price": 0.49,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
@@ -2609,14 +2609,14 @@
       "question": "Will Trump speak to Miguel Díaz-Canel in August?",
       "token_id": "592779412576873917101786673519",
       "outcome": "Yes",
-      "price": 0.125,
+      "price": 0.115,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
       "question": "Will Trump speak to Miguel Díaz-Canel in August?",
       "token_id": "103553565876905577814577702140",
       "outcome": "No",
-      "price": 0.875,
+      "price": 0.885,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
     },
     {
@@ -2632,6 +2632,412 @@
       "outcome": "No",
       "price": 0.23,
       "slug": "who-will-trump-speak-to-in-august-20260731154151454"
+    },
+    {
+      "question": "Will no one leave the Trump Cabinet before 2027?",
+      "token_id": "109972039784538003535573132821",
+      "outcome": "Yes",
+      "price": 0.4745,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will no one leave the Trump Cabinet before 2027?",
+      "token_id": "675297548951719559387585337764",
+      "outcome": "No",
+      "price": 0.5255,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will J.D. Vance be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "106238360103375686372215092538",
+      "outcome": "Yes",
+      "price": 0.009,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will J.D. Vance be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "590023109083961207945236677736",
+      "outcome": "No",
+      "price": 0.991,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Marco Rubio be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "105784448075636856607907497069",
+      "outcome": "Yes",
+      "price": 0.0105,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Marco Rubio be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "113200483827722761609156775105",
+      "outcome": "No",
+      "price": 0.9895,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Scott Bessent be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "247517932495979457146051006167",
+      "outcome": "Yes",
+      "price": 0.061,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Scott Bessent be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "897483837677861603597458358295",
+      "outcome": "No",
+      "price": 0.939,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Pete Hegseth be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "857770834703505343819997777577",
+      "outcome": "Yes",
+      "price": 0.0405,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Pete Hegseth be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "115541183221695409006206099419",
+      "outcome": "No",
+      "price": 0.9595,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Doug Burgum be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "102279050110681350648483630699",
+      "outcome": "Yes",
+      "price": 0.007,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Doug Burgum be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "787759161118227043739462836911",
+      "outcome": "No",
+      "price": 0.993,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Brooke Rollins be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "440985940796807234945214693506",
+      "outcome": "Yes",
+      "price": 0.005,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Brooke Rollins be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "827391603910218103706028226131",
+      "outcome": "No",
+      "price": 0.995,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Howard Lutnick be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "669188047498506609652054831660",
+      "outcome": "Yes",
+      "price": 0.0085,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Howard Lutnick be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "464939896765552632637012858342",
+      "outcome": "No",
+      "price": 0.9915,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Robert F. Kennedy Jr. be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "428239036054449704687138081358",
+      "outcome": "Yes",
+      "price": 0.213,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Robert F. Kennedy Jr. be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "649096293528187647170288557588",
+      "outcome": "No",
+      "price": 0.787,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Scott Turner be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "240189058451194549053306161603",
+      "outcome": "Yes",
+      "price": 0.008,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Scott Turner be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "145707244235547528979326436329",
+      "outcome": "No",
+      "price": 0.992,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Sean Duffy be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "806544240637715283715842955792",
+      "outcome": "Yes",
+      "price": 0.016,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Sean Duffy be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "111762947867874129156435422155",
+      "outcome": "No",
+      "price": 0.984,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Chris Wright be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "304380541232457328279800281777",
+      "outcome": "Yes",
+      "price": 0.0485,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Chris Wright be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "121786354150913046803748063357",
+      "outcome": "No",
+      "price": 0.9515,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Linda McMahon be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "290934849701117961330543860431",
+      "outcome": "Yes",
+      "price": 0.006,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Linda McMahon be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "105383644299046095970626147990",
+      "outcome": "No",
+      "price": 0.994,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Doug Collins be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "432762110907931657773379079969",
+      "outcome": "Yes",
+      "price": 0.006,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Doug Collins be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "534916837139776912100533740015",
+      "outcome": "No",
+      "price": 0.994,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Lee Zeldin be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "852196463601973227799526447905",
+      "outcome": "Yes",
+      "price": 0.012,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Lee Zeldin be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "106387189804676331201883593405",
+      "outcome": "No",
+      "price": 0.988,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Susie Wiles be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "794710487347012912286064765996",
+      "outcome": "Yes",
+      "price": 0.052,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Susie Wiles be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "338667677933682649245671780110",
+      "outcome": "No",
+      "price": 0.948,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Russell T. Vought be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "559715764684757762190263549634",
+      "outcome": "Yes",
+      "price": 0.031,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Russell T. Vought be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "107417785729954197244768074213",
+      "outcome": "No",
+      "price": 0.969,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will John Ratcliffe be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "472160572751861998288110572865",
+      "outcome": "Yes",
+      "price": 0.005,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will John Ratcliffe be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "102220529644857375165973601085",
+      "outcome": "No",
+      "price": 0.995,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Jamieson Greer be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "110209167295732482245746202789",
+      "outcome": "Yes",
+      "price": 0.0065,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Jamieson Greer be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "109191583590980586965854309006",
+      "outcome": "No",
+      "price": 0.9935,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Mike Waltz be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "849387688179681643480466519071",
+      "outcome": "Yes",
+      "price": 0.0045,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Mike Waltz be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "787039078742720765380936749368",
+      "outcome": "No",
+      "price": 0.9955,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Kelly Loeffler be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "726833388994165735092147654701",
+      "outcome": "Yes",
+      "price": 0.0245,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Kelly Loeffler be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "556779467870808755917916587128",
+      "outcome": "No",
+      "price": 0.9755,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person A be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "289996996767992613567371998028",
+      "outcome": "Yes",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person A be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "105280534449918405552282658477",
+      "outcome": "No",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person B be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "298314511598124578523197773036",
+      "outcome": "Yes",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person B be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "219694635255038374902363021469",
+      "outcome": "No",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person C be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "709225319519048722514462450881",
+      "outcome": "Yes",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person C be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "217650167357871846682801984308",
+      "outcome": "No",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person D be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "946897740413543742424265973657",
+      "outcome": "Yes",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person D be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "639461352533304916506253159133",
+      "outcome": "No",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person E be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "107787283938072176252572058892",
+      "outcome": "Yes",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person E be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "845350679862817761146803052530",
+      "outcome": "No",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person F be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "307501718375933836233035880873",
+      "outcome": "Yes",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person F be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "733746408681946101506028274529",
+      "outcome": "No",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person G be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "803787932430415594024266242471",
+      "outcome": "Yes",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will Person G be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "520008921810652543022282553934",
+      "outcome": "No",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will another individual (Other) be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "771208292164515381335047479066",
+      "outcome": "Yes",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
+    },
+    {
+      "question": "Will another individual (Other) be the next to leave the Trump Cabinet before 2027?",
+      "token_id": "104165117057424931655394534639",
+      "outcome": "No",
+      "price": 0.5,
+      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
     },
     {
       "question": "Will Trump and Netanyahu not shake hands by July 31, 2026?",
@@ -2833,14 +3239,14 @@
       "question": "Will Trump pardon Diddy before 2027?",
       "token_id": "113406361681601122128421859763",
       "outcome": "Yes",
-      "price": 0.0615,
+      "price": 0.062,
       "slug": "who-will-trump-pardon-before-2027"
     },
     {
       "question": "Will Trump pardon Diddy before 2027?",
       "token_id": "734317496176912219326739679281",
       "outcome": "No",
-      "price": 0.9385,
+      "price": 0.938,
       "slug": "who-will-trump-pardon-before-2027"
     },
     {
@@ -2889,14 +3295,14 @@
       "question": "Will Trump pardon Edward Snowden before 2027?",
       "token_id": "854711427783953495542228198258",
       "outcome": "Yes",
-      "price": 0.0485,
+      "price": 0.0415,
       "slug": "who-will-trump-pardon-before-2027"
     },
     {
       "question": "Will Trump pardon Edward Snowden before 2027?",
       "token_id": "114894176615436170065776834279",
       "outcome": "No",
-      "price": 0.9515,
+      "price": 0.9585,
       "slug": "who-will-trump-pardon-before-2027"
     },
     {
@@ -2917,14 +3323,14 @@
       "question": "Will Trump pardon Daniel Penny before 2027?",
       "token_id": "306726180417133202644420468447",
       "outcome": "Yes",
-      "price": 0.265,
+      "price": 0.27,
       "slug": "who-will-trump-pardon-before-2027"
     },
     {
       "question": "Will Trump pardon Daniel Penny before 2027?",
       "token_id": "234391472234498458912918786238",
       "outcome": "No",
-      "price": 0.735,
+      "price": 0.73,
       "slug": "who-will-trump-pardon-before-2027"
     },
     {
@@ -2973,14 +3379,14 @@
       "question": "Will Trump pardon Derek Chauvin before 2027?",
       "token_id": "490374553746905886904924554706",
       "outcome": "Yes",
-      "price": 0.038,
+      "price": 0.0395,
       "slug": "who-will-trump-pardon-before-2027"
     },
     {
       "question": "Will Trump pardon Derek Chauvin before 2027?",
       "token_id": "739061915119724846402634228096",
       "outcome": "No",
-      "price": 0.962,
+      "price": 0.9605,
       "slug": "who-will-trump-pardon-before-2027"
     },
     {
@@ -3043,14 +3449,14 @@
       "question": "Will Trump pardon Stefan Brodie before 2027?",
       "token_id": "515676168921952388768432828681",
       "outcome": "Yes",
-      "price": 0.185,
+      "price": 0.165,
       "slug": "who-will-trump-pardon-before-2027"
     },
     {
       "question": "Will Trump pardon Stefan Brodie before 2027?",
       "token_id": "847757364951018000231242345155",
       "outcome": "No",
-      "price": 0.815,
+      "price": 0.835,
       "slug": "who-will-trump-pardon-before-2027"
     },
     {
@@ -3122,426 +3528,6 @@
       "outcome": "No",
       "price": 0.9745,
       "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will no one leave the Trump Cabinet before 2027?",
-      "token_id": "109972039784538003535573132821",
-      "outcome": "Yes",
-      "price": 0.4745,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will no one leave the Trump Cabinet before 2027?",
-      "token_id": "675297548951719559387585337764",
-      "outcome": "No",
-      "price": 0.5255,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will J.D. Vance be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "106238360103375686372215092538",
-      "outcome": "Yes",
-      "price": 0.009,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will J.D. Vance be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "590023109083961207945236677736",
-      "outcome": "No",
-      "price": 0.991,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Marco Rubio be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "105784448075636856607907497069",
-      "outcome": "Yes",
-      "price": 0.0105,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Marco Rubio be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "113200483827722761609156775105",
-      "outcome": "No",
-      "price": 0.9895,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Scott Bessent be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "247517932495979457146051006167",
-      "outcome": "Yes",
-      "price": 0.0655,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Scott Bessent be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "897483837677861603597458358295",
-      "outcome": "No",
-      "price": 0.9345,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Pete Hegseth be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "857770834703505343819997777577",
-      "outcome": "Yes",
-      "price": 0.0405,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Pete Hegseth be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "115541183221695409006206099419",
-      "outcome": "No",
-      "price": 0.9595,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Doug Burgum be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "102279050110681350648483630699",
-      "outcome": "Yes",
-      "price": 0.007,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Doug Burgum be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "787759161118227043739462836911",
-      "outcome": "No",
-      "price": 0.993,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Brooke Rollins be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "440985940796807234945214693506",
-      "outcome": "Yes",
-      "price": 0.005,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Brooke Rollins be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "827391603910218103706028226131",
-      "outcome": "No",
-      "price": 0.995,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Howard Lutnick be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "669188047498506609652054831660",
-      "outcome": "Yes",
-      "price": 0.0085,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Howard Lutnick be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "464939896765552632637012858342",
-      "outcome": "No",
-      "price": 0.9915,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Robert F. Kennedy Jr. be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "428239036054449704687138081358",
-      "outcome": "Yes",
-      "price": 0.213,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Robert F. Kennedy Jr. be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "649096293528187647170288557588",
-      "outcome": "No",
-      "price": 0.787,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Scott Turner be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "240189058451194549053306161603",
-      "outcome": "Yes",
-      "price": 0.008,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Scott Turner be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "145707244235547528979326436329",
-      "outcome": "No",
-      "price": 0.992,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Sean Duffy be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "806544240637715283715842955792",
-      "outcome": "Yes",
-      "price": 0.016,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Sean Duffy be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "111762947867874129156435422155",
-      "outcome": "No",
-      "price": 0.984,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Chris Wright be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "304380541232457328279800281777",
-      "outcome": "Yes",
-      "price": 0.0485,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Chris Wright be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "121786354150913046803748063357",
-      "outcome": "No",
-      "price": 0.9515,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Linda McMahon be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "290934849701117961330543860431",
-      "outcome": "Yes",
-      "price": 0.006,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Linda McMahon be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "105383644299046095970626147990",
-      "outcome": "No",
-      "price": 0.994,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Doug Collins be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "432762110907931657773379079969",
-      "outcome": "Yes",
-      "price": 0.0065,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Doug Collins be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "534916837139776912100533740015",
-      "outcome": "No",
-      "price": 0.9935,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Lee Zeldin be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "852196463601973227799526447905",
-      "outcome": "Yes",
-      "price": 0.012,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Lee Zeldin be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "106387189804676331201883593405",
-      "outcome": "No",
-      "price": 0.988,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Susie Wiles be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "794710487347012912286064765996",
-      "outcome": "Yes",
-      "price": 0.057,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Susie Wiles be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "338667677933682649245671780110",
-      "outcome": "No",
-      "price": 0.943,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Russell T. Vought be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "559715764684757762190263549634",
-      "outcome": "Yes",
-      "price": 0.031,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Russell T. Vought be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "107417785729954197244768074213",
-      "outcome": "No",
-      "price": 0.969,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will John Ratcliffe be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "472160572751861998288110572865",
-      "outcome": "Yes",
-      "price": 0.005,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will John Ratcliffe be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "102220529644857375165973601085",
-      "outcome": "No",
-      "price": 0.995,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Jamieson Greer be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "110209167295732482245746202789",
-      "outcome": "Yes",
-      "price": 0.0065,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Jamieson Greer be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "109191583590980586965854309006",
-      "outcome": "No",
-      "price": 0.9935,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Mike Waltz be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "849387688179681643480466519071",
-      "outcome": "Yes",
-      "price": 0.0045,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Mike Waltz be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "787039078742720765380936749368",
-      "outcome": "No",
-      "price": 0.9955,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Kelly Loeffler be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "726833388994165735092147654701",
-      "outcome": "Yes",
-      "price": 0.0245,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Kelly Loeffler be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "556779467870808755917916587128",
-      "outcome": "No",
-      "price": 0.9755,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person A be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "289996996767992613567371998028",
-      "outcome": "Yes",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person A be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "105280534449918405552282658477",
-      "outcome": "No",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person B be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "298314511598124578523197773036",
-      "outcome": "Yes",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person B be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "219694635255038374902363021469",
-      "outcome": "No",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person C be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "709225319519048722514462450881",
-      "outcome": "Yes",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person C be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "217650167357871846682801984308",
-      "outcome": "No",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person D be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "946897740413543742424265973657",
-      "outcome": "Yes",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person D be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "639461352533304916506253159133",
-      "outcome": "No",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person E be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "107787283938072176252572058892",
-      "outcome": "Yes",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person E be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "845350679862817761146803052530",
-      "outcome": "No",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person F be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "307501718375933836233035880873",
-      "outcome": "Yes",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person F be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "733746408681946101506028274529",
-      "outcome": "No",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person G be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "803787932430415594024266242471",
-      "outcome": "Yes",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will Person G be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "520008921810652543022282553934",
-      "outcome": "No",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will another individual (Other) be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "771208292164515381335047479066",
-      "outcome": "Yes",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Will another individual (Other) be the next to leave the Trump Cabinet before 2027?",
-      "token_id": "104165117057424931655394534639",
-      "outcome": "No",
-      "price": 0.5,
-      "slug": "who-will-be-the-next-to-leave-the-trump-cabinet-474"
-    },
-    {
-      "question": "Trump tries to fire Warsh in 2026?",
-      "token_id": "108993952096839852456538171742",
-      "outcome": "Yes",
-      "price": 0.099,
-      "slug": "trump-tries-to-fire-warsh-in-2026-20260724155002773"
-    },
-    {
-      "question": "Trump tries to fire Warsh in 2026?",
-      "token_id": "610895378535791349728350817049",
-      "outcome": "No",
-      "price": 0.901,
-      "slug": "trump-tries-to-fire-warsh-in-2026-20260724155002773"
     },
     {
       "question": "Will Trump say \"No No No\" this week?",
@@ -3729,14 +3715,14 @@
       "question": "Will Trump say \"Sleepy Joe\" this week?",
       "token_id": "656860605469588995099859190818",
       "outcome": "Yes",
-      "price": 0.805,
+      "price": 0.815,
       "slug": "what-will-trump-say-this-week-august-3-august-9-20260731171342111"
     },
     {
       "question": "Will Trump say \"Sleepy Joe\" this week?",
       "token_id": "339048193975755730331037545557",
       "outcome": "No",
-      "price": 0.195,
+      "price": 0.185,
       "slug": "what-will-trump-say-this-week-august-3-august-9-20260731171342111"
     },
     {
@@ -3752,6 +3738,20 @@
       "outcome": "No",
       "price": 0.205,
       "slug": "what-will-trump-say-this-week-august-3-august-9-20260731171342111"
+    },
+    {
+      "question": "Trump tries to fire Warsh in 2026?",
+      "token_id": "108993952096839852456538171742",
+      "outcome": "Yes",
+      "price": 0.099,
+      "slug": "trump-tries-to-fire-warsh-in-2026-20260724155002773"
+    },
+    {
+      "question": "Trump tries to fire Warsh in 2026?",
+      "token_id": "610895378535791349728350817049",
+      "outcome": "No",
+      "price": 0.901,
+      "slug": "trump-tries-to-fire-warsh-in-2026-20260724155002773"
     },
     {
       "question": "Trump declassifies new UFO files by July 17?",
@@ -3827,14 +3827,14 @@
       "question": "Will Donald Trump publicly insult someone on August 2, 2026?",
       "token_id": "585919168479422326944994259469",
       "outcome": "Yes",
-      "price": 0.465,
+      "price": 0.47,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 2, 2026?",
       "token_id": "585254679390818361059924303868",
       "outcome": "No",
-      "price": 0.535,
+      "price": 0.53,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
@@ -3925,14 +3925,14 @@
       "question": "Will Donald Trump publicly insult someone on August 9, 2026?",
       "token_id": "372973022725201333449263569953",
       "outcome": "Yes",
-      "price": 0.88,
+      "price": 0.875,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 9, 2026?",
       "token_id": "876561045589782018844124163260",
       "outcome": "No",
-      "price": 0.12,
+      "price": 0.125,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
@@ -4079,14 +4079,14 @@
       "question": "Will Donald Trump publicly insult someone on August 20, 2026?",
       "token_id": "868132783833120802587528629807",
       "outcome": "Yes",
-      "price": 0.905,
+      "price": 0.89,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
       "question": "Will Donald Trump publicly insult someone on August 20, 2026?",
       "token_id": "775211609741719515604178146014",
       "outcome": "No",
-      "price": 0.095,
+      "price": 0.11,
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     },
     {
@@ -4244,6 +4244,6 @@
       "slug": "will-trump-publicly-insult-someone-onptptpt-20260724221849631"
     }
   ],
-  "updated": "2026-08-03T08:40:52Z",
+  "updated": "2026-08-03T08:45:55Z",
   "total": 606
 }
