@@ -1,20 +1,20 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T17:45:09Z",
-  "posts_today": 3,
+  "generated_at": "2026-08-03T20:45:05Z",
+  "posts_today": 10,
   "latest_post": {
-    "time": "2026-08-03T15:25",
-    "content_preview": "Iranian Leadership is unbelievably duplicitous! They ask for a meeting, some would say \"beg,\" talks "
+    "time": "2026-08-03T20:24",
+    "content_preview": "I just spoke with Patrick Morrisey, the GREAT Governor of West Virginia, a State I love and WON BIG,"
   },
   "signals_detected": [
     "DEAL",
     "IRAN",
     "DEAL_ONLY"
   ],
-  "models_triggered": 4,
+  "models_triggered": 25,
   "direction_summary": {
-    "LONG": 4,
-    "SHORT": 0,
+    "LONG": 24,
+    "SHORT": 1,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -24,12 +24,12 @@
   },
   "sp500_latest": {
     "date": "2026-08-03",
-    "close": 7597.64
+    "close": 7600.5
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-03\nPosts today: 3 | Models triggered: 4\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 4 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Iranian Leadership is unbelievably duplicitous! They ask for a meeting, some would say \"beg,\" talks ",
-    "zh": "川普密碼每日報告 -- 2026-08-03\n今日推文: 3 篇 | 觸發模型: 4 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 4 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Iranian Leadership is unbelievably duplicitous! They ask for a meeting, some would say \"beg,\" talks ",
-    "ja": "トランプ・コード日次レポート -- 2026-08-03\n本日の投稿: 3件 | トリガーモデル: 4組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 4組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Iranian Leadership is unbelievably duplicitous! They ask for a meeting, some would say \"beg,\" talks "
+    "en": "Trump Code Daily Report -- 2026-08-03\nPosts today: 10 | Models triggered: 25\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 24 LONG vs 1 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: I just spoke with Patrick Morrisey, the GREAT Governor of West Virginia, a State I love and WON BIG,",
+    "zh": "川普密碼每日報告 -- 2026-08-03\n今日推文: 10 篇 | 觸發模型: 25 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 24 組看多 vs 1 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: I just spoke with Patrick Morrisey, the GREAT Governor of West Virginia, a State I love and WON BIG,",
+    "ja": "トランプ・コード日次レポート -- 2026-08-03\n本日の投稿: 10件 | トリガーモデル: 25組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 24組ロング vs 1組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: I just spoke with Patrick Morrisey, the GREAT Governor of West Virginia, a State I love and WON BIG,"
   },
   "triggered_rules_sample": [
     {
@@ -45,8 +45,9 @@
     },
     {
       "features": [
-        "kw_deal",
-        "kw_perfect"
+        "excl_heavy",
+        "kw_interest_rate",
+        "kw_tremendous"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -59,17 +60,191 @@
         "kw_perfect"
       ],
       "direction": "LONG",
-      "hold": 3,
+      "hold": 2,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
     {
       "features": [
-        "kw_deal",
-        "kw_perfect",
-        "kw_thank_you_for_your_attention"
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
       ],
       "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_beautiful",
+        "kw_corrupt"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "open_thank_you_for_your_attention",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tremendous",
+        "open_thank_you_for_your_attention",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_china",
+        "kw_corrupt",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "open_tariffs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_america_first",
+        "kw_beautiful",
+        "kw_terrible"
+      ],
+      "direction": "SHORT",
       "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
