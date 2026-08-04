@@ -1,270 +1,28 @@
 {
   "date": "2026-08-04",
-  "prepared_at": "2026-08-04T08:45:13Z",
+  "prepared_at": "2026-08-04T11:45:11Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 44,
-    "latest": "It is my Great Honor to endorse America First Patriot, Jon Maples, who is running to represent the fantastic people of Florida's 87th State House District! Jon is a very successful Businessman and Civ",
-    "earliest_time": "2026-08-03T13:31:10.030Z",
-    "latest_time": "2026-08-03T23:12:26.792Z",
+    "count": 1,
+    "latest": "Justice Department touts 'largest denaturalization effort ever' with 25 cases filed in two weeks: https://justthenews.com/government/courts-law/justice-department-touts-largest-denaturalization-effort",
+    "earliest_time": "2026-08-04T11:05:48.005Z",
+    "latest_time": "2026-08-04T11:05:48.005Z",
     "sample": [
       {
-        "time": "22:25",
-        "text": "Congressman Ben Cline is a Tremendous Champion for Virginia's 6th Congressional District! A former State Legislator and Criminal Prosecutor, Ben knows the Wisdom and Courage it takes to ensure LAW AND ORDER, strongly support our Great Heroes in Law Enforcement, and champion our wonderful Military an"
-      },
-      {
-        "time": "22:25",
-        "text": "Congressman Morgan Griffith is a Fantastic Advocate for Virginia's 9th Congressional District! As a Member of the POWERFUL House Energy and Commerce Committee, Morgan is working tirelessly to Unleash American Energy DOMINANCE, Create GREAT Jobs, Cut Taxes and Regulations, Promote MADE IN THE U.S.A.,"
-      },
-      {
-        "time": "22:26",
-        "text": "It is my Great Honor to endorse Highly Respected State Senator, and brave U.S. Navy Veteran, John Braun, who is running to represent the amazing people of Washington's 3rd Congressional District. John is running against Marie Gluesenkamp Perez, a true Radical Left Extremist with a Track Record that "
-      },
-      {
-        "time": "22:26",
-        "text": "It is my Great Honor to endorse America First Patriot, Amanda McKinney, who is running to represent the wonderful people of Washington's 4th Congressional District. A very successful Business Executive, Civic Leader, and Highly Respected Yakima County Commissioner, Amanda has dedicated her life to s"
-      },
-      {
-        "time": "22:27",
-        "text": "Congressman Michael Baumgartner is an incredible Representative of Washington's 5th Congressional District! Michael served as the Treasurer of Spokane County for six years prior to becoming a distinguished and Highly Respected Congressman. In Congress, he is working hard to Champion our Amazing Farm"
-      },
-      {
-        "time": "22:50",
-        "text": "Highly Respected Congressman Byron Donalds is running for Governor of Florida, a State that I love, and WON BIG, in 2016, 2020, and 2024.I know Byron well, have seen him tested at the highest and most difficult levels, and he is a TOTAL WINNER! Byron has a great wife, Erika, and three beautiful sons"
-      },
-      {
-        "time": "22:50",
-        "text": "Florida Attorney General James Uthmeier is doing a GREAT job for the Sunshine State, which I won BIG in 2016, 2020, and 2024. James is an America First Warrior, who is a true champion for \"MAGA.\" He is THE MAN behind ALLIGATOR ALCATRAZ, and argued strongly at the United States Supreme Court in defen"
-      },
-      {
-        "time": "22:52",
-        "text": "Senator Ashley Moody is doing a tremendous job representing the incredible people of Florida, a State I love, and WON BIG, in 2016, 2020, and 2024! A fifth generation Floridian, Ashley served as State Attorney General for six years prior to becoming a very distinguished and well respected U.S. Senat"
-      },
-      {
-        "time": "22:52",
-        "text": "Wilton Simpson is the strong and highly popular Agriculture Commissioner for Florida, my \"Home\" State, which I love and won SIX times, including with 6.1 Million Votes in 2024, the most in History (BY FAR)! Wilton is a Fifth Generation Floridian, lifelong Egg Farmer, successful Businessman, former P"
-      },
-      {
-        "time": "23:12",
-        "text": "It is my Great Honor to endorse America First Patriot, Jon Maples, who is running to represent the fantastic people of Florida's 87th State House District! Jon is a very successful Businessman and Civic Leader, who is known and loved, and also endorsed by so many of my Palm Beach County friends, inc"
+        "time": "11:05",
+        "text": "Justice Department touts 'largest denaturalization effort ever' with 25 cases filed in two weeks: https://justthenews.com/government/courts-law/justice-department-touts-largest-denaturalization-effort-ever-25-cases-filed"
       }
     ]
   },
-  "keyword_signals": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
   "today_features": {
-    "posts_36plus": true,
-    "avg_len_very_long": true,
-    "caps_high": true,
-    "excl_heavy": true,
-    "mostly_after": true,
-    "kw_deal": true,
-    "open_deal": true,
-    "kw_effective": true,
-    "kw_effective_2plus": true,
-    "kw_block": true,
-    "open_block": true,
-    "kw_russia": true,
-    "kw_iran": true,
-    "kw_iran_2plus": true,
-    "open_iran": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "open_dow": true,
-    "kw_economy": true,
-    "kw_economy_2plus": true,
-    "kw_oil": true,
-    "kw_oil_2plus": true,
-    "open_oil": true,
-    "kw_energy": true,
-    "kw_energy_2plus": true,
-    "kw_jobs": true,
-    "kw_jobs_2plus": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_tremendous": true,
-    "kw_tremendous_2plus": true,
-    "kw_incredible": true,
-    "kw_incredible_2plus": true,
-    "kw_beautiful": true,
-    "kw_beautiful_2plus": true,
-    "kw_amazing": true,
-    "kw_amazing_2plus": true,
-    "kw_fantastic": true,
-    "kw_fantastic_2plus": true,
-    "open_fantastic": true,
-    "kw_wonderful": true,
-    "kw_wonderful_2plus": true,
-    "kw_fake": true,
-    "kw_fake_2plus": true,
-    "open_fake": true,
-    "kw_corrupt": true,
-    "kw_corrupt_2plus": true,
-    "open_corrupt": true,
-    "kw_elon": true,
-    "kw_vance": true,
-    "kw_vance_2plus": true,
-    "kw_maga": true,
-    "kw_maga_2plus": true,
-    "kw_america_first": true,
-    "kw_america_first_2plus": true,
-    "kw_golden_age": true,
-    "kw_golden_age_2plus": true,
-    "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "open_president_djt": true,
-    "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "open_thank_you_for_your_attention": true,
-    "kw_never_let_you_down": true,
-    "kw_never_let_you_down_2plus": true,
-    "kw_complete_and_total": true,
-    "kw_complete_and_total_2plus": true,
-    "is_monday": true,
+    "posts_1_5": true,
+    "avg_len_medium": true,
+    "caps_low": true,
+    "excl_none": true,
+    "questions_no": true,
+    "mostly_premarket": true,
     "volume_rising_3d": true,
-    "volume_spike": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
-  },
-  "triggered_rules": {
-    "total": 31,
-    "long": 30,
-    "short": 1,
-    "sample": [
-      {
-        "id": "R0004",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0005",
-        "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0006",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0010",
-        "features": [
-          "excl_heavy",
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0011",
-        "features": [
-          "kw_deal",
-          "kw_perfect"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0013",
-        "features": [
-          "kw_dow_2plus",
-          "open_jobs",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0016",
-        "features": [
-          "kw_economy",
-          "kw_energy",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0019",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0032",
-        "features": [
-          "kw_beautiful",
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0033",
-        "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -381,15 +139,15 @@
   "evolution_latest": {
     "date": "2026-08-04",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_economy",
+          "open_china"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -404,17 +162,17 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
+        "origin": "mutation_remove"
       },
       {
         "features": [
-          "volume_spike",
-          "kw_amazing"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.9,
-        "origin": "mutation_remove"
+        "score": 90.0,
+        "origin": "distilled"
       }
     ]
   },

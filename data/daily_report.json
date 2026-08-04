@@ -1,21 +1,17 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T08:45:08Z",
-  "posts_today": 44,
+  "generated_at": "2026-08-04T11:45:07Z",
+  "posts_today": 1,
   "latest_post": {
-    "time": "2026-08-03T23:12",
-    "content_preview": "It is my Great Honor to endorse America First Patriot, Jon Maples, who is running to represent the f"
+    "time": "2026-08-04T11:05",
+    "content_preview": "Justice Department touts 'largest denaturalization effort ever' with 25 cases filed in two weeks: ht"
   },
-  "signals_detected": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
-  "models_triggered": 31,
+  "signals_detected": [],
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 30,
-    "SHORT": 1,
-    "consensus": "BULLISH"
+    "LONG": 0,
+    "SHORT": 0,
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 127,
@@ -27,227 +23,9 @@
     "close": NaN
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-04\nPosts today: 44 | Models triggered: 31\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 30 LONG vs 1 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: It is my Great Honor to endorse America First Patriot, Jon Maples, who is running to represent the f",
-    "zh": "川普密碼每日報告 -- 2026-08-04\n今日推文: 44 篇 | 觸發模型: 31 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 30 組看多 vs 1 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: It is my Great Honor to endorse America First Patriot, Jon Maples, who is running to represent the f",
-    "ja": "トランプ・コード日次レポート -- 2026-08-04\n本日の投稿: 44件 | トリガーモデル: 31組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 30組ロング vs 1組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: It is my Great Honor to endorse America First Patriot, Jon Maples, who is running to represent the f"
+    "en": "Trump Code Daily Report -- 2026-08-04\nPosts today: 1 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Justice Department touts 'largest denaturalization effort ever' with 25 cases filed in two weeks: ht",
+    "zh": "川普密碼每日報告 -- 2026-08-04\n今日推文: 1 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Justice Department touts 'largest denaturalization effort ever' with 25 cases filed in two weeks: ht",
+    "ja": "トランプ・コード日次レポート -- 2026-08-04\n本日の投稿: 1件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Justice Department touts 'largest denaturalization effort ever' with 25 cases filed in two weeks: ht"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_jobs",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_beautiful",
-        "kw_corrupt"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "open_thank_you_for_your_attention",
-        "open_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_executive_order",
-        "kw_jobs",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "kw_energy",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tremendous",
-        "open_thank_you_for_your_attention",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
