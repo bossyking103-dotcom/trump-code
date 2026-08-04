@@ -1,20 +1,20 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T14:45:11Z",
-  "posts_today": 21,
+  "generated_at": "2026-08-04T17:45:07Z",
+  "posts_today": 23,
   "latest_post": {
-    "time": "2026-08-04T14:43",
-    "content_preview": "Campus free speech hits 20-year high under Trump administration: https://www.washingtontimes.com/new"
+    "time": "2026-08-04T14:45",
+    "content_preview": "It was my Honor to welcome now Senator Darline Graham Nordone (The sister of the Late, Great Lindsey"
   },
   "signals_detected": [
     "TARIFF",
     "DEAL",
     "IRAN"
   ],
-  "models_triggered": 8,
+  "models_triggered": 10,
   "direction_summary": {
-    "LONG": 6,
-    "SHORT": 2,
+    "LONG": 7,
+    "SHORT": 3,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -24,12 +24,12 @@
   },
   "sp500_latest": {
     "date": "2026-08-04",
-    "close": 7681.01
+    "close": 7748.31
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-04\nPosts today: 21 | Models triggered: 8\nSignals: TARIFF, DEAL, IRAN\nConsensus: 6 LONG vs 2 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Campus free speech hits 20-year high under Trump administration: https://www.washingtontimes.com/new",
-    "zh": "川普密碼每日報告 -- 2026-08-04\n今日推文: 21 篇 | 觸發模型: 8 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 6 組看多 vs 2 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Campus free speech hits 20-year high under Trump administration: https://www.washingtontimes.com/new",
-    "ja": "トランプ・コード日次レポート -- 2026-08-04\n本日の投稿: 21件 | トリガーモデル: 8組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 6組ロング vs 2組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Campus free speech hits 20-year high under Trump administration: https://www.washingtontimes.com/new"
+    "en": "Trump Code Daily Report -- 2026-08-04\nPosts today: 23 | Models triggered: 10\nSignals: TARIFF, DEAL, IRAN\nConsensus: 7 LONG vs 3 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: It was my Honor to welcome now Senator Darline Graham Nordone (The sister of the Late, Great Lindsey",
+    "zh": "川普密碼每日報告 -- 2026-08-04\n今日推文: 23 篇 | 觸發模型: 10 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 7 組看多 vs 3 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: It was my Honor to welcome now Senator Darline Graham Nordone (The sister of the Late, Great Lindsey",
+    "ja": "トランプ・コード日次レポート -- 2026-08-04\n本日の投稿: 23件 | トリガーモデル: 10組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 7組ロング vs 3組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: It was my Honor to welcome now Senator Darline Graham Nordone (The sister of the Late, Great Lindsey"
   },
   "triggered_rules_sample": [
     {
@@ -88,6 +88,17 @@
     },
     {
       "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "open_dow"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "both_tariff_and_deal",
         "kw_disaster",
         "open_tariffs"
@@ -114,6 +125,17 @@
         "kw_perfect"
       ],
       "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "both_tariff_and_deal",
+        "kw_disaster",
+        "kw_incredible"
+      ],
+      "direction": "SHORT",
       "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0

@@ -6149,7 +6149,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1785795894",
@@ -6755,6 +6755,158 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.47,
     "trump_coin_24h_change": 1.94,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785854971",
+    "created_at": "2026-08-04T14:49:31Z",
+    "post_time": "2026-08-04T14:38:19.652Z",
+    "post_preview": "Trump: 'Deal Is Imminent' as Iran Talks Restart Monday on Denuclearization, Hormuz: https://www.breitbart.com/politics/2026/08/02/trump-deal-imminent-iran-talks-restart-monday-hormuz-denuclearization/",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "deal",
+          "talks"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.8,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.48,
+    "trump_coin_24h_change": 0.78,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785854971",
+    "created_at": "2026-08-04T14:49:31Z",
+    "post_time": "2026-08-04T14:36:16.632Z",
+    "post_preview": "UAW: 'Strategic' Tariffs Prompt Industry Hiring Surge: https://www.newsmax.com/newsfront/united-auto-workers-tariffs-hiring-surge/2026/03/11/id/1249195/",
+    "signals": [
+      {
+        "type": "TARIFF",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "tariff",
+          "tariffs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "TARIFF"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.8,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.48,
+    "trump_coin_24h_change": 0.78,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
