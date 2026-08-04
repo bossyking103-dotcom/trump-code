@@ -5821,5 +5821,18 @@
     "short": 0,
     "signals": [],
     "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-08-04",
+    "posts": 21,
+    "triggered": 8,
+    "long": 6,
+    "short": 2,
+    "signals": [
+      "TARIFF",
+      "DEAL",
+      "IRAN"
+    ],
+    "consensus": "BULLISH"
   }
 ]

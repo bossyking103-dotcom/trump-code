@@ -1,17 +1,21 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T11:45:07Z",
-  "posts_today": 1,
+  "generated_at": "2026-08-04T14:45:11Z",
+  "posts_today": 21,
   "latest_post": {
-    "time": "2026-08-04T11:05",
-    "content_preview": "Justice Department touts 'largest denaturalization effort ever' with 25 cases filed in two weeks: ht"
+    "time": "2026-08-04T14:43",
+    "content_preview": "Campus free speech hits 20-year high under Trump administration: https://www.washingtontimes.com/new"
   },
-  "signals_detected": [],
-  "models_triggered": 0,
+  "signals_detected": [
+    "TARIFF",
+    "DEAL",
+    "IRAN"
+  ],
+  "models_triggered": 8,
   "direction_summary": {
-    "LONG": 0,
-    "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "LONG": 6,
+    "SHORT": 2,
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 127,
@@ -19,13 +23,100 @@
     "rate": 18.9
   },
   "sp500_latest": {
-    "date": "2026-08-03",
-    "close": NaN
+    "date": "2026-08-04",
+    "close": 7681.01
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-04\nPosts today: 1 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Justice Department touts 'largest denaturalization effort ever' with 25 cases filed in two weeks: ht",
-    "zh": "川普密碼每日報告 -- 2026-08-04\n今日推文: 1 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Justice Department touts 'largest denaturalization effort ever' with 25 cases filed in two weeks: ht",
-    "ja": "トランプ・コード日次レポート -- 2026-08-04\n本日の投稿: 1件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Justice Department touts 'largest denaturalization effort ever' with 25 cases filed in two weeks: ht"
+    "en": "Trump Code Daily Report -- 2026-08-04\nPosts today: 21 | Models triggered: 8\nSignals: TARIFF, DEAL, IRAN\nConsensus: 6 LONG vs 2 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Campus free speech hits 20-year high under Trump administration: https://www.washingtontimes.com/new",
+    "zh": "川普密碼每日報告 -- 2026-08-04\n今日推文: 21 篇 | 觸發模型: 8 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 6 組看多 vs 2 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Campus free speech hits 20-year high under Trump administration: https://www.washingtontimes.com/new",
+    "ja": "トランプ・コード日次レポート -- 2026-08-04\n本日の投稿: 21件 | トリガーモデル: 8組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 6組ロング vs 2組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Campus free speech hits 20-year high under Trump administration: https://www.washingtontimes.com/new"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_economy",
+        "open_tariffs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "open_tariffs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "both_tariff_and_deal",
+        "kw_disaster",
+        "open_tariffs"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_disaster",
+        "open_tariffs"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }

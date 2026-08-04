@@ -1,28 +1,194 @@
 {
   "date": "2026-08-04",
-  "prepared_at": "2026-08-04T11:45:11Z",
+  "prepared_at": "2026-08-04T14:45:16Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "Justice Department touts 'largest denaturalization effort ever' with 25 cases filed in two weeks: https://justthenews.com/government/courts-law/justice-department-touts-largest-denaturalization-effort",
-    "earliest_time": "2026-08-04T11:05:48.005Z",
-    "latest_time": "2026-08-04T11:05:48.005Z",
+    "count": 21,
+    "latest": "Campus free speech hits 20-year high under Trump administration: https://www.washingtontimes.com/news/2026/aug/3/fire-report-finds-free-speech-improving-colleges-trump-administration/",
+    "earliest_time": "2026-08-04T10:38:00.000Z",
+    "latest_time": "2026-08-04T14:43:33.589Z",
     "sample": [
       {
-        "time": "11:05",
-        "text": "Justice Department touts 'largest denaturalization effort ever' with 25 cases filed in two weeks: https://justthenews.com/government/courts-law/justice-department-touts-largest-denaturalization-effort-ever-25-cases-filed"
+        "time": "14:34",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117037728296880147https://www.washingtonpost.com/opinions/2026/01/02/donald-trump-accomplishments-2025-marc-thiessen/"
+      },
+      {
+        "time": "14:36",
+        "text": "UAW: 'Strategic' Tariffs Prompt Industry Hiring Surge: https://www.newsmax.com/newsfront/united-auto-workers-tariffs-hiring-surge/2026/03/11/id/1249195/"
+      },
+      {
+        "time": "14:36",
+        "text": "US steel production exceeds Japan's for first time in 26 years: https://asia.nikkei.com/business/materials/us-steel-production-exceeds-japan-s-for-first-time-in-26-years"
+      },
+      {
+        "time": "14:37",
+        "text": "President Trump celebrates Bedminster club championship, brags little practice was needed to score a 70: https://www.foxnews.com/outkick-sports/president-trump-celebrates-bedminster-club-championship-brags-little-practice-needed-score-70"
+      },
+      {
+        "time": "14:37",
+        "text": "FIRST ON FOX: Trump to open direct line with military families in ground-up readiness push: https://www.foxnews.com/politics/first-fox-trump-open-direct-line-military-families-ground-up-readiness-push"
+      },
+      {
+        "time": "14:37",
+        "text": "American Manufacturing Expands At Fastest Pace Since 2022: https://www.breitbart.com/economy/2026/08/03/american-manufacturing-expands-at-fastest-pace-since-2022/"
+      },
+      {
+        "time": "14:37",
+        "text": "FIRST ON FOX: DHS points to 'common sense' reason for collapsing crime: 'No surprise': https://www.foxnews.com/politics/dhs-points-common-sense-reason-collapsing-crime-no-surprise"
+      },
+      {
+        "time": "14:38",
+        "text": "Trump: 'Deal Is Imminent' as Iran Talks Restart Monday on Denuclearization, Hormuz: https://www.breitbart.com/politics/2026/08/02/trump-deal-imminent-iran-talks-restart-monday-hormuz-denuclearization/"
+      },
+      {
+        "time": "14:41",
+        "text": "McMahon Asks US Colleges to Pledge Campus Reforms by End of 2026: https://www.bloomberg.com/news/articles/2026-08-03/mcmahon-asks-colleges-to-pledge-campus-reforms-by-end-of-2026"
+      },
+      {
+        "time": "14:43",
+        "text": "Campus free speech hits 20-year high under Trump administration: https://www.washingtontimes.com/news/2026/aug/3/fire-report-finds-free-speech-improving-colleges-trump-administration/"
       }
     ]
   },
+  "keyword_signals": [
+    "TARIFF",
+    "DEAL",
+    "IRAN"
+  ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_medium": true,
+    "posts_21_35": true,
+    "avg_len_short": true,
     "caps_low": true,
     "excl_none": true,
     "questions_no": true,
-    "mostly_premarket": true,
+    "mostly_open": true,
+    "kw_tariff": true,
+    "open_tariff": true,
+    "kw_tariffs": true,
+    "open_tariffs": true,
+    "kw_deal": true,
+    "kw_deal_2plus": true,
+    "pre_deal": true,
+    "open_deal": true,
+    "kw_japan": true,
+    "open_japan": true,
+    "kw_iran": true,
+    "kw_iran_2plus": true,
+    "pre_iran": true,
+    "open_iran": true,
+    "kw_economy": true,
+    "open_economy": true,
     "volume_rising_3d": true,
-    "volume_drop": true
+    "both_tariff_and_deal": true
+  },
+  "triggered_rules": {
+    "total": 8,
+    "long": 6,
+    "short": 2,
+    "sample": [
+      {
+        "id": "R0004",
+        "features": [
+          "kw_deal_2plus",
+          "kw_economy",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0011",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0019",
+        "features": [
+          "kw_deal_2plus",
+          "kw_economy",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0030",
+        "features": [
+          "is_friday",
+          "kw_economy",
+          "open_tariffs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0072",
+        "features": [
+          "kw_economy",
+          "open_tariffs",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0077",
+        "features": [
+          "both_tariff_and_deal",
+          "kw_disaster",
+          "open_tariffs"
+        ],
+        "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0078",
+        "features": [
+          "kw_deal",
+          "kw_disaster",
+          "open_tariffs"
+        ],
+        "direction": "SHORT",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0079",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -138,31 +304,33 @@
   },
   "evolution_latest": {
     "date": "2026-08-04",
-    "crossover": 16,
-    "mutation": 14,
+    "crossover": 14,
+    "mutation": 16,
     "distill": 16,
     "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_economy",
-          "open_china"
+          "kw_signed",
+          "kw_tariff",
+          "kw_tariffs"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
+        "hold": 2,
+        "score": 92.3,
         "origin": "crossover"
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "kw_energy",
+          "kw_economy",
+          "is_friday"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "mutation_remove"
+        "hold": 1,
+        "score": 90.9,
+        "origin": "crossover"
       },
       {
         "features": [
