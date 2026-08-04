@@ -6150,5 +6150,614 @@
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
     "status": "LIVE"
+  },
+  {
+    "id": "rt_1785795894",
+    "created_at": "2026-08-03T22:24:54Z",
+    "post_time": "2026-08-03T22:19:17.973Z",
+    "post_preview": "Congressman Jason Smith is an America First Patriot, who is doing a fantastic job representing Missouri's 8th Congressional District! As the Chairman of the POWERFUL House Ways & Means Committee, Jaso",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.006
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.994
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0135
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.9865
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0045
+      }
+    ],
+    "pm_price_at_signal": 0.006,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.47,
+    "trump_coin_24h_change": 1.67,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785795894",
+    "created_at": "2026-08-03T22:24:54Z",
+    "post_time": "2026-08-03T22:18:15.944Z",
+    "post_preview": "Congresswoman Ann Wagner is doing an incredible job representing the amazing people of Missouri's 2nd Congressional District! As the Chair of the Financial Services Subcommittee on Capital Markets, An",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.006
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.994
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0135
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.9865
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0045
+      }
+    ],
+    "pm_price_at_signal": 0.006,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.47,
+    "trump_coin_24h_change": 1.67,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785795894",
+    "created_at": "2026-08-03T22:24:54Z",
+    "post_time": "2026-08-03T22:15:05.281Z",
+    "post_preview": "Congressman Bill Huizenga is a Tremendous Champion, and Highly Effective Representative, for the incredible people of Michigan's 4th Congressional District! As a very successful Small Businessman, and",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "effective"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION",
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.006
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.994
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0135
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.9865
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0045
+      }
+    ],
+    "pm_price_at_signal": 0.006,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.47,
+    "trump_coin_24h_change": 1.67,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785795894",
+    "created_at": "2026-08-03T22:24:54Z",
+    "post_time": "2026-08-03T22:12:50.474Z",
+    "post_preview": "Congressman Tracey Mann is an incredible Representative for the wonderful people of Kansas' \"Big First\" Congressional District! A fifth generation Farmer, Tracey is a strong and effective Voice for Am",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "effective"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.006
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.994
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0135
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.9865
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0045
+      }
+    ],
+    "pm_price_at_signal": 0.006,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.47,
+    "trump_coin_24h_change": 1.67,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785797161",
+    "created_at": "2026-08-03T22:46:01Z",
+    "post_time": "2026-08-03T22:25:48.600Z",
+    "post_preview": "Congressman Morgan Griffith is a Fantastic Advocate for Virginia's 9th Congressional District! As a Member of the POWERFUL House Energy and Commerce Committee, Morgan is working tirelessly to Unleash ",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.006
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.994
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0135
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.9865
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0045
+      }
+    ],
+    "pm_price_at_signal": 0.006,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.47,
+    "trump_coin_24h_change": 1.77,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785797161",
+    "created_at": "2026-08-03T22:46:01Z",
+    "post_time": "2026-08-03T22:24:56.979Z",
+    "post_preview": "Congressman John McGuire is an America First Warrior for Virginia's 5th Congressional District. John bravely served our Great Country as a U.S. Navy SEAL, and is doing an incredible job fighting for t",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.006
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.994
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0135
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.9865
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0045
+      }
+    ],
+    "pm_price_at_signal": 0.006,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.47,
+    "trump_coin_24h_change": 1.77,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785798681",
+    "created_at": "2026-08-03T23:11:21Z",
+    "post_time": "2026-08-03T22:52:37.965Z",
+    "post_preview": "Wilton Simpson is the strong and highly popular Agriculture Commissioner for Florida, my \"Home\" State, which I love and won SIX times, including with 6.1 Million Votes in 2024, the most in History (BY",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "effective"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.006
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.994
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0135
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.9865
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0045
+      }
+    ],
+    "pm_price_at_signal": 0.006,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.47,
+    "trump_coin_24h_change": 1.94,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785798681",
+    "created_at": "2026-08-03T23:11:21Z",
+    "post_time": "2026-08-03T22:50:20.084Z",
+    "post_preview": "Florida Attorney General James Uthmeier is doing a GREAT job for the Sunshine State, which I won BIG in 2016, 2020, and 2024. James is an America First Warrior, who is a true champion for \"MAGA.\" He i",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.006
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.994
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0135
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.9865
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0045
+      }
+    ],
+    "pm_price_at_signal": 0.006,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.47,
+    "trump_coin_24h_change": 1.94,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
   }
 ]

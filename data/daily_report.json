@@ -1,19 +1,19 @@
 {
-  "date": "2026-08-03",
-  "generated_at": "2026-08-03T20:45:05Z",
-  "posts_today": 10,
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T05:45:25Z",
+  "posts_today": 44,
   "latest_post": {
-    "time": "2026-08-03T20:24",
-    "content_preview": "I just spoke with Patrick Morrisey, the GREAT Governor of West Virginia, a State I love and WON BIG,"
+    "time": "2026-08-03T23:12",
+    "content_preview": "It is my Great Honor to endorse America First Patriot, Jon Maples, who is running to represent the f"
   },
   "signals_detected": [
     "DEAL",
     "IRAN",
     "DEAL_ONLY"
   ],
-  "models_triggered": 25,
+  "models_triggered": 31,
   "direction_summary": {
-    "LONG": 24,
+    "LONG": 30,
     "SHORT": 1,
     "consensus": "BULLISH"
   },
@@ -24,14 +24,36 @@
   },
   "sp500_latest": {
     "date": "2026-08-03",
-    "close": 7600.5
+    "close": NaN
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-03\nPosts today: 10 | Models triggered: 25\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 24 LONG vs 1 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: I just spoke with Patrick Morrisey, the GREAT Governor of West Virginia, a State I love and WON BIG,",
-    "zh": "川普密碼每日報告 -- 2026-08-03\n今日推文: 10 篇 | 觸發模型: 25 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 24 組看多 vs 1 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: I just spoke with Patrick Morrisey, the GREAT Governor of West Virginia, a State I love and WON BIG,",
-    "ja": "トランプ・コード日次レポート -- 2026-08-03\n本日の投稿: 10件 | トリガーモデル: 25組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 24組ロング vs 1組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: I just spoke with Patrick Morrisey, the GREAT Governor of West Virginia, a State I love and WON BIG,"
+    "en": "Trump Code Daily Report -- 2026-08-04\nPosts today: 44 | Models triggered: 31\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 30 LONG vs 1 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: It is my Great Honor to endorse America First Patriot, Jon Maples, who is running to represent the f",
+    "zh": "川普密碼每日報告 -- 2026-08-04\n今日推文: 44 篇 | 觸發模型: 31 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 30 組看多 vs 1 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: It is my Great Honor to endorse America First Patriot, Jon Maples, who is running to represent the f",
+    "ja": "トランプ・コード日次レポート -- 2026-08-04\n本日の投稿: 44件 | トリガーモデル: 31組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 30組ロング vs 1組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: It is my Great Honor to endorse America First Patriot, Jon Maples, who is running to represent the f"
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "kw_deal",
@@ -88,12 +110,34 @@
     },
     {
       "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "kw_beautiful",
         "kw_interest_rate",
         "kw_tremendous"
       ],
       "direction": "LONG",
       "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
@@ -124,6 +168,17 @@
         "kw_beautiful",
         "open_thank_you_for_your_attention",
         "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_executive_order",
+        "kw_jobs",
+        "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -191,61 +246,6 @@
       ],
       "direction": "LONG",
       "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_china",
-        "kw_corrupt",
-        "kw_economy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "open_tariffs",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_america_first",
-        "kw_beautiful",
-        "kw_terrible"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     }

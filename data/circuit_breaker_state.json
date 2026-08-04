@@ -1,14 +1,14 @@
 {
-  "date": "2026-08-03",
-  "checked_at": "2026-08-03T20:45:28Z",
+  "date": "2026-08-04",
+  "checked_at": "2026-08-04T05:45:48Z",
   "checks": {
     "freshness": {
       "check": "data_freshness",
       "last_signal_date": "2026-07-17",
-      "days_since_last": 17,
+      "days_since_last": 18,
       "threshold": 30,
       "status": "✅ FRESH",
-      "message": "最後一筆驗證是 2026-07-17（17 天前），資料新鮮。"
+      "message": "最後一筆驗證是 2026-07-17（18 天前），資料新鮮。"
     },
     "vs_random": {
       "check": "vs_random",
