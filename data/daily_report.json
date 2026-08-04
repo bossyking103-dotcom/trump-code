@@ -1,20 +1,20 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T17:45:07Z",
-  "posts_today": 23,
+  "generated_at": "2026-08-04T20:45:04Z",
+  "posts_today": 27,
   "latest_post": {
-    "time": "2026-08-04T14:45",
-    "content_preview": "It was my Honor to welcome now Senator Darline Graham Nordone (The sister of the Late, Great Lindsey"
+    "time": "2026-08-04T18:08",
+    "content_preview": "Highly Respected Congresswoman, Harriet Hageman, is running for the United States Senate in the Grea"
   },
   "signals_detected": [
     "TARIFF",
     "DEAL",
     "IRAN"
   ],
-  "models_triggered": 10,
+  "models_triggered": 26,
   "direction_summary": {
-    "LONG": 7,
-    "SHORT": 3,
+    "LONG": 22,
+    "SHORT": 4,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -24,14 +24,25 @@
   },
   "sp500_latest": {
     "date": "2026-08-04",
-    "close": 7748.31
+    "close": 7736.52
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-04\nPosts today: 23 | Models triggered: 10\nSignals: TARIFF, DEAL, IRAN\nConsensus: 7 LONG vs 3 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: It was my Honor to welcome now Senator Darline Graham Nordone (The sister of the Late, Great Lindsey",
-    "zh": "川普密碼每日報告 -- 2026-08-04\n今日推文: 23 篇 | 觸發模型: 10 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 7 組看多 vs 3 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: It was my Honor to welcome now Senator Darline Graham Nordone (The sister of the Late, Great Lindsey",
-    "ja": "トランプ・コード日次レポート -- 2026-08-04\n本日の投稿: 23件 | トリガーモデル: 10組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 7組ロング vs 3組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: It was my Honor to welcome now Senator Darline Graham Nordone (The sister of the Late, Great Lindsey"
+    "en": "Trump Code Daily Report -- 2026-08-04\nPosts today: 27 | Models triggered: 26\nSignals: TARIFF, DEAL, IRAN\nConsensus: 22 LONG vs 4 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Highly Respected Congresswoman, Harriet Hageman, is running for the United States Senate in the Grea",
+    "zh": "川普密碼每日報告 -- 2026-08-04\n今日推文: 27 篇 | 觸發模型: 26 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 22 組看多 vs 4 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Highly Respected Congresswoman, Harriet Hageman, is running for the United States Senate in the Grea",
+    "ja": "トランプ・コード日次レポート -- 2026-08-04\n本日の投稿: 27件 | トリガーモデル: 26組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 22組ロング vs 4組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Highly Respected Congresswoman, Harriet Hageman, is running for the United States Senate in the Grea"
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "both_tariff_and_deal",
+        "kw_disaster",
+        "kw_jobs"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "kw_deal_2plus",
@@ -45,8 +56,52 @@
     },
     {
       "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_europe",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "kw_deal",
         "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_energy",
+        "kw_interest_rate"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -77,66 +132,119 @@
     },
     {
       "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_dow_2plus",
+        "open_tariff"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_dow_2plus",
+        "open_tariffs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
         "kw_economy",
         "open_tariffs",
         "open_thank_you_for_your_attention"
       ],
       "direction": "LONG",
       "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "open_dow"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "both_tariff_and_deal",
-        "kw_disaster",
-        "open_tariffs"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_disaster",
-        "open_tariffs"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "both_tariff_and_deal",
-        "kw_disaster",
-        "kw_incredible"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     }
