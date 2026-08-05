@@ -21552,5 +21552,47 @@
         "origin": "mutation_remove"
       }
     ]
+  },
+  {
+    "date": "2026-08-05",
+    "crossover": 16,
+    "mutation": 15,
+    "distill": 16,
+    "total_new": 47,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "kw_inflation",
+          "open_inflation"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_dow",
+          "kw_president_of_the_united_states",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "crossover"
+      }
+    ]
   }
 ]
