@@ -1,266 +1,27 @@
 {
-  "date": "2026-08-04",
-  "prepared_at": "2026-08-04T20:45:09Z",
+  "date": "2026-08-05",
+  "prepared_at": "2026-08-05T05:45:16Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 27,
-    "latest": "Highly Respected Congresswoman, Harriet Hageman, is running for the United States Senate in the Great State of Wyoming, a place I love and WON BIG in 2016, 2020, and 2024!I know Harriet well, and she ",
-    "earliest_time": "2026-08-04T10:38:00.000Z",
-    "latest_time": "2026-08-04T18:08:35.549Z",
+    "count": 1,
+    "latest": "Scott Bessent interviewed by Joe Kernen!https://www.cnbc.com/video/2026/08/04/watch-cnbcs-full-interview-with-treasury-secretary-scott-bessent.html",
+    "earliest_time": "2026-08-05T04:35:07.024Z",
+    "latest_time": "2026-08-05T04:35:07.024Z",
     "sample": [
       {
-        "time": "14:37",
-        "text": "American Manufacturing Expands At Fastest Pace Since 2022: https://www.breitbart.com/economy/2026/08/03/american-manufacturing-expands-at-fastest-pace-since-2022/"
-      },
-      {
-        "time": "14:37",
-        "text": "FIRST ON FOX: DHS points to 'common sense' reason for collapsing crime: 'No surprise': https://www.foxnews.com/politics/dhs-points-common-sense-reason-collapsing-crime-no-surprise"
-      },
-      {
-        "time": "14:38",
-        "text": "Trump: 'Deal Is Imminent' as Iran Talks Restart Monday on Denuclearization, Hormuz: https://www.breitbart.com/politics/2026/08/02/trump-deal-imminent-iran-talks-restart-monday-hormuz-denuclearization/"
-      },
-      {
-        "time": "14:41",
-        "text": "McMahon Asks US Colleges to Pledge Campus Reforms by End of 2026: https://www.bloomberg.com/news/articles/2026-08-03/mcmahon-asks-colleges-to-pledge-campus-reforms-by-end-of-2026"
-      },
-      {
-        "time": "14:43",
-        "text": "Campus free speech hits 20-year high under Trump administration: https://www.washingtontimes.com/news/2026/aug/3/fire-report-finds-free-speech-improving-colleges-trump-administration/"
-      },
-      {
-        "time": "14:45",
-        "text": "It was my Honor to welcome now Senator Darline Graham Nordone (The sister of the Late, Great Lindsey Graham!), from the Wonderful State of South Carolina, into the Oval Office. We have known each other for a long time — She is a spectacular person, and a true American Patriot. Lindsey was one of the"
-      },
-      {
-        "time": "16:38",
-        "text": "Manufacturing is BOOMING! Factory activity just hit its fastest pace in more than FOUR YEARS, far exceeding expectations. New orders have expanded for SEVEN straight months. American Manufacturing is BACK! The Stock Market is at an ALL TIME HIGH, and setting Record after Record because Investors kno"
-      },
-      {
-        "time": "17:30",
-        "text": "It was my Great Honor to welcome Highly Respected and very popular Pennsylvania State Treasurer, Stacy Garrity, into the Oval Office. Stacy is running to be the next Governor of the GREAT Commonwealth of Pennsylvania. She has my Complete and Total Endorsement. She will do a fantastic job!"
-      },
-      {
-        "time": "18:05",
-        "text": "\"MAGA\" Megan Degenfelder is running to be the next Governor of the Great State of Wyoming, a place I love and WON BIG in 2016, 2020, and 2024. Megan is fantastic, and strongly supported by many of our Greatest Warriors, including future Senator Harriet Hageman! A Sixth Generation Wyomingite, and Wyo"
-      },
-      {
-        "time": "18:08",
-        "text": "Highly Respected Congresswoman, Harriet Hageman, is running for the United States Senate in the Great State of Wyoming, a place I love and WON BIG in 2016, 2020, and 2024!I know Harriet well, and she is a TOTAL WINNER! Harriet has ALWAYS delivered for Wyoming, and will continue to do so in the Unite"
+        "time": "04:35",
+        "text": "Scott Bessent interviewed by Joe Kernen!https://www.cnbc.com/video/2026/08/04/watch-cnbcs-full-interview-with-treasury-secretary-scott-bessent.html"
       }
     ]
   },
-  "keyword_signals": [
-    "TARIFF",
-    "DEAL",
-    "IRAN"
-  ],
   "today_features": {
-    "posts_21_35": true,
-    "avg_len_medium": true,
-    "caps_medium": true,
+    "posts_1_5": true,
+    "avg_len_short": true,
+    "caps_low": true,
     "excl_normal": true,
     "questions_no": true,
-    "mostly_open": true,
-    "kw_tariff": true,
-    "open_tariff": true,
-    "kw_tariffs": true,
-    "open_tariffs": true,
-    "kw_deal": true,
-    "kw_deal_2plus": true,
-    "pre_deal": true,
-    "open_deal": true,
-    "kw_japan": true,
-    "open_japan": true,
-    "kw_iran": true,
-    "kw_iran_2plus": true,
-    "pre_iran": true,
-    "open_iran": true,
-    "kw_stock_market": true,
-    "open_stock_market": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "open_dow": true,
-    "kw_economy": true,
-    "kw_economy_2plus": true,
-    "open_economy": true,
-    "kw_energy": true,
-    "kw_energy_2plus": true,
-    "open_energy": true,
-    "kw_jobs": true,
-    "open_jobs": true,
-    "kw_billion": true,
-    "open_billion": true,
-    "kw_trillion": true,
-    "open_trillion": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_incredible": true,
-    "kw_incredible_2plus": true,
-    "open_incredible": true,
-    "kw_amazing": true,
-    "kw_amazing_2plus": true,
-    "open_amazing": true,
-    "kw_fantastic": true,
-    "kw_fantastic_2plus": true,
-    "open_fantastic": true,
-    "kw_wonderful": true,
-    "open_wonderful": true,
-    "kw_fake": true,
-    "open_fake": true,
-    "kw_vance": true,
-    "kw_vance_2plus": true,
-    "open_vance": true,
-    "kw_maga": true,
-    "kw_maga_2plus": true,
-    "open_maga": true,
-    "kw_golden_age": true,
-    "open_golden_age": true,
-    "kw_never_let_you_down": true,
-    "kw_never_let_you_down_2plus": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "kw_complete_and_total_2plus": true,
-    "open_complete_and_total": true,
-    "volume_rising_3d": true,
-    "both_tariff_and_deal": true
-  },
-  "triggered_rules": {
-    "total": 26,
-    "long": 22,
-    "short": 4,
-    "sample": [
-      {
-        "id": "R0001",
-        "features": [
-          "both_tariff_and_deal",
-          "kw_disaster",
-          "kw_jobs"
-        ],
-        "direction": "SHORT",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0004",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0005",
-        "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0007",
-        "features": [
-          "kw_deal_2plus",
-          "kw_europe",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0011",
-        "features": [
-          "kw_deal",
-          "kw_perfect"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0013",
-        "features": [
-          "kw_dow_2plus",
-          "open_jobs",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0016",
-        "features": [
-          "kw_economy",
-          "kw_energy",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0019",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0030",
-        "features": [
-          "is_friday",
-          "kw_economy",
-          "open_tariffs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0033",
-        "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "mostly_premarket": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -375,21 +136,31 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-08-04",
+    "date": "2026-08-05",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_china",
-          "kw_thank_you_for_your_attention"
+          "kw_tariffs",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.9,
+        "score": 92.3,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
         "origin": "mutation_remove"
       },
       {
@@ -401,16 +172,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_beautiful"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
       }
     ]
   },

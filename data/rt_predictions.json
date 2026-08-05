@@ -6224,7 +6224,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1785795894",
@@ -6299,7 +6299,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1785795894",
@@ -6383,7 +6383,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1785795894",
@@ -6458,7 +6458,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1785797161",
@@ -6533,7 +6533,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1785797161",
@@ -6608,7 +6608,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1785798681",
@@ -6683,7 +6683,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1785798681",
@@ -6758,7 +6758,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1785854971",
@@ -6907,6 +6907,384 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.48,
     "trump_coin_24h_change": 0.78,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785876499",
+    "created_at": "2026-08-04T20:48:19Z",
+    "post_time": "2026-08-04T20:38:42.973Z",
+    "post_preview": "Manufacturing is BOOMING! Factory activity just hit its fastest pace in more than FOUR YEARS, far exceeding expectations. New orders have expanded for SEVEN straight months. American Manufacturing is ",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.95,
+        "matched_keywords": [
+          "stock market",
+          "all time high",
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.95,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.48,
+    "trump_coin_24h_change": 0.44,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785882040",
+    "created_at": "2026-08-04T22:20:40Z",
+    "post_time": "2026-08-04T22:15:00.006Z",
+    "post_preview": "HAPPY 236th BIRTHDAY TO THE UNITED STATES COAST GUARD! Today we honor the incredible Men and Women of the United States Coast Guard, who protect our Borders, defend our Homeland, save countless Americ",
+    "signals": [
+      {
+        "type": "TARIFF",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "duty"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "TARIFF"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.47,
+    "trump_coin_24h_change": 0.09,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785883599",
+    "created_at": "2026-08-04T22:46:39Z",
+    "post_time": "2026-08-04T22:34:59.944Z",
+    "post_preview": "The Highly Respected Alan Dershowitz has written a powerful new book, \"Why I quit the Dems and so should you! (confessions of a reluctant Republican*).\" Alan is a Great American Patriot who understand",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.48,
+    "trump_coin_24h_change": 0.55,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785883599",
+    "created_at": "2026-08-04T22:46:39Z",
+    "post_time": "2026-08-04T22:34:28.905Z",
+    "post_preview": "It was my Honor to write the Foreword for Brian Pannebecker's incredible new Book, \"Blue Collar Conservative: From Reagan to Trump.\" As the head of Autoworkers for Trump, Brian has been with us from t",
+    "signals": [
+      {
+        "type": "TARIFF",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "tariff",
+          "tariffs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "TARIFF"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.8,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.48,
+    "trump_coin_24h_change": 0.55,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1785885127",
+    "created_at": "2026-08-04T23:12:07Z",
+    "post_time": "2026-08-04T22:52:51.270Z",
+    "post_preview": "For far too long, Radical Climate Activists attempted to hold our Great Country hostage by drastically and unreasonably expanding the intended scope of the Endangered Species Act. This was complete an",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "block"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "320735701764211505607711137797",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "957600519477638817897513790686",
+        "question": "Will Trump speak to Nicolás Maduro in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "268445303254185102102420774522",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "698502497190720696918596792845",
+        "question": "Will Trump speak to Reza Pahlavi in July?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "217548604683024787077848188852",
+        "question": "Will Trump speak to Kim Jong Un in July?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.48,
+    "trump_coin_24h_change": 0.86,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,

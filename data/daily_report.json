@@ -1,21 +1,17 @@
 {
-  "date": "2026-08-04",
-  "generated_at": "2026-08-04T20:45:04Z",
-  "posts_today": 27,
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T05:45:07Z",
+  "posts_today": 1,
   "latest_post": {
-    "time": "2026-08-04T18:08",
-    "content_preview": "Highly Respected Congresswoman, Harriet Hageman, is running for the United States Senate in the Grea"
+    "time": "2026-08-05T04:35",
+    "content_preview": "Scott Bessent interviewed by Joe Kernen!https://www.cnbc.com/video/2026/08/04/watch-cnbcs-full-inter"
   },
-  "signals_detected": [
-    "TARIFF",
-    "DEAL",
-    "IRAN"
-  ],
-  "models_triggered": 26,
+  "signals_detected": [],
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 22,
-    "SHORT": 4,
-    "consensus": "BULLISH"
+    "LONG": 0,
+    "SHORT": 0,
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 127,
@@ -27,226 +23,9 @@
     "close": 7736.52
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-04\nPosts today: 27 | Models triggered: 26\nSignals: TARIFF, DEAL, IRAN\nConsensus: 22 LONG vs 4 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Highly Respected Congresswoman, Harriet Hageman, is running for the United States Senate in the Grea",
-    "zh": "川普密碼每日報告 -- 2026-08-04\n今日推文: 27 篇 | 觸發模型: 26 組\n偵測信號: 關稅, Deal, 伊朗\n共識方向: 22 組看多 vs 4 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Highly Respected Congresswoman, Harriet Hageman, is running for the United States Senate in the Grea",
-    "ja": "トランプ・コード日次レポート -- 2026-08-04\n本日の投稿: 27件 | トリガーモデル: 26組\n検出シグナル: 関税, ディール, イラン\nコンセンサス: 22組ロング vs 4組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Highly Respected Congresswoman, Harriet Hageman, is running for the United States Senate in the Grea"
+    "en": "Trump Code Daily Report -- 2026-08-05\nPosts today: 1 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Scott Bessent interviewed by Joe Kernen!https://www.cnbc.com/video/2026/08/04/watch-cnbcs-full-inter",
+    "zh": "川普密碼每日報告 -- 2026-08-05\n今日推文: 1 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Scott Bessent interviewed by Joe Kernen!https://www.cnbc.com/video/2026/08/04/watch-cnbcs-full-inter",
+    "ja": "トランプ・コード日次レポート -- 2026-08-05\n本日の投稿: 1件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Scott Bessent interviewed by Joe Kernen!https://www.cnbc.com/video/2026/08/04/watch-cnbcs-full-inter"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "both_tariff_and_deal",
-        "kw_disaster",
-        "kw_jobs"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_europe",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_jobs",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_economy",
-        "open_tariffs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_dow_2plus",
-        "open_tariff"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_dow_2plus",
-        "open_tariffs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "kw_energy",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_interest_rate",
-        "open_energy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "kw_interest_rate",
-        "open_energy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "open_tariffs",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
