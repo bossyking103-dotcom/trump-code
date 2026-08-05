@@ -1,12 +1,12 @@
 {
   "date": "2026-08-05",
-  "prepared_at": "2026-08-05T17:45:12Z",
+  "prepared_at": "2026-08-05T20:45:16Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "Great news for the Republican Party. El-Sayed, a Communist loser who hates Jews and Israel, is the projected winner in his race with the Socialist. As usual, the Polls were way off on this one. She wa",
+    "count": 4,
+    "latest": "I was 28-1 last night on Endorsements, and numerous of them were outliers, but if you studied the Fake News, you would think it was just the opposite, 1-28. All they talked about was the one, and that",
     "earliest_time": "2026-08-05T04:35:07.024Z",
-    "latest_time": "2026-08-05T14:10:28.912Z",
+    "latest_time": "2026-08-05T20:16:40.914Z",
     "sample": [
       {
         "time": "04:35",
@@ -19,25 +19,30 @@
       {
         "time": "14:10",
         "text": "Great news for the Republican Party. El-Sayed, a Communist loser who hates Jews and Israel, is the projected winner in his race with the Socialist. As usual, the Polls were way off on this one. She was not expected to do nearly as well as she did. Now, the Dumocrats crazy policies will only get wors"
+      },
+      {
+        "time": "20:16",
+        "text": "I was 28-1 last night on Endorsements, and numerous of them were outliers, but if you studied the Fake News, you would think it was just the opposite, 1-28. All they talked about was the one, and that's why they call it the FAKE NEWS! President DJT"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_long": true,
+    "avg_len_medium": true,
     "caps_low": true,
     "excl_normal": true,
     "questions_no": true,
-    "mostly_premarket": true,
     "kw_israel": true,
     "open_israel": true,
     "kw_great": true,
     "open_great": true,
     "kw_fake": true,
+    "kw_fake_2plus": true,
     "pre_fake": true,
     "kw_corrupt": true,
     "pre_corrupt": true,
     "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
     "pre_president_djt": true,
     "volume_drop": true
   },
@@ -155,12 +160,22 @@
   },
   "evolution_latest": {
     "date": "2026-08-05",
-    "crossover": 16,
-    "mutation": 15,
+    "crossover": 11,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 39,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
+      },
       {
         "features": [
           "kw_interest_rate",
@@ -173,23 +188,11 @@
       },
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "kw_inflation",
-          "open_inflation"
+          "kw_interest_rate",
+          "excl_heavy"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.9,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "open_dow",
-          "kw_president_of_the_united_states",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 2,
         "score": 87.5,
         "origin": "crossover"
       }
