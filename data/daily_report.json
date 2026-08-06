@@ -1,15 +1,17 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T14:45:12Z",
+  "generated_at": "2026-08-06T17:45:07Z",
   "posts_today": 5,
   "latest_post": {
-    "time": "2026-08-06T04:40",
-    "content_preview": "Cash is king: Washington Republicans bankroll midterms as National Democrat coffers are in the red: "
+    "time": "2026-08-06T12:51",
+    "content_preview": "The Fake News, as usual, is spreading false and completely unfounded rumors. I am extremely happy wi"
   },
-  "signals_detected": [],
-  "models_triggered": 5,
+  "signals_detected": [
+    "IRAN"
+  ],
+  "models_triggered": 6,
   "direction_summary": {
-    "LONG": 5,
+    "LONG": 6,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -19,18 +21,18 @@
     "rate": 18.9
   },
   "sp500_latest": {
-    "date": "2026-08-05",
-    "close": 7723.55
+    "date": "2026-08-06",
+    "close": 7704.84
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-06\nPosts today: 5 | Models triggered: 5\nSignals: None\nConsensus: 5 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Cash is king: Washington Republicans bankroll midterms as National Democrat coffers are in the red: ",
-    "zh": "川普密碼每日報告 -- 2026-08-06\n今日推文: 5 篇 | 觸發模型: 5 組\n偵測信號: 無\n共識方向: 5 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Cash is king: Washington Republicans bankroll midterms as National Democrat coffers are in the red: ",
-    "ja": "トランプ・コード日次レポート -- 2026-08-06\n本日の投稿: 5件 | トリガーモデル: 5組\n検出シグナル: なし\nコンセンサス: 5組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Cash is king: Washington Republicans bankroll midterms as National Democrat coffers are in the red: "
+    "en": "Trump Code Daily Report -- 2026-08-06\nPosts today: 5 | Models triggered: 6\nSignals: IRAN\nConsensus: 6 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: The Fake News, as usual, is spreading false and completely unfounded rumors. I am extremely happy wi",
+    "zh": "川普密碼每日報告 -- 2026-08-06\n今日推文: 5 篇 | 觸發模型: 6 組\n偵測信號: 伊朗\n共識方向: 6 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: The Fake News, as usual, is spreading false and completely unfounded rumors. I am extremely happy wi",
+    "ja": "トランプ・コード日次レポート -- 2026-08-06\n本日の投稿: 5件 | トリガーモデル: 6組\n検出シグナル: イラン\nコンセンサス: 6組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: The Fake News, as usual, is spreading false and completely unfounded rumors. I am extremely happy wi"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_beautiful",
+        "excl_heavy",
         "kw_interest_rate",
         "kw_tremendous"
       ],
@@ -41,8 +43,9 @@
     },
     {
       "features": [
-        "kw_dow_2plus",
-        "open_interest_rate"
+        "kw_beautiful",
+        "kw_interest_rate",
+        "kw_tremendous"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -78,6 +81,17 @@
       ],
       "direction": "LONG",
       "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     }

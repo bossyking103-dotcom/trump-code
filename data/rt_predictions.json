@@ -7439,5 +7439,230 @@
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
     "status": "LIVE"
+  },
+  {
+    "id": "rt_1786033450",
+    "created_at": "2026-08-06T16:24:10Z",
+    "post_time": "2026-08-06T12:17:00.000Z",
+    "post_preview": "Congresswoman Diana Harshbarger is doing an incredible job representing the wonderful people of Tennessee’s 1st Congressional District! A very successful Pharmacist and Businesswoman, Diana knows the ",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0065
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9935
+      },
+      {
+        "token_id": "374325054371482324644720035225",
+        "question": "Will Trump post \"Nuclear\" on Truth Social this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "595116251573387348950940495882",
+        "question": "Will Trump post \"Nuclear\" on Truth Social this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "392930053058776752848677012518",
+        "question": "Will Trump post \"Pope\" on Truth Social this week?",
+        "price_at_signal": 0.115
+      }
+    ],
+    "pm_price_at_signal": 0.0065,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.47,
+    "trump_coin_24h_change": 0.23,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1786033755",
+    "created_at": "2026-08-06T16:29:15Z",
+    "post_time": "2026-08-06T12:20:00.000Z",
+    "post_preview": "Congressman Scott DesJarlais is a Fantastic Advocate for Tennessee’s 4th Congressional District! As a Member of the House Agriculture Committee, Scott is a strong and effective voice for American Agri",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "effective"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0065
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9935
+      },
+      {
+        "token_id": "374325054371482324644720035225",
+        "question": "Will Trump post \"Nuclear\" on Truth Social this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "595116251573387348950940495882",
+        "question": "Will Trump post \"Nuclear\" on Truth Social this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "392930053058776752848677012518",
+        "question": "Will Trump post \"Pope\" on Truth Social this week?",
+        "price_at_signal": 0.115
+      }
+    ],
+    "pm_price_at_signal": 0.0065,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.47,
+    "trump_coin_24h_change": 0.03,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1786035578",
+    "created_at": "2026-08-06T16:59:38Z",
+    "post_time": "2026-08-06T12:51:00.000Z",
+    "post_preview": "The Fake News, as usual, is spreading false and completely unfounded rumors. I am extremely happy with the job that Pete Hegseth is doing. Everything has been extraordinary, including our attack on Ve",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "worst"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0065
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9935
+      },
+      {
+        "token_id": "374325054371482324644720035225",
+        "question": "Will Trump post \"Nuclear\" on Truth Social this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "595116251573387348950940495882",
+        "question": "Will Trump post \"Nuclear\" on Truth Social this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "392930053058776752848677012518",
+        "question": "Will Trump post \"Pope\" on Truth Social this week?",
+        "price_at_signal": 0.115
+      }
+    ],
+    "pm_price_at_signal": 0.0065,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.48,
+    "trump_coin_24h_change": 0.79,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
   }
 ]
