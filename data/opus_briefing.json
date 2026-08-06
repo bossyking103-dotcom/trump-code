@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "prepared_at": "2026-08-06T08:45:15Z",
+  "prepared_at": "2026-08-06T11:45:12Z",
   "status": "PENDING",
   "today_posts": {
     "count": 5,
@@ -240,20 +240,30 @@
   "evolution_latest": {
     "date": "2026-08-06",
     "crossover": 16,
-    "mutation": 12,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy",
-          "kw_thank_you_for_your_attention"
+          "kw_tariff",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 91.7,
+        "score": 90.6,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_inflation",
+          "mostly_open",
+          "kw_fake"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
         "origin": "crossover"
       },
       {
@@ -265,16 +275,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_jobs",
-          "is_friday"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 88.5,
-        "origin": "crossover"
       }
     ]
   },
