@@ -1,17 +1,17 @@
 {
-  "date": "2026-08-05",
-  "generated_at": "2026-08-05T20:45:11Z",
-  "posts_today": 4,
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T05:45:07Z",
+  "posts_today": 5,
   "latest_post": {
-    "time": "2026-08-05T20:16",
-    "content_preview": "I was 28-1 last night on Endorsements, and numerous of them were outliers, but if you studied the Fa"
+    "time": "2026-08-06T04:40",
+    "content_preview": "Cash is king: Washington Republicans bankroll midterms as National Democrat coffers are in the red: "
   },
   "signals_detected": [],
-  "models_triggered": 0,
+  "models_triggered": 5,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 5,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 127,
@@ -23,9 +23,63 @@
     "close": 7723.55
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-05\nPosts today: 4 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: I was 28-1 last night on Endorsements, and numerous of them were outliers, but if you studied the Fa",
-    "zh": "川普密碼每日報告 -- 2026-08-05\n今日推文: 4 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: I was 28-1 last night on Endorsements, and numerous of them were outliers, but if you studied the Fa",
-    "ja": "トランプ・コード日次レポート -- 2026-08-05\n本日の投稿: 4件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: I was 28-1 last night on Endorsements, and numerous of them were outliers, but if you studied the Fa"
+    "en": "Trump Code Daily Report -- 2026-08-06\nPosts today: 5 | Models triggered: 5\nSignals: None\nConsensus: 5 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Cash is king: Washington Republicans bankroll midterms as National Democrat coffers are in the red: ",
+    "zh": "川普密碼每日報告 -- 2026-08-06\n今日推文: 5 篇 | 觸發模型: 5 組\n偵測信號: 無\n共識方向: 5 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Cash is king: Washington Republicans bankroll midterms as National Democrat coffers are in the red: ",
+    "ja": "トランプ・コード日次レポート -- 2026-08-06\n本日の投稿: 5件 | トリガーモデル: 5組\n検出シグナル: なし\nコンセンサス: 5組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Cash is king: Washington Republicans bankroll midterms as National Democrat coffers are in the red: "
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_beautiful",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tremendous",
+        "open_thank_you_for_your_attention",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "kw_tariffs_2plus",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_interest_rate",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }

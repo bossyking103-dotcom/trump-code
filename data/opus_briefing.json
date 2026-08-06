@@ -1,50 +1,129 @@
 {
-  "date": "2026-08-05",
-  "prepared_at": "2026-08-05T20:45:16Z",
+  "date": "2026-08-06",
+  "prepared_at": "2026-08-06T05:45:12Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "I was 28-1 last night on Endorsements, and numerous of them were outliers, but if you studied the Fake News, you would think it was just the opposite, 1-28. All they talked about was the one, and that",
-    "earliest_time": "2026-08-05T04:35:07.024Z",
-    "latest_time": "2026-08-05T20:16:40.914Z",
+    "count": 5,
+    "latest": "Cash is king: Washington Republicans bankroll midterms as National Democrat coffers are in the red: https://justthenews.com/politics-policy/elections/cash-king-republicans-bankroll-midterms-democrat-c",
+    "earliest_time": "2026-08-06T00:28:41.148Z",
+    "latest_time": "2026-08-06T04:40:54.904Z",
     "sample": [
       {
-        "time": "04:35",
-        "text": "Scott Bessent interviewed by Joe Kernen!https://www.cnbc.com/video/2026/08/04/watch-cnbcs-full-interview-with-treasury-secretary-scott-bessent.html"
+        "time": "00:28",
+        "text": "Michael Moore, the failed political \"pundit\" who has been losing to me for years, was ranting that, \"We lost in 2024, and just can't take it anymore.\" No Michael, just get used to more losing! You've been a Loser all your life, and nothing's going to change. Abdul, your new Communist Comrade, will n"
       },
       {
-        "time": "13:28",
-        "text": "Wayne County (Detroit) in Michigan is one of the most corrupt voting areas in the United States, if not the World. It is strictly Third World! Miracles happen in Wayne County, including more votes being cast than there are voters, by a lot. Therefore, the Communist, who is not liked in Detroit, is p"
+        "time": "00:34",
+        "text": "The U.S. has massive amounts of “munitions,” especially of certain types. Additionally, large amounts are being manufactured and shipped to the U.S. as needed. Defense companies are building the largest number of plants and factories in our country’s history. The “leakers” of these treasonous statem"
       },
       {
-        "time": "14:10",
-        "text": "Great news for the Republican Party. El-Sayed, a Communist loser who hates Jews and Israel, is the projected winner in his race with the Socialist. As usual, the Polls were way off on this one. She was not expected to do nearly as well as she did. Now, the Dumocrats crazy policies will only get wors"
+        "time": "04:03",
+        "text": "So beautiful! D.C. is better than ever. Tender, loving care! President DJT"
       },
       {
-        "time": "20:16",
-        "text": "I was 28-1 last night on Endorsements, and numerous of them were outliers, but if you studied the Fake News, you would think it was just the opposite, 1-28. All they talked about was the one, and that's why they call it the FAKE NEWS! President DJT"
+        "time": "04:34",
+        "text": "The U.S. has massive amounts of \"munitions,\" especially of certain types. Additionally, large amounts are being manufactured and shipped to the U.S. as needed. Defense companies are building the largest number of plants and factories in our country's history. The \"leakers\" of these treasonous statem"
+      },
+      {
+        "time": "04:40",
+        "text": "Cash is king: Washington Republicans bankroll midterms as National Democrat coffers are in the red: https://justthenews.com/politics-policy/elections/cash-king-republicans-bankroll-midterms-democrat-coffers-are-red"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_medium": true,
+    "avg_len_long": true,
     "caps_low": true,
     "excl_normal": true,
     "questions_no": true,
-    "kw_israel": true,
-    "open_israel": true,
+    "mostly_premarket": true,
+    "has_night": true,
+    "kw_trade": true,
+    "kw_ban": true,
+    "pre_ban": true,
+    "kw_dow": true,
+    "kw_dow_2plus": true,
+    "pre_dow": true,
     "kw_great": true,
-    "open_great": true,
-    "kw_fake": true,
-    "kw_fake_2plus": true,
-    "pre_fake": true,
-    "kw_corrupt": true,
-    "pre_corrupt": true,
+    "kw_tremendous": true,
+    "kw_beautiful": true,
+    "pre_beautiful": true,
+    "kw_golden_age": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
+    "volume_falling_3d": true,
     "volume_drop": true
+  },
+  "triggered_rules": {
+    "total": 5,
+    "long": 5,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0032",
+        "features": [
+          "kw_beautiful",
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0046",
+        "features": [
+          "kw_dow_2plus",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0055",
+        "features": [
+          "kw_tremendous",
+          "open_thank_you_for_your_attention",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0063",
+        "features": [
+          "kw_beautiful",
+          "kw_tariffs_2plus",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0093",
+        "features": [
+          "kw_interest_rate",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -159,22 +238,32 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-08-05",
-    "crossover": 11,
-    "mutation": 12,
+    "date": "2026-08-06",
+    "crossover": 16,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 39,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "open_china"
+          "kw_tariffs",
+          "kw_signed"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 90.9,
+        "score": 92.3,
         "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "open_thank_you_for_your_attention",
+          "open_inflation"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "crossover"
       },
       {
         "features": [
@@ -185,16 +274,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "excl_heavy"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
       }
     ]
   },
