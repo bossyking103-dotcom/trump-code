@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-06T17:45:07Z",
+  "timestamp": "2026-08-06T20:45:05Z",
   "sources": {
     "cnn": {
       "status": "ok",
@@ -30,7 +30,7 @@
   },
   "merge": {
     "primary_source": "cnn",
-    "total_posts": 7665,
-    "added_from_others": 1
+    "total_posts": 7668,
+    "added_from_others": 4
   }
 }

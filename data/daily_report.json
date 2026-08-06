@@ -1,13 +1,15 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T17:45:07Z",
-  "posts_today": 5,
+  "generated_at": "2026-08-06T20:45:05Z",
+  "posts_today": 8,
   "latest_post": {
-    "time": "2026-08-06T12:51",
-    "content_preview": "The Fake News, as usual, is spreading false and completely unfounded rumors. I am extremely happy wi"
+    "time": "2026-08-06T16:39",
+    "content_preview": "Abdulrahman Mohamed El-Sayed wants to terminate the Filibuster, and so do I — At least we have somet"
   },
   "signals_detected": [
-    "IRAN"
+    "TARIFF",
+    "IRAN",
+    "TARIFF_ONLY"
   ],
   "models_triggered": 6,
   "direction_summary": {
@@ -22,25 +24,14 @@
   },
   "sp500_latest": {
     "date": "2026-08-06",
-    "close": 7704.84
+    "close": 7709.96
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-06\nPosts today: 5 | Models triggered: 6\nSignals: IRAN\nConsensus: 6 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: The Fake News, as usual, is spreading false and completely unfounded rumors. I am extremely happy wi",
-    "zh": "川普密碼每日報告 -- 2026-08-06\n今日推文: 5 篇 | 觸發模型: 6 組\n偵測信號: 伊朗\n共識方向: 6 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: The Fake News, as usual, is spreading false and completely unfounded rumors. I am extremely happy wi",
-    "ja": "トランプ・コード日次レポート -- 2026-08-06\n本日の投稿: 5件 | トリガーモデル: 6組\n検出シグナル: イラン\nコンセンサス: 6組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: The Fake News, as usual, is spreading false and completely unfounded rumors. I am extremely happy wi"
+    "en": "Trump Code Daily Report -- 2026-08-06\nPosts today: 8 | Models triggered: 6\nSignals: TARIFF, IRAN, TARIFF_ONLY\nConsensus: 6 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Abdulrahman Mohamed El-Sayed wants to terminate the Filibuster, and so do I — At least we have somet",
+    "zh": "川普密碼每日報告 -- 2026-08-06\n今日推文: 8 篇 | 觸發模型: 6 組\n偵測信號: 關稅, 伊朗, 只有關稅沒有Deal\n共識方向: 6 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Abdulrahman Mohamed El-Sayed wants to terminate the Filibuster, and so do I — At least we have somet",
+    "ja": "トランプ・コード日次レポート -- 2026-08-06\n本日の投稿: 8件 | トリガーモデル: 6組\n検出シグナル: 関税, イラン, 関税のみ（Deal無し）\nコンセンサス: 6組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Abdulrahman Mohamed El-Sayed wants to terminate the Filibuster, and so do I — At least we have somet"
   },
   "triggered_rules_sample": [
-    {
-      "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
     {
       "features": [
         "kw_beautiful",
@@ -76,7 +67,8 @@
     },
     {
       "features": [
-        "kw_interest_rate",
+        "kw_signed",
+        "open_tariff",
         "volume_falling_3d"
       ],
       "direction": "LONG",
@@ -86,12 +78,22 @@
     },
     {
       "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "kw_tremendous"
+        "kw_signed",
+        "kw_tariff",
+        "volume_falling_3d"
       ],
       "direction": "LONG",
-      "hold": 3,
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_interest_rate",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
       "train_wr": 100.0,
       "test_wr": 100.0
     }

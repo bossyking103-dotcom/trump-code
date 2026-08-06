@@ -5961,5 +5961,18 @@
       "IRAN"
     ],
     "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-08-06",
+    "posts": 8,
+    "triggered": 6,
+    "long": 6,
+    "short": 0,
+    "signals": [
+      "TARIFF",
+      "IRAN",
+      "TARIFF_ONLY"
+    ],
+    "consensus": "BULLISH"
   }
 ]
