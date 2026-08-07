@@ -1,16 +1,20 @@
 {
   "date": "2026-08-07",
-  "prepared_at": "2026-08-07T08:45:12Z",
+  "prepared_at": "2026-08-07T11:45:35Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "Donald Trump Won The Iran War: https://www.19fortyfive.com/2026/08/donald-trump-won-the-iran-war/",
+    "count": 2,
+    "latest": "New evidence further undermines claim that 2020 election was ‘most secure’ in history: https://justthenews.com/politics-policy/elections/new-evidence-further-undermines-claim-2020-election-was-most-se",
     "earliest_time": "2026-08-07T01:57:16.216Z",
-    "latest_time": "2026-08-07T01:57:16.216Z",
+    "latest_time": "2026-08-07T07:34:00.000Z",
     "sample": [
       {
         "time": "01:57",
         "text": "Donald Trump Won The Iran War: https://www.19fortyfive.com/2026/08/donald-trump-won-the-iran-war/"
+      },
+      {
+        "time": "07:34",
+        "text": "New evidence further undermines claim that 2020 election was ‘most secure’ in history: https://justthenews.com/politics-policy/elections/new-evidence-further-undermines-claim-2020-election-was-most-secure"
       }
     ]
   },
@@ -19,7 +23,7 @@
   ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_short": true,
+    "avg_len_medium": true,
     "caps_low": true,
     "excl_none": true,
     "questions_no": true,
@@ -143,41 +147,41 @@
   "evolution_latest": {
     "date": "2026-08-07",
     "crossover": 16,
-    "mutation": 13,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_president_of_the_united_states",
-          "kw_tremendous",
-          "kw_agreement"
+          "kw_thank_you_for_your_attention",
+          "open_energy",
+          "questions_yes"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 100.0,
-        "origin": "mutation_replace"
-      },
-      {
-        "features": [
-          "kw_economy",
-          "open_president_of_the_united_states"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
+        "hold": 1,
+        "score": 93.8,
         "origin": "crossover"
       },
       {
         "features": [
-          "open_china",
+          "kw_tariff",
+          "kw_signed"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.6,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
           "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "mutation_remove"
+        "origin": "distilled"
       }
     ]
   },
