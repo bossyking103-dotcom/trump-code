@@ -1,21 +1,19 @@
 {
-  "date": "2026-08-06",
-  "generated_at": "2026-08-06T20:45:05Z",
-  "posts_today": 8,
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T05:45:07Z",
+  "posts_today": 1,
   "latest_post": {
-    "time": "2026-08-06T16:39",
-    "content_preview": "Abdulrahman Mohamed El-Sayed wants to terminate the Filibuster, and so do I — At least we have somet"
+    "time": "2026-08-07T01:57",
+    "content_preview": "Donald Trump Won The Iran War: https://www.19fortyfive.com/2026/08/donald-trump-won-the-iran-war/"
   },
   "signals_detected": [
-    "TARIFF",
-    "IRAN",
-    "TARIFF_ONLY"
+    "IRAN"
   ],
-  "models_triggered": 6,
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 6,
+    "LONG": 0,
     "SHORT": 0,
-    "consensus": "BULLISH"
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 127,
@@ -27,75 +25,9 @@
     "close": 7709.96
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-06\nPosts today: 8 | Models triggered: 6\nSignals: TARIFF, IRAN, TARIFF_ONLY\nConsensus: 6 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Abdulrahman Mohamed El-Sayed wants to terminate the Filibuster, and so do I — At least we have somet",
-    "zh": "川普密碼每日報告 -- 2026-08-06\n今日推文: 8 篇 | 觸發模型: 6 組\n偵測信號: 關稅, 伊朗, 只有關稅沒有Deal\n共識方向: 6 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Abdulrahman Mohamed El-Sayed wants to terminate the Filibuster, and so do I — At least we have somet",
-    "ja": "トランプ・コード日次レポート -- 2026-08-06\n本日の投稿: 8件 | トリガーモデル: 6組\n検出シグナル: 関税, イラン, 関税のみ（Deal無し）\nコンセンサス: 6組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Abdulrahman Mohamed El-Sayed wants to terminate the Filibuster, and so do I — At least we have somet"
+    "en": "Trump Code Daily Report -- 2026-08-07\nPosts today: 1 | Models triggered: 0\nSignals: IRAN\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Donald Trump Won The Iran War: https://www.19fortyfive.com/2026/08/donald-trump-won-the-iran-war/",
+    "zh": "川普密碼每日報告 -- 2026-08-07\n今日推文: 1 篇 | 觸發模型: 0 組\n偵測信號: 伊朗\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Donald Trump Won The Iran War: https://www.19fortyfive.com/2026/08/donald-trump-won-the-iran-war/",
+    "ja": "トランプ・コード日次レポート -- 2026-08-07\n本日の投稿: 1件 | トリガーモデル: 0組\n検出シグナル: イラン\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Donald Trump Won The Iran War: https://www.19fortyfive.com/2026/08/donald-trump-won-the-iran-war/"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_beautiful",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tremendous",
-        "open_thank_you_for_your_attention",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "kw_tariffs_2plus",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_signed",
-        "open_tariff",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_signed",
-        "kw_tariff",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_interest_rate",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }

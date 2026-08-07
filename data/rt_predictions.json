@@ -7363,7 +7363,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1785992417",
@@ -7438,7 +7438,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1786033450",
@@ -7744,6 +7744,165 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.48,
     "trump_coin_24h_change": 0.53,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1786054505",
+    "created_at": "2026-08-06T22:15:05Z",
+    "post_time": "2026-08-06T20:38:27.627Z",
+    "post_preview": "Trump allies push to arm president with new tariff weapon to punish countries 'ripping off' America: https://www.foxnews.com/politics/trump-allies-push-arm-president-new-tariff-weapon-punish-countries",
+    "signals": [
+      {
+        "type": "TARIFF",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "tariff"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "punish"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "TARIFF",
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0065
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9935
+      },
+      {
+        "token_id": "650944896289481456987132805384",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from July 31 to August 7, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "624043090250214872455552711685",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from July 31 to August 7, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "944661607701939812338038087240",
+        "question": "Will Donald Trump post 20-39 Truth Social posts from July 31 to August 7, 2026?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0065,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.48,
+    "trump_coin_24h_change": 1.15,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1786054505",
+    "created_at": "2026-08-06T22:15:05Z",
+    "post_time": "2026-08-06T16:51:15.283Z",
+    "post_preview": "The Fake News, as usual, is spreading false and completely unfounded rumors. I am extremely happy with the job that Pete Hegseth is doing. Everything has been extraordinary, including our attack on Ve",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "worst"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0065
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9935
+      },
+      {
+        "token_id": "650944896289481456987132805384",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from July 31 to August 7, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "624043090250214872455552711685",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from July 31 to August 7, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "944661607701939812338038087240",
+        "question": "Will Donald Trump post 20-39 Truth Social posts from July 31 to August 7, 2026?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0065,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.48,
+    "trump_coin_24h_change": 1.15,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,

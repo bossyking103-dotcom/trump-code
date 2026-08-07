@@ -1,176 +1,32 @@
 {
-  "date": "2026-08-06",
-  "prepared_at": "2026-08-06T20:45:10Z",
+  "date": "2026-08-07",
+  "prepared_at": "2026-08-07T05:45:12Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 8,
-    "latest": "Abdulrahman Mohamed El-Sayed wants to terminate the Filibuster, and so do I — At least we have something in common! President DONALD J. TRUMP",
-    "earliest_time": "2026-08-06T00:28:41.148Z",
-    "latest_time": "2026-08-06T16:39:00.000Z",
+    "count": 1,
+    "latest": "Donald Trump Won The Iran War: https://www.19fortyfive.com/2026/08/donald-trump-won-the-iran-war/",
+    "earliest_time": "2026-08-07T01:57:16.216Z",
+    "latest_time": "2026-08-07T01:57:16.216Z",
     "sample": [
       {
-        "time": "00:28",
-        "text": "Michael Moore, the failed political \"pundit\" who has been losing to me for years, was ranting that, \"We lost in 2024, and just can't take it anymore.\" No Michael, just get used to more losing! You've been a Loser all your life, and nothing's going to change. Abdul, your new Communist Comrade, will n"
-      },
-      {
-        "time": "04:03",
-        "text": "So beautiful! D.C. is better than ever. Tender, loving care! President DJT"
-      },
-      {
-        "time": "04:34",
-        "text": "The U.S. has massive amounts of \"munitions,\" especially of certain types. Additionally, large amounts are being manufactured and shipped to the U.S. as needed. Defense companies are building the largest number of plants and factories in our country's history. The \"leakers\" of these treasonous statem"
-      },
-      {
-        "time": "04:40",
-        "text": "Cash is king: Washington Republicans bankroll midterms as National Democrat coffers are in the red: https://justthenews.com/politics-policy/elections/cash-king-republicans-bankroll-midterms-democrat-coffers-are-red"
-      },
-      {
-        "time": "12:51",
-        "text": "The Fake News, as usual, is spreading false and completely unfounded rumors. I am extremely happy with the job that Pete Hegseth is doing. Everything has been extraordinary, including our attack on Venezuela, where the result was accomplished in less than one day, allowing us to bring one of the wor"
-      },
-      {
-        "time": "16:06",
-        "text": "For our Great Republican Senators, friends of mine “all,” please be advised that the Communist Dumocrat Senate Candidate from Michigan, Abdulrahman Mohamed El-Sayed, is touting, as perhaps his single most important point, the Termination of the Filibuster. I watched yesterday, and he’s gone Terminat"
-      },
-      {
-        "time": "16:38",
-        "text": "Trump allies push to arm president with new tariff weapon to punish countries 'ripping off' America: https://www.foxnews.com/politics/trump-allies-push-arm-president-new-tariff-weapon-punish-countries-ripping-off-america"
-      },
-      {
-        "time": "16:39",
-        "text": "Abdulrahman Mohamed El-Sayed wants to terminate the Filibuster, and so do I — At least we have something in common! President DONALD J. TRUMP"
+        "time": "01:57",
+        "text": "Donald Trump Won The Iran War: https://www.19fortyfive.com/2026/08/donald-trump-won-the-iran-war/"
       }
     ]
   },
   "keyword_signals": [
-    "TARIFF",
-    "IRAN",
-    "TARIFF_ONLY"
+    "IRAN"
   ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_long": true,
+    "posts_1_5": true,
+    "avg_len_short": true,
     "caps_low": true,
-    "excl_normal": true,
+    "excl_none": true,
     "questions_no": true,
     "has_night": true,
-    "kw_tariff": true,
-    "open_tariff": true,
-    "kw_trade": true,
-    "kw_ban": true,
-    "pre_ban": true,
     "kw_iran": true,
-    "pre_iran": true,
-    "kw_dow": true,
-    "pre_dow": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_tremendous": true,
-    "kw_tremendous_2plus": true,
-    "pre_tremendous": true,
-    "kw_historic": true,
-    "pre_historic": true,
-    "kw_beautiful": true,
-    "pre_beautiful": true,
-    "kw_fake": true,
-    "pre_fake": true,
-    "kw_worst": true,
-    "pre_worst": true,
-    "kw_golden_age": true,
-    "kw_filibuster": true,
-    "kw_filibuster_2plus": true,
-    "open_filibuster": true,
-    "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "pre_president_djt": true,
-    "volume_falling_3d": true,
-    "tariff_without_deal": true,
-    "tariff_no_deal": true
-  },
-  "triggered_rules": {
-    "total": 6,
-    "long": 6,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0032",
-        "features": [
-          "kw_beautiful",
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0055",
-        "features": [
-          "kw_tremendous",
-          "open_thank_you_for_your_attention",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0063",
-        "features": [
-          "kw_beautiful",
-          "kw_tariffs_2plus",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0071",
-        "features": [
-          "kw_signed",
-          "open_tariff",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0080",
-        "features": [
-          "kw_signed",
-          "kw_tariff",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0093",
-        "features": [
-          "kw_interest_rate",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "is_friday": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -285,21 +141,31 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-08-06",
+    "date": "2026-08-07",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tariffs",
-          "kw_signed"
+          "kw_signed",
+          "kw_tariffs"
         ],
         "direction": "LONG",
         "hold": 2,
         "score": 92.3,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_signed",
+          "kw_tariff"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.6,
         "origin": "mutation_remove"
       },
       {
@@ -310,16 +176,6 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_deal",
-          "kw_signed"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 87.5,
         "origin": "crossover"
       }
     ]
