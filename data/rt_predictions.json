@@ -7513,7 +7513,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1786033755",
@@ -7588,7 +7588,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1786035578",
@@ -7663,7 +7663,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1786049001",
@@ -7747,7 +7747,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1786054505",
@@ -7831,7 +7831,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1786054505",
@@ -7903,6 +7903,1056 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.48,
     "trump_coin_24h_change": 1.15,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786122365",
+    "created_at": "2026-08-07T17:06:05Z",
+    "post_time": "2026-08-07T16:48:48.345Z",
+    "post_preview": "Two Obama and Biden Appellate Court Judges just voted against the desperately needed Military Center, required for the National Security of Washington, D.C., and our Country, itself. Highly Respected ",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0075
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9925
+      },
+      {
+        "token_id": "111684210760690516046878592609",
+        "question": "Will Trump say \"Job\" 15+ times during Friday roundtable?",
+        "price_at_signal": 0.47
+      },
+      {
+        "token_id": "789565322828452758188000103060",
+        "question": "Will Trump say \"Job\" 15+ times during Friday roundtable?",
+        "price_at_signal": 0.53
+      },
+      {
+        "token_id": "452369299699813124155607693935",
+        "question": "Will Trump say \"Million\" or \"Billion\" 15+ times during Friday roundtable?",
+        "price_at_signal": 0.48
+      }
+    ],
+    "pm_price_at_signal": 0.0075,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.47,
+    "trump_coin_24h_change": -0.69,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786136404",
+    "created_at": "2026-08-07T21:00:04Z",
+    "post_time": "2026-08-07T20:52:50.085Z",
+    "post_preview": "THE PROTECT COLLEGE SPORTS ACT is a great Bill, and the Senate will hopefully stay in D.C. until it passes. Without this Bill, millions of young Athletes will be hurt, programs will be canceled, Women",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0075
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9925
+      },
+      {
+        "token_id": "111684210760690516046878592609",
+        "question": "Will Trump say \"Job\" 15+ times during Friday roundtable?",
+        "price_at_signal": 0.0045
+      },
+      {
+        "token_id": "789565322828452758188000103060",
+        "question": "Will Trump say \"Job\" 15+ times during Friday roundtable?",
+        "price_at_signal": 0.9955
+      },
+      {
+        "token_id": "452369299699813124155607693935",
+        "question": "Will Trump say \"Million\" or \"Billion\" 15+ times during Friday roundtable?",
+        "price_at_signal": 0.995
+      }
+    ],
+    "pm_price_at_signal": 0.0075,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.49,
+    "trump_coin_24h_change": 0.74,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786219468",
+    "created_at": "2026-08-08T20:04:28Z",
+    "post_time": "2026-08-08T19:51:34.985Z",
+    "post_preview": "Cash is king: Washington Republicans bankroll midterms as National Democrat coffers are in the red: https://justthenews.com/politics-policy/elections/cash-king-republicans-bankroll-midterms-democrat-c",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0065
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9935
+      },
+      {
+        "token_id": "657564868728897170477629378872",
+        "question": "Will Trump meet with Kim Jong Un in August 2026?",
+        "price_at_signal": 0.0105
+      },
+      {
+        "token_id": "696751408452833730771216518354",
+        "question": "Will Trump meet with Kim Jong Un in August 2026?",
+        "price_at_signal": 0.9895
+      },
+      {
+        "token_id": "953054972213124939498237431080",
+        "question": "Will Trump meet with Volodymyr Zelenskyy in August 2026?",
+        "price_at_signal": 0.1
+      }
+    ],
+    "pm_price_at_signal": 0.0065,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.5,
+    "trump_coin_24h_change": 0.27,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786311272",
+    "created_at": "2026-08-09T21:34:32Z",
+    "post_time": "2026-08-09T21:27:32.150Z",
+    "post_preview": "It is my Great Honor to announce that, effective September 1st, Will Scharf will become Assistant to the President and White House Counsel, replacing a man, David Warrington, who has done a truly outs",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "effective"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0065
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9935
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.0035
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.9965
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.0035
+      }
+    ],
+    "pm_price_at_signal": 0.0065,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.51,
+    "trump_coin_24h_change": 1.06,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786313834",
+    "created_at": "2026-08-09T22:17:14Z",
+    "post_time": "2026-08-09T22:10:43.319Z",
+    "post_preview": "ALERT: A National Park Service career employee, a highly credible witness, saw David Hearn (ActBlue) in broad daylight vandalize the Reflecting Pool by \"violently\" ripping and tugging at the Pool's so",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0065
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9935
+      },
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.065
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.935
+      },
+      {
+        "token_id": "788014931360082871387052809522",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from August 7 to August 14, 2026?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0065,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.53,
+    "trump_coin_24h_change": 2.28,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786343002",
+    "created_at": "2026-08-10T06:23:22Z",
+    "post_time": "2026-08-09T22:10:43.319Z",
+    "post_preview": "ALERT: A National Park Service career employee, a highly credible witness, saw David Hearn (ActBlue) in broad daylight vandalize the Reflecting Pool by \"violently\" ripping and tugging at the Pool's so",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0065
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9935
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.002
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.998
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.0035
+      }
+    ],
+    "pm_price_at_signal": 0.0065,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.5,
+    "trump_coin_24h_change": 0.9,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786343002",
+    "created_at": "2026-08-10T06:23:22Z",
+    "post_time": "2026-08-09T21:27:32.150Z",
+    "post_preview": "It is my Great Honor to announce that, effective September 1st, Will Scharf will become Assistant to the President and White House Counsel, replacing a man, David Warrington, who has done a truly outs",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "effective"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0065
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9935
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.002
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.998
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.0035
+      }
+    ],
+    "pm_price_at_signal": 0.0065,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.5,
+    "trump_coin_24h_change": 0.9,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786343002",
+    "created_at": "2026-08-10T06:23:22Z",
+    "post_time": "2026-08-08T19:51:34.985Z",
+    "post_preview": "Cash is king: Washington Republicans bankroll midterms as National Democrat coffers are in the red: https://justthenews.com/politics-policy/elections/cash-king-republicans-bankroll-midterms-democrat-c",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0065
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9935
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.002
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.998
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.0035
+      }
+    ],
+    "pm_price_at_signal": 0.0065,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.5,
+    "trump_coin_24h_change": 0.9,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786384759",
+    "created_at": "2026-08-10T17:59:19Z",
+    "post_time": "2026-08-10T17:37:05.208Z",
+    "post_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117072168149236615Also, with respect to the Iran negotiations, Iran should be responsible for the damages and death caused to the people of L",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "109326185006435726496988712935",
+        "question": "Will Trump say \"Lindsey\" 5+ times during Tele-Rally?",
+        "price_at_signal": 0.51
+      },
+      {
+        "token_id": "545307203760263904645320273360",
+        "question": "Will Trump say \"Lindsey\" 5+ times during Tele-Rally?",
+        "price_at_signal": 0.49
+      },
+      {
+        "token_id": "288581925944195703413981057561",
+        "question": "Will Trump say \"Stop\" during Tele-Rally?",
+        "price_at_signal": 0.625
+      }
+    ],
+    "pm_price_at_signal": 0.0055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.49,
+    "trump_coin_24h_change": -1.98,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786403271",
+    "created_at": "2026-08-10T23:07:51Z",
+    "post_time": "2026-08-10T23:06:06.106Z",
+    "post_preview": "Congressman Brad Finstad is a fantastic Representative of Minnesota's 1st Congressional District! A Fourth Generation Family Farmer, and Member of the House Agriculture Committee, Brad is a strong and",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "effective"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "109326185006435726496988712935",
+        "question": "Will Trump say \"Lindsey\" 5+ times during Tele-Rally?",
+        "price_at_signal": 0.19
+      },
+      {
+        "token_id": "545307203760263904645320273360",
+        "question": "Will Trump say \"Lindsey\" 5+ times during Tele-Rally?",
+        "price_at_signal": 0.81
+      },
+      {
+        "token_id": "288581925944195703413981057561",
+        "question": "Will Trump say \"Stop\" during Tele-Rally?",
+        "price_at_signal": 0.495
+      }
+    ],
+    "pm_price_at_signal": 0.0055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.48,
+    "trump_coin_24h_change": -1.32,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786403271",
+    "created_at": "2026-08-10T23:07:51Z",
+    "post_time": "2026-08-10T23:04:12.133Z",
+    "post_preview": "Congressman Tony Wied is an America First Patriot and Tremendous Champion for the incredible people of Wisconsin's 8th Congressional District! As a very successful Businessman, Tony knows the America ",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "109326185006435726496988712935",
+        "question": "Will Trump say \"Lindsey\" 5+ times during Tele-Rally?",
+        "price_at_signal": 0.19
+      },
+      {
+        "token_id": "545307203760263904645320273360",
+        "question": "Will Trump say \"Lindsey\" 5+ times during Tele-Rally?",
+        "price_at_signal": 0.81
+      },
+      {
+        "token_id": "288581925944195703413981057561",
+        "question": "Will Trump say \"Stop\" during Tele-Rally?",
+        "price_at_signal": 0.495
+      }
+    ],
+    "pm_price_at_signal": 0.0055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.48,
+    "trump_coin_24h_change": -1.32,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786412846",
+    "created_at": "2026-08-11T01:47:26Z",
+    "post_time": "2026-08-11T01:31:23.006Z",
+    "post_preview": "FIFA would be making a terrible mistake if, for any reason, they even considered replacing President Gianni Infantino. He is fantastic, having just presided over the most successful World Cup, by four",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "terrible"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "109326185006435726496988712935",
+        "question": "Will Trump say \"Lindsey\" 5+ times during Tele-Rally?",
+        "price_at_signal": 0.18
+      },
+      {
+        "token_id": "545307203760263904645320273360",
+        "question": "Will Trump say \"Lindsey\" 5+ times during Tele-Rally?",
+        "price_at_signal": 0.82
+      },
+      {
+        "token_id": "288581925944195703413981057561",
+        "question": "Will Trump say \"Stop\" during Tele-Rally?",
+        "price_at_signal": 0.49
+      }
+    ],
+    "pm_price_at_signal": 0.0055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.49,
+    "trump_coin_24h_change": 0.22,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786415762",
+    "created_at": "2026-08-11T02:36:02Z",
+    "post_time": "2026-08-11T02:31:44.520Z",
+    "post_preview": "Chandler Hall, representing, on Television, the foolish Center for American Lack of Progress, stated that adding the National Guard to Cities, including our now Great Again, Washington, D.C., had \"NO ",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "109326185006435726496988712935",
+        "question": "Will Trump say \"Lindsey\" 5+ times during Tele-Rally?",
+        "price_at_signal": 0.185
+      },
+      {
+        "token_id": "545307203760263904645320273360",
+        "question": "Will Trump say \"Lindsey\" 5+ times during Tele-Rally?",
+        "price_at_signal": 0.815
+      },
+      {
+        "token_id": "288581925944195703413981057561",
+        "question": "Will Trump say \"Stop\" during Tele-Rally?",
+        "price_at_signal": 0.47
+      }
+    ],
+    "pm_price_at_signal": 0.0055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.5,
+    "trump_coin_24h_change": 0.91,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1786463252",
+    "created_at": "2026-08-11T15:47:32Z",
+    "post_time": "2026-08-11T15:38:30.963Z",
+    "post_preview": "The NYC Pied-a-Terre Tax is costing New York City and State a fortune in that the money, eventually to be gotten, is very little compared to to the TAXES PAID by the tens of thousands of people who ar",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "disaster"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "102774689041710140409241874839",
+        "question": "Will Trump visit North Korea by June 30?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "768932443211428446625483261454",
+        "question": "Will Trump visit North Korea by June 30?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "188730391231685338547847516098",
+        "question": "Will Trump visit North Korea by December 31?",
+        "price_at_signal": 0.076
+      }
+    ],
+    "pm_price_at_signal": 0.0055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.47,
+    "trump_coin_24h_change": -0.88,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,

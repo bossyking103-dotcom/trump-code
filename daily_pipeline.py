@@ -539,8 +539,17 @@ def scan_prediction_markets(signals: list) -> dict:
 # ============================================================
 # 步驟 8: 同步到 GitHub
 # ============================================================
+# 2026-08-07: Auto-push 已永久關閉（小瑋指令）
+# 保留函式骨架以維持管線流程，相關 git 操作全部短路。
+AUTO_PUSH_ENABLED = False
+
+
 def sync_to_github():
     log("6/6 同步到 GitHub...")
+    if not AUTO_PUSH_ENABLED:
+        log("   ⏸ Auto-push 已關閉（2026-08-07 小瑋指令），跳過 git commit/push")
+        log("   如需重新啟動，請將 AUTO_PUSH_ENABLED 改為 True")
+        return
     try:
         os.chdir(BASE)
 
