@@ -1,17 +1,17 @@
 {
-  "date": "2026-08-12",
-  "generated_at": "2026-08-12T08:45:24Z",
-  "posts_today": 11,
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T20:45:04Z",
+  "posts_today": 4,
   "latest_post": {
-    "time": "2026-08-11T21:21",
-    "content_preview": "Today, at my direction, Dr. Mehmet Oz announced that Medicaid will NO LONGER fund gender transition "
+    "time": "2026-08-27T18:31",
+    "content_preview": "GREAT NEWS! Micron, one of the \"HOTTEST\" Companies in the World, just announced a MASSIVE 10 BILLION"
   },
   "signals_detected": [],
-  "models_triggered": 10,
+  "models_triggered": 17,
   "direction_summary": {
-    "LONG": 3,
-    "SHORT": 7,
-    "consensus": "BEARISH"
+    "LONG": 17,
+    "SHORT": 0,
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 127,
@@ -19,20 +19,20 @@
     "rate": 18.9
   },
   "sp500_latest": {
-    "date": "2026-08-11",
-    "close": 7728.2
+    "date": "2026-08-27",
+    "close": 7730.99
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-12\nPosts today: 11 | Models triggered: 10\nSignals: None\nConsensus: 3 LONG vs 7 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Today, at my direction, Dr. Mehmet Oz announced that Medicaid will NO LONGER fund gender transition ",
-    "zh": "川普密碼每日報告 -- 2026-08-12\n今日推文: 11 篇 | 觸發模型: 10 組\n偵測信號: 無\n共識方向: 3 組看多 vs 7 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Today, at my direction, Dr. Mehmet Oz announced that Medicaid will NO LONGER fund gender transition ",
-    "ja": "トランプ・コード日次レポート -- 2026-08-12\n本日の投稿: 11件 | トリガーモデル: 10組\n検出シグナル: なし\nコンセンサス: 3組ロング vs 7組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Today, at my direction, Dr. Mehmet Oz announced that Medicaid will NO LONGER fund gender transition "
+    "en": "Trump Code Daily Report -- 2026-08-27\nPosts today: 4 | Models triggered: 17\nSignals: None\nConsensus: 17 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: GREAT NEWS! Micron, one of the \"HOTTEST\" Companies in the World, just announced a MASSIVE 10 BILLION",
+    "zh": "川普密碼每日報告 -- 2026-08-27\n今日推文: 4 篇 | 觸發模型: 17 組\n偵測信號: 無\n共識方向: 17 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: GREAT NEWS! Micron, one of the \"HOTTEST\" Companies in the World, just announced a MASSIVE 10 BILLION",
+    "ja": "トランプ・コード日次レポート -- 2026-08-27\n本日の投稿: 4件 | トリガーモデル: 17組\n検出シグナル: なし\nコンセンサス: 17組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: GREAT NEWS! Micron, one of the \"HOTTEST\" Companies in the World, just announced a MASSIVE 10 BILLION"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_perfect",
-        "kw_thank_you_for_your_attention",
-        "posts_11_20"
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -41,51 +41,51 @@
     },
     {
       "features": [
-        "both_tariff_and_deal",
-        "open_biden",
-        "open_disaster"
+        "excl_heavy",
+        "kw_interest_rate",
+        "kw_tremendous"
       ],
-      "direction": "SHORT",
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
       "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
     {
       "features": [
-        "kw_biden",
-        "kw_china",
-        "open_disaster"
+        "kw_economy",
+        "kw_interest_rate",
+        "kw_tremendous"
       ],
-      "direction": "SHORT",
-      "hold": 3,
+      "direction": "LONG",
+      "hold": 2,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
     {
       "features": [
-        "kw_china",
-        "open_biden",
-        "open_disaster"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "open_biden",
-        "open_disaster"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
+        "kw_energy",
         "open_interest_rate"
       ],
       "direction": "LONG",
@@ -95,7 +95,7 @@
     },
     {
       "features": [
-        "kw_dow_2plus",
+        "kw_energy",
         "open_dow",
         "open_interest_rate"
       ],
@@ -106,34 +106,110 @@
     },
     {
       "features": [
-        "both_tariff_and_deal",
-        "kw_disaster",
-        "kw_incredible"
+        "kw_interest_rate",
+        "open_energy"
       ],
-      "direction": "SHORT",
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_tremendous",
+        "open_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "open_trade",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "open_dow"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
       "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
     {
       "features": [
-        "both_tariff_and_deal",
-        "kw_biden",
-        "open_disaster"
+        "excl_heavy",
+        "kw_economy",
+        "kw_tariffs_2plus"
       ],
-      "direction": "SHORT",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_biden",
-        "kw_deal",
-        "open_disaster"
-      ],
-      "direction": "SHORT",
-      "hold": 3,
+      "direction": "LONG",
+      "hold": 2,
       "train_wr": 100.0,
       "test_wr": 100.0
     }
