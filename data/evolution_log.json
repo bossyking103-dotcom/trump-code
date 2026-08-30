@@ -26358,5 +26358,492 @@
         "origin": "crossover"
       }
     ]
+  },
+  {
+    "date": "2026-08-28",
+    "crossover": 16,
+    "mutation": 11,
+    "distill": 16,
+    "total_new": 43,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "excl_heavy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "is_friday",
+          "kw_signed"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "mutation_remove"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "crossover": 16,
+    "mutation": 16,
+    "distill": 16,
+    "total_new": 48,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_economy",
+          "excl_heavy",
+          "tariff_without_deal"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 100.0,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "crossover": 16,
+    "mutation": 15,
+    "distill": 16,
+    "total_new": 47,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_energy",
+          "kw_economy",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 90.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_china",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_india",
+          "kw_president_of_the_united_states"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "mutation_remove"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "crossover": 16,
+    "mutation": 14,
+    "distill": 16,
+    "total_new": 46,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "open_inflation"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_beautiful",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "crossover"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "crossover": 16,
+    "mutation": 14,
+    "distill": 16,
+    "total_new": 46,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "open_dow",
+          "kw_signed",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 93.8,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_china",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
+    "crossover": 16,
+    "mutation": 16,
+    "distill": 16,
+    "total_new": 48,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "questions_yes",
+          "open_dow",
+          "kw_signed"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "open_tariffs",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
+    "crossover": 10,
+    "mutation": 16,
+    "distill": 16,
+    "total_new": 42,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_tremendous",
+          "is_friday",
+          "kw_tariffs"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 92.9,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_signed",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "mutation_remove"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
+    "crossover": 16,
+    "mutation": 15,
+    "distill": 16,
+    "total_new": 47,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "is_friday",
+          "kw_signed"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "mutation_remove"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
+    "crossover": 16,
+    "mutation": 14,
+    "distill": 16,
+    "total_new": 46,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "is_friday",
+          "kw_trade",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 87.5,
+        "origin": "mutation_replace"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
+    "crossover": 16,
+    "mutation": 16,
+    "distill": 16,
+    "total_new": 48,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "pre_president_djt",
+          "kw_agreement"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 100.0,
+        "origin": "mutation_replace"
+      },
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "open_china"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_economy",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
+    "crossover": 16,
+    "mutation": 16,
+    "distill": 16,
+    "total_new": 48,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "open_thank_you_for_your_attention",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 93.8,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "is_friday",
+          "kw_oil"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 91.7,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_india",
+          "kw_president_of_the_united_states"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 90.0,
+        "origin": "crossover"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-30",
+    "crossover": 16,
+    "mutation": 16,
+    "distill": 16,
+    "total_new": 48,
+    "total_rules_after": 600,
+    "top_3": [
+      {
+        "features": [
+          "kw_europe",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 92.3,
+        "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "distilled"
+      }
+    ]
   }
 ]

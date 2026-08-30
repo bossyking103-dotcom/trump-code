@@ -1,15 +1,19 @@
 {
-  "date": "2026-08-27",
-  "generated_at": "2026-08-27T20:45:04Z",
-  "posts_today": 4,
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T05:45:05Z",
+  "posts_today": 10,
   "latest_post": {
-    "time": "2026-08-27T18:31",
-    "content_preview": "GREAT NEWS! Micron, one of the \"HOTTEST\" Companies in the World, just announced a MASSIVE 10 BILLION"
+    "time": "2026-08-29T18:43",
+    "content_preview": "NASA Administrator Jared Isaacman, Secretary of Education Linda McMahon, Stephanie McMahon, and Trip"
   },
-  "signals_detected": [],
-  "models_triggered": 17,
+  "signals_detected": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
+  "models_triggered": 4,
   "direction_summary": {
-    "LONG": 17,
+    "LONG": 4,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -19,20 +23,20 @@
     "rate": 18.9
   },
   "sp500_latest": {
-    "date": "2026-08-27",
-    "close": 7730.99
+    "date": "2026-08-28",
+    "close": 7711.76
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-27\nPosts today: 4 | Models triggered: 17\nSignals: None\nConsensus: 17 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: GREAT NEWS! Micron, one of the \"HOTTEST\" Companies in the World, just announced a MASSIVE 10 BILLION",
-    "zh": "川普密碼每日報告 -- 2026-08-27\n今日推文: 4 篇 | 觸發模型: 17 組\n偵測信號: 無\n共識方向: 17 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: GREAT NEWS! Micron, one of the \"HOTTEST\" Companies in the World, just announced a MASSIVE 10 BILLION",
-    "ja": "トランプ・コード日次レポート -- 2026-08-27\n本日の投稿: 4件 | トリガーモデル: 17組\n検出シグナル: なし\nコンセンサス: 17組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: GREAT NEWS! Micron, one of the \"HOTTEST\" Companies in the World, just announced a MASSIVE 10 BILLION"
+    "en": "Trump Code Daily Report -- 2026-08-30\nPosts today: 10 | Models triggered: 4\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 4 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: NASA Administrator Jared Isaacman, Secretary of Education Linda McMahon, Stephanie McMahon, and Trip",
+    "zh": "川普密碼每日報告 -- 2026-08-30\n今日推文: 10 篇 | 觸發模型: 4 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 4 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: NASA Administrator Jared Isaacman, Secretary of Education Linda McMahon, Stephanie McMahon, and Trip",
+    "ja": "トランプ・コード日次レポート -- 2026-08-30\n本日の投稿: 10件 | トリガーモデル: 4組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 4組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: NASA Administrator Jared Isaacman, Secretary of Education Linda McMahon, Stephanie McMahon, and Trip"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -41,9 +45,8 @@
     },
     {
       "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "kw_tremendous"
+        "kw_deal",
+        "kw_perfect"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -52,20 +55,8 @@
     },
     {
       "features": [
-        "kw_economy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
+        "kw_deal",
+        "kw_perfect"
       ],
       "direction": "LONG",
       "hold": 3,
@@ -74,142 +65,12 @@
     },
     {
       "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_interest_rate",
-        "open_energy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "open_energy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "kw_interest_rate",
-        "open_energy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_tremendous",
-        "open_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "open_trade",
-        "open_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "open_dow"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "kw_tremendous"
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
       "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_economy",
-        "kw_tariffs_2plus"
-      ],
-      "direction": "LONG",
-      "hold": 2,
       "train_wr": 100.0,
       "test_wr": 100.0
     }
