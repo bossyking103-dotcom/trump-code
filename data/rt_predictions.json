@@ -13552,5 +13552,1262 @@
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
     "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788092902",
+    "created_at": "2026-08-30T12:28:22Z",
+    "post_time": "2026-08-30T12:19:44.016Z",
+    "post_preview": "Trump's historic oil deal with Venezuela realigns global energy and puts OPEC, Canada on notice: https://justthenews.com/government/white-house/trump-announces-massive-oil-deal-venezuela",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "343231372212348733347410421913",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.37
+      },
+      {
+        "token_id": "541203850863424737789268487512",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.63
+      },
+      {
+        "token_id": "643961826931966216949654643223",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "675905273138308605425500218134",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "207029539163895344728729783910",
+        "question": "Will Trump praise Emmanuel Macron in August?",
+        "price_at_signal": 0.39
+      }
+    ],
+    "pm_price_at_signal": 0.37,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.55,
+    "trump_coin_24h_change": -6.18,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788092902",
+    "created_at": "2026-08-30T12:28:22Z",
+    "post_time": "2026-08-30T08:19:00.000Z",
+    "post_preview": "Trump’s historic oil deal with Venezuela realigns global energy and puts OPEC, Canada on notice: https://justthenews.com/government/white-house/trump-announces-massive-oil-deal-venezuela",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "343231372212348733347410421913",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.37
+      },
+      {
+        "token_id": "541203850863424737789268487512",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.63
+      },
+      {
+        "token_id": "643961826931966216949654643223",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "675905273138308605425500218134",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "207029539163895344728729783910",
+        "question": "Will Trump praise Emmanuel Macron in August?",
+        "price_at_signal": 0.39
+      }
+    ],
+    "pm_price_at_signal": 0.37,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.55,
+    "trump_coin_24h_change": -6.18,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788095629",
+    "created_at": "2026-08-30T13:13:49Z",
+    "post_time": "2026-08-30T13:00:03.668Z",
+    "post_preview": "Kristen Welker, the Unpopular \"Hostess\" of the once great Meet the Press, now considered Meet the Fake Press, just stated that Donald Trump has \"mixed results\" on his Endorsements of Candidates, when ",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "punish"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.001
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.999
+      },
+      {
+        "token_id": "343231372212348733347410421913",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.37
+      },
+      {
+        "token_id": "541203850863424737789268487512",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.63
+      },
+      {
+        "token_id": "643961826931966216949654643223",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.001,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.57,
+    "trump_coin_24h_change": -3.92,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788114191",
+    "created_at": "2026-08-30T18:23:11Z",
+    "post_time": "2026-08-30T18:16:09.434Z",
+    "post_preview": "When I announced that I was running in the 2024 Presidential Election, right at the beginning, Ford was getting ready to close their Big Factory, in Detroit. Then, because I was leading in the Polls, ",
+    "signals": [
+      {
+        "type": "TARIFF",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "tariff",
+          "tariffs"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "worst"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "TARIFF",
+      "DEAL",
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.8,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0005
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9995
+      },
+      {
+        "token_id": "343231372212348733347410421913",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.365
+      },
+      {
+        "token_id": "541203850863424737789268487512",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.635
+      },
+      {
+        "token_id": "643961826931966216949654643223",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.0005,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.54,
+    "trump_coin_24h_change": -4.51,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788114801",
+    "created_at": "2026-08-30T18:33:21Z",
+    "post_time": "2026-08-30T18:26:25.271Z",
+    "post_preview": "Let all Canadian Companies that are doing business with America move to the United States, immediately. Many of them are Companies that moved out years ago due to stupid U.S. Leadership. When you move",
+    "signals": [
+      {
+        "type": "TARIFF",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "tariff",
+          "tariffs"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "TARIFF",
+      "ACTION"
+    ],
+    "predicted_direction": "NEUTRAL",
+    "confidence": 0.3,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0005
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9995
+      },
+      {
+        "token_id": "343231372212348733347410421913",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.365
+      },
+      {
+        "token_id": "541203850863424737789268487512",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.635
+      },
+      {
+        "token_id": "643961826931966216949654643223",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.0005,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.56,
+    "trump_coin_24h_change": -3.75,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788136162",
+    "created_at": "2026-08-31T00:29:22Z",
+    "post_time": "2026-08-31T00:26:05.013Z",
+    "post_preview": "For many years, the USA has been losing more than 60 Billion Dollars a year with Canada. Why??? Our long ago stolen businesses are now coming back to America in order to avoid paying tariffs. They are",
+    "signals": [
+      {
+        "type": "TARIFF",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "tariff",
+          "tariffs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "TARIFF"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.8,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0005
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9995
+      },
+      {
+        "token_id": "657564868728897170477629378872",
+        "question": "Will Trump meet with Kim Jong Un in August 2026?",
+        "price_at_signal": 0.0005
+      },
+      {
+        "token_id": "696751408452833730771216518354",
+        "question": "Will Trump meet with Kim Jong Un in August 2026?",
+        "price_at_signal": 0.9995
+      },
+      {
+        "token_id": "953054972213124939498237431080",
+        "question": "Will Trump meet with Volodymyr Zelenskyy in August 2026?",
+        "price_at_signal": 0.0015
+      }
+    ],
+    "pm_price_at_signal": 0.0005,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.38,
+    "trump_coin_24h_change": -11.19,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788186002",
+    "created_at": "2026-08-31T14:20:02Z",
+    "post_time": "2026-08-31T13:59:35.393Z",
+    "post_preview": "The only reason that communities throughout the U.S.A. should not want Data Centers is if they want to end up being backwards and poor. If they want to be successful and rich, with far lower taxes and",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0005
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9995
+      },
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.065
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.935
+      },
+      {
+        "token_id": "657564868728897170477629378872",
+        "question": "Will Trump meet with Kim Jong Un in August 2026?",
+        "price_at_signal": 0.0005
+      }
+    ],
+    "pm_price_at_signal": 0.0005,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.37,
+    "trump_coin_24h_change": -7.16,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788190928",
+    "created_at": "2026-08-31T15:42:08Z",
+    "post_time": "2026-08-31T15:31:31.162Z",
+    "post_preview": "Biden-era 'ghost gun' restrictions ruled unconstitutional: https://thehill.com/regulation/court-battles/6037757-biden-ghost-gun-rule-unconstitutional/",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "restrict"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0005
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9995
+      },
+      {
+        "token_id": "657564868728897170477629378872",
+        "question": "Will Trump meet with Kim Jong Un in August 2026?",
+        "price_at_signal": 0.0005
+      },
+      {
+        "token_id": "696751408452833730771216518354",
+        "question": "Will Trump meet with Kim Jong Un in August 2026?",
+        "price_at_signal": 0.9995
+      },
+      {
+        "token_id": "953054972213124939498237431080",
+        "question": "Will Trump meet with Volodymyr Zelenskyy in August 2026?",
+        "price_at_signal": 0.001
+      }
+    ],
+    "pm_price_at_signal": 0.0005,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.4,
+    "trump_coin_24h_change": -5.13,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788214892",
+    "created_at": "2026-08-31T22:21:32Z",
+    "post_time": "2026-08-31T22:10:13.638Z",
+    "post_preview": "I just had a GREAT and very interesting meeting with my Hollywood Ambassador and Movie Legend, Jon Voight! He is a fantastic man who loves our Country, and feels strongly about the Motion Picture and ",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BULLISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BEARISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "disaster"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION",
+      "BULLISH",
+      "BEARISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "196497646033161874222672706186",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.0005
+      },
+      {
+        "token_id": "235378421659770463705747780866",
+        "question": "Trump out as President by August 31?",
+        "price_at_signal": 0.9995
+      },
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.065
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.935
+      },
+      {
+        "token_id": "724968364403936493142083591299",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.0005,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.43,
+    "trump_coin_24h_change": -2.91,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788283739",
+    "created_at": "2026-09-01T17:28:59Z",
+    "post_time": "2026-09-01T17:25:46.411Z",
+    "post_preview": "The United States is, as we speak, striking Iranian Targets near the Strait of Hormuz. The strikes are large and powerful, and in retaliation for the Iranians' failed attempt at adding sea mines to th",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "retaliate"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.055
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.945
+      },
+      {
+        "token_id": "343231372212348733347410421913",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.5
+      },
+      {
+        "token_id": "541203850863424737789268487512",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.5
+      },
+      {
+        "token_id": "643961826931966216949654643223",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.33,
+    "trump_coin_24h_change": -2.78,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788290904",
+    "created_at": "2026-09-01T19:28:24Z",
+    "post_time": "2026-09-01T19:23:36.011Z",
+    "post_preview": "It is my Great Honor to endorse America First Patriot, Zach Lahn, a tremendous Candidate running to be the next Governor of the Wonderful State of Iowa, a place I love and WON BIG in 2016, 2020, and 2",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "effective"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION",
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.055
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.945
+      },
+      {
+        "token_id": "343231372212348733347410421913",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.5
+      },
+      {
+        "token_id": "541203850863424737789268487512",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.5
+      },
+      {
+        "token_id": "643961826931966216949654643223",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.3,
+    "trump_coin_24h_change": -5.26,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788290904",
+    "created_at": "2026-09-01T19:28:24Z",
+    "post_time": "2026-09-01T19:23:16.690Z",
+    "post_preview": "Congresswoman Ashley Hinson is running for the United States Senate in Iowa, a State I love and WON BIG, THREE TIMES, in 2016, 2020, and 2024. I know Ashley well, and she is a WINNER! A Loving Wife an",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.055
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.945
+      },
+      {
+        "token_id": "343231372212348733347410421913",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.5
+      },
+      {
+        "token_id": "541203850863424737789268487512",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.5
+      },
+      {
+        "token_id": "643961826931966216949654643223",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.3,
+    "trump_coin_24h_change": -5.26,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788291525",
+    "created_at": "2026-09-01T19:38:45Z",
+    "post_time": "2026-09-01T19:31:21.489Z",
+    "post_preview": "It is my Great Honor to endorse MAGA Warrior, Joe Strada, who is running to represent the incredible people of Florida's 11th Congressional District! As a very successful Businessman and Entrepreneur,",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.055
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.945
+      },
+      {
+        "token_id": "343231372212348733347410421913",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.495
+      },
+      {
+        "token_id": "541203850863424737789268487512",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.505
+      },
+      {
+        "token_id": "643961826931966216949654643223",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.29,
+    "trump_coin_24h_change": -5.32,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788292165",
+    "created_at": "2026-09-01T19:49:25Z",
+    "post_time": "2026-09-01T19:39:33.960Z",
+    "post_preview": "Nvidia, Wall Street Firms Strike AI Financing Deal Targeting $500 Billion: https://www.wsj.com/business/deals/nvidia-wall-street-firms-strike-ai-financing-deal-targeting-500-billion-c50377db",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.055
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.945
+      },
+      {
+        "token_id": "343231372212348733347410421913",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.5
+      },
+      {
+        "token_id": "541203850863424737789268487512",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.5
+      },
+      {
+        "token_id": "643961826931966216949654643223",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.29,
+    "trump_coin_24h_change": -6.02,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788295684",
+    "created_at": "2026-09-01T20:48:04Z",
+    "post_time": "2026-09-01T20:43:00.966Z",
+    "post_preview": "Kathy Hochul, considered the Worst Governor in the Country, in a recent picture working hard to get the Arab Vote, even though they can't stand her! Congestion Pricing in Manhattan is hurting her with",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "worst"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.055
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.945
+      },
+      {
+        "token_id": "343231372212348733347410421913",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.505
+      },
+      {
+        "token_id": "541203850863424737789268487512",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.495
+      },
+      {
+        "token_id": "643961826931966216949654643223",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.27,
+    "trump_coin_24h_change": -7.72,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1788313001",
+    "created_at": "2026-09-02T01:36:41Z",
+    "post_time": "2026-09-02T01:13:08.802Z",
+    "post_preview": "I'm not trying to force Iran to the bargaining table, as ABC Fake News reported. I couldn't care less if they sign a worthless, to them, agreement. I like our position now much better, with almost tot",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "agreement"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.055
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.945
+      },
+      {
+        "token_id": "343231372212348733347410421913",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.5
+      },
+      {
+        "token_id": "541203850863424737789268487512",
+        "question": "Will Trump praise Benjamin Netanyahu in August?",
+        "price_at_signal": 0.5
+      },
+      {
+        "token_id": "643961826931966216949654643223",
+        "question": "Will Trump praise Zohran Mamdani in August?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.25,
+    "trump_coin_24h_change": -6.43,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
   }
 ]

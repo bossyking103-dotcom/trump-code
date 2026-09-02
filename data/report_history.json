@@ -7285,5 +7285,167 @@
       "DEAL_ONLY"
     ],
     "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-08-30",
+    "posts": 10,
+    "triggered": 4,
+    "long": 4,
+    "short": 0,
+    "signals": [
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-08-30",
+    "posts": 12,
+    "triggered": 19,
+    "long": 17,
+    "short": 2,
+    "signals": [
+      "DEAL",
+      "DEAL_ONLY"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-08-30",
+    "posts": 13,
+    "triggered": 28,
+    "long": 19,
+    "short": 9,
+    "signals": [
+      "TARIFF",
+      "DEAL",
+      "IRAN"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-08-31",
+    "posts": 4,
+    "triggered": 1,
+    "long": 1,
+    "short": 0,
+    "signals": [
+      "TARIFF",
+      "TARIFF_ONLY"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-08-31",
+    "posts": 4,
+    "triggered": 1,
+    "long": 1,
+    "short": 0,
+    "signals": [
+      "TARIFF",
+      "TARIFF_ONLY"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-08-31",
+    "posts": 26,
+    "triggered": 13,
+    "long": 9,
+    "short": 4,
+    "signals": [
+      "TARIFF",
+      "CHINA",
+      "IRAN",
+      "TARIFF_ONLY"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-09-01",
+    "posts": 1,
+    "triggered": 0,
+    "long": 0,
+    "short": 0,
+    "signals": [],
+    "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-09-01",
+    "posts": 4,
+    "triggered": 0,
+    "long": 0,
+    "short": 0,
+    "signals": [],
+    "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-09-01",
+    "posts": 7,
+    "triggered": 2,
+    "long": 2,
+    "short": 0,
+    "signals": [
+      "IRAN"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-09-01",
+    "posts": 27,
+    "triggered": 36,
+    "long": 35,
+    "short": 1,
+    "signals": [
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-09-02",
+    "posts": 4,
+    "triggered": 0,
+    "long": 0,
+    "short": 0,
+    "signals": [
+      "IRAN"
+    ],
+    "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-09-02",
+    "posts": 4,
+    "triggered": 0,
+    "long": 0,
+    "short": 0,
+    "signals": [
+      "IRAN"
+    ],
+    "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-09-02",
+    "posts": 9,
+    "triggered": 9,
+    "long": 9,
+    "short": 0,
+    "signals": [
+      "IRAN"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-09-02",
+    "posts": 10,
+    "triggered": 9,
+    "long": 9,
+    "short": 0,
+    "signals": [
+      "IRAN"
+    ],
+    "consensus": "BULLISH"
   }
 ]

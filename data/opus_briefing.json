@@ -1,101 +1,92 @@
 {
-  "date": "2026-08-30",
-  "prepared_at": "2026-08-30T05:45:09Z",
+  "date": "2026-09-02",
+  "prepared_at": "2026-09-02T20:45:14Z",
   "status": "PENDING",
   "today_posts": {
     "count": 10,
-    "latest": "NASA Administrator Jared Isaacman, Secretary of Education Linda McMahon, Stephanie McMahon, and Triple H, at Kennedy Space Center! President DONALD J. TRUMP",
-    "earliest_time": "2026-08-29T00:21:20.531Z",
-    "latest_time": "2026-08-29T18:43:49.845Z",
+    "latest": "Apple Maps has just announced that it has changed the name of Lake Ontario to Lake America, so now that very important change of names, between Google Maps and Apple Maps, is complete, ratified, and b",
+    "earliest_time": "2026-09-02T01:13:08.802Z",
+    "latest_time": "2026-09-02T20:09:30.972Z",
     "sample": [
       {
-        "time": "00:21",
-        "text": "Our deal with Venezuela is the biggest oil deal, by far, in World history! President DJT"
+        "time": "01:13",
+        "text": "I'm not trying to force Iran to the bargaining table, as ABC Fake News reported. I couldn't care less if they sign a worthless, to them, agreement. I like our position now much better, with almost total control of the Hormuz Strait, and their economy totally collapsing. They are just playing out the"
       },
       {
-        "time": "01:45",
-        "text": "Very sad to hear about the passing of King Harald of Norway — A strong, proud, and greatly respected man. He loved his Country, and was truly loved and respected by his people. Our hearts are with the Royal Family, and all of Norway, during this difficult time. A truly BIG loss! President DONALD J. "
-      },
-      {
-        "time": "02:22",
-        "text": "Governor Kathy Hochul is for Canada, a Country that has been ripping off New York State for years, especially under her Administration, instead of the good 'ol U.S.A. Can you imagine her saying that she won't respect or acknowledge LAKE AMERICA. That's why the Dumocrats are so bad for our Country. V"
-      },
-      {
-        "time": "12:57",
+        "time": "01:18",
         "text": "Trump is winning the Iran war— stay the course: https://nypost.com/2026/08/23/opinion/trump-is-winning-the-iran-war-stay-the-course/"
       },
       {
-        "time": "14:12",
-        "text": "CNN is in a DEATH SPIRAL, and so is MSNOW, the new name for MSDNC — Literally, nobody is watching either Network! The best person on CNN is Pollster Harry Enten, because he was willing to show that Donald J. Trump is six times more popular than Abraham Lincoln, George Washington, or any other Presid"
+        "time": "01:29",
+        "text": "9 Weeks Left: Reframe Election to 'Capitalism vs. Socialism' for a Win: https://www.newsmax.com/mclaughlin/capitalism-midterm-socialism/2026/08/26/id/1267365/"
       },
       {
-        "time": "14:50",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117179353254305954"
+        "time": "01:40",
+        "text": "Woman is indicted over World War II Memorial vandalism incident:https://www.washingtonpost.com/dc-md-va/2026/08/28/melissa-farris-suspect-wwii-memorial-vandalism-indicted-two-charges/"
       },
       {
-        "time": "15:16",
-        "text": "NASA Mission Control yesterday! President DONALD J. TRUMP"
+        "time": "11:58",
+        "text": "Beyond lowering drug prices, Trump ups national security by restoring America's pharma supply chain: https://justthenews.com/government/white-house/drug-announcements-larger-impact-beyond-lower-prices-securing-americas"
       },
       {
-        "time": "15:17",
-        "text": "Jared Isaacman, the Head of NASA, yesterday, at NASA Mission Control! President DONALD J. TRUMP"
+        "time": "11:58",
+        "text": "Cheaper drugs, cheaper beef, cheaper gas. Trump lines up fall affordability before Labor Day: https://justthenews.com/government/white-house/cheaper-drugs-cheaper-beef-cheaper-gas-trump-lines-his-fall-affordability"
       },
       {
-        "time": "18:10",
-        "text": "At the request of the PGA Tour, and its Great new Commissioner, Brian Rolapp, it is my Honor to accept being the Honorary Chairman of the upcoming Presidents Cup, which will take place at the Medinah Country Club in Chicago. This will be a particularly exciting event. Both teams are \"loaded\" with Ta"
+        "time": "11:59",
+        "text": "Christian leaders urge Trump to create legal pathway for Jewish Canadians facing antisemitism: https://justthenews.com/government/white-house/christian-leaders-urge-trump-create-legal-pathway-jewish-canadians-facing"
       },
       {
-        "time": "18:43",
-        "text": "NASA Administrator Jared Isaacman, Secretary of Education Linda McMahon, Stephanie McMahon, and Triple H, at Kennedy Space Center! President DONALD J. TRUMP"
+        "time": "14:36",
+        "text": "We have hundreds of happy construction workers in D.C. busily doing their job building the finest Ballroom/Military complex anywhere in the World. There is nothing like it, and never will be! It was a long, hard, fight in the Court System, but the winner is, as always under \"TRUMP,\" the U.S.A. Also,"
+      },
+      {
+        "time": "15:23",
+        "text": "Now that we have it under U.S.A. control, should we change the name Hormuz Strait to TRUMP STRAIT??? Like America itself, it would be \"hotter\" than ever before! Thank you for your attention to this matter. President DONALD J. TRUMP"
+      },
+      {
+        "time": "20:09",
+        "text": "Apple Maps has just announced that it has changed the name of Lake Ontario to Lake America, so now that very important change of names, between Google Maps and Apple Maps, is complete, ratified, and binding. Thank you for your attention to this matter! President DONALD J. TRUMP"
       }
     ]
   },
   "keyword_signals": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
+    "IRAN"
   ],
   "today_features": {
     "posts_6_10": true,
     "avg_len_medium": true,
-    "caps_medium": true,
+    "caps_low": true,
     "excl_normal": true,
-    "questions_no": true,
-    "mostly_open": true,
+    "questions_yes": true,
     "has_night": true,
     "heavy_night": true,
-    "kw_deal": true,
-    "kw_canada": true,
+    "kw_agreement": true,
     "kw_iran": true,
-    "pre_iran": true,
-    "kw_dow": true,
-    "kw_oil": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_fantastic": true,
-    "open_fantastic": true,
+    "kw_iran_2plus": true,
+    "kw_economy": true,
+    "kw_gas": true,
+    "pre_gas": true,
+    "kw_fake": true,
     "kw_president_djt": true,
     "kw_president_djt_2plus": true,
+    "open_president_djt": true,
     "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
     "open_thank_you_for_your_attention": true,
-    "kw_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "is_weekend": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
+    "volume_rising_3d": true
   },
   "triggered_rules": {
-    "total": 4,
-    "long": 4,
+    "total": 9,
+    "long": 9,
     "short": 0,
     "sample": [
       {
-        "id": "R0006",
+        "id": "R0009",
         "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
+          "kw_economy",
+          "kw_interest_rate",
+          "questions_yes"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -104,10 +95,11 @@
         "score": 100.0
       },
       {
-        "id": "R0011",
+        "id": "R0053",
         "features": [
-          "kw_deal",
-          "kw_perfect"
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "questions_yes"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -116,10 +108,76 @@
         "score": 100.0
       },
       {
-        "id": "R0079",
+        "id": "R0054",
         "features": [
-          "kw_deal",
-          "kw_perfect"
+          "kw_perfect",
+          "open_thank_you_for_your_attention",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0072",
+        "features": [
+          "kw_economy",
+          "open_tariffs",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0088",
+        "features": [
+          "kw_tariff_2plus",
+          "open_thank_you_for_your_attention",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0089",
+        "features": [
+          "kw_tariffs",
+          "open_thank_you_for_your_attention",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0090",
+        "features": [
+          "kw_tariffs_2plus",
+          "open_thank_you_for_your_attention",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0092",
+        "features": [
+          "kw_economy",
+          "kw_interest_rate",
+          "questions_yes"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -128,14 +186,14 @@
         "score": 100.0
       },
       {
-        "id": "R0085",
+        "id": "R0100",
         "features": [
-          "kw_deal",
-          "kw_perfect",
+          "kw_agreement",
+          "kw_jobs",
           "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 3,
+        "hold": 2,
         "train_wr": 100.0,
         "test_wr": 100.0,
         "score": 100.0
@@ -255,23 +313,13 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-08-30",
+    "date": "2026-09-02",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "kw_europe",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 92.3,
-        "origin": "crossover"
-      },
       {
         "features": [
           "kw_interest_rate",
@@ -281,6 +329,16 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_beautiful",
+          "kw_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "mutation_remove"
       },
       {
         "features": [

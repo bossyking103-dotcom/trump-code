@@ -1,19 +1,17 @@
 {
-  "date": "2026-08-30",
-  "generated_at": "2026-08-30T05:45:05Z",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T20:45:08Z",
   "posts_today": 10,
   "latest_post": {
-    "time": "2026-08-29T18:43",
-    "content_preview": "NASA Administrator Jared Isaacman, Secretary of Education Linda McMahon, Stephanie McMahon, and Trip"
+    "time": "2026-09-02T20:09",
+    "content_preview": "Apple Maps has just announced that it has changed the name of Lake Ontario to Lake America, so now t"
   },
   "signals_detected": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
+    "IRAN"
   ],
-  "models_triggered": 4,
+  "models_triggered": 9,
   "direction_summary": {
-    "LONG": 4,
+    "LONG": 9,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -23,20 +21,20 @@
     "rate": 18.9
   },
   "sp500_latest": {
-    "date": "2026-08-28",
-    "close": 7711.76
+    "date": "2026-09-02",
+    "close": 7666.6
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-08-30\nPosts today: 10 | Models triggered: 4\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 4 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: NASA Administrator Jared Isaacman, Secretary of Education Linda McMahon, Stephanie McMahon, and Trip",
-    "zh": "川普密碼每日報告 -- 2026-08-30\n今日推文: 10 篇 | 觸發模型: 4 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 4 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: NASA Administrator Jared Isaacman, Secretary of Education Linda McMahon, Stephanie McMahon, and Trip",
-    "ja": "トランプ・コード日次レポート -- 2026-08-30\n本日の投稿: 10件 | トリガーモデル: 4組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 4組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: NASA Administrator Jared Isaacman, Secretary of Education Linda McMahon, Stephanie McMahon, and Trip"
+    "en": "Trump Code Daily Report -- 2026-09-02\nPosts today: 10 | Models triggered: 9\nSignals: IRAN\nConsensus: 9 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: Apple Maps has just announced that it has changed the name of Lake Ontario to Lake America, so now t",
+    "zh": "川普密碼每日報告 -- 2026-09-02\n今日推文: 10 篇 | 觸發模型: 9 組\n偵測信號: 伊朗\n共識方向: 9 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: Apple Maps has just announced that it has changed the name of Lake Ontario to Lake America, so now t",
+    "ja": "トランプ・コード日次レポート -- 2026-09-02\n本日の投稿: 10件 | トリガーモデル: 9組\n検出シグナル: イラン\nコンセンサス: 9組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: Apple Maps has just announced that it has changed the name of Lake Ontario to Lake America, so now t"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_deal",
-        "kw_perfect",
-        "kw_thank_you_for_your_attention"
+        "kw_economy",
+        "kw_interest_rate",
+        "questions_yes"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -45,8 +43,9 @@
     },
     {
       "features": [
-        "kw_deal",
-        "kw_perfect"
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "questions_yes"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -55,8 +54,64 @@
     },
     {
       "features": [
-        "kw_deal",
-        "kw_perfect"
+        "kw_perfect",
+        "open_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "open_tariffs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tariff_2plus",
+        "open_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tariffs",
+        "open_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tariffs_2plus",
+        "open_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "questions_yes"
       ],
       "direction": "LONG",
       "hold": 3,
@@ -65,12 +120,12 @@
     },
     {
       "features": [
-        "kw_deal",
-        "kw_perfect",
+        "kw_agreement",
+        "kw_jobs",
         "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
-      "hold": 3,
+      "hold": 2,
       "train_wr": 100.0,
       "test_wr": 100.0
     }

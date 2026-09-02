@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "generated_at": "2026-08-30T05:45:08Z",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T20:45:13Z",
   "total_models": 12,
   "total_verified": 650,
   "ranking": [
@@ -128,7 +128,7 @@
   "adjustments": {
     "weights": [
       {
-        "date": "2026-08-30",
+        "date": "2026-09-02",
         "model_id": "A2_deal_bullish",
         "action": "DEMOTE",
         "reason": "連錯 4 次",
@@ -144,7 +144,7 @@
         }
       },
       {
-        "date": "2026-08-30",
+        "date": "2026-09-02",
         "model_id": "B3_action_pre",
         "action": "PROMOTE",
         "reason": "近期命中率 66.7% 優秀",
@@ -160,7 +160,7 @@
         }
       },
       {
-        "date": "2026-08-30",
+        "date": "2026-09-02",
         "model_id": "D3_volume_spike",
         "action": "PROMOTE",
         "reason": "連對 9 次",
@@ -176,7 +176,7 @@
         }
       },
       {
-        "date": "2026-08-30",
+        "date": "2026-09-02",
         "model_id": "D2_sig_change",
         "action": "PROMOTE",
         "reason": "連對 4 次",
@@ -192,7 +192,7 @@
         }
       },
       {
-        "date": "2026-08-30",
+        "date": "2026-09-02",
         "model_id": "A3_relief_rocket",
         "action": "PROMOTE",
         "reason": "連對 4 次",
@@ -208,7 +208,7 @@
         }
       },
       {
-        "date": "2026-08-30",
+        "date": "2026-09-02",
         "model_id": "C3_night_alert",
         "action": "ELIMINATE",
         "reason": "近期命中率 37.5% < 38% 門檻",
@@ -224,7 +224,7 @@
         }
       },
       {
-        "date": "2026-08-30",
+        "date": "2026-09-02",
         "model_id": "BACKFILL_NEUTRAL_2026Q3",
         "action": "ELIMINATE",
         "reason": "近期命中率 0.0% < 38% 門檻",
@@ -249,8 +249,8 @@
     }
   },
   "summary": {
-    "en": "Learning Report — 2026-08-30\nModels: 12 | Verified: 650\nBest: D3_volume_spike (80.0% recent)\nWorst: BACKFILL_NEUTRAL_2026Q3 (0.0% recent)\nActions: 4 promoted, 1 demoted, 2 eliminated\nSignal adjustments: 0",
-    "zh": "學習報告 — 2026-08-30\n模型數: 12 | 已驗證: 650 筆\n最強: D3_volume_spike（近期 80.0%）\n最弱: BACKFILL_NEUTRAL_2026Q3（近期 0.0%）\n調整: 4 升級 / 1 降級 / 2 淘汰\n信號信心度調整: 0 項",
-    "ja": "学習レポート — 2026-08-30\nモデル数: 12 | 検証済み: 650件\n最強: D3_volume_spike（直近 80.0%）\n最弱: BACKFILL_NEUTRAL_2026Q3（直近 0.0%）\n調整: 4昇格 / 1降格 / 2除外\nシグナル信頼度調整: 0件"
+    "en": "Learning Report — 2026-09-02\nModels: 12 | Verified: 650\nBest: D3_volume_spike (80.0% recent)\nWorst: BACKFILL_NEUTRAL_2026Q3 (0.0% recent)\nActions: 4 promoted, 1 demoted, 2 eliminated\nSignal adjustments: 0",
+    "zh": "學習報告 — 2026-09-02\n模型數: 12 | 已驗證: 650 筆\n最強: D3_volume_spike（近期 80.0%）\n最弱: BACKFILL_NEUTRAL_2026Q3（近期 0.0%）\n調整: 4 升級 / 1 降級 / 2 淘汰\n信號信心度調整: 0 項",
+    "ja": "学習レポート — 2026-09-02\nモデル数: 12 | 検証済み: 650件\n最強: D3_volume_spike（直近 80.0%）\n最弱: BACKFILL_NEUTRAL_2026Q3（直近 0.0%）\n調整: 4昇格 / 1降格 / 2除外\nシグナル信頼度調整: 0件"
   }
 }
