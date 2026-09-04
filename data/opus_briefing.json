@@ -1,84 +1,94 @@
 {
-  "date": "2026-09-03",
-  "prepared_at": "2026-09-03T20:45:07Z",
+  "date": "2026-09-04",
+  "prepared_at": "2026-09-04T05:45:11Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "It is very good for Canadian Politicians like Prime Minister Carney to make President Donald J. Trump \"the enemy,\" until their Economy collapses, then it will prove to be very bad for Politics — Worse",
-    "earliest_time": "2026-09-03T02:20:51.780Z",
-    "latest_time": "2026-09-03T15:14:24.879Z",
+    "count": 3,
+    "latest": "I can't believe Maria Bartiromo is no longer going to have her great show(s) on FoxNews/Business. Three different shows, always number one. Maria is a total professional, and a true warrior. Her fans,",
+    "earliest_time": "2026-09-04T01:02:15.308Z",
+    "latest_time": "2026-09-04T02:10:46.341Z",
     "sample": [
       {
-        "time": "02:20",
-        "text": "A Nice Man!!!"
+        "time": "01:02",
+        "text": "Trump at His Finest: President Delivers Touching Eulogy for Lindsey Graham: https://www.breitbart.com/politics/2026/07/28/trump-at-his-finest-president-delivers-touching-eulogy-for-lindsey-graham/"
       },
       {
-        "time": "02:21",
-        "text": "Miranda Devine: AG Letitia James turns evil eye on Trump — and blind eye to NY crime: https://nypost.com/2026/08/30/opinion/miranda-devine-ag-letitia-james-evil-eye-on-trump-and-blind-eye-to-ny-crime/"
+        "time": "01:02",
+        "text": "How Trump turned a frozen conflict into a model for peace: https://www.washingtonexaminer.com/op-eds/4681517/armenia-azerbaijan-peace-deal-tripp-framework/"
       },
       {
-        "time": "11:18",
-        "text": "This is GREAT! President DONALD J. TRUMPSyria is pitching itself as an alternative to the Strait of Hormuz: https://www.washingtonpost.com/world/2026/09/02/syria-eyeing-role-middle-east-hub-offers-options-bypass-hormuz/"
-      },
-      {
-        "time": "11:31",
-        "text": "Sec. Lutnick had Venezuela on his mind when he said nobody was killed. 18 people were killed in Iran!"
-      },
-      {
-        "time": "14:55",
-        "text": "The people and Media Outlets that keep harping on the fact that we have no ammunition (And they are 100% wrong!), are actually treasonous. They do it because they would rather see the United States LOSE a War that we're easily WINNING, than see me WIN! President DONALD J. TRUMP"
-      },
-      {
-        "time": "14:56",
-        "text": "For the treasonous SCUM that refuses to accurately report on our Military Operation in Iran, we have virtually unlimited amounts of Mid to High Grade Ammunition, far more than we could ever use for this, or for any other War (which is highly unlikely!), that could improbably take place. In addition,"
-      },
-      {
-        "time": "15:14",
-        "text": "It is very good for Canadian Politicians like Prime Minister Carney to make President Donald J. Trump \"the enemy,\" until their Economy collapses, then it will prove to be very bad for Politics — Worse than anything that has ever happened to a Canadian Politician. Just watch! President DONALD J. TRUM"
+        "time": "02:10",
+        "text": "I can't believe Maria Bartiromo is no longer going to have her great show(s) on FoxNews/Business. Three different shows, always number one. Maria is a total professional, and a true warrior. Her fans, of which there are many, will not be happy. God bless you, Maria! President DONALD J. TRUMP"
       }
     ]
   },
   "keyword_signals": [
-    "IRAN"
+    "DEAL",
+    "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_6_10": true,
+    "posts_1_5": true,
     "avg_len_medium": true,
     "caps_low": true,
     "excl_normal": true,
     "questions_no": true,
     "has_night": true,
-    "kw_ukraine": true,
-    "open_ukraine": true,
-    "kw_iran": true,
-    "kw_iran_2plus": true,
-    "pre_iran": true,
-    "open_iran": true,
-    "kw_europe": true,
-    "open_europe": true,
-    "kw_economy": true,
-    "open_economy": true,
-    "kw_billion": true,
-    "open_billion": true,
+    "heavy_night": true,
+    "kw_deal": true,
     "kw_great": true,
-    "pre_great": true,
-    "kw_biden": true,
-    "open_biden": true,
-    "kw_thank_you_for_your_attention": true,
-    "open_thank_you_for_your_attention": true,
-    "volume_drop": true
+    "is_friday": true,
+    "volume_falling_3d": true,
+    "volume_drop": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 1,
-    "long": 1,
+    "total": 4,
+    "long": 4,
     "short": 0,
     "sample": [
       {
-        "id": "R0072",
+        "id": "R0011",
         "features": [
-          "kw_economy",
-          "open_tariffs",
-          "open_thank_you_for_your_attention"
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0075",
+        "features": [
+          "kw_deal",
+          "kw_inflation",
+          "volume_falling_3d"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0079",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0093",
+        "features": [
+          "kw_interest_rate",
+          "volume_falling_3d"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -201,22 +211,32 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-09-03",
+    "date": "2026-09-04",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_president_of_the_united_states",
-          "kw_india"
+          "kw_jobs",
+          "kw_hereby"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 90.0,
+        "hold": 2,
+        "score": 91.7,
         "origin": "crossover"
+      },
+      {
+        "features": [
+          "open_china",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
       },
       {
         "features": [
@@ -226,17 +246,7 @@
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_president_of_the_united_states",
-          "kw_india"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "mutation_remove"
+        "origin": "distilled"
       }
     ]
   },

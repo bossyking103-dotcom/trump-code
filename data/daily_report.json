@@ -1,17 +1,18 @@
 {
-  "date": "2026-09-03",
-  "generated_at": "2026-09-03T20:45:03Z",
-  "posts_today": 7,
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T05:45:06Z",
+  "posts_today": 3,
   "latest_post": {
-    "time": "2026-09-03T15:14",
-    "content_preview": "It is very good for Canadian Politicians like Prime Minister Carney to make President Donald J. Trum"
+    "time": "2026-09-04T02:10",
+    "content_preview": "I can't believe Maria Bartiromo is no longer going to have her great show(s) on FoxNews/Business. Th"
   },
   "signals_detected": [
-    "IRAN"
+    "DEAL",
+    "DEAL_ONLY"
   ],
-  "models_triggered": 1,
+  "models_triggered": 4,
   "direction_summary": {
-    "LONG": 1,
+    "LONG": 4,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -25,16 +26,46 @@
     "close": 7747.71
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-09-03\nPosts today: 7 | Models triggered: 1\nSignals: IRAN\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: It is very good for Canadian Politicians like Prime Minister Carney to make President Donald J. Trum",
-    "zh": "川普密碼每日報告 -- 2026-09-03\n今日推文: 7 篇 | 觸發模型: 1 組\n偵測信號: 伊朗\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: It is very good for Canadian Politicians like Prime Minister Carney to make President Donald J. Trum",
-    "ja": "トランプ・コード日次レポート -- 2026-09-03\n本日の投稿: 7件 | トリガーモデル: 1組\n検出シグナル: イラン\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: It is very good for Canadian Politicians like Prime Minister Carney to make President Donald J. Trum"
+    "en": "Trump Code Daily Report -- 2026-09-04\nPosts today: 3 | Models triggered: 4\nSignals: DEAL, DEAL_ONLY\nConsensus: 4 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: I can't believe Maria Bartiromo is no longer going to have her great show(s) on FoxNews/Business. Th",
+    "zh": "川普密碼每日報告 -- 2026-09-04\n今日推文: 3 篇 | 觸發模型: 4 組\n偵測信號: Deal, 只有Deal沒有關稅\n共識方向: 4 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: I can't believe Maria Bartiromo is no longer going to have her great show(s) on FoxNews/Business. Th",
+    "ja": "トランプ・コード日次レポート -- 2026-09-04\n本日の投稿: 3件 | トリガーモデル: 4組\n検出シグナル: ディール, Dealのみ（関税無し）\nコンセンサス: 4組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: I can't believe Maria Bartiromo is no longer going to have her great show(s) on FoxNews/Business. Th"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_economy",
-        "open_tariffs",
-        "open_thank_you_for_your_attention"
+        "kw_deal",
+        "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_inflation",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_interest_rate",
+        "volume_falling_3d"
       ],
       "direction": "LONG",
       "hold": 2,
