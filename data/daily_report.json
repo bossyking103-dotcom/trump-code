@@ -1,76 +1,31 @@
 {
-  "date": "2026-09-04",
-  "generated_at": "2026-09-04T05:45:06Z",
-  "posts_today": 3,
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T05:45:06Z",
+  "posts_today": 7,
   "latest_post": {
-    "time": "2026-09-04T02:10",
-    "content_preview": "I can't believe Maria Bartiromo is no longer going to have her great show(s) on FoxNews/Business. Th"
+    "time": "2026-09-15T03:54",
+    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117273030816566258"
   },
-  "signals_detected": [
-    "DEAL",
-    "DEAL_ONLY"
-  ],
-  "models_triggered": 4,
+  "signals_detected": [],
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 4,
+    "LONG": 0,
     "SHORT": 0,
     "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
-    "verified": 127,
-    "correct": 24,
-    "rate": 18.9
+    "verified": 156,
+    "correct": 27,
+    "rate": 17.3
   },
   "sp500_latest": {
-    "date": "2026-09-04",
-    "close": 7718.6
+    "date": "2026-09-14",
+    "close": 7619.98
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-09-04\nPosts today: 3 | Models triggered: 4\nSignals: DEAL, DEAL_ONLY\nConsensus: 4 LONG vs 0 SHORT\nHistorical hit rate: 18.9% (24/127)\nLatest post: I can't believe Maria Bartiromo is no longer going to have her great show(s) on FoxNews/Business. Th",
-    "zh": "川普密碼每日報告 -- 2026-09-04\n今日推文: 3 篇 | 觸發模型: 4 組\n偵測信號: Deal, 只有Deal沒有關稅\n共識方向: 4 組看多 vs 0 組看空\n歷史命中率: 18.9% (24/127)\n最新推文: I can't believe Maria Bartiromo is no longer going to have her great show(s) on FoxNews/Business. Th",
-    "ja": "トランプ・コード日次レポート -- 2026-09-04\n本日の投稿: 3件 | トリガーモデル: 4組\n検出シグナル: ディール, Dealのみ（関税無し）\nコンセンサス: 4組ロング vs 0組ショート\n過去の的中率: 18.9% (24/127)\n最新投稿: I can't believe Maria Bartiromo is no longer going to have her great show(s) on FoxNews/Business. Th"
+    "en": "Trump Code Daily Report -- 2026-09-15\nPosts today: 7 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/117273030816566258",
+    "zh": "川普密碼每日報告 -- 2026-09-15\n今日推文: 7 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/117273030816566258",
+    "ja": "トランプ・コード日次レポート -- 2026-09-15\n本日の投稿: 7件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/117273030816566258"
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_inflation",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_interest_rate",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }

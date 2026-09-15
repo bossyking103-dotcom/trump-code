@@ -1850,5 +1850,465 @@
     "status": "VERIFIED",
     "actual_return": -0.496,
     "correct": null
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "SHORT",
+    "hold_days": 3,
+    "rule_id": "R0001",
+    "features": [
+      "both_tariff_and_deal",
+      "kw_disaster",
+      "kw_jobs"
+    ],
+    "status": "VERIFIED",
+    "actual_return": 0.367,
+    "correct": true
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0004",
+    "features": [
+      "kw_deal_2plus",
+      "kw_economy",
+      "kw_jobs"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0005",
+    "features": [
+      "kw_deal_2plus",
+      "kw_dow_2plus",
+      "kw_jobs"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0009",
+    "features": [
+      "kw_economy",
+      "kw_interest_rate",
+      "questions_yes"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0013",
+    "features": [
+      "kw_dow_2plus",
+      "open_jobs",
+      "open_thank_you_for_your_attention"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0016",
+    "features": [
+      "kw_economy",
+      "kw_energy",
+      "kw_interest_rate"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0017",
+    "features": [
+      "kw_inflation",
+      "open_china",
+      "open_thank_you_for_your_attention"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 3,
+    "rule_id": "R0019",
+    "features": [
+      "kw_deal_2plus",
+      "kw_economy",
+      "kw_jobs"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0028",
+    "features": [
+      "is_friday",
+      "kw_beautiful",
+      "kw_interest_rate"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0032",
+    "features": [
+      "kw_beautiful",
+      "kw_interest_rate",
+      "kw_tremendous"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 3,
+    "rule_id": "R0033",
+    "features": [
+      "kw_deal_2plus",
+      "kw_dow_2plus",
+      "kw_jobs"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0040",
+    "features": [
+      "kw_economy",
+      "kw_interest_rate",
+      "kw_tremendous"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0043",
+    "features": [
+      "kw_beautiful",
+      "open_thank_you_for_your_attention",
+      "open_tremendous"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0045",
+    "features": [
+      "kw_executive_order",
+      "kw_jobs",
+      "kw_thank_you_for_your_attention"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0046",
+    "features": [
+      "kw_dow_2plus",
+      "open_interest_rate"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0049",
+    "features": [
+      "kw_dow_2plus",
+      "kw_interest_rate",
+      "open_interest_rate"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0050",
+    "features": [
+      "kw_dow_2plus",
+      "open_dow",
+      "open_interest_rate"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0056",
+    "features": [
+      "kw_interest_rate",
+      "open_energy"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0072",
+    "features": [
+      "kw_economy",
+      "open_tariffs",
+      "open_thank_you_for_your_attention"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "SHORT",
+    "hold_days": 3,
+    "rule_id": "R0073",
+    "features": [
+      "kw_america_first",
+      "kw_beautiful",
+      "kw_terrible"
+    ],
+    "status": "VERIFIED",
+    "actual_return": 0.367,
+    "correct": true
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0074",
+    "features": [
+      "kw_economy",
+      "kw_interest_rate",
+      "kw_tariffs_2plus"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0076",
+    "features": [
+      "kw_economy",
+      "kw_interest_rate",
+      "open_dow"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0081",
+    "features": [
+      "kw_interest_rate",
+      "kw_signed",
+      "kw_thank_you_for_your_attention"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0082",
+    "features": [
+      "kw_interest_rate",
+      "kw_signed",
+      "open_dow"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0086",
+    "features": [
+      "kw_dow_2plus",
+      "kw_interest_rate",
+      "questions_yes"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 3,
+    "rule_id": "R0092",
+    "features": [
+      "kw_economy",
+      "kw_interest_rate",
+      "questions_yes"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0093",
+    "features": [
+      "kw_interest_rate",
+      "volume_falling_3d"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-07",
+    "entry_date": "2026-09-08",
+    "exit_date": "2026-09-08",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0100",
+    "features": [
+      "kw_agreement",
+      "kw_jobs",
+      "kw_thank_you_for_your_attention"
+    ],
+    "status": "VERIFIED",
+    "actual_return": -0.367,
+    "correct": false
+  },
+  {
+    "signal_date": "2026-09-10",
+    "entry_date": "2026-09-11",
+    "exit_date": "2026-09-11",
+    "direction": "LONG",
+    "hold_days": 2,
+    "rule_id": "R0093",
+    "features": [
+      "kw_interest_rate",
+      "volume_falling_3d"
+    ],
+    "status": "VERIFIED",
+    "actual_return": 0.459,
+    "correct": true
   }
 ]

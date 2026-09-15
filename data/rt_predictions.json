@@ -14883,7 +14883,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1788475208",
@@ -14959,7 +14959,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1788475513",
@@ -15035,7 +15035,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1788485240",
@@ -15107,6 +15107,1872 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 2.34,
     "trump_coin_24h_change": 3.82,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788717036",
+    "created_at": "2026-09-06T17:50:36Z",
+    "post_time": "2026-09-04T22:27:47.585Z",
+    "post_preview": "What an incredible summer for AMERICAN TRAVEL! Americans traveled nearly 300 BILLION MILES, our National Parks welcomed 78 MILLION VISITORS, and MILLIONS took to the skies. The FIFA World Cup alone ge",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0095
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9905
+      },
+      {
+        "token_id": "224467636488774919001552664645",
+        "question": "Will Trump praise Benjamin Netanyahu in September?",
+        "price_at_signal": 0.635
+      },
+      {
+        "token_id": "652060429104246743465393173165",
+        "question": "Will Trump praise Benjamin Netanyahu in September?",
+        "price_at_signal": 0.365
+      },
+      {
+        "token_id": "434071850784069041508784990802",
+        "question": "Will Trump praise Zohran Mamdani in September?",
+        "price_at_signal": 0.715
+      }
+    ],
+    "pm_price_at_signal": 0.0095,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.31,
+    "trump_coin_24h_change": -3.9,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788717036",
+    "created_at": "2026-09-06T17:50:36Z",
+    "post_time": "2026-09-04T22:27:05.922Z",
+    "post_preview": "WHITE HOUSE PRESS RELEASE — Made in America: Manufacturing, Private Hiring Power Explosive August Jobs Report:https://www.whitehouse.gov/releases/2026/09/made-in-america-manufacturing-private-hiring-p",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0095
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9905
+      },
+      {
+        "token_id": "224467636488774919001552664645",
+        "question": "Will Trump praise Benjamin Netanyahu in September?",
+        "price_at_signal": 0.635
+      },
+      {
+        "token_id": "652060429104246743465393173165",
+        "question": "Will Trump praise Benjamin Netanyahu in September?",
+        "price_at_signal": 0.365
+      },
+      {
+        "token_id": "434071850784069041508784990802",
+        "question": "Will Trump praise Zohran Mamdani in September?",
+        "price_at_signal": 0.715
+      }
+    ],
+    "pm_price_at_signal": 0.0095,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.31,
+    "trump_coin_24h_change": -3.9,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788717036",
+    "created_at": "2026-09-06T17:50:36Z",
+    "post_time": "2026-09-04T22:26:40.238Z",
+    "post_preview": "GREAT NEWS! Our THRIVING Economy added 162 THOUSAND Jobs in August, in honor of our Great American Workers who we celebrate this (and every!) Labor Day. This strong number is nearly TRIPLE the predict",
+    "signals": [
+      {
+        "type": "TARIFF",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "tariff",
+          "tariffs"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "TARIFF",
+      "BULLISH"
+    ],
+    "predicted_direction": "NEUTRAL",
+    "confidence": 0.3,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0095
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9905
+      },
+      {
+        "token_id": "224467636488774919001552664645",
+        "question": "Will Trump praise Benjamin Netanyahu in September?",
+        "price_at_signal": 0.635
+      },
+      {
+        "token_id": "652060429104246743465393173165",
+        "question": "Will Trump praise Benjamin Netanyahu in September?",
+        "price_at_signal": 0.365
+      },
+      {
+        "token_id": "434071850784069041508784990802",
+        "question": "Will Trump praise Zohran Mamdani in September?",
+        "price_at_signal": 0.715
+      }
+    ],
+    "pm_price_at_signal": 0.0095,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.31,
+    "trump_coin_24h_change": -3.9,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788717036",
+    "created_at": "2026-09-06T17:50:36Z",
+    "post_time": "2026-09-04T16:31:22.113Z",
+    "post_preview": "I am pleased to report that Michael Cohen, the Prosecution's Star Witness and, in actuality, only Witness in the New York State Attorney General and Manhattan DA Witch Hunt Cases brought against me, h",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0095
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9905
+      },
+      {
+        "token_id": "224467636488774919001552664645",
+        "question": "Will Trump praise Benjamin Netanyahu in September?",
+        "price_at_signal": 0.635
+      },
+      {
+        "token_id": "652060429104246743465393173165",
+        "question": "Will Trump praise Benjamin Netanyahu in September?",
+        "price_at_signal": 0.365
+      },
+      {
+        "token_id": "434071850784069041508784990802",
+        "question": "Will Trump praise Zohran Mamdani in September?",
+        "price_at_signal": 0.715
+      }
+    ],
+    "pm_price_at_signal": 0.0095,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.31,
+    "trump_coin_24h_change": -3.9,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788717036",
+    "created_at": "2026-09-06T17:50:36Z",
+    "post_time": "2026-09-04T16:30:20.102Z",
+    "post_preview": "How crazy is this? We just got GREAT Numbers on Jobs, the Market should go UP, because our Credit and Economy are better but, as always, for the past 25 years, the Stock Market goes DOWN, because we'r",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BULLISH",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "stock market",
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION",
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.8,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0095
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9905
+      },
+      {
+        "token_id": "224467636488774919001552664645",
+        "question": "Will Trump praise Benjamin Netanyahu in September?",
+        "price_at_signal": 0.635
+      },
+      {
+        "token_id": "652060429104246743465393173165",
+        "question": "Will Trump praise Benjamin Netanyahu in September?",
+        "price_at_signal": 0.365
+      },
+      {
+        "token_id": "434071850784069041508784990802",
+        "question": "Will Trump praise Zohran Mamdani in September?",
+        "price_at_signal": 0.715
+      }
+    ],
+    "pm_price_at_signal": 0.0095,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.31,
+    "trump_coin_24h_change": -3.9,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788743628",
+    "created_at": "2026-09-07T01:13:48Z",
+    "post_time": "2026-09-07T00:48:41.414Z",
+    "post_preview": "Trump cheers strong jobs report, calls for lower interest rates: https://justthenews.com/politics-policy/trump-cheers-strong-jobs-report-calls-lower-interest-rates",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0095
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9905
+      },
+      {
+        "token_id": "800354966511178082593879177278",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "207682967235910009851493310305",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "339078514081595598607325476533",
+        "question": "Will Donald Trump post 20-39 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0095,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.28,
+    "trump_coin_24h_change": -4.67,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788746370",
+    "created_at": "2026-09-07T01:59:30Z",
+    "post_time": "2026-09-07T01:49:31.012Z",
+    "post_preview": "New York Times Bestselling Author, Victor Davis Hanson, just wrote what will quickly be considered one of the BEST BOOKS OF THE YEAR (Maybe the BEST!). Entitled, THE COUNTER REVOLUTION, he understands",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "disaster"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0105
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9895
+      },
+      {
+        "token_id": "800354966511178082593879177278",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "207682967235910009851493310305",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "339078514081595598607325476533",
+        "question": "Will Donald Trump post 20-39 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0105,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.26,
+    "trump_coin_24h_change": -5.53,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788789530",
+    "created_at": "2026-09-07T13:58:50Z",
+    "post_time": "2026-09-07T13:50:35.039Z",
+    "post_preview": "Chandler Hall, representing, on Television, the foolish Center for American Lack of Progress, stated that adding the National Guard to Cities, including our now Great Again, Washington, D.C., had \"NO ",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0095
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9905
+      },
+      {
+        "token_id": "800354966511178082593879177278",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "207682967235910009851493310305",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "339078514081595598607325476533",
+        "question": "Will Donald Trump post 20-39 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0095,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.29,
+    "trump_coin_24h_change": -2.36,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788791677",
+    "created_at": "2026-09-07T14:34:37Z",
+    "post_time": "2026-09-07T14:15:24.812Z",
+    "post_preview": "From Greg Wischer at the United States Department of the Interior: \"Following five years of no repairs, the fountains and pools at the Franklin Delano Roosevelt Memorial were recently rehabilitated. M",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "block"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0095
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9905
+      },
+      {
+        "token_id": "800354966511178082593879177278",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "207682967235910009851493310305",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "339078514081595598607325476533",
+        "question": "Will Donald Trump post 20-39 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0095,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.26,
+    "trump_coin_24h_change": -1.97,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788803052",
+    "created_at": "2026-09-07T17:44:12Z",
+    "post_time": "2026-09-07T17:39:29.684Z",
+    "post_preview": "NO MORE SELLING BOMBARDIER IN THE UNITED STATES! Their products aren't good enough! Over 50% of their revenue comes from the United States — They live off American Buyers, American Companies, American",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.9,
+        "matched_keywords": [
+          "ban",
+          "block"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.9,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0095
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9905
+      },
+      {
+        "token_id": "800354966511178082593879177278",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "207682967235910009851493310305",
+        "question": "Will Donald Trump post 0-19 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "339078514081595598607325476533",
+        "question": "Will Donald Trump post 20-39 Truth Social posts from September 1 to September 8, 2026?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0095,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.27,
+    "trump_coin_24h_change": -1.57,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788899579",
+    "created_at": "2026-09-08T20:32:59Z",
+    "post_time": "2026-09-08T20:29:29.573Z",
+    "post_preview": "Everyone knows that Canada doesn't let our Great Dairy Farmers sell into the Canadian Market, and that the only reason Canada makes Autos is because of previous disastrous Trade Agreements while other",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "agreement"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "hereby"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL",
+      "ACTION",
+      "THREAT"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "132985365195389004441786430383",
+        "question": "Trump renames New Mexico to New America by September 30, 2026?",
+        "price_at_signal": 0.045
+      },
+      {
+        "token_id": "447565563208925812147299661279",
+        "question": "Trump renames New Mexico to New America by September 30, 2026?",
+        "price_at_signal": 0.955
+      },
+      {
+        "token_id": "680665252271228478563955200269",
+        "question": "Trump renames New Mexico to New America by December 31, 2026?",
+        "price_at_signal": 0.075
+      },
+      {
+        "token_id": "415115894031027266030003427491",
+        "question": "Trump renames New Mexico to New America by December 31, 2026?",
+        "price_at_signal": 0.925
+      },
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0085
+      }
+    ],
+    "pm_price_at_signal": 0.045,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.24,
+    "trump_coin_24h_change": -1.16,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788899579",
+    "created_at": "2026-09-08T20:32:59Z",
+    "post_time": "2026-09-08T16:29:00.000Z",
+    "post_preview": "Everyone knows that Canada doesn’t let our Great Dairy Farmers sell into the Canadian Market, and that the only reason Canada makes Autos is because of previous disastrous Trade Agreements while other",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "agreement"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "hereby"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL",
+      "ACTION",
+      "THREAT"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "132985365195389004441786430383",
+        "question": "Trump renames New Mexico to New America by September 30, 2026?",
+        "price_at_signal": 0.045
+      },
+      {
+        "token_id": "447565563208925812147299661279",
+        "question": "Trump renames New Mexico to New America by September 30, 2026?",
+        "price_at_signal": 0.955
+      },
+      {
+        "token_id": "680665252271228478563955200269",
+        "question": "Trump renames New Mexico to New America by December 31, 2026?",
+        "price_at_signal": 0.075
+      },
+      {
+        "token_id": "415115894031027266030003427491",
+        "question": "Trump renames New Mexico to New America by December 31, 2026?",
+        "price_at_signal": 0.925
+      },
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0085
+      }
+    ],
+    "pm_price_at_signal": 0.045,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.24,
+    "trump_coin_24h_change": -1.16,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1788933738",
+    "created_at": "2026-09-09T06:02:18Z",
+    "post_time": "2026-09-09T00:37:08.076Z",
+    "post_preview": "The Failing New York Magazine wrote a story that I wasn't down at the World Trade Center after the Tragedy of September 11th, because nobody saw me there. Well, I don't think I would be the first thin",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "hereby"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BEARISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "collapse"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION",
+      "BEARISH"
+    ],
+    "predicted_direction": "NEUTRAL",
+    "confidence": 0.3,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0085
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9915
+      },
+      {
+        "token_id": "132985365195389004441786430383",
+        "question": "Trump renames New Mexico to New America by September 30, 2026?",
+        "price_at_signal": 0.045
+      },
+      {
+        "token_id": "447565563208925812147299661279",
+        "question": "Trump renames New Mexico to New America by September 30, 2026?",
+        "price_at_signal": 0.955
+      },
+      {
+        "token_id": "680665252271228478563955200269",
+        "question": "Trump renames New Mexico to New America by December 31, 2026?",
+        "price_at_signal": 0.075
+      }
+    ],
+    "pm_price_at_signal": 0.0085,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.22,
+    "trump_coin_24h_change": -1.45,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789154060",
+    "created_at": "2026-09-11T19:14:20Z",
+    "post_time": "2026-09-11T15:09:00.000Z",
+    "post_preview": "The $5,000 Trump Dividend, given to all Adults in the United States due to the fact that our Country is taking in Trillions of Dollars of Economic Development, Investment, and Pure SUCCESS, is being c",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "signed"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.055
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.945
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.0095
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.9905
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.0125
+      }
+    ],
+    "pm_price_at_signal": 0.055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.96,
+    "trump_coin_24h_change": -1.49,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789154365",
+    "created_at": "2026-09-11T19:19:25Z",
+    "post_time": "2026-09-11T19:08:41.646Z",
+    "post_preview": "The $5,000 Trump Dividend, given to all Adults in the United States due to the fact that our Country is taking in Trillions of Dollars of Economic Development, Investment, and Pure SUCCESS, is being c",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "signed"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.055
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.945
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.0095
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.9905
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.0125
+      }
+    ],
+    "pm_price_at_signal": 0.055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.96,
+    "trump_coin_24h_change": -1.67,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789180636",
+    "created_at": "2026-09-12T02:37:16Z",
+    "post_time": "2026-09-11T22:31:00.000Z",
+    "post_preview": "I am calling on the Smithsonian Institution to honor the Life and Legacy of George Washington, America’s Greatest Hero, with a five-year exhibition at the National Museum of American History, beginnin",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.055
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.945
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.01
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.99
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.012
+      }
+    ],
+    "pm_price_at_signal": 0.055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.99,
+    "trump_coin_24h_change": 1.24,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789180636",
+    "created_at": "2026-09-12T02:37:16Z",
+    "post_time": "2026-09-11T22:31:00.000Z",
+    "post_preview": "So, I’m asking for the Smithsonian to install the 11-foot Washington statue that was featured at the recent Freedom 250 Grand Prix Race in the Museum’s Flag Hall, and dedicate it this Constitution Day",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.055
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.945
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.01
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.99
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.012
+      }
+    ],
+    "pm_price_at_signal": 0.055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.99,
+    "trump_coin_24h_change": 1.24,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789180942",
+    "created_at": "2026-09-12T02:42:22Z",
+    "post_time": "2026-09-12T02:31:42.724Z",
+    "post_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117255718355537976I am calling on the Smithsonian Institution to honor the Life and Legacy of George Washington, America's Greatest Hero, wit",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.055
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.945
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.01
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.99
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.012
+      }
+    ],
+    "pm_price_at_signal": 0.055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.99,
+    "trump_coin_24h_change": 0.89,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789180942",
+    "created_at": "2026-09-12T02:42:22Z",
+    "post_time": "2026-09-12T02:31:12.761Z",
+    "post_preview": "So, I'm asking for the Smithsonian to install the 11-foot Washington statue that was featured at the recent Freedom 250 Grand Prix Race in the Museum's Flag Hall, and dedicate it this Constitution Day",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.055
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.945
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.01
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.99
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.012
+      }
+    ],
+    "pm_price_at_signal": 0.055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.99,
+    "trump_coin_24h_change": 0.89,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789290630",
+    "created_at": "2026-09-13T09:10:30Z",
+    "post_time": "2026-09-13T05:06:00.000Z",
+    "post_preview": "I am calling on the Smithsonian Institution to honor the Life and Legacy of George Washington, America’s Greatest Hero, with a five-year exhibition at the National Museum of American History, beginnin",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0105
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9895
+      },
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.065
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.935
+      },
+      {
+        "token_id": "184246925180836375770845856844",
+        "question": "Will Lara Trump be the next White House Press Secretary?",
+        "price_at_signal": 0.0025
+      }
+    ],
+    "pm_price_at_signal": 0.0105,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.97,
+    "trump_coin_24h_change": -1.82,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789400668",
+    "created_at": "2026-09-14T15:44:28Z",
+    "post_time": "2026-09-14T15:32:27.831Z",
+    "post_preview": "The failing Nation of Iran wants to make a deal, quickly and badly. I will determine whether or not the U.S.A. will choose to engage - The concept of which we are open to. Thank you for your attention",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.005
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.995
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.014
+      },
+      {
+        "token_id": "824762732292134735352129693241",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.986
+      },
+      {
+        "token_id": "316302194249279600197679902071",
+        "question": "Will Trump and Putin meet next in Finland?",
+        "price_at_signal": 0.0045
+      }
+    ],
+    "pm_price_at_signal": 0.005,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.03,
+    "trump_coin_24h_change": 2.98,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1789404305",
+    "created_at": "2026-09-14T16:45:05Z",
+    "post_time": "2026-09-14T16:31:39.809Z",
+    "post_preview": "I hope everyone realizes that price increases throughout America were caused by Sleepy Joe Biden and the Biden Administration, not by \"TRUMP.\" Even Oil was higher under Biden than it is right now, and",
+    "signals": [
+      {
+        "type": "RELIEF",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "exception"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "RELIEF"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0085
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9915
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.005
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.995
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.0135
+      }
+    ],
+    "pm_price_at_signal": 0.0085,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.03,
+    "trump_coin_24h_change": 2.88,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1789407041",
+    "created_at": "2026-09-14T17:30:41Z",
+    "post_time": "2026-09-14T17:20:04.136Z",
+    "post_preview": "The $5,000 Trump Dividend, to be given to all Adults in the United States due to the fact that our Country is taking in Trillions of Dollars of Economic Development, Investment, and Pure SUCCESS, is b",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "signed"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.005
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.995
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.0135
+      },
+      {
+        "token_id": "824762732292134735352129693241",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.9865
+      },
+      {
+        "token_id": "316302194249279600197679902071",
+        "question": "Will Trump and Putin meet next in Finland?",
+        "price_at_signal": 0.0045
+      }
+    ],
+    "pm_price_at_signal": 0.005,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.04,
+    "trump_coin_24h_change": 2.63,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1789407346",
+    "created_at": "2026-09-14T17:35:46Z",
+    "post_time": "2026-09-14T17:33:39.115Z",
+    "post_preview": "Concerning AI, when, in the History of Business, did anyone see the Leaders of an Industry call for Regulation that, if strongly implemented, will drive them into oblivion and bankruptcy? AI taking ov",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.005
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.995
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.0135
+      },
+      {
+        "token_id": "824762732292134735352129693241",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.9865
+      },
+      {
+        "token_id": "316302194249279600197679902071",
+        "question": "Will Trump and Putin meet next in Finland?",
+        "price_at_signal": 0.0045
+      }
+    ],
+    "pm_price_at_signal": 0.005,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.03,
+    "trump_coin_24h_change": 2.68,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
