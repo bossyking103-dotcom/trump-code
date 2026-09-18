@@ -1,40 +1,52 @@
 {
   "date": "2026-09-18",
-  "prepared_at": "2026-09-18T17:45:11Z",
+  "prepared_at": "2026-09-18T20:45:08Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 7,
-    "latest": "Unwatchable and Failing CNN is so dishonest. Everything they say is slanted against the Republican Party. They are truly FAKE NEWS! Thankfully, very few people are watching! President DJT",
+    "count": 24,
+    "latest": "I am proud to announce that, effective immediately, I am banning Fake News CNN, MSNOW (who recently changed their name from MSNBC due to lack of viewership and credibility!), and Politico (The recipie",
     "earliest_time": "2026-09-18T00:13:38.321Z",
-    "latest_time": "2026-09-18T14:52:00.861Z",
+    "latest_time": "2026-09-18T19:04:50.837Z",
     "sample": [
       {
-        "time": "00:13",
-        "text": "Congressman Rob Wittman is doing a truly fantastic job representing the wonderful people of Virginia's 1st Congressional District!As the Vice Chairman of the House Armed Services Committee, Rob is working tirelessly to advance our America First Agenda. He understands the Wisdom and Courage required "
+        "time": "18:26",
+        "text": "Michael Whatley has my Complete and Total Endorsement to be the next U.S. Senator from North Carolina — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
       },
       {
-        "time": "00:19",
-        "text": "Congresswoman Jen Kiggans is a Tremendous Advocate for the Great People of Virginia's 2nd Congressional District! A former Navy helicopter pilot, Jen knows how to Defend our Country, Support our Brave Military/Veterans, and Ensure PEACE THROUGH STRENGTH. In Congress, Jen is working hard to Secure th"
+        "time": "18:26",
+        "text": "Pete Ricketts has my Complete and Total Endorsement for Re-Election as U.S. Senator from Nebraska — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
       },
       {
-        "time": "00:20",
-        "text": "Congressman John McGuire is an America First Warrior for Virginia's 5th Congressional District. John bravely served our Great Country as a U.S. Navy SEAL, and is doing an incredible job fighting for the people of Rural Virginia. He is working hard to Grow our Economy, Create GREAT Jobs, Champion Ame"
+        "time": "18:27",
+        "text": "Jon Husted has my Complete and Total Endorsement for Re-Election as U.S. Senator from Ohio — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
       },
       {
-        "time": "01:24",
-        "text": "Andrew Ferguson, Fraud Task Force Vice Chairman, was FANTASTIC tonight on FoxNews. He and his group, headed up by wonderful V.P., JD Vance, have got the fraudsters running for shelter. They are bringing in Billions of Dollars - LONG PRISON SENTENCES. Thank you to Charlie Hurt for a great interview! "
+        "time": "18:27",
+        "text": "Stacy Garrity has my Complete and Total Endorsement to be the next Governor of Pennsylvania — SHE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
       },
       {
-        "time": "04:16",
-        "text": "Very interesting. A must read! Keep on leaking you dirty dogs! When we find you, you will pay a big price!!! President DJTWhat the disloyal leaks about Iran prove about Trump: https://www.washingtonpost.com/opinions/2026/08/27/iran-trump-took-an-enemy-its-word-if-only-past-leaders-had/"
+        "time": "18:28",
+        "text": "Monica De La Cruz has my Complete and Total Endorsement for Re-Election as U.S. Representative from Texas' 15th Congressional District — SHE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
       },
       {
-        "time": "13:54",
-        "text": "Ruddy: 'A Rising Trump Lifts All Boats': https://www.newsmax.com/ruddy/ruddy-donald-trump-economy/2026/09/13/id/1269294/"
+        "time": "18:29",
+        "text": "Tano Tijerina has my Complete and Total Endorsement to be the next U.S. Representative from Texas' 28th Congressional District — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
       },
       {
-        "time": "14:52",
-        "text": "Unwatchable and Failing CNN is so dishonest. Everything they say is slanted against the Republican Party. They are truly FAKE NEWS! Thankfully, very few people are watching! President DJT"
+        "time": "18:29",
+        "text": "Eric Flores has my Complete and Total Endorsement to be the next U.S. Representative from Texas' 34th Congressional District — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
+      },
+      {
+        "time": "18:30",
+        "text": "Carlos De La Cruz has my Complete and Total Endorsement to be the next U.S. Representative from Texas' 35th Congressional District — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
+      },
+      {
+        "time": "18:31",
+        "text": "Ken Paxton has my Complete and Total Endorsement to be the next U.S. Senator from Texas — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
+      },
+      {
+        "time": "19:04",
+        "text": "I am proud to announce that, effective immediately, I am banning Fake News CNN, MSNOW (who recently changed their name from MSNBC due to lack of viewership and credibility!), and Politico (The recipients of an illegal and ridiculous $8 Million Dollar subscription, an All Time Record, directly from t"
       }
     ]
   },
@@ -42,17 +54,25 @@
     "IRAN"
   ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_long": true,
-    "caps_medium": true,
-    "excl_heavy": true,
+    "posts_21_35": true,
+    "avg_len_medium": true,
+    "caps_high": true,
+    "excl_normal": true,
     "questions_no": true,
+    "mostly_open": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_immediately": true,
+    "open_immediately": true,
+    "kw_effective": true,
+    "open_effective": true,
+    "kw_ban": true,
+    "open_ban": true,
     "kw_iran": true,
     "pre_iran": true,
     "kw_dow": true,
     "kw_dow_2plus": true,
+    "open_dow": true,
     "kw_economy": true,
     "kw_economy_2plus": true,
     "open_economy": true,
@@ -69,7 +89,12 @@
     "kw_wonderful": true,
     "kw_wonderful_2plus": true,
     "kw_fake": true,
+    "kw_fake_2plus": true,
     "open_fake": true,
+    "kw_corrupt": true,
+    "open_corrupt": true,
+    "kw_biden": true,
+    "open_biden": true,
     "kw_vance": true,
     "kw_vance_2plus": true,
     "kw_maga": true,
@@ -79,16 +104,23 @@
     "kw_president_djt_2plus": true,
     "pre_president_djt": true,
     "open_president_djt": true,
+    "kw_president_of_the_united_states": true,
+    "open_president_of_the_united_states": true,
+    "kw_thank_you_for_your_attention": true,
+    "open_thank_you_for_your_attention": true,
     "kw_never_let_you_down": true,
     "kw_never_let_you_down_2plus": true,
+    "open_never_let_you_down": true,
     "kw_complete_and_total": true,
     "kw_complete_and_total_2plus": true,
+    "open_complete_and_total": true,
     "is_friday": true,
-    "volume_falling_3d": true
+    "volume_falling_3d": true,
+    "volume_spike": true
   },
   "triggered_rules": {
-    "total": 27,
-    "long": 27,
+    "total": 36,
+    "long": 36,
     "short": 0,
     "sample": [
       {
@@ -118,11 +150,11 @@
         "score": 100.0
       },
       {
-        "id": "R0010",
+        "id": "R0013",
         "features": [
-          "excl_heavy",
-          "kw_interest_rate",
-          "kw_tremendous"
+          "kw_dow_2plus",
+          "open_jobs",
+          "open_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -338,9 +370,9 @@
   "evolution_latest": {
     "date": "2026-09-18",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -355,16 +387,6 @@
       },
       {
         "features": [
-          "open_china",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.9,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
@@ -372,6 +394,16 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "volume_falling_3d",
+          "kw_beautiful"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },
