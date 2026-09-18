@@ -1,17 +1,19 @@
 {
-  "date": "2026-09-15",
-  "generated_at": "2026-09-15T05:45:06Z",
-  "posts_today": 7,
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18T05:45:03Z",
+  "posts_today": 5,
   "latest_post": {
-    "time": "2026-09-15T03:54",
-    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117273030816566258"
+    "time": "2026-09-18T04:16",
+    "content_preview": "Very interesting. A must read! Keep on leaking you dirty dogs! When we find you, you will pay a big "
   },
-  "signals_detected": [],
-  "models_triggered": 0,
+  "signals_detected": [
+    "IRAN"
+  ],
+  "models_triggered": 27,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 27,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 156,
@@ -19,13 +21,232 @@
     "rate": 17.3
   },
   "sp500_latest": {
-    "date": "2026-09-14",
-    "close": 7619.98
+    "date": "2026-09-17",
+    "close": 7637.76
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-09-15\nPosts today: 7 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/117273030816566258",
-    "zh": "川普密碼每日報告 -- 2026-09-15\n今日推文: 7 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/117273030816566258",
-    "ja": "トランプ・コード日次レポート -- 2026-09-15\n本日の投稿: 7件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/117273030816566258"
+    "en": "Trump Code Daily Report -- 2026-09-18\nPosts today: 5 | Models triggered: 27\nSignals: IRAN\nConsensus: 27 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: Very interesting. A must read! Keep on leaking you dirty dogs! When we find you, you will pay a big ",
+    "zh": "川普密碼每日報告 -- 2026-09-18\n今日推文: 5 篇 | 觸發模型: 27 組\n偵測信號: 伊朗\n共識方向: 27 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: Very interesting. A must read! Keep on leaking you dirty dogs! When we find you, you will pay a big ",
+    "ja": "トランプ・コード日次レポート -- 2026-09-18\n本日の投稿: 5件 | トリガーモデル: 27組\n検出シグナル: イラン\nコンセンサス: 27組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: Very interesting. A must read! Keep on leaking you dirty dogs! When we find you, you will pay a big "
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_china",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_economy",
+        "open_china"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_tariffs_2plus",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_economy",
+        "open_tariffs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_dow_2plus",
+        "kw_tariffs_2plus"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_dow_2plus",
+        "open_tariff"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_dow_2plus",
+        "open_tariffs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_interest_rate",
+        "kw_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tremendous",
+        "open_thank_you_for_your_attention",
+        "volume_falling_3d"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "excl_heavy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }

@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-15T05:45:06Z",
+  "timestamp": "2026-09-18T05:45:03Z",
   "sources": {
     "cnn": {
       "status": "ok",
-      "count": 8373,
+      "count": 8396,
       "error": null
     },
     "trumpstruth": {
@@ -24,7 +24,7 @@
   },
   "merge": {
     "primary_source": "cnn",
-    "total_posts": 8373,
+    "total_posts": 8396,
     "added_from_others": 0
   }
 }
