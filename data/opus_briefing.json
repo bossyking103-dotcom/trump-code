@@ -1,12 +1,12 @@
 {
   "date": "2026-09-18",
-  "prepared_at": "2026-09-18T05:45:09Z",
+  "prepared_at": "2026-09-18T17:45:11Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 5,
-    "latest": "Very interesting. A must read! Keep on leaking you dirty dogs! When we find you, you will pay a big price!!! President DJTWhat the disloyal leaks about Iran prove about Trump: https://www.washingtonpo",
+    "count": 7,
+    "latest": "Unwatchable and Failing CNN is so dishonest. Everything they say is slanted against the Republican Party. They are truly FAKE NEWS! Thankfully, very few people are watching! President DJT",
     "earliest_time": "2026-09-18T00:13:38.321Z",
-    "latest_time": "2026-09-18T04:16:42.005Z",
+    "latest_time": "2026-09-18T14:52:00.861Z",
     "sample": [
       {
         "time": "00:13",
@@ -27,6 +27,14 @@
       {
         "time": "04:16",
         "text": "Very interesting. A must read! Keep on leaking you dirty dogs! When we find you, you will pay a big price!!! President DJTWhat the disloyal leaks about Iran prove about Trump: https://www.washingtonpost.com/opinions/2026/08/27/iran-trump-took-an-enemy-its-word-if-only-past-leaders-had/"
+      },
+      {
+        "time": "13:54",
+        "text": "Ruddy: 'A Rising Trump Lifts All Boats': https://www.newsmax.com/ruddy/ruddy-donald-trump-economy/2026/09/13/id/1269294/"
+      },
+      {
+        "time": "14:52",
+        "text": "Unwatchable and Failing CNN is so dishonest. Everything they say is slanted against the Republican Party. They are truly FAKE NEWS! Thankfully, very few people are watching! President DJT"
       }
     ]
   },
@@ -34,9 +42,9 @@
     "IRAN"
   ],
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_long": true,
-    "caps_high": true,
+    "caps_medium": true,
     "excl_heavy": true,
     "questions_no": true,
     "has_night": true,
@@ -47,6 +55,7 @@
     "kw_dow_2plus": true,
     "kw_economy": true,
     "kw_economy_2plus": true,
+    "open_economy": true,
     "kw_energy": true,
     "kw_energy_2plus": true,
     "kw_jobs": true,
@@ -59,13 +68,17 @@
     "kw_fantastic_2plus": true,
     "kw_wonderful": true,
     "kw_wonderful_2plus": true,
+    "kw_fake": true,
+    "open_fake": true,
     "kw_vance": true,
     "kw_vance_2plus": true,
     "kw_maga": true,
     "kw_america_first": true,
     "kw_america_first_2plus": true,
     "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
     "pre_president_djt": true,
+    "open_president_djt": true,
     "kw_never_let_you_down": true,
     "kw_never_let_you_down_2plus": true,
     "kw_complete_and_total": true,
@@ -325,9 +338,9 @@
   "evolution_latest": {
     "date": "2026-09-18",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -342,6 +355,16 @@
       },
       {
         "features": [
+          "open_china",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
@@ -349,16 +372,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_thank_you_for_your_attention",
-          "open_inflation"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 88.9,
-        "origin": "crossover"
       }
     ]
   },
