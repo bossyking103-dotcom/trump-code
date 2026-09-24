@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-09-18T20:45:08Z",
+    "updated_at": "2026-09-24T11:46:20Z",
     "total_rules": 601,
     "eliminated": 0,
     "rules_with_data": 0
@@ -16,7 +16,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-09-18",
+      "born_date": "2026-09-24",
       "combined_score": 70.0,
       "learn_stats": {
         "correct": 0,
@@ -14208,6 +14208,37 @@
     },
     {
       "features": [
+        "open_president_of_the_united_states",
+        "kw_president_of_the_united_states",
+        "open_thank_you_for_your_attention",
+        "kw_dow_2plus"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "id": "65b258b25eb8",
+      "n_cond": 4,
+      "train_trades": 5,
+      "train_win_rate": 100.0,
+      "train_avg": 1.152,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 1.128,
+      "combined_score": 100.0,
+      "origin": "crossover",
+      "born_date": "2026-09-22",
+      "weight": 1.0,
+      "parents": [
+        "kw_president_of_the_united_states+open_ban",
+        "kw_dow_2plus+open_jobs"
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
+    },
+    {
+      "features": [
         "kw_maga",
         "open_ukraine"
       ],
@@ -14871,35 +14902,6 @@
       "parents": [
         "kw_agreement+kw_jobs",
         "kw_america_first+kw_maga"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "open_energy",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 1,
-      "id": "0e7f998c6c81",
-      "n_cond": 2,
-      "train_trades": 17,
-      "train_win_rate": 88.2,
-      "train_avg": 0.171,
-      "test_trades": 7,
-      "test_win_rate": 100.0,
-      "test_avg": 0.669,
-      "combined_score": 94.1,
-      "origin": "crossover",
-      "born_date": "2026-04-15",
-      "weight": 1.0,
-      "parents": [
-        "kw_energy+kw_interest_rate",
-        "kw_agreement+kw_thank_you_for_your_attention"
       ],
       "learn_stats": {
         "correct": 0,

@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-18",
-  "generated_at": "2026-09-18T20:45:03Z",
-  "posts_today": 24,
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T11:46:17Z",
+  "posts_today": 4,
   "latest_post": {
-    "time": "2026-09-18T19:04",
-    "content_preview": "I am proud to announce that, effective immediately, I am banning Fake News CNN, MSNOW (who recently "
+    "time": "2026-09-24T11:24",
+    "content_preview": "A big day with President Xi of China. Super Intelligence (SI) will be a big topic of discussion, but"
   },
   "signals_detected": [
-    "IRAN"
+    "CHINA"
   ],
-  "models_triggered": 36,
+  "models_triggered": 4,
   "direction_summary": {
-    "LONG": 36,
+    "LONG": 4,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -21,207 +21,20 @@
     "rate": 17.3
   },
   "sp500_latest": {
-    "date": "2026-09-18",
-    "close": 7650.5
+    "date": "2026-09-23",
+    "close": 7716.09
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-09-18\nPosts today: 24 | Models triggered: 36\nSignals: IRAN\nConsensus: 36 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: I am proud to announce that, effective immediately, I am banning Fake News CNN, MSNOW (who recently ",
-    "zh": "川普密碼每日報告 -- 2026-09-18\n今日推文: 24 篇 | 觸發模型: 36 組\n偵測信號: 伊朗\n共識方向: 36 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: I am proud to announce that, effective immediately, I am banning Fake News CNN, MSNOW (who recently ",
-    "ja": "トランプ・コード日次レポート -- 2026-09-18\n本日の投稿: 24件 | トリガーモデル: 36組\n検出シグナル: イラン\nコンセンサス: 36組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: I am proud to announce that, effective immediately, I am banning Fake News CNN, MSNOW (who recently "
+    "en": "Trump Code Daily Report -- 2026-09-24\nPosts today: 4 | Models triggered: 4\nSignals: CHINA\nConsensus: 4 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: A big day with President Xi of China. Super Intelligence (SI) will be a big topic of discussion, but",
+    "zh": "川普密碼每日報告 -- 2026-09-24\n今日推文: 4 篇 | 觸發模型: 4 組\n偵測信號: 中國\n共識方向: 4 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: A big day with President Xi of China. Super Intelligence (SI) will be a big topic of discussion, but",
+    "ja": "トランプ・コード日次レポート -- 2026-09-24\n本日の投稿: 4件 | トリガーモデル: 4組\n検出シグナル: 中国\nコンセンサス: 4組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: A big day with President Xi of China. Super Intelligence (SI) will be a big topic of discussion, but"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_jobs",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
         "kw_china",
-        "kw_economy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_economy",
-        "open_china"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_tariffs_2plus",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_economy",
-        "open_tariffs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_tariffs_2plus",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_dow_2plus",
-        "kw_tariffs_2plus"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_dow_2plus",
-        "open_tariff"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_dow_2plus",
-        "open_tariffs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_beautiful",
-        "kw_corrupt"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tariffs_2plus",
         "kw_thank_you_for_your_attention",
-        "volume_falling_3d"
+        "open_inflation"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -241,8 +54,20 @@
     },
     {
       "features": [
-        "kw_dow_2plus",
-        "open_interest_rate"
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_agreement",
+        "kw_jobs",
+        "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
       "hold": 2,

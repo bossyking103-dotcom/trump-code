@@ -1,212 +1,65 @@
 {
-  "date": "2026-09-18",
-  "prepared_at": "2026-09-18T20:45:08Z",
+  "date": "2026-09-24",
+  "prepared_at": "2026-09-24T11:46:21Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 24,
-    "latest": "I am proud to announce that, effective immediately, I am banning Fake News CNN, MSNOW (who recently changed their name from MSNBC due to lack of viewership and credibility!), and Politico (The recipie",
-    "earliest_time": "2026-09-18T00:13:38.321Z",
-    "latest_time": "2026-09-18T19:04:50.837Z",
+    "count": 4,
+    "latest": "A big day with President Xi of China. Super Intelligence (SI) will be a big topic of discussion, but I want to leave it exactly where it is. That is China's position also. Our guardrail is the DOJ! Pr",
+    "earliest_time": "2026-09-24T00:19:29.727Z",
+    "latest_time": "2026-09-24T11:24:38.330Z",
     "sample": [
       {
-        "time": "18:26",
-        "text": "Michael Whatley has my Complete and Total Endorsement to be the next U.S. Senator from North Carolina — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
+        "time": "00:19",
+        "text": "BIG DAY FOR BOEING AND AMERICAN MANUFACTURING! Today, Türkiye and Bangladesh announced purchases totaling 111 Boeing Airplanes—with options for 50 more—following support from Howard Lutnick and the Department of Commerce. TENS of BILLIONS of Dollars in Sales, and huge U.S. Exports, supporting tens o"
       },
       {
-        "time": "18:26",
-        "text": "Pete Ricketts has my Complete and Total Endorsement for Re-Election as U.S. Senator from Nebraska — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
+        "time": "00:21",
+        "text": "The story that the White House, or me, want to affix my name to Ford's Theatre, in Washington, D.C., where Abraham Lincoln was assassinated, is a ridiculous lie. It is FAKE NEWS! Who would possibly want a name on such a tragic place? The Dumocrats suffer from serious Trump Derangement Syndrome. They"
       },
       {
-        "time": "18:27",
-        "text": "Jon Husted has my Complete and Total Endorsement for Re-Election as U.S. Senator from Ohio — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
+        "time": "11:15",
+        "text": "The Dumocrats make up lie after lie. The new one is that I want Ford's Theater named after me. That's where Abraham Lincoln was assassinated. Who would want that? I don't! It is FAKE NEWS started by MSDNC AND CNN."
       },
       {
-        "time": "18:27",
-        "text": "Stacy Garrity has my Complete and Total Endorsement to be the next Governor of Pennsylvania — SHE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
-      },
-      {
-        "time": "18:28",
-        "text": "Monica De La Cruz has my Complete and Total Endorsement for Re-Election as U.S. Representative from Texas' 15th Congressional District — SHE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
-      },
-      {
-        "time": "18:29",
-        "text": "Tano Tijerina has my Complete and Total Endorsement to be the next U.S. Representative from Texas' 28th Congressional District — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
-      },
-      {
-        "time": "18:29",
-        "text": "Eric Flores has my Complete and Total Endorsement to be the next U.S. Representative from Texas' 34th Congressional District — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
-      },
-      {
-        "time": "18:30",
-        "text": "Carlos De La Cruz has my Complete and Total Endorsement to be the next U.S. Representative from Texas' 35th Congressional District — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
-      },
-      {
-        "time": "18:31",
-        "text": "Ken Paxton has my Complete and Total Endorsement to be the next U.S. Senator from Texas — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
-      },
-      {
-        "time": "19:04",
-        "text": "I am proud to announce that, effective immediately, I am banning Fake News CNN, MSNOW (who recently changed their name from MSNBC due to lack of viewership and credibility!), and Politico (The recipients of an illegal and ridiculous $8 Million Dollar subscription, an All Time Record, directly from t"
+        "time": "11:24",
+        "text": "A big day with President Xi of China. Super Intelligence (SI) will be a big topic of discussion, but I want to leave it exactly where it is. That is China's position also. Our guardrail is the DOJ! President DJT"
       }
     ]
   },
   "keyword_signals": [
-    "IRAN"
+    "CHINA"
   ],
   "today_features": {
-    "posts_21_35": true,
-    "avg_len_medium": true,
+    "posts_1_5": true,
+    "avg_len_long": true,
     "caps_high": true,
     "excl_normal": true,
-    "questions_no": true,
-    "mostly_open": true,
+    "questions_yes": true,
     "has_night": true,
-    "heavy_night": true,
-    "kw_immediately": true,
-    "open_immediately": true,
-    "kw_effective": true,
-    "open_effective": true,
     "kw_ban": true,
-    "open_ban": true,
-    "kw_iran": true,
-    "pre_iran": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "open_dow": true,
-    "kw_economy": true,
-    "kw_economy_2plus": true,
-    "open_economy": true,
-    "kw_energy": true,
-    "kw_energy_2plus": true,
+    "kw_china": true,
+    "pre_china": true,
     "kw_jobs": true,
     "kw_billion": true,
-    "kw_great": true,
-    "kw_great_2plus": true,
-    "kw_tremendous": true,
     "kw_incredible": true,
-    "kw_fantastic": true,
-    "kw_fantastic_2plus": true,
-    "kw_wonderful": true,
-    "kw_wonderful_2plus": true,
     "kw_fake": true,
     "kw_fake_2plus": true,
-    "open_fake": true,
-    "kw_corrupt": true,
-    "open_corrupt": true,
-    "kw_biden": true,
-    "open_biden": true,
-    "kw_vance": true,
-    "kw_vance_2plus": true,
-    "kw_maga": true,
-    "kw_america_first": true,
-    "kw_america_first_2plus": true,
+    "pre_fake": true,
     "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
     "pre_president_djt": true,
-    "open_president_djt": true,
-    "kw_president_of_the_united_states": true,
-    "open_president_of_the_united_states": true,
-    "kw_thank_you_for_your_attention": true,
-    "open_thank_you_for_your_attention": true,
-    "kw_never_let_you_down": true,
-    "kw_never_let_you_down_2plus": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "kw_complete_and_total_2plus": true,
-    "open_complete_and_total": true,
-    "is_friday": true,
-    "volume_falling_3d": true,
-    "volume_spike": true
+    "kw_thank_you_for_your_attention": true
   },
   "triggered_rules": {
-    "total": 36,
-    "long": 36,
+    "total": 4,
+    "long": 4,
     "short": 0,
     "sample": [
       {
-        "id": "R0004",
+        "id": "R0029",
         "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0005",
-        "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0013",
-        "features": [
-          "kw_dow_2plus",
-          "open_jobs",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0014",
-        "features": [
-          "is_friday",
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0016",
-        "features": [
-          "kw_economy",
-          "kw_energy",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0019",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0020",
-        "features": [
-          "is_friday",
           "kw_china",
-          "kw_economy"
+          "kw_thank_you_for_your_attention",
+          "open_inflation"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -215,11 +68,11 @@
         "score": 100.0
       },
       {
-        "id": "R0021",
+        "id": "R0045",
         "features": [
-          "is_friday",
-          "kw_economy",
-          "open_china"
+          "kw_executive_order",
+          "kw_jobs",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -228,11 +81,11 @@
         "score": 100.0
       },
       {
-        "id": "R0023",
+        "id": "R0053",
         "features": [
-          "is_friday",
-          "kw_tariffs_2plus",
-          "kw_tremendous"
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "questions_yes"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -241,11 +94,11 @@
         "score": 100.0
       },
       {
-        "id": "R0030",
+        "id": "R0100",
         "features": [
-          "is_friday",
-          "kw_economy",
-          "open_tariffs"
+          "kw_agreement",
+          "kw_jobs",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -368,11 +221,11 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-09-18",
+    "date": "2026-09-24",
     "crossover": 16,
-    "mutation": 12,
+    "mutation": 11,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -397,8 +250,8 @@
       },
       {
         "features": [
-          "volume_falling_3d",
-          "kw_beautiful"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,

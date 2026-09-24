@@ -17606,7 +17606,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1789759447",
@@ -17688,6 +17688,945 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 2.11,
     "trump_coin_24h_change": 7.9,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789766446",
+    "created_at": "2026-09-18T21:20:46Z",
+    "post_time": "2026-09-18T21:18:49.318Z",
+    "post_preview": "BREAKING NEWS: I am pleased to announce that the United States of America has entered into an Agreement with The Kingdom of Denmark, and Greenland, that gives the United States permanent control over ",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "agreement"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL",
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "724968364403936493142083591299",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "509272436689857897915825690329",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "",
+        "question": "Will Trump meet with Joseph Aoun in 2026?",
+        "price_at_signal": 0.5
+      },
+      {
+        "token_id": "",
+        "question": "Will Trump meet with Joseph Aoun in 2026?",
+        "price_at_signal": 0.5
+      },
+      {
+        "token_id": "262044810399941168571582249080",
+        "question": "Will Trump meet with Delcy Rodríguez by December 31, 2026?",
+        "price_at_signal": 0.835
+      }
+    ],
+    "pm_price_at_signal": 1.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.11,
+    "trump_coin_24h_change": 8.02,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789837074",
+    "created_at": "2026-09-19T16:57:54Z",
+    "post_time": "2026-09-19T16:52:40.554Z",
+    "post_preview": "Unfortunately, the United States Supreme Court has lacked the Courage to MAKE AMERICA GREAT AGAIN. Over the last 6 months, with their faulty, political, and ridiculous decisions on TARIFFS and Birthri",
+    "signals": [
+      {
+        "type": "TARIFF",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "tariff",
+          "tariffs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "TARIFF"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.8,
+    "tracked_markets": [
+      {
+        "token_id": "269563857693438645870704436871",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.665
+      },
+      {
+        "token_id": "632273873325984230808392118340",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.335
+      },
+      {
+        "token_id": "453913232241991770600934940137",
+        "question": "Trump x Greenland deal signed by September 25?",
+        "price_at_signal": 0.835
+      },
+      {
+        "token_id": "683387124620581385517525893567",
+        "question": "Trump x Greenland deal signed by September 25?",
+        "price_at_signal": 0.165
+      },
+      {
+        "token_id": "917656999054610777709377367002",
+        "question": "Trump x Greenland deal signed by December 31?",
+        "price_at_signal": 0.965
+      }
+    ],
+    "pm_price_at_signal": 0.665,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.09,
+    "trump_coin_24h_change": -0.98,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789906394",
+    "created_at": "2026-09-20T12:13:14Z",
+    "post_time": "2026-09-20T05:14:43.765Z",
+    "post_preview": "A great job by very smart Matthew Continetti on Mark Levin. The interview concerned the AI Disaster Hoax. Let it roll!!! President DJT",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "disaster"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "269563857693438645870704436871",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.74
+      },
+      {
+        "token_id": "632273873325984230808392118340",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.26
+      },
+      {
+        "token_id": "453913232241991770600934940137",
+        "question": "Trump x Greenland deal signed by September 25?",
+        "price_at_signal": 0.875
+      }
+    ],
+    "pm_price_at_signal": 0.0055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.03,
+    "trump_coin_24h_change": -1.34,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789938317",
+    "created_at": "2026-09-20T21:05:17Z",
+    "post_time": "2026-09-20T05:14:43.765Z",
+    "post_preview": "A great job by very smart Matthew Continetti on Mark Levin. The interview concerned the AI Disaster Hoax. Let it roll!!! President DJT",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "disaster"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0045
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9955
+      },
+      {
+        "token_id": "269563857693438645870704436871",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.805
+      },
+      {
+        "token_id": "632273873325984230808392118340",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.195
+      },
+      {
+        "token_id": "453913232241991770600934940137",
+        "question": "Trump x Greenland deal signed by September 25?",
+        "price_at_signal": 0.87
+      }
+    ],
+    "pm_price_at_signal": 0.0045,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.05,
+    "trump_coin_24h_change": -3.09,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789938317",
+    "created_at": "2026-09-20T21:05:17Z",
+    "post_time": "2026-09-19T16:52:40.554Z",
+    "post_preview": "Unfortunately, the United States Supreme Court has lacked the Courage to MAKE AMERICA GREAT AGAIN. Over the last 6 months, with their faulty, political, and ridiculous decisions on TARIFFS and Birthri",
+    "signals": [
+      {
+        "type": "TARIFF",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "tariff",
+          "tariffs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "TARIFF"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.8,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0045
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9955
+      },
+      {
+        "token_id": "269563857693438645870704436871",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.805
+      },
+      {
+        "token_id": "632273873325984230808392118340",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.195
+      },
+      {
+        "token_id": "453913232241991770600934940137",
+        "question": "Trump x Greenland deal signed by September 25?",
+        "price_at_signal": 0.87
+      }
+    ],
+    "pm_price_at_signal": 0.0045,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.05,
+    "trump_coin_24h_change": -3.09,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789938317",
+    "created_at": "2026-09-20T21:05:17Z",
+    "post_time": "2026-09-18T21:18:49.318Z",
+    "post_preview": "BREAKING NEWS: I am pleased to announce that the United States of America has entered into an Agreement with The Kingdom of Denmark, and Greenland, that gives the United States permanent control over ",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "agreement"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL",
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0045
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9955
+      },
+      {
+        "token_id": "269563857693438645870704436871",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.805
+      },
+      {
+        "token_id": "632273873325984230808392118340",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.195
+      },
+      {
+        "token_id": "453913232241991770600934940137",
+        "question": "Trump x Greenland deal signed by September 25?",
+        "price_at_signal": 0.87
+      }
+    ],
+    "pm_price_at_signal": 0.0045,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.05,
+    "trump_coin_24h_change": -3.09,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789938317",
+    "created_at": "2026-09-20T21:05:17Z",
+    "post_time": "2026-09-18T19:04:50.837Z",
+    "post_preview": "I am proud to announce that, effective immediately, I am banning Fake News CNN, MSNOW (who recently changed their name from MSNBC due to lack of viewership and credibility!), and Politico (The recipie",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.9,
+        "matched_keywords": [
+          "immediately",
+          "effective"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "THREAT",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION",
+      "THREAT"
+    ],
+    "predicted_direction": "NEUTRAL",
+    "confidence": 0.3,
+    "tracked_markets": [
+      {
+        "token_id": "612121835238924788124600629199",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.0045
+      },
+      {
+        "token_id": "502305252920113973616660321285",
+        "question": "Trump out as President by September 30?",
+        "price_at_signal": 0.9955
+      },
+      {
+        "token_id": "269563857693438645870704436871",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.805
+      },
+      {
+        "token_id": "632273873325984230808392118340",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.195
+      },
+      {
+        "token_id": "453913232241991770600934940137",
+        "question": "Trump x Greenland deal signed by September 25?",
+        "price_at_signal": 0.87
+      }
+    ],
+    "pm_price_at_signal": 0.0045,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.05,
+    "trump_coin_24h_change": -3.09,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1789967501",
+    "created_at": "2026-09-21T05:11:41Z",
+    "post_time": "2026-09-21T04:59:03.540Z",
+    "post_preview": "Trump bans CNN, MSNOW, and Politico from White House: https://justthenews.com/politics-policy/all-things-trump/trump-bans-cnn-msnow-and-politico-white-house",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "269563857693438645870704436871",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.86
+      },
+      {
+        "token_id": "632273873325984230808392118340",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.14
+      },
+      {
+        "token_id": "453913232241991770600934940137",
+        "question": "Trump x Greenland deal signed by September 25?",
+        "price_at_signal": 0.935
+      },
+      {
+        "token_id": "683387124620581385517525893567",
+        "question": "Trump x Greenland deal signed by September 25?",
+        "price_at_signal": 0.065
+      },
+      {
+        "token_id": "917656999054610777709377367002",
+        "question": "Trump x Greenland deal signed by December 31?",
+        "price_at_signal": 0.977
+      }
+    ],
+    "pm_price_at_signal": 0.86,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.08,
+    "trump_coin_24h_change": 2.32,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1790002486",
+    "created_at": "2026-09-21T14:54:46Z",
+    "post_time": "2026-09-21T14:47:18.730Z",
+    "post_preview": "The United States is working on a massive Deal with respect to the purchase of Potash from Belarus. The pricing would be for substantially less than we are currently paying to Canada, very good news f",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "269563857693438645870704436871",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.845
+      },
+      {
+        "token_id": "632273873325984230808392118340",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.155
+      },
+      {
+        "token_id": "453913232241991770600934940137",
+        "question": "Trump x Greenland deal signed by September 25?",
+        "price_at_signal": 0.961
+      },
+      {
+        "token_id": "683387124620581385517525893567",
+        "question": "Trump x Greenland deal signed by September 25?",
+        "price_at_signal": 0.039
+      },
+      {
+        "token_id": "917656999054610777709377367002",
+        "question": "Trump x Greenland deal signed by December 31?",
+        "price_at_signal": 0.983
+      }
+    ],
+    "pm_price_at_signal": 0.845,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.16,
+    "trump_coin_24h_change": 7.09,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1790006468",
+    "created_at": "2026-09-21T16:01:08Z",
+    "post_time": "2026-09-21T15:48:29.384Z",
+    "post_preview": "The same people that said, \"We'll all be dead in twelve years because of Global Warming,\" a name since \"reborn\" to Climate Change, because the Planet was cooling, not warming, and nobody was dead, are",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "disaster"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "269563857693438645870704436871",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.845
+      },
+      {
+        "token_id": "632273873325984230808392118340",
+        "question": "Trump x Greenland deal signed by September 23?",
+        "price_at_signal": 0.155
+      },
+      {
+        "token_id": "453913232241991770600934940137",
+        "question": "Trump x Greenland deal signed by September 25?",
+        "price_at_signal": 0.9575
+      },
+      {
+        "token_id": "683387124620581385517525893567",
+        "question": "Trump x Greenland deal signed by September 25?",
+        "price_at_signal": 0.0425
+      },
+      {
+        "token_id": "917656999054610777709377367002",
+        "question": "Trump x Greenland deal signed by December 31?",
+        "price_at_signal": 0.985
+      }
+    ],
+    "pm_price_at_signal": 0.845,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.17,
+    "trump_coin_24h_change": 6.92,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1790137529",
+    "created_at": "2026-09-23T04:25:29Z",
+    "post_time": "2026-09-23T04:04:24.091Z",
+    "post_preview": "Azerbaijan's Hajiyev to Newsmax: Trump Peacemaker, Iran Deal Possible: https://www.newsmax.com/newsfront/azerbaijan-ilham-aliyev-armenia/2026/09/14/id/1269433/",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "651559964406913808755425867602",
+        "question": "Trump renames AI by September 30?",
+        "price_at_signal": 0.275
+      },
+      {
+        "token_id": "158790340887457026178418364359",
+        "question": "Trump renames AI by September 30?",
+        "price_at_signal": 0.725
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.001
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.999
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.0065
+      }
+    ],
+    "pm_price_at_signal": 0.275,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.25,
+    "trump_coin_24h_change": 3.04,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1790209588",
+    "created_at": "2026-09-24T00:26:28Z",
+    "post_time": "2026-09-24T00:19:29.727Z",
+    "post_preview": "BIG DAY FOR BOEING AND AMERICAN MANUFACTURING! Today, Türkiye and Bangladesh announced purchases totaling 111 Boeing Airplanes—with options for 50 more—following support from Howard Lutnick and the De",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT",
+      "BULLISH"
+    ],
+    "predicted_direction": "NEUTRAL",
+    "confidence": 0.3,
+    "tracked_markets": [
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.001
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.999
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.007
+      },
+      {
+        "token_id": "824762732292134735352129693241",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.993
+      },
+      {
+        "token_id": "316302194249279600197679902071",
+        "question": "Will Trump and Putin meet next in Finland?",
+        "price_at_signal": 0.0005
+      }
+    ],
+    "pm_price_at_signal": 0.001,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.97,
+    "trump_coin_24h_change": -12.87,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
