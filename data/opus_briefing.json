@@ -1,112 +1,31 @@
 {
-  "date": "2026-09-24",
-  "prepared_at": "2026-09-24T11:46:21Z",
+  "date": "2026-09-25",
+  "prepared_at": "2026-09-25T11:51:46Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "A big day with President Xi of China. Super Intelligence (SI) will be a big topic of discussion, but I want to leave it exactly where it is. That is China's position also. Our guardrail is the DOJ! Pr",
-    "earliest_time": "2026-09-24T00:19:29.727Z",
-    "latest_time": "2026-09-24T11:24:38.330Z",
+    "count": 1,
+    "latest": "God bless American Patriot and Warrior, James Copenhaver, and his incredible family. May he rest in peace!!! President DONALD J. TRUMP",
+    "earliest_time": "2026-09-25T10:19:16.524Z",
+    "latest_time": "2026-09-25T10:19:16.524Z",
     "sample": [
       {
-        "time": "00:19",
-        "text": "BIG DAY FOR BOEING AND AMERICAN MANUFACTURING! Today, Türkiye and Bangladesh announced purchases totaling 111 Boeing Airplanes—with options for 50 more—following support from Howard Lutnick and the Department of Commerce. TENS of BILLIONS of Dollars in Sales, and huge U.S. Exports, supporting tens o"
-      },
-      {
-        "time": "00:21",
-        "text": "The story that the White House, or me, want to affix my name to Ford's Theatre, in Washington, D.C., where Abraham Lincoln was assassinated, is a ridiculous lie. It is FAKE NEWS! Who would possibly want a name on such a tragic place? The Dumocrats suffer from serious Trump Derangement Syndrome. They"
-      },
-      {
-        "time": "11:15",
-        "text": "The Dumocrats make up lie after lie. The new one is that I want Ford's Theater named after me. That's where Abraham Lincoln was assassinated. Who would want that? I don't! It is FAKE NEWS started by MSDNC AND CNN."
-      },
-      {
-        "time": "11:24",
-        "text": "A big day with President Xi of China. Super Intelligence (SI) will be a big topic of discussion, but I want to leave it exactly where it is. That is China's position also. Our guardrail is the DOJ! President DJT"
+        "time": "10:19",
+        "text": "God bless American Patriot and Warrior, James Copenhaver, and his incredible family. May he rest in peace!!! President DONALD J. TRUMP"
       }
     ]
   },
-  "keyword_signals": [
-    "CHINA"
-  ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_long": true,
+    "avg_len_short": true,
     "caps_high": true,
-    "excl_normal": true,
-    "questions_yes": true,
-    "has_night": true,
-    "kw_ban": true,
-    "kw_china": true,
-    "pre_china": true,
-    "kw_jobs": true,
-    "kw_billion": true,
+    "excl_extreme": true,
+    "questions_no": true,
+    "mostly_premarket": true,
     "kw_incredible": true,
-    "kw_fake": true,
-    "kw_fake_2plus": true,
-    "pre_fake": true,
-    "kw_president_djt": true,
-    "pre_president_djt": true,
-    "kw_thank_you_for_your_attention": true
-  },
-  "triggered_rules": {
-    "total": 4,
-    "long": 4,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0029",
-        "features": [
-          "kw_china",
-          "kw_thank_you_for_your_attention",
-          "open_inflation"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0045",
-        "features": [
-          "kw_executive_order",
-          "kw_jobs",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0053",
-        "features": [
-          "kw_perfect",
-          "kw_thank_you_for_your_attention",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0100",
-        "features": [
-          "kw_agreement",
-          "kw_jobs",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "pre_incredible": true,
+    "is_friday": true,
+    "volume_rising_3d": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -221,11 +140,11 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-09-24",
-    "crossover": 16,
-    "mutation": 11,
+    "date": "2026-09-25",
+    "crossover": 14,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 43,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -240,6 +159,16 @@
       },
       {
         "features": [
+          "is_friday",
+          "kw_energy"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 91.2,
+        "origin": "crossover"
+      },
+      {
+        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
@@ -247,16 +176,6 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
-        "origin": "crossover"
       }
     ]
   },
