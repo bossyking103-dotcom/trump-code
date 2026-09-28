@@ -18733,6 +18733,165 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1790574517",
+    "created_at": "2026-09-28T05:48:37Z",
+    "post_time": "2026-09-26T19:14:48.496Z",
+    "post_preview": "BIG DAY FOR AMERICAN AUTO WORKERS AND CAR BUYERS! I have just approved new Fuel Economy Standards that TERMINATE Sleepy Joe Biden and Pete Boot-EDGE-EDGE's ridiculous EV Mandate. The Dumocrats cost ou",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "651559964406913808755425867602",
+        "question": "Trump renames AI by September 30?",
+        "price_at_signal": 0.27
+      },
+      {
+        "token_id": "158790340887457026178418364359",
+        "question": "Trump renames AI by September 30?",
+        "price_at_signal": 0.73
+      },
+      {
+        "token_id": "143472491073580897488044660187",
+        "question": "Trump renames AI by December 31?",
+        "price_at_signal": 0.685
+      },
+      {
+        "token_id": "471884936434379438978283494619",
+        "question": "Trump renames AI by December 31?",
+        "price_at_signal": 0.315
+      },
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.045
+      }
+    ],
+    "pm_price_at_signal": 0.27,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.04,
+    "trump_coin_24h_change": -3.04,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1790574517",
+    "created_at": "2026-09-28T05:48:37Z",
+    "post_time": "2026-09-26T15:58:59.212Z",
+    "post_preview": "Another Fake Story is that a very close friend of mine, a man I endorsed very early, Byron Donalds, is taking me off his website and Campaign materials. I won Florida by Millions of Votes, getting the",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BEARISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "terrible"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION",
+      "BEARISH"
+    ],
+    "predicted_direction": "NEUTRAL",
+    "confidence": 0.3,
+    "tracked_markets": [
+      {
+        "token_id": "651559964406913808755425867602",
+        "question": "Trump renames AI by September 30?",
+        "price_at_signal": 0.27
+      },
+      {
+        "token_id": "158790340887457026178418364359",
+        "question": "Trump renames AI by September 30?",
+        "price_at_signal": 0.73
+      },
+      {
+        "token_id": "143472491073580897488044660187",
+        "question": "Trump renames AI by December 31?",
+        "price_at_signal": 0.685
+      },
+      {
+        "token_id": "471884936434379438978283494619",
+        "question": "Trump renames AI by December 31?",
+        "price_at_signal": 0.315
+      },
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.045
+      }
+    ],
+    "pm_price_at_signal": 0.27,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.04,
+    "trump_coin_24h_change": -3.04,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
     "status": "LIVE"
   }
 ]

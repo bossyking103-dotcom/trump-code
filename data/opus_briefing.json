@@ -1,31 +1,71 @@
 {
-  "date": "2026-09-25",
-  "prepared_at": "2026-09-25T11:51:46Z",
+  "date": "2026-09-28",
+  "prepared_at": "2026-09-28T20:45:35Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 1,
-    "latest": "God bless American Patriot and Warrior, James Copenhaver, and his incredible family. May he rest in peace!!! President DONALD J. TRUMP",
-    "earliest_time": "2026-09-25T10:19:16.524Z",
-    "latest_time": "2026-09-25T10:19:16.524Z",
+    "count": 9,
+    "latest": "Joe Scarborough's show has been cut way back, and will soon be \"dead!\" Too predictable and boring! REALLY BAD RATINGS, just like the rest of MSNOW (MSDNC!). President DJT",
+    "earliest_time": "2026-09-28T11:32:26.737Z",
+    "latest_time": "2026-09-28T12:02:36.027Z",
     "sample": [
       {
-        "time": "10:19",
-        "text": "God bless American Patriot and Warrior, James Copenhaver, and his incredible family. May he rest in peace!!! President DONALD J. TRUMP"
+        "time": "11:32",
+        "text": "Fauci diary reveals alarm that U.S. had aerosolized Ebola virus: 'Never should have been done': https://justthenews.com/government/congress/fauci-alarmed-over-us-army-ebola-tests-funded-his-own-agency-diary-entries-and"
+      },
+      {
+        "time": "11:32",
+        "text": "Trump stacks wins: SCOTUS unleashes voter citizenship checks while feds put machines on leash: https://justthenews.com/government/white-house/supreme-court-cisa"
+      },
+      {
+        "time": "11:33",
+        "text": "SCOTUS reinstates Trump's voter citizenship verification rules: https://justthenews.com/government/courts-law/scotus-reinstates-trumps-voter-citizenship-verification-rules"
+      },
+      {
+        "time": "11:33",
+        "text": "Justice Department charges four aliens in Pennsylvania with election fraud: https://justthenews.com/government/federal-agencies/justice-department-charges-four-migrants-pennsylvania-election-fraud"
+      },
+      {
+        "time": "11:33",
+        "text": "Two-tiered justice: Local DAs shield noncitizens from immigration consequences: https://justthenews.com/nation/crime/two-tiered-justice-local-das-shield-noncitizens-immigration-consequences"
+      },
+      {
+        "time": "11:38",
+        "text": "\"The United States has the BEST Employment Numbers in HISTORY.\" FoxNews. The Fake News Media REFUSES to report this rather significant development, however!!! President DJT"
+      },
+      {
+        "time": "11:50",
+        "text": "Kevin Roberts, Heritage Foundation & Heritage Action President, and also, a fabulous guy, was fantastic on FoxNews this morning. The topic was Fake Polls and how well the Republicans are going to do in the upcoming Midterms. Thank you, Kevin. I'll be out there spending money, and helping every one o"
+      },
+      {
+        "time": "11:57",
+        "text": "Bill Maher's ratings are so low that it is hard to believe his show can continue. In many ways it's SAD because, in actuality, I like him. Republicans should stop using him as a sounding board, however. It makes them look sooo weak and foolish!"
+      },
+      {
+        "time": "12:02",
+        "text": "Joe Scarborough's show has been cut way back, and will soon be \"dead!\" Too predictable and boring! REALLY BAD RATINGS, just like the rest of MSNOW (MSDNC!). President DJT"
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_short": true,
-    "caps_high": true,
-    "excl_extreme": true,
+    "posts_6_10": true,
+    "avg_len_medium": true,
+    "caps_low": true,
+    "excl_normal": true,
     "questions_no": true,
     "mostly_premarket": true,
-    "kw_incredible": true,
-    "pre_incredible": true,
-    "is_friday": true,
-    "volume_rising_3d": true,
-    "volume_drop": true
+    "kw_great": true,
+    "pre_great": true,
+    "kw_fantastic": true,
+    "pre_fantastic": true,
+    "kw_fake": true,
+    "kw_fake_2plus": true,
+    "pre_fake": true,
+    "kw_maga": true,
+    "pre_maga": true,
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true,
+    "is_monday": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -140,11 +180,11 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-09-25",
-    "crossover": 14,
-    "mutation": 16,
+    "date": "2026-09-28",
+    "crossover": 16,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -159,16 +199,6 @@
       },
       {
         "features": [
-          "is_friday",
-          "kw_energy"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 91.2,
-        "origin": "crossover"
-      },
-      {
-        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
@@ -176,6 +206,17 @@
         "hold": 3,
         "score": 90.0,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "open_tariff",
+          "kw_tremendous",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 87.5,
+        "origin": "crossover"
       }
     ]
   },
