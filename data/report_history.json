@@ -8279,10 +8279,10 @@
     "consensus": "BULLISH"
   },
   {
-    "date": "2026-09-25",
-    "posts": 5,
-    "triggered": 10,
-    "long": 10,
+    "date": "2026-09-24",
+    "posts": 4,
+    "triggered": 4,
+    "long": 4,
     "short": 0,
     "signals": [
       "CHINA"
@@ -8290,82 +8290,33 @@
     "consensus": "BULLISH"
   },
   {
+    "date": "2026-09-24",
+    "posts": 10,
+    "triggered": 13,
+    "long": 11,
+    "short": 2,
+    "signals": [
+      "TARIFF",
+      "CHINA",
+      "TARIFF_ONLY"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
     "date": "2026-09-25",
-    "posts": 5,
-    "triggered": 10,
-    "long": 10,
-    "short": 0,
+    "posts": 16,
+    "triggered": 21,
+    "long": 18,
+    "short": 3,
     "signals": [
-      "CHINA"
+      "TARIFF",
+      "CHINA",
+      "TARIFF_ONLY"
     ],
     "consensus": "BULLISH"
   },
   {
     "date": "2026-09-25",
-    "posts": 5,
-    "triggered": 10,
-    "long": 10,
-    "short": 0,
-    "signals": [
-      "CHINA"
-    ],
-    "consensus": "BULLISH"
-  },
-  {
-    "date": "2026-09-26",
-    "posts": 3,
-    "triggered": 2,
-    "long": 2,
-    "short": 0,
-    "signals": [
-      "DEAL",
-      "DEAL_ONLY"
-    ],
-    "consensus": "BULLISH"
-  },
-  {
-    "date": "2026-09-26",
-    "posts": 14,
-    "triggered": 5,
-    "long": 5,
-    "short": 0,
-    "signals": [
-      "DEAL",
-      "CHINA",
-      "DEAL_ONLY"
-    ],
-    "consensus": "BULLISH"
-  },
-  {
-    "date": "2026-09-26",
-    "posts": 18,
-    "triggered": 17,
-    "long": 16,
-    "short": 1,
-    "signals": [
-      "DEAL",
-      "CHINA",
-      "IRAN",
-      "DEAL_ONLY"
-    ],
-    "consensus": "BULLISH"
-  },
-  {
-    "date": "2026-09-26",
-    "posts": 21,
-    "triggered": 42,
-    "long": 36,
-    "short": 6,
-    "signals": [
-      "DEAL",
-      "CHINA",
-      "IRAN",
-      "DEAL_ONLY"
-    ],
-    "consensus": "BULLISH"
-  },
-  {
-    "date": "2026-09-27",
     "posts": 1,
     "triggered": 0,
     "long": 0,
@@ -8374,39 +8325,12 @@
     "consensus": "NEUTRAL"
   },
   {
-    "date": "2026-09-27",
+    "date": "2026-09-25",
     "posts": 1,
     "triggered": 0,
     "long": 0,
     "short": 0,
     "signals": [],
     "consensus": "NEUTRAL"
-  },
-  {
-    "date": "2026-09-27",
-    "posts": 3,
-    "triggered": 2,
-    "long": 2,
-    "short": 0,
-    "signals": [],
-    "consensus": "BULLISH"
-  },
-  {
-    "date": "2026-09-27",
-    "posts": 3,
-    "triggered": 2,
-    "long": 2,
-    "short": 0,
-    "signals": [],
-    "consensus": "BULLISH"
-  },
-  {
-    "date": "2026-09-28",
-    "posts": 3,
-    "triggered": 2,
-    "long": 2,
-    "short": 0,
-    "signals": [],
-    "consensus": "BULLISH"
   }
 ]

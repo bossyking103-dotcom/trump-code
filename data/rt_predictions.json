@@ -18633,8 +18633,8 @@
     "status": "EXPIRED"
   },
   {
-    "id": "rt_1790364197",
-    "created_at": "2026-09-25T19:23:17Z",
+    "id": "rt_1790254032",
+    "created_at": "2026-09-24T12:47:12Z",
     "post_time": "2026-09-24T12:36:46.270Z",
     "post_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117326044871082645This is a survey of people in business — the S&P Flash Survey — of purchasing, manufacturing and hiring. Guess what? The re",
     "signals": [
@@ -18682,32 +18682,32 @@
     "confidence": 0.3,
     "tracked_markets": [
       {
-        "token_id": "872705193332186569961205866097",
-        "question": "Will Trump and Putin meet next in Belarus?",
-        "price_at_signal": 0.005
+        "token_id": "157769274259817811412293268661",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 10+ times during his remarks at Xi Jinping's Sta",
+        "price_at_signal": 0.105
       },
       {
-        "token_id": "849479213830178466395993173472",
-        "question": "Will Trump and Putin meet next in Belarus?",
-        "price_at_signal": 0.995
+        "token_id": "100032160787145547636841070122",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 10+ times during his remarks at Xi Jinping's Sta",
+        "price_at_signal": 0.895
       },
       {
-        "token_id": "277438787319245035462166316782",
-        "question": "Will Trump and Putin meet next in Turkey?",
-        "price_at_signal": 0.0045
+        "token_id": "134691718193285848672848981763",
+        "question": "Will Trump say \"China\" 5+ times during his remarks at Xi Jinping's State Arrival?",
+        "price_at_signal": 0.415
       },
       {
-        "token_id": "824762732292134735352129693241",
-        "question": "Will Trump and Putin meet next in Turkey?",
-        "price_at_signal": 0.9955
+        "token_id": "231007047929983895324228223238",
+        "question": "Will Trump say \"China\" 5+ times during his remarks at Xi Jinping's State Arrival?",
+        "price_at_signal": 0.585
       },
       {
-        "token_id": "316302194249279600197679902071",
-        "question": "Will Trump and Putin meet next in Finland?",
-        "price_at_signal": 0.0015
+        "token_id": "112299808758065338499585910515",
+        "question": "Will Trump say \"Boeing\" during his remarks at Xi Jinping's State Arrival?",
+        "price_at_signal": 0.059
       }
     ],
-    "pm_price_at_signal": 0.005,
+    "pm_price_at_signal": 0.105,
     "pm_verify_1h": null,
     "pm_verify_3h": null,
     "pm_verify_6h": null,
@@ -18728,320 +18728,11 @@
     "spy_correct_3h": null,
     "pm_vs_stock_divergence": null,
     "divergence_detail": null,
-    "trump_coin_at_signal": 2.1,
-    "trump_coin_24h_change": 0.45,
+    "trump_coin_at_signal": 1.98,
+    "trump_coin_24h_change": -8.4,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "EXPIRED"
-  },
-  {
-    "id": "rt_1790384878",
-    "created_at": "2026-09-26T01:07:58Z",
-    "post_time": "2026-09-26T00:55:00.401Z",
-    "post_preview": "This is where we send our Killers, Drug Dealers, and Thugs. It's why Murder, and other Crimes in America, is at Record Lows! President DONALD J. TRUMP",
-    "signals": [
-      {
-        "type": "DEAL",
-        "confidence": 0.65,
-        "matched_keywords": [
-          "deal"
-        ],
-        "method": "keyword"
-      }
-    ],
-    "signal_types": [
-      "DEAL"
-    ],
-    "predicted_direction": "UP",
-    "confidence": 0.65,
-    "tracked_markets": [
-      {
-        "token_id": "612121835238924788124600629199",
-        "question": "Trump out as President by September 30?",
-        "price_at_signal": 0.002
-      },
-      {
-        "token_id": "502305252920113973616660321285",
-        "question": "Trump out as President by September 30?",
-        "price_at_signal": 0.998
-      },
-      {
-        "token_id": "651559964406913808755425867602",
-        "question": "Trump renames AI by September 30?",
-        "price_at_signal": 0.185
-      },
-      {
-        "token_id": "158790340887457026178418364359",
-        "question": "Trump renames AI by September 30?",
-        "price_at_signal": 0.815
-      },
-      {
-        "token_id": "143472491073580897488044660187",
-        "question": "Trump renames AI by December 31?",
-        "price_at_signal": 0.52
-      }
-    ],
-    "pm_price_at_signal": 0.002,
-    "pm_verify_1h": null,
-    "pm_verify_3h": null,
-    "pm_verify_6h": null,
-    "pm_verify_12h": null,
-    "pm_verify_24h": null,
-    "pm_verify_48h": null,
-    "pm_correct_1h": null,
-    "pm_correct_3h": null,
-    "spy_at_signal": null,
-    "es_at_signal": null,
-    "spy_change_at_signal": null,
-    "spy_verify_1h": null,
-    "spy_verify_3h": null,
-    "spy_verify_12h": null,
-    "spy_verify_24h": null,
-    "spy_verify_48h": null,
-    "spy_correct_1h": null,
-    "spy_correct_3h": null,
-    "pm_vs_stock_divergence": null,
-    "divergence_detail": null,
-    "trump_coin_at_signal": 2.12,
-    "trump_coin_24h_change": 0.54,
-    "trump_coin_verify_1h": null,
-    "trump_coin_verify_3h": null,
-    "trump_coin_verify_6h": null,
-    "status": "EXPIRED"
-  },
-  {
-    "id": "rt_1790384878",
-    "created_at": "2026-09-26T01:07:58Z",
-    "post_time": "2026-09-26T00:48:15.879Z",
-    "post_preview": "This is where we send our Killers, Drug Dealers, and Thugs. It's why Murder, and other Crimes in America, is at Record Lows! President DONALD J. TRUMP",
-    "signals": [
-      {
-        "type": "DEAL",
-        "confidence": 0.65,
-        "matched_keywords": [
-          "deal"
-        ],
-        "method": "keyword"
-      }
-    ],
-    "signal_types": [
-      "DEAL"
-    ],
-    "predicted_direction": "UP",
-    "confidence": 0.65,
-    "tracked_markets": [
-      {
-        "token_id": "612121835238924788124600629199",
-        "question": "Trump out as President by September 30?",
-        "price_at_signal": 0.002
-      },
-      {
-        "token_id": "502305252920113973616660321285",
-        "question": "Trump out as President by September 30?",
-        "price_at_signal": 0.998
-      },
-      {
-        "token_id": "651559964406913808755425867602",
-        "question": "Trump renames AI by September 30?",
-        "price_at_signal": 0.185
-      },
-      {
-        "token_id": "158790340887457026178418364359",
-        "question": "Trump renames AI by September 30?",
-        "price_at_signal": 0.815
-      },
-      {
-        "token_id": "143472491073580897488044660187",
-        "question": "Trump renames AI by December 31?",
-        "price_at_signal": 0.52
-      }
-    ],
-    "pm_price_at_signal": 0.002,
-    "pm_verify_1h": null,
-    "pm_verify_3h": null,
-    "pm_verify_6h": null,
-    "pm_verify_12h": null,
-    "pm_verify_24h": null,
-    "pm_verify_48h": null,
-    "pm_correct_1h": null,
-    "pm_correct_3h": null,
-    "spy_at_signal": null,
-    "es_at_signal": null,
-    "spy_change_at_signal": null,
-    "spy_verify_1h": null,
-    "spy_verify_3h": null,
-    "spy_verify_12h": null,
-    "spy_verify_24h": null,
-    "spy_verify_48h": null,
-    "spy_correct_1h": null,
-    "spy_correct_3h": null,
-    "pm_vs_stock_divergence": null,
-    "divergence_detail": null,
-    "trump_coin_at_signal": 2.12,
-    "trump_coin_24h_change": 0.54,
-    "trump_coin_verify_1h": null,
-    "trump_coin_verify_3h": null,
-    "trump_coin_verify_6h": null,
-    "status": "EXPIRED"
-  },
-  {
-    "id": "rt_1790439254",
-    "created_at": "2026-09-26T16:14:14Z",
-    "post_time": "2026-09-26T15:58:59.212Z",
-    "post_preview": "Another Fake Story is that a very close friend of mine, a man I endorsed very early, Byron Donalds, is taking me off his website and Campaign materials. I won Florida by Millions of Votes, getting the",
-    "signals": [
-      {
-        "type": "ACTION",
-        "confidence": 0.75,
-        "matched_keywords": [
-          "immediately"
-        ],
-        "method": "keyword"
-      },
-      {
-        "type": "BEARISH",
-        "confidence": 0.75,
-        "matched_keywords": [
-          "terrible"
-        ],
-        "method": "keyword"
-      }
-    ],
-    "signal_types": [
-      "ACTION",
-      "BEARISH"
-    ],
-    "predicted_direction": "NEUTRAL",
-    "confidence": 0.3,
-    "tracked_markets": [
-      {
-        "token_id": "612121835238924788124600629199",
-        "question": "Trump out as President by September 30?",
-        "price_at_signal": 0.0015
-      },
-      {
-        "token_id": "502305252920113973616660321285",
-        "question": "Trump out as President by September 30?",
-        "price_at_signal": 0.9985
-      },
-      {
-        "token_id": "651559964406913808755425867602",
-        "question": "Trump renames AI by September 30?",
-        "price_at_signal": 0.195
-      },
-      {
-        "token_id": "158790340887457026178418364359",
-        "question": "Trump renames AI by September 30?",
-        "price_at_signal": 0.805
-      },
-      {
-        "token_id": "143472491073580897488044660187",
-        "question": "Trump renames AI by December 31?",
-        "price_at_signal": 0.595
-      }
-    ],
-    "pm_price_at_signal": 0.0015,
-    "pm_verify_1h": null,
-    "pm_verify_3h": null,
-    "pm_verify_6h": null,
-    "pm_verify_12h": null,
-    "pm_verify_24h": null,
-    "pm_verify_48h": null,
-    "pm_correct_1h": null,
-    "pm_correct_3h": null,
-    "spy_at_signal": null,
-    "es_at_signal": null,
-    "spy_change_at_signal": null,
-    "spy_verify_1h": null,
-    "spy_verify_3h": null,
-    "spy_verify_12h": null,
-    "spy_verify_24h": null,
-    "spy_verify_48h": null,
-    "spy_correct_1h": null,
-    "spy_correct_3h": null,
-    "pm_vs_stock_divergence": null,
-    "divergence_detail": null,
-    "trump_coin_at_signal": 2.17,
-    "trump_coin_24h_change": 3.27,
-    "trump_coin_verify_1h": null,
-    "trump_coin_verify_3h": null,
-    "trump_coin_verify_6h": null,
-    "status": "EXPIRED"
-  },
-  {
-    "id": "rt_1790450854",
-    "created_at": "2026-09-26T19:27:34Z",
-    "post_time": "2026-09-26T19:14:48.496Z",
-    "post_preview": "BIG DAY FOR AMERICAN AUTO WORKERS AND CAR BUYERS! I have just approved new Fuel Economy Standards that TERMINATE Sleepy Joe Biden and Pete Boot-EDGE-EDGE's ridiculous EV Mandate. The Dumocrats cost ou",
-    "signals": [
-      {
-        "type": "BULLISH",
-        "confidence": 0.75,
-        "matched_keywords": [
-          "jobs"
-        ],
-        "method": "keyword"
-      }
-    ],
-    "signal_types": [
-      "BULLISH"
-    ],
-    "predicted_direction": "UP",
-    "confidence": 0.75,
-    "tracked_markets": [
-      {
-        "token_id": "612121835238924788124600629199",
-        "question": "Trump out as President by September 30?",
-        "price_at_signal": 0.001
-      },
-      {
-        "token_id": "502305252920113973616660321285",
-        "question": "Trump out as President by September 30?",
-        "price_at_signal": 0.999
-      },
-      {
-        "token_id": "651559964406913808755425867602",
-        "question": "Trump renames AI by September 30?",
-        "price_at_signal": 0.185
-      },
-      {
-        "token_id": "158790340887457026178418364359",
-        "question": "Trump renames AI by September 30?",
-        "price_at_signal": 0.815
-      },
-      {
-        "token_id": "143472491073580897488044660187",
-        "question": "Trump renames AI by December 31?",
-        "price_at_signal": 0.59
-      }
-    ],
-    "pm_price_at_signal": 0.001,
-    "pm_verify_1h": null,
-    "pm_verify_3h": null,
-    "pm_verify_6h": null,
-    "pm_verify_12h": null,
-    "pm_verify_24h": null,
-    "pm_verify_48h": null,
-    "pm_correct_1h": null,
-    "pm_correct_3h": null,
-    "spy_at_signal": null,
-    "es_at_signal": null,
-    "spy_change_at_signal": null,
-    "spy_verify_1h": null,
-    "spy_verify_3h": null,
-    "spy_verify_12h": null,
-    "spy_verify_24h": null,
-    "spy_verify_48h": null,
-    "spy_correct_1h": null,
-    "spy_correct_3h": null,
-    "pm_vs_stock_divergence": null,
-    "divergence_detail": null,
-    "trump_coin_at_signal": 2.13,
-    "trump_coin_24h_change": 1.65,
-    "trump_coin_verify_1h": null,
-    "trump_coin_verify_3h": null,
-    "trump_coin_verify_6h": null,
-    "status": "EXPIRED"
+    "status": "LIVE"
   }
 ]

@@ -1,77 +1,31 @@
 {
-  "date": "2026-09-28",
-  "prepared_at": "2026-09-28T05:45:32Z",
+  "date": "2026-09-25",
+  "prepared_at": "2026-09-25T11:51:46Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "The Supreme Court of the United States will just not let Missouri have an Election Victory. They continuously, three times now, overrule Judges who came to the correct decisions. Thank you to the Gove",
-    "earliest_time": "2026-09-27T00:59:56.934Z",
-    "latest_time": "2026-09-27T15:19:01.317Z",
+    "count": 1,
+    "latest": "God bless American Patriot and Warrior, James Copenhaver, and his incredible family. May he rest in peace!!! President DONALD J. TRUMP",
+    "earliest_time": "2026-09-25T10:19:16.524Z",
+    "latest_time": "2026-09-25T10:19:16.524Z",
     "sample": [
       {
-        "time": "00:59",
-        "text": "We have the BEST FINANCIAL NUMBERS EVER, and the FAKE NEWS MEDIA refuses to report them!!! President DJT"
-      },
-      {
-        "time": "12:09",
-        "text": "More people working in the United States right now than at any point in the History of our Country! President DJT"
-      },
-      {
-        "time": "15:19",
-        "text": "The Supreme Court of the United States will just not let Missouri have an Election Victory. They continuously, three times now, overrule Judges who came to the correct decisions. Thank you to the Governor, and all of the Great People of Missouri, who are fighting so hard for Fairness and Election Se"
+        "time": "10:19",
+        "text": "God bless American Patriot and Warrior, James Copenhaver, and his incredible family. May he rest in peace!!! President DONALD J. TRUMP"
       }
     ]
   },
   "today_features": {
     "posts_1_5": true,
-    "avg_len_medium": true,
-    "caps_medium": true,
-    "excl_heavy": true,
+    "avg_len_short": true,
+    "caps_high": true,
+    "excl_extreme": true,
     "questions_no": true,
-    "has_night": true,
-    "kw_great": true,
-    "open_great": true,
-    "kw_tremendous": true,
-    "open_tremendous": true,
-    "kw_fake": true,
-    "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "pre_president_djt": true,
-    "is_weekend": true,
+    "mostly_premarket": true,
+    "kw_incredible": true,
+    "pre_incredible": true,
+    "is_friday": true,
+    "volume_rising_3d": true,
     "volume_drop": true
-  },
-  "triggered_rules": {
-    "total": 2,
-    "long": 2,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0010",
-        "features": [
-          "excl_heavy",
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0095",
-        "features": [
-          "excl_heavy",
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -186,11 +140,11 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-09-28",
-    "crossover": 16,
+    "date": "2026-09-25",
+    "crossover": 14,
     "mutation": 16,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -205,13 +159,12 @@
       },
       {
         "features": [
-          "open_dow",
           "is_friday",
-          "kw_economy"
+          "kw_energy"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
+        "hold": 1,
+        "score": 91.2,
         "origin": "crossover"
       },
       {
