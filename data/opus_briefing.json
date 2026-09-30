@@ -1,71 +1,79 @@
 {
-  "date": "2026-09-28",
-  "prepared_at": "2026-09-28T20:45:35Z",
+  "date": "2026-09-30",
+  "prepared_at": "2026-09-30T11:45:46Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 9,
-    "latest": "Joe Scarborough's show has been cut way back, and will soon be \"dead!\" Too predictable and boring! REALLY BAD RATINGS, just like the rest of MSNOW (MSDNC!). President DJT",
-    "earliest_time": "2026-09-28T11:32:26.737Z",
-    "latest_time": "2026-09-28T12:02:36.027Z",
+    "count": 3,
+    "latest": "Iran Has Lost Control of the Strait: https://x.com/BurggrabenH/status/2104361288000221497",
+    "earliest_time": "2026-09-29T02:33:06.613Z",
+    "latest_time": "2026-09-29T21:00:34.470Z",
     "sample": [
       {
-        "time": "11:32",
-        "text": "Fauci diary reveals alarm that U.S. had aerosolized Ebola virus: 'Never should have been done': https://justthenews.com/government/congress/fauci-alarmed-over-us-army-ebola-tests-funded-his-own-agency-diary-entries-and"
+        "time": "02:33",
+        "text": "The Protect College Sport Act just passed in the U.S. Senate by a vote of 77-22. This is a really big deal. It will not only save college sports, it will save the colleges themselves. Congratulations to Randy Levine, President of the New York Yankees, and all of those who worked with him, on a job w"
       },
       {
-        "time": "11:32",
-        "text": "Trump stacks wins: SCOTUS unleashes voter citizenship checks while feds put machines on leash: https://justthenews.com/government/white-house/supreme-court-cisa"
+        "time": "12:30",
+        "text": "From a great journalist! President DJT"
       },
       {
-        "time": "11:33",
-        "text": "SCOTUS reinstates Trump's voter citizenship verification rules: https://justthenews.com/government/courts-law/scotus-reinstates-trumps-voter-citizenship-verification-rules"
-      },
-      {
-        "time": "11:33",
-        "text": "Justice Department charges four aliens in Pennsylvania with election fraud: https://justthenews.com/government/federal-agencies/justice-department-charges-four-migrants-pennsylvania-election-fraud"
-      },
-      {
-        "time": "11:33",
-        "text": "Two-tiered justice: Local DAs shield noncitizens from immigration consequences: https://justthenews.com/nation/crime/two-tiered-justice-local-das-shield-noncitizens-immigration-consequences"
-      },
-      {
-        "time": "11:38",
-        "text": "\"The United States has the BEST Employment Numbers in HISTORY.\" FoxNews. The Fake News Media REFUSES to report this rather significant development, however!!! President DJT"
-      },
-      {
-        "time": "11:50",
-        "text": "Kevin Roberts, Heritage Foundation & Heritage Action President, and also, a fabulous guy, was fantastic on FoxNews this morning. The topic was Fake Polls and how well the Republicans are going to do in the upcoming Midterms. Thank you, Kevin. I'll be out there spending money, and helping every one o"
-      },
-      {
-        "time": "11:57",
-        "text": "Bill Maher's ratings are so low that it is hard to believe his show can continue. In many ways it's SAD because, in actuality, I like him. Republicans should stop using him as a sounding board, however. It makes them look sooo weak and foolish!"
-      },
-      {
-        "time": "12:02",
-        "text": "Joe Scarborough's show has been cut way back, and will soon be \"dead!\" Too predictable and boring! REALLY BAD RATINGS, just like the rest of MSNOW (MSDNC!). President DJT"
+        "time": "21:00",
+        "text": "Iran Has Lost Control of the Strait: https://x.com/BurggrabenH/status/2104361288000221497"
       }
     ]
   },
+  "keyword_signals": [
+    "DEAL",
+    "IRAN",
+    "DEAL_ONLY"
+  ],
   "today_features": {
-    "posts_6_10": true,
-    "avg_len_medium": true,
+    "posts_1_5": true,
+    "avg_len_short": true,
     "caps_low": true,
     "excl_normal": true,
     "questions_no": true,
-    "mostly_premarket": true,
+    "has_night": true,
+    "kw_deal": true,
+    "kw_iran": true,
     "kw_great": true,
     "pre_great": true,
-    "kw_fantastic": true,
-    "pre_fantastic": true,
-    "kw_fake": true,
-    "kw_fake_2plus": true,
-    "pre_fake": true,
-    "kw_maga": true,
-    "pre_maga": true,
     "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
     "pre_president_djt": true,
-    "is_monday": true
+    "volume_drop": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
+  },
+  "triggered_rules": {
+    "total": 2,
+    "long": 2,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0011",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0079",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -180,11 +188,11 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-09-28",
+    "date": "2026-09-30",
     "crossover": 16,
-    "mutation": 15,
+    "mutation": 10,
     "distill": 16,
-    "total_new": 47,
+    "total_new": 42,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -209,14 +217,13 @@
       },
       {
         "features": [
-          "open_tariff",
-          "kw_tremendous",
-          "kw_thank_you_for_your_attention"
+          "kw_interest_rate",
+          "kw_tremendous"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 87.5,
-        "origin": "crossover"
+        "origin": "distilled"
       }
     ]
   },
