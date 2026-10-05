@@ -1,79 +1,48 @@
 {
-  "date": "2026-09-30",
-  "prepared_at": "2026-09-30T11:45:46Z",
+  "date": "2026-10-05",
+  "prepared_at": "2026-10-05T17:45:40Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 3,
-    "latest": "Iran Has Lost Control of the Strait: https://x.com/BurggrabenH/status/2104361288000221497",
-    "earliest_time": "2026-09-29T02:33:06.613Z",
-    "latest_time": "2026-09-29T21:00:34.470Z",
+    "count": 4,
+    "latest": "What's driving up Gasoline is no longer the Strait of Hormuz, because Record Numbers of Barrels are coming out now on an almost daily basis, but the word, \"Refineries,\" where Russia's are being blown ",
+    "earliest_time": "2026-10-05T01:25:00.000Z",
+    "latest_time": "2026-10-05T16:32:36.420Z",
     "sample": [
       {
-        "time": "02:33",
-        "text": "The Protect College Sport Act just passed in the U.S. Senate by a vote of 77-22. This is a really big deal. It will not only save college sports, it will save the colleges themselves. Congratulations to Randy Levine, President of the New York Yankees, and all of those who worked with him, on a job w"
+        "time": "01:25",
+        "text": "Exclusive — President of Cyprus: ‘Sky Is the Limit’ for Bilateral Relations with USA, Trump Has ‘Unique Advantage’ in Negotiations Because ‘You Know Where You Stand’ with POTUS: https://www.breitbart.com/politics/2026/10/04/exclusive-president-of-cyprus-sky-is-the-limit-for-bilateral-relations-with-"
       },
       {
-        "time": "12:30",
-        "text": "From a great journalist! President DJT"
+        "time": "03:32",
+        "text": "125 Million People  voted today in the first round of Brazil's Presidential Election. The results came out shortly after the vote closed, on the SAME DAY! In Detroit, Philadelphia, California, and numerous other U.S. Cities and States, the results, with much smaller numbers, will often take weeks to"
       },
       {
-        "time": "21:00",
-        "text": "Iran Has Lost Control of the Strait: https://x.com/BurggrabenH/status/2104361288000221497"
+        "time": "05:25",
+        "text": "Exclusive — President of Cyprus: 'Sky Is the Limit' for Bilateral Relations with USA, Trump Has 'Unique Advantage' in Negotiations Because 'You Know Where You Stand' with POTUS: https://www.breitbart.com/politics/2026/10/04/exclusive-president-of-cyprus-sky-is-the-limit-for-bilateral-relations-with-"
+      },
+      {
+        "time": "16:32",
+        "text": "What's driving up Gasoline is no longer the Strait of Hormuz, because Record Numbers of Barrels are coming out now on an almost daily basis, but the word, \"Refineries,\" where Russia's are being blown up by Ukraine, and where ours are being closed up, in Blue States, like California, by the Dumocrats"
       }
     ]
   },
-  "keyword_signals": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_short": true,
-    "caps_low": true,
+    "avg_len_long": true,
+    "caps_medium": true,
     "excl_normal": true,
     "questions_no": true,
     "has_night": true,
-    "kw_deal": true,
-    "kw_iran": true,
-    "kw_great": true,
-    "pre_great": true,
+    "kw_russia": true,
+    "open_russia": true,
+    "kw_ukraine": true,
+    "open_ukraine": true,
+    "kw_gas": true,
+    "open_gas": true,
+    "kw_corrupt": true,
     "kw_president_djt": true,
-    "pre_president_djt": true,
-    "volume_drop": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
-  },
-  "triggered_rules": {
-    "total": 2,
-    "long": 2,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0011",
-        "features": [
-          "kw_deal",
-          "kw_perfect"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0079",
-        "features": [
-          "kw_deal",
-          "kw_perfect"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "is_monday": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -188,11 +157,11 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-09-30",
+    "date": "2026-10-05",
     "crossover": 16,
-    "mutation": 10,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 42,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -207,22 +176,22 @@
       },
       {
         "features": [
+          "kw_president_of_the_united_states",
+          "kw_india"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_tremendous"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 87.5,
         "origin": "distilled"
       }
     ]

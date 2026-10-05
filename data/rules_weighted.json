@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-09-30T11:45:46Z",
+    "updated_at": "2026-10-05T17:45:39Z",
     "total_rules": 601,
     "eliminated": 0,
     "rules_with_data": 0
@@ -16,7 +16,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-09-30",
+      "born_date": "2026-10-05",
       "combined_score": 70.0,
       "learn_stats": {
         "correct": 0,
@@ -14239,6 +14239,36 @@
     },
     {
       "features": [
+        "kw_america_first",
+        "kw_maga",
+        "kw_signed"
+      ],
+      "direction": "LONG",
+      "hold": 1,
+      "id": "21133ba786d2",
+      "n_cond": 3,
+      "train_trades": 6,
+      "train_win_rate": 100.0,
+      "train_avg": 0.807,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.596,
+      "combined_score": 100.0,
+      "origin": "crossover",
+      "born_date": "2026-10-04",
+      "weight": 1.0,
+      "parents": [
+        "kw_interest_rate+kw_signed",
+        "kw_america_first+kw_maga"
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
+    },
+    {
+      "features": [
         "kw_maga",
         "open_ukraine"
       ],
@@ -14872,36 +14902,6 @@
       "parents": [
         "kw_incredible_2plus+open_incredible",
         "kw_dow_2plus+kw_interest_rate"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
-      "features": [
-        "kw_agreement",
-        "kw_thank_you_for_your_attention",
-        "kw_maga"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "id": "926e451adf4c",
-      "n_cond": 3,
-      "train_trades": 9,
-      "train_win_rate": 88.9,
-      "train_avg": 1.349,
-      "test_trades": 3,
-      "test_win_rate": 100.0,
-      "test_avg": 0.752,
-      "combined_score": 94.4,
-      "origin": "crossover",
-      "born_date": "2026-09-17",
-      "weight": 1.0,
-      "parents": [
-        "kw_agreement+kw_jobs",
-        "kw_america_first+kw_maga"
       ],
       "learn_stats": {
         "correct": 0,

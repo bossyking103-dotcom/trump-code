@@ -1,21 +1,17 @@
 {
-  "date": "2026-09-30",
-  "generated_at": "2026-09-30T11:45:42Z",
-  "posts_today": 3,
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T17:45:36Z",
+  "posts_today": 4,
   "latest_post": {
-    "time": "2026-09-29T21:00",
-    "content_preview": "Iran Has Lost Control of the Strait: https://x.com/BurggrabenH/status/2104361288000221497"
+    "time": "2026-10-05T16:32",
+    "content_preview": "What's driving up Gasoline is no longer the Strait of Hormuz, because Record Numbers of Barrels are "
   },
-  "signals_detected": [
-    "DEAL",
-    "IRAN",
-    "DEAL_ONLY"
-  ],
-  "models_triggered": 2,
+  "signals_detected": [],
+  "models_triggered": 0,
   "direction_summary": {
-    "LONG": 2,
+    "LONG": 0,
     "SHORT": 0,
-    "consensus": "BULLISH"
+    "consensus": "NEUTRAL"
   },
   "historical_hit_rate": {
     "verified": 156,
@@ -23,34 +19,13 @@
     "rate": 17.3
   },
   "sp500_latest": {
-    "date": "2026-09-29",
-    "close": 7670.84
+    "date": "2026-10-02",
+    "close": 7722.72
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-09-30\nPosts today: 3 | Models triggered: 2\nSignals: DEAL, IRAN, DEAL_ONLY\nConsensus: 2 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: Iran Has Lost Control of the Strait: https://x.com/BurggrabenH/status/2104361288000221497",
-    "zh": "川普密碼每日報告 -- 2026-09-30\n今日推文: 3 篇 | 觸發模型: 2 組\n偵測信號: Deal, 伊朗, 只有Deal沒有關稅\n共識方向: 2 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: Iran Has Lost Control of the Strait: https://x.com/BurggrabenH/status/2104361288000221497",
-    "ja": "トランプ・コード日次レポート -- 2026-09-30\n本日の投稿: 3件 | トリガーモデル: 2組\n検出シグナル: ディール, イラン, Dealのみ（関税無し）\nコンセンサス: 2組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: Iran Has Lost Control of the Strait: https://x.com/BurggrabenH/status/2104361288000221497"
+    "en": "Trump Code Daily Report -- 2026-10-05\nPosts today: 4 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: What's driving up Gasoline is no longer the Strait of Hormuz, because Record Numbers of Barrels are ",
+    "zh": "川普密碼每日報告 -- 2026-10-05\n今日推文: 4 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: What's driving up Gasoline is no longer the Strait of Hormuz, because Record Numbers of Barrels are ",
+    "ja": "トランプ・コード日次レポート -- 2026-10-05\n本日の投稿: 4件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: What's driving up Gasoline is no longer the Strait of Hormuz, because Record Numbers of Barrels are "
   },
-  "triggered_rules_sample": [
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    }
-  ]
+  "triggered_rules_sample": []
 }
