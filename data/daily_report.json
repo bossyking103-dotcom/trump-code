@@ -1,17 +1,19 @@
 {
-  "date": "2026-10-05",
-  "generated_at": "2026-10-05T17:45:36Z",
-  "posts_today": 4,
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T17:46:27Z",
+  "posts_today": 5,
   "latest_post": {
-    "time": "2026-10-05T16:32",
-    "content_preview": "What's driving up Gasoline is no longer the Strait of Hormuz, because Record Numbers of Barrels are "
+    "time": "2026-10-08T17:01",
+    "content_preview": "TalaFREAKo has been missing for 12 days! Now, after looking for him throughout all of Texas, and bey"
   },
-  "signals_detected": [],
-  "models_triggered": 0,
+  "signals_detected": [
+    "IRAN"
+  ],
+  "models_triggered": 10,
   "direction_summary": {
-    "LONG": 0,
+    "LONG": 10,
     "SHORT": 0,
-    "consensus": "NEUTRAL"
+    "consensus": "BULLISH"
   },
   "historical_hit_rate": {
     "verified": 156,
@@ -19,13 +21,123 @@
     "rate": 17.3
   },
   "sp500_latest": {
-    "date": "2026-10-02",
-    "close": 7722.72
+    "date": "2026-10-08",
+    "close": 7753.49
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-10-05\nPosts today: 4 | Models triggered: 0\nSignals: None\nConsensus: 0 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: What's driving up Gasoline is no longer the Strait of Hormuz, because Record Numbers of Barrels are ",
-    "zh": "川普密碼每日報告 -- 2026-10-05\n今日推文: 4 篇 | 觸發模型: 0 組\n偵測信號: 無\n共識方向: 0 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: What's driving up Gasoline is no longer the Strait of Hormuz, because Record Numbers of Barrels are ",
-    "ja": "トランプ・コード日次レポート -- 2026-10-05\n本日の投稿: 4件 | トリガーモデル: 0組\n検出シグナル: なし\nコンセンサス: 0組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: What's driving up Gasoline is no longer the Strait of Hormuz, because Record Numbers of Barrels are "
+    "en": "Trump Code Daily Report -- 2026-10-08\nPosts today: 5 | Models triggered: 10\nSignals: IRAN\nConsensus: 10 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: TalaFREAKo has been missing for 12 days! Now, after looking for him throughout all of Texas, and bey",
+    "zh": "川普密碼每日報告 -- 2026-10-08\n今日推文: 5 篇 | 觸發模型: 10 組\n偵測信號: 伊朗\n共識方向: 10 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: TalaFREAKo has been missing for 12 days! Now, after looking for him throughout all of Texas, and bey",
+    "ja": "トランプ・コード日次レポート -- 2026-10-08\n本日の投稿: 5件 | トリガーモデル: 10組\n検出シグナル: イラン\nコンセンサス: 10組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: TalaFREAKo has been missing for 12 days! Now, after looking for him throughout all of Texas, and bey"
   },
-  "triggered_rules_sample": []
+  "triggered_rules_sample": [
+    {
+      "features": [
+        "open_dow",
+        "open_trade",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "open_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_interest_rate",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tariff_2plus",
+        "open_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tariffs",
+        "open_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_tariffs_2plus",
+        "open_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    }
+  ]
 }

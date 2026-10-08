@@ -20130,6 +20130,532 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791233671",
+    "created_at": "2026-10-05T20:54:31Z",
+    "post_time": "2026-10-05T20:35:16.800Z",
+    "post_preview": "The New York Times, in writing a story about one of the finest and most successful resorts anywhere in the World, Trump National Doral, in Miami, posted a picture where the facade has been blackened a",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "516162325567819335283998515633",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.0255
+      },
+      {
+        "token_id": "572162725645295484646864636912",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.9745
+      },
+      {
+        "token_id": "225836881494883464629588019230",
+        "question": "Will Trump say \"Million\", \"Billion\" or \"Trillion\" 25+ times during his Midterm Rally in Nebraska?",
+        "price_at_signal": 0.84
+      },
+      {
+        "token_id": "113331829236477124127007890014",
+        "question": "Will Trump say \"Million\", \"Billion\" or \"Trillion\" 25+ times during his Midterm Rally in Nebraska?",
+        "price_at_signal": 0.16
+      },
+      {
+        "token_id": "274879989546715480283326556024",
+        "question": "Will Trump say \"Tax\" 25+ times during his Midterm Rally in Nebraska?",
+        "price_at_signal": 0.385
+      }
+    ],
+    "pm_price_at_signal": 0.0255,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.07,
+    "trump_coin_24h_change": 1.14,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791257420",
+    "created_at": "2026-10-06T03:30:20Z",
+    "post_time": "2026-10-06T03:18:50.947Z",
+    "post_preview": "HUGE INVESTMENT WIN for NEBRASKA AND THE U.S.!Beckton Dickenson (BD), one of the largest Medical Device Manufacturers, has agreed to an Investment of 3 BILLION DOLLARS to Onshore Manufacturing of Esse",
+    "signals": [
+      {
+        "type": "TARIFF",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "tariff",
+          "tariffs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "TARIFF"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.8,
+    "tracked_markets": [
+      {
+        "token_id": "225836881494883464629588019230",
+        "question": "Will Trump say \"Million\", \"Billion\" or \"Trillion\" 25+ times during his Midterm Rally in Nebraska?",
+        "price_at_signal": 0.9995
+      },
+      {
+        "token_id": "113331829236477124127007890014",
+        "question": "Will Trump say \"Million\", \"Billion\" or \"Trillion\" 25+ times during his Midterm Rally in Nebraska?",
+        "price_at_signal": 0.0005
+      },
+      {
+        "token_id": "274879989546715480283326556024",
+        "question": "Will Trump say \"Tax\" 25+ times during his Midterm Rally in Nebraska?",
+        "price_at_signal": 0.8755
+      },
+      {
+        "token_id": "179843198374968764279146538287",
+        "question": "Will Trump say \"Tax\" 25+ times during his Midterm Rally in Nebraska?",
+        "price_at_signal": 0.1245
+      },
+      {
+        "token_id": "572798674463866918514417671818",
+        "question": "Will Trump say \"Joe\" or \"Biden\" 10+ times during his Midterm Rally in Nebraska?",
+        "price_at_signal": 0.495
+      }
+    ],
+    "pm_price_at_signal": 0.9995,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 2.03,
+    "trump_coin_24h_change": -2.62,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791390585",
+    "created_at": "2026-10-07T16:29:45Z",
+    "post_time": "2026-10-07T16:02:22.850Z",
+    "post_preview": "Chris LaCivita and James Blair are outside consultants. They do not work for me, other than as outside consultants. They most likely have numerous clients, but for that, you would have to ask them. Th",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.039
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.961
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.0015
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.9985
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.004
+      }
+    ],
+    "pm_price_at_signal": 0.039,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.85,
+    "trump_coin_24h_change": -8.3,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791411697",
+    "created_at": "2026-10-07T22:21:37Z",
+    "post_time": "2026-10-07T22:02:27.949Z",
+    "post_preview": "To the people of Texas, I am headed your way, and one of the people that I am going to pay respect to today is Tano Tijerina. Out of love and passion, he is running against a Dumocrat, Henry Cuellar, ",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0405
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9595
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.0015
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.9985
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.003
+      }
+    ],
+    "pm_price_at_signal": 0.0405,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.85,
+    "trump_coin_24h_change": -7.41,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1791430368",
+    "created_at": "2026-10-08T03:32:48Z",
+    "post_time": "2026-10-08T03:22:37.541Z",
+    "post_preview": "Ladies and Gentlemen, upon information and belief, James TalaFREAKo, who is running for the United States Senate in Texas, is MISSING IN ACTION! No one has seen him for an extended period of time. Whe",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "940268651886326979660410457483",
+        "question": "Will Trump say \"Million\", \"Billion\" or \"Trillion\" 25+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "790838536411344334139679588115",
+        "question": "Will Trump say \"Million\", \"Billion\" or \"Trillion\" 25+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "286197248251655452523765222398",
+        "question": "Will Trump say \"Job\" 20+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "104195855520856002133770200248",
+        "question": "Will Trump say \"Job\" 20+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "804145883003645380997727242836",
+        "question": "Will Trump say \"Border\" 15+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 1.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.87,
+    "trump_coin_24h_change": -0.97,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1791430368",
+    "created_at": "2026-10-08T03:32:48Z",
+    "post_time": "2026-10-08T03:13:18.653Z",
+    "post_preview": "Mohammed El-Sayed is a terrible Candidate for the Dumocrats. While his opponent, Mike Rogers, is an extremely good one, Mohammed goes back to the days of the Jihad. He is a RADICAL Extremist, Terroris",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "terrible"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "940268651886326979660410457483",
+        "question": "Will Trump say \"Million\", \"Billion\" or \"Trillion\" 25+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "790838536411344334139679588115",
+        "question": "Will Trump say \"Million\", \"Billion\" or \"Trillion\" 25+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "286197248251655452523765222398",
+        "question": "Will Trump say \"Job\" 20+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "104195855520856002133770200248",
+        "question": "Will Trump say \"Job\" 20+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "804145883003645380997727242836",
+        "question": "Will Trump say \"Border\" 15+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 1.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.87,
+    "trump_coin_24h_change": -0.97,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1791477054",
+    "created_at": "2026-10-08T16:30:54Z",
+    "post_time": "2026-10-08T16:17:11.021Z",
+    "post_preview": "We are having productive discussions with the Islamic Republic of Iran. I want to make it clear to everybody that, while Iran is in very bad condition, both Economically and Militarily, and while the ",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "block"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "940268651886326979660410457483",
+        "question": "Will Trump say \"Million\", \"Billion\" or \"Trillion\" 25+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "790838536411344334139679588115",
+        "question": "Will Trump say \"Million\", \"Billion\" or \"Trillion\" 25+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "286197248251655452523765222398",
+        "question": "Will Trump say \"Job\" 20+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "104195855520856002133770200248",
+        "question": "Will Trump say \"Job\" 20+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "804145883003645380997727242836",
+        "question": "Will Trump say \"Border\" 15+ times during his Midterm Rally in Texas?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 1.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.79,
+    "trump_coin_24h_change": -3.63,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
     "status": "LIVE"
   }
 ]

@@ -1,48 +1,204 @@
 {
-  "date": "2026-10-05",
-  "prepared_at": "2026-10-05T17:45:40Z",
+  "date": "2026-10-08",
+  "prepared_at": "2026-10-08T17:46:33Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "What's driving up Gasoline is no longer the Strait of Hormuz, because Record Numbers of Barrels are coming out now on an almost daily basis, but the word, \"Refineries,\" where Russia's are being blown ",
-    "earliest_time": "2026-10-05T01:25:00.000Z",
-    "latest_time": "2026-10-05T16:32:36.420Z",
+    "count": 5,
+    "latest": "TalaFREAKo has been missing for 12 days! Now, after looking for him throughout all of Texas, and beyond, probably even weirder places than anyone would think possible, he put out a statement that he h",
+    "earliest_time": "2026-10-08T03:13:18.653Z",
+    "latest_time": "2026-10-08T17:01:09.981Z",
     "sample": [
       {
-        "time": "01:25",
-        "text": "Exclusive — President of Cyprus: ‘Sky Is the Limit’ for Bilateral Relations with USA, Trump Has ‘Unique Advantage’ in Negotiations Because ‘You Know Where You Stand’ with POTUS: https://www.breitbart.com/politics/2026/10/04/exclusive-president-of-cyprus-sky-is-the-limit-for-bilateral-relations-with-"
+        "time": "03:13",
+        "text": "Mohammed El-Sayed is a terrible Candidate for the Dumocrats. While his opponent, Mike Rogers, is an extremely good one, Mohammed goes back to the days of the Jihad. He is a RADICAL Extremist, Terrorist Sympathizer, and no different from his best friend, America Hating Hasan Piker. How's France doing"
       },
       {
-        "time": "03:32",
-        "text": "125 Million People  voted today in the first round of Brazil's Presidential Election. The results came out shortly after the vote closed, on the SAME DAY! In Detroit, Philadelphia, California, and numerous other U.S. Cities and States, the results, with much smaller numbers, will often take weeks to"
+        "time": "03:22",
+        "text": "Ladies and Gentlemen, upon information and belief, James TalaFREAKo, who is running for the United States Senate in Texas, is MISSING IN ACTION! No one has seen him for an extended period of time. Where is he? What is wrong with him? Bad rumors are coming out. He should immediately report to a Debat"
       },
       {
-        "time": "05:25",
-        "text": "Exclusive — President of Cyprus: 'Sky Is the Limit' for Bilateral Relations with USA, Trump Has 'Unique Advantage' in Negotiations Because 'You Know Where You Stand' with POTUS: https://www.breitbart.com/politics/2026/10/04/exclusive-president-of-cyprus-sky-is-the-limit-for-bilateral-relations-with-"
+        "time": "16:14",
+        "text": "The White House considers anyone that uses the term, \"Artificial Intelligence,\" as opposed to the highly accepted new and more accurate term, \"Super Intelligence,\" THE ENEMY! President DONALD J. TRUMP"
       },
       {
-        "time": "16:32",
-        "text": "What's driving up Gasoline is no longer the Strait of Hormuz, because Record Numbers of Barrels are coming out now on an almost daily basis, but the word, \"Refineries,\" where Russia's are being blown up by Ukraine, and where ours are being closed up, in Blue States, like California, by the Dumocrats"
+        "time": "16:17",
+        "text": "We are having productive discussions with the Islamic Republic of Iran. I want to make it clear to everybody that, while Iran is in very bad condition, both Economically and Militarily, and while the Blockade will remain in full force and effect, with Oil flowing in Record Numbers of Barrels through"
+      },
+      {
+        "time": "17:01",
+        "text": "TalaFREAKo has been missing for 12 days! Now, after looking for him throughout all of Texas, and beyond, probably even weirder places than anyone would think possible, he put out a statement that he has the \"flu.\" 12 days is a long time to rid yourself of the so-called flu bug. What's going on? We n"
       }
     ]
   },
+  "keyword_signals": [
+    "IRAN"
+  ],
   "today_features": {
     "posts_1_5": true,
     "avg_len_long": true,
     "caps_medium": true,
-    "excl_normal": true,
-    "questions_no": true,
+    "excl_heavy": true,
+    "questions_yes": true,
+    "mostly_open": true,
     "has_night": true,
-    "kw_russia": true,
-    "open_russia": true,
-    "kw_ukraine": true,
-    "open_ukraine": true,
-    "kw_gas": true,
-    "open_gas": true,
-    "kw_corrupt": true,
-    "kw_president_djt": true,
-    "is_monday": true,
+    "kw_immediately": true,
+    "kw_block": true,
+    "open_block": true,
+    "kw_iran": true,
+    "open_iran": true,
+    "kw_dow": true,
+    "kw_dow_2plus": true,
+    "open_dow": true,
+    "kw_oil": true,
+    "open_oil": true,
+    "kw_great": true,
+    "kw_great_2plus": true,
+    "open_great": true,
+    "kw_terrible": true,
+    "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
+    "open_thank_you_for_your_attention": true,
+    "kw_never_let_you_down": true,
+    "kw_never_let_you_down_2plus": true,
+    "open_never_let_you_down": true,
+    "kw_complete_and_total": true,
     "volume_drop": true
+  },
+  "triggered_rules": {
+    "total": 10,
+    "long": 10,
+    "short": 0,
+    "sample": [
+      {
+        "id": "R0008",
+        "features": [
+          "open_dow",
+          "open_trade",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0013",
+        "features": [
+          "kw_dow_2plus",
+          "open_jobs",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0046",
+        "features": [
+          "kw_dow_2plus",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0050",
+        "features": [
+          "kw_dow_2plus",
+          "open_dow",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0053",
+        "features": [
+          "kw_perfect",
+          "kw_thank_you_for_your_attention",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0054",
+        "features": [
+          "kw_perfect",
+          "open_thank_you_for_your_attention",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0086",
+        "features": [
+          "kw_dow_2plus",
+          "kw_interest_rate",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0088",
+        "features": [
+          "kw_tariff_2plus",
+          "open_thank_you_for_your_attention",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0089",
+        "features": [
+          "kw_tariffs",
+          "open_thank_you_for_your_attention",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0090",
+        "features": [
+          "kw_tariffs_2plus",
+          "open_thank_you_for_your_attention",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      }
+    ]
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -157,13 +313,23 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-10-05",
+    "date": "2026-10-08",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 45,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "volume_falling_3d",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 93.8,
+        "origin": "mutation_remove"
+      },
       {
         "features": [
           "is_friday",
@@ -176,23 +342,13 @@
       },
       {
         "features": [
-          "kw_president_of_the_united_states",
-          "kw_india"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "mutation_remove"
-      },
-      {
-        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "distilled"
+        "origin": "crossover"
       }
     ]
   },
