@@ -1,32 +1,32 @@
 {
-  "date": "2026-10-08",
-  "prepared_at": "2026-10-08T17:46:33Z",
+  "date": "2026-10-09",
+  "prepared_at": "2026-10-09T05:45:32Z",
   "status": "PENDING",
   "today_posts": {
     "count": 5,
-    "latest": "TalaFREAKo has been missing for 12 days! Now, after looking for him throughout all of Texas, and beyond, probably even weirder places than anyone would think possible, he put out a statement that he h",
-    "earliest_time": "2026-10-08T03:13:18.653Z",
-    "latest_time": "2026-10-08T17:01:09.981Z",
+    "latest": "Mike Rogers, the great American Patriot and Republican Candidate for the U.S.Senate from Michigan, completely obliterated Mohammad El-Sayed in the big debate tonight. If this was a fight they would ha",
+    "earliest_time": "2026-10-09T00:51:44.812Z",
+    "latest_time": "2026-10-09T04:02:21.034Z",
     "sample": [
       {
-        "time": "03:13",
-        "text": "Mohammed El-Sayed is a terrible Candidate for the Dumocrats. While his opponent, Mike Rogers, is an extremely good one, Mohammed goes back to the days of the Jihad. He is a RADICAL Extremist, Terrorist Sympathizer, and no different from his best friend, America Hating Hasan Piker. How's France doing"
+        "time": "00:51",
+        "text": "How Trump defied the 'experts' — and pushed the UN toward post-Oct. 7 peace: https://nypost.com/2026/10/08/opinion/how-trump-defied-the-experts-and-pushed-the-un-to-post-oct-7-peace/"
       },
       {
-        "time": "03:22",
-        "text": "Ladies and Gentlemen, upon information and belief, James TalaFREAKo, who is running for the United States Senate in Texas, is MISSING IN ACTION! No one has seen him for an extended period of time. Where is he? What is wrong with him? Bad rumors are coming out. He should immediately report to a Debat"
+        "time": "00:56",
+        "text": "Trump's men at the United Nations: https://www.washingtonexaminer.com/magazine-features/4684766/trump-administration-push-reform-united-nations/"
       },
       {
-        "time": "16:14",
-        "text": "The White House considers anyone that uses the term, \"Artificial Intelligence,\" as opposed to the highly accepted new and more accurate term, \"Super Intelligence,\" THE ENEMY! President DONALD J. TRUMP"
+        "time": "00:56",
+        "text": "Melania Trump makes history presiding over UN Security Council — remarking on Iran war deaths: https://nypost.com/2026/03/02/us-news/melania-trump-makes-history-presiding-over-un-security-council-acknowledges-challenging-times/"
       },
       {
-        "time": "16:17",
-        "text": "We are having productive discussions with the Islamic Republic of Iran. I want to make it clear to everybody that, while Iran is in very bad condition, both Economically and Militarily, and while the Blockade will remain in full force and effect, with Oil flowing in Record Numbers of Barrels through"
+        "time": "01:09",
+        "text": "The Dumocrats are Scammers. These are the real FACTS!!! President DJT"
       },
       {
-        "time": "17:01",
-        "text": "TalaFREAKo has been missing for 12 days! Now, after looking for him throughout all of Texas, and beyond, probably even weirder places than anyone would think possible, he put out a statement that he has the \"flu.\" 12 days is a long time to rid yourself of the so-called flu bug. What's going on? We n"
+        "time": "04:02",
+        "text": "Mike Rogers, the great American Patriot and Republican Candidate for the U.S.Senate from Michigan, completely obliterated Mohammad El-Sayed in the big debate tonight. If this was a fight they would have stopped it. Mohammad is a Jihadist lunatic who hates our Country, the Black People of Detroit, an"
       }
     ]
   },
@@ -35,162 +35,33 @@
   ],
   "today_features": {
     "posts_1_5": true,
-    "avg_len_long": true,
-    "caps_medium": true,
-    "excl_heavy": true,
-    "questions_yes": true,
-    "mostly_open": true,
+    "avg_len_medium": true,
+    "caps_low": true,
+    "excl_normal": true,
+    "questions_no": true,
     "has_night": true,
-    "kw_immediately": true,
-    "kw_block": true,
-    "open_block": true,
+    "heavy_night": true,
     "kw_iran": true,
-    "open_iran": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "open_dow": true,
-    "kw_oil": true,
-    "open_oil": true,
     "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_terrible": true,
-    "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "open_thank_you_for_your_attention": true,
-    "kw_never_let_you_down": true,
-    "kw_never_let_you_down_2plus": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
+    "pre_great": true,
+    "kw_maga": true,
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true,
+    "is_friday": true,
     "volume_drop": true
   },
   "triggered_rules": {
-    "total": 10,
-    "long": 10,
+    "total": 1,
+    "long": 1,
     "short": 0,
     "sample": [
       {
-        "id": "R0008",
+        "id": "R0022",
         "features": [
-          "open_dow",
-          "open_trade",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0013",
-        "features": [
-          "kw_dow_2plus",
-          "open_jobs",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0046",
-        "features": [
-          "kw_dow_2plus",
-          "open_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0050",
-        "features": [
-          "kw_dow_2plus",
-          "open_dow",
-          "open_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0053",
-        "features": [
-          "kw_perfect",
-          "kw_thank_you_for_your_attention",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0054",
-        "features": [
-          "kw_perfect",
-          "open_thank_you_for_your_attention",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0086",
-        "features": [
-          "kw_dow_2plus",
-          "kw_interest_rate",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0088",
-        "features": [
-          "kw_tariff_2plus",
-          "open_thank_you_for_your_attention",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0089",
-        "features": [
-          "kw_tariffs",
-          "open_thank_you_for_your_attention",
-          "questions_yes"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0090",
-        "features": [
-          "kw_tariffs_2plus",
-          "open_thank_you_for_your_attention",
-          "questions_yes"
+          "is_friday",
+          "open_china",
+          "pre_great"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -313,23 +184,13 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-10-08",
+    "date": "2026-10-09",
     "crossover": 16,
-    "mutation": 13,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 45,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "volume_falling_3d",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 93.8,
-        "origin": "mutation_remove"
-      },
       {
         "features": [
           "is_friday",
@@ -342,13 +203,24 @@
       },
       {
         "features": [
+          "open_tariff",
+          "volume_falling_3d",
+          "open_trade"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 90.0,
+        "origin": "crossover"
+      },
+      {
+        "features": [
           "kw_interest_rate",
           "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "crossover"
+        "origin": "distilled"
       }
     ]
   },

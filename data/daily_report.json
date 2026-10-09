@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-08",
-  "generated_at": "2026-10-08T17:46:27Z",
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T05:45:28Z",
   "posts_today": 5,
   "latest_post": {
-    "time": "2026-10-08T17:01",
-    "content_preview": "TalaFREAKo has been missing for 12 days! Now, after looking for him throughout all of Texas, and bey"
+    "time": "2026-10-09T04:02",
+    "content_preview": "Mike Rogers, the great American Patriot and Republican Candidate for the U.S.Senate from Michigan, c"
   },
   "signals_detected": [
     "IRAN"
   ],
-  "models_triggered": 10,
+  "models_triggered": 1,
   "direction_summary": {
-    "LONG": 10,
+    "LONG": 1,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -25,114 +25,16 @@
     "close": 7753.49
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-10-08\nPosts today: 5 | Models triggered: 10\nSignals: IRAN\nConsensus: 10 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: TalaFREAKo has been missing for 12 days! Now, after looking for him throughout all of Texas, and bey",
-    "zh": "川普密碼每日報告 -- 2026-10-08\n今日推文: 5 篇 | 觸發模型: 10 組\n偵測信號: 伊朗\n共識方向: 10 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: TalaFREAKo has been missing for 12 days! Now, after looking for him throughout all of Texas, and bey",
-    "ja": "トランプ・コード日次レポート -- 2026-10-08\n本日の投稿: 5件 | トリガーモデル: 10組\n検出シグナル: イラン\nコンセンサス: 10組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: TalaFREAKo has been missing for 12 days! Now, after looking for him throughout all of Texas, and bey"
+    "en": "Trump Code Daily Report -- 2026-10-09\nPosts today: 5 | Models triggered: 1\nSignals: IRAN\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: Mike Rogers, the great American Patriot and Republican Candidate for the U.S.Senate from Michigan, c",
+    "zh": "川普密碼每日報告 -- 2026-10-09\n今日推文: 5 篇 | 觸發模型: 1 組\n偵測信號: 伊朗\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: Mike Rogers, the great American Patriot and Republican Candidate for the U.S.Senate from Michigan, c",
+    "ja": "トランプ・コード日次レポート -- 2026-10-09\n本日の投稿: 5件 | トリガーモデル: 1組\n検出シグナル: イラン\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: Mike Rogers, the great American Patriot and Republican Candidate for the U.S.Senate from Michigan, c"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "open_dow",
-        "open_trade",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_jobs",
-        "open_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_dow",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_perfect",
-        "kw_thank_you_for_your_attention",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_perfect",
-        "open_thank_you_for_your_attention",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "kw_interest_rate",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tariff_2plus",
-        "open_thank_you_for_your_attention",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tariffs",
-        "open_thank_you_for_your_attention",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tariffs_2plus",
-        "open_thank_you_for_your_attention",
-        "questions_yes"
+        "is_friday",
+        "open_china",
+        "pre_great"
       ],
       "direction": "LONG",
       "hold": 2,
