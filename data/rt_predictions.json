@@ -20656,7 +20656,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1791492712",
@@ -20737,6 +20737,1095 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.82,
     "trump_coin_24h_change": -1.96,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791571959",
+    "created_at": "2026-10-09T18:52:39Z",
+    "post_time": "2026-10-09T18:46:23.661Z",
+    "post_preview": "I have just concluded a highly successful discussion with President Vladimir Putin, of Russia, wherein it was agreed that Russia will immediately supply over 300,000 Tons of Diesel Fuel to the America",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "184246925180836375770845856844",
+        "question": "Will Lara Trump be the next White House Press Secretary?",
+        "price_at_signal": 0.004
+      },
+      {
+        "token_id": "103143911671005616970453858407",
+        "question": "Will Lara Trump be the next White House Press Secretary?",
+        "price_at_signal": 0.996
+      },
+      {
+        "token_id": "933360748584959858095153305962",
+        "question": "Will Trump speak to Nicolás Maduro by October 31?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "361978639982993523646853567788",
+        "question": "Will Trump speak to Nicolás Maduro by October 31?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "424958840300578560030260600790",
+        "question": "Will Trump speak to Reza Pahlavi by October 31?",
+        "price_at_signal": 0.0155
+      }
+    ],
+    "pm_price_at_signal": 0.004,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.85,
+    "trump_coin_24h_change": 2.85,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791604334",
+    "created_at": "2026-10-10T03:52:14Z",
+    "post_time": "2026-10-10T03:39:58.181Z",
+    "post_preview": "This is the woman who received the Nobel Peace Prize over the Great United States of America, whose Representative, ME, settled eight Wars, and many other things. I know nothing about this woman, and ",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "negotiate"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "933360748584959858095153305962",
+        "question": "Will Trump speak to Nicolás Maduro by October 31?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "361978639982993523646853567788",
+        "question": "Will Trump speak to Nicolás Maduro by October 31?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "424958840300578560030260600790",
+        "question": "Will Trump speak to Reza Pahlavi by October 31?",
+        "price_at_signal": 0.016
+      },
+      {
+        "token_id": "981959223725378278623343773745",
+        "question": "Will Trump speak to Reza Pahlavi by October 31?",
+        "price_at_signal": 0.984
+      },
+      {
+        "token_id": "691423390368079687049846042008",
+        "question": "Will Trump speak to Kim Jong Un by October 31?",
+        "price_at_signal": 0.0485
+      }
+    ],
+    "pm_price_at_signal": 0.0055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.91,
+    "trump_coin_24h_change": 3.63,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791676326",
+    "created_at": "2026-10-10T23:52:06Z",
+    "post_time": "2026-10-10T23:45:02.164Z",
+    "post_preview": "I am proud to announce that I have just appointed Katie Bailey as Director of the Office of Legislative Affairs. Katie is currently the Deputy Director of Legislative Affairs for the United States Sen",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "effective"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "115367932502925316778163288659",
+        "question": "Will Trump say \"Job\" 17+ times during his Midterm Rally in Tennessee?",
+        "price_at_signal": 0.0005
+      },
+      {
+        "token_id": "518231395394558910924569329982",
+        "question": "Will Trump say \"Job\" 17+ times during his Midterm Rally in Tennessee?",
+        "price_at_signal": 0.9995
+      },
+      {
+        "token_id": "101172061582397000993674251060",
+        "question": "Will Trump say \"Hell\" 10+ times during his Midterm Rally in Tennessee?",
+        "price_at_signal": 0.9805
+      },
+      {
+        "token_id": "218939969006718897701370590888",
+        "question": "Will Trump say \"Hell\" 10+ times during his Midterm Rally in Tennessee?",
+        "price_at_signal": 0.0195
+      },
+      {
+        "token_id": "188534490690530758747584818567",
+        "question": "Will Trump say \"SI\" or \"Super Intelligence\" 5+ times during his Midterm Rally in Tennessee?",
+        "price_at_signal": 0.01
+      }
+    ],
+    "pm_price_at_signal": 0.0005,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.9,
+    "trump_coin_24h_change": 0.75,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791728792",
+    "created_at": "2026-10-11T14:26:32Z",
+    "post_time": "2026-10-11T14:16:38.529Z",
+    "post_preview": "Effective immediately, there is an ENERGY CEASEFIRE in the War between Russia and Ukraine. Both parties have agreed. Do not break it! Thank you for your attention to this matter. President DONALD J. T",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "immediately",
+          "effective"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.8,
+    "tracked_markets": [
+      {
+        "token_id": "933360748584959858095153305962",
+        "question": "Will Trump speak to Nicolás Maduro by October 31?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "361978639982993523646853567788",
+        "question": "Will Trump speak to Nicolás Maduro by October 31?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "424958840300578560030260600790",
+        "question": "Will Trump speak to Reza Pahlavi by October 31?",
+        "price_at_signal": 0.016
+      },
+      {
+        "token_id": "981959223725378278623343773745",
+        "question": "Will Trump speak to Reza Pahlavi by October 31?",
+        "price_at_signal": 0.984
+      },
+      {
+        "token_id": "691423390368079687049846042008",
+        "question": "Will Trump speak to Kim Jong Un by October 31?",
+        "price_at_signal": 0.0375
+      }
+    ],
+    "pm_price_at_signal": 0.0055,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.88,
+    "trump_coin_24h_change": -1.16,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791764084",
+    "created_at": "2026-10-12T00:14:44Z",
+    "post_time": "2026-10-11T23:54:27.139Z",
+    "post_preview": "I have just learned that Roy Cooper, the Radical Left Former Governor of North Carolina, let out 83 murderers from prisons and penitentiaries around the State, with 51 of these prisoners serving life ",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BEARISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "terrible"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION",
+      "BEARISH"
+    ],
+    "predicted_direction": "NEUTRAL",
+    "confidence": 0.3,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.037
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.963
+      },
+      {
+        "token_id": "933360748584959858095153305962",
+        "question": "Will Trump speak to Nicolás Maduro by October 31?",
+        "price_at_signal": 0.0055
+      },
+      {
+        "token_id": "361978639982993523646853567788",
+        "question": "Will Trump speak to Nicolás Maduro by October 31?",
+        "price_at_signal": 0.9945
+      },
+      {
+        "token_id": "424958840300578560030260600790",
+        "question": "Will Trump speak to Reza Pahlavi by October 31?",
+        "price_at_signal": 0.016
+      }
+    ],
+    "pm_price_at_signal": 0.037,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.94,
+    "trump_coin_24h_change": 2.48,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791809342",
+    "created_at": "2026-10-12T12:49:02Z",
+    "post_time": "2026-10-12T12:13:13.248Z",
+    "post_preview": "Former Governor Roy Cooper, of North Carolina, let out 83 murderers, 51 were serving life sentences, and 25 immediately committed murders after being let out of penitentiaries across the State. They w",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "588080117137951061265091545013",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "452371067244987245834707300403",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "446558631036625175256792808991",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "169362589379050787590762495829",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "682385639491973987855589914105",
+        "question": "Will Trump say \"Eight Wars\" this week?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.92,
+    "trump_coin_24h_change": 2.72,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791907452",
+    "created_at": "2026-10-13T16:04:12Z",
+    "post_time": "2026-10-13T15:56:25.056Z",
+    "post_preview": "Happy Birthday to the United States Navy! It is now 251 years of Victories, Old and New. What they've done with the impenetrable Steel Wall (Sometimes referred to as the Blockade) in the Hormuz Strait",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "block"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "588080117137951061265091545013",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "452371067244987245834707300403",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "446558631036625175256792808991",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "169362589379050787590762495829",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "682385639491973987855589914105",
+        "question": "Will Trump say \"Eight Wars\" this week?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.91,
+    "trump_coin_24h_change": -0.62,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791908976",
+    "created_at": "2026-10-13T16:29:36Z",
+    "post_time": "2026-10-13T16:04:08.360Z",
+    "post_preview": "The Houthis are behaving very badly. I thought they learned their lesson a year ago when we bombed the HELL out of them and, at their request, stopped. They've been silent for a long time, but now the",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "worst"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "588080117137951061265091545013",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "452371067244987245834707300403",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "446558631036625175256792808991",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "169362589379050787590762495829",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "682385639491973987855589914105",
+        "question": "Will Trump say \"Eight Wars\" this week?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.92,
+    "trump_coin_24h_change": 0.06,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791924050",
+    "created_at": "2026-10-13T20:40:50Z",
+    "post_time": "2026-10-13T20:25:56.604Z",
+    "post_preview": "Why did Ilhan Omar report a Net Worth of up to 30 Million Dollars just a short time ago, and then immediately say, \"Oh, I made a mistake! It's really $100,000.\" Could it be that her highly paid accoun",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION",
+      "THREAT"
+    ],
+    "predicted_direction": "NEUTRAL",
+    "confidence": 0.3,
+    "tracked_markets": [
+      {
+        "token_id": "588080117137951061265091545013",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "452371067244987245834707300403",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "446558631036625175256792808991",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "169362589379050787590762495829",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "682385639491973987855589914105",
+        "question": "Will Trump say \"Eight Wars\" this week?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.91,
+    "trump_coin_24h_change": -0.64,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1791928338",
+    "created_at": "2026-10-13T21:52:18Z",
+    "post_time": "2026-10-13T21:43:50.017Z",
+    "post_preview": "How can \"New York State Attorney General,\" Letitia James, be allowed to investigate the Cornell rape scandal, when she is a DIRTY AND DISGUSTING COP herself, and has ZERO credibility? Any decision wil",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "473035602038367228767341153676",
+        "question": "Will Trump say \"Oil\" or \"Gas\" or \"Gasoline\" 15+ times during his Midterm Rally in Alaska?",
+        "price_at_signal": 0.69
+      },
+      {
+        "token_id": "100985459873303518777489747324",
+        "question": "Will Trump say \"Oil\" or \"Gas\" or \"Gasoline\" 15+ times during his Midterm Rally in Alaska?",
+        "price_at_signal": 0.31
+      },
+      {
+        "token_id": "954884998191440309433683396935",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Alaska?",
+        "price_at_signal": 0.38
+      },
+      {
+        "token_id": "350158733744768949449549655756",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Alaska?",
+        "price_at_signal": 0.62
+      },
+      {
+        "token_id": "321515584975149405282139935989",
+        "question": "Will Trump say \"Joe\" or \"Biden\" 10+ times during his Midterm Rally in Alaska?",
+        "price_at_signal": 0.61
+      }
+    ],
+    "pm_price_at_signal": 0.69,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.91,
+    "trump_coin_24h_change": 2.67,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1791951916",
+    "created_at": "2026-10-14T04:25:16Z",
+    "post_time": "2026-10-14T04:18:41.034Z",
+    "post_preview": "THIS IS WHERE WE SEND OUR KILLERS, DRUG DEALERS & THUGS. THIS IS WHY MURDER AND OTHER CRIMES IN AMERICA ARE AT RECORD LOWS.",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "473035602038367228767341153676",
+        "question": "Will Trump say \"Oil\" or \"Gas\" or \"Gasoline\" 15+ times during his Midterm Rally in Alaska?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "100985459873303518777489747324",
+        "question": "Will Trump say \"Oil\" or \"Gas\" or \"Gasoline\" 15+ times during his Midterm Rally in Alaska?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "954884998191440309433683396935",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Alaska?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "350158733744768949449549655756",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Alaska?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "321515584975149405282139935989",
+        "question": "Will Trump say \"Joe\" or \"Biden\" 10+ times during his Midterm Rally in Alaska?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 1.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.91,
+    "trump_coin_24h_change": 0.44,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1791969412",
+    "created_at": "2026-10-14T09:16:52Z",
+    "post_time": "2026-10-14T06:19:09.962Z",
+    "post_preview": "Democrats are banking on voters forgetting how terrible they are: https://www.washingtonexaminer.com/in_focus/4752402/democrats-are-banking-on-voters-forgetting-how-terrible-they-are/",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "terrible"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT",
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "588080117137951061265091545013",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "452371067244987245834707300403",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "446558631036625175256792808991",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "169362589379050787590762495829",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "682385639491973987855589914105",
+        "question": "Will Trump say \"Eight Wars\" this week?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.9,
+    "trump_coin_24h_change": 0.33,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1791995843",
+    "created_at": "2026-10-14T16:37:23Z",
+    "post_time": "2026-10-14T16:29:18.831Z",
+    "post_preview": "I was just in Alaska launching the largest Energy Infrastructure Project in Alaska History— The Alaska LNG Project. This 50 Billion Dollar Infrastructure Investment from The Republic of Korea is part ",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "deal",
+          "agreement"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.8,
+    "tracked_markets": [
+      {
+        "token_id": "588080117137951061265091545013",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "452371067244987245834707300403",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "446558631036625175256792808991",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "169362589379050787590762495829",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "682385639491973987855589914105",
+        "question": "Will Trump say \"Eight Wars\" this week?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.88,
+    "trump_coin_24h_change": -2.2,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1791996761",
+    "created_at": "2026-10-14T16:52:41Z",
+    "post_time": "2026-10-14T16:39:39.942Z",
+    "post_preview": "ANOTHER MASSIVE 21 BILLION DOLLAR INVESTMENT FOR AMERICA!Today, under my leadership, GlobalFoundries and my Department of Commerce led by Secretary Howard Lutnick announced a MASSIVE 21 BILLION INVEST",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "deal",
+          "agreement"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL",
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.8,
+    "tracked_markets": [
+      {
+        "token_id": "588080117137951061265091545013",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "452371067244987245834707300403",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "446558631036625175256792808991",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "169362589379050787590762495829",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "682385639491973987855589914105",
+        "question": "Will Trump say \"Eight Wars\" this week?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.9,
+    "trump_coin_24h_change": -1.46,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,

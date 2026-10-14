@@ -1,18 +1,19 @@
 {
-  "date": "2026-10-09",
-  "generated_at": "2026-10-09T05:45:28Z",
-  "posts_today": 5,
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T20:45:10Z",
+  "posts_today": 15,
   "latest_post": {
-    "time": "2026-10-09T04:02",
-    "content_preview": "Mike Rogers, the great American Patriot and Republican Candidate for the U.S.Senate from Michigan, c"
+    "time": "2026-10-14T19:52",
+    "content_preview": "I'm watching Right Side Broadcasting Network (RSBN) from Air Force One. They do a magnificent job of"
   },
   "signals_detected": [
-    "IRAN"
+    "DEAL",
+    "DEAL_ONLY"
   ],
-  "models_triggered": 1,
+  "models_triggered": 26,
   "direction_summary": {
-    "LONG": 1,
-    "SHORT": 0,
+    "LONG": 24,
+    "SHORT": 2,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -21,23 +22,229 @@
     "rate": 17.3
   },
   "sp500_latest": {
-    "date": "2026-10-08",
-    "close": 7753.49
+    "date": "2026-10-09",
+    "close": 7811.54
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-10-09\nPosts today: 5 | Models triggered: 1\nSignals: IRAN\nConsensus: 1 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: Mike Rogers, the great American Patriot and Republican Candidate for the U.S.Senate from Michigan, c",
-    "zh": "川普密碼每日報告 -- 2026-10-09\n今日推文: 5 篇 | 觸發模型: 1 組\n偵測信號: 伊朗\n共識方向: 1 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: Mike Rogers, the great American Patriot and Republican Candidate for the U.S.Senate from Michigan, c",
-    "ja": "トランプ・コード日次レポート -- 2026-10-09\n本日の投稿: 5件 | トリガーモデル: 1組\n検出シグナル: イラン\nコンセンサス: 1組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: Mike Rogers, the great American Patriot and Republican Candidate for the U.S.Senate from Michigan, c"
+    "en": "Trump Code Daily Report -- 2026-10-14\nPosts today: 15 | Models triggered: 26\nSignals: DEAL, DEAL_ONLY\nConsensus: 24 LONG vs 2 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: I'm watching Right Side Broadcasting Network (RSBN) from Air Force One. They do a magnificent job of",
+    "zh": "川普密碼每日報告 -- 2026-10-14\n今日推文: 15 篇 | 觸發模型: 26 組\n偵測信號: Deal, 只有Deal沒有關稅\n共識方向: 24 組看多 vs 2 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: I'm watching Right Side Broadcasting Network (RSBN) from Air Force One. They do a magnificent job of",
+    "ja": "トランプ・コード日次レポート -- 2026-10-14\n本日の投稿: 15件 | トリガーモデル: 26組\n検出シグナル: ディール, Dealのみ（関税無し）\nコンセンサス: 24組ロング vs 2組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: I'm watching Right Side Broadcasting Network (RSBN) from Air Force One. They do a magnificent job of"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "is_friday",
-        "open_china",
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_europe",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "posts_11_20"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_jobs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "kw_energy",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "open_trade",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_dow_2plus",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_beautiful",
+        "open_thank_you_for_your_attention",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_executive_order",
+        "kw_jobs",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_energy",
+        "kw_interest_rate",
+        "open_energy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "open_inflation",
+        "open_trade",
         "pre_great"
       ],
       "direction": "LONG",
       "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "open_trade",
+        "open_tremendous"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_economy",
+        "open_tariffs",
+        "open_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_america_first",
+        "kw_beautiful",
+        "kw_terrible"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
     }
