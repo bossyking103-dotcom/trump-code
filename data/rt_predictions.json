@@ -21509,7 +21509,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1791951916",
@@ -21584,7 +21584,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1791969412",
@@ -21668,7 +21668,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1791995843",
@@ -21744,7 +21744,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1791996761",
@@ -21826,6 +21826,157 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.9,
     "trump_coin_24h_change": -1.46,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1792074124",
+    "created_at": "2026-10-15T14:22:04Z",
+    "post_time": "2026-10-15T14:06:46.150Z",
+    "post_preview": "Nidal Malik Hasan, a former U.S. Army Major turned traitor, is a very bad and evil man, who killed 13 people, including a pregnant soldier, who died, along with her unborn son, and injured, very serio",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "588080117137951061265091545013",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "452371067244987245834707300403",
+        "question": "Will Trump say \"Psychological\" or \"Psychologically\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "446558631036625175256792808991",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "169362589379050787590762495829",
+        "question": "Will Trump say \"Blowing it away\" this week?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "682385639491973987855589914105",
+        "question": "Will Trump say \"Eight Wars\" this week?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.0,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.85,
+    "trump_coin_24h_change": -0.4,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1792096496",
+    "created_at": "2026-10-15T20:34:56Z",
+    "post_time": "2026-10-15T20:27:05.265Z",
+    "post_preview": "Sadly, and very stupidly, John Cornyn, and his Liddle' Buddy, Super RINO, Karl Rove, are doing everything possible to make it hard for Ken Paxton, the Greatest Attorney General in the History of Texas",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "immediately",
+          "effective"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.8,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.033
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.967
+      },
+      {
+        "token_id": "111522189659257122426759420290",
+        "question": "Will Trump say \"Tax\" 25+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.75
+      },
+      {
+        "token_id": "307154678856621507910114836674",
+        "question": "Will Trump say \"Tax\" 25+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.25
+      },
+      {
+        "token_id": "391269126711424663949177868583",
+        "question": "Will Trump say \"Hell\" 14+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.5
+      }
+    ],
+    "pm_price_at_signal": 0.033,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.89,
+    "trump_coin_24h_change": 0.24,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,

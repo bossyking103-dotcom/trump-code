@@ -1,137 +1,63 @@
 {
-  "date": "2026-10-14",
-  "prepared_at": "2026-10-14T20:45:13Z",
+  "date": "2026-10-16",
+  "prepared_at": "2026-10-16T17:45:54Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 15,
-    "latest": "I'm watching Right Side Broadcasting Network (RSBN) from Air Force One. They do a magnificent job of covering the Rallies, including the Interviews of people in lines that stretch for miles. So fascin",
-    "earliest_time": "2026-10-14T04:17:30.706Z",
-    "latest_time": "2026-10-14T19:52:02.742Z",
+    "count": 4,
+    "latest": "A great man!!! President DJTJustice Alito confirms he is considering retirement: https://www.politico.com/news/2026/10/02/alito-supreme-court-retirement-01105789",
+    "earliest_time": "2026-10-16T04:47:00.000Z",
+    "latest_time": "2026-10-16T08:47:45.359Z",
     "sample": [
       {
-        "time": "11:49",
-        "text": "Democrats cheered Mar-a-Lago raid in 2022, but now call search of Omar's home 'weaponization': https://justthenews.com/government/courts-law/democrats-praised-mar-lago-raid-2022-now-call-omar-search-weaponization"
+        "time": "04:47",
+        "text": "Sam Adkisson worked with me on the Senate Judiciary Committee for Justice Kavanaugh's confirmation.He is a friend, outstanding colleague, brilliant attorney, and committed constitutionalist.President Trump hit a grand-slam by picking Sam for a lifetime appointment to the federal bench in Tennessee."
       },
       {
-        "time": "11:49",
-        "text": "Trump proves he can undo Biden's energy damage in Alaska in short order: https://justthenews.com/government/white-house/trump-proves-alaska-he-can-undo-bidens-energy-damage-half-time"
+        "time": "04:52",
+        "text": "James TalaFREAKO, who is running for U.S. Senate against the greatest Attorney General in the history of Texas, recently stated, with a large mask covering his face as he spoke, that, \"FOSSIL FUELS ARE DESTROYING THE PLANET.\" In other words, no more drilling for Oil in Texas. That should be the end "
       },
       {
-        "time": "11:50",
-        "text": "Majority of voters concerned about socialists running for office, poll finds: https://justthenews.com/nation/states/center-square/poll-majority-voters-concerned-about-socialists-running-office"
+        "time": "05:13",
+        "text": "Great Pollster Matt Towery was fantastic on Sean Hannity tonight. Looking good for Republicans! President DJT"
       },
       {
-        "time": "11:52",
-        "text": "Trump's job-creation juggernaut stops in Ohio to unveil massive submarine repair facility: https://justthenews.com/politics-policy/all-things-trump/trumps-job-creation-juggernaut-stops-ohio-unveil-massive-submarine"
-      },
-      {
-        "time": "11:53",
-        "text": "Washington's Reckoning: Jack Smith, Ilhan Omar and the Push for Accountability: https://justthenews.com/podcasts/john-solomon-reports/washingtons-reckoning-jack-smith-ilhan-omar-and-push-accountability"
-      },
-      {
-        "time": "15:52",
-        "text": "I’m watching Right Side Broadcasting Network (RSBN) from Air Force One. They do a magnificent job of covering the Rallies, including the Interviews of people in lines that stretch for miles. So fascinating to see — So exciting! I love the Interviews they do of the people that are in line. Great Amer"
-      },
-      {
-        "time": "16:29",
-        "text": "I was just in Alaska launching the largest Energy Infrastructure Project in Alaska History— The Alaska LNG Project. This 50 Billion Dollar Infrastructure Investment from The Republic of Korea is part of their Trade and Investment Deal with me. I am also announcing today that my Commerce Secretary, H"
-      },
-      {
-        "time": "16:39",
-        "text": "ANOTHER MASSIVE 21 BILLION DOLLAR INVESTMENT FOR AMERICA!Today, under my leadership, GlobalFoundries and my Department of Commerce led by Secretary Howard Lutnick announced a MASSIVE 21 BILLION INVESTMENT to build 2 giant new Semiconductor Manufacturing Facilities in Malta, New York.This DEAL will c"
-      },
-      {
-        "time": "19:13",
-        "text": "https://www.youtube.com/live/3bbk6X8FoJE?si=zhVgVgfpgzuu_rTi"
-      },
-      {
-        "time": "19:52",
-        "text": "I'm watching Right Side Broadcasting Network (RSBN) from Air Force One. They do a magnificent job of covering the Rallies, including the Interviews of people in lines that stretch for miles. So fascinating to see — So exciting! I love the Interviews they do of the people that are in line. Great Amer"
+        "time": "08:47",
+        "text": "A great man!!! President DJTJustice Alito confirms he is considering retirement: https://www.politico.com/news/2026/10/02/alito-supreme-court-retirement-01105789"
       }
     ]
   },
-  "keyword_signals": [
-    "DEAL",
-    "DEAL_ONLY"
-  ],
   "today_features": {
-    "posts_11_20": true,
-    "avg_len_long": true,
+    "posts_1_5": true,
+    "avg_len_medium": true,
     "caps_medium": true,
-    "excl_normal": true,
+    "excl_heavy": true,
+    "questions_no": true,
     "mostly_premarket": true,
-    "kw_deal": true,
-    "kw_deal_2plus": true,
-    "pre_deal": true,
-    "open_deal": true,
-    "kw_trade": true,
-    "kw_trade_2plus": true,
-    "open_trade": true,
-    "kw_agreement": true,
-    "kw_agreement_2plus": true,
-    "open_agreement": true,
-    "kw_ban": true,
-    "pre_ban": true,
-    "kw_japan": true,
-    "open_japan": true,
-    "kw_europe": true,
-    "pre_europe": true,
-    "kw_taiwan": true,
-    "kw_taiwan_2plus": true,
-    "open_taiwan": true,
-    "kw_korea": true,
-    "kw_korea_2plus": true,
-    "open_korea": true,
-    "kw_dow": true,
-    "pre_dow": true,
-    "kw_economy": true,
-    "open_economy": true,
     "kw_oil": true,
     "pre_oil": true,
-    "kw_gas": true,
-    "pre_gas": true,
-    "kw_energy": true,
-    "kw_energy_2plus": true,
-    "pre_energy": true,
-    "open_energy": true,
-    "kw_jobs": true,
-    "open_jobs": true,
-    "kw_billion": true,
-    "kw_billion_2plus": true,
-    "open_billion": true,
     "kw_great": true,
     "kw_great_2plus": true,
     "pre_great": true,
-    "open_great": true,
-    "kw_historic": true,
-    "open_historic": true,
-    "kw_beautiful": true,
-    "pre_beautiful": true,
-    "kw_terrible": true,
-    "pre_terrible": true,
-    "kw_biden": true,
-    "kw_biden_2plus": true,
-    "pre_biden": true,
-    "kw_vance": true,
-    "open_vance": true,
-    "kw_thank_you_for_your_attention": true,
-    "kw_thank_you_for_your_attention_2plus": true,
-    "pre_thank_you_for_your_attention": true,
-    "open_thank_you_for_your_attention": true,
-    "deal_without_tariff": true,
-    "deal_no_tariff": true
+    "kw_fantastic": true,
+    "pre_fantastic": true,
+    "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true,
+    "is_friday": true,
+    "volume_falling_3d": true,
+    "volume_drop": true
   },
   "triggered_rules": {
-    "total": 26,
-    "long": 24,
-    "short": 2,
+    "total": 2,
+    "long": 2,
+    "short": 0,
     "sample": [
       {
-        "id": "R0004",
+        "id": "R0022",
         "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
+          "is_friday",
+          "open_china",
+          "pre_great"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -140,114 +66,10 @@
         "score": 100.0
       },
       {
-        "id": "R0005",
+        "id": "R0093",
         "features": [
-          "kw_deal_2plus",
-          "kw_dow_2plus",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0006",
-        "features": [
-          "kw_deal",
-          "kw_perfect",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0007",
-        "features": [
-          "kw_deal_2plus",
-          "kw_europe",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0011",
-        "features": [
-          "kw_deal",
-          "kw_perfect"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0012",
-        "features": [
-          "kw_perfect",
-          "kw_thank_you_for_your_attention",
-          "posts_11_20"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0013",
-        "features": [
-          "kw_dow_2plus",
-          "open_jobs",
-          "open_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0016",
-        "features": [
-          "kw_economy",
-          "kw_energy",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0019",
-        "features": [
-          "kw_deal_2plus",
-          "kw_economy",
-          "kw_jobs"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0031",
-        "features": [
-          "kw_beautiful",
-          "open_trade",
-          "open_tremendous"
+          "kw_interest_rate",
+          "volume_falling_3d"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -370,11 +192,11 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-10-14",
+    "date": "2026-10-16",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -389,24 +211,24 @@
       },
       {
         "features": [
-          "open_trade",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "open_thank_you_for_your_attention",
           "kw_beautiful",
+          "kw_tariff",
           "volume_falling_3d"
         ],
         "direction": "LONG",
         "hold": 2,
-        "score": 91.7,
+        "score": 92.9,
         "origin": "crossover"
+      },
+      {
+        "features": [
+          "kw_signed",
+          "kw_tariff"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.6,
+        "origin": "mutation_remove"
       }
     ]
   },

@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-14",
-  "checked_at": "2026-10-14T20:45:33Z",
+  "date": "2026-10-16",
+  "checked_at": "2026-10-16T17:46:15Z",
   "checks": {
     "freshness": {
       "check": "data_freshness",
       "last_signal_date": "2026-07-17",
-      "days_since_last": 89,
+      "days_since_last": 91,
       "threshold": 30,
       "status": "🔴 STALE",
-      "message": "最後一筆驗證是 2026-07-17（89 天前），資料可能過期（>30 天）。"
+      "message": "最後一筆驗證是 2026-07-17（91 天前），資料可能過期（>30 天）。"
     },
     "vs_random": {
       "check": "vs_random",
