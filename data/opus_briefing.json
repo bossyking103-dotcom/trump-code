@@ -1,63 +1,99 @@
 {
-  "date": "2026-10-16",
-  "prepared_at": "2026-10-16T17:45:54Z",
+  "date": "2026-10-17",
+  "prepared_at": "2026-10-17T17:45:24Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 4,
-    "latest": "A great man!!! President DJTJustice Alito confirms he is considering retirement: https://www.politico.com/news/2026/10/02/alito-supreme-court-retirement-01105789",
-    "earliest_time": "2026-10-16T04:47:00.000Z",
-    "latest_time": "2026-10-16T08:47:45.359Z",
+    "count": 9,
+    "latest": "James TalaFREAKO is a Radical Left Lunatic and Vegan who is the ANTITHESIS of Texas Values. Ken Paxton is the Greatest Attorney General in the History of Texas, and has my Complete and Total Endorseme",
+    "earliest_time": "2026-10-17T00:28:08.479Z",
+    "latest_time": "2026-10-17T17:08:24.099Z",
     "sample": [
       {
-        "time": "04:47",
-        "text": "Sam Adkisson worked with me on the Senate Judiciary Committee for Justice Kavanaugh's confirmation.He is a friend, outstanding colleague, brilliant attorney, and committed constitutionalist.President Trump hit a grand-slam by picking Sam for a lifetime appointment to the federal bench in Tennessee."
+        "time": "00:28",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117453413930971351They will all go to jail for a long period of time!!!"
       },
       {
-        "time": "04:52",
-        "text": "James TalaFREAKO, who is running for U.S. Senate against the greatest Attorney General in the history of Texas, recently stated, with a large mask covering his face as he spoke, that, \"FOSSIL FUELS ARE DESTROYING THE PLANET.\" In other words, no more drilling for Oil in Texas. That should be the end "
+        "time": "00:37",
+        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117453447477979909"
       },
       {
-        "time": "05:13",
-        "text": "Great Pollster Matt Towery was fantastic on Sean Hannity tonight. Looking good for Republicans! President DJT"
+        "time": "04:11",
+        "text": "Best in History!"
       },
       {
-        "time": "08:47",
-        "text": "A great man!!! President DJTJustice Alito confirms he is considering retirement: https://www.politico.com/news/2026/10/02/alito-supreme-court-retirement-01105789"
+        "time": "16:31",
+        "text": "Heading to Kentucky! Will be landing soon. Big Crowd. I'm watching it now on RSBN. The coverage is spectacular. In fact, it's so good, that I don't want to leave Air Force One. Vote for Andy Barr for U.S. Senate! President DONALD J. TRUMP"
+      },
+      {
+        "time": "16:58",
+        "text": "Russell Fry has my Complete and Total Endorsement for Re-Election as U.S. Representative from South Carolina's 7th Congressional District — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
+      },
+      {
+        "time": "16:58",
+        "text": "Darline Graham has my Complete and Total Endorsement for Re-Election as U.S. Senator from South Carolina — SHE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
+      },
+      {
+        "time": "17:07",
+        "text": "Mohammed El-Sayed is a terrible Candidate for the Dumocrats. Mike Rogers is a Great American Patriot, and has my Complete and Total Endorsement to be the next U.S. Senator from Michigan — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
+      },
+      {
+        "time": "17:08",
+        "text": "Zach Nunn has my Complete and Total Endorsement for Re-Election as U.S. Representative from Iowa's 3rd Congressional District — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
+      },
+      {
+        "time": "17:08",
+        "text": "James TalaFREAKO is a Radical Left Lunatic and Vegan who is the ANTITHESIS of Texas Values. Ken Paxton is the Greatest Attorney General in the History of Texas, and has my Complete and Total Endorsement to be the next U.S. Senator from Texas — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
       }
     ]
   },
   "today_features": {
-    "posts_1_5": true,
+    "posts_6_10": true,
     "avg_len_medium": true,
-    "caps_medium": true,
-    "excl_heavy": true,
+    "caps_very_high": true,
+    "excl_normal": true,
     "questions_no": true,
-    "mostly_premarket": true,
-    "kw_oil": true,
-    "pre_oil": true,
+    "mostly_open": true,
+    "has_night": true,
+    "kw_dow": true,
+    "kw_dow_2plus": true,
+    "open_dow": true,
     "kw_great": true,
     "kw_great_2plus": true,
-    "pre_great": true,
-    "kw_fantastic": true,
-    "pre_fantastic": true,
-    "kw_president_djt": true,
-    "kw_president_djt_2plus": true,
-    "pre_president_djt": true,
-    "is_friday": true,
-    "volume_falling_3d": true,
-    "volume_drop": true
+    "open_great": true,
+    "kw_terrible": true,
+    "open_terrible": true,
+    "kw_never_let_you_down": true,
+    "kw_never_let_you_down_2plus": true,
+    "open_never_let_you_down": true,
+    "kw_complete_and_total": true,
+    "kw_complete_and_total_2plus": true,
+    "open_complete_and_total": true,
+    "is_weekend": true,
+    "volume_falling_3d": true
   },
   "triggered_rules": {
-    "total": 2,
-    "long": 2,
+    "total": 3,
+    "long": 3,
     "short": 0,
     "sample": [
       {
-        "id": "R0022",
+        "id": "R0046",
         "features": [
-          "is_friday",
-          "open_china",
-          "pre_great"
+          "kw_dow_2plus",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0050",
+        "features": [
+          "kw_dow_2plus",
+          "open_dow",
+          "open_interest_rate"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -192,13 +228,23 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-10-16",
-    "crossover": 16,
-    "mutation": 16,
+    "date": "2026-10-17",
+    "crossover": 14,
+    "mutation": 13,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "open_energy",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 94.1,
+        "origin": "crossover"
+      },
       {
         "features": [
           "is_friday",
@@ -211,24 +257,14 @@
       },
       {
         "features": [
-          "kw_beautiful",
-          "kw_tariff",
-          "volume_falling_3d"
+          "is_friday",
+          "kw_economy",
+          "open_tariff"
         ],
         "direction": "LONG",
-        "hold": 2,
-        "score": 92.9,
+        "hold": 3,
+        "score": 91.7,
         "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_signed",
-          "kw_tariff"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "score": 90.6,
-        "origin": "mutation_remove"
       }
     ]
   },

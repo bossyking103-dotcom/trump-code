@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-16",
-  "generated_at": "2026-10-16T17:45:49Z",
-  "posts_today": 4,
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T17:45:21Z",
+  "posts_today": 9,
   "latest_post": {
-    "time": "2026-10-16T08:47",
-    "content_preview": "A great man!!! President DJTJustice Alito confirms he is considering retirement: https://www.politic"
+    "time": "2026-10-17T17:08",
+    "content_preview": "James TalaFREAKO is a Radical Left Lunatic and Vegan who is the ANTITHESIS of Texas Values. Ken Paxt"
   },
   "signals_detected": [],
-  "models_triggered": 2,
+  "models_triggered": 3,
   "direction_summary": {
-    "LONG": 2,
+    "LONG": 3,
     "SHORT": 0,
     "consensus": "BULLISH"
   },
@@ -23,16 +23,26 @@
     "close": 7678.01
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-10-16\nPosts today: 4 | Models triggered: 2\nSignals: None\nConsensus: 2 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: A great man!!! President DJTJustice Alito confirms he is considering retirement: https://www.politic",
-    "zh": "川普密碼每日報告 -- 2026-10-16\n今日推文: 4 篇 | 觸發模型: 2 組\n偵測信號: 無\n共識方向: 2 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: A great man!!! President DJTJustice Alito confirms he is considering retirement: https://www.politic",
-    "ja": "トランプ・コード日次レポート -- 2026-10-16\n本日の投稿: 4件 | トリガーモデル: 2組\n検出シグナル: なし\nコンセンサス: 2組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: A great man!!! President DJTJustice Alito confirms he is considering retirement: https://www.politic"
+    "en": "Trump Code Daily Report -- 2026-10-17\nPosts today: 9 | Models triggered: 3\nSignals: None\nConsensus: 3 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: James TalaFREAKO is a Radical Left Lunatic and Vegan who is the ANTITHESIS of Texas Values. Ken Paxt",
+    "zh": "川普密碼每日報告 -- 2026-10-17\n今日推文: 9 篇 | 觸發模型: 3 組\n偵測信號: 無\n共識方向: 3 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: James TalaFREAKO is a Radical Left Lunatic and Vegan who is the ANTITHESIS of Texas Values. Ken Paxt",
+    "ja": "トランプ・コード日次レポート -- 2026-10-17\n本日の投稿: 9件 | トリガーモデル: 3組\n検出シグナル: なし\nコンセンサス: 3組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: James TalaFREAKO is a Radical Left Lunatic and Vegan who is the ANTITHESIS of Texas Values. Ken Paxt"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "is_friday",
-        "open_china",
-        "pre_great"
+        "kw_dow_2plus",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_dow",
+        "open_interest_rate"
       ],
       "direction": "LONG",
       "hold": 2,

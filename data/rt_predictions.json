@@ -21980,6 +21980,81 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1792257630",
+    "created_at": "2026-10-17T17:20:30Z",
+    "post_time": "2026-10-17T17:07:49.104Z",
+    "post_preview": "Mohammed El-Sayed is a terrible Candidate for the Dumocrats. Mike Rogers is a Great American Patriot, and has my Complete and Total Endorsement to be the next U.S. Senator from Michigan — HE WILL NEVE",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "terrible"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "178551075803809063611470211450",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kentucky?",
+        "price_at_signal": 0.535
+      },
+      {
+        "token_id": "109826160009639381413646890502",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kentucky?",
+        "price_at_signal": 0.465
+      },
+      {
+        "token_id": "588338811613637313981456780454",
+        "question": "Will Trump say \"Nuclear\" 5+ times during his Midterm Rally in Kentucky?",
+        "price_at_signal": 0.605
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.76,
+    "trump_coin_24h_change": -1.14,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
     "status": "LIVE"
   }
 ]
