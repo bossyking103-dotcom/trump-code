@@ -9331,5 +9331,74 @@
     "short": 0,
     "signals": [],
     "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-10-17",
+    "posts": 10,
+    "triggered": 3,
+    "long": 3,
+    "short": 0,
+    "signals": [],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-10-17",
+    "posts": 10,
+    "triggered": 3,
+    "long": 3,
+    "short": 0,
+    "signals": [],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-10-18",
+    "posts": 10,
+    "triggered": 3,
+    "long": 3,
+    "short": 0,
+    "signals": [],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-10-18",
+    "posts": 1,
+    "triggered": 0,
+    "long": 0,
+    "short": 0,
+    "signals": [],
+    "consensus": "NEUTRAL"
+  },
+  {
+    "date": "2026-10-18",
+    "posts": 6,
+    "triggered": 9,
+    "long": 9,
+    "short": 0,
+    "signals": [
+      "IRAN"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-10-18",
+    "posts": 8,
+    "triggered": 15,
+    "long": 14,
+    "short": 1,
+    "signals": [
+      "DEAL",
+      "IRAN",
+      "DEAL_ONLY"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-10-19",
+    "posts": 4,
+    "triggered": 0,
+    "long": 0,
+    "short": 0,
+    "signals": [],
+    "consensus": "NEUTRAL"
   }
 ]

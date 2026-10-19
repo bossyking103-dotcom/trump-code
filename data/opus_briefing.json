@@ -1,119 +1,44 @@
 {
-  "date": "2026-10-17",
-  "prepared_at": "2026-10-17T17:45:24Z",
+  "date": "2026-10-19",
+  "prepared_at": "2026-10-19T05:45:30Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 9,
-    "latest": "James TalaFREAKO is a Radical Left Lunatic and Vegan who is the ANTITHESIS of Texas Values. Ken Paxton is the Greatest Attorney General in the History of Texas, and has my Complete and Total Endorseme",
-    "earliest_time": "2026-10-17T00:28:08.479Z",
-    "latest_time": "2026-10-17T17:08:24.099Z",
+    "count": 4,
+    "latest": "A must read! Newt Gingrich, #1 New York Times Bestselling Author, has a new book, just out, that is spectacular! Entitled, \"AMERICA'S GOLDEN AGE - TRUMPISM & AN ERA OF LIMITLESS POSSIBILITIES,\" it is ",
+    "earliest_time": "2026-10-19T00:19:25.502Z",
+    "latest_time": "2026-10-19T01:19:49.950Z",
     "sample": [
       {
-        "time": "00:28",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117453413930971351They will all go to jail for a long period of time!!!"
+        "time": "00:19",
+        "text": "Governor Roy Cooper released this man, who then killed beautiful Iryna Zarutska. He then released 83 other murderers, so they wouldn't catch COVID while in jail, who went on to kill 25 people! President DONALD J. TRUMP"
       },
       {
-        "time": "00:37",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117453447477979909"
+        "time": "00:38",
+        "text": "The first landing of Air Force One at President Donald J. Trump International Airport, in Palm Beach County, Florida!"
       },
       {
-        "time": "04:11",
-        "text": "Best in History!"
+        "time": "01:00",
+        "text": "https://events.gop.com/events/midterm-rally-in-park-city-kansas-president-donald-j-trump-ks"
       },
       {
-        "time": "16:31",
-        "text": "Heading to Kentucky! Will be landing soon. Big Crowd. I'm watching it now on RSBN. The coverage is spectacular. In fact, it's so good, that I don't want to leave Air Force One. Vote for Andy Barr for U.S. Senate! President DONALD J. TRUMP"
-      },
-      {
-        "time": "16:58",
-        "text": "Russell Fry has my Complete and Total Endorsement for Re-Election as U.S. Representative from South Carolina's 7th Congressional District — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
-      },
-      {
-        "time": "16:58",
-        "text": "Darline Graham has my Complete and Total Endorsement for Re-Election as U.S. Senator from South Carolina — SHE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
-      },
-      {
-        "time": "17:07",
-        "text": "Mohammed El-Sayed is a terrible Candidate for the Dumocrats. Mike Rogers is a Great American Patriot, and has my Complete and Total Endorsement to be the next U.S. Senator from Michigan — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
-      },
-      {
-        "time": "17:08",
-        "text": "Zach Nunn has my Complete and Total Endorsement for Re-Election as U.S. Representative from Iowa's 3rd Congressional District — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
-      },
-      {
-        "time": "17:08",
-        "text": "James TalaFREAKO is a Radical Left Lunatic and Vegan who is the ANTITHESIS of Texas Values. Ken Paxton is the Greatest Attorney General in the History of Texas, and has my Complete and Total Endorsement to be the next U.S. Senator from Texas — HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP"
+        "time": "01:19",
+        "text": "A must read! Newt Gingrich, #1 New York Times Bestselling Author, has a new book, just out, that is spectacular! Entitled, \"AMERICA'S GOLDEN AGE - TRUMPISM & AN ERA OF LIMITLESS POSSIBILITIES,\" it is a true study of what is now making our Country GREAT, perhaps greater than ever before. Unlike other"
       }
     ]
   },
   "today_features": {
-    "posts_6_10": true,
+    "posts_1_5": true,
     "avg_len_medium": true,
-    "caps_very_high": true,
-    "excl_normal": true,
+    "caps_high": true,
+    "excl_heavy": true,
     "questions_no": true,
-    "mostly_open": true,
     "has_night": true,
-    "kw_dow": true,
-    "kw_dow_2plus": true,
-    "open_dow": true,
+    "heavy_night": true,
     "kw_great": true,
-    "kw_great_2plus": true,
-    "open_great": true,
-    "kw_terrible": true,
-    "open_terrible": true,
-    "kw_never_let_you_down": true,
-    "kw_never_let_you_down_2plus": true,
-    "open_never_let_you_down": true,
-    "kw_complete_and_total": true,
-    "kw_complete_and_total_2plus": true,
-    "open_complete_and_total": true,
-    "is_weekend": true,
-    "volume_falling_3d": true
-  },
-  "triggered_rules": {
-    "total": 3,
-    "long": 3,
-    "short": 0,
-    "sample": [
-      {
-        "id": "R0046",
-        "features": [
-          "kw_dow_2plus",
-          "open_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0050",
-        "features": [
-          "kw_dow_2plus",
-          "open_dow",
-          "open_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0093",
-        "features": [
-          "kw_interest_rate",
-          "volume_falling_3d"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      }
-    ]
+    "kw_beautiful": true,
+    "kw_golden_age": true,
+    "is_monday": true,
+    "volume_drop": true
   },
   "model_performance": {
     "A1_tariff_bearish": {
@@ -228,23 +153,13 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-10-17",
-    "crossover": 14,
-    "mutation": 13,
+    "date": "2026-10-19",
+    "crossover": 16,
+    "mutation": 11,
     "distill": 16,
     "total_new": 43,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "open_energy",
-          "kw_thank_you_for_your_attention"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 94.1,
-        "origin": "crossover"
-      },
       {
         "features": [
           "is_friday",
@@ -257,14 +172,23 @@
       },
       {
         "features": [
-          "is_friday",
-          "kw_economy",
-          "open_tariff"
+          "kw_signed",
+          "kw_tariffs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 92.3,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 91.7,
-        "origin": "crossover"
+        "score": 90.0,
+        "origin": "distilled"
       }
     ]
   },
