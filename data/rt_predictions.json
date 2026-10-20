@@ -22139,7 +22139,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792356382",
@@ -22211,6 +22211,1411 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.66,
     "trump_coin_24h_change": -6.96,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1792404846",
+    "created_at": "2026-10-19T10:14:06Z",
+    "post_time": "2026-10-19T10:08:49.084Z",
+    "post_preview": "The United States Department of Interior wants to take a terrible and very unsafe golf course, and make it into a great, safe, and prestigious golf course. They have an absolute right to do so. It's a",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "THREAT",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "block"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BEARISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "terrible"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION",
+      "THREAT",
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0385
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9615
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.355
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.645
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.545
+      }
+    ],
+    "pm_price_at_signal": 0.0385,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.72,
+    "trump_coin_24h_change": -1.15,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1792407286",
+    "created_at": "2026-10-19T10:54:46Z",
+    "post_time": "2026-10-19T10:51:40.760Z",
+    "post_preview": "I'm going to the Great State of Kansas today to Rally support for Roger Marshall, one of the absolutely best Senators in the U.S. Senate. His opponent is a Fake, and would be a DISASTER for Kansas, a ",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "disaster"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0385
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9615
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.355
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.645
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.545
+      }
+    ],
+    "pm_price_at_signal": 0.0385,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.71,
+    "trump_coin_24h_change": -1.58,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1792437590",
+    "created_at": "2026-10-19T19:19:50Z",
+    "post_time": "2026-10-19T19:07:18.451Z",
+    "post_preview": "A big WIN for Massapequa and DJT!NY plans to drop part of Native American logo ban in 'huge victory' for Massapequa: https://nypost.com/2026/10/19/us-news/nys-dropping-part-of-native-american-logo-ban",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.039
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.961
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.405
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.595
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.57
+      }
+    ],
+    "pm_price_at_signal": 0.039,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.7,
+    "trump_coin_24h_change": 0.45,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792437590",
+    "created_at": "2026-10-19T19:19:50Z",
+    "post_time": "2026-10-19T19:06:40.816Z",
+    "post_preview": "New Mexico should immediately change its name to New America. We are not Mexico, we are the United States of America! The name would add great value and prestige to the State! Home Values and Incomes ",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.039
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.961
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.405
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.595
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.57
+      }
+    ],
+    "pm_price_at_signal": 0.039,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.7,
+    "trump_coin_24h_change": 0.45,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792445268",
+    "created_at": "2026-10-19T21:27:48Z",
+    "post_time": "2026-10-19T21:20:36.725Z",
+    "post_preview": "🚨 NEVADA!Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyo",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.039
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.961
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.415
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.585
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.575
+      }
+    ],
+    "pm_price_at_signal": 0.039,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.71,
+    "trump_coin_24h_change": 2.27,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792445268",
+    "created_at": "2026-10-19T21:27:48Z",
+    "post_time": "2026-10-19T21:19:35.625Z",
+    "post_preview": "🚨 TEXAS!Early Voting, in-person, opened in the Great State of Texas TODAY, October 19th. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyo",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.039
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.961
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.415
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.585
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.575
+      }
+    ],
+    "pm_price_at_signal": 0.039,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.71,
+    "trump_coin_24h_change": 2.27,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792456003",
+    "created_at": "2026-10-20T00:26:43Z",
+    "post_time": "2026-10-20T00:22:40.546Z",
+    "post_preview": "The Dumocrat Agenda is a plan to extinguish Western Civilization. They want to open the Borders, shut down the Power Plants, set loose the Criminals, turn your Children transgender, confiscate your mo",
+    "signals": [
+      {
+        "type": "RELIEF",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "exception"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "RELIEF"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0385
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9615
+      },
+      {
+        "token_id": "724968364403936493142083591299",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "509272436689857897915825690329",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "",
+        "question": "Will Trump meet with Joseph Aoun in 2026?",
+        "price_at_signal": 0.5
+      }
+    ],
+    "pm_price_at_signal": 0.0385,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.69,
+    "trump_coin_24h_change": -2.14,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792458452",
+    "created_at": "2026-10-20T01:07:32Z",
+    "post_time": "2026-10-20T01:01:24.298Z",
+    "post_preview": "Less than two years ago, Radical Left Dumocrats handed us the DARK AGE of America, but we quickly turned it into the GOLDEN AGE of America. Despite all the damage Dumocrats caused, our Nation is doing",
+    "signals": [
+      {
+        "type": "TARIFF",
+        "confidence": 0.8,
+        "matched_keywords": [
+          "tariff",
+          "tariffs"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "TARIFF",
+      "BULLISH"
+    ],
+    "predicted_direction": "NEUTRAL",
+    "confidence": 0.3,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.039
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.961
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.14
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.86
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.215
+      }
+    ],
+    "pm_price_at_signal": 0.039,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.68,
+    "trump_coin_24h_change": -2.57,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792458452",
+    "created_at": "2026-10-20T01:07:32Z",
+    "post_time": "2026-10-20T00:38:36.850Z",
+    "post_preview": "The last time the Radical Dumocrats had power, they gave us the Worst Inflation in American History, the Highest Energy Prices in American History, the Worst Trade Deficit in American History, they al",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "worst"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.039
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.961
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.14
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.86
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.215
+      }
+    ],
+    "pm_price_at_signal": 0.039,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.68,
+    "trump_coin_24h_change": -2.57,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792458452",
+    "created_at": "2026-10-20T01:07:32Z",
+    "post_time": "2026-10-20T00:38:01.791Z",
+    "post_preview": "Senator Roger Marshall's opponent, Adam Hamilton, is a Radical Left Phony who is pretending to be a moderate because he does not have the courage to tell Kansas the truth about who he really is. Hamil",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.039
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.961
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.14
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.86
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.215
+      }
+    ],
+    "pm_price_at_signal": 0.039,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.68,
+    "trump_coin_24h_change": -2.57,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792460003",
+    "created_at": "2026-10-20T01:33:23Z",
+    "post_time": "2026-10-20T01:19:49.382Z",
+    "post_preview": "We achieved more in two years than any other presidency in the History of our Country, but now, the Radical Left Dumocrats want to burn it all down. Every single Dumocrat in Congress voted AGAINST our",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "worst"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0395
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9605
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.07
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.93
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.095
+      }
+    ],
+    "pm_price_at_signal": 0.0395,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.68,
+    "trump_coin_24h_change": -3.02,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792460003",
+    "created_at": "2026-10-20T01:33:23Z",
+    "post_time": "2026-10-20T01:18:24.718Z",
+    "post_preview": "Just today, I signed a Historic Executive Order on Women's Health, supported by our incredible First Lady. With Melania's leadership, we are creating a new Women's Health Division at our National Inst",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "signed"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "executive order"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL",
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0395
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9605
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.07
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.93
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.095
+      }
+    ],
+    "pm_price_at_signal": 0.0395,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.68,
+    "trump_coin_24h_change": -3.02,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792460003",
+    "created_at": "2026-10-20T01:33:23Z",
+    "post_time": "2026-10-20T01:18:02.703Z",
+    "post_preview": "Under my Most Favored Nation Agreements on Drug Prices, we went from paying the HIGHEST Drug Prices anywhere in the World, to paying the LOWEST Drug Prices, with Price Differences of 300, 400, 500, 60",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "agreement"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0395
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9605
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.07
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.93
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.095
+      }
+    ],
+    "pm_price_at_signal": 0.0395,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.68,
+    "trump_coin_24h_change": -3.02,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792460003",
+    "created_at": "2026-10-20T01:33:23Z",
+    "post_time": "2026-10-20T01:17:51.486Z",
+    "post_preview": "Two weeks ago, I signed an Executive Order waiving the Off-Road requirement for Red-Dye Diesel, allowing Farmers, Truckers, and anyone else to fill up with Diesel totally TAX FREE. Here in Kansas, you",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "signed"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "executive order"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL",
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0395
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9605
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.07
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.93
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.095
+      }
+    ],
+    "pm_price_at_signal": 0.0395,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.68,
+    "trump_coin_24h_change": -3.02,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792460003",
+    "created_at": "2026-10-20T01:33:23Z",
+    "post_time": "2026-10-20T01:17:23.960Z",
+    "post_preview": "To protect Family Farms, we ended the unfair Estate Tax, or Death Tax. My Administration also announced the Highest Biofuel Production Targets in History, which will create 4 Billion Dollars in new Fa",
+    "signals": [
+      {
+        "type": "RELIEF",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "waiver"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "RELIEF"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0395
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9605
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.07
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.93
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.095
+      }
+    ],
+    "pm_price_at_signal": 0.0395,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.68,
+    "trump_coin_24h_change": -3.02,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792460003",
+    "created_at": "2026-10-20T01:33:23Z",
+    "post_time": "2026-10-20T01:17:07.329Z",
+    "post_preview": "Thanks to a Republican Congress, I signed THE GREAT BIG BEAUTIFUL BILL, delivering THE LARGEST TAX CUTS IN AMERICAN HISTORY. We gave you NO TAX ON TIPS, NO TAX ON OVERTIME, and NO TAX ON SOCIAL SECURI",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "signed"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0395
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9605
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.07
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.93
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.095
+      }
+    ],
+    "pm_price_at_signal": 0.0395,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.68,
+    "trump_coin_24h_change": -3.02,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792460003",
+    "created_at": "2026-10-20T01:33:23Z",
+    "post_time": "2026-10-20T01:16:31.382Z",
+    "post_preview": "We inherited the Worst Border in American History, and we turned it into the Strongest and Most Secure Border in the History of our Country. In the past 17 months, ZERO Illegal Aliens have been admitt",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "worst"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0395
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9605
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.07
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.93
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.095
+      }
+    ],
+    "pm_price_at_signal": 0.0395,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.68,
+    "trump_coin_24h_change": -3.02,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792468487",
+    "created_at": "2026-10-20T03:54:47Z",
+    "post_time": "2026-10-20T03:43:19.339Z",
+    "post_preview": "\"Trash Island,\" Washington, D.C., the nickname for the broken and dilapidated Golf Course that is the subject of frivolous litigation in the United States Court System, before a judge that seems not t",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "signed"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "RELIEF",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "delay"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL",
+      "RELIEF"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0415
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9585
+      },
+      {
+        "token_id": "560147212956207506470702643512",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "579798980416599610015756372206",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "603701107890520786797689712120",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Kansas?",
+        "price_at_signal": 0.0
+      }
+    ],
+    "pm_price_at_signal": 0.0415,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.7,
+    "trump_coin_24h_change": -1.05,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,

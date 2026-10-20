@@ -1,14 +1,446 @@
 {
-  "total": 46417,
+  "total": 46471,
   "date_range": {
     "earliest": "2022-02-14",
-    "latest": "2026-10-19"
+    "latest": "2026-10-20"
   },
   "sources": [
     "own_archive",
     "cnn_archive"
   ],
   "posts": [
+    {
+      "id": "rt_1792487603_0",
+      "created_at": "2026-10-20T05:06:49.635Z",
+      "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117471474650381574",
+      "url": "https://truthsocial.com/@realDonaldTrump/117471498052081961",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792487603_1",
+      "created_at": "2026-10-20T05:05:50.316Z",
+      "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117471491419200330Collapsing Sea Wall — Very dangerous to one's health! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117471494164657339",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792487603_2",
+      "created_at": "2026-10-20T05:00:52.553Z",
+      "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117471471550327950Here are pictures of Trash Island for the Judge to study. This is just a small area, and better than some! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117471474650381574",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792487603_3",
+      "created_at": "2026-10-20T05:00:05.250Z",
+      "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117471466710724607",
+      "url": "https://truthsocial.com/@realDonaldTrump/117471471550327950",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792487603_4",
+      "created_at": "2026-10-20T04:58:51.404Z",
+      "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117471464480692811",
+      "url": "https://truthsocial.com/@realDonaldTrump/117471466710724607",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792472538_0",
+      "created_at": "2026-10-20T04:54:34.158Z",
+      "content": "Trace Gallagher, of FoxNews, is a very talented journalist, and a wonderful guy. He also happens to be \"street smart,\" and wise! His new book, \"Turns Out They Were Right All Along,\" which is a Top Seller, is FANTASTIC. Get it now! President DONALD J. TRUMPhttps://www.amazon.com/Turns-They-Were-Right-Along/dp/0063568837/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.F-JrVSzqQIIKYluT3i1Wgo-RoXiInSCDZR7oSgQaf6pafoqTgR-6cOY28LxMjFsdZ-axDrVHYcIpPTZQIXyQtDhDYNP3GtVMOWcYYVmcs1FBompACQiaR7D9QPjCl8PM.o30oeuwSb3BE4RF_aXcfIVkWP21fWRaE5Miq1LsK98c&qid=1792470890&sr=8-1",
+      "url": "https://truthsocial.com/@realDonaldTrump/117471449851979312",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792471289_0",
+      "created_at": "2026-10-20T04:27:46.044Z",
+      "content": "Trump says voters should 'look at France' to see 'what's at stake' in midterm elections: https://nypost.com/2026/10/19/us-news/trump-says-voters-should-look-at-france-to-see-whats-at-stake-in-midterm-elections/",
+      "url": "https://truthsocial.com/@realDonaldTrump/117471344462712217",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792470354_0",
+      "created_at": "2026-10-20T04:20:35.724Z",
+      "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117471308305608337",
+      "url": "https://truthsocial.com/@realDonaldTrump/117471316261088736",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792470354_1",
+      "created_at": "2026-10-20T04:18:11.471Z",
+      "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117471292631052381",
+      "url": "https://truthsocial.com/@realDonaldTrump/117471306807375633",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792470354_2",
+      "created_at": "2026-10-20T04:11:24.500Z",
+      "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117471278326631542",
+      "url": "https://truthsocial.com/@realDonaldTrump/117471280136066596",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792470354_3",
+      "created_at": "2026-10-20T04:05:34.300Z",
+      "content": "Trump's Kansas Crowd 'Blew the Roof Off the Arena': https://www.breitbart.com/politics/2026/10/19/trumps-kansas-crowd-blew-roof-off-arena/",
+      "url": "https://truthsocial.com/@realDonaldTrump/117471257185488161",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792470354_4",
+      "created_at": "2026-10-20T04:00:57.151Z",
+      "content": "59 Cities throughout the World have a Triumphal Arch. Washington, D.C., is the only one that doesn't. With the Arc de Triomphe, in Paris, under siege by the Radical Left Lunatics who have taken over the country, we will assume only 58 remain! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117471239022307669",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792468486_0",
+      "created_at": "2026-10-20T03:43:19.339Z",
+      "content": "\"Trash Island,\" Washington, D.C., the nickname for the broken and dilapidated Golf Course that is the subject of frivolous litigation in the United States Court System, before a judge that seems not to want Greatness for our Capital or our Nation (but who knows?), has been badly managed for so many decades that it is a completely nonviable and unsafe Project. Our Plan, developed to the Highest Levels and Standards of Golf, will turn Trash Island into an Island of Beauty and Success! It will be one of the Most Wonderful and Spectacular Golf Courses anywhere in the World. The United States Department of the Interior, and its Experts, are so proud of what has been designed that any delay would be sad, both for them and the Public, which is anxiously waiting for something that is really special! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117471169697500011",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792460002_0",
+      "created_at": "2026-10-20T01:26:13.036Z",
+      "content": "We must defeat Crazy Cindy Holscher, and elect Ty Masterson to be the next Governor of Kansas. Cindy Holscher is the Most Radical Candidate ever to run for Kansas Governor. Even Laura Kelly said Holscher is too extreme. Cindy Holscher supported RAISING your Property Taxes, and stripping Parents of their Parental Rights. She voted for Men in Women's Sports, and Men in Girls' Locker Rooms. She said that Jesus was gay and transgender, and that her role model, as Governor, would be Gavin Newscum, which means Homelessness, Corruption, High Crime, and High Costs. GET OUT AND VOTE FOR TY MASTERSON! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470630578550684",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792460002_1",
+      "created_at": "2026-10-20T01:21:14.276Z",
+      "content": "Roger Marshall is all that stands between the people of Kansas and Communists controlling the United States Senate. Unlike Adam Hamilton, he is endorsed by the N.R.A. and the Kansas Farm Bureau. He will vote for Low Taxes, Less Regulations, a thriving Kansas Oil and Gas Industry, and NO Illegal Immigration! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470610998962876",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792460002_2",
+      "created_at": "2026-10-20T01:19:59.472Z",
+      "content": "On Election Night, Kansas is going to prove that America does not belong to those who HATE IT, America belongs to those who LOVE IT! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470606096661361",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792460002_3",
+      "created_at": "2026-10-20T01:19:49.382Z",
+      "content": "We achieved more in two years than any other presidency in the History of our Country, but now, the Radical Left Dumocrats want to burn it all down. Every single Dumocrat in Congress voted AGAINST our Record Tax Cuts, AGAINST No Tax on Tips, AGAINST No Tax on Overtime, and AGAINST No Tax on Social Security for our Great Seniors. They voted against VOTER I.D., against Proof of Citizenship, AGAINST securing the Border. They voted IN FAVOR of the Worst Inflation and Highest Energy Costs in American History, IN FAVOR of the Transgender mutilization of your Children, and IN FAVOR of Men in Women's Sports! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470605435315443",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792460002_4",
+      "created_at": "2026-10-20T01:18:36.053Z",
+      "content": "We abolished all discriminatory \"Diversity, Equity, and Inclusion\" policies throughout the Federal Government. We got Critical Race Theory and Transgender insanity out of our Schools, and we made ENGLISH the Official Language of the United States! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470600629608396",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792460002_5",
+      "created_at": "2026-10-20T01:18:24.718Z",
+      "content": "Just today, I signed a Historic Executive Order on Women's Health, supported by our incredible First Lady. With Melania's leadership, we are creating a new Women's Health Division at our National Institutes of Health, to promote new Research, Technology, and Treatments, and ensure American Women have access to the Best Healthcare anywhere in the World! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470599886832710",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792460002_6",
+      "created_at": "2026-10-20T01:18:02.703Z",
+      "content": "Under my Most Favored Nation Agreements on Drug Prices, we went from paying the HIGHEST Drug Prices anywhere in the World, to paying the LOWEST Drug Prices, with Price Differences of 300, 400, 500, 600, or even 700%! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470598444052539",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792460002_7",
+      "created_at": "2026-10-20T01:17:51.486Z",
+      "content": "Two weeks ago, I signed an Executive Order waiving the Off-Road requirement for Red-Dye Diesel, allowing Farmers, Truckers, and anyone else to fill up with Diesel totally TAX FREE. Here in Kansas, your Dumocrat Governor, Laura Kelly, is REFUSING to give you this much-needed relief. If you want low-cost Diesel Fuel, you must VOTE FOR TY MASTERSON FOR GOVERNOR! Tonight, I am also pleased to announce that the Department of Agriculture will be launching a new \"Harvest Fuel Relief Program,\" providing our Farmers with 8 BILLION DOLLARS in support to offset Diesel costs during this Harvest Season, and Roger Marshall is the Leader who fought for this to happen. When Republicans win, we will pass even more funding for our Great Farmers, and Fuel prices will come tumbling down as soon as the Iran War is over, which will happen very quickly! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470597708924695",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792460002_8",
+      "created_at": "2026-10-20T01:17:23.960Z",
+      "content": "To protect Family Farms, we ended the unfair Estate Tax, or Death Tax. My Administration also announced the Highest Biofuel Production Targets in History, which will create 4 Billion Dollars in new Farm Income and demand for Kansas Farmers. I also gave Kansas a waiver to sell E-15 All-Year-Round and, with Roger Marshall in the Senate, we will make Year-Round E-15 PERMANENT! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470595904971292",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792460002_9",
+      "created_at": "2026-10-20T01:17:07.329Z",
+      "content": "Thanks to a Republican Congress, I signed THE GREAT BIG BEAUTIFUL BILL, delivering THE LARGEST TAX CUTS IN AMERICAN HISTORY. We gave you NO TAX ON TIPS, NO TAX ON OVERTIME, and NO TAX ON SOCIAL SECURITY for our Great Seniors! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470594815032154",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792460002_10",
+      "created_at": "2026-10-20T01:16:42.992Z",
+      "content": "Since I took Office, we achieved the largest drop in Violent Crime EVER RECORDED. The Murder Rate is at the lowest level in 125 years, since the year 1900! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470593220109602",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792460002_11",
+      "created_at": "2026-10-20T01:16:31.382Z",
+      "content": "We inherited the Worst Border in American History, and we turned it into the Strongest and Most Secure Border in the History of our Country. In the past 17 months, ZERO Illegal Aliens have been admitted to the United States! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470592459221432",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792460002_12",
+      "created_at": "2026-10-20T01:16:18.761Z",
+      "content": "The choice in this Election is very simple. You can vote for the Radical Left Dumocrat Communists to loot your Wealth, raise your Taxes by 5 Trillion Dollars, annihilate your Borders, decimate Kansas Farms, mutilate your Children, and give 25 Million Illegal Aliens Amnesty and the Right to Vote. OR, you can DEFEAT the Dumocrat Communists, and VOTE FOR MORE MONEY IN YOUR POCKETS, BIGGER PAYCHECKS FOR YOUR FAMILIES, LOWER TAXES, LESS CRIME, A BOOMING KANSAS ECONOMY, AND NO AMNESTY FOR ILLEGAL ALIENS. YOU MUST VOTE REPUBLICAN! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470591632121393",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792458451_0",
+      "created_at": "2026-10-20T01:01:24.298Z",
+      "content": "Less than two years ago, Radical Left Dumocrats handed us the DARK AGE of America, but we quickly turned it into the GOLDEN AGE of America. Despite all the damage Dumocrats caused, our Nation is doing better now than ever before, but the Fake News Media refuses to talk about our Record Setting Numbers, so today, I AM GOING TO DO IT MYSELF:It was just announced that under Republican Leadership, Incomes for Hardworking Americans have soared to the Highest Level EVER RECORDED. More Americans are working today than at any time in the History of our Country! The Poverty Rate has just reached its lowest level in American History. African American Poverty, Hispanic American Poverty, and Native American Poverty Rates are all at their lowest levels EVER recorded. Exports have soared to the Highest Level in American History.Less than two years ago, our Country was DEAD. Now, we are the \"HOTTEST\" Country anywhere in the World.In 4 long years of the Crooked Joe Biden administration, they got less than 1 Trillion Dollars of new Investment in the United States. Since I took office, we have secured commitments for more than 21 Trillion Dollars in 15 months. Here in Kansas, the pharmaceutical company, Merck, is investing nearly 1 Billion Dollars in De Soto to expand Production, and create thousands of Jobs, and Boeing is investing 1 Billion Dollars right here in Wichita – The Air Capital of the World!Our Country is doing so well under Republican Leadership, that ONLY I can make you this promise: If Republicans win the House of Representatives and the Senate, I am going to give ALL ADULT CITIZENS in the United States 5,000 DOLLARS. Only Republicans can do it, and the Democrats can't, because we're taking in massive amounts of money through TARIFFS and Record Setting Economic Success, but the Democrat policies won't allow this to happen, in fact the opposite — If the Democrats win, you will have a 1929 style Economic Depression. If the Republicans win, you will each have 5,000 DOLLARS IN YOUR POCKET, and Economic Success for our Country like we have never seen before. And remember, just recently, I gave all members of the Military 1,776 Dollars, and everyone said it can't be done. I did it. The Trump Dividend is approximately 1 Trillion Dollars, but we have a Record Setting 21 Trillion Dollars that's being invested in the Country in just 15 months. The ONLY Caveat of the Trump Dividend is that you have to spend the money in the United States of America! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470533012557706",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792458451_1",
+      "created_at": "2026-10-20T00:38:36.850Z",
+      "content": "The last time the Radical Dumocrats had power, they gave us the Worst Inflation in American History, the Highest Energy Prices in American History, the Worst Trade Deficit in American History, they allowed 25 million people to pour across our Borders from all over the World and, if they win the Midterms, they will DO IT ALL AGAIN! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470443395506989",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792458451_2",
+      "created_at": "2026-10-20T00:38:01.791Z",
+      "content": "Senator Roger Marshall's opponent, Adam Hamilton, is a Radical Left Phony who is pretending to be a moderate because he does not have the courage to tell Kansas the truth about who he really is. Hamilton opposed my Travel Ban to keep Terrorists and Extremists out of our Country. He supports flooding Kansas with unvetted refugees from the most dangerous places on earth. Adam Hamilton used church dollars to fund anti-religious transgender activists who openly mock Jesus. He promotes a document listing 125 different genders, and directs his followers to 7 different websites to make children transgender. Adam Hamilton stated that he believes America is systemically racist. He said that white people must \"repent\" for being white, and that Kansans should repent for eating beef because you are causing global warming. He donated to Kamala Harris, Crooked Joe Biden, and Barack Hussein Obama and, very importantly, Adam Hamilton wants to take away your guns — He has an \"F\" rating from the N.R.A. With Roger Marshall in the Senate and me as your President, we will ALWAYS protect your Second Amendment right to KEEP AND BEAR ARMS!On top of it all, Adam Hamilton shielded a child sexual predator at his church, and he just admitted that he NEVER contacted Law Enforcement when it was discovered, instead, he let him come back as a camp counselor. That's all you need after the Election is over, is to find out you elected a big pervert.I won the Christian Vote, getting the Highest Vote Total in the History of Politics. Specifically, I won the Evangelical Vote, the Catholic Vote, and virtually every other Denomination by a massive number. Based on Voter Results, I know more about Christianity than any other politician, and I can state unequivocally that Adam Hamilton is not one of us! He is a Radical Left LUNATIC Dumocrat, whose Values are not those of the People of Kansas, and I can tell you that Roger Marshall is a far better man than Adam Hamilton.Roger was given a \"bum rap\" because he was mandated by Law to request money owed from patients. If he didn't make these requests, he would be breaking the Law, and subject to criminal liability and arrest. A judge ordering a patient's arrest for not showing up to court many, many times is not Roger Marshall's fault — IT IS THE LAW, and his Crooked Opponent is using that against him.On November 3rd, you need to send a very strange Adam Hamilton back home, and RE-ELECT one of the Greatest Senators in our Country, Roger Marshall, to defend Kansas Values and COMMON SENSE. Roger Marshall is the Number One Champion fighting to protect hardworking Americans and Small Businesses from predatory Credit Card companies and out-of-control swipe fees. Roger's Bill to end these rip offs will save the typical American 2,000 Dollars a year and, if you vote for Roger and a Republican Congress, I will sign it into LAW! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470441097872597",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792458451_3",
+      "created_at": "2026-10-20T00:26:24.095Z",
+      "content": "The Dumocrats are the Party of Abdul Mohammed al-Sayed, Ilhan Omar, Rashida Tlaib, A.O.C., James TalaFREAKO, Elizabeth \"Pocahontas\" Warren, Maxine Waters, Chuck Schumer, and Nancy Pelosi, representing all the Fraudsters, Thieves, and Thugs driving around in luxury cars, while receiving welfare checks paid for by American Taxpayers. A vote for ANY Democrat this year is a vote to let that small and dangerous group of Extremists hold all of America hostage. In 15 days, we are going to re-elect Roger Marshall, and DEFEAT the Communists, Jihadists, and corrupt anti-American Lunatics once and for all! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470395373605336",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792456001_0",
+      "created_at": "2026-10-20T00:22:40.546Z",
+      "content": "The Dumocrat Agenda is a plan to extinguish Western Civilization. They want to open the Borders, shut down the Power Plants, set loose the Criminals, turn your Children transgender, confiscate your money, and raise up the Palestinian Flag, while they defile the American Flag. All of us here tonight represent the Greatest Nation in World History, with the most extraordinary People, the most incredible Art, most Advanced Technology, the most Exceptional Culture ever to exist and, perhaps most importantly, the Greatest Military in the World — and we will not let anyone take it away! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470380723173497",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792456001_1",
+      "created_at": "2026-10-20T00:21:30.986Z",
+      "content": "If you want to see what is at stake in this Election, just look at what is happening in France — A once-great nation that is being conquered, looted, and burned to the ground by migrants, jihadists, and Communists who hate Christianity, and Western Civilization, itself. As we are seeing in Europe, Globalist Leftwing Politicians have treasonously imported millions of Third World Migrants who are totally incompatible with Western Values, and despise everything that makes France great. They have surrendered their country to vandals who could have never built it themselves, and who refuse to assimilate into their society, but only want to enter the welfare state paid for by hardworking citizens of France, while desecrating the culture that makes it all possible. Europe has to CLOSE THEIR BORDERS, and get out the people who hate their countries, and get them out FAST, before it is too late! These people do not love France, or these other countries under attack. They don't love the people, they don't love the art, they don't love the architecture or the buildings, they don't love anything that surrounds them. They have no passion for where they are, and they never will and, as I told President Macron when I first met him many years ago, CLOSE YOUR BORDER or, it will be the end of France. We stand with Europe, despite its flaws, its weaknesses and, hopefully, its temporary loss of direction. But if they don't soon find their way, we will have no choice but to leave. When we asked for help in Iran (Help which we didn't need, but was done more in the form of a test), they weren't there to help, something which I can never forget.When you see burning steeples and raging fires in France, just remember, THAT is what the Radical Dumocrats want to do to AMERICA. Just like in Europe, Dumocrats are the party of anti-Western Marxists and hostile Third World Migrants. Senator Roger Marshall and the People of Kansas will not let them plunder our Nation's Wealth, or demolish what our Ancestors built with their own sweat, blood, tears, and skill.The maniacs attacking our Civilization think they are doing well, you see and read about them all day and all night, but they have NO IDEA of the GIANT they have awoken and unleashed. They are going to find out the hard way on Election Day, November 3rd, 2026!  Americans are going to stand up and declare that we will defend our Culture, we will protect our Civilization, we will preserve our Religion, our Values, and our Heritage, and we will never let our Nation be conquered or destroyed! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470376164503349",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792456001_2",
+      "created_at": "2026-10-20T00:19:29.505Z",
+      "content": "15 days from now, the People of Kansas are going to RE-ELECT the great ROGER MARSHALL to the United States Senate, elect Ty Masterson as your next Governor, and we are going to WIN a Republican House and a Republican Senate! In this Election, I am asking you to pretend I'm on the Ballot. When I'm on the Ballot, 48% more people show up. Please pretend I'm on the ballot. Early Voting in Kansas is available in many areas RIGHT NOW, and across the State on October 27th. The deadline to request a Mail-In Ballot is also October 27th, and return it by Election Day, November 3rd.  Whatever you do, GET OUT AND VOTE! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117470368203080253",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792448631_0",
+      "created_at": "2026-10-19T22:08:31.200Z",
+      "content": "Kansas Senate Dem nominee Adam Hamilton accused of shielding 'child predator' who volunteered for his church in mid-2000s: https://nypost.com/2026/10/02/us-news/kansas-senate-dem-nominee-adam-hamilton-accused-of-shielding-child-predator-who-worked-for-his-church-in-mid-2000s/",
+      "url": "https://truthsocial.com/@realDonaldTrump/117469853201214681",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792445267_0",
+      "created_at": "2026-10-19T21:20:36.725Z",
+      "content": "🚨 NEVADA!Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT!Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMPFind your Voting Location here: https://swampthevoteusa.com/nevada/",
+      "url": "https://truthsocial.com/@realDonaldTrump/117469664819644244",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792445267_1",
+      "created_at": "2026-10-19T21:19:35.625Z",
+      "content": "🚨 TEXAS!Early Voting, in-person, opened in the Great State of Texas TODAY, October 19th. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT!Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Texas, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMPFind your Voting Location here: https://swampthevoteusa.com/texas/",
+      "url": "https://truthsocial.com/@realDonaldTrump/117469660815396195",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792443120_0",
+      "created_at": "2026-10-19T20:41:33.186Z",
+      "content": "A BIG THANK YOU to our legendary friend, Elon Musk, for his incredible generosity in giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS! This is exactly what was envisioned when we created TRUMP ACCOUNTS — Bringing together the GREAT PRIVATE SECTOR, Elon and so many more, to invest in our children, by far our greatest and most important asset, and give every American Child a piece of the American Dream. Thank you Elon! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117469511233475082",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792437589_0",
+      "created_at": "2026-10-19T19:07:18.451Z",
+      "content": "A big WIN for Massapequa and DJT!NY plans to drop part of Native American logo ban in 'huge victory' for Massapequa: https://nypost.com/2026/10/19/us-news/nys-dropping-part-of-native-american-logo-ban-in-huge-victory-for-massapequa/",
+      "url": "https://truthsocial.com/@realDonaldTrump/117469140644731762",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792437589_1",
+      "created_at": "2026-10-19T19:06:40.816Z",
+      "content": "New Mexico should immediately change its name to New America. We are not Mexico, we are the United States of America! The name would add great value and prestige to the State! Home Values and Incomes would rise, and you would be even prouder while saluting our beautiful American Flag! Maybe even the Crooked Elections, that New Mexico is known for, would become honest again!President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117469138178317492",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792437589_2",
+      "created_at": "2026-10-19T19:05:16.650Z",
+      "content": "The Democrats gave us the Highest Inflation in History, and the Highest Prices to go with it and, as soon as l came into Office, they started screaming,\"AFFORDABILITY.\" They are the ones that created the Affordability Crisis. I'm the one who created the Greatest Economy, and am bringing the prices down. It's just another Fake News CON JOB! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117469132662412438",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792436053_0",
+      "created_at": "2026-10-19T18:41:11.211Z",
+      "content": "I am pleased to nominate Joseph Falvey to serve as Judge on the United States District Court for the Northern District of Indiana. Joe is currently an Assistant U.S. Attorney, where he has done an incredible job protecting Public Safety, and promoting Law and Order. Joe is a graduate of Yale Law School and the University of Notre Dame, and previously clerked for three esteemed Jurists, Chief Justice of the United States Supreme Court, John Roberts, Judge Thomas Griffith of the D.C. Circuit, and Judge Dabney Friedrich of The United States District Court for the District of Columbia. He is also a Marine Corps Veteran and Pat Tillman Scholar. Joe will strongly protect our cherished Constitution and Rule of Law in this important new role. Congratulations Joe! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117469037934097385",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792436053_1",
+      "created_at": "2026-10-19T18:38:27.292Z",
+      "content": "I am pleased to nominate Eric Hamilton to serve as Judge on the United States District Court for the District of Nebraska. Eric has done a phenomenal job as the Deputy Assistant Attorney General for the Federal Programs Branch, defending our Administration's most important Policies in Court. A sixth generation Nebraskan, Eric previously served as Solicitor General of the State of Nebraska. He is a proud graduate of Stanford Law School and the University of Nebraska, and clerked for the highly respected Judge Thomas Hardiman of the Third Circuit. The incredible people of Nebraska are lucky to have a fighter like Eric join the Federal Bench. Congratulations Eric! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117469027191542871",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792431143_0",
+      "created_at": "2026-10-19T17:18:20.901Z",
+      "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117468708319503157",
+      "url": "https://truthsocial.com/@realDonaldTrump/117468712199708572",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792431143_1",
+      "created_at": "2026-10-19T17:17:21.692Z",
+      "content": "Washington's beautiful Reflecting Pool, which was badly damaged by Vandals despite the ridiculous writings of some Radical Left person in the D.C. U.S. Attorney's Office who got it wrong and obviously didn't investigate, witness, or see the attached tape, or the very inspiring Jesse Watters show which explained it all, or didn't inspect the vast area of cut and slashed pool surface, or the grass that was scarred by poison with the numbers \"86 47\" massively inscribed in font 90 feet tall and encompassing the width of the entire Park (which grass has been fully replaced with new grass), is now, after repair, 70% filled with water and looking good. Interestingly, the Reflecting Pool has not worked properly since it was built in 1922 — It always leaked! This will be different, but any Vandals that try to prove the point otherwise, will GO TO JAIL! We are watching very closely, and security cameras have been installed. Reports are that it's looking beautiful, and will only get better, subject to NO VANDALISM, with time. Thank you for your attention to this matter! President DONALD J. TRUMP",
+      "url": "https://truthsocial.com/@realDonaldTrump/117468708319503157",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792424117_0",
+      "created_at": "2026-10-19T15:25:21.064Z",
+      "content": "See you tonight, Kansas! Get your tickets: https://events.gop.com/events/midterm-rally-in-park-city-kansas-president-donald-j-trump-ks",
+      "url": "https://truthsocial.com/@realDonaldTrump/117468267876449814",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792419829_0",
+      "created_at": "2026-10-19T14:01:40.179Z",
+      "content": "FBI smash huge voter fraud ring in California — days after feds issued ultimatum to state: https://nypost.com/2026/10/19/us-news/fbi-smash-huge-california-voter-fraud-ring-in-los-angeles-days-after-feds-issued-ultimatum-to-state/",
+      "url": "https://truthsocial.com/@realDonaldTrump/117467938827717672",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792416768_0",
+      "created_at": "2026-10-19T13:14:14.886Z",
+      "content": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117467751425482695",
+      "url": "https://truthsocial.com/@realDonaldTrump/117467752358533474",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792408812_0",
+      "created_at": "2026-10-19T11:16:30.199Z",
+      "content": "The migrants have taken over France. They must CLOSE THE BORDERS, FAST! President DJT",
+      "url": "https://truthsocial.com/@realDonaldTrump/117467289367307836",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792408812_1",
+      "created_at": "2026-10-19T11:09:41.730Z",
+      "content": "Big crowds today in Kansas. See you later! President DJT",
+      "url": "https://truthsocial.com/@realDonaldTrump/117467262597886072",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792408812_2",
+      "created_at": "2026-10-19T11:08:14.114Z",
+      "content": "Fox spends more time defending Dumocrats, and putting on their views versus their Republican opponent, than at any time in the History of FoxNews. It's ridiculous! FoxNews is trying too hard to be Politically Correct! Watch my big Kansas Rally today on RSBN. Great early coverage! President DJT",
+      "url": "https://truthsocial.com/@realDonaldTrump/117467256855900007",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792407285_0",
+      "created_at": "2026-10-19T10:51:40.760Z",
+      "content": "I'm going to the Great State of Kansas today to Rally support for Roger Marshall, one of the absolutely best Senators in the U.S. Senate. His opponent is a Fake, and would be a DISASTER for Kansas, a State I won all three times, getting the highest vote in the history of Kansas - Such an honor! See you all later!!! President DJT",
+      "url": "https://truthsocial.com/@realDonaldTrump/117467191755462147",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792404845_0",
+      "created_at": "2026-10-19T10:08:49.084Z",
+      "content": "The United States Department of Interior wants to take a terrible and very unsafe golf course, and make it into a great, safe, and prestigious golf course. They have an absolute right to do so. It's as simple as that! The judge on the case is a crazed lunatic whose courthouse tapes will reveal, may be insane? The tapes have been blocked from usage by the judge. The random golfer bringing the ridiculous lawsuit has ZERO STANDING! The experts at \"Interior\" are allowed to do this First Class renovation \"as of right.\" They do not need an approval. Work is scheduled to begin IMMEDIATELY! The finished product will be World Class, and bring income and great prestige back to D.C. Thank you for your attention to this matter! President DJT",
+      "url": "https://truthsocial.com/@realDonaldTrump/117467023218108167",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792403012_0",
+      "created_at": "2026-10-19T09:22:33.120Z",
+      "content": "How Trump defied the 'experts' — and pushed the UN toward post-Oct. 7 peace: https://nypost.com/2026/10/08/opinion/how-trump-defied-the-experts-and-pushed-the-un-to-post-oct-7-peace/",
+      "url": "https://truthsocial.com/@realDonaldTrump/117466841292482027",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
+    {
+      "id": "rt_1792401484_0",
+      "created_at": "2026-10-19T09:14:23.166Z",
+      "content": "Melania Trump makes history presiding over UN Security Council — remarking on Iran war deaths: https://nypost.com/2026/03/02/us-news/melania-trump-makes-history-presiding-over-un-security-council-acknowledges-challenging-times/",
+      "url": "https://truthsocial.com/@realDonaldTrump/117466809182909023",
+      "source": "realtime_loop",
+      "is_retweet": false
+    },
     {
       "id": "rt_1792374036_0",
       "created_at": "2026-10-19T01:19:49.950Z",
@@ -371346,5 +371778,5 @@
       "is_retweet": false
     }
   ],
-  "last_rt_update": "2026-10-19T01:40:36Z"
+  "last_rt_update": "2026-10-20T09:13:23Z"
 }
