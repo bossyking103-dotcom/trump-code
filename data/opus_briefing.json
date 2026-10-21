@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "prepared_at": "2026-10-21T17:46:17Z",
+  "prepared_at": "2026-10-21T20:45:42Z",
   "status": "PENDING",
   "today_posts": {
     "count": 15,
@@ -314,9 +314,9 @@
   "evolution_latest": {
     "date": "2026-10-21",
     "crossover": 16,
-    "mutation": 10,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 42,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
@@ -341,13 +341,13 @@
       },
       {
         "features": [
-          "volume_falling_3d",
           "kw_thank_you_for_your_attention",
-          "kw_tariffs"
+          "kw_interest_rate",
+          "kw_beautiful"
         ],
         "direction": "LONG",
         "hold": 3,
-        "score": 88.9,
+        "score": 87.5,
         "origin": "crossover"
       }
     ]
