@@ -22457,7 +22457,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792437590",
@@ -22532,7 +22532,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792445268",
@@ -22607,7 +22607,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792445268",
@@ -22682,7 +22682,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792456003",
@@ -22757,7 +22757,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792458452",
@@ -22842,7 +22842,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792458452",
@@ -22917,7 +22917,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792458452",
@@ -22992,7 +22992,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792460003",
@@ -23067,7 +23067,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792460003",
@@ -23151,7 +23151,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792460003",
@@ -23226,7 +23226,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792460003",
@@ -23310,7 +23310,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792460003",
@@ -23385,7 +23385,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792460003",
@@ -23460,7 +23460,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792460003",
@@ -23535,7 +23535,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792468487",
@@ -23616,6 +23616,381 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.7,
     "trump_coin_24h_change": -1.05,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1792525525",
+    "created_at": "2026-10-20T19:45:25Z",
+    "post_time": "2026-10-20T19:34:06.126Z",
+    "post_preview": "🚨 OHIO!Early Voting, in-person, is UNDERWAY NOW in the Great State of Ohio. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know t",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0455
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9545
+      },
+      {
+        "token_id": "724968364403936493142083591299",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "509272436689857897915825690329",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "",
+        "question": "Will Trump meet with Joseph Aoun in 2026?",
+        "price_at_signal": 0.5
+      }
+    ],
+    "pm_price_at_signal": 0.0455,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.79,
+    "trump_coin_24h_change": 4.58,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792525525",
+    "created_at": "2026-10-20T19:45:25Z",
+    "post_time": "2026-10-20T19:33:04.522Z",
+    "post_preview": "🚨 NORTH CAROLINA!Early Voting, in-person, is UNDERWAY NOW in the Great State of North Carolina. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0455
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9545
+      },
+      {
+        "token_id": "724968364403936493142083591299",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "509272436689857897915825690329",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "",
+        "question": "Will Trump meet with Joseph Aoun in 2026?",
+        "price_at_signal": 0.5
+      }
+    ],
+    "pm_price_at_signal": 0.0455,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.79,
+    "trump_coin_24h_change": 4.58,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792525525",
+    "created_at": "2026-10-20T19:45:25Z",
+    "post_time": "2026-10-20T19:32:32.717Z",
+    "post_preview": "🚨 MAINE!Early Voting, in-person, is UNDERWAY NOW in the Great State of Maine. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0455
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9545
+      },
+      {
+        "token_id": "724968364403936493142083591299",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "509272436689857897915825690329",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "",
+        "question": "Will Trump meet with Joseph Aoun in 2026?",
+        "price_at_signal": 0.5
+      }
+    ],
+    "pm_price_at_signal": 0.0455,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.79,
+    "trump_coin_24h_change": 4.58,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792525525",
+    "created_at": "2026-10-20T19:45:25Z",
+    "post_time": "2026-10-20T19:31:59.775Z",
+    "post_preview": "🚨 IOWA!Early Voting, in-person, is UNDERWAY NOW in the Great State of Iowa. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know t",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0455
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9545
+      },
+      {
+        "token_id": "724968364403936493142083591299",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "509272436689857897915825690329",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "",
+        "question": "Will Trump meet with Joseph Aoun in 2026?",
+        "price_at_signal": 0.5
+      }
+    ],
+    "pm_price_at_signal": 0.0455,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.79,
+    "trump_coin_24h_change": 4.58,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792529763",
+    "created_at": "2026-10-20T20:56:03Z",
+    "post_time": "2026-10-20T20:49:20.807Z",
+    "post_preview": "Donald Trump signs executive order creating NIH task force as Melania unveils 'new standard for women's health in America': https://nypost.com/2026/10/19/us-news/donald-trump-signs-executive-order-cre",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "executive order"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0455
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9545
+      },
+      {
+        "token_id": "724968364403936493142083591299",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "509272436689857897915825690329",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "",
+        "question": "Will Trump meet with Joseph Aoun in 2026?",
+        "price_at_signal": 0.5
+      }
+    ],
+    "pm_price_at_signal": 0.0455,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.8,
+    "trump_coin_24h_change": 5.64,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,

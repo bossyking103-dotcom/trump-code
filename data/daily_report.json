@@ -1,20 +1,19 @@
 {
-  "date": "2026-10-20",
-  "generated_at": "2026-10-20T11:45:26Z",
-  "posts_today": 35,
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T05:46:00Z",
+  "posts_today": 2,
   "latest_post": {
-    "time": "2026-10-20T05:06",
-    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117471474650381574"
+    "time": "2026-10-21T01:44",
+    "content_preview": "Cook Political Report shifts Minnesota Senate race toward GOP: https://justthenews.com/politics-poli"
   },
   "signals_detected": [
-    "TARIFF",
-    "IRAN",
-    "TARIFF_ONLY"
+    "DEAL",
+    "DEAL_ONLY"
   ],
-  "models_triggered": 23,
+  "models_triggered": 2,
   "direction_summary": {
-    "LONG": 22,
-    "SHORT": 1,
+    "LONG": 2,
+    "SHORT": 0,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -23,31 +22,19 @@
     "rate": 17.3
   },
   "sp500_latest": {
-    "date": "2026-10-16",
-    "close": 7659.44
+    "date": "2026-10-20",
+    "close": 7712.57
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-10-20\nPosts today: 35 | Models triggered: 23\nSignals: TARIFF, IRAN, TARIFF_ONLY\nConsensus: 22 LONG vs 1 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/117471474650381574",
-    "zh": "川普密碼每日報告 -- 2026-10-20\n今日推文: 35 篇 | 觸發模型: 23 組\n偵測信號: 關稅, 伊朗, 只有關稅沒有Deal\n共識方向: 22 組看多 vs 1 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/117471474650381574",
-    "ja": "トランプ・コード日次レポート -- 2026-10-20\n本日の投稿: 35件 | トリガーモデル: 23組\n検出シグナル: 関税, イラン, 関税のみ（Deal無し）\nコンセンサス: 22組ロング vs 1組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/117471474650381574"
+    "en": "Trump Code Daily Report -- 2026-10-21\nPosts today: 2 | Models triggered: 2\nSignals: DEAL, DEAL_ONLY\nConsensus: 2 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: Cook Political Report shifts Minnesota Senate race toward GOP: https://justthenews.com/politics-poli",
+    "zh": "川普密碼每日報告 -- 2026-10-21\n今日推文: 2 篇 | 觸發模型: 2 組\n偵測信號: Deal, 只有Deal沒有關稅\n共識方向: 2 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: Cook Political Report shifts Minnesota Senate race toward GOP: https://justthenews.com/politics-poli",
+    "ja": "トランプ・コード日次レポート -- 2026-10-21\n本日の投稿: 2件 | トリガーモデル: 2組\n検出シグナル: ディール, Dealのみ（関税無し）\nコンセンサス: 2組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: Cook Political Report shifts Minnesota Senate race toward GOP: https://justthenews.com/politics-poli"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_biden",
-        "kw_india",
-        "kw_tariffs"
-      ],
-      "direction": "SHORT",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
+        "kw_deal",
+        "kw_perfect"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -56,197 +43,11 @@
     },
     {
       "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_europe",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_energy",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_signed",
-        "kw_tariffs_2plus",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
+        "kw_deal",
+        "kw_perfect"
       ],
       "direction": "LONG",
       "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_beautiful",
-        "kw_corrupt"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_signed",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_executive_order",
-        "kw_jobs",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_energy",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "kw_energy",
-        "open_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_china",
-        "kw_corrupt",
-        "kw_economy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_signed",
-        "kw_tariff",
-        "volume_falling_3d"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_interest_rate",
-        "kw_signed",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_dow_2plus",
-        "kw_interest_rate",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_tariffs",
-        "open_thank_you_for_your_attention",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
       "train_wr": 100.0,
       "test_wr": 100.0
     }

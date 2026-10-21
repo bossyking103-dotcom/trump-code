@@ -9470,5 +9470,43 @@
       "TARIFF_ONLY"
     ],
     "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-10-20",
+    "posts": 37,
+    "triggered": 23,
+    "long": 22,
+    "short": 1,
+    "signals": [
+      "TARIFF",
+      "IRAN",
+      "TARIFF_ONLY"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-10-20",
+    "posts": 41,
+    "triggered": 28,
+    "long": 27,
+    "short": 1,
+    "signals": [
+      "TARIFF",
+      "IRAN",
+      "TARIFF_ONLY"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-10-21",
+    "posts": 2,
+    "triggered": 2,
+    "long": 2,
+    "short": 0,
+    "signals": [
+      "DEAL",
+      "DEAL_ONLY"
+    ],
+    "consensus": "BULLISH"
   }
 ]
