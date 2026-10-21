@@ -1,19 +1,19 @@
 {
   "date": "2026-10-21",
-  "generated_at": "2026-10-21T05:46:00Z",
-  "posts_today": 2,
+  "generated_at": "2026-10-21T12:11:22Z",
+  "posts_today": 7,
   "latest_post": {
-    "time": "2026-10-21T01:44",
-    "content_preview": "Cook Political Report shifts Minnesota Senate race toward GOP: https://justthenews.com/politics-poli"
+    "time": "2026-10-21T11:11",
+    "content_preview": "I will be heading to South Carolina for a BIG Rally this evening. Darline Graham is GREAT! President"
   },
   "signals_detected": [
     "DEAL",
     "DEAL_ONLY"
   ],
-  "models_triggered": 2,
+  "models_triggered": 3,
   "direction_summary": {
     "LONG": 2,
-    "SHORT": 0,
+    "SHORT": 1,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -26,9 +26,9 @@
     "close": 7712.57
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-10-21\nPosts today: 2 | Models triggered: 2\nSignals: DEAL, DEAL_ONLY\nConsensus: 2 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: Cook Political Report shifts Minnesota Senate race toward GOP: https://justthenews.com/politics-poli",
-    "zh": "川普密碼每日報告 -- 2026-10-21\n今日推文: 2 篇 | 觸發模型: 2 組\n偵測信號: Deal, 只有Deal沒有關稅\n共識方向: 2 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: Cook Political Report shifts Minnesota Senate race toward GOP: https://justthenews.com/politics-poli",
-    "ja": "トランプ・コード日次レポート -- 2026-10-21\n本日の投稿: 2件 | トリガーモデル: 2組\n検出シグナル: ディール, Dealのみ（関税無し）\nコンセンサス: 2組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: Cook Political Report shifts Minnesota Senate race toward GOP: https://justthenews.com/politics-poli"
+    "en": "Trump Code Daily Report -- 2026-10-21\nPosts today: 7 | Models triggered: 3\nSignals: DEAL, DEAL_ONLY\nConsensus: 2 LONG vs 1 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: I will be heading to South Carolina for a BIG Rally this evening. Darline Graham is GREAT! President",
+    "zh": "川普密碼每日報告 -- 2026-10-21\n今日推文: 7 篇 | 觸發模型: 3 組\n偵測信號: Deal, 只有Deal沒有關稅\n共識方向: 2 組看多 vs 1 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: I will be heading to South Carolina for a BIG Rally this evening. Darline Graham is GREAT! President",
+    "ja": "トランプ・コード日次レポート -- 2026-10-21\n本日の投稿: 7件 | トリガーモデル: 3組\n検出シグナル: ディール, Dealのみ（関税無し）\nコンセンサス: 2組ロング vs 1組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: I will be heading to South Carolina for a BIG Rally this evening. Darline Graham is GREAT! President"
   },
   "triggered_rules_sample": [
     {
@@ -47,6 +47,17 @@
         "kw_perfect"
       ],
       "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_biden",
+        "kw_deal",
+        "open_disaster"
+      ],
+      "direction": "SHORT",
       "hold": 3,
       "train_wr": 100.0,
       "test_wr": 100.0
