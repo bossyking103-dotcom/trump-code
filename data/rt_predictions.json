@@ -23994,7 +23994,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792574048",
@@ -24407,6 +24407,81 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.83,
     "trump_coin_24h_change": 8.41,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792636419",
+    "created_at": "2026-10-22T02:33:39Z",
+    "post_time": "2026-10-22T02:29:33.430Z",
+    "post_preview": "American Manufacturing is BOOMING. Jobs are coming HOME. We're breaking ALL Economic Estimates. Now Apple is committing to purchasing 100 MILLION DOLLARS of PENNSYLVANIA Titanium for its NEW iPhone.  ",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "264424580875299034676250081825",
+        "question": "Will Trump say \"Border\" 20+ times during his Midterm Rally in South Carolina?",
+        "price_at_signal": 0.032
+      },
+      {
+        "token_id": "107278167376199295642827684811",
+        "question": "Will Trump say \"Border\" 20+ times during his Midterm Rally in South Carolina?",
+        "price_at_signal": 0.968
+      },
+      {
+        "token_id": "968114901344280165407123193251",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in South Carolina?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "106588205368903643438612070424",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in South Carolina?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "448046924935685840342689739830",
+        "question": "Will Trump say \"Biden\" or \"Kamala\" or \"Obama\" 15+ times during his Midterm Rally in South Carolina?",
+        "price_at_signal": 0.17
+      }
+    ],
+    "pm_price_at_signal": 0.032,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.8,
+    "trump_coin_24h_change": 0.46,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,

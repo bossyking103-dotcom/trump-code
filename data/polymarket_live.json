@@ -1,32 +1,354 @@
 {
-  "timestamp": "2026-10-21T20:41:35Z",
+  "timestamp": "2026-10-22T05:42:17Z",
   "markets": [
+    {
+      "question": "Will Trump say \"Border\" 20+ times during his Midterm Rally in South Carolina?",
+      "token_id": "264424580875299034676250081825",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Border\" 20+ times during his Midterm Rally in South Carolina?",
+      "token_id": "107278167376199295642827684811",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in South Carolina?",
+      "token_id": "968114901344280165407123193251",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in South Carolina?",
+      "token_id": "106588205368903643438612070424",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Biden\" or \"Kamala\" or \"Obama\" 15+ times during his Midterm Rally in South Carolina?",
+      "token_id": "448046924935685840342689739830",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Biden\" or \"Kamala\" or \"Obama\" 15+ times during his Midterm Rally in South Carolina?",
+      "token_id": "910681408590738578420482824533",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Crime\" or \"Criminal\" 12+ times during his Midterm Rally in South Carolina?",
+      "token_id": "325994657974230769968416433113",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Crime\" or \"Criminal\" 12+ times during his Midterm Rally in South Carolina?",
+      "token_id": "898631545232659726376414672114",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Transgender\" 7+ times during his Midterm Rally in South Carolina?",
+      "token_id": "228784185590951619334993021846",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Transgender\" 7+ times during his Midterm Rally in South Carolina?",
+      "token_id": "106960756475032336944866112141",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Iran\" 5+ times during his Midterm Rally in South Carolina?",
+      "token_id": "711638214278397546572594891018",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Iran\" 5+ times during his Midterm Rally in South Carolina?",
+      "token_id": "195998495806385838358080624621",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"SI\" or \"Super Intelligence\" during his Midterm Rally in South Carolina?",
+      "token_id": "361892935012460160653254726403",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"SI\" or \"Super Intelligence\" during his Midterm Rally in South Carolina?",
+      "token_id": "611066290614655465738870760812",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"AI\" or \"Artificial Intelligence\" during his Midterm Rally in South Carolina?",
+      "token_id": "359459424312368296892455673454",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"AI\" or \"Artificial Intelligence\" during his Midterm Rally in South Carolina?",
+      "token_id": "779421651416990342486540267732",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Ass\" during his Midterm Rally in South Carolina?",
+      "token_id": "500794125851542827812223641160",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Ass\" during his Midterm Rally in South Carolina?",
+      "token_id": "209675204678302134527262763384",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Gay\" during his Midterm Rally in South Carolina?",
+      "token_id": "227711048592961441783111860964",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Gay\" during his Midterm Rally in South Carolina?",
+      "token_id": "102029345091824168783273007316",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Star\" during his Midterm Rally in South Carolina?",
+      "token_id": "548542178692184017119940880170",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Star\" during his Midterm Rally in South Carolina?",
+      "token_id": "317419466832865252495339040994",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Milk\" during his Midterm Rally in South Carolina?",
+      "token_id": "353799651513047725117925843790",
+      "outcome": "Yes",
+      "price": 0.135,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Milk\" during his Midterm Rally in South Carolina?",
+      "token_id": "659226332078673061054347600220",
+      "outcome": "No",
+      "price": 0.865,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Aluminum\" or \"Steel\" during his Midterm Rally in South Carolina?",
+      "token_id": "944570277609364034057985893251",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Aluminum\" or \"Steel\" during his Midterm Rally in South Carolina?",
+      "token_id": "168451293872028681692087581256",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Filibuster\" during his Midterm Rally in South Carolina?",
+      "token_id": "101336624706669677987482633262",
+      "outcome": "Yes",
+      "price": 0.145,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Filibuster\" during his Midterm Rally in South Carolina?",
+      "token_id": "401178056621607766764250371817",
+      "outcome": "No",
+      "price": 0.855,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Drill Baby Drill\" during his Midterm Rally in South Carolina? (copy)",
+      "token_id": "918443602685566833098872872824",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Drill Baby Drill\" during his Midterm Rally in South Carolina? (copy)",
+      "token_id": "460544440780485978859007797193",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Data Center\" during his Midterm Rally in South Carolina?",
+      "token_id": "171755978188802527793986396140",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Data Center\" during his Midterm Rally in South Carolina?",
+      "token_id": "962829733877487594122747563846",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Russia\" or \"Ukraine\" during his Midterm Rally in South Carolina?",
+      "token_id": "637214182764909178151593930752",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Russia\" or \"Ukraine\" during his Midterm Rally in South Carolina?",
+      "token_id": "948979136665600510407112068283",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Hormuz\" or \"Blockade\" during his Midterm Rally in South Carolina?",
+      "token_id": "842328134415729277400501816501",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Hormuz\" or \"Blockade\" during his Midterm Rally in South Carolina?",
+      "token_id": "875325005568324066332603331996",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Fentanyl\" or \"Deport\" or \"Deported\" during his Midterm Rally in South Carolina?",
+      "token_id": "219281954731274595316549142840",
+      "outcome": "Yes",
+      "price": 0.1895,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Fentanyl\" or \"Deport\" or \"Deported\" during his Midterm Rally in South Carolina?",
+      "token_id": "568613325038451815726185344558",
+      "outcome": "No",
+      "price": 0.8105,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"America First\" or \"Gulf of America\" during his Midterm Rally in South Carolina?",
+      "token_id": "382660922141365059020269354958",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"America First\" or \"Gulf of America\" during his Midterm Rally in South Carolina?",
+      "token_id": "150377213841195351172476464507",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Bitcoin\" or \"Crypto\" or \"Cryptocurrency\" during his Midterm Rally in South Carolina?",
+      "token_id": "110839112553880657578589235816",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Bitcoin\" or \"Crypto\" or \"Cryptocurrency\" during his Midterm Rally in South Carolina?",
+      "token_id": "127824817522514200459453982947",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump's Midterm Rally in South Carolina not air?",
+      "token_id": "197591315877921760801933127112",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump's Midterm Rally in South Carolina not air?",
+      "token_id": "103786827377506246914485283726",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Tax\" 20+ times during his Midterm Rally in South Carolina?",
+      "token_id": "676882154687784943122046360734",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
+    {
+      "question": "Will Trump say \"Tax\" 20+ times during his Midterm Rally in South Carolina?",
+      "token_id": "903561884017339481133995175342",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
+    },
     {
       "question": "Trump out as President before 2027?",
       "token_id": "592525157356526747471589502100",
       "outcome": "Yes",
-      "price": 0.046,
+      "price": 0.0465,
       "slug": "trump-out-as-president-before-2027"
     },
     {
       "question": "Trump out as President before 2027?",
       "token_id": "284982737259007215138008893023",
       "outcome": "No",
-      "price": 0.954,
+      "price": 0.9535,
       "slug": "trump-out-as-president-before-2027"
     },
     {
       "question": "Will Trump and Putin meet next in Belarus?",
       "token_id": "872705193332186569961205866097",
       "outcome": "Yes",
-      "price": 0.0005,
+      "price": 0.0015,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in Belarus?",
       "token_id": "849479213830178466395993173472",
       "outcome": "No",
-      "price": 0.9995,
+      "price": 0.9985,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
@@ -47,14 +369,14 @@
       "question": "Will Trump and Putin meet next in Finland?",
       "token_id": "316302194249279600197679902071",
       "outcome": "Yes",
-      "price": 0.0005,
+      "price": 0.0015,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in Finland?",
       "token_id": "998635640115668992986582851704",
       "outcome": "No",
-      "price": 0.9995,
+      "price": 0.9985,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
@@ -103,84 +425,84 @@
       "question": "Will Trump and Putin meet next in South Korea?",
       "token_id": "989658940838046797703918126520",
       "outcome": "Yes",
-      "price": 0.0005,
+      "price": 0.001,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in South Korea?",
       "token_id": "543968684385106454211715169903",
       "outcome": "No",
-      "price": 0.9995,
+      "price": 0.999,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in Japan?",
       "token_id": "936343387826651174953220267921",
       "outcome": "Yes",
-      "price": 0.0005,
+      "price": 0.001,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in Japan?",
       "token_id": "267721988933691833612878411011",
       "outcome": "No",
-      "price": 0.9995,
+      "price": 0.999,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in Australia?",
       "token_id": "452049413700980984246434512707",
       "outcome": "Yes",
-      "price": 0.0005,
+      "price": 0.001,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in Australia?",
       "token_id": "631687778922976316171436730606",
       "outcome": "No",
-      "price": 0.9995,
+      "price": 0.999,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in United States?",
       "token_id": "863551799605937124039040975434",
       "outcome": "Yes",
-      "price": 0.003,
+      "price": 0.006,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in United States?",
       "token_id": "218242733979412572187779022148",
       "outcome": "No",
-      "price": 0.997,
+      "price": 0.994,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in another EU country?",
       "token_id": "489818659754557528320177489117",
       "outcome": "Yes",
-      "price": 0.0005,
+      "price": 0.0015,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in another EU country?",
       "token_id": "103507782904269109858990730982",
       "outcome": "No",
-      "price": 0.9995,
+      "price": 0.9985,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in another country?",
       "token_id": "446636821645536683387262938758",
       "outcome": "Yes",
-      "price": 0.0125,
+      "price": 0.006,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in another country?",
       "token_id": "107049776653429614311499802095",
       "outcome": "No",
-      "price": 0.9875,
+      "price": 0.994,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
@@ -201,351 +523,29 @@
       "question": "Will Trump and Putin meet next in China?",
       "token_id": "193891663013888230093535286598",
       "outcome": "Yes",
-      "price": 0.805,
+      "price": 0.81,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in China?",
       "token_id": "178827173406081277486638018452",
       "outcome": "No",
-      "price": 0.195,
+      "price": 0.19,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in Ukraine?",
       "token_id": "639901326529986163193228111919",
       "outcome": "Yes",
-      "price": 0.0005,
+      "price": 0.001,
       "slug": "where-will-trump-and-putin-meet-next-678"
     },
     {
       "question": "Will Trump and Putin meet next in Ukraine?",
       "token_id": "169067904974906045497287617793",
       "outcome": "No",
-      "price": 0.9995,
+      "price": 0.999,
       "slug": "where-will-trump-and-putin-meet-next-678"
-    },
-    {
-      "question": "Will Trump say \"Border\" 20+ times during his Midterm Rally in South Carolina?",
-      "token_id": "264424580875299034676250081825",
-      "outcome": "Yes",
-      "price": 0.57,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Border\" 20+ times during his Midterm Rally in South Carolina?",
-      "token_id": "107278167376199295642827684811",
-      "outcome": "No",
-      "price": 0.43,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in South Carolina?",
-      "token_id": "968114901344280165407123193251",
-      "outcome": "Yes",
-      "price": 0.435,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in South Carolina?",
-      "token_id": "106588205368903643438612070424",
-      "outcome": "No",
-      "price": 0.565,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Biden\" or \"Kamala\" or \"Obama\" 15+ times during his Midterm Rally in South Carolina?",
-      "token_id": "448046924935685840342689739830",
-      "outcome": "Yes",
-      "price": 0.625,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Biden\" or \"Kamala\" or \"Obama\" 15+ times during his Midterm Rally in South Carolina?",
-      "token_id": "910681408590738578420482824533",
-      "outcome": "No",
-      "price": 0.375,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Crime\" or \"Criminal\" 12+ times during his Midterm Rally in South Carolina?",
-      "token_id": "325994657974230769968416433113",
-      "outcome": "Yes",
-      "price": 0.625,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Crime\" or \"Criminal\" 12+ times during his Midterm Rally in South Carolina?",
-      "token_id": "898631545232659726376414672114",
-      "outcome": "No",
-      "price": 0.375,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Transgender\" 7+ times during his Midterm Rally in South Carolina?",
-      "token_id": "228784185590951619334993021846",
-      "outcome": "Yes",
-      "price": 0.445,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Transgender\" 7+ times during his Midterm Rally in South Carolina?",
-      "token_id": "106960756475032336944866112141",
-      "outcome": "No",
-      "price": 0.555,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Iran\" 5+ times during his Midterm Rally in South Carolina?",
-      "token_id": "711638214278397546572594891018",
-      "outcome": "Yes",
-      "price": 0.565,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Iran\" 5+ times during his Midterm Rally in South Carolina?",
-      "token_id": "195998495806385838358080624621",
-      "outcome": "No",
-      "price": 0.435,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"SI\" or \"Super Intelligence\" during his Midterm Rally in South Carolina?",
-      "token_id": "361892935012460160653254726403",
-      "outcome": "Yes",
-      "price": 0.655,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"SI\" or \"Super Intelligence\" during his Midterm Rally in South Carolina?",
-      "token_id": "611066290614655465738870760812",
-      "outcome": "No",
-      "price": 0.345,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"AI\" or \"Artificial Intelligence\" during his Midterm Rally in South Carolina?",
-      "token_id": "359459424312368296892455673454",
-      "outcome": "Yes",
-      "price": 0.26,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"AI\" or \"Artificial Intelligence\" during his Midterm Rally in South Carolina?",
-      "token_id": "779421651416990342486540267732",
-      "outcome": "No",
-      "price": 0.74,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Ass\" during his Midterm Rally in South Carolina?",
-      "token_id": "500794125851542827812223641160",
-      "outcome": "Yes",
-      "price": 0.58,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Ass\" during his Midterm Rally in South Carolina?",
-      "token_id": "209675204678302134527262763384",
-      "outcome": "No",
-      "price": 0.42,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Gay\" during his Midterm Rally in South Carolina?",
-      "token_id": "227711048592961441783111860964",
-      "outcome": "Yes",
-      "price": 0.345,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Gay\" during his Midterm Rally in South Carolina?",
-      "token_id": "102029345091824168783273007316",
-      "outcome": "No",
-      "price": 0.655,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Star\" during his Midterm Rally in South Carolina?",
-      "token_id": "548542178692184017119940880170",
-      "outcome": "Yes",
-      "price": 0.525,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Star\" during his Midterm Rally in South Carolina?",
-      "token_id": "317419466832865252495339040994",
-      "outcome": "No",
-      "price": 0.475,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Milk\" during his Midterm Rally in South Carolina?",
-      "token_id": "353799651513047725117925843790",
-      "outcome": "Yes",
-      "price": 0.195,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Milk\" during his Midterm Rally in South Carolina?",
-      "token_id": "659226332078673061054347600220",
-      "outcome": "No",
-      "price": 0.805,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Aluminum\" or \"Steel\" during his Midterm Rally in South Carolina?",
-      "token_id": "944570277609364034057985893251",
-      "outcome": "Yes",
-      "price": 0.585,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Aluminum\" or \"Steel\" during his Midterm Rally in South Carolina?",
-      "token_id": "168451293872028681692087581256",
-      "outcome": "No",
-      "price": 0.415,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Filibuster\" during his Midterm Rally in South Carolina?",
-      "token_id": "101336624706669677987482633262",
-      "outcome": "Yes",
-      "price": 0.18,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Filibuster\" during his Midterm Rally in South Carolina?",
-      "token_id": "401178056621607766764250371817",
-      "outcome": "No",
-      "price": 0.82,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Drill Baby Drill\" during his Midterm Rally in South Carolina? (copy)",
-      "token_id": "918443602685566833098872872824",
-      "outcome": "Yes",
-      "price": 0.185,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Drill Baby Drill\" during his Midterm Rally in South Carolina? (copy)",
-      "token_id": "460544440780485978859007797193",
-      "outcome": "No",
-      "price": 0.815,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Data Center\" during his Midterm Rally in South Carolina?",
-      "token_id": "171755978188802527793986396140",
-      "outcome": "Yes",
-      "price": 0.195,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Data Center\" during his Midterm Rally in South Carolina?",
-      "token_id": "962829733877487594122747563846",
-      "outcome": "No",
-      "price": 0.805,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Russia\" or \"Ukraine\" during his Midterm Rally in South Carolina?",
-      "token_id": "637214182764909178151593930752",
-      "outcome": "Yes",
-      "price": 0.68,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Russia\" or \"Ukraine\" during his Midterm Rally in South Carolina?",
-      "token_id": "948979136665600510407112068283",
-      "outcome": "No",
-      "price": 0.32,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Hormuz\" or \"Blockade\" during his Midterm Rally in South Carolina?",
-      "token_id": "842328134415729277400501816501",
-      "outcome": "Yes",
-      "price": 0.425,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Hormuz\" or \"Blockade\" during his Midterm Rally in South Carolina?",
-      "token_id": "875325005568324066332603331996",
-      "outcome": "No",
-      "price": 0.575,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Fentanyl\" or \"Deport\" or \"Deported\" during his Midterm Rally in South Carolina?",
-      "token_id": "219281954731274595316549142840",
-      "outcome": "Yes",
-      "price": 0.33,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Fentanyl\" or \"Deport\" or \"Deported\" during his Midterm Rally in South Carolina?",
-      "token_id": "568613325038451815726185344558",
-      "outcome": "No",
-      "price": 0.67,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"America First\" or \"Gulf of America\" during his Midterm Rally in South Carolina?",
-      "token_id": "382660922141365059020269354958",
-      "outcome": "Yes",
-      "price": 0.475,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"America First\" or \"Gulf of America\" during his Midterm Rally in South Carolina?",
-      "token_id": "150377213841195351172476464507",
-      "outcome": "No",
-      "price": 0.525,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Bitcoin\" or \"Crypto\" or \"Cryptocurrency\" during his Midterm Rally in South Carolina?",
-      "token_id": "110839112553880657578589235816",
-      "outcome": "Yes",
-      "price": 0.0695,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Bitcoin\" or \"Crypto\" or \"Cryptocurrency\" during his Midterm Rally in South Carolina?",
-      "token_id": "127824817522514200459453982947",
-      "outcome": "No",
-      "price": 0.9305,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump's Midterm Rally in South Carolina not air?",
-      "token_id": "197591315877921760801933127112",
-      "outcome": "Yes",
-      "price": 0.0065,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump's Midterm Rally in South Carolina not air?",
-      "token_id": "103786827377506246914485283726",
-      "outcome": "No",
-      "price": 0.9935,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Tax\" 20+ times during his Midterm Rally in South Carolina?",
-      "token_id": "676882154687784943122046360734",
-      "outcome": "Yes",
-      "price": 0.87,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
-    },
-    {
-      "question": "Will Trump say \"Tax\" 20+ times during his Midterm Rally in South Carolina?",
-      "token_id": "903561884017339481133995175342",
-      "outcome": "No",
-      "price": 0.13,
-      "slug": "what-will-trump-say-during-his-midterm-rally-in-south-carolina-october-21"
     },
     {
       "question": "Will Donald Trump post 0-19 Truth Social posts from October 16 to October 23, 2026?",
@@ -663,43 +663,57 @@
       "question": "Will Donald Trump post 160-179 Truth Social posts from October 16 to October 23, 2026?",
       "token_id": "681218633878599761890774419091",
       "outcome": "Yes",
-      "price": 0.0145,
+      "price": 0.0,
       "slug": "donald-trump-of-truth-social-posts-october-16-october-23-2026"
     },
     {
       "question": "Will Donald Trump post 160-179 Truth Social posts from October 16 to October 23, 2026?",
       "token_id": "115281050041617597099860587989",
       "outcome": "No",
-      "price": 0.9855,
+      "price": 1.0,
       "slug": "donald-trump-of-truth-social-posts-october-16-october-23-2026"
     },
     {
       "question": "Will Donald Trump post 180-199 Truth Social posts from October 16 to October 23, 2026?",
       "token_id": "129148217739342013949731568698",
       "outcome": "Yes",
-      "price": 0.1885,
+      "price": 0.0615,
       "slug": "donald-trump-of-truth-social-posts-october-16-october-23-2026"
     },
     {
       "question": "Will Donald Trump post 180-199 Truth Social posts from October 16 to October 23, 2026?",
       "token_id": "120222915445541783388356984845",
       "outcome": "No",
-      "price": 0.8115,
+      "price": 0.9385,
       "slug": "donald-trump-of-truth-social-posts-october-16-october-23-2026"
     },
     {
       "question": "Will Donald Trump post 200+ Truth Social posts from October 16 to October 23, 2026?",
       "token_id": "869541989945079864133132638532",
       "outcome": "Yes",
-      "price": 0.805,
+      "price": 0.929,
       "slug": "donald-trump-of-truth-social-posts-october-16-october-23-2026"
     },
     {
       "question": "Will Donald Trump post 200+ Truth Social posts from October 16 to October 23, 2026?",
       "token_id": "154105425243381158564195802929",
       "outcome": "No",
-      "price": 0.195,
+      "price": 0.071,
       "slug": "donald-trump-of-truth-social-posts-october-16-october-23-2026"
+    },
+    {
+      "question": "Will Trump acquire Greenland before 2027?",
+      "token_id": "516162325567819335283998515633",
+      "outcome": "Yes",
+      "price": 0.0235,
+      "slug": "will-trump-acquire-greenland-before-2027"
+    },
+    {
+      "question": "Will Trump acquire Greenland before 2027?",
+      "token_id": "572162725645295484646864636912",
+      "outcome": "No",
+      "price": 0.9765,
+      "slug": "will-trump-acquire-greenland-before-2027"
     },
     {
       "question": "Will Trump speak to Nicolás Maduro by October 31?",
@@ -719,56 +733,56 @@
       "question": "Will Trump speak to Reza Pahlavi by October 31?",
       "token_id": "424958840300578560030260600790",
       "outcome": "Yes",
-      "price": 0.014,
+      "price": 0.012,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Reza Pahlavi by October 31?",
       "token_id": "981959223725378278623343773745",
       "outcome": "No",
-      "price": 0.986,
+      "price": 0.988,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Kim Jong Un by October 31?",
       "token_id": "691423390368079687049846042008",
       "outcome": "Yes",
-      "price": 0.029,
+      "price": 0.028,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Kim Jong Un by October 31?",
       "token_id": "846049964857648106158577724706",
       "outcome": "No",
-      "price": 0.971,
+      "price": 0.972,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Volodymyr Zelenskyy by October 31?",
       "token_id": "120510170866799557345614474853",
       "outcome": "Yes",
-      "price": 0.31,
+      "price": 0.3,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Volodymyr Zelenskyy by October 31?",
       "token_id": "414739953172852963190072675599",
       "outcome": "No",
-      "price": 0.69,
+      "price": 0.7,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Xi Jinping by October 31?",
       "token_id": "423067054623302820826978045126",
       "outcome": "Yes",
-      "price": 0.07,
+      "price": 0.075,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Xi Jinping by October 31?",
       "token_id": "103967626148310179809439127194",
       "outcome": "No",
-      "price": 0.93,
+      "price": 0.925,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
@@ -817,14 +831,14 @@
       "question": "Will Trump speak to Maria Corina Machado by October 31?",
       "token_id": "105741849091087158353738559484",
       "outcome": "Yes",
-      "price": 0.033,
+      "price": 0.029,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Maria Corina Machado by October 31?",
       "token_id": "410111775518329843153219710901",
       "outcome": "No",
-      "price": 0.967,
+      "price": 0.971,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
@@ -845,42 +859,42 @@
       "question": "Will Trump speak to Ursula von der Leyen by October 31?",
       "token_id": "891760388836644838961995917098",
       "outcome": "Yes",
-      "price": 0.9775,
+      "price": 1.0,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Ursula von der Leyen by October 31?",
       "token_id": "211172573878382827302318845795",
       "outcome": "No",
-      "price": 0.0225,
+      "price": 0.0,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Ahmed al-Sharaa by October 31?",
       "token_id": "108032194753698706767193557934",
       "outcome": "Yes",
-      "price": 0.505,
+      "price": 0.5,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Ahmed al-Sharaa by October 31?",
       "token_id": "868920889808288749156880899243",
       "outcome": "No",
-      "price": 0.495,
+      "price": 0.5,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Mark Rutte by October 31?",
       "token_id": "714732139630308342377716067216",
       "outcome": "Yes",
-      "price": 0.34,
+      "price": 0.285,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Mark Rutte by October 31?",
       "token_id": "663449206718294519295612938452",
       "outcome": "No",
-      "price": 0.66,
+      "price": 0.715,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
@@ -929,14 +943,14 @@
       "question": "Will Trump speak to Luiz Inácio Lula da Silva by October 31?",
       "token_id": "114287148530014117730087120398",
       "outcome": "Yes",
-      "price": 0.19,
+      "price": 0.175,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Luiz Inácio Lula da Silva by October 31?",
       "token_id": "692183471770284412152974101601",
       "outcome": "No",
-      "price": 0.81,
+      "price": 0.825,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
@@ -957,14 +971,14 @@
       "question": "Will Trump speak to Pope Leo XIV by October 31?",
       "token_id": "113100024964157533235233714012",
       "outcome": "Yes",
-      "price": 0.101,
+      "price": 0.158,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Pope Leo XIV by October 31?",
       "token_id": "915124210296220354360149047943",
       "outcome": "No",
-      "price": 0.899,
+      "price": 0.842,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
@@ -999,85 +1013,15 @@
       "question": "Will Trump speak to Andy Burnham by October 31?",
       "token_id": "861725184781522273288715632453",
       "outcome": "Yes",
-      "price": 0.35,
+      "price": 0.375,
       "slug": "who-will-trump-speak-to-by-october-31"
     },
     {
       "question": "Will Trump speak to Andy Burnham by October 31?",
       "token_id": "296311271914423442490705503072",
       "outcome": "No",
-      "price": 0.65,
+      "price": 0.625,
       "slug": "who-will-trump-speak-to-by-october-31"
-    },
-    {
-      "question": "Trump meets with Putin by June 30?",
-      "token_id": "728078657688237150343518456061",
-      "outcome": "Yes",
-      "price": 0.0,
-      "slug": "trump-meets-with-putin-by"
-    },
-    {
-      "question": "Trump meets with Putin by June 30?",
-      "token_id": "251045162474735131973128915361",
-      "outcome": "No",
-      "price": 1.0,
-      "slug": "trump-meets-with-putin-by"
-    },
-    {
-      "question": "Trump meets with Putin by September 30?",
-      "token_id": "517177113617546274991721197900",
-      "outcome": "Yes",
-      "price": 0.0,
-      "slug": "trump-meets-with-putin-by"
-    },
-    {
-      "question": "Trump meets with Putin by September 30?",
-      "token_id": "591067437612521219520933527276",
-      "outcome": "No",
-      "price": 1.0,
-      "slug": "trump-meets-with-putin-by"
-    },
-    {
-      "question": "Trump meets with Putin by December 31?",
-      "token_id": "554388845534792891502929908407",
-      "outcome": "Yes",
-      "price": 0.84,
-      "slug": "trump-meets-with-putin-by"
-    },
-    {
-      "question": "Trump meets with Putin by December 31?",
-      "token_id": "177640006193478513135212870243",
-      "outcome": "No",
-      "price": 0.16,
-      "slug": "trump-meets-with-putin-by"
-    },
-    {
-      "question": "Trump meets with Putin by November 30?",
-      "token_id": "828271601522543550292146754707",
-      "outcome": "Yes",
-      "price": 0.82,
-      "slug": "trump-meets-with-putin-by"
-    },
-    {
-      "question": "Trump meets with Putin by November 30?",
-      "token_id": "857206312432937891322929453927",
-      "outcome": "No",
-      "price": 0.18,
-      "slug": "trump-meets-with-putin-by"
-    },
-    {
-      "question": "Trump meets with Putin by October 31?",
-      "token_id": "284301165319768219404634584931",
-      "outcome": "Yes",
-      "price": 0.0075,
-      "slug": "trump-meets-with-putin-by"
-    },
-    {
-      "question": "Trump meets with Putin by October 31?",
-      "token_id": "984585858714780570404012082714",
-      "outcome": "No",
-      "price": 0.9925,
-      "slug": "trump-meets-with-putin-by"
     },
     {
       "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
@@ -1139,14 +1083,14 @@
       "question": "Will Trump meet with Kim Jong Un in 2026?",
       "token_id": "194980863348371176623134256279",
       "outcome": "Yes",
-      "price": 0.14,
+      "price": 0.155,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Kim Jong Un in 2026?",
       "token_id": "339483832151366444325333712388",
       "outcome": "No",
-      "price": 0.86,
+      "price": 0.845,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
@@ -1181,14 +1125,14 @@
       "question": "Will Trump meet with Mohammed bin Salman in 2026?",
       "token_id": "541746549799976699406370642909",
       "outcome": "Yes",
-      "price": 0.63,
+      "price": 0.615,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Mohammed bin Salman in 2026?",
       "token_id": "892840457117582095498015834935",
       "outcome": "No",
-      "price": 0.37,
+      "price": 0.385,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
@@ -1223,14 +1167,14 @@
       "question": "Will Trump meet with Lai Ching-te in 2026?",
       "token_id": "997926675428100321983482752197",
       "outcome": "Yes",
-      "price": 0.0385,
+      "price": 0.038,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Lai Ching-te in 2026?",
       "token_id": "766396539985925293979051857680",
       "outcome": "No",
-      "price": 0.9615,
+      "price": 0.962,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
@@ -1293,14 +1237,14 @@
       "question": "Will Trump meet with Yoon Suk Yeol in 2026?",
       "token_id": "754160606694683556785297409970",
       "outcome": "Yes",
-      "price": 0.026,
+      "price": 0.0265,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Yoon Suk Yeol in 2026?",
       "token_id": "627983585581430324156443907771",
       "outcome": "No",
-      "price": 0.974,
+      "price": 0.9735,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
@@ -1321,14 +1265,14 @@
       "question": "Will Trump meet with iShowSpeed in 2026?",
       "token_id": "224196070296603033596257572926",
       "outcome": "Yes",
-      "price": 0.0345,
+      "price": 0.03,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with iShowSpeed in 2026?",
       "token_id": "507136547594786188764032506165",
       "outcome": "No",
-      "price": 0.9655,
+      "price": 0.97,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
@@ -1377,70 +1321,70 @@
       "question": "Will Trump meet with Pope Leo XIV in 2026?",
       "token_id": "650104870409364665972671854124",
       "outcome": "Yes",
-      "price": 0.0425,
+      "price": 0.04,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Pope Leo XIV in 2026?",
       "token_id": "679440340667874556701809820832",
       "outcome": "No",
-      "price": 0.9575,
+      "price": 0.96,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Aleksandr Lukashenko in 2026?",
       "token_id": "363787450331711952096135567420",
       "outcome": "Yes",
-      "price": 0.105,
+      "price": 0.075,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Aleksandr Lukashenko in 2026?",
       "token_id": "844222127043370965099516307556",
       "outcome": "No",
-      "price": 0.895,
+      "price": 0.925,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Changpeng Zhao in 2026?",
       "token_id": "909972076241685242198632868798",
       "outcome": "Yes",
-      "price": 0.105,
+      "price": 0.065,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Changpeng Zhao in 2026?",
       "token_id": "573275267669961589747524273269",
       "outcome": "No",
-      "price": 0.895,
+      "price": 0.935,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Nicolás Maduro in 2026?",
       "token_id": "737827962756176156373171178809",
       "outcome": "Yes",
-      "price": 0.0235,
+      "price": 0.023,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Nicolás Maduro in 2026?",
       "token_id": "644597751246251756684430360989",
       "outcome": "No",
-      "price": 0.9765,
+      "price": 0.977,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Nick Fuentes in 2026?",
       "token_id": "836822944752836082047660877896",
       "outcome": "Yes",
-      "price": 0.0375,
+      "price": 0.0355,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
       "question": "Will Trump meet with Nick Fuentes in 2026?",
       "token_id": "314350046643988675643519431952",
       "outcome": "No",
-      "price": 0.9625,
+      "price": 0.9645,
       "slug": "who-will-trump-meet-with-in-2026"
     },
     {
@@ -1456,6 +1400,356 @@
       "outcome": "No",
       "price": 0.0,
       "slug": "who-will-trump-meet-with-in-2026"
+    },
+    {
+      "question": "Trump meets with Putin by June 30?",
+      "token_id": "728078657688237150343518456061",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "trump-meets-with-putin-by"
+    },
+    {
+      "question": "Trump meets with Putin by June 30?",
+      "token_id": "251045162474735131973128915361",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "trump-meets-with-putin-by"
+    },
+    {
+      "question": "Trump meets with Putin by September 30?",
+      "token_id": "517177113617546274991721197900",
+      "outcome": "Yes",
+      "price": 0.0,
+      "slug": "trump-meets-with-putin-by"
+    },
+    {
+      "question": "Trump meets with Putin by September 30?",
+      "token_id": "591067437612521219520933527276",
+      "outcome": "No",
+      "price": 1.0,
+      "slug": "trump-meets-with-putin-by"
+    },
+    {
+      "question": "Trump meets with Putin by December 31?",
+      "token_id": "554388845534792891502929908407",
+      "outcome": "Yes",
+      "price": 0.84,
+      "slug": "trump-meets-with-putin-by"
+    },
+    {
+      "question": "Trump meets with Putin by December 31?",
+      "token_id": "177640006193478513135212870243",
+      "outcome": "No",
+      "price": 0.16,
+      "slug": "trump-meets-with-putin-by"
+    },
+    {
+      "question": "Trump meets with Putin by November 30?",
+      "token_id": "828271601522543550292146754707",
+      "outcome": "Yes",
+      "price": 0.81,
+      "slug": "trump-meets-with-putin-by"
+    },
+    {
+      "question": "Trump meets with Putin by November 30?",
+      "token_id": "857206312432937891322929453927",
+      "outcome": "No",
+      "price": 0.19,
+      "slug": "trump-meets-with-putin-by"
+    },
+    {
+      "question": "Trump meets with Putin by October 31?",
+      "token_id": "284301165319768219404634584931",
+      "outcome": "Yes",
+      "price": 0.0075,
+      "slug": "trump-meets-with-putin-by"
+    },
+    {
+      "question": "Trump meets with Putin by October 31?",
+      "token_id": "984585858714780570404012082714",
+      "outcome": "No",
+      "price": 0.9925,
+      "slug": "trump-meets-with-putin-by"
+    },
+    {
+      "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+      "token_id": "276005868059094327601003722562",
+      "outcome": "Yes",
+      "price": 0.39,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+      "token_id": "811873963546612769804659558284",
+      "outcome": "No",
+      "price": 0.61,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+      "token_id": "217424576557537536482320946575",
+      "outcome": "Yes",
+      "price": 0.48,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+      "token_id": "689745644140351815122595022558",
+      "outcome": "No",
+      "price": 0.52,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Biden\" or \"Kamala\" or \"Obama\" 15+ times during his Midterm Rally in Iowa?",
+      "token_id": "842193786404454016593360042475",
+      "outcome": "Yes",
+      "price": 0.425,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Biden\" or \"Kamala\" or \"Obama\" 15+ times during his Midterm Rally in Iowa?",
+      "token_id": "137573989762837250813245471340",
+      "outcome": "No",
+      "price": 0.575,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Transgender\" 7+ times during his Midterm Rally in Iowa?",
+      "token_id": "614803482038641273959286415030",
+      "outcome": "Yes",
+      "price": 0.515,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Transgender\" 7+ times during his Midterm Rally in Iowa?",
+      "token_id": "425668795010307279654100878855",
+      "outcome": "No",
+      "price": 0.485,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"SI\" or \"Super Intelligence\" during his Midterm Rally in Iowa?",
+      "token_id": "886537825339235765200440912340",
+      "outcome": "Yes",
+      "price": 0.625,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"SI\" or \"Super Intelligence\" during his Midterm Rally in Iowa?",
+      "token_id": "509242846064427313845819316312",
+      "outcome": "No",
+      "price": 0.375,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"AI\" or \"Artificial Intelligence\" during his Midterm Rally in Iowa?",
+      "token_id": "937729165170603557529373017086",
+      "outcome": "Yes",
+      "price": 0.35,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"AI\" or \"Artificial Intelligence\" during his Midterm Rally in Iowa?",
+      "token_id": "367636666441888832537961877080",
+      "outcome": "No",
+      "price": 0.65,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"France\" or \"Paris\" during his Midterm Rally in Iowa?",
+      "token_id": "216936155351197945665672029962",
+      "outcome": "Yes",
+      "price": 0.89,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"France\" or \"Paris\" during his Midterm Rally in Iowa?",
+      "token_id": "419514759842518923296673338930",
+      "outcome": "No",
+      "price": 0.11,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Ass\" during his Midterm Rally in Iowa?",
+      "token_id": "876165116692408624294359574540",
+      "outcome": "Yes",
+      "price": 0.53,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Ass\" during his Midterm Rally in Iowa?",
+      "token_id": "708483396634269125686228698916",
+      "outcome": "No",
+      "price": 0.47,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Right to Repair\" or \"Right to Fix\" during his Midterm Rally in Iowa?",
+      "token_id": "805390935611414279514867567997",
+      "outcome": "Yes",
+      "price": 0.18,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Right to Repair\" or \"Right to Fix\" during his Midterm Rally in Iowa?",
+      "token_id": "108521584905235555836142623814",
+      "outcome": "No",
+      "price": 0.82,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Google\" during his Midterm Rally in Iowa?",
+      "token_id": "641321560834466431436389693861",
+      "outcome": "Yes",
+      "price": 0.53,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Google\" during his Midterm Rally in Iowa?",
+      "token_id": "699842422304343519762732438549",
+      "outcome": "No",
+      "price": 0.47,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Meat\" or \"Steak\" during his Midterm Rally in Iowa?",
+      "token_id": "857085271818697869883936652220",
+      "outcome": "Yes",
+      "price": 0.635,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Meat\" or \"Steak\" during his Midterm Rally in Iowa?",
+      "token_id": "201422618362072618859904081684",
+      "outcome": "No",
+      "price": 0.365,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Filibuster\" during his Midterm Rally in Iowa?",
+      "token_id": "485110225749557242933488736681",
+      "outcome": "Yes",
+      "price": 0.32,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Filibuster\" during his Midterm Rally in Iowa?",
+      "token_id": "440939958438428674617990742370",
+      "outcome": "No",
+      "price": 0.68,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Veteran\" during his Midterm Rally in Iowa?",
+      "token_id": "726369395889649145359994562558",
+      "outcome": "Yes",
+      "price": 0.49,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Veteran\" during his Midterm Rally in Iowa?",
+      "token_id": "105970423727927106053242821045",
+      "outcome": "No",
+      "price": 0.51,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Data Center\" during his Midterm Rally in Iowa?",
+      "token_id": "104735023787770328143038294687",
+      "outcome": "Yes",
+      "price": 0.385,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Data Center\" during his Midterm Rally in Iowa?",
+      "token_id": "108000219232288809965515615079",
+      "outcome": "No",
+      "price": 0.615,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Russia\" or \"Ukraine\" during his Midterm Rally in Iowa?",
+      "token_id": "549107911870553388806540780567",
+      "outcome": "Yes",
+      "price": 0.675,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Russia\" or \"Ukraine\" during his Midterm Rally in Iowa?",
+      "token_id": "907467400018692827293290503737",
+      "outcome": "No",
+      "price": 0.325,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Hormuz\" or \"Blockade\" during his Midterm Rally in Iowa?",
+      "token_id": "844148350958307766746070354373",
+      "outcome": "Yes",
+      "price": 0.59,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Hormuz\" or \"Blockade\" during his Midterm Rally in Iowa?",
+      "token_id": "781733737991966295784807649897",
+      "outcome": "No",
+      "price": 0.41,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Fentanyl\" or \"Deport\" or \"Deported\" during his Midterm Rally in Iowa?",
+      "token_id": "353570827027824022361104038217",
+      "outcome": "Yes",
+      "price": 0.225,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Fentanyl\" or \"Deport\" or \"Deported\" during his Midterm Rally in Iowa?",
+      "token_id": "921730633453477756793483654940",
+      "outcome": "No",
+      "price": 0.775,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Bitcoin\" or \"Crypto\" or \"Cryptocurrency\" during his Midterm Rally in Iowa?",
+      "token_id": "292014571758835595215666488261",
+      "outcome": "Yes",
+      "price": 0.031,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump say \"Bitcoin\" or \"Crypto\" or \"Cryptocurrency\" during his Midterm Rally in Iowa?",
+      "token_id": "106436857837579812812868575525",
+      "outcome": "No",
+      "price": 0.969,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump's Midterm Rally in Iowa not air?",
+      "token_id": "390641532204039738514461287014",
+      "outcome": "Yes",
+      "price": 0.063,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Will Trump's Midterm Rally in Iowa not air?",
+      "token_id": "437962251649904199538331565465",
+      "outcome": "No",
+      "price": 0.937,
+      "slug": "what-will-trump-say-during-his-midterm-rally-in-iowa-october-22"
+    },
+    {
+      "question": "Trump, Putin, and Xi seen together before 2027?",
+      "token_id": "500730031297997511825129558710",
+      "outcome": "Yes",
+      "price": 0.865,
+      "slug": "trump-putin-and-xi-seen-together-before-2027"
+    },
+    {
+      "question": "Trump, Putin, and Xi seen together before 2027?",
+      "token_id": "794406767835981332670590305388",
+      "outcome": "No",
+      "price": 0.135,
+      "slug": "trump-putin-and-xi-seen-together-before-2027"
     },
     {
       "question": "Will Donald Trump post 0-19 Truth Social posts from October 20 to October 27, 2026?",
@@ -1475,14 +1769,14 @@
       "question": "Will Donald Trump post 20-39 Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "170198601464183720279717492473",
       "outcome": "Yes",
-      "price": 0.0005,
+      "price": 0.0,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
     },
     {
       "question": "Will Donald Trump post 20-39 Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "942923776381415674227818347572",
       "outcome": "No",
-      "price": 0.9995,
+      "price": 1.0,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
     },
     {
@@ -1503,14 +1797,14 @@
       "question": "Will Donald Trump post 60-79 Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "368985526246993982312294968168",
       "outcome": "Yes",
-      "price": 0.0105,
+      "price": 0.0055,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
     },
     {
       "question": "Will Donald Trump post 60-79 Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "996199276834812635016873914193",
       "outcome": "No",
-      "price": 0.9895,
+      "price": 0.9945,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
     },
     {
@@ -1531,28 +1825,28 @@
       "question": "Will Donald Trump post 100-119 Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "612807800988410888871282363616",
       "outcome": "Yes",
-      "price": 0.005,
+      "price": 0.0055,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
     },
     {
       "question": "Will Donald Trump post 100-119 Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "920192396030785453518760078575",
       "outcome": "No",
-      "price": 0.995,
+      "price": 0.9945,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
     },
     {
       "question": "Will Donald Trump post 120-139 Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "959942231410323431651736170584",
       "outcome": "Yes",
-      "price": 0.085,
+      "price": 0.0795,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
     },
     {
       "question": "Will Donald Trump post 120-139 Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "153477830664155171441218523685",
       "outcome": "No",
-      "price": 0.915,
+      "price": 0.9205,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
     },
     {
@@ -1573,43 +1867,617 @@
       "question": "Will Donald Trump post 160-179 Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "385857301926266538535521606146",
       "outcome": "Yes",
-      "price": 0.215,
+      "price": 0.18,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
     },
     {
       "question": "Will Donald Trump post 160-179 Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "770215463004457252088205475804",
       "outcome": "No",
-      "price": 0.785,
+      "price": 0.82,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
     },
     {
       "question": "Will Donald Trump post 180-199 Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "106430143584357430946124548749",
       "outcome": "Yes",
-      "price": 0.225,
+      "price": 0.175,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
     },
     {
       "question": "Will Donald Trump post 180-199 Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "100410147642859931461604170114",
       "outcome": "No",
-      "price": 0.775,
+      "price": 0.825,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
     },
     {
       "question": "Will Donald Trump post 200+ Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "266328632087151719637958690991",
       "outcome": "Yes",
-      "price": 0.36,
+      "price": 0.3,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
     },
     {
       "question": "Will Donald Trump post 200+ Truth Social posts from October 20 to October 27, 2026?",
       "token_id": "214006851501428556600285471952",
       "outcome": "No",
-      "price": 0.64,
+      "price": 0.7,
       "slug": "donald-trump-of-truth-social-posts-october-20-october-27-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Tucker Carlson by October 31, 2026?",
+      "token_id": "114991295177775221130562594049",
+      "outcome": "Yes",
+      "price": 0.63,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Tucker Carlson by October 31, 2026?",
+      "token_id": "934242362456264964130854029689",
+      "outcome": "No",
+      "price": 0.37,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Candace Owens by October 31, 2026?",
+      "token_id": "113683315872219038622898701564",
+      "outcome": "Yes",
+      "price": 0.14,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Candace Owens by October 31, 2026?",
+      "token_id": "197856670761971499065022757746",
+      "outcome": "No",
+      "price": 0.86,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Pope Leo XIV by October 31, 2026?",
+      "token_id": "630629414614991830989909851976",
+      "outcome": "Yes",
+      "price": 0.03,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Pope Leo XIV by October 31, 2026?",
+      "token_id": "504079257268458025451805546235",
+      "outcome": "No",
+      "price": 0.97,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Vladimir Putin by October 31, 2026?",
+      "token_id": "500542217616396808314799972636",
+      "outcome": "Yes",
+      "price": 0.0295,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Vladimir Putin by October 31, 2026?",
+      "token_id": "105483730549897429945406237948",
+      "outcome": "No",
+      "price": 0.9705,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Joe Biden by October 31, 2026?",
+      "token_id": "112637614924661464566656337159",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Joe Biden by October 31, 2026?",
+      "token_id": "909735892027539690914076717394",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Barack Obama by October 31, 2026?",
+      "token_id": "703556930665339708162968345588",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Barack Obama by October 31, 2026?",
+      "token_id": "355874243847173952380425946095",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Marjorie Taylor Greene by October 31, 2026?",
+      "token_id": "254765617296073807000264570302",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Marjorie Taylor Greene by October 31, 2026?",
+      "token_id": "879607294179030476950912478626",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Benjamin Netanyahu by October 31, 2026?",
+      "token_id": "879606246136921923055716216273",
+      "outcome": "Yes",
+      "price": 0.065,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Benjamin Netanyahu by October 31, 2026?",
+      "token_id": "852801560866461903696992035330",
+      "outcome": "No",
+      "price": 0.935,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult J.D. Vance by October 31, 2026?",
+      "token_id": "703621960147478281790780400797",
+      "outcome": "Yes",
+      "price": 0.027,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult J.D. Vance by October 31, 2026?",
+      "token_id": "149993316557924177589832074977",
+      "outcome": "No",
+      "price": 0.973,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Xi Jinping by October 31, 2026?",
+      "token_id": "841733135794004397824129849105",
+      "outcome": "Yes",
+      "price": 0.0215,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Xi Jinping by October 31, 2026?",
+      "token_id": "428428499964776933236035201507",
+      "outcome": "No",
+      "price": 0.9785,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Andy Burnham by October 31, 2026?",
+      "token_id": "103982760306845279345909412309",
+      "outcome": "Yes",
+      "price": 0.045,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Andy Burnham by October 31, 2026?",
+      "token_id": "503087859691655240270544842996",
+      "outcome": "No",
+      "price": 0.955,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Elon Musk by October 31, 2026?",
+      "token_id": "977571549659461560731706223607",
+      "outcome": "Yes",
+      "price": 0.0195,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Elon Musk by October 31, 2026?",
+      "token_id": "447846278575650733898806562461",
+      "outcome": "No",
+      "price": 0.9805,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Jerome Powell by October 31, 2026?",
+      "token_id": "108176494659203496669689410284",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Jerome Powell by October 31, 2026?",
+      "token_id": "904061923612696979070136439466",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Nicolás Maduro by October 31, 2026?",
+      "token_id": "533134757993114728517183093482",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Nicolás Maduro by October 31, 2026?",
+      "token_id": "441593423039972325844472625283",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Zohran Mamdani by October 31, 2026?",
+      "token_id": "319585682033870026117187372255",
+      "outcome": "Yes",
+      "price": 0.115,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Zohran Mamdani by October 31, 2026?",
+      "token_id": "107768669076594148516787783420",
+      "outcome": "No",
+      "price": 0.885,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Jimmy Kimmel by October 31, 2026?",
+      "token_id": "939034297735413413480348522417",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Jimmy Kimmel by October 31, 2026?",
+      "token_id": "113532045919989197201729620229",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Emmanuel Macron by October 31, 2026?",
+      "token_id": "656744498548710413902934582996",
+      "outcome": "Yes",
+      "price": 0.21,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Emmanuel Macron by October 31, 2026?",
+      "token_id": "110381189998416071162727210999",
+      "outcome": "No",
+      "price": 0.79,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Friedrich Merz by October 31, 2026?",
+      "token_id": "114230572357221273526727572853",
+      "outcome": "Yes",
+      "price": 0.105,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Friedrich Merz by October 31, 2026?",
+      "token_id": "146070579525662139380337054003",
+      "outcome": "No",
+      "price": 0.895,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Kaitlan Collins by October 31, 2026?",
+      "token_id": "378259907910280003872288237816",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Kaitlan Collins by October 31, 2026?",
+      "token_id": "140485340517876352845288237562",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Kevin Warsh by October 31, 2026?",
+      "token_id": "109781407726288538149585064797",
+      "outcome": "Yes",
+      "price": 0.035,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Kevin Warsh by October 31, 2026?",
+      "token_id": "104477502383128403727089044838",
+      "outcome": "No",
+      "price": 0.965,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult James Talarico by October 31, 2026?",
+      "token_id": "718221177990633716646762804734",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult James Talarico by October 31, 2026?",
+      "token_id": "582645005220757447034341742683",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Stephen Colbert by October 31, 2026?",
+      "token_id": "567058954228224259701398319415",
+      "outcome": "Yes",
+      "price": 0.2,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Stephen Colbert by October 31, 2026?",
+      "token_id": "623919766342775300712910296290",
+      "outcome": "No",
+      "price": 0.8,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Abdul El-Sayed by October 31, 2026?",
+      "token_id": "110396865821302171329710198340",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Abdul El-Sayed by October 31, 2026?",
+      "token_id": "584908341516245582594908495661",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Kathy Hochul by October 31, 2026?",
+      "token_id": "108216883189933688944997989226",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Kathy Hochul by October 31, 2026?",
+      "token_id": "451812897464798519340436406608",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Ilhan Omar by October 31, 2026?",
+      "token_id": "326979667420523111801056176742",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Ilhan Omar by October 31, 2026?",
+      "token_id": "159901493743746930988909164383",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Letitia James by October 31, 2026?",
+      "token_id": "302802891249432158168888525519",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Letitia James by October 31, 2026?",
+      "token_id": "847212039063757582454586210933",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult J.B. Pritzker by October 31, 2026?",
+      "token_id": "702739790980859391555032058635",
+      "outcome": "Yes",
+      "price": 0.695,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult J.B. Pritzker by October 31, 2026?",
+      "token_id": "561225288745958930960434790423",
+      "outcome": "No",
+      "price": 0.305,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Jon Ossoff by October 31, 2026?",
+      "token_id": "113132988922935026923487181042",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Jon Ossoff by October 31, 2026?",
+      "token_id": "756710429666766778250478645984",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Mark Carney by October 31, 2026?",
+      "token_id": "929705440177952645946585282134",
+      "outcome": "Yes",
+      "price": 0.44,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Mark Carney by October 31, 2026?",
+      "token_id": "701520396821227332709923565016",
+      "outcome": "No",
+      "price": 0.56,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Hillary Clinton by October 31, 2026?",
+      "token_id": "102893194983074692770480698125",
+      "outcome": "Yes",
+      "price": 0.34,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Hillary Clinton by October 31, 2026?",
+      "token_id": "554706689933608598616699903391",
+      "outcome": "No",
+      "price": 0.66,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Elizabeth Warren by October 31, 2026?",
+      "token_id": "857575904317780866918714188497",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Elizabeth Warren by October 31, 2026?",
+      "token_id": "239869984620162376658929526729",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Gavin Newsom by October 31, 2026?",
+      "token_id": "918888203883323481935426254097",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Gavin Newsom by October 31, 2026?",
+      "token_id": "304057840539285354065262111416",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Thomas Massie by October 31, 2026?",
+      "token_id": "654098784794300667430786007603",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Thomas Massie by October 31, 2026?",
+      "token_id": "502050269845543537436076219243",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Kamala Harris by October 31, 2026?",
+      "token_id": "102321563480123158794809002307",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Kamala Harris by October 31, 2026?",
+      "token_id": "101352724812202225210344451996",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Hakeem Jeffries by October 31, 2026?",
+      "token_id": "338493675710664016582733291509",
+      "outcome": "Yes",
+      "price": 0.76,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Hakeem Jeffries by October 31, 2026?",
+      "token_id": "687935047095058724558043622275",
+      "outcome": "No",
+      "price": 0.24,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Masoud Pezeshkian by October 31, 2026?",
+      "token_id": "439857298743684651389737873173",
+      "outcome": "Yes",
+      "price": 0.03,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Masoud Pezeshkian by October 31, 2026?",
+      "token_id": "104807857376272731661646865544",
+      "outcome": "No",
+      "price": 0.97,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Mike Rogers by October 31, 2026?",
+      "token_id": "578810667269948049344317750275",
+      "outcome": "Yes",
+      "price": 0.085,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Mike Rogers by October 31, 2026?",
+      "token_id": "296065753791267276109698549757",
+      "outcome": "No",
+      "price": 0.915,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Ken Paxton by October 31, 2026?",
+      "token_id": "356539444363289509291929770581",
+      "outcome": "Yes",
+      "price": 0.095,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Ken Paxton by October 31, 2026?",
+      "token_id": "457717679851472986580539179608",
+      "outcome": "No",
+      "price": 0.905,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Chuck Schumer by October 31, 2026?",
+      "token_id": "182934052520390369422516992326",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Chuck Schumer by October 31, 2026?",
+      "token_id": "709450252031516420410027314303",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Dario Amodei by October 31, 2026?",
+      "token_id": "196217321912585550738669185685",
+      "outcome": "Yes",
+      "price": 0.11,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Dario Amodei by October 31, 2026?",
+      "token_id": "518914854855092619536909180158",
+      "outcome": "No",
+      "price": 0.89,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Hasan Piker by October 31, 2026?",
+      "token_id": "990646783843772216904999303491",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly insult Hasan Piker by October 31, 2026?",
+      "token_id": "182362925151410410779417787761",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-insult-by-october-31-2026"
     },
     {
       "question": "Will Donald Trump post 0-19 Truth Social posts from October 23 to October 30, 2026?",
@@ -1657,42 +2525,42 @@
       "question": "Will Donald Trump post 60-79 Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "426460323230263147383113366183",
       "outcome": "Yes",
-      "price": 0.0055,
+      "price": 0.005,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
       "question": "Will Donald Trump post 60-79 Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "106427143117959338109482606329",
       "outcome": "No",
-      "price": 0.9945,
+      "price": 0.995,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
       "question": "Will Donald Trump post 80-99 Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "564903604588501981156081463184",
       "outcome": "Yes",
-      "price": 0.0415,
+      "price": 0.046,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
       "question": "Will Donald Trump post 80-99 Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "825886036660209107969443598033",
       "outcome": "No",
-      "price": 0.9585,
+      "price": 0.954,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
       "question": "Will Donald Trump post 100-119 Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "307502097936725260955183076674",
       "outcome": "Yes",
-      "price": 0.07,
+      "price": 0.09,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
       "question": "Will Donald Trump post 100-119 Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "705472903665805380149404859314",
       "outcome": "No",
-      "price": 0.93,
+      "price": 0.91,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
@@ -1713,490 +2581,434 @@
       "question": "Will Donald Trump post 140-159 Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "359157989960997001130426369496",
       "outcome": "Yes",
-      "price": 0.135,
+      "price": 0.13,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
       "question": "Will Donald Trump post 140-159 Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "102496267475702093510800825674",
       "outcome": "No",
-      "price": 0.865,
+      "price": 0.87,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
       "question": "Will Donald Trump post 160-179 Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "456828692441732002313573565487",
       "outcome": "Yes",
-      "price": 0.185,
+      "price": 0.165,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
       "question": "Will Donald Trump post 160-179 Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "985485722598265149759650902465",
       "outcome": "No",
-      "price": 0.815,
+      "price": 0.835,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
       "question": "Will Donald Trump post 180-199 Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "113222685292559852154871067987",
       "outcome": "Yes",
-      "price": 0.19,
+      "price": 0.185,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
       "question": "Will Donald Trump post 180-199 Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "354389924364513921420307409396",
       "outcome": "No",
-      "price": 0.81,
+      "price": 0.815,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
       "question": "Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "901810175244418035424509140001",
       "outcome": "Yes",
-      "price": 0.33,
+      "price": 0.315,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
       "question": "Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",
       "token_id": "337612237755009491439644243602",
       "outcome": "No",
-      "price": 0.67,
+      "price": 0.685,
       "slug": "donald-trump-of-truth-social-posts-october-23-october-30-2026"
     },
     {
-      "question": "Will Trump pardon Andrew Tate before 2027?",
-      "token_id": "351962674163628284524258969813",
+      "question": "Will Donald Trump publicly praise Benjamin Netanyahu by October 31, 2026?",
+      "token_id": "820231818005258155541361334888",
       "outcome": "Yes",
-      "price": 0.025,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Andrew Tate before 2027?",
-      "token_id": "173223303345765028896133326194",
+      "question": "Will Donald Trump publicly praise Benjamin Netanyahu by October 31, 2026?",
+      "token_id": "745425022515642522629763755619",
       "outcome": "No",
-      "price": 0.975,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Sam Bankman-Fried before 2027?",
-      "token_id": "374716695062127461456306971057",
+      "question": "Will Donald Trump publicly praise Zohran Mamdani by October 31, 2026?",
+      "token_id": "881515225329710203406882642080",
       "outcome": "Yes",
-      "price": 0.0345,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.48,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Sam Bankman-Fried before 2027?",
-      "token_id": "689213199377970347302391545216",
+      "question": "Will Donald Trump publicly praise Zohran Mamdani by October 31, 2026?",
+      "token_id": "594726963028279172137956738017",
       "outcome": "No",
-      "price": 0.9655,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.52,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Eric Adams before 2027?",
-      "token_id": "612361537102072116469171774457",
+      "question": "Will Donald Trump publicly praise Emmanuel Macron by October 31, 2026?",
+      "token_id": "995472518789333266902010495308",
       "outcome": "Yes",
-      "price": 0.026,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Eric Adams before 2027?",
-      "token_id": "527791166651262924229281638671",
+      "question": "Will Donald Trump publicly praise Emmanuel Macron by October 31, 2026?",
+      "token_id": "362977492344548435172681401903",
       "outcome": "No",
-      "price": 0.974,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Steve Bannon before 2027?",
-      "token_id": "452808522004217039244055027126",
+      "question": "Will Donald Trump publicly praise Mark Rutte by October 31, 2026?",
+      "token_id": "618895918521326377634481425578",
       "outcome": "Yes",
-      "price": 0.0795,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.18,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Steve Bannon before 2027?",
-      "token_id": "950671275880274528128978930219",
+      "question": "Will Donald Trump publicly praise Mark Rutte by October 31, 2026?",
+      "token_id": "101438572299492760253972460857",
       "outcome": "No",
-      "price": 0.9205,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.82,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Roger Ver before 2027?",
-      "token_id": "689826048676289605510080861005",
+      "question": "Will Donald Trump publicly praise Elon Musk by October 31, 2026?",
+      "token_id": "696975162955167078275396955462",
       "outcome": "Yes",
-      "price": 0.0535,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Roger Ver before 2027?",
-      "token_id": "692525445809431366264206057455",
+      "question": "Will Donald Trump publicly praise Elon Musk by October 31, 2026?",
+      "token_id": "590868831309695989834086539314",
       "outcome": "No",
-      "price": 0.9465,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Julian Assange before 2027?",
-      "token_id": "978139301121011171078339814713",
+      "question": "Will Donald Trump publicly praise Dana White by October 31, 2026?",
+      "token_id": "963403760590676022316818575526",
       "outcome": "Yes",
-      "price": 0.036,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Julian Assange before 2027?",
-      "token_id": "538166351911821297423358405701",
+      "question": "Will Donald Trump publicly praise Dana White by October 31, 2026?",
+      "token_id": "101459699724781352986021073007",
       "outcome": "No",
-      "price": 0.964,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Himself before 2027?",
-      "token_id": "114783771900977108635550348466",
+      "question": "Will Donald Trump publicly praise Gianni Infantino by October 31, 2026?",
+      "token_id": "859953672849951253183674166366",
       "outcome": "Yes",
-      "price": 0.0315,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.14,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Himself before 2027?",
-      "token_id": "438053153702536073900973724636",
+      "question": "Will Donald Trump publicly praise Gianni Infantino by October 31, 2026?",
+      "token_id": "100993697818144850663464568956",
       "outcome": "No",
-      "price": 0.9685,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.86,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Diddy before 2027?",
-      "token_id": "113406361681601122128421859763",
+      "question": "Will Donald Trump publicly praise Delcy Rodriguez by October 31, 2026?",
+      "token_id": "567407241139119731458773116187",
       "outcome": "Yes",
-      "price": 0.0475,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.455,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Diddy before 2027?",
-      "token_id": "734317496176912219326739679281",
+      "question": "Will Donald Trump publicly praise Delcy Rodriguez by October 31, 2026?",
+      "token_id": "137302055396013414377949990801",
       "outcome": "No",
-      "price": 0.9525,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.545,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Elon Musk before 2027?",
-      "token_id": "912620357103736859912647470147",
+      "question": "Will Donald Trump publicly praise Bryson DeChambeau by October 31, 2026?",
+      "token_id": "835285790012378954466944013887",
       "outcome": "Yes",
-      "price": 0.0245,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.25,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Elon Musk before 2027?",
-      "token_id": "190172636945942263991972675820",
+      "question": "Will Donald Trump publicly praise Bryson DeChambeau by October 31, 2026?",
+      "token_id": "166060676947024606405902837165",
       "outcome": "No",
-      "price": 0.9755,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.75,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Hunter Biden before 2027?",
-      "token_id": "382402743387373732307916274290",
+      "question": "Will Donald Trump publicly praise Jon Rahm by October 31, 2026?",
+      "token_id": "506486818567156328696685357693",
       "outcome": "Yes",
-      "price": 0.0225,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.065,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Hunter Biden before 2027?",
-      "token_id": "479768961367662843587350336101",
+      "question": "Will Donald Trump publicly praise Jon Rahm by October 31, 2026?",
+      "token_id": "894031947831370311225842921326",
       "outcome": "No",
-      "price": 0.9775,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.935,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Young Thug before 2027?",
-      "token_id": "104581597576139011386177902310",
+      "question": "Will Donald Trump publicly praise Xi Jinping by October 31, 2026?",
+      "token_id": "586248008167732003466214019406",
       "outcome": "Yes",
-      "price": 0.043,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Young Thug before 2027?",
-      "token_id": "539303296137293411908340061326",
+      "question": "Will Donald Trump publicly praise Xi Jinping by October 31, 2026?",
+      "token_id": "389464131264582153203022100431",
       "outcome": "No",
-      "price": 0.957,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Edward Snowden before 2027?",
-      "token_id": "854711427783953495542228198258",
+      "question": "Will Donald Trump publicly praise Nicki Minaj by October 31, 2026?",
+      "token_id": "108992218356521242826784403552",
       "outcome": "Yes",
-      "price": 0.0365,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.315,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Edward Snowden before 2027?",
-      "token_id": "114894176615436170065776834279",
+      "question": "Will Donald Trump publicly praise Nicki Minaj by October 31, 2026?",
+      "token_id": "409250466298167368049390527694",
       "outcome": "No",
-      "price": 0.9635,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.685,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Matt Gaetz before 2027?",
-      "token_id": "250632924733862772270114731688",
+      "question": "Will Donald Trump publicly praise Kevin Warsh by October 31, 2026?",
+      "token_id": "395331750880512985934288680487",
       "outcome": "Yes",
-      "price": 0.06,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Matt Gaetz before 2027?",
-      "token_id": "643673976258766785715819578647",
+      "question": "Will Donald Trump publicly praise Kevin Warsh by October 31, 2026?",
+      "token_id": "265582462751718792043631667334",
       "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly praise Volodymyr Zelenskyy by October 31, 2026?",
+      "token_id": "882993829966686221670509781020",
+      "outcome": "Yes",
+      "price": 0.315,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly praise Volodymyr Zelenskyy by October 31, 2026?",
+      "token_id": "195161218059206482757173389308",
+      "outcome": "No",
+      "price": 0.685,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly praise Javier Milei by October 31, 2026?",
+      "token_id": "290373509739535320790629934572",
+      "outcome": "Yes",
+      "price": 0.195,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly praise Javier Milei by October 31, 2026?",
+      "token_id": "396947127525881543862688781623",
+      "outcome": "No",
+      "price": 0.805,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly praise Claudia Sheinbaum by October 31, 2026?",
+      "token_id": "378889556935306665294851832300",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly praise Claudia Sheinbaum by October 31, 2026?",
+      "token_id": "591091497405577290747308144478",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly praise Warren Buffett by October 31, 2026?",
+      "token_id": "106154346756622063260854983790",
+      "outcome": "Yes",
+      "price": 0.29,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly praise Warren Buffett by October 31, 2026?",
+      "token_id": "757934111945877156042440124596",
+      "outcome": "No",
+      "price": 0.71,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly praise Byron Donalds by October 31, 2026?",
+      "token_id": "833572736350068199925538569953",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly praise Byron Donalds by October 31, 2026?",
+      "token_id": "906227988704795342719900337199",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly praise Andy Burnham by October 31, 2026?",
+      "token_id": "935129896444409400399017029697",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly praise Andy Burnham by October 31, 2026?",
+      "token_id": "107112748624039095538851103813",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+    },
+    {
+      "question": "Will Donald Trump publicly praise Flávio Bolsonaro by October 31, 2026?",
+      "token_id": "241636978097190746874445833427",
+      "outcome": "Yes",
       "price": 0.94,
-      "slug": "who-will-trump-pardon-before-2027"
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Daniel Penny before 2027?",
-      "token_id": "306726180417133202644420468447",
-      "outcome": "Yes",
-      "price": 0.069,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Daniel Penny before 2027?",
-      "token_id": "234391472234498458912918786238",
+      "question": "Will Donald Trump publicly praise Flávio Bolsonaro by October 31, 2026?",
+      "token_id": "106098212539967669720655461829",
       "outcome": "No",
-      "price": 0.931,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.06,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Roger Stone before 2027?",
-      "token_id": "853530191685180327135973061349",
+      "question": "Will Donald Trump publicly praise Luiz Inácio Lula da Silva by October 31, 2026?",
+      "token_id": "868413201548528443404997532727",
       "outcome": "Yes",
-      "price": 0.0355,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.22,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Roger Stone before 2027?",
-      "token_id": "102276463173336397788087894652",
+      "question": "Will Donald Trump publicly praise Luiz Inácio Lula da Silva by October 31, 2026?",
+      "token_id": "309680824861349744160674163596",
       "outcome": "No",
-      "price": 0.9645,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.78,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Bob Menendez before 2027?",
-      "token_id": "875704695182730425870880135081",
+      "question": "Will Donald Trump publicly praise Karoline Leavitt by October 31, 2026?",
+      "token_id": "924889680872038635413592388643",
       "outcome": "Yes",
-      "price": 0.0355,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Bob Menendez before 2027?",
-      "token_id": "559256552866805639605717009398",
+      "question": "Will Donald Trump publicly praise Karoline Leavitt by October 31, 2026?",
+      "token_id": "110552201943051850457057338699",
       "outcome": "No",
-      "price": 0.9645,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Joe Exotic \"The Tiger King\" before 2027?",
-      "token_id": "101707490114982593982881245488",
+      "question": "Will Donald Trump publicly praise Kim Jong Un by October 31, 2026?",
+      "token_id": "619726567691370339220782459540",
       "outcome": "Yes",
-      "price": 0.055,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.155,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Joe Exotic \"The Tiger King\" before 2027?",
-      "token_id": "403960386643305922927596906732",
+      "question": "Will Donald Trump publicly praise Kim Jong Un by October 31, 2026?",
+      "token_id": "356550989615407925821747147363",
       "outcome": "No",
-      "price": 0.945,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.845,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Derek Chauvin before 2027?",
-      "token_id": "490374553746905886904924554706",
+      "question": "Will Donald Trump publicly praise Dario Amodei by October 31, 2026?",
+      "token_id": "946058244008087794279758220864",
       "outcome": "Yes",
-      "price": 0.033,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.463,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Derek Chauvin before 2027?",
-      "token_id": "739061915119724846402634228096",
+      "question": "Will Donald Trump publicly praise Dario Amodei by October 31, 2026?",
+      "token_id": "794159437899084745950181846815",
       "outcome": "No",
-      "price": 0.967,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 0.537,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Antoine Massey before 2027?",
-      "token_id": "806889597930717656027277175844",
+      "question": "Will Donald Trump publicly praise JD Vance by October 31, 2026?",
+      "token_id": "114253144725663225719975257840",
       "outcome": "Yes",
-      "price": 0.03,
-      "slug": "who-will-trump-pardon-before-2027"
+      "price": 1.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
-      "question": "Will Trump pardon Antoine Massey before 2027?",
-      "token_id": "320146391720596704631535652732",
+      "question": "Will Donald Trump publicly praise JD Vance by October 31, 2026?",
+      "token_id": "551632184642810048459209062824",
       "outcome": "No",
-      "price": 0.97,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Elizabeth Holmes before 2027?",
-      "token_id": "100561432383876919947224911890",
-      "outcome": "Yes",
-      "price": 0.0505,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Elizabeth Holmes before 2027?",
-      "token_id": "613505162020737146350111898022",
-      "outcome": "No",
-      "price": 0.9495,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Ghislaine Maxwell before 2027?",
-      "token_id": "392549921762724889118551610456",
-      "outcome": "Yes",
-      "price": 0.043,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Ghislaine Maxwell before 2027?",
-      "token_id": "664189160979854581137361367918",
-      "outcome": "No",
-      "price": 0.957,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Do Kwon before 2027?",
-      "token_id": "641477531049024083399991700285",
-      "outcome": "Yes",
-      "price": 0.0275,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Do Kwon before 2027?",
-      "token_id": "935891803582806317908254852680",
-      "outcome": "No",
-      "price": 0.9725,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Stefan Brodie before 2027?",
-      "token_id": "515676168921952388768432828681",
-      "outcome": "Yes",
-      "price": 0.185,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Stefan Brodie before 2027?",
-      "token_id": "847757364951018000231242345155",
-      "outcome": "No",
-      "price": 0.815,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Donald Brodie before 2027?",
-      "token_id": "504478589280090095614185349457",
-      "outcome": "Yes",
-      "price": 0.125,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Donald Brodie before 2027?",
-      "token_id": "559409210665643133114713043943",
-      "outcome": "No",
-      "price": 0.875,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Ryan Salame before 2027?",
-      "token_id": "138817014738533615333983627463",
-      "outcome": "Yes",
-      "price": 0.12,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Ryan Salame before 2027?",
-      "token_id": "104869673577819668024517200476",
-      "outcome": "No",
-      "price": 0.88,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Keonne Rodriguez before 2027?",
-      "token_id": "133519414112019179396754975430",
-      "outcome": "Yes",
-      "price": 0.075,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Keonne Rodriguez before 2027?",
-      "token_id": "698511612714959396099558388038",
-      "outcome": "No",
-      "price": 0.925,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Martin Shkreli before 2027?",
-      "token_id": "104164365396079964916732796976",
-      "outcome": "Yes",
-      "price": 0.036,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Martin Shkreli before 2027?",
-      "token_id": "733597878545752095260698927263",
-      "outcome": "No",
-      "price": 0.964,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Nicolas Maduro before 2027?",
-      "token_id": "853670843581819513897895683611",
-      "outcome": "Yes",
-      "price": 0.035,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Will Trump pardon Nicolas Maduro before 2027?",
-      "token_id": "100628964596700510074164574995",
-      "outcome": "No",
-      "price": 0.965,
-      "slug": "who-will-trump-pardon-before-2027"
-    },
-    {
-      "question": "Trump, Putin, and Xi seen together before 2027?",
-      "token_id": "500730031297997511825129558710",
-      "outcome": "Yes",
-      "price": 0.855,
-      "slug": "trump-putin-and-xi-seen-together-before-2027"
-    },
-    {
-      "question": "Trump, Putin, and Xi seen together before 2027?",
-      "token_id": "794406767835981332670590305388",
-      "outcome": "No",
-      "price": 0.145,
-      "slug": "trump-putin-and-xi-seen-together-before-2027"
+      "price": 0.0,
+      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
     },
     {
       "question": "Will Markwayne Mullin leave the Trump administration before 2027?",
       "token_id": "924175849183867256436825538426",
       "outcome": "Yes",
-      "price": 0.22,
+      "price": 0.21,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Markwayne Mullin leave the Trump administration before 2027?",
       "token_id": "878437099542585772992604865588",
       "outcome": "No",
-      "price": 0.78,
+      "price": 0.79,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Robert F. Kennedy Jr. leave the Trump administration before 2027?",
       "token_id": "156799070992755319026576661314",
       "outcome": "Yes",
-      "price": 0.145,
+      "price": 0.14,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Robert F. Kennedy Jr. leave the Trump administration before 2027?",
       "token_id": "255359450150520221584108999899",
       "outcome": "No",
-      "price": 0.855,
+      "price": 0.86,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
@@ -2217,42 +3029,42 @@
       "question": "Will Pete Hegseth leave the Trump administration before 2027?",
       "token_id": "516256542555243402717391213106",
       "outcome": "Yes",
-      "price": 0.245,
+      "price": 0.25,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Pete Hegseth leave the Trump administration before 2027?",
       "token_id": "453370166777650894442993231901",
       "outcome": "No",
-      "price": 0.755,
+      "price": 0.75,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Marco Rubio leave the Trump administration before 2027?",
       "token_id": "330392682888022457538870855208",
       "outcome": "Yes",
-      "price": 0.045,
+      "price": 0.065,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Marco Rubio leave the Trump administration before 2027?",
       "token_id": "255001767210395216842304384454",
       "outcome": "No",
-      "price": 0.955,
+      "price": 0.935,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Scott Bessent leave the Trump administration before 2027?",
       "token_id": "953182565837774376313461281536",
       "outcome": "Yes",
-      "price": 0.055,
+      "price": 0.05,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Scott Bessent leave the Trump administration before 2027?",
       "token_id": "999433308197722222130748657261",
       "outcome": "No",
-      "price": 0.945,
+      "price": 0.95,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
@@ -2329,14 +3141,14 @@
       "question": "Will Kash Patel leave the Trump administration before 2027?",
       "token_id": "708569644510003673998901604980",
       "outcome": "Yes",
-      "price": 0.15,
+      "price": 0.145,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Kash Patel leave the Trump administration before 2027?",
       "token_id": "845243071862510835408138155948",
       "outcome": "No",
-      "price": 0.85,
+      "price": 0.855,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
@@ -2357,14 +3169,14 @@
       "question": "Will Susie Wiles leave the Trump administration before 2027?",
       "token_id": "548733303953614338231827087790",
       "outcome": "Yes",
-      "price": 0.38,
+      "price": 0.335,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Susie Wiles leave the Trump administration before 2027?",
       "token_id": "193488988049276354829787169787",
       "outcome": "No",
-      "price": 0.62,
+      "price": 0.665,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
@@ -2385,70 +3197,70 @@
       "question": "Will David Sacks leave the Trump administration before 2027?",
       "token_id": "539803095522547526568538880922",
       "outcome": "Yes",
-      "price": 0.0675,
+      "price": 0.066,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will David Sacks leave the Trump administration before 2027?",
       "token_id": "458870920252989242178426960253",
       "outcome": "No",
-      "price": 0.9325,
+      "price": 0.934,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Russell Vought leave the Trump administration before 2027?",
       "token_id": "112485321565880294208942525288",
       "outcome": "Yes",
-      "price": 0.145,
+      "price": 0.16,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Russell Vought leave the Trump administration before 2027?",
       "token_id": "993726564902659656806069460200",
       "outcome": "No",
-      "price": 0.855,
+      "price": 0.84,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Tom Homan leave the Trump administration before 2027?",
       "token_id": "112672108185417697163942949415",
       "outcome": "Yes",
-      "price": 0.21,
+      "price": 0.215,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Tom Homan leave the Trump administration before 2027?",
       "token_id": "573315230799458233355421576814",
       "outcome": "No",
-      "price": 0.79,
+      "price": 0.785,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will John Ratcliffe leave the Trump administration before 2027?",
       "token_id": "997344433121979531444237994140",
       "outcome": "Yes",
-      "price": 0.09,
+      "price": 0.085,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will John Ratcliffe leave the Trump administration before 2027?",
       "token_id": "878819977685450504144312789734",
       "outcome": "No",
-      "price": 0.91,
+      "price": 0.915,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Kristi Noem leave the Trump administration before 2027?",
       "token_id": "780475101242086161269626788650",
       "outcome": "Yes",
-      "price": 0.268,
+      "price": 0.2675,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
       "question": "Will Kristi Noem leave the Trump administration before 2027?",
       "token_id": "101583244130828469856826614628",
       "outcome": "No",
-      "price": 0.732,
+      "price": 0.7325,
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
@@ -2466,606 +3278,424 @@
       "slug": "who-will-leave-trump-administration-before-2027"
     },
     {
-      "question": "Will Trump say \"Iran\" 3+ times during his roundtable?",
-      "token_id": "514341529345256417668891518312",
-      "outcome": "Yes",
-      "price": 0.9995,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Iran\" 3+ times during his roundtable?",
-      "token_id": "651499552390288031333174616565",
-      "outcome": "No",
-      "price": 0.0005,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Oil\" or \"Gas\" or \"Gasoline\" during his roundtable?",
-      "token_id": "447984270828037539393528163602",
-      "outcome": "Yes",
-      "price": 0.225,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Oil\" or \"Gas\" or \"Gasoline\" during his roundtable?",
-      "token_id": "111616923959254701280572462941",
-      "outcome": "No",
-      "price": 0.775,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Elon\" or \"Musk\" during his roundtable?",
-      "token_id": "859966679674519151705364755129",
-      "outcome": "Yes",
-      "price": 0.005,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Elon\" or \"Musk\" during his roundtable?",
-      "token_id": "170327837530601696970358422778",
-      "outcome": "No",
-      "price": 0.995,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Boom\" or \"Booming\" during his roundtable?",
-      "token_id": "501087743442909687578670817552",
-      "outcome": "Yes",
-      "price": 0.005,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Boom\" or \"Booming\" during his roundtable?",
-      "token_id": "649185615875264578124464614147",
-      "outcome": "No",
-      "price": 0.995,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Choke Point\" during his roundtable?",
-      "token_id": "421143403337709955814435415380",
-      "outcome": "Yes",
-      "price": 0.005,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Choke Point\" during his roundtable?",
-      "token_id": "863328099975053422382409136939",
-      "outcome": "No",
-      "price": 0.995,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Bitcoin\" during his roundtable?",
-      "token_id": "109042584389111096336438091475",
-      "outcome": "Yes",
-      "price": 0.004,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Bitcoin\" during his roundtable?",
-      "token_id": "806934237199915662852143266056",
-      "outcome": "No",
-      "price": 0.996,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Cybercrime\" during his roundtable?",
-      "token_id": "113703260015555974495447047431",
-      "outcome": "Yes",
-      "price": 0.9995,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Cybercrime\" during his roundtable?",
-      "token_id": "811499446471965124120034136096",
-      "outcome": "No",
-      "price": 0.0005,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Prediction\" during his roundtable?",
-      "token_id": "742544182097099080784523357955",
-      "outcome": "Yes",
-      "price": 0.005,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Prediction\" during his roundtable?",
-      "token_id": "999016174734756383646581379841",
-      "outcome": "No",
-      "price": 0.995,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Hyperliquid\" during his roundtable?",
-      "token_id": "106654729698466590245243008838",
-      "outcome": "Yes",
-      "price": 0.0005,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Hyperliquid\" during his roundtable?",
-      "token_id": "242969916085469754624933778438",
-      "outcome": "No",
-      "price": 0.9995,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Binance\" during his roundtable?",
-      "token_id": "643443662085889366197686230465",
-      "outcome": "Yes",
-      "price": 0.0005,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Binance\" during his roundtable?",
-      "token_id": "885156290220014305976856743209",
-      "outcome": "No",
-      "price": 0.9995,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"China\" during his roundtable?",
-      "token_id": "690248551436020071140530396091",
-      "outcome": "Yes",
-      "price": 0.996,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"China\" during his roundtable?",
-      "token_id": "966010675296324239550972365196",
-      "outcome": "No",
-      "price": 0.004,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Nuclear\" during his roundtable?",
-      "token_id": "238108022877309374901095546051",
-      "outcome": "Yes",
-      "price": 0.004,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump say \"Nuclear\" during his roundtable?",
-      "token_id": "211346897922440499649272943485",
-      "outcome": "No",
-      "price": 0.996,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump's remarks not air?",
-      "token_id": "246893851026628674927944014612",
-      "outcome": "Yes",
-      "price": 0.04,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump's remarks not air?",
-      "token_id": "263768768103608430259046963615",
-      "outcome": "No",
-      "price": 0.96,
-      "slug": "what-will-trump-say-during-his-roundtable-october-21"
-    },
-    {
-      "question": "Will Trump be impeached by December 31, 2026?",
-      "token_id": "220941826766128775810560347205",
-      "outcome": "Yes",
-      "price": 0.0215,
-      "slug": "will-trump-be-impeached-by-december-31-2026"
-    },
-    {
-      "question": "Will Trump be impeached by December 31, 2026?",
-      "token_id": "784731416154086452782606218273",
-      "outcome": "No",
-      "price": 0.9785,
-      "slug": "will-trump-be-impeached-by-december-31-2026"
-    },
-    {
-      "question": "Will Trump be impeached by December 31, 2027?",
-      "token_id": "271880127548052488893727300310",
-      "outcome": "Yes",
-      "price": 0.6,
-      "slug": "will-trump-be-impeached-by-december-31-2026"
-    },
-    {
-      "question": "Will Trump be impeached by December 31, 2027?",
-      "token_id": "462064606224316286009272984333",
-      "outcome": "No",
-      "price": 0.4,
-      "slug": "will-trump-be-impeached-by-december-31-2026"
-    },
-    {
-      "question": "Will Trump be impeached by June 30, 2027?",
-      "token_id": "181283642931836323250671051376",
-      "outcome": "Yes",
-      "price": 0.49,
-      "slug": "will-trump-be-impeached-by-december-31-2026"
-    },
-    {
-      "question": "Will Trump be impeached by June 30, 2027?",
-      "token_id": "520923455593243191265228252638",
-      "outcome": "No",
-      "price": 0.51,
-      "slug": "will-trump-be-impeached-by-december-31-2026"
-    },
-    {
-      "question": "Trump, Putin, and Zelensky seen together before 2027?",
-      "token_id": "396700985162197638595650816692",
-      "outcome": "Yes",
-      "price": 0.085,
-      "slug": "trump-putin-and-zelensky-seen-together-before-2027"
-    },
-    {
-      "question": "Trump, Putin, and Zelensky seen together before 2027?",
-      "token_id": "109491250341571675806293993648",
-      "outcome": "No",
-      "price": 0.915,
-      "slug": "trump-putin-and-zelensky-seen-together-before-2027"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Benjamin Netanyahu by October 31, 2026?",
-      "token_id": "820231818005258155541361334888",
+      "question": "Will Donald Trump publicly insult someone on October 2, 2026?",
+      "token_id": "219327465744651795468297900566",
       "outcome": "Yes",
       "price": 1.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Benjamin Netanyahu by October 31, 2026?",
-      "token_id": "745425022515642522629763755619",
+      "question": "Will Donald Trump publicly insult someone on October 2, 2026?",
+      "token_id": "714534710320436852514397414393",
       "outcome": "No",
       "price": 0.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Zohran Mamdani by October 31, 2026?",
-      "token_id": "881515225329710203406882642080",
-      "outcome": "Yes",
-      "price": 0.3,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Zohran Mamdani by October 31, 2026?",
-      "token_id": "594726963028279172137956738017",
-      "outcome": "No",
-      "price": 0.7,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Emmanuel Macron by October 31, 2026?",
-      "token_id": "995472518789333266902010495308",
+      "question": "Will Donald Trump publicly insult someone on October 3, 2026?",
+      "token_id": "855707867348102598553687450047",
       "outcome": "Yes",
       "price": 1.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Emmanuel Macron by October 31, 2026?",
-      "token_id": "362977492344548435172681401903",
+      "question": "Will Donald Trump publicly insult someone on October 3, 2026?",
+      "token_id": "220039421366544138785673416766",
       "outcome": "No",
       "price": 0.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Mark Rutte by October 31, 2026?",
-      "token_id": "618895918521326377634481425578",
-      "outcome": "Yes",
-      "price": 0.315,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Mark Rutte by October 31, 2026?",
-      "token_id": "101438572299492760253972460857",
-      "outcome": "No",
-      "price": 0.685,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Elon Musk by October 31, 2026?",
-      "token_id": "696975162955167078275396955462",
+      "question": "Will Donald Trump publicly insult someone on October 4, 2026?",
+      "token_id": "158551417786725922180245492809",
       "outcome": "Yes",
       "price": 1.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Elon Musk by October 31, 2026?",
-      "token_id": "590868831309695989834086539314",
+      "question": "Will Donald Trump publicly insult someone on October 4, 2026?",
+      "token_id": "208542111230908993604955936213",
       "outcome": "No",
       "price": 0.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Dana White by October 31, 2026?",
-      "token_id": "963403760590676022316818575526",
+      "question": "Will Donald Trump publicly insult someone on October 5, 2026?",
+      "token_id": "629868067721930441096939297278",
       "outcome": "Yes",
       "price": 1.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Dana White by October 31, 2026?",
-      "token_id": "101459699724781352986021073007",
+      "question": "Will Donald Trump publicly insult someone on October 5, 2026?",
+      "token_id": "449513038154038952742428417524",
       "outcome": "No",
       "price": 0.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Gianni Infantino by October 31, 2026?",
-      "token_id": "859953672849951253183674166366",
-      "outcome": "Yes",
-      "price": 0.21,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Gianni Infantino by October 31, 2026?",
-      "token_id": "100993697818144850663464568956",
-      "outcome": "No",
-      "price": 0.79,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Delcy Rodriguez by October 31, 2026?",
-      "token_id": "567407241139119731458773116187",
-      "outcome": "Yes",
-      "price": 0.515,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Delcy Rodriguez by October 31, 2026?",
-      "token_id": "137302055396013414377949990801",
-      "outcome": "No",
-      "price": 0.485,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Bryson DeChambeau by October 31, 2026?",
-      "token_id": "835285790012378954466944013887",
-      "outcome": "Yes",
-      "price": 0.285,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Bryson DeChambeau by October 31, 2026?",
-      "token_id": "166060676947024606405902837165",
-      "outcome": "No",
-      "price": 0.715,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Jon Rahm by October 31, 2026?",
-      "token_id": "506486818567156328696685357693",
-      "outcome": "Yes",
-      "price": 0.075,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Jon Rahm by October 31, 2026?",
-      "token_id": "894031947831370311225842921326",
-      "outcome": "No",
-      "price": 0.925,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Xi Jinping by October 31, 2026?",
-      "token_id": "586248008167732003466214019406",
+      "question": "Will Donald Trump publicly insult someone on October 6, 2026?",
+      "token_id": "110446283087621872507283898670",
       "outcome": "Yes",
       "price": 1.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Xi Jinping by October 31, 2026?",
-      "token_id": "389464131264582153203022100431",
+      "question": "Will Donald Trump publicly insult someone on October 6, 2026?",
+      "token_id": "115267105432164424401661168394",
       "outcome": "No",
       "price": 0.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Nicki Minaj by October 31, 2026?",
-      "token_id": "108992218356521242826784403552",
-      "outcome": "Yes",
-      "price": 0.14,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Nicki Minaj by October 31, 2026?",
-      "token_id": "409250466298167368049390527694",
-      "outcome": "No",
-      "price": 0.86,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Kevin Warsh by October 31, 2026?",
-      "token_id": "395331750880512985934288680487",
+      "question": "Will Donald Trump publicly insult someone on October 7, 2026?",
+      "token_id": "920408800018599671620197617600",
       "outcome": "Yes",
       "price": 1.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Kevin Warsh by October 31, 2026?",
-      "token_id": "265582462751718792043631667334",
+      "question": "Will Donald Trump publicly insult someone on October 7, 2026?",
+      "token_id": "110691151230193997083503263767",
       "outcome": "No",
       "price": 0.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Volodymyr Zelenskyy by October 31, 2026?",
-      "token_id": "882993829966686221670509781020",
-      "outcome": "Yes",
-      "price": 0.285,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Volodymyr Zelenskyy by October 31, 2026?",
-      "token_id": "195161218059206482757173389308",
-      "outcome": "No",
-      "price": 0.715,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Javier Milei by October 31, 2026?",
-      "token_id": "290373509739535320790629934572",
-      "outcome": "Yes",
-      "price": 0.145,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Javier Milei by October 31, 2026?",
-      "token_id": "396947127525881543862688781623",
-      "outcome": "No",
-      "price": 0.855,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Claudia Sheinbaum by October 31, 2026?",
-      "token_id": "378889556935306665294851832300",
+      "question": "Will Donald Trump publicly insult someone on October 8, 2026?",
+      "token_id": "946323304462550991261768962266",
       "outcome": "Yes",
       "price": 1.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Claudia Sheinbaum by October 31, 2026?",
-      "token_id": "591091497405577290747308144478",
+      "question": "Will Donald Trump publicly insult someone on October 8, 2026?",
+      "token_id": "171542636354316340376337104575",
       "outcome": "No",
       "price": 0.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Warren Buffett by October 31, 2026?",
-      "token_id": "106154346756622063260854983790",
-      "outcome": "Yes",
-      "price": 0.16,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Warren Buffett by October 31, 2026?",
-      "token_id": "757934111945877156042440124596",
-      "outcome": "No",
-      "price": 0.84,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Byron Donalds by October 31, 2026?",
-      "token_id": "833572736350068199925538569953",
+      "question": "Will Donald Trump publicly insult someone on October 9, 2026?",
+      "token_id": "747801811308176831054728973516",
       "outcome": "Yes",
       "price": 1.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Byron Donalds by October 31, 2026?",
-      "token_id": "906227988704795342719900337199",
+      "question": "Will Donald Trump publicly insult someone on October 9, 2026?",
+      "token_id": "100381712581622331284612551996",
       "outcome": "No",
       "price": 0.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Andy Burnham by October 31, 2026?",
-      "token_id": "935129896444409400399017029697",
+      "question": "Will Donald Trump publicly insult someone on October 10, 2026?",
+      "token_id": "680155609760622165947629217933",
       "outcome": "Yes",
       "price": 1.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Andy Burnham by October 31, 2026?",
-      "token_id": "107112748624039095538851103813",
+      "question": "Will Donald Trump publicly insult someone on October 10, 2026?",
+      "token_id": "224778553306063740265598659297",
       "outcome": "No",
       "price": 0.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Flávio Bolsonaro by October 31, 2026?",
-      "token_id": "241636978097190746874445833427",
-      "outcome": "Yes",
-      "price": 0.945,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Flávio Bolsonaro by October 31, 2026?",
-      "token_id": "106098212539967669720655461829",
-      "outcome": "No",
-      "price": 0.055,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Luiz Inácio Lula da Silva by October 31, 2026?",
-      "token_id": "868413201548528443404997532727",
-      "outcome": "Yes",
-      "price": 0.23,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Luiz Inácio Lula da Silva by October 31, 2026?",
-      "token_id": "309680824861349744160674163596",
-      "outcome": "No",
-      "price": 0.77,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Karoline Leavitt by October 31, 2026?",
-      "token_id": "924889680872038635413592388643",
+      "question": "Will Donald Trump publicly insult someone on October 11, 2026?",
+      "token_id": "767032652124147176800541699789",
       "outcome": "Yes",
       "price": 1.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Karoline Leavitt by October 31, 2026?",
-      "token_id": "110552201943051850457057338699",
+      "question": "Will Donald Trump publicly insult someone on October 11, 2026?",
+      "token_id": "352063836364877079275594460830",
       "outcome": "No",
       "price": 0.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise Kim Jong Un by October 31, 2026?",
-      "token_id": "619726567691370339220782459540",
-      "outcome": "Yes",
-      "price": 0.29,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Kim Jong Un by October 31, 2026?",
-      "token_id": "356550989615407925821747147363",
-      "outcome": "No",
-      "price": 0.71,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Dario Amodei by October 31, 2026?",
-      "token_id": "946058244008087794279758220864",
-      "outcome": "Yes",
-      "price": 0.252,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise Dario Amodei by October 31, 2026?",
-      "token_id": "794159437899084745950181846815",
-      "outcome": "No",
-      "price": 0.748,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
-    },
-    {
-      "question": "Will Donald Trump publicly praise JD Vance by October 31, 2026?",
-      "token_id": "114253144725663225719975257840",
+      "question": "Will Donald Trump publicly insult someone on October 12, 2026?",
+      "token_id": "719788640298823815967555098314",
       "outcome": "Yes",
       "price": 1.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Donald Trump publicly praise JD Vance by October 31, 2026?",
-      "token_id": "551632184642810048459209062824",
+      "question": "Will Donald Trump publicly insult someone on October 12, 2026?",
+      "token_id": "784941247434055958214250968493",
       "outcome": "No",
       "price": 0.0,
-      "slug": "who-will-trump-publicly-praise-by-october-31-2026"
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Trump acquire Greenland before 2027?",
-      "token_id": "516162325567819335283998515633",
+      "question": "Will Donald Trump publicly insult someone on October 13, 2026?",
+      "token_id": "720533560749740429346162236763",
       "outcome": "Yes",
-      "price": 0.024,
-      "slug": "will-trump-acquire-greenland-before-2027"
+      "price": 1.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
-      "question": "Will Trump acquire Greenland before 2027?",
-      "token_id": "572162725645295484646864636912",
+      "question": "Will Donald Trump publicly insult someone on October 13, 2026?",
+      "token_id": "799118064042695993203541933169",
       "outcome": "No",
-      "price": 0.976,
-      "slug": "will-trump-acquire-greenland-before-2027"
+      "price": 0.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 14, 2026?",
+      "token_id": "113389212881390629658300556345",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 14, 2026?",
+      "token_id": "474183800052114121088609915177",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 15, 2026?",
+      "token_id": "634431135451042693417028543403",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 15, 2026?",
+      "token_id": "827739591622112263724983113607",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 16, 2026?",
+      "token_id": "167474084196139492474201115530",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 16, 2026?",
+      "token_id": "112827942227508520533948065946",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 17, 2026?",
+      "token_id": "836821215200628370072752624633",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 17, 2026?",
+      "token_id": "552120331455017163107963983921",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 18, 2026?",
+      "token_id": "112592724635374494650759173071",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 18, 2026?",
+      "token_id": "164163224343522205260256107645",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 19, 2026?",
+      "token_id": "896830929675614887272549978204",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 19, 2026?",
+      "token_id": "577745402155985884352397212921",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 20, 2026?",
+      "token_id": "564626204078802154605490525789",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 20, 2026?",
+      "token_id": "198222732563611772543776494027",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 21, 2026?",
+      "token_id": "707390935584484273069204389442",
+      "outcome": "Yes",
+      "price": 1.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 21, 2026?",
+      "token_id": "923455093668008644867949308804",
+      "outcome": "No",
+      "price": 0.0,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 22, 2026?",
+      "token_id": "107715599633325937406769981559",
+      "outcome": "Yes",
+      "price": 0.9775,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 22, 2026?",
+      "token_id": "555603802833398532757584360397",
+      "outcome": "No",
+      "price": 0.0225,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 23, 2026?",
+      "token_id": "321072615789249160047761939809",
+      "outcome": "Yes",
+      "price": 0.9865,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 23, 2026?",
+      "token_id": "486353263427456681070752988963",
+      "outcome": "No",
+      "price": 0.0135,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 24, 2026?",
+      "token_id": "142236528744250539152506408034",
+      "outcome": "Yes",
+      "price": 0.969,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 24, 2026?",
+      "token_id": "725559897512432914941743411881",
+      "outcome": "No",
+      "price": 0.031,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 25, 2026?",
+      "token_id": "390540329828501998615189674740",
+      "outcome": "Yes",
+      "price": 0.9685,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 25, 2026?",
+      "token_id": "839354190403792496786454630972",
+      "outcome": "No",
+      "price": 0.0315,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 26, 2026?",
+      "token_id": "483623161646830301471362117154",
+      "outcome": "Yes",
+      "price": 0.9465,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 26, 2026?",
+      "token_id": "891861614977484519199483959430",
+      "outcome": "No",
+      "price": 0.0535,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 27, 2026?",
+      "token_id": "556896957901695511257432231879",
+      "outcome": "Yes",
+      "price": 0.9835,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 27, 2026?",
+      "token_id": "574377450711072033055604111939",
+      "outcome": "No",
+      "price": 0.0165,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 28, 2026?",
+      "token_id": "373289053456367778026190743484",
+      "outcome": "Yes",
+      "price": 0.9515,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 28, 2026?",
+      "token_id": "163272477791426633932817510746",
+      "outcome": "No",
+      "price": 0.0485,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 29, 2026?",
+      "token_id": "105040887924607114160270531662",
+      "outcome": "Yes",
+      "price": 0.975,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 29, 2026?",
+      "token_id": "372020644598690236260402528017",
+      "outcome": "No",
+      "price": 0.025,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 30, 2026?",
+      "token_id": "365174547026778438187610860961",
+      "outcome": "Yes",
+      "price": 0.967,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 30, 2026?",
+      "token_id": "976302945928867631856534586264",
+      "outcome": "No",
+      "price": 0.033,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 31, 2026?",
+      "token_id": "401164472602726235644563788229",
+      "outcome": "Yes",
+      "price": 0.89,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
+    },
+    {
+      "question": "Will Donald Trump publicly insult someone on October 31, 2026?",
+      "token_id": "677884215841040577073289947033",
+      "outcome": "No",
+      "price": 0.11,
+      "slug": "will-trump-publicly-insult-someone-on-october-2026-20261001004229017"
     },
     {
       "question": "Will Trump say \"Genius\" or \"Elon\" or \"Musk\" this week?",
@@ -3155,28 +3785,28 @@
       "question": "Will Trump say \"Ceasefire\" or \"Uranium\" this week?",
       "token_id": "275393261416427010707828201898",
       "outcome": "Yes",
-      "price": 0.6,
+      "price": 0.46,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Ceasefire\" or \"Uranium\" this week?",
       "token_id": "165885680099613614369650207598",
       "outcome": "No",
-      "price": 0.4,
+      "price": 0.54,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Four More Years\" this week?",
       "token_id": "106692013407546265306714468617",
       "outcome": "Yes",
-      "price": 0.5,
+      "price": 0.435,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Four More Years\" this week?",
       "token_id": "815047526329803870883951379926",
       "outcome": "No",
-      "price": 0.5,
+      "price": 0.565,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
@@ -3197,84 +3827,84 @@
       "question": "Will Trump say \"Allah\" this week?",
       "token_id": "990266751669156524007595428775",
       "outcome": "Yes",
-      "price": 0.45,
+      "price": 0.585,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Allah\" this week?",
       "token_id": "905229806989960730597908910046",
       "outcome": "No",
-      "price": 0.55,
+      "price": 0.415,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Apple\" this week?",
       "token_id": "838030050667249615861882085663",
       "outcome": "Yes",
-      "price": 0.9995,
+      "price": 1.0,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Apple\" this week?",
       "token_id": "564149952169660635630872848667",
       "outcome": "No",
-      "price": 0.0005,
+      "price": 0.0,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Trump Ocean\" or \"Trump Strait\" this week?",
       "token_id": "636622094554581276491620575545",
       "outcome": "Yes",
-      "price": 0.7,
+      "price": 1.0,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Trump Ocean\" or \"Trump Strait\" this week?",
       "token_id": "115389594915396777765090265728",
       "outcome": "No",
-      "price": 0.3,
+      "price": 0.0,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Vanilla\" or \"Ice Cream\" this week?",
       "token_id": "450848056641074351982201511312",
       "outcome": "Yes",
-      "price": 0.4,
+      "price": 0.3,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Vanilla\" or \"Ice Cream\" this week?",
       "token_id": "805397224791258353023380267632",
       "outcome": "No",
-      "price": 0.6,
+      "price": 0.7,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Strategic\" or \"Strategy\" this week?",
       "token_id": "647467784824456875165681178465",
       "outcome": "Yes",
-      "price": 0.645,
+      "price": 0.56,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Strategic\" or \"Strategy\" this week?",
       "token_id": "116190845705459520409064805462",
       "outcome": "No",
-      "price": 0.355,
+      "price": 0.44,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Six Seven\" this week?",
       "token_id": "704375080234154265806039359661",
       "outcome": "Yes",
-      "price": 0.465,
+      "price": 0.23,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
       "question": "Will Trump say \"Six Seven\" this week?",
       "token_id": "226752538046796583128871026327",
       "outcome": "No",
-      "price": 0.535,
+      "price": 0.77,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
     },
     {
@@ -3290,6 +3920,20 @@
       "outcome": "No",
       "price": 0.46,
       "slug": "what-will-trump-say-this-week-october-19-october-25-20261025"
+    },
+    {
+      "question": "Trump, Putin, and Zelensky meet together before 2027?",
+      "token_id": "114946451737379187471398764622",
+      "outcome": "Yes",
+      "price": 0.095,
+      "slug": "trump-putin-and-zelensky-meet-together-before-2027"
+    },
+    {
+      "question": "Trump, Putin, and Zelensky meet together before 2027?",
+      "token_id": "102525541292779259665413095561",
+      "outcome": "No",
+      "price": 0.905,
+      "slug": "trump-putin-and-zelensky-meet-together-before-2027"
     },
     {
       "question": "Will Trump meet with Kim Jong Un by October 31, 2026?",
@@ -3309,14 +3953,14 @@
       "question": "Will Trump meet with Volodymyr Zelenskyy by October 31, 2026?",
       "token_id": "935661222404796278541685515126",
       "outcome": "Yes",
-      "price": 0.014,
+      "price": 0.0135,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
       "question": "Will Trump meet with Volodymyr Zelenskyy by October 31, 2026?",
       "token_id": "619164571146067104707034908742",
       "outcome": "No",
-      "price": 0.986,
+      "price": 0.9865,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
@@ -3337,14 +3981,14 @@
       "question": "Will Trump meet with Mohammed bin Salman by October 31, 2026?",
       "token_id": "178678956393411737218167802570",
       "outcome": "Yes",
-      "price": 0.033,
+      "price": 0.0265,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
       "question": "Will Trump meet with Mohammed bin Salman by October 31, 2026?",
       "token_id": "314177913221813752042629137970",
       "outcome": "No",
-      "price": 0.967,
+      "price": 0.9735,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
@@ -3393,14 +4037,14 @@
       "question": "Will Trump meet with Luiz Inácio Lula da Silva by October 31, 2026?",
       "token_id": "472903557243736554216925917079",
       "outcome": "Yes",
-      "price": 0.014,
+      "price": 0.012,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
       "question": "Will Trump meet with Luiz Inácio Lula da Silva by October 31, 2026?",
       "token_id": "789616862147388195824414950723",
       "outcome": "No",
-      "price": 0.986,
+      "price": 0.988,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
@@ -3435,14 +4079,14 @@
       "question": "Will Trump meet with Benjamin Netanyahu by October 31, 2026?",
       "token_id": "787087542253194879218654809461",
       "outcome": "Yes",
-      "price": 0.044,
+      "price": 0.04,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
       "question": "Will Trump meet with Benjamin Netanyahu by October 31, 2026?",
       "token_id": "224383611496402129043351082830",
       "outcome": "No",
-      "price": 0.956,
+      "price": 0.96,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
@@ -3463,101 +4107,465 @@
       "question": "Will Trump meet with Miguel Díaz-Canel by October 31, 2026?",
       "token_id": "282533708432122969519022050541",
       "outcome": "Yes",
-      "price": 0.0295,
+      "price": 0.0305,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
       "question": "Will Trump meet with Miguel Díaz-Canel by October 31, 2026?",
       "token_id": "342111068891976207203796439899",
       "outcome": "No",
-      "price": 0.9705,
+      "price": 0.9695,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
       "question": "Will Trump meet with Mark Carney by October 31, 2026?",
       "token_id": "296067332735429969557097431990",
       "outcome": "Yes",
-      "price": 0.036,
+      "price": 0.032,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
       "question": "Will Trump meet with Mark Carney by October 31, 2026?",
       "token_id": "111703965654941400937381211172",
       "outcome": "No",
-      "price": 0.964,
+      "price": 0.968,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
       "question": "Will Trump meet with Sam Altman by October 31, 2026?",
       "token_id": "104935037953284114825508693358",
       "outcome": "Yes",
-      "price": 0.23,
+      "price": 0.19,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
       "question": "Will Trump meet with Sam Altman by October 31, 2026?",
       "token_id": "595021429182619118487680595814",
       "outcome": "No",
-      "price": 0.77,
+      "price": 0.81,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
       "question": "Will Trump meet with Dario Amodei by October 31, 2026?",
       "token_id": "115571950419175344613341620358",
       "outcome": "Yes",
-      "price": 0.14,
+      "price": 0.16,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
       "question": "Will Trump meet with Dario Amodei by October 31, 2026?",
       "token_id": "109229863107117917421470314907",
       "outcome": "No",
-      "price": 0.86,
+      "price": 0.84,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
       "question": "Will Trump meet with Javier Milei by October 31, 2026?",
       "token_id": "527309057921174921701649351387",
       "outcome": "Yes",
-      "price": 0.021,
+      "price": 0.011,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
       "question": "Will Trump meet with Javier Milei by October 31, 2026?",
       "token_id": "513913069847018955984686702728",
       "outcome": "No",
-      "price": 0.979,
+      "price": 0.989,
       "slug": "who-will-trump-meet-with-by-october-31"
     },
     {
-      "question": "Will Trump pardon anyone by October 31?",
-      "token_id": "211645314993968969375500529661",
+      "question": "Will Trump pardon Andrew Tate before 2027?",
+      "token_id": "351962674163628284524258969813",
       "outcome": "Yes",
-      "price": 0.23,
-      "slug": "will-trump-pardon-anyone-byptptpt-20261014"
+      "price": 0.0255,
+      "slug": "who-will-trump-pardon-before-2027"
     },
     {
-      "question": "Will Trump pardon anyone by October 31?",
-      "token_id": "250994070424624605604359546686",
+      "question": "Will Trump pardon Andrew Tate before 2027?",
+      "token_id": "173223303345765028896133326194",
       "outcome": "No",
-      "price": 0.77,
-      "slug": "will-trump-pardon-anyone-byptptpt-20261014"
+      "price": 0.9745,
+      "slug": "who-will-trump-pardon-before-2027"
     },
     {
-      "question": "Will Trump pardon anyone by December 31?",
-      "token_id": "590638230682393842949847250873",
+      "question": "Will Trump pardon Sam Bankman-Fried before 2027?",
+      "token_id": "374716695062127461456306971057",
       "outcome": "Yes",
-      "price": 0.895,
-      "slug": "will-trump-pardon-anyone-byptptpt-20261014"
+      "price": 0.0355,
+      "slug": "who-will-trump-pardon-before-2027"
     },
     {
-      "question": "Will Trump pardon anyone by December 31?",
-      "token_id": "530488914944511374845736976161",
+      "question": "Will Trump pardon Sam Bankman-Fried before 2027?",
+      "token_id": "689213199377970347302391545216",
       "outcome": "No",
-      "price": 0.105,
-      "slug": "will-trump-pardon-anyone-byptptpt-20261014"
+      "price": 0.9645,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Eric Adams before 2027?",
+      "token_id": "612361537102072116469171774457",
+      "outcome": "Yes",
+      "price": 0.02,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Eric Adams before 2027?",
+      "token_id": "527791166651262924229281638671",
+      "outcome": "No",
+      "price": 0.98,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Steve Bannon before 2027?",
+      "token_id": "452808522004217039244055027126",
+      "outcome": "Yes",
+      "price": 0.0765,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Steve Bannon before 2027?",
+      "token_id": "950671275880274528128978930219",
+      "outcome": "No",
+      "price": 0.9235,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Roger Ver before 2027?",
+      "token_id": "689826048676289605510080861005",
+      "outcome": "Yes",
+      "price": 0.0535,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Roger Ver before 2027?",
+      "token_id": "692525445809431366264206057455",
+      "outcome": "No",
+      "price": 0.9465,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Julian Assange before 2027?",
+      "token_id": "978139301121011171078339814713",
+      "outcome": "Yes",
+      "price": 0.036,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Julian Assange before 2027?",
+      "token_id": "538166351911821297423358405701",
+      "outcome": "No",
+      "price": 0.964,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Himself before 2027?",
+      "token_id": "114783771900977108635550348466",
+      "outcome": "Yes",
+      "price": 0.031,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Himself before 2027?",
+      "token_id": "438053153702536073900973724636",
+      "outcome": "No",
+      "price": 0.969,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Diddy before 2027?",
+      "token_id": "113406361681601122128421859763",
+      "outcome": "Yes",
+      "price": 0.046,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Diddy before 2027?",
+      "token_id": "734317496176912219326739679281",
+      "outcome": "No",
+      "price": 0.954,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Elon Musk before 2027?",
+      "token_id": "912620357103736859912647470147",
+      "outcome": "Yes",
+      "price": 0.0265,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Elon Musk before 2027?",
+      "token_id": "190172636945942263991972675820",
+      "outcome": "No",
+      "price": 0.9735,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Hunter Biden before 2027?",
+      "token_id": "382402743387373732307916274290",
+      "outcome": "Yes",
+      "price": 0.0225,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Hunter Biden before 2027?",
+      "token_id": "479768961367662843587350336101",
+      "outcome": "No",
+      "price": 0.9775,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Young Thug before 2027?",
+      "token_id": "104581597576139011386177902310",
+      "outcome": "Yes",
+      "price": 0.046,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Young Thug before 2027?",
+      "token_id": "539303296137293411908340061326",
+      "outcome": "No",
+      "price": 0.954,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Edward Snowden before 2027?",
+      "token_id": "854711427783953495542228198258",
+      "outcome": "Yes",
+      "price": 0.0365,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Edward Snowden before 2027?",
+      "token_id": "114894176615436170065776834279",
+      "outcome": "No",
+      "price": 0.9635,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Matt Gaetz before 2027?",
+      "token_id": "250632924733862772270114731688",
+      "outcome": "Yes",
+      "price": 0.06,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Matt Gaetz before 2027?",
+      "token_id": "643673976258766785715819578647",
+      "outcome": "No",
+      "price": 0.94,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Daniel Penny before 2027?",
+      "token_id": "306726180417133202644420468447",
+      "outcome": "Yes",
+      "price": 0.074,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Daniel Penny before 2027?",
+      "token_id": "234391472234498458912918786238",
+      "outcome": "No",
+      "price": 0.926,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Roger Stone before 2027?",
+      "token_id": "853530191685180327135973061349",
+      "outcome": "Yes",
+      "price": 0.0395,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Roger Stone before 2027?",
+      "token_id": "102276463173336397788087894652",
+      "outcome": "No",
+      "price": 0.9605,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Bob Menendez before 2027?",
+      "token_id": "875704695182730425870880135081",
+      "outcome": "Yes",
+      "price": 0.0365,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Bob Menendez before 2027?",
+      "token_id": "559256552866805639605717009398",
+      "outcome": "No",
+      "price": 0.9635,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Joe Exotic \"The Tiger King\" before 2027?",
+      "token_id": "101707490114982593982881245488",
+      "outcome": "Yes",
+      "price": 0.055,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Joe Exotic \"The Tiger King\" before 2027?",
+      "token_id": "403960386643305922927596906732",
+      "outcome": "No",
+      "price": 0.945,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Derek Chauvin before 2027?",
+      "token_id": "490374553746905886904924554706",
+      "outcome": "Yes",
+      "price": 0.03,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Derek Chauvin before 2027?",
+      "token_id": "739061915119724846402634228096",
+      "outcome": "No",
+      "price": 0.97,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Antoine Massey before 2027?",
+      "token_id": "806889597930717656027277175844",
+      "outcome": "Yes",
+      "price": 0.029,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Antoine Massey before 2027?",
+      "token_id": "320146391720596704631535652732",
+      "outcome": "No",
+      "price": 0.971,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Elizabeth Holmes before 2027?",
+      "token_id": "100561432383876919947224911890",
+      "outcome": "Yes",
+      "price": 0.055,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Elizabeth Holmes before 2027?",
+      "token_id": "613505162020737146350111898022",
+      "outcome": "No",
+      "price": 0.945,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Ghislaine Maxwell before 2027?",
+      "token_id": "392549921762724889118551610456",
+      "outcome": "Yes",
+      "price": 0.0435,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Ghislaine Maxwell before 2027?",
+      "token_id": "664189160979854581137361367918",
+      "outcome": "No",
+      "price": 0.9565,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Do Kwon before 2027?",
+      "token_id": "641477531049024083399991700285",
+      "outcome": "Yes",
+      "price": 0.0275,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Do Kwon before 2027?",
+      "token_id": "935891803582806317908254852680",
+      "outcome": "No",
+      "price": 0.9725,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Stefan Brodie before 2027?",
+      "token_id": "515676168921952388768432828681",
+      "outcome": "Yes",
+      "price": 0.185,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Stefan Brodie before 2027?",
+      "token_id": "847757364951018000231242345155",
+      "outcome": "No",
+      "price": 0.815,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Donald Brodie before 2027?",
+      "token_id": "504478589280090095614185349457",
+      "outcome": "Yes",
+      "price": 0.11,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Donald Brodie before 2027?",
+      "token_id": "559409210665643133114713043943",
+      "outcome": "No",
+      "price": 0.89,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Ryan Salame before 2027?",
+      "token_id": "138817014738533615333983627463",
+      "outcome": "Yes",
+      "price": 0.13,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Ryan Salame before 2027?",
+      "token_id": "104869673577819668024517200476",
+      "outcome": "No",
+      "price": 0.87,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Keonne Rodriguez before 2027?",
+      "token_id": "133519414112019179396754975430",
+      "outcome": "Yes",
+      "price": 0.075,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Keonne Rodriguez before 2027?",
+      "token_id": "698511612714959396099558388038",
+      "outcome": "No",
+      "price": 0.925,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Martin Shkreli before 2027?",
+      "token_id": "104164365396079964916732796976",
+      "outcome": "Yes",
+      "price": 0.034,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Martin Shkreli before 2027?",
+      "token_id": "733597878545752095260698927263",
+      "outcome": "No",
+      "price": 0.966,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Nicolas Maduro before 2027?",
+      "token_id": "853670843581819513897895683611",
+      "outcome": "Yes",
+      "price": 0.035,
+      "slug": "who-will-trump-pardon-before-2027"
+    },
+    {
+      "question": "Will Trump pardon Nicolas Maduro before 2027?",
+      "token_id": "100628964596700510074164574995",
+      "outcome": "No",
+      "price": 0.965,
+      "slug": "who-will-trump-pardon-before-2027"
     }
   ],
-  "updated": "2026-10-21T20:41:35Z",
-  "total": 508
+  "updated": "2026-10-22T05:42:17Z",
+  "total": 652
 }
