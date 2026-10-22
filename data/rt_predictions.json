@@ -24185,7 +24185,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792589290",
@@ -24260,7 +24260,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792589290",
@@ -24335,7 +24335,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792589290",
@@ -24410,7 +24410,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792636419",
@@ -24632,6 +24632,231 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.77,
     "trump_coin_24h_change": -1.89,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792684164",
+    "created_at": "2026-10-22T15:49:24Z",
+    "post_time": "2026-10-22T12:44:05.069Z",
+    "post_preview": "🚨 SOUTH CAROLINA!Early Voting, in-person, is UNDERWAY NOW in the Great State of South Carolina. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0425
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9575
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.0015
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.9985
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.002
+      }
+    ],
+    "pm_price_at_signal": 0.0425,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.74,
+    "trump_coin_24h_change": -8.01,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792684164",
+    "created_at": "2026-10-22T15:49:24Z",
+    "post_time": "2026-10-22T12:43:35.298Z",
+    "post_preview": "🚨 GEORGIA!Early Voting, in-person, is UNDERWAY NOW in the Great State of Georgia. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you ",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0425
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9575
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.0015
+      },
+      {
+        "token_id": "849479213830178466395993173472",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.9985
+      },
+      {
+        "token_id": "277438787319245035462166316782",
+        "question": "Will Trump and Putin meet next in Turkey?",
+        "price_at_signal": 0.002
+      }
+    ],
+    "pm_price_at_signal": 0.0425,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.74,
+    "trump_coin_24h_change": -8.01,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792694459",
+    "created_at": "2026-10-22T18:40:59Z",
+    "post_time": "2026-10-22T18:38:23.327Z",
+    "post_preview": "Vivek Ramaswamy put up a very powerful Ad about a mother saying that her daughter, Amy Acton, who is running for Governor of Ohio, is a liar, and much worse. The Press, in a concerted and well coordin",
+    "signals": [
+      {
+        "type": "BEARISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "disaster"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BEARISH"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0365
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9635
+      },
+      {
+        "token_id": "724968364403936493142083591299",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "509272436689857897915825690329",
+        "question": "Will Trump meet with Giorgia Meloni by December 31, 2026?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "",
+        "question": "Will Trump meet with Joseph Aoun in 2026?",
+        "price_at_signal": 0.5
+      }
+    ],
+    "pm_price_at_signal": 0.0365,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.74,
+    "trump_coin_24h_change": -8.35,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,

@@ -9562,5 +9562,27 @@
     "short": 0,
     "signals": [],
     "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-10-22",
+    "posts": 37,
+    "triggered": 3,
+    "long": 3,
+    "short": 0,
+    "signals": [
+      "IRAN"
+    ],
+    "consensus": "BULLISH"
+  },
+  {
+    "date": "2026-10-22",
+    "posts": 40,
+    "triggered": 8,
+    "long": 6,
+    "short": 2,
+    "signals": [
+      "IRAN"
+    ],
+    "consensus": "BULLISH"
   }
 ]

@@ -1,16 +1,18 @@
 {
   "date": "2026-10-22",
-  "generated_at": "2026-10-22T11:45:33Z",
-  "posts_today": 13,
+  "generated_at": "2026-10-22T20:45:33Z",
+  "posts_today": 40,
   "latest_post": {
-    "time": "2026-10-22T10:18",
-    "content_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117484047984542655"
+    "time": "2026-10-22T18:38",
+    "content_preview": "Vivek Ramaswamy put up a very powerful Ad about a mother saying that her daughter, Amy Acton, who is"
   },
-  "signals_detected": [],
-  "models_triggered": 3,
+  "signals_detected": [
+    "IRAN"
+  ],
+  "models_triggered": 8,
   "direction_summary": {
-    "LONG": 3,
-    "SHORT": 0,
+    "LONG": 6,
+    "SHORT": 2,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -19,20 +21,42 @@
     "rate": 17.3
   },
   "sp500_latest": {
-    "date": "2026-10-21",
-    "close": 7757.17
+    "date": "2026-10-22",
+    "close": 7663.43
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-10-22\nPosts today: 13 | Models triggered: 3\nSignals: None\nConsensus: 3 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: RT: https://truthsocial.com/users/realDonaldTrump/statuses/117484047984542655",
-    "zh": "川普密碼每日報告 -- 2026-10-22\n今日推文: 13 篇 | 觸發模型: 3 組\n偵測信號: 無\n共識方向: 3 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: RT: https://truthsocial.com/users/realDonaldTrump/statuses/117484047984542655",
-    "ja": "トランプ・コード日次レポート -- 2026-10-22\n本日の投稿: 13件 | トリガーモデル: 3組\n検出シグナル: なし\nコンセンサス: 3組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: RT: https://truthsocial.com/users/realDonaldTrump/statuses/117484047984542655"
+    "en": "Trump Code Daily Report -- 2026-10-22\nPosts today: 40 | Models triggered: 8\nSignals: IRAN\nConsensus: 6 LONG vs 2 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: Vivek Ramaswamy put up a very powerful Ad about a mother saying that her daughter, Amy Acton, who is",
+    "zh": "川普密碼每日報告 -- 2026-10-22\n今日推文: 40 篇 | 觸發模型: 8 組\n偵測信號: 伊朗\n共識方向: 6 組看多 vs 2 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: Vivek Ramaswamy put up a very powerful Ad about a mother saying that her daughter, Amy Acton, who is",
+    "ja": "トランプ・コード日次レポート -- 2026-10-22\n本日の投稿: 40件 | トリガーモデル: 8組\n検出シグナル: イラン\nコンセンサス: 6組ロング vs 2組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: Vivek Ramaswamy put up a very powerful Ad about a mother saying that her daughter, Amy Acton, who is"
   },
   "triggered_rules_sample": [
+    {
+      "features": [
+        "both_tariff_and_deal",
+        "kw_disaster",
+        "kw_jobs"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
     {
       "features": [
         "kw_deal_2plus",
         "kw_dow_2plus",
         "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "open_dow",
+        "open_trade",
+        "questions_yes"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -54,6 +78,39 @@
       "features": [
         "kw_dow_2plus",
         "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "both_tariff_and_deal",
+        "kw_disaster",
+        "kw_incredible"
+      ],
+      "direction": "SHORT",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_interest_rate",
+        "questions_yes"
       ],
       "direction": "LONG",
       "hold": 2,
