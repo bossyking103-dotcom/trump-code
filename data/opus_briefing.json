@@ -1,12 +1,12 @@
 {
   "date": "2026-10-23",
-  "prepared_at": "2026-10-23T17:45:51Z",
+  "prepared_at": "2026-10-23T20:45:37Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 9,
-    "latest": "Heading to Florida! LIVE Coverage of the Event will be on Right Side Broadcasting Network (RSBN). They do a fantastic job, especially their interviewing of the Patriots standing on line. Tremendous Cr",
+    "count": 10,
+    "latest": "The Power of Naming: How Trump Uses Names to Reaffirm American Identity: https://stonezone.com/the-power-of-naming-how-trump-uses-names-to-reaffirm-american-identity/",
     "earliest_time": "2026-10-23T03:20:35.136Z",
-    "latest_time": "2026-10-23T16:58:03.326Z",
+    "latest_time": "2026-10-23T18:09:23.522Z",
     "sample": [
       {
         "time": "03:20",
@@ -29,20 +29,24 @@
         "text": "The Reflecting Pool is 85% full, and looking really good! It hasn't worked properly since 1922, but will now. We have cameras set up to stop any potential Vandalism, including the grassed areas, which were destroyed by chemical poisoning with a large, and very inappropriate, phrase. The grass was co"
       },
       {
-        "time": "13:42",
-        "text": "https://www.youtube.com/live/_a7iclXCcPM?si=0ut11EXqxw1ZvykV"
-      },
-      {
-        "time": "13:44",
-        "text": "A healthy person has a thousand dreams. A sick person has only one (to get better)! President DONALD J. TRUMP"
-      },
-      {
         "time": "16:33",
         "text": "The judge in the Charlie Kirk case is doing a terrible job! This case should be tried within a month, not three years — and it should be over with! The judge is desecrating the memory of the Great Charlie Kirk, while taking forever to ask questions that people already know the answer to. The whole C"
       },
       {
         "time": "16:58",
         "text": "Heading to Florida! LIVE Coverage of the Event will be on Right Side Broadcasting Network (RSBN). They do a fantastic job, especially their interviewing of the Patriots standing on line. Tremendous Crowd, and Great Excitement. The Republican Party is \"HOTTER\" than it's ever been. MAKE AMERICA GREAT "
+      },
+      {
+        "time": "17:42",
+        "text": "https://www.youtube.com/live/_a7iclXCcPM?si=0ut11EXqxw1ZvykV"
+      },
+      {
+        "time": "17:44",
+        "text": "A healthy person has a thousand dreams. A sick person has only one (to get better)! President DONALD J. TRUMP"
+      },
+      {
+        "time": "18:09",
+        "text": "The Power of Naming: How Trump Uses Names to Reaffirm American Identity: https://stonezone.com/the-power-of-naming-how-trump-uses-names-to-reaffirm-american-identity/"
       }
     ]
   },
@@ -348,11 +352,22 @@
   "evolution_latest": {
     "date": "2026-10-23",
     "crossover": 16,
-    "mutation": 12,
+    "mutation": 15,
     "distill": 16,
-    "total_new": 44,
+    "total_new": 47,
     "total_rules_after": 600,
     "top_3": [
+      {
+        "features": [
+          "open_energy",
+          "questions_yes",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 1,
+        "score": 93.8,
+        "origin": "crossover"
+      },
       {
         "features": [
           "is_friday",
@@ -365,24 +380,13 @@
       },
       {
         "features": [
-          "kw_interest_rate",
-          "kw_economy"
+          "open_china",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "distilled"
-      },
-      {
-        "features": [
-          "kw_thank_you_for_your_attention",
-          "kw_beautiful",
-          "is_friday"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 88.9,
-        "origin": "crossover"
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
       }
     ]
   },
