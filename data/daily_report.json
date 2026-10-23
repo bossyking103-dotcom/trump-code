@@ -1,18 +1,19 @@
 {
-  "date": "2026-10-22",
-  "generated_at": "2026-10-22T20:45:33Z",
-  "posts_today": 40,
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T11:45:31Z",
+  "posts_today": 5,
   "latest_post": {
-    "time": "2026-10-22T18:38",
-    "content_preview": "Vivek Ramaswamy put up a very powerful Ad about a mother saying that her daughter, Amy Acton, who is"
+    "time": "2026-10-23T04:41",
+    "content_preview": "The Reflecting Pool is 85% full, and looking really good! It hasn't worked properly since 1922, but "
   },
   "signals_detected": [
-    "IRAN"
+    "DEAL",
+    "DEAL_ONLY"
   ],
-  "models_triggered": 8,
+  "models_triggered": 22,
   "direction_summary": {
-    "LONG": 6,
-    "SHORT": 2,
+    "LONG": 21,
+    "SHORT": 1,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -25,19 +26,19 @@
     "close": 7663.43
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-10-22\nPosts today: 40 | Models triggered: 8\nSignals: IRAN\nConsensus: 6 LONG vs 2 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: Vivek Ramaswamy put up a very powerful Ad about a mother saying that her daughter, Amy Acton, who is",
-    "zh": "川普密碼每日報告 -- 2026-10-22\n今日推文: 40 篇 | 觸發模型: 8 組\n偵測信號: 伊朗\n共識方向: 6 組看多 vs 2 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: Vivek Ramaswamy put up a very powerful Ad about a mother saying that her daughter, Amy Acton, who is",
-    "ja": "トランプ・コード日次レポート -- 2026-10-22\n本日の投稿: 40件 | トリガーモデル: 8組\n検出シグナル: イラン\nコンセンサス: 6組ロング vs 2組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: Vivek Ramaswamy put up a very powerful Ad about a mother saying that her daughter, Amy Acton, who is"
+    "en": "Trump Code Daily Report -- 2026-10-23\nPosts today: 5 | Models triggered: 22\nSignals: DEAL, DEAL_ONLY\nConsensus: 21 LONG vs 1 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: The Reflecting Pool is 85% full, and looking really good! It hasn't worked properly since 1922, but ",
+    "zh": "川普密碼每日報告 -- 2026-10-23\n今日推文: 5 篇 | 觸發模型: 22 組\n偵測信號: Deal, 只有Deal沒有關稅\n共識方向: 21 組看多 vs 1 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: The Reflecting Pool is 85% full, and looking really good! It hasn't worked properly since 1922, but ",
+    "ja": "トランプ・コード日次レポート -- 2026-10-23\n本日の投稿: 5件 | トリガーモデル: 22組\n検出シグナル: ディール, Dealのみ（関税無し）\nコンセンサス: 21組ロング vs 1組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: The Reflecting Pool is 85% full, and looking really good! It hasn't worked properly since 1922, but "
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "both_tariff_and_deal",
-        "kw_disaster",
+        "kw_deal_2plus",
+        "kw_economy",
         "kw_jobs"
       ],
-      "direction": "SHORT",
-      "hold": 3,
+      "direction": "LONG",
+      "hold": 2,
       "train_wr": 100.0,
       "test_wr": 100.0
     },
@@ -54,9 +55,85 @@
     },
     {
       "features": [
-        "open_dow",
-        "open_trade",
-        "questions_yes"
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_europe",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal_2plus",
+        "kw_economy",
+        "kw_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_china",
+        "kw_economy"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_economy",
+        "open_china"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_beautiful",
+        "kw_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_economy",
+        "open_tariffs"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -76,8 +153,9 @@
     },
     {
       "features": [
-        "kw_dow_2plus",
-        "open_interest_rate"
+        "is_friday",
+        "kw_beautiful",
+        "kw_corrupt"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -86,9 +164,9 @@
     },
     {
       "features": [
-        "kw_dow_2plus",
-        "open_dow",
-        "open_interest_rate"
+        "kw_executive_order",
+        "kw_jobs",
+        "kw_thank_you_for_your_attention"
       ],
       "direction": "LONG",
       "hold": 2,
@@ -97,9 +175,31 @@
     },
     {
       "features": [
-        "both_tariff_and_deal",
-        "kw_disaster",
-        "kw_incredible"
+        "is_friday",
+        "kw_thank_you_for_your_attention",
+        "open_china"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_beautiful",
+        "open_tariffs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_america_first",
+        "kw_beautiful",
+        "kw_terrible"
       ],
       "direction": "SHORT",
       "hold": 3,
@@ -108,9 +208,41 @@
     },
     {
       "features": [
-        "kw_dow_2plus",
-        "kw_interest_rate",
-        "questions_yes"
+        "kw_deal",
+        "kw_perfect"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_deal",
+        "kw_perfect",
+        "kw_thank_you_for_your_attention"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_beautiful",
+        "open_jobs"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "is_friday",
+        "kw_economy",
+        "open_trade"
       ],
       "direction": "LONG",
       "hold": 2,

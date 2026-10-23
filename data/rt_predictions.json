@@ -24485,7 +24485,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792664574",
@@ -24560,7 +24560,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792664574",
@@ -24635,7 +24635,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792684164",
@@ -24857,6 +24857,2265 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.74,
     "trump_coin_24h_change": -8.35,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792705356",
+    "created_at": "2026-10-22T21:42:36Z",
+    "post_time": "2026-10-22T21:31:52.168Z",
+    "post_preview": "🚨 CALIFORNIA! Early Voting, in-person, is UNDERWAY NOW in the Great State of California. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyo",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.39
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.61
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.52
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.74,
+    "trump_coin_24h_change": -6.52,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792705356",
+    "created_at": "2026-10-22T21:42:36Z",
+    "post_time": "2026-10-22T21:30:43.504Z",
+    "post_preview": "🚨 ARKANSAS! Early Voting, in-person, is UNDERWAY NOW in the Great State of Arkansas. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone y",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.39
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.61
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.52
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.74,
+    "trump_coin_24h_change": -6.52,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792707201",
+    "created_at": "2026-10-22T22:13:21Z",
+    "post_time": "2026-10-22T22:11:42.271Z",
+    "post_preview": "🚨 IDAHO! Early Voting, in-person, is UNDERWAY NOW in the Great State of Idaho. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you kno",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.35
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.65
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.505
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.13,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792708122",
+    "created_at": "2026-10-22T22:28:42Z",
+    "post_time": "2026-10-22T22:21:02.095Z",
+    "post_preview": "🚨 MISSOURI! Early Voting, in-person, is UNDERWAY NOW in the Great State of Missouri. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone y",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.345
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.655
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.51
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -5.97,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792708122",
+    "created_at": "2026-10-22T22:28:42Z",
+    "post_time": "2026-10-22T22:19:57.548Z",
+    "post_preview": "🚨 MISSISSIPPI! Early Voting, in-person, is UNDERWAY NOW in the Great State of Mississippi. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get ever",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.345
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.655
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.51
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -5.97,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792708122",
+    "created_at": "2026-10-22T22:28:42Z",
+    "post_time": "2026-10-22T22:18:13.029Z",
+    "post_preview": "🚨 MARYLAND! Early Voting, in-person, is UNDERWAY NOW in the Great State of Maryland. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone y",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.345
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.655
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.51
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -5.97,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792708122",
+    "created_at": "2026-10-22T22:28:42Z",
+    "post_time": "2026-10-22T22:17:10.127Z",
+    "post_preview": "🚨 LOUISIANA! Early Voting, in-person, is UNDERWAY NOW in the Great State of Louisiana. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.345
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.655
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.51
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -5.97,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792708122",
+    "created_at": "2026-10-22T22:28:42Z",
+    "post_time": "2026-10-22T22:15:12.319Z",
+    "post_preview": "🚨 IOWA! Early Voting, in-person, is UNDERWAY NOW in the Great State of Iowa. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know ",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.345
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.655
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.51
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -5.97,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792708122",
+    "created_at": "2026-10-22T22:28:42Z",
+    "post_time": "2026-10-22T22:14:04.323Z",
+    "post_preview": "🚨 INDIANA! Early Voting, in-person, is UNDERWAY NOW in the Great State of Indiana. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.345
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.655
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.51
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -5.97,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792708122",
+    "created_at": "2026-10-22T22:28:42Z",
+    "post_time": "2026-10-22T22:12:56.966Z",
+    "post_preview": "🚨 ILLINOIS! Early Voting, in-person, is UNDERWAY NOW in the Great State of Illinois. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone y",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.345
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.655
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.51
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -5.97,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792708736",
+    "created_at": "2026-10-22T22:38:56Z",
+    "post_time": "2026-10-22T22:34:39.652Z",
+    "post_preview": "🚨 NORTH DAKOTA! Early Voting, in-person, is UNDERWAY NOW in the Great State of North Dakota. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get ev",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.345
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.655
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.51
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.01,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792708736",
+    "created_at": "2026-10-22T22:38:56Z",
+    "post_time": "2026-10-22T22:33:23.204Z",
+    "post_preview": "🚨 NORTH CAROLINA! Early Voting, in-person, is UNDERWAY NOW in the Great State of North Carolina. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and ge",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.345
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.655
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.51
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.01,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792708736",
+    "created_at": "2026-10-22T22:38:56Z",
+    "post_time": "2026-10-22T22:31:55.362Z",
+    "post_preview": "🚨 NEW MEXICO! Early Voting, in-person, is UNDERWAY NOW in the Great State of New Mexico. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyo",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.345
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.655
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.51
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.01,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792708736",
+    "created_at": "2026-10-22T22:38:56Z",
+    "post_time": "2026-10-22T22:29:41.050Z",
+    "post_preview": "🚨 NEBRASKA! Early Voting, in-person, is UNDERWAY NOW in the Great State of Nebraska. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone y",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.345
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.655
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.51
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.01,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792708736",
+    "created_at": "2026-10-22T22:38:56Z",
+    "post_time": "2026-10-22T22:28:03.392Z",
+    "post_preview": "🚨 MONTANA! Early Voting, in-person, is UNDERWAY NOW in the Great State of Montana. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.345
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.655
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.51
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.01,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792709350",
+    "created_at": "2026-10-22T22:49:10Z",
+    "post_time": "2026-10-22T22:43:25.451Z",
+    "post_preview": "🚨 WASHINGTON! Early Voting, in-person, is UNDERWAY NOW in the Great State of Washington. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyo",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.23
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.77
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.45
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.03,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792709350",
+    "created_at": "2026-10-22T22:49:10Z",
+    "post_time": "2026-10-22T22:42:25.563Z",
+    "post_preview": "🚨 VIRGINIA! Early Voting, in-person, is UNDERWAY NOW in the Great Commonwealth of Virginia. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get eve",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.23
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.77
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.45
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.03,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792709350",
+    "created_at": "2026-10-22T22:49:10Z",
+    "post_time": "2026-10-22T22:41:19.329Z",
+    "post_preview": "🚨 UTAH! Early Voting, in-person, is UNDERWAY NOW in the Great State of Utah. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know ",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.23
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.77
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.45
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.03,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792709350",
+    "created_at": "2026-10-22T22:49:10Z",
+    "post_time": "2026-10-22T22:40:13.973Z",
+    "post_preview": "🚨 TENNESSEE! Early Voting, in-person, is UNDERWAY NOW in the Great State of Tennessee. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.23
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.77
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.45
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.03,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792709350",
+    "created_at": "2026-10-22T22:49:10Z",
+    "post_time": "2026-10-22T22:39:07.822Z",
+    "post_preview": "🚨 SOUTH DAKOTA! Early Voting, in-person, is UNDERWAY NOW in the Great State of South Dakota. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get ev",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.23
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.77
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.45
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.03,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792709350",
+    "created_at": "2026-10-22T22:49:10Z",
+    "post_time": "2026-10-22T22:37:58.140Z",
+    "post_preview": "🚨 PENNSYLVANIA! Early Voting, in-person, is UNDERWAY NOW in the Great Commonwealth of Pennsylvania. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.23
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.77
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.45
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.03,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792709350",
+    "created_at": "2026-10-22T22:49:10Z",
+    "post_time": "2026-10-22T22:35:59.981Z",
+    "post_preview": "🚨 OHIO! Early Voting, in-person, is UNDERWAY NOW in the Great State of Ohio. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know ",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.23
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.77
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.45
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.03,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792709659",
+    "created_at": "2026-10-22T22:54:19Z",
+    "post_time": "2026-10-22T22:47:59.830Z",
+    "post_preview": "🚨 WYOMING! Early Voting, in-person, is UNDERWAY NOW in the Great State of Wyoming. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.33
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.67
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.45
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.09,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792709659",
+    "created_at": "2026-10-22T22:54:19Z",
+    "post_time": "2026-10-22T22:46:40.661Z",
+    "post_preview": "🚨 WISCONSIN! Early Voting, in-person, is UNDERWAY NOW in the Great State of Wisconsin. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.33
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.67
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.45
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.09,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792709659",
+    "created_at": "2026-10-22T22:54:19Z",
+    "post_time": "2026-10-22T22:45:35.125Z",
+    "post_preview": "🚨 WEST VIRGINIA! Early Voting, in-person, is UNDERWAY NOW in the Great State of West Virginia. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get ",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.33
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.67
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.45
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -6.09,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792710274",
+    "created_at": "2026-10-22T23:04:34Z",
+    "post_time": "2026-10-22T22:55:24.185Z",
+    "post_preview": "🚨 ALASKA! Early Voting, in-person, is UNDERWAY NOW in the Great State of Alaska. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you k",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.315
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.685
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.445
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.73,
+    "trump_coin_24h_change": -5.97,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792726112",
+    "created_at": "2026-10-23T03:28:32Z",
+    "post_time": "2026-10-23T03:23:35.040Z",
+    "post_preview": "It is my Great Honor to endorse America First Patriot, Max Engling, who is running to be the next Secretary of State of the wonderful State of Indiana!A lifelong Hoosier, very successful Civic Leader,",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.9955
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.0045
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.9995
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.77,
+    "trump_coin_24h_change": -1.0,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792726112",
+    "created_at": "2026-10-23T03:28:32Z",
+    "post_time": "2026-10-23T03:22:05.131Z",
+    "post_preview": "The New York Times got caught! They used a Company, Wedgewood Polls, that ADMITTED that the Poll Numbers they published were made up and FAKE. This is what I've had to deal with, right from the beginn",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.9955
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.0045
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.9995
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.77,
+    "trump_coin_24h_change": -1.0,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792726112",
+    "created_at": "2026-10-23T03:28:32Z",
+    "post_time": "2026-10-23T03:20:35.136Z",
+    "post_preview": "It was just revealed that Ilhan Omar's name is not Ilhan Omar, the one she used to get elected and sworn into Congress, but rather, it's an entirely different name, Ilhan Nur Said Elmi, and that her l",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.9955
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.0045
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.9995
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.77,
+    "trump_coin_24h_change": -1.0,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792727718",
+    "created_at": "2026-10-23T03:55:18Z",
+    "post_time": "2026-10-23T03:41:13.496Z",
+    "post_preview": "Senator Roger Marshall of Kansas has done an incredible job in representing his Great State! Because of him, working together with the Trump Administration, Bombardier is investing 270 MILLION DOLLARS",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "deal"
+        ],
+        "method": "keyword"
+      },
+      {
+        "type": "BULLISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL",
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.038
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.962
+      },
+      {
+        "token_id": "276005868059094327601003722562",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 1.0
+      },
+      {
+        "token_id": "811873963546612769804659558284",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 0.0
+      },
+      {
+        "token_id": "217424576557537536482320946575",
+        "question": "Will Trump say \"Hell\" 15+ times during his Midterm Rally in Iowa?",
+        "price_at_signal": 1.0
+      }
+    ],
+    "pm_price_at_signal": 0.038,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.78,
+    "trump_coin_24h_change": -0.75,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,

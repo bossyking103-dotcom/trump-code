@@ -1,133 +1,92 @@
 {
-  "date": "2026-10-22",
-  "prepared_at": "2026-10-22T20:45:42Z",
+  "date": "2026-10-23",
+  "prepared_at": "2026-10-23T11:45:36Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 40,
-    "latest": "Vivek Ramaswamy put up a very powerful Ad about a mother saying that her daughter, Amy Acton, who is running for Governor of Ohio, is a liar, and much worse. The Press, in a concerted and well coordin",
-    "earliest_time": "2026-10-22T02:27:18.434Z",
-    "latest_time": "2026-10-22T18:38:23.327Z",
+    "count": 5,
+    "latest": "The Reflecting Pool is 85% full, and looking really good! It hasn't worked properly since 1922, but will now. We have cameras set up to stop any potential Vandalism, including the grassed areas, which",
+    "earliest_time": "2026-10-23T03:20:35.136Z",
+    "latest_time": "2026-10-23T04:41:40.046Z",
     "sample": [
       {
-        "time": "14:50",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117485115943802855"
+        "time": "03:20",
+        "text": "It was just revealed that Ilhan Omar's name is not Ilhan Omar, the one she used to get elected and sworn into Congress, but rather, it's an entirely different name, Ilhan Nur Said Elmi, and that her last name is, incredibly, also the exact name of her brother, Ahmed Nur Said Elmi, the person they sa"
       },
       {
-        "time": "14:52",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117485125160894590"
+        "time": "03:22",
+        "text": "The New York Times got caught! They used a Company, Wedgewood Polls, that ADMITTED that the Poll Numbers they published were made up and FAKE. This is what I've had to deal with, right from the beginning! Our powerful Lawsuit against them is getting stronger and stronger everyday. Everything about T"
       },
       {
-        "time": "14:56",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117485139748807928"
+        "time": "03:23",
+        "text": "It is my Great Honor to endorse America First Patriot, Max Engling, who is running to be the next Secretary of State of the wonderful State of Indiana!A lifelong Hoosier, very successful Civic Leader, and former Staffer to GREAT U.S. Senator Jim Banks, Max has dedicated his life to serving the Commu"
       },
       {
-        "time": "15:18",
-        "text": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117485228002980983"
+        "time": "03:41",
+        "text": "Senator Roger Marshall of Kansas has done an incredible job in representing his Great State! Because of him, working together with the Trump Administration, Bombardier is investing 270 MILLION DOLLARS, creating THOUSANDS of American Jobs in Kansas, Texas, and Indiana.Senator Marshall, together with "
       },
       {
-        "time": "15:40",
-        "text": "Iran is doing everything they can to drive up the price of Oil prior to the U.S. Midterm Election. They are even making up fake hits, mines, and everything else, because more Oil is coming through the Hormuz Strait now than it did even prior to the beginning of the Conflict. They continue to kill pr"
-      },
-      {
-        "time": "15:41",
-        "text": "THE WALL STREET JOURNAL: \"More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War.\""
-      },
-      {
-        "time": "16:22",
-        "text": "While listening to our National Anthem, LeBron James disrespects our Country! I said right from the beginning that he's no good, a TOTAL DISGRACE. LeBron James should apologize to all of those Great American Warriors and Heroes who died for the American Flag, and all that our Country stands for! Pre"
-      },
-      {
-        "time": "18:03",
-        "text": "So sad to see the beloved Central Park Horse-drawn Carriage Industry ending after over a Century, based largely on one tragic accident. When there is a car accident in the area, of which there are many, they don't stop cars from entering the Park. So why would they stop the Carriages? It was a Great"
-      },
-      {
-        "time": "18:04",
-        "text": "The Horse-drawn Carriage in New York City is a quintessential New York experience. So sad that, for political reasons, we will see it go! President DONALD J. TRUMP"
-      },
-      {
-        "time": "18:38",
-        "text": "Vivek Ramaswamy put up a very powerful Ad about a mother saying that her daughter, Amy Acton, who is running for Governor of Ohio, is a liar, and much worse. The Press, in a concerted and well coordinated attack, is trying to get Vivek Ramaswamy to \"take down the Ad.\" Frankly, anybody whose mother s"
+        "time": "04:41",
+        "text": "The Reflecting Pool is 85% full, and looking really good! It hasn't worked properly since 1922, but will now. We have cameras set up to stop any potential Vandalism, including the grassed areas, which were destroyed by chemical poisoning with a large, and very inappropriate, phrase. The grass was co"
       }
     ]
   },
   "keyword_signals": [
-    "IRAN"
+    "DEAL",
+    "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_36plus": true,
-    "avg_len_long": true,
+    "posts_1_5": true,
+    "avg_len_very_long": true,
     "caps_high": true,
-    "excl_normal": true,
-    "questions_yes": true,
+    "excl_heavy": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_deal": true,
+    "kw_deal_2plus": true,
     "kw_immediately": true,
-    "kw_immediately_2plus": true,
-    "pre_immediately": true,
-    "kw_russia": true,
-    "pre_russia": true,
-    "kw_ukraine": true,
-    "pre_ukraine": true,
-    "kw_iran": true,
-    "kw_iran_2plus": true,
-    "pre_iran": true,
-    "open_iran": true,
+    "kw_ban": true,
+    "kw_india": true,
+    "kw_india_2plus": true,
     "kw_dow": true,
-    "kw_dow_2plus": true,
-    "pre_dow": true,
-    "open_dow": true,
-    "kw_oil": true,
-    "kw_oil_2plus": true,
-    "pre_oil": true,
-    "open_oil": true,
+    "kw_economy": true,
     "kw_jobs": true,
+    "kw_billion": true,
     "kw_great": true,
     "kw_great_2plus": true,
-    "pre_great": true,
-    "open_great": true,
     "kw_incredible": true,
+    "kw_incredible_2plus": true,
+    "kw_beautiful": true,
     "kw_amazing": true,
-    "kw_fantastic": true,
-    "kw_fantastic_2plus": true,
-    "pre_fantastic": true,
-    "open_fantastic": true,
     "kw_wonderful": true,
     "kw_fake": true,
     "kw_fake_2plus": true,
-    "open_fake": true,
-    "kw_horrible": true,
-    "open_horrible": true,
-    "kw_disaster": true,
-    "open_disaster": true,
-    "kw_disgrace": true,
-    "open_disgrace": true,
+    "kw_elon": true,
     "kw_maga": true,
-    "kw_maga_2plus": true,
-    "pre_maga": true,
-    "kw_president_djt": true,
-    "pre_president_djt": true,
+    "kw_america_first": true,
+    "kw_golden_age": true,
+    "kw_thank_you_for_your_attention": true,
+    "kw_thank_you_for_your_attention_2plus": true,
     "kw_never_let_you_down": true,
-    "kw_never_let_you_down_2plus": true,
-    "pre_never_let_you_down": true,
     "kw_complete_and_total": true,
-    "kw_complete_and_total_2plus": true,
-    "pre_complete_and_total": true,
-    "volume_spike": true
+    "is_friday": true,
+    "volume_drop": true,
+    "deal_without_tariff": true,
+    "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 8,
-    "long": 6,
-    "short": 2,
+    "total": 22,
+    "long": 21,
+    "short": 1,
     "sample": [
       {
-        "id": "R0001",
+        "id": "R0004",
         "features": [
-          "both_tariff_and_deal",
-          "kw_disaster",
+          "kw_deal_2plus",
+          "kw_economy",
           "kw_jobs"
         ],
-        "direction": "SHORT",
-        "hold": 3,
+        "direction": "LONG",
+        "hold": 2,
         "train_wr": 100.0,
         "test_wr": 100.0,
         "score": 100.0
@@ -146,11 +105,11 @@
         "score": 100.0
       },
       {
-        "id": "R0008",
+        "id": "R0006",
         "features": [
-          "open_dow",
-          "open_trade",
-          "questions_yes"
+          "kw_deal",
+          "kw_perfect",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -159,10 +118,35 @@
         "score": 100.0
       },
       {
-        "id": "R0033",
+        "id": "R0007",
         "features": [
           "kw_deal_2plus",
-          "kw_dow_2plus",
+          "kw_europe",
+          "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0011",
+        "features": [
+          "kw_deal",
+          "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0019",
+        "features": [
+          "kw_deal_2plus",
+          "kw_economy",
           "kw_jobs"
         ],
         "direction": "LONG",
@@ -172,10 +156,11 @@
         "score": 100.0
       },
       {
-        "id": "R0046",
+        "id": "R0020",
         "features": [
-          "kw_dow_2plus",
-          "open_interest_rate"
+          "is_friday",
+          "kw_china",
+          "kw_economy"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -184,11 +169,11 @@
         "score": 100.0
       },
       {
-        "id": "R0050",
+        "id": "R0021",
         "features": [
-          "kw_dow_2plus",
-          "open_dow",
-          "open_interest_rate"
+          "is_friday",
+          "kw_economy",
+          "open_china"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -197,24 +182,24 @@
         "score": 100.0
       },
       {
-        "id": "R0084",
+        "id": "R0028",
         "features": [
-          "both_tariff_and_deal",
-          "kw_disaster",
-          "kw_incredible"
+          "is_friday",
+          "kw_beautiful",
+          "kw_interest_rate"
         ],
-        "direction": "SHORT",
-        "hold": 3,
+        "direction": "LONG",
+        "hold": 2,
         "train_wr": 100.0,
         "test_wr": 100.0,
         "score": 100.0
       },
       {
-        "id": "R0086",
+        "id": "R0030",
         "features": [
-          "kw_dow_2plus",
-          "kw_interest_rate",
-          "questions_yes"
+          "is_friday",
+          "kw_economy",
+          "open_tariffs"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -337,28 +322,17 @@
     "signal_adjusted": 0
   },
   "evolution_latest": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "open_energy"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 94.1,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_economy",
-          "open_thank_you_for_your_attention",
-          "kw_inflation"
+          "is_friday",
+          "kw_tariffs_2plus"
         ],
         "direction": "LONG",
         "hold": 3,
@@ -374,6 +348,18 @@
         "hold": 3,
         "score": 93.8,
         "origin": "distilled"
+      },
+      {
+        "features": [
+          "open_jobs",
+          "kw_beautiful",
+          "kw_deal",
+          "kw_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 90.0,
+        "origin": "crossover"
       }
     ]
   },
