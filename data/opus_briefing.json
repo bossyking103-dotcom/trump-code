@@ -1,12 +1,12 @@
 {
   "date": "2026-10-23",
-  "prepared_at": "2026-10-23T11:45:36Z",
+  "prepared_at": "2026-10-23T17:45:51Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 5,
-    "latest": "The Reflecting Pool is 85% full, and looking really good! It hasn't worked properly since 1922, but will now. We have cameras set up to stop any potential Vandalism, including the grassed areas, which",
+    "count": 9,
+    "latest": "Heading to Florida! LIVE Coverage of the Event will be on Right Side Broadcasting Network (RSBN). They do a fantastic job, especially their interviewing of the Patriots standing on line. Tremendous Cr",
     "earliest_time": "2026-10-23T03:20:35.136Z",
-    "latest_time": "2026-10-23T04:41:40.046Z",
+    "latest_time": "2026-10-23T16:58:03.326Z",
     "sample": [
       {
         "time": "03:20",
@@ -27,6 +27,22 @@
       {
         "time": "04:41",
         "text": "The Reflecting Pool is 85% full, and looking really good! It hasn't worked properly since 1922, but will now. We have cameras set up to stop any potential Vandalism, including the grassed areas, which were destroyed by chemical poisoning with a large, and very inappropriate, phrase. The grass was co"
+      },
+      {
+        "time": "13:42",
+        "text": "https://www.youtube.com/live/_a7iclXCcPM?si=0ut11EXqxw1ZvykV"
+      },
+      {
+        "time": "13:44",
+        "text": "A healthy person has a thousand dreams. A sick person has only one (to get better)! President DONALD J. TRUMP"
+      },
+      {
+        "time": "16:33",
+        "text": "The judge in the Charlie Kirk case is doing a terrible job! This case should be tried within a month, not three years — and it should be over with! The judge is desecrating the memory of the Great Charlie Kirk, while taking forever to ask questions that people already know the answer to. The whole C"
+      },
+      {
+        "time": "16:58",
+        "text": "Heading to Florida! LIVE Coverage of the Event will be on Right Side Broadcasting Network (RSBN). They do a fantastic job, especially their interviewing of the Patriots standing on line. Tremendous Crowd, and Great Excitement. The Republican Party is \"HOTTER\" than it's ever been. MAKE AMERICA GREAT "
       }
     ]
   },
@@ -35,10 +51,11 @@
     "DEAL_ONLY"
   ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_very_long": true,
+    "posts_6_10": true,
+    "avg_len_long": true,
     "caps_high": true,
     "excl_heavy": true,
+    "questions_yes": true,
     "has_night": true,
     "heavy_night": true,
     "kw_deal": true,
@@ -53,13 +70,20 @@
     "kw_billion": true,
     "kw_great": true,
     "kw_great_2plus": true,
+    "open_great": true,
+    "kw_tremendous": true,
+    "open_tremendous": true,
     "kw_incredible": true,
     "kw_incredible_2plus": true,
     "kw_beautiful": true,
     "kw_amazing": true,
+    "kw_fantastic": true,
+    "open_fantastic": true,
     "kw_wonderful": true,
     "kw_fake": true,
     "kw_fake_2plus": true,
+    "kw_terrible": true,
+    "open_terrible": true,
     "kw_elon": true,
     "kw_maga": true,
     "kw_america_first": true,
@@ -74,8 +98,8 @@
     "deal_no_tariff": true
   },
   "triggered_rules": {
-    "total": 22,
-    "long": 21,
+    "total": 41,
+    "long": 40,
     "short": 1,
     "sample": [
       {
@@ -131,10 +155,62 @@
         "score": 100.0
       },
       {
+        "id": "R0009",
+        "features": [
+          "kw_economy",
+          "kw_interest_rate",
+          "questions_yes"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0010",
+        "features": [
+          "excl_heavy",
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
         "id": "R0011",
         "features": [
           "kw_deal",
           "kw_perfect"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0014",
+        "features": [
+          "is_friday",
+          "kw_interest_rate",
+          "kw_tremendous"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0015",
+        "features": [
+          "is_friday",
+          "kw_interest_rate",
+          "questions_yes"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -151,58 +227,6 @@
         ],
         "direction": "LONG",
         "hold": 3,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0020",
-        "features": [
-          "is_friday",
-          "kw_china",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0021",
-        "features": [
-          "is_friday",
-          "kw_economy",
-          "open_china"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0028",
-        "features": [
-          "is_friday",
-          "kw_beautiful",
-          "kw_interest_rate"
-        ],
-        "direction": "LONG",
-        "hold": 2,
-        "train_wr": 100.0,
-        "test_wr": 100.0,
-        "score": 100.0
-      },
-      {
-        "id": "R0030",
-        "features": [
-          "is_friday",
-          "kw_economy",
-          "open_tariffs"
-        ],
-        "direction": "LONG",
-        "hold": 2,
         "train_wr": 100.0,
         "test_wr": 100.0,
         "score": 100.0
@@ -324,21 +348,11 @@
   "evolution_latest": {
     "date": "2026-10-23",
     "crossover": 16,
-    "mutation": 14,
+    "mutation": 12,
     "distill": 16,
-    "total_new": 46,
+    "total_new": 44,
     "total_rules_after": 600,
     "top_3": [
-      {
-        "features": [
-          "is_friday",
-          "kw_tariffs_2plus"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 93.8,
-        "origin": "crossover"
-      },
       {
         "features": [
           "is_friday",
@@ -351,14 +365,23 @@
       },
       {
         "features": [
-          "open_jobs",
-          "kw_beautiful",
-          "kw_deal",
-          "kw_thank_you_for_your_attention"
+          "kw_interest_rate",
+          "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 2,
+        "hold": 3,
         "score": 90.0,
+        "origin": "distilled"
+      },
+      {
+        "features": [
+          "kw_thank_you_for_your_attention",
+          "kw_beautiful",
+          "is_friday"
+        ],
+        "direction": "LONG",
+        "hold": 3,
+        "score": 88.9,
         "origin": "crossover"
       }
     ]
