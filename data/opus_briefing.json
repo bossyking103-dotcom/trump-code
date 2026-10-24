@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "prepared_at": "2026-10-24T05:45:48Z",
+  "prepared_at": "2026-10-24T11:45:29Z",
   "status": "PENDING",
   "today_posts": {
     "count": 10,
@@ -360,18 +360,6 @@
       {
         "features": [
           "is_friday",
-          "kw_thank_you_for_your_attention",
-          "kw_tariffs_2plus",
-          "kw_tariff"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 100.0,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "is_friday",
           "kw_tariffs_2plus"
         ],
         "direction": "LONG",
@@ -381,13 +369,22 @@
       },
       {
         "features": [
-          "kw_energy",
-          "is_friday",
+          "kw_signed",
+          "kw_tariffs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 92.3,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
+          "kw_interest_rate",
           "kw_economy"
         ],
         "direction": "LONG",
-        "hold": 1,
-        "score": 90.9,
+        "hold": 3,
+        "score": 90.0,
         "origin": "crossover"
       }
     ]

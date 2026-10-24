@@ -1,7 +1,7 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-10-24T05:45:48Z",
+    "last_evolution": "2026-10-24T11:45:29Z",
     "evolved_rules_added": 48
   },
   "rules": [
@@ -14447,7 +14447,12 @@
       "parents": [
         "excl_heavy+kw_tariffs_2plus",
         "is_friday+kw_corrupt"
-      ]
+      ],
+      "learn_stats": {
+        "correct": 0,
+        "wrong": 0,
+        "streak": 0
+      }
     },
     {
       "features": [
