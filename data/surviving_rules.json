@@ -1,8 +1,8 @@
 {
   "meta": {
     "total_surviving": 600,
-    "last_evolution": "2026-10-23T20:45:37Z",
-    "evolved_rules_added": 47
+    "last_evolution": "2026-10-24T05:45:48Z",
+    "evolved_rules_added": 48
   },
   "rules": [
     {
@@ -14425,6 +14425,32 @@
     },
     {
       "features": [
+        "is_friday",
+        "kw_thank_you_for_your_attention",
+        "kw_tariffs_2plus",
+        "kw_tariff"
+      ],
+      "direction": "LONG",
+      "hold": 3,
+      "id": "a96dccbfb047",
+      "n_cond": 4,
+      "train_trades": 5,
+      "train_win_rate": 100.0,
+      "train_avg": 1.734,
+      "test_trades": 3,
+      "test_win_rate": 100.0,
+      "test_avg": 0.772,
+      "combined_score": 100.0,
+      "origin": "crossover",
+      "born_date": "2026-10-24",
+      "weight": 1.0,
+      "parents": [
+        "excl_heavy+kw_tariffs_2plus",
+        "is_friday+kw_corrupt"
+      ]
+    },
+    {
+      "features": [
         "kw_maga",
         "open_ukraine"
       ],
@@ -14860,36 +14886,6 @@
       }
     },
     {
-      "features": [
-        "volume_falling_3d",
-        "kw_thank_you_for_your_attention",
-        "kw_deal"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "id": "22c7c4eae44d",
-      "n_cond": 3,
-      "train_trades": 9,
-      "train_win_rate": 88.9,
-      "train_avg": 1.046,
-      "test_trades": 6,
-      "test_win_rate": 100.0,
-      "test_avg": 0.872,
-      "combined_score": 94.4,
-      "origin": "crossover",
-      "born_date": "2026-05-11",
-      "weight": 1.0,
-      "parents": [
-        "kw_deal+kw_inflation",
-        "kw_thank_you_for_your_attention+open_tariffs"
-      ],
-      "learn_stats": {
-        "correct": 0,
-        "wrong": 0,
-        "streak": 0
-      }
-    },
-    {
       "id": "INVERSE_TARIFF_LONG",
       "features": [
         "kw_tariff"
@@ -14899,7 +14895,7 @@
       "origin": "inverse_from_failure",
       "original_error_rate": 70.0,
       "weight": 1.2,
-      "born_date": "2026-10-23",
+      "born_date": "2026-10-24",
       "combined_score": 70.0
     }
   ]
