@@ -1,19 +1,16 @@
 {
   "date": "2026-10-24",
-  "generated_at": "2026-10-24T11:45:26Z",
-  "posts_today": 10,
+  "generated_at": "2026-10-24T20:45:33Z",
+  "posts_today": 14,
   "latest_post": {
-    "time": "2026-10-23T18:09",
-    "content_preview": "The Power of Naming: How Trump Uses Names to Reaffirm American Identity: https://stonezone.com/the-p"
+    "time": "2026-10-24T18:19",
+    "content_preview": "https://www.youtube.com/live/9eW9_If62pc?si=71CRiZtnDnyw5eK3"
   },
-  "signals_detected": [
-    "DEAL",
-    "DEAL_ONLY"
-  ],
-  "models_triggered": 41,
+  "signals_detected": [],
+  "models_triggered": 6,
   "direction_summary": {
-    "LONG": 40,
-    "SHORT": 1,
+    "LONG": 6,
+    "SHORT": 0,
     "consensus": "BULLISH"
   },
   "historical_hit_rate": {
@@ -26,212 +23,15 @@
     "close": 7663.43
   },
   "summary": {
-    "en": "Trump Code Daily Report -- 2026-10-24\nPosts today: 10 | Models triggered: 41\nSignals: DEAL, DEAL_ONLY\nConsensus: 40 LONG vs 1 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: The Power of Naming: How Trump Uses Names to Reaffirm American Identity: https://stonezone.com/the-p",
-    "zh": "川普密碼每日報告 -- 2026-10-24\n今日推文: 10 篇 | 觸發模型: 41 組\n偵測信號: Deal, 只有Deal沒有關稅\n共識方向: 40 組看多 vs 1 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: The Power of Naming: How Trump Uses Names to Reaffirm American Identity: https://stonezone.com/the-p",
-    "ja": "トランプ・コード日次レポート -- 2026-10-24\n本日の投稿: 10件 | トリガーモデル: 41組\n検出シグナル: ディール, Dealのみ（関税無し）\nコンセンサス: 40組ロング vs 1組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: The Power of Naming: How Trump Uses Names to Reaffirm American Identity: https://stonezone.com/the-p"
+    "en": "Trump Code Daily Report -- 2026-10-24\nPosts today: 14 | Models triggered: 6\nSignals: None\nConsensus: 6 LONG vs 0 SHORT\nHistorical hit rate: 17.3% (27/156)\nLatest post: https://www.youtube.com/live/9eW9_If62pc?si=71CRiZtnDnyw5eK3",
+    "zh": "川普密碼每日報告 -- 2026-10-24\n今日推文: 14 篇 | 觸發模型: 6 組\n偵測信號: 無\n共識方向: 6 組看多 vs 0 組看空\n歷史命中率: 17.3% (27/156)\n最新推文: https://www.youtube.com/live/9eW9_If62pc?si=71CRiZtnDnyw5eK3",
+    "ja": "トランプ・コード日次レポート -- 2026-10-24\n本日の投稿: 14件 | トリガーモデル: 6組\n検出シグナル: なし\nコンセンサス: 6組ロング vs 0組ショート\n過去の的中率: 17.3% (27/156)\n最新投稿: https://www.youtube.com/live/9eW9_If62pc?si=71CRiZtnDnyw5eK3"
   },
   "triggered_rules_sample": [
     {
       "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect",
-        "kw_thank_you_for_your_attention"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_europe",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_economy",
-        "kw_interest_rate",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "excl_heavy",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal",
-        "kw_perfect"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_interest_rate",
-        "questions_yes"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_economy",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_china",
-        "kw_economy"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_economy",
-        "open_china"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_tariffs_2plus",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_beautiful",
-        "kw_interest_rate"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_economy",
-        "open_tariffs"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
+        "open_dow",
         "open_trade",
-        "open_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_beautiful",
-        "kw_interest_rate",
-        "kw_tremendous"
-      ],
-      "direction": "LONG",
-      "hold": 2,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "kw_deal_2plus",
-        "kw_dow_2plus",
-        "kw_jobs"
-      ],
-      "direction": "LONG",
-      "hold": 3,
-      "train_wr": 100.0,
-      "test_wr": 100.0
-    },
-    {
-      "features": [
-        "is_friday",
-        "kw_tariffs_2plus",
         "questions_yes"
       ],
       "direction": "LONG",
@@ -241,9 +41,52 @@
     },
     {
       "features": [
-        "is_friday",
-        "kw_beautiful",
-        "kw_corrupt"
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "posts_11_20"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "open_dow",
+        "open_interest_rate"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_perfect",
+        "kw_thank_you_for_your_attention",
+        "questions_yes"
+      ],
+      "direction": "LONG",
+      "hold": 2,
+      "train_wr": 100.0,
+      "test_wr": 100.0
+    },
+    {
+      "features": [
+        "kw_dow_2plus",
+        "kw_interest_rate",
+        "questions_yes"
       ],
       "direction": "LONG",
       "hold": 2,

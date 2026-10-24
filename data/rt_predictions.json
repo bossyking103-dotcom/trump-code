@@ -27194,6 +27194,231 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
+    "status": "EXPIRED"
+  },
+  {
+    "id": "rt_1792846417",
+    "created_at": "2026-10-24T12:53:37Z",
+    "post_time": "2026-10-24T12:48:10.427Z",
+    "post_preview": "Early Voting, in-person, is UNDERWAY NOW in the Great State of Michigan. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to V",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "111942122401799232771256615199",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.38
+      },
+      {
+        "token_id": "108073926447806449677230562500",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.62
+      },
+      {
+        "token_id": "860223640033086932913873630096",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.575
+      },
+      {
+        "token_id": "873644438056123531049469846203",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.425
+      },
+      {
+        "token_id": "153751277709465147722510888790",
+        "question": "Will Trump say \"Border\" 22+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.485
+      }
+    ],
+    "pm_price_at_signal": 0.38,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.68,
+    "trump_coin_24h_change": -5.79,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792846417",
+    "created_at": "2026-10-24T12:53:37Z",
+    "post_time": "2026-10-24T12:47:08.196Z",
+    "post_preview": "🚨 FLORIDA! Early Voting, in-person, is UNDERWAY NOW in the Great State of Florida. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "111942122401799232771256615199",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.38
+      },
+      {
+        "token_id": "108073926447806449677230562500",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.62
+      },
+      {
+        "token_id": "860223640033086932913873630096",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.575
+      },
+      {
+        "token_id": "873644438056123531049469846203",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.425
+      },
+      {
+        "token_id": "153751277709465147722510888790",
+        "question": "Will Trump say \"Border\" 22+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.485
+      }
+    ],
+    "pm_price_at_signal": 0.38,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.68,
+    "trump_coin_24h_change": -5.79,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792850672",
+    "created_at": "2026-10-24T14:04:32Z",
+    "post_time": "2026-10-24T13:56:26.326Z",
+    "post_preview": "🚨 NEW JERSEY! Early Voting, in-person, is UNDERWAY NOW in the Great State of New Jersey. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyo",
+    "signals": [
+      {
+        "type": "ACTION",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "immediately"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "ACTION"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "111942122401799232771256615199",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.37
+      },
+      {
+        "token_id": "108073926447806449677230562500",
+        "question": "Will Trump say \"Tax\" 33+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.63
+      },
+      {
+        "token_id": "860223640033086932913873630096",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.58
+      },
+      {
+        "token_id": "873644438056123531049469846203",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.42
+      },
+      {
+        "token_id": "153751277709465147722510888790",
+        "question": "Will Trump say \"Border\" 22+ times during his Midterm Rally in Georgia?",
+        "price_at_signal": 0.475
+      }
+    ],
+    "pm_price_at_signal": 0.37,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.67,
+    "trump_coin_24h_change": -7.26,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
     "status": "LIVE"
   }
 ]
