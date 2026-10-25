@@ -1,12 +1,12 @@
 {
   "date": "2026-10-25",
-  "prepared_at": "2026-10-25T06:46:06Z",
+  "prepared_at": "2026-10-25T10:15:03Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 5,
-    "latest": "Obama was a grossly incompetent President! He paid off Iran with $Billions, and gave them a road to a Nuclear Weapon. He said that Crooked Hillary Clinton was going to WIN, he campaigned hard for her,",
+    "count": 6,
+    "latest": "Rob Carson's WHAT IN THE WORLD, on NEWSMAX, is very cool. A certain street smarts quality about it! Keep pushing Rob! President DJT",
     "earliest_time": "2026-10-25T02:02:00.000Z",
-    "latest_time": "2026-10-25T04:42:43.274Z",
+    "latest_time": "2026-10-25T06:02:05.501Z",
     "sample": [
       {
         "time": "02:02",
@@ -27,6 +27,10 @@
       {
         "time": "04:42",
         "text": "Obama was a grossly incompetent President! He paid off Iran with $Billions, and gave them a road to a Nuclear Weapon. He said that Crooked Hillary Clinton was going to WIN, he campaigned hard for her, and she lost in all directions and ways. He then campaigned full out for Kamala, and likewise, she "
+      },
+      {
+        "time": "06:02",
+        "text": "Rob Carson's WHAT IN THE WORLD, on NEWSMAX, is very cool. A certain street smarts quality about it! Keep pushing Rob! President DJT"
       }
     ]
   },
@@ -34,8 +38,8 @@
     "IRAN"
   ],
   "today_features": {
-    "posts_1_5": true,
-    "avg_len_very_long": true,
+    "posts_6_10": true,
+    "avg_len_long": true,
     "caps_medium": true,
     "excl_heavy": true,
     "questions_no": true,
@@ -69,6 +73,8 @@
     "kw_kamala": true,
     "pre_kamala": true,
     "kw_president_djt": true,
+    "kw_president_djt_2plus": true,
+    "pre_president_djt": true,
     "kw_never_let_you_down": true,
     "pre_never_let_you_down": true,
     "is_weekend": true,
@@ -251,24 +257,23 @@
       },
       {
         "features": [
-          "open_jobs",
-          "kw_economy",
-          "kw_thank_you_for_your_attention"
+          "kw_thank_you_for_your_attention",
+          "open_china"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 92.9,
-        "origin": "crossover"
+        "hold": 2,
+        "score": 90.9,
+        "origin": "mutation_remove"
       },
       {
         "features": [
-          "open_china",
+          "kw_interest_rate",
           "kw_economy"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 90.0,
-        "origin": "mutation_remove"
+        "origin": "distilled"
       }
     ]
   },
