@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "prepared_at": "2026-10-25T10:20:35Z",
+  "prepared_at": "2026-10-25T10:21:09Z",
   "status": "PENDING",
   "today_posts": {
     "count": 6,
@@ -240,32 +240,30 @@
   "evolution_latest": {
     "date": "2026-10-25",
     "crossover": 16,
-    "mutation": 16,
+    "mutation": 14,
     "distill": 16,
-    "total_new": 48,
+    "total_new": 46,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "open_energy",
-          "kw_thank_you_for_your_attention",
-          "kw_energy"
-        ],
-        "direction": "LONG",
-        "hold": 1,
-        "score": 94.1,
-        "origin": "crossover"
-      },
-      {
-        "features": [
-          "kw_tremendous",
-          "kw_tariff",
+          "kw_tariffs_2plus",
           "is_friday"
         ],
         "direction": "LONG",
         "hold": 3,
         "score": 93.8,
         "origin": "crossover"
+      },
+      {
+        "features": [
+          "volume_falling_3d",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 93.8,
+        "origin": "mutation_remove"
       },
       {
         "features": [
