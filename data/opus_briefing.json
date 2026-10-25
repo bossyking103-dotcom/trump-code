@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "prepared_at": "2026-10-25T10:15:03Z",
+  "prepared_at": "2026-10-25T10:15:51Z",
   "status": "PENDING",
   "today_posts": {
     "count": 6,
@@ -247,6 +247,16 @@
     "top_3": [
       {
         "features": [
+          "volume_falling_3d",
+          "open_thank_you_for_your_attention"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "score": 93.8,
+        "origin": "mutation_remove"
+      },
+      {
+        "features": [
           "is_friday",
           "kw_tariffs_2plus"
         ],
@@ -257,23 +267,13 @@
       },
       {
         "features": [
-          "kw_thank_you_for_your_attention",
-          "open_china"
+          "open_china",
+          "kw_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
         "score": 90.9,
         "origin": "mutation_remove"
-      },
-      {
-        "features": [
-          "kw_interest_rate",
-          "kw_economy"
-        ],
-        "direction": "LONG",
-        "hold": 3,
-        "score": 90.0,
-        "origin": "distilled"
       }
     ]
   },
