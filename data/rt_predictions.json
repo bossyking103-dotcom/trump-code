@@ -27269,7 +27269,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792846417",
@@ -27344,7 +27344,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792850672",
@@ -27419,7 +27419,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792898887",
@@ -27575,6 +27575,81 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.68,
     "trump_coin_24h_change": -1.73,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792949785",
+    "created_at": "2026-10-25T17:36:25Z",
+    "post_time": "2026-10-25T17:29:30.164Z",
+    "post_preview": "Heading to Michigan to fight a Jihadist Member of the Muslim Brotherhood — A man who should never be allowed inside the Halls of our Great and Beautiful Capital Building, in Washington, D.C. Everythin",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "jobs"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0485
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9515
+      },
+      {
+        "token_id": "516162325567819335283998515633",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.0235
+      },
+      {
+        "token_id": "572162725645295484646864636912",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.9765
+      },
+      {
+        "token_id": "872705193332186569961205866097",
+        "question": "Will Trump and Putin meet next in Belarus?",
+        "price_at_signal": 0.0015
+      }
+    ],
+    "pm_price_at_signal": 0.0485,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.67,
+    "trump_coin_24h_change": 1.25,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,

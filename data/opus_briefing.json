@@ -1,12 +1,12 @@
 {
   "date": "2026-10-25",
-  "prepared_at": "2026-10-25T12:45:16Z",
+  "prepared_at": "2026-10-25T18:45:15Z",
   "status": "PENDING",
   "today_posts": {
-    "count": 6,
-    "latest": "Rob Carson's WHAT IN THE WORLD, on NEWSMAX, is very cool. A certain street smarts quality about it! Keep pushing Rob! President DJT",
+    "count": 10,
+    "latest": "Heading to Michigan to fight a Jihadist Member of the Muslim Brotherhood — A man who should never be allowed inside the Halls of our Great and Beautiful Capital Building, in Washington, D.C. Everythin",
     "earliest_time": "2026-10-25T02:02:00.000Z",
-    "latest_time": "2026-10-25T06:02:05.501Z",
+    "latest_time": "2026-10-25T17:29:30.164Z",
     "sample": [
       {
         "time": "02:02",
@@ -31,6 +31,22 @@
       {
         "time": "06:02",
         "text": "Rob Carson's WHAT IN THE WORLD, on NEWSMAX, is very cool. A certain street smarts quality about it! Keep pushing Rob! President DJT"
+      },
+      {
+        "time": "13:22",
+        "text": "Conservative Party wins in British Columbia for first time in almost 100 years: https://justthenews.com/world/canada/conservative-party-wins-british-columbia-first-time-almost-100-years"
+      },
+      {
+        "time": "15:50",
+        "text": "https://www.youtube.com/live/tVCs0-N4XiY?si=qvAuIZc2WDP8MCEL"
+      },
+      {
+        "time": "16:49",
+        "text": "FoxNews is spending far too much time putting on the OPPONENTS of Republican Party Candidates, people that love our Country, and have Great Policies and Ideas. These American Patriots are being absolutely \"blurred out\" by the Media, and Fox is doing little to help. That's the only reason this Race i"
+      },
+      {
+        "time": "17:29",
+        "text": "Heading to Michigan to fight a Jihadist Member of the Muslim Brotherhood — A man who should never be allowed inside the Halls of our Great and Beautiful Capital Building, in Washington, D.C. Everything he stands for is bad for our Country, which is now the \"HOTTEST,\" by far, anywhere in the World! B"
       }
     ]
   },
@@ -42,22 +58,29 @@
     "avg_len_long": true,
     "caps_medium": true,
     "excl_heavy": true,
-    "questions_no": true,
     "has_night": true,
     "heavy_night": true,
+    "kw_canada": true,
+    "pre_canada": true,
     "kw_iran": true,
     "pre_iran": true,
     "kw_dow": true,
     "kw_dow_2plus": true,
     "pre_dow": true,
+    "open_dow": true,
     "kw_jobs": true,
+    "kw_jobs_2plus": true,
     "pre_jobs": true,
+    "open_jobs": true,
     "kw_billion": true,
     "kw_billion_2plus": true,
     "pre_billion": true,
     "kw_great": true,
     "kw_great_2plus": true,
+    "open_great": true,
     "kw_historic": true,
+    "kw_beautiful": true,
+    "open_beautiful": true,
     "kw_fake": true,
     "pre_fake": true,
     "kw_corrupt": true,
@@ -81,8 +104,8 @@
     "volume_drop": true
   },
   "triggered_rules": {
-    "total": 3,
-    "long": 3,
+    "total": 7,
+    "long": 7,
     "short": 0,
     "sample": [
       {
@@ -91,6 +114,19 @@
           "kw_deal_2plus",
           "kw_dow_2plus",
           "kw_jobs"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0013",
+        "features": [
+          "kw_dow_2plus",
+          "open_jobs",
+          "open_thank_you_for_your_attention"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -112,10 +148,49 @@
         "score": 100.0
       },
       {
+        "id": "R0039",
+        "features": [
+          "is_friday",
+          "kw_beautiful",
+          "kw_corrupt"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
         "id": "R0046",
         "features": [
           "kw_dow_2plus",
           "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0050",
+        "features": [
+          "kw_dow_2plus",
+          "open_dow",
+          "open_interest_rate"
+        ],
+        "direction": "LONG",
+        "hold": 2,
+        "train_wr": 100.0,
+        "test_wr": 100.0,
+        "score": 100.0
+      },
+      {
+        "id": "R0091",
+        "features": [
+          "is_friday",
+          "kw_beautiful",
+          "open_jobs"
         ],
         "direction": "LONG",
         "hold": 2,
@@ -240,19 +315,20 @@
   "evolution_latest": {
     "date": "2026-10-25",
     "crossover": 16,
-    "mutation": 9,
+    "mutation": 16,
     "distill": 16,
-    "total_new": 41,
+    "total_new": 48,
     "total_rules_after": 600,
     "top_3": [
       {
         "features": [
-          "kw_tariffs_2plus",
-          "is_friday"
+          "kw_dow_2plus",
+          "open_thank_you_for_your_attention",
+          "kw_president_of_the_united_states"
         ],
         "direction": "LONG",
-        "hold": 3,
-        "score": 93.8,
+        "hold": 2,
+        "score": 100.0,
         "origin": "crossover"
       },
       {
@@ -267,9 +343,8 @@
       },
       {
         "features": [
-          "kw_economy",
-          "kw_interest_rate",
-          "kw_thank_you_for_your_attention"
+          "open_russia",
+          "open_china"
         ],
         "direction": "LONG",
         "hold": 2,
