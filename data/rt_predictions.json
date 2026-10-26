@@ -27494,7 +27494,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792904068",
@@ -27578,7 +27578,7 @@
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
-    "status": "LIVE"
+    "status": "EXPIRED"
   },
   {
     "id": "rt_1792949785",
@@ -27650,6 +27650,381 @@
     "divergence_detail": null,
     "trump_coin_at_signal": 1.67,
     "trump_coin_24h_change": 1.25,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792969274",
+    "created_at": "2026-10-25T23:01:14Z",
+    "post_time": "2026-10-25T22:58:09.165Z",
+    "post_preview": "RT: https://truthsocial.com/users/realDonaldTrump/statuses/117462449149582042To the people of Israel, to those who haven't seen it, I am attaching the Endorsement I gave one week ago to your Prime Min",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "block"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.054
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.946
+      },
+      {
+        "token_id": "516162325567819335283998515633",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.0235
+      },
+      {
+        "token_id": "572162725645295484646864636912",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.9765
+      },
+      {
+        "token_id": "505596654074982529226774394694",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during his Midterm Rally in Michigan?",
+        "price_at_signal": 0.005
+      }
+    ],
+    "pm_price_at_signal": 0.054,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.65,
+    "trump_coin_24h_change": -1.12,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792974453",
+    "created_at": "2026-10-26T00:27:33Z",
+    "post_time": "2026-10-26T00:00:09.581Z",
+    "post_preview": "Let's talk about this COMPLETE AND TOTAL LOSER, Bill Maher. He's got a Low Rated Show on equally Low Rated HBO, which was once, long ago, a Network of Quality and Excitement — But that's all gone. It'",
+    "signals": [
+      {
+        "type": "BULLISH",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "record high"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "BULLISH"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.75,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.05
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.95
+      },
+      {
+        "token_id": "516162325567819335283998515633",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.0245
+      },
+      {
+        "token_id": "572162725645295484646864636912",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.9755
+      },
+      {
+        "token_id": "505596654074982529226774394694",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during his Midterm Rally in Michigan?",
+        "price_at_signal": 0.005
+      }
+    ],
+    "pm_price_at_signal": 0.05,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.66,
+    "trump_coin_24h_change": -1.71,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792974453",
+    "created_at": "2026-10-26T00:27:33Z",
+    "post_time": "2026-10-25T23:58:56.713Z",
+    "post_preview": "I am proud to announce the NEWEST FLAGSHIP NATIONAL PARK in the Country, CHIRICAHUA NATIONAL PARK in ARIZONA! In my First Term, I signed the GREAT American Outdoors Act, one of the LARGEST Investments",
+    "signals": [
+      {
+        "type": "DEAL",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "signed"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "DEAL"
+    ],
+    "predicted_direction": "UP",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.05
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.95
+      },
+      {
+        "token_id": "516162325567819335283998515633",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.0245
+      },
+      {
+        "token_id": "572162725645295484646864636912",
+        "question": "Will Trump acquire Greenland before 2027?",
+        "price_at_signal": 0.9755
+      },
+      {
+        "token_id": "505596654074982529226774394694",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during his Midterm Rally in Michigan?",
+        "price_at_signal": 0.005
+      }
+    ],
+    "pm_price_at_signal": 0.05,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.66,
+    "trump_coin_24h_change": -1.71,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792982166",
+    "created_at": "2026-10-26T02:36:06Z",
+    "post_time": "2026-10-26T02:31:12.622Z",
+    "post_preview": "NY plans to drop part of Native American logo ban in 'huge victory' for Massapequa: https://nypost.com/2026/10/19/us-news/nys-dropping-part-of-native-american-logo-ban-in-huge-victory-for-massapequa/",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "ban"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0525
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9475
+      },
+      {
+        "token_id": "505596654074982529226774394694",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during his Midterm Rally in Michigan?",
+        "price_at_signal": 0.005
+      },
+      {
+        "token_id": "310200001738521050083418108160",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during his Midterm Rally in Michigan?",
+        "price_at_signal": 0.995
+      },
+      {
+        "token_id": "238190844011369408748669042766",
+        "question": "Will Trump say \"Biden\" or \"Kamala\" or \"Obama\" 15+ times during his Midterm Rally in Michigan?",
+        "price_at_signal": 0.0095
+      }
+    ],
+    "pm_price_at_signal": 0.0525,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.63,
+    "trump_coin_24h_change": -3.1,
+    "trump_coin_verify_1h": null,
+    "trump_coin_verify_3h": null,
+    "trump_coin_verify_6h": null,
+    "status": "LIVE"
+  },
+  {
+    "id": "rt_1792982166",
+    "created_at": "2026-10-26T02:36:06Z",
+    "post_time": "2026-10-26T02:28:40.688Z",
+    "post_preview": "Iran Oil Minister Resigns Amid US Blockade; Hamid Bovard Takes Interim Charge: https://openthemagazine.com/world/iran-oil-minister-resigns-amid-us-blockade-hamid-bovard-takes-interim-charge",
+    "signals": [
+      {
+        "type": "THREAT",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "block"
+        ],
+        "method": "keyword"
+      }
+    ],
+    "signal_types": [
+      "THREAT"
+    ],
+    "predicted_direction": "DOWN",
+    "confidence": 0.65,
+    "tracked_markets": [
+      {
+        "token_id": "592525157356526747471589502100",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.0525
+      },
+      {
+        "token_id": "284982737259007215138008893023",
+        "question": "Trump out as President before 2027?",
+        "price_at_signal": 0.9475
+      },
+      {
+        "token_id": "505596654074982529226774394694",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during his Midterm Rally in Michigan?",
+        "price_at_signal": 0.005
+      },
+      {
+        "token_id": "310200001738521050083418108160",
+        "question": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 30+ times during his Midterm Rally in Michigan?",
+        "price_at_signal": 0.995
+      },
+      {
+        "token_id": "238190844011369408748669042766",
+        "question": "Will Trump say \"Biden\" or \"Kamala\" or \"Obama\" 15+ times during his Midterm Rally in Michigan?",
+        "price_at_signal": 0.0095
+      }
+    ],
+    "pm_price_at_signal": 0.0525,
+    "pm_verify_1h": null,
+    "pm_verify_3h": null,
+    "pm_verify_6h": null,
+    "pm_verify_12h": null,
+    "pm_verify_24h": null,
+    "pm_verify_48h": null,
+    "pm_correct_1h": null,
+    "pm_correct_3h": null,
+    "spy_at_signal": null,
+    "es_at_signal": null,
+    "spy_change_at_signal": null,
+    "spy_verify_1h": null,
+    "spy_verify_3h": null,
+    "spy_verify_12h": null,
+    "spy_verify_24h": null,
+    "spy_verify_48h": null,
+    "spy_correct_1h": null,
+    "spy_correct_3h": null,
+    "pm_vs_stock_divergence": null,
+    "divergence_detail": null,
+    "trump_coin_at_signal": 1.63,
+    "trump_coin_24h_change": -3.1,
     "trump_coin_verify_1h": null,
     "trump_coin_verify_3h": null,
     "trump_coin_verify_6h": null,
